@@ -32,7 +32,7 @@ Source :
 *	Bénéficier de plusieurs résolutions de bugs.
 
 Les statistiques ne sont disponibles pour le moment que sur les Kepubs (les livres achetés chez Kobo) et je dois dire que j'aime assez. Cela donne cet affichage (en cliquant sur le lien avec le pourcentage d'avancement dans le livre) : 
-{{ :blog:kobo-statistics.jpg?200 |}}
+![Image](/blog/kobo-statistics.jpg)
 
 Cela permet donc d'avoir :
 
