@@ -26,3 +26,4 @@ $config['site_title'] = 'Technology and Me';*
 $config['theme'] = 'pure';
 $config['pages_order_by'] = 'date';
 $config['pages_order'] = 'desc';
+$config['base_url'] = 'http://blog2.slucas.fr';
