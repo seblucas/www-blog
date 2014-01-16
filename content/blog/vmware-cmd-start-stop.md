@@ -24,9 +24,9 @@ J'ai trouvé l'inspiration sur ce site http://www.cyberciti.biz/tips/start-stop-
 
 ### Explications
 
-*  url : https://NomServeur:8333/sdk
+*	url : https://NomServeur:8333/sdk
 
-*  LienVersLeFichierVMX : à trouver dans l'interface Web, en cliquant dans configure VM et reprendre le Virtual Machine Configuration File.
+*	LienVersLeFichierVMX : à trouver dans l'interface Web, en cliquant dans configure VM et reprendre le Virtual Machine Configuration File.
 
 
 

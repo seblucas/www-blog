@@ -21,22 +21,22 @@ Le --without-recommends permet d'installer les outils dans le driver X (inutile 
 Personnellement, j'ai utilisé un VMWare Player récent sous Linux. Le fichier linux.iso est trouvable dans le répertoire suivant /usr/share/vmware/isoimages si il n'existe pas il suffit de créer une nouvelle machine virtuelle debian par exemple et il va le télécharger automatiquement.
 ## Installation
 
-*  Faire pointer le lecteur CD virtuel de la machine virtuelle vers linux.iso
+*	Faire pointer le lecteur CD virtuel de la machine virtuelle vers linux.iso
 
-*  Monter le cd dans la machine virtuelle
+*	Monter le cd dans la machine virtuelle
 
-*  Décompresser l'archive
+*	Décompresser l'archive
 
 	
 	tar xvzf /media/cdrom/VMwareTools-8.4.3-282343.tar.gz -C .
 
 
-*  lancer l'installation
+*	lancer l'installation
 
 	
 	cd vmware-tools-distrib/
 	./vmware-install.pl
 
 
-*  Voila c'est fini
+*	Voila c'est fini
 
