@@ -16,7 +16,7 @@ Pour quitter le jeu une fois celui ci lancé il faut utiliser le bouton Home (le
 
 ## Comment mettre à jour le firmware de son Kobo eReader Touch (ou Kobo by Fnac) ?
 
-C'est vrai que dans la page de trucs et astuces (voir [Kobo eReader Touch : trucs et astuces d'origine diverse](blog/kobo-ereader-touch-5)) je ne parle que de l'installation d'un firmware manuellement. L'installation se fait donc soit :
+C'est vrai que dans la page de trucs et astuces (voir [Kobo eReader Touch : trucs et astuces d'origine diverse](/blog/kobo-ereader-touch-5)) je ne parle que de l'installation d'un firmware manuellement. L'installation se fait donc soit :
 
 *	Via une synchronisation Wifi (cliquer sur le petit nuage sur la liseuse).
 

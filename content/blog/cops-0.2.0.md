@@ -9,9 +9,9 @@ Robots: noindex,nofollow
 
 Malgré le peu de bonnes nouvelles autour du firmware 2.0.0 de la Kobo, il y en a quand même une excellente : Le navigateur marche beaucoup mieux. Suite à cela j'ai passé une partie de mon samedi à tester tout et pour moi le catalogue HTML est totalement utilisable sur la Kobo (c'était déjà le cas sur un PC normal) : 
 
-*	[Voici COPS : Calibre OPDS PHP Serveur](fr/oss/calibre-opds-php-server)
+*	[Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
 
-*	[Liste des changements](fr/oss/calibre-opds-php-server-changelog)
+*	[Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
 
 J'ai fait très peu de modification et donc j'ai assez confiance sur la qualité de la version (je croise les doigts).
 

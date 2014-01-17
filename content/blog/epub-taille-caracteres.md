@@ -51,7 +51,7 @@ CQFD
 J'ai donc juste modifié la taille de police spécifié dans la classe du body et mon problème est résolu.
 ## Autres problèmes : même explication
 
-Dans les trucs et astuces liées à la Kobo ([Kobo eReader Touch : trucs et astuces d'origine diverse](blog/kobo-ereader-touch-5)), j'ai indiqué que si les marges n'étaient pas modifiables il fallait modifier l'epub via Calibre : cela revient à simplifier la feuille de style.
+Dans les trucs et astuces liées à la Kobo ([Kobo eReader Touch : trucs et astuces d'origine diverse](/blog/kobo-ereader-touch-5)), j'ai indiqué que si les marges n'étaient pas modifiables il fallait modifier l'epub via Calibre : cela revient à simplifier la feuille de style.
 
 Dans mon livre 2, les interlignes ne sont pas modifiables : c'est lié à une instruction line-height dans la feuille de style.
 

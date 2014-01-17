@@ -40,14 +40,14 @@ J'ai vu des différences (dans le bon sens) mais je dois préciser que comme je 
 EDIT : pour répondre à Loendi, les fichiers relatifs au dictionnaire ne sont pas cryptés il sont compressés en gzip. il faut donc les décompresser avec gunzip sous Linux ou 7-zip sous Windows. Une fois décompressés ce sont des fichiers HTML organisés mot par mot par exemple : 
 
 	
-	`<w>`
-	`<p>`
-	`<a name="At"/>`
-	`<b>`At`</b>`&nbsp;[ate]`<br>`
-	`<br>`
-	`<ol>``<li>`Symbole chimique de l`<renvoi id="R218705-1" role="RESEAU">`astate`</renvoi>`.`</li>``</ol>``<br>`de (source&nbsp;`<b>``<b>`a`</b>`s`<b>`t`</b>`ate`</b>`)
-	`</p>`
-	`</w>`
+	<w>
+	<p>
+	<a name="At"/>
+	<b>At</b>&nbsp;[ate]<br>
+	<br>
+	<ol><li>Symbole chimique de l'<renvoi id="R218705-1" role="RESEAU">astate</renvoi>.</li></ol><br>de (source&nbsp;<b><b>a</b>s<b>t</b>ate</b>)
+	</p>
+	</w>
 
 
 Je ne pense que ce soit un format standard mais je ne m'y connais pas beaucoup.

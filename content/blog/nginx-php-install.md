@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # Installation de nginx sous Debian
 
 ## Pourquoi nginx
-Mon objectif était de transformer un Dockstar en serveur Web, vu les capacités de la bête ([Hardware Seagate Dockstar](blog/dockstar-install-squeeze)), j'ai voulu un serveur Web super léger. Après pas mal de lecture je suis tombé sur les alternatives suivantes :
+Mon objectif était de transformer un Dockstar en serveur Web, vu les capacités de la bête ([Hardware Seagate Dockstar](/blog/dockstar-install-squeeze)), j'ai voulu un serveur Web super léger. Après pas mal de lecture je suis tombé sur les alternatives suivantes :
 
 *	[Lighttpd](http://www.lighttpd.net/)
     * Avantage : Outil reconnu, beaucoup de documentation.
@@ -39,7 +39,7 @@ Attention ne pas installer le paquet php car celui entraine l'installation d'apa
 ### Demon
 
 Ce démon est à créer dans /etc/init.d
-`<code bash php5-fcgi>`
+<code bash php5-fcgi>
 #!/bin/sh
 
 ### BEGIN INIT INFO
@@ -97,7 +97,7 @@ case "$1" in
   ;;
 esac
 exit $RETVAL
-`</code>`
+</code>
 Il reste ensuite à le paramétrer pour qu'il démarre automatiquement :
 
 	

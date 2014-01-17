@@ -14,7 +14,7 @@ Après de nombreux, nombreux, nombreux essais j'ai enfin trouvé une solution qu
 J'ai choisi de créer un dossier Iso sur ma clé dans lequel j'ai copié le fichier clonezilla-live-1.2.8-23-i686.iso.
 ## Modification du menu.lst
 
-Ajouter dans votre menu.lst (voir [Utiliser une clé USB pour démarrer Debian](blog/grub4dos-usb-debian)) :
+Ajouter dans votre menu.lst (voir [Utiliser une clé USB pour démarrer Debian](/blog/grub4dos-usb-debian)) :
 
 	
 	title Clonezilla 

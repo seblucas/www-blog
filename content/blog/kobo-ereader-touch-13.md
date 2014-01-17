@@ -20,7 +20,7 @@ Au final je dois être trop zen, ma liseuse me permet toujours de lire avec conf
 
 ## Plugin et Tétris sur la Kobo
 
-Comme indiqué dans mon précédent billet ([Sortie du Firmware 1.9.17 pour la Kobo touch (ou Kobo by Fnac)](blog/kobo-ereader-touch-12)) le plugin a été très vite adapté pour fonctionner avec la version 1.9.17. En parallèle une personne sur MobileRead a aussi porté python sur la Kobo et arrive à exécuter un tétris sur notre liseuse :
+Comme indiqué dans mon précédent billet ([Sortie du Firmware 1.9.17 pour la Kobo touch (ou Kobo by Fnac)](/blog/kobo-ereader-touch-12)) le plugin a été très vite adapté pour fonctionner avec la version 1.9.17. En parallèle une personne sur MobileRead a aussi porté python sur la Kobo et arrive à exécuter un tétris sur notre liseuse :
 
 *	[Voir le message du développeur](http://www.mobileread.com/forums/showpost.php?p=2010251&postcount=3)
 

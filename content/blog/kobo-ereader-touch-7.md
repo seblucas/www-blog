@@ -10,7 +10,7 @@ Robots: noindex,nofollow
 ## Pas trop d'articles en ce moment
 Et oui pas trop d'articles en ce moment essentiellement par manque de temps (des choses à faire dans la vrai vie). Néanmoins je vais essayer de faire un petit tour de ce qui s'est passé autour du Kobo ces dernières semaines.
 
-D'autre part j'ai régulièrement mis à jour l'article sur les trucs et astuces (voir [Kobo eReader Touch : trucs et astuces d'origine diverse](blog/kobo-ereader-touch-5)) avec de nouveaux et/ou des corrections sur des thèmes existants. Je trouve plus logique de tout rassembler à un endroit même si ça ne colle pas avec l'esprit blog. A terme je ferai peut être un wiki public si des personnes sont intéressées pour m'aider à le maintenir (vous pouvez me contacter si vous vous en sentez la motivation pour m'épauler).
+D'autre part j'ai régulièrement mis à jour l'article sur les trucs et astuces (voir [Kobo eReader Touch : trucs et astuces d'origine diverse](/blog/kobo-ereader-touch-5)) avec de nouveaux et/ou des corrections sur des thèmes existants. Je trouve plus logique de tout rassembler à un endroit même si ça ne colle pas avec l'esprit blog. A terme je ferai peut être un wiki public si des personnes sont intéressées pour m'aider à le maintenir (vous pouvez me contacter si vous vous en sentez la motivation pour m'épauler).
 
 ## Firmware 1.9.16
 

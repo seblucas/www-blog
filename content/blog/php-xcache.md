@@ -21,7 +21,7 @@ Tout est préparé par defaut (un petit phpinfo() permet de la confirmer), il re
 	
 	xcache.size = 16M
 
-J'ai choisi 16Mo parce que mon serveur Web a peu de RAM (voir [Dockstar](blog/dockstar-install-squeeze)).
+J'ai choisi 16Mo parce que mon serveur Web a peu de RAM (voir [Dockstar](/blog/dockstar-install-squeeze)).
 
 ## Test
 

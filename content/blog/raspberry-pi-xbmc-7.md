@@ -16,7 +16,7 @@ Vous avez certainement suivi mes déboires avec les versions récentes de Raspbm
 J'ai testé une version compilée par rbej sur le forum d'XBMC (voir [ici](http://forum.xbmc.org/showthread.php?tid=140518&pid=1278927#pid1278927)).
 ## Bilan
 
-Seul petit point noir, j'ai du utiliser une petite bidouille pour avoir le support de mon dongle Xbox (voir [How to use an Xbox remote with OpenElec on a Raspberry Pi](en/tips/raspberry-pi-openelec-xbox-dongle)).
+Seul petit point noir, j'ai du utiliser une petite bidouille pour avoir le support de mon dongle Xbox (voir [How to use an Xbox remote with OpenElec on a Raspberry Pi](/en/tips/raspberry-pi-openelec-xbox-dongle)).
 
 A part ça, tout fonctionne bien sans aucun plantage pour le moment.
 

@@ -62,7 +62,7 @@ J'ai donc bêtement appliqué son patch et tout a fonctionné du premier coup. I
 	        }
 
 Si besoin, le patch pour le plugin tag est en dessous :
-`<code - tag.patch>`
+<code - tag.patch>
 diff -Naur -x '*.dat' dokuwiki/lib/plugins/tag/action.php slucas-wiki/lib/plugins/tag/action.php
 --- dokuwiki/lib/plugins/tag/action.php 2009-04-27 19:56:32.000000000 +0000
 +++ slucas-wiki/lib/plugins/tag/action.php      2010-09-27 20:03:39.000000000 +0000
@@ -95,7 +95,7 @@ diff -Naur -x '*.dat' dokuwiki/lib/plugins/tag/helper.php slucas-wiki/lib/plugin
 +                else $url   = wl($tag, array('do'=>'showtag', 'tag'=>$tag));
              }
              $links[] = '<a href="'.$url.'" class="'.$class.'" title="'.hsc($tag).
-                 '" rel="tag">'.hsc($title).`</a>`;
+                 '" rel="tag">'.hsc($title).'</a>';
 @@ -232,6 +233,7 @@
              if (!(($tag{0} == '+') || ($tag{0} == '-'))) continue;
              $cleaned_tag = substr($tag, 1);
@@ -105,11 +105,11 @@ diff -Naur -x '*.dat' dokuwiki/lib/plugins/tag/helper.php slucas-wiki/lib/plugin
              foreach ($pages as $key => $page) {
                  $cond = in_array($page['id'], $tagpages);
 
-`</code>`
+</code>
 ## Le plugin cloud
 
 Ce plugin (http://www.dokuwiki.org/plugin:cloud) n'était pas non plus adapté aux url propres dans les nuages de tags qu'il génère, je l'ai donc modifié de la même manière que le plugin tag.
-`<code - cloud.patch>`
+<code - cloud.patch>
 diff -Naur -x '*.dat' dokuwiki/lib/plugins/cloud/syntax.php slucas-wiki/lib/plugins/cloud/syntax.php
 --- dokuwiki/lib/plugins/cloud/syntax.php       2010-09-03 09:50:16.000000000 +0000
 +++ slucas-wiki/lib/plugins/cloud/syntax.php    2010-09-28 11:53:52.000000000 +0000
@@ -123,7 +123,7 @@ diff -Naur -x '*.dat' dokuwiki/lib/plugins/cloud/syntax.php slucas-wiki/lib/plug
                      }
                      $title = $word;
                      $class .= ($exists ? '_tag1' : '_tag2');
-`</code>`
+</code>
 
 
 

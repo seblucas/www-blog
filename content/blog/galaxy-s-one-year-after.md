@@ -39,7 +39,7 @@ Auparavant avec mes nombreux téléphones Nokia j'utilisais une oreillette bluet
 
 Nativement en 2.1 rien n'existait. Avec la 2.2, il y a moyen via la bluetooth en disant une phrase en anglais "call Marcel Durant" avec l'accent anglais. Bref pas top.
 
-Récemment je suis tombé sur [Voice Speed Dial](https///market.android.com/details?id=com.cyberon.cvsd) sur le market permettant de faire exactement le même chose que mes vieux Nokia. Je l'ai testée et l'ai adopté dans la foulée. Attention par contre à bien lever la voix pour les enregistrements des tags. A moi les joies du téléphone en voiture en toute sécurité pour 2,11 €.
+Récemment je suis tombé sur [Voice Speed Dial](/https///market.android.com/details?id=com.cyberon.cvsd) sur le market permettant de faire exactement le même chose que mes vieux Nokia. Je l'ai testée et l'ai adopté dans la foulée. Attention par contre à bien lever la voix pour les enregistrements des tags. A moi les joies du téléphone en voiture en toute sécurité pour 2,11 €.
 #### SIP
 
 Via mon abonnement Freebox j'ai accès à un compte SIP et j'ai attendu avec impatience Gingerbread pour avoir une pile SIP intégrée directement dans l'OS. La pile est bien intégrée mais malheureusement Samsung dans son infinie bonté a décidé de la désactiver ..... connerie quand tu nous tiens.
@@ -48,43 +48,43 @@ Par contre en lisant des posts sur le Net, même sur le Nexus S (donc avec la pi
 
 ## Mes applications installées
 
-*	[Bluetooth GPS](https///market.android.com/details?id=googoo.android.btgps) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:googoo.android.btgps)) : Permet de connecter un GPS bluetooth externe.
+*	[Bluetooth GPS](/https///market.android.com/details?id=googoo.android.btgps) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:googoo.android.btgps)) : Permet de connecter un GPS bluetooth externe.
 
-*	[Navigon Select](https///market.android.com/details?id=com.navigon.navigator_select) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.navigon.navigator_select)) : Outil de navigation GPS très simple mais efficace.
+*	[Navigon Select](/https///market.android.com/details?id=com.navigon.navigator_select) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.navigon.navigator_select)) : Outil de navigation GPS très simple mais efficace.
 
-*	[File Expert](https///market.android.com/details?id=xcxin.filexpert) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:xcxin.filexpert)) : Explorateur de fichier qui fait beaucoup plus : client et serveur FTP, accès au partage Samba, ...
+*	[File Expert](/https///market.android.com/details?id=xcxin.filexpert) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:xcxin.filexpert)) : Explorateur de fichier qui fait beaucoup plus : client et serveur FTP, accès au partage Samba, ...
 
-*	[GTasks](https///market.android.com/details?id=org.dayup.gtask) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:org.dayup.gtask)) : Gestionnaire de tâches synchronisé avec Google.
+*	[GTasks](/https///market.android.com/details?id=org.dayup.gtask) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:org.dayup.gtask)) : Gestionnaire de tâches synchronisé avec Google.
 
-*	[gReader](https///market.android.com/details?id=com.noinnion.android.greader.reader) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.noinnion.android.greader.reader)) : Gestionnaire de flux RSS synchronisé avec Google.
+*	[gReader](/https///market.android.com/details?id=com.noinnion.android.greader.reader) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.noinnion.android.greader.reader)) : Gestionnaire de flux RSS synchronisé avec Google.
 
-*	[CalWidget](https///market.android.com/details?id=net.eggenstein.android.calwidget) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:net.eggenstein.android.calwidget)) : Widget de calendrier très personnalisable. 
+*	[CalWidget](/https///market.android.com/details?id=net.eggenstein.android.calwidget) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:net.eggenstein.android.calwidget)) : Widget de calendrier très personnalisable. 
 
-*	[Voice Speed Dial](https///market.android.com/details?id=com.cyberon.cvsd) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.cyberon.cvsd)) : Permet de pouvoir appeler un contact en HFD avec une oreillette bluetooth.
+*	[Voice Speed Dial](/https///market.android.com/details?id=com.cyberon.cvsd) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.cyberon.cvsd)) : Permet de pouvoir appeler un contact en HFD avec une oreillette bluetooth.
 
-*	[My Tracks](https///market.android.com/details?id=com.google.android.maps.mytracks) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.google.android.maps.mytracks)) : Pratique pour les randonnées à pied ou en VTT. Moins intrusif que endomondo.
+*	[My Tracks](/https///market.android.com/details?id=com.google.android.maps.mytracks) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.google.android.maps.mytracks)) : Pratique pour les randonnées à pied ou en VTT. Moins intrusif que endomondo.
 
-*	[GPS Test](https///market.android.com/details?id=com.chartcross.gpstest) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.chartcross.gpstest)) : Permet d'avoir sa position GPS avec le nombre de satellites et la précision en m.
+*	[GPS Test](/https///market.android.com/details?id=com.chartcross.gpstest) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.chartcross.gpstest)) : Permet d'avoir sa position GPS avec le nombre de satellites et la précision en m.
 
-*	[SMS Backup +](https///market.android.com/details?id=com.zegoggles.smssync) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.zegoggles.smssync)) : Sauvegarde les SMS sur le compte GMail. Pratique pour éviter le stress dans le cas d'un changement de ROM
+*	[SMS Backup +](/https///market.android.com/details?id=com.zegoggles.smssync) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.zegoggles.smssync)) : Sauvegarde les SMS sur le compte GMail. Pratique pour éviter le stress dans le cas d'un changement de ROM
 
-*	[ClockSync](https///market.android.com/details?id=ru.org.amip.ClockSync) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:ru.org.amip.ClockSync)) : Synchronise l'horloge avec un serveur NTP (SFR ne permet pas de récupérer le temps du réseau). Nécessite les droits root.
+*	[ClockSync](/https///market.android.com/details?id=ru.org.amip.ClockSync) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:ru.org.amip.ClockSync)) : Synchronise l'horloge avec un serveur NTP (SFR ne permet pas de récupérer le temps du réseau). Nécessite les droits root.
 
-*	[Dropbox](https///market.android.com/details?id=com.dropbox.android&hl=fr) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.dropbox.android)) : Permet de synchroniser ses données dans le cloud.
+*	[Dropbox](/https///market.android.com/details?id=com.dropbox.android&hl=fr) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.dropbox.android)) : Permet de synchroniser ses données dans le cloud.
 
-*	[KeePassDroid](https///market.android.com/details?id=com.android.keepass&hl=fr) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.android.keepass)) : Gestionnaire de mot de passe sécurisé (voir [Keepass](http://keepass.info/)). Avec Dropbox je synchronise les mots de passe entre tous mes postes.
+*	[KeePassDroid](/https///market.android.com/details?id=com.android.keepass&hl=fr) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.android.keepass)) : Gestionnaire de mot de passe sécurisé (voir [Keepass](http://keepass.info/)). Avec Dropbox je synchronise les mots de passe entre tous mes postes.
 
-*	[App List Backup](https///market.android.com/details?id=com.punsoftware.backup) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.punsoftware.backup)) : Garde une liste des applications installées via le market et permet de les réinstaller facilement.
+*	[App List Backup](/https///market.android.com/details?id=com.punsoftware.backup) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.punsoftware.backup)) : Garde une liste des applications installées via le market et permet de les réinstaller facilement.
 
-*	[Titanium Backup root](https///market.android.com/details?id=com.keramidas.TitaniumBackup) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.keramidas.TitaniumBackup)) : Inutile de la présenter je pense.
+*	[Titanium Backup root](/https///market.android.com/details?id=com.keramidas.TitaniumBackup) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.keramidas.TitaniumBackup)) : Inutile de la présenter je pense.
 
-*	[Aldiko eBook Reader](https///market.android.com/details?id=com.aldiko.android&hl=fr) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.aldiko.android)) : Je suis un grand lecteur et je me suis bien habitué à la lecture sur le Galaxy S (en attendant un lecteur d'ebook e-ink à Noël).
+*	[Aldiko eBook Reader](/https///market.android.com/details?id=com.aldiko.android&hl=fr) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.aldiko.android)) : Je suis un grand lecteur et je me suis bien habitué à la lecture sur le Galaxy S (en attendant un lecteur d'ebook e-ink à Noël).
 
-*	[mVideoPlayer](https///market.android.com/details?id=afzkl.development.mVideoPlayer) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:afzkl.development.mVideoPlayer)) : Pour lire les vidéos avec les sous titres.
+*	[mVideoPlayer](/https///market.android.com/details?id=afzkl.development.mVideoPlayer) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:afzkl.development.mVideoPlayer)) : Pour lire les vidéos avec les sous titres.
 
-*	[Barcode Scanner](https///market.android.com/details?id=com.google.zxing.client.android) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.google.zxing.client.android)) : Pour scanner les codes QR.
+*	[Barcode Scanner](/https///market.android.com/details?id=com.google.zxing.client.android) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.google.zxing.client.android)) : Pour scanner les codes QR.
 
-*	[SwiftKey X](https///market.android.com/details?id=com.touchtype.swiftkey) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.touchtype.swiftkey)) : Le clavier qui me fait gagner du temps. Je ne me suis jamais habitué à Swype (le clavier Samsung).
+*	[SwiftKey X](/https///market.android.com/details?id=com.touchtype.swiftkey) ([Code QR](http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=market://search?q=pname:com.touchtype.swiftkey)) : Le clavier qui me fait gagner du temps. Je ne me suis jamais habitué à Swype (le clavier Samsung).
 
 
 

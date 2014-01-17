@@ -71,7 +71,7 @@ Cette méthode permet de pouvoir redémarrer un Linux donc le grub aurait été 
 Il faut bien sur ajouter le fichier /geexbox-2.0-alpha2-en.i386.eglibc.iso à la racine de la clé USB.
 ### Fichier complet
 
-`<code - menu.lst>`
+<code - menu.lst>
 # This is a sample menu.lst file. You should make some changes to it.
 
 # The old install method of booting via the stage-files has been removed.
@@ -138,7 +138,7 @@ reboot
 title halt
 halt
 
-`</code>`
+</code>
 
 
 

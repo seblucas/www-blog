@@ -36,14 +36,14 @@ En pratique mes dépôts sont trop anciens (portés des la version 1.2) et le sv
 
 ### Conversion
 
-`<code bash upgradeSvn16.sh>`
+<code bash upgradeSvn16.sh>
 #!/bin/bash
 
 cd svn-old
 dirList=$(find . -maxdepth 1 -type d)
 cd ..
 for directory in $dirList; do
-  if [ $directory != "." ]( $directory != "." )
+  if [ $directory != "." ](/ $directory != "." )
   then
     svnadmin create svn/$directory
     svnadmin dump svn-old/$directory | svnadmin load svn/$directory
@@ -52,7 +52,7 @@ for directory in $dirList; do
     chmod -R g+w svn/$directory
   fi
 done
-`</code>`
+</code>
 Télécharger et installer le script ci-dessus dans /var et quelques heures plus tard l'ensemble de vos dépôts sont entièrement 1.6.
 
 ## Bilan

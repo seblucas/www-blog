@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # Le cache fastcgi et Nginx et un peu de déception
 
 ## Le principe
-Comme expliqué dans les tutoriels précédents ([Installation de nginx sous Debian](blog/nginx-php-install)) Nginx fait appel au PHP via un fastcgi. donc pour schmatiser le php va renvoyer une page HTML à Nginx qui va se charger de l'envoyer au visiteur du site.
+Comme expliqué dans les tutoriels précédents ([Installation de nginx sous Debian](/blog/nginx-php-install)) Nginx fait appel au PHP via un fastcgi. donc pour schmatiser le php va renvoyer une page HTML à Nginx qui va se charger de l'envoyer au visiteur du site.
 
 Le principe du cache est que Nginx ne va appeler le fastcgi que si il n'a pas encore la version HTML dans son cache.
 ## La mise en œuvre

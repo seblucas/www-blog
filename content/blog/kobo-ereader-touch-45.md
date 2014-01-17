@@ -25,14 +25,14 @@ Cette opération n'est à faire qu'une seule fois, les paramètres sont ensuite 
 *	Connectez votre Kobo (cliquez bien sur Connecter sur la liseuse)
 
 *	Après une grosse minute l'interface de Calibre change pour faire apparaitre l’icône "Appareil"
-![Image](/blog/calibre_appareil.jpg)
+{{ :blog:calibre_appareil.jpg?80 |}}
 
 *	Cliquer le menu de l'icône "Appareil" (le petit v à droite)
 
 *	Sélectionner configurer cet appareil
 
 *	Dans l'écran de configuration cocher "Set Series information"
-![Image](/blog/calibre_kobo_config.jpg)
+{{ :blog:calibre_kobo_config.jpg?200 |}}
 
 *	Cliquer sur Ok
 
@@ -63,7 +63,7 @@ Le fait de faire deux fois le boulot n'est pas génial, mais en étant pragmatiq
 
 *	Ne pas lire de livres faisant partie de séries. Mouais.
 
-*	Faire modifier à Calibre le titre du libre pour y intégrer la série (voir [Kobo eReader Touch : trucs et astuces d'origine diverse](blog/kobo-ereader-touch-5)).
+*	Faire modifier à Calibre le titre du libre pour y intégrer la série (voir [Kobo eReader Touch : trucs et astuces d'origine diverse](/blog/kobo-ereader-touch-5)).
 
 *	Utiliser les étagères ce qui règle le fait des regrouper mais pas la question de l'ordre.
 

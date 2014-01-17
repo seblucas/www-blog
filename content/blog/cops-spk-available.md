@@ -7,7 +7,7 @@ Robots: noindex,nofollow
 */
 # Le SPK de COPS est disponible
 
-Comme indiqué dans mon billet précédent sur COPS ([COPS 0.3.1](blog/cops-0.3.1)), j'ai un peu travaillé sur la création d'un SPK pour faciliter l'installation de COPS sur les NAS Synology.
+Comme indiqué dans mon billet précédent sur COPS ([COPS 0.3.1](/blog/cops-0.3.1)), j'ai un peu travaillé sur la création d'un SPK pour faciliter l'installation de COPS sur les NAS Synology.
 
 C'est donc officiellement disponible via le dépôt [SynoCommunity](http://www.synocommunity.com/). Merci beaucoup à Daoul pour son aide pour la création de ce paquet.
 

@@ -12,7 +12,7 @@ Sur une page web que je visite régulièrement il y a toute une série de lien q
 ## La solution
 
 J'ai fait un script avec GreaseMonkey (extension Firefox) qui reporte les liens dans une div à moitié transparente en haut à gauche de la page.
-`<code javascript getAllMegaUploadLinks.js>`
+<code javascript getAllMegaUploadLinks.js>
 */*///////////////////////////////////////////////////
 // Get all download links v1.0
 */*///////////////////////////////////////////////////
@@ -35,7 +35,7 @@ J'ai fait un script avec GreaseMonkey (extension Firefox) qui reporte les liens 
 // ==/UserScript==
 
 var allLinks, thisLink, linkList, regMega;
-linkList = "`<p>`Liste Liens : `</p>`";
+linkList = "<p>Liste Liens : </p>";
 regMega = new RegExp ("megaupload");
 allLinks = document.evaluate(
     '//a[@href]',
@@ -47,18 +47,18 @@ for (var i = 0; i < allLinks.snapshotLength; i++) {
     thisLink = allLinks.snapshotItem(i);
     if (regMega.test (thisLink))
     {
-        linkList += "`<p>`" + thisLink + "`</p>`";
+        linkList += "<p>" + thisLink + "</p>";
     }
     
     // do something with thisLink
 }
 //alert (linkList);
 var logo = document.createElement("div");
-logo.innerHTML = `<div style="float: left; height: 0px; text-align: left; opacity: 0.3;">` +
+logo.innerHTML = '<div style="float: left; height: 0px; text-align: left; opacity: 0.3;">' +
     linkList +
-    `</div>`;
+    '</div>';
 document.body.insertBefore(logo, document.body.firstChild);
-`</code>`
+</code>
 
 Pour utiliser le script il faut remplacer le site web en haut par votre site préféré et changer la ligne suivante par votre expression régulière favorite :
 

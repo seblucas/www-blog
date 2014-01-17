@@ -8,11 +8,11 @@ Robots: noindex,nofollow
 # Nginx PHP Fastcgi avec socket Unix
 
 ## Socket Unix / HTTP
-Quand j'ai installé pour la premiere fois nginx + php (voir [Installation de nginx sous Debian](blog/nginx-php-install)), j'avais vu une autre manière soit disant plus rapide utilisant des sockets unix.
+Quand j'ai installé pour la premiere fois nginx + php (voir [Installation de nginx sous Debian](/blog/nginx-php-install)), j'avais vu une autre manière soit disant plus rapide utilisant des sockets unix.
 ## Changement du script de fastcgi
 
 Les changements sont suivis de #.
-`<code bash php5-fcgi>`
+<code bash php5-fcgi>
 #!/bin/sh
 
 ### BEGIN INIT INFO
@@ -73,7 +73,7 @@ case "$1" in
   ;;
 esac
 exit $RETVAL
-`</code>`
+</code>
 ## Changement des sites nginx
 
 	

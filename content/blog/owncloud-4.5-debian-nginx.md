@@ -12,7 +12,7 @@ C'est l'outil que j'utilise en remplacement de Dropbox notamment pour synchronis
 ## Installation
 
 ### Pré-requis
-Pour les dépendances c'est exactement pareil que pour la version 4.0.X (voir [Installation de Owncloud 4.0.2 avec Debian et Nginx](blog/owncloud-4-install-debian-nginx)).
+Pour les dépendances c'est exactement pareil que pour la version 4.0.X (voir [Installation de Owncloud 4.0.2 avec Debian et Nginx](/blog/owncloud-4-install-debian-nginx)).
 ### Suppression de l'ancienne installation et installation propre
 
 Comme j'avais lu que la mise à jour posait problème, j'ai choisi la simplicité et j'ai supprimé mon répertoire owncloud et j'ai réinstallé (encore une fois vous pouvez suivre le précédent tutoriel en remplaçant le numéro de version par 4.5.3 pour la dernière version à la date d'écriture de ce billet).

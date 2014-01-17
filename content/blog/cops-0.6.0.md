@@ -9,9 +9,9 @@ Robots: noindex,nofollow
 
 Beaucoup de changements pour cette nouvelle version :
 
-*	[Voici COPS : Calibre OPDS PHP Serveur](fr/oss/calibre-opds-php-server)
+*	[Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
 
-*	[Liste des changements](fr/oss/calibre-opds-php-server-changelog)
+*	[Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
 
 Les plus gros changements sont cachés : 
 

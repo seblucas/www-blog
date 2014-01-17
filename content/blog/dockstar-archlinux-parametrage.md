@@ -91,7 +91,7 @@ Le fichier fstab avant l'installation ressemble à ça
 	#
 	# /etc/fstab: static file system information
 	#
-	# `<file system>` `<dir>`   `<type>`  `<options>`       `<dump>`  `<pass>`
+	# <file system> <dir>   <type>  <options>       <dump>  <pass>
 	tmpfs           /tmp    tmpfs   nodev,nosuid    0       0
 
 
@@ -107,7 +107,7 @@ et on peut ensuite modifier le fstab :
 	#
 	# /etc/fstab: static file system information
 	#
-	# `<file system>` `<dir>`   `<type>`  `<options>`       `<dump>`  `<pass>`
+	# <file system> <dir>   <type>  <options>       <dump>  <pass>
 	UUID="xx"       /       ext2    defaults,noatime 0       1
 	tmpfs           /tmp    tmpfs   nodev,nosuid     0       0
 

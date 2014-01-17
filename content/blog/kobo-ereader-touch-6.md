@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # Sortie du firmware 1.9.16 et revue de Web
 
 ## Désolé, mais le principal est là
-Comme indiqué dans un précédent article (voir [Mon cadeau de Noël : le site cassé](blog/cadeau-noel-site-out)), je suis désolé du retard de la sortie de cet article qui était prêt avant Noël et que je gardais au chaud sur une clé USB défaillante ...
+Comme indiqué dans un précédent article (voir [Mon cadeau de Noël : le site cassé](/blog/cadeau-noel-site-out)), je suis désolé du retard de la sortie de cet article qui était prêt avant Noël et que je gardais au chaud sur une clé USB défaillante ...
 
 Enfin c'était la seule perte dans l'histoire, ma paranoïa m'a au moins permis d'avoir une sauvegarde complète de la configuration et des données (sauf les dernières modifications) pour vite renaitre de mes cendres. Et je n'ai pas assez bu pendant les fêtes pour oublier trop de texte.
 
@@ -34,7 +34,7 @@ J'ai lu pas mal de mauvais commentaires sur cette version, notamment sur le beso
 
 J'espère que cela va durer.
 
-Pour ceux qui ont des problèmes, je vous conseille de faire un factory reset ou au pire de revenir au firmware précédent (j'ai détaillé l'installation manuelle sur cette page [Kobo eReader Touch : trucs et astuces d'origine diverse](blog/kobo-ereader-touch-5)).
+Pour ceux qui ont des problèmes, je vous conseille de faire un factory reset ou au pire de revenir au firmware précédent (j'ai détaillé l'installation manuelle sur cette page [Kobo eReader Touch : trucs et astuces d'origine diverse](/blog/kobo-ereader-touch-5)).
   
 Pour revenir sur les nouveautés, pas grand chose d'intéressant :
 
@@ -72,7 +72,7 @@ Au final cela oblige l'honnête lecteur (si il veut bidouiller) a devenir un pir
 Pour l'instant je reste (à peu près) droit dans me bottes : je n'ai acheté qu'un livre chez Kobo (un vrai epub avec DRM), un chez Sony (encore un vrai epub avec DRM) et plusieurs chez http://librairie.immateriel.fr/ (epub sans DRM). J'aurais aimé rester sans DRM mais sur des sorties de livres il n'y a pas trop de choix malheureusement.
 ## Mise à jour des trucs et astuces
 
-J'ai aussi pris le temps de mettre à jour la page des trucs et astuces : [Kobo eReader Touch : trucs et astuces d'origine diverse](blog/kobo-ereader-touch-5)
+J'ai aussi pris le temps de mettre à jour la page des trucs et astuces : [Kobo eReader Touch : trucs et astuces d'origine diverse](/blog/kobo-ereader-touch-5)
 ## Test exhaustif des formats pris en charge
 
 J'ai pu lire (je ne sais plus ou) que la Kobo ne supportait que le PDF et l'epub. C'est faux !
@@ -91,6 +91,6 @@ Je viens de faire un essai avec ma Kobo (pas by Fnac) et un Kobo by Fnac d'un co
 
 Je vais compléter le tableau dans la semaine avec des HTML, CBR, images seules et des mobi plus complexes (avec table des matières, ...).
 
-Je mettrai à disposition un zip avec mes cas de tests pour que les sceptiques puissent tester et m'envoyer un [mail](user/sebastien_lucas) si ils voient des différences sur leur liseuse.
+Je mettrai à disposition un zip avec mes cas de tests pour que les sceptiques puissent tester et m'envoyer un [mail](/user/sebastien_lucas) si ils voient des différences sur leur liseuse.
 
 Le fichier zip est : {{:blog:testkobo.zip|}}

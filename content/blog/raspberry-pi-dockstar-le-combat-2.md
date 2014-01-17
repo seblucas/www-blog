@@ -7,7 +7,7 @@ Robots: noindex,nofollow
 */
 # Raspberry Pi VS Dockstar : Le combat II
 
-Suite une remarque d'un lecteur sur mon [précédent test](blog/raspberry-pi-dockstar-le-combat) et à la sortie de modifications importantes sur la distribution Raspbian (voir [ici](http://www.raspberrypi.org/archives/2008)), j'ai refait quelques mesures.
+Suite une remarque d'un lecteur sur mon [précédent test](/blog/raspberry-pi-dockstar-le-combat) et à la sortie de modifications importantes sur la distribution Raspbian (voir [ici](http://www.raspberrypi.org/archives/2008)), j'ai refait quelques mesures.
 
 Je tiens encore à préciser que ce tests permet juste de déceler une tendance, le ARM Cortex A8 du A10 est un processeur beaucoup plus évolué que le Feroceon du Dockstar pourtant vous verrez que leur résultats sont similaires.
 
@@ -51,7 +51,7 @@ Aucune différence :
 
 ## Melee A2000 (Allwinner A10)
 
-J'en avais déjà parlé dans un précédent article (voir [Deux Dockstar ... et après](blog/dockstar-raspberry-pi-a10)), voila donc le résultat d'un A10 à 1GHz (ARM Cortex A8) : 
+J'en avais déjà parlé dans un précédent article (voir [Deux Dockstar ... et après](/blog/dockstar-raspberry-pi-a10)), voila donc le résultat d'un A10 à 1GHz (ARM Cortex A8) : 
 
 	
 	real    0m13.968s

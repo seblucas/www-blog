@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # Installer un serveur Mercurial sur un NAS Synology
 
 ## Historique
-Cela fait maintenant quasiment deux ans que j'ai fait ce genre de modification mais je n'ai jamais eu le temps de le documenter. Je vais essayer de rattraper ce retard. Par contre je vous conseille de lire le précédent article dédié à Subversion ([Installer un serveur Subversion sur un NAS Synology](blog/synology-subversion-ssh)) avant de me lire.
+Cela fait maintenant quasiment deux ans que j'ai fait ce genre de modification mais je n'ai jamais eu le temps de le documenter. Je vais essayer de rattraper ce retard. Par contre je vous conseille de lire le précédent article dédié à Subversion ([Installer un serveur Subversion sur un NAS Synology](/blog/synology-subversion-ssh)) avant de me lire.
 
 ## Installation du package
 
@@ -39,7 +39,7 @@ De la même façon que pour Subversion il faut que la commande hg soit accessibl
 Simple : 
 
 	
-	hg clone ssh://svn@`<IP DU NAS>`///volume1/hg/newrepo
+	hg clone ssh://svn@<IP DU NAS>///volume1/hg/newrepo
 
 ### Utilisation de clé privée/publique
 

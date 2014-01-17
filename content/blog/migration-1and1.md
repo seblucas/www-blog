@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # Migration sur un VPS L de 1&1
 
 ## Fin du serveur temporaire
-Suite au crash de ma clé USB, j'ai du migrer sur un serveur temporaire ([Mon cadeau de Noël : le site cassé](blog/cadeau-noel-site-out)), je suis passé à un hébergement moins amateur. J'ai donc loué un VPS L de 1&1 avec les caractéristiques suivantes :
+Suite au crash de ma clé USB, j'ai du migrer sur un serveur temporaire ([Mon cadeau de Noël : le site cassé](/blog/cadeau-noel-site-out)), je suis passé à un hébergement moins amateur. J'ai donc loué un VPS L de 1&1 avec les caractéristiques suivantes :
 
 *	4 Cpu de 500Mhz
 

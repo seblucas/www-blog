@@ -34,7 +34,7 @@ Une nouvelle version de Raspbmc est sortie (voir [ici](http://www.raspbmc.com/20
 
 ## Mon cas à moi
 
-Par rapport à ma liste de problèmes (voir [XBMC sur le Raspberry Pi - Raspbmc RC5](blog/raspberry-pi-xbmc-4)), les avancées sont les suivantes : 
+Par rapport à ma liste de problèmes (voir [XBMC sur le Raspberry Pi - Raspbmc RC5](/blog/raspberry-pi-xbmc-4)), les avancées sont les suivantes : 
 
 *	Ma télécommande Xbox est de nouveau complètement utilisable
 

@@ -46,7 +46,7 @@ Au final nous allons récupérer 3 fichiers :
 	cp slucas.fr.key /etc/nginx/
 
 il ne reste plus qu'à créer un nouveau site dans nginx et redémarrer Nginx :
-`<code ~ ssl-blog>`
+<code ~ ssl-blog>
 server {
         listen   [::]:443;
         ssl on;
@@ -60,7 +60,7 @@ server {
                 proxy_pass http://blog.slucas.fr;
         }
 }
-`</code>`
+</code>
 
 ### Premier test : non concluant
 

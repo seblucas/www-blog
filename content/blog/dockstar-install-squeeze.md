@@ -10,7 +10,7 @@ Robots: noindex,nofollow
 ## Seagate Dockstar
 ### Historique
 
-Cela faisait des années que je suivais tout ce qui concernait les [wp>PlugComputer](wp>PlugComputer), notamment les [wp>SheevaPlug](wp>SheevaPlug) et les [wp>BeagleBoard](wp>BeagleBoard). Et en juillet suite à un post sur http://forum.hardware.fr, j'ai fini par acheter sur un site en ligne un superbe Dockstar ([Lien officiel](http://www.seagate.com/www/fr-fr/products/network_storage/freeagent_dockstar/)) pour le prix modique de 18,95€. 
+Cela faisait des années que je suivais tout ce qui concernait les [wp>PlugComputer](/wp>PlugComputer), notamment les [wp>SheevaPlug](/wp>SheevaPlug) et les [wp>BeagleBoard](/wp>BeagleBoard). Et en juillet suite à un post sur http://forum.hardware.fr, j'ai fini par acheter sur un site en ligne un superbe Dockstar ([Lien officiel](http://www.seagate.com/www/fr-fr/products/network_storage/freeagent_dockstar/)) pour le prix modique de 18,95€. 
 
 ### Hardware
 
@@ -37,7 +37,7 @@ Dans mon cas j'ai plusieurs objectifs :
 
 *	Un enregistreur TNT (avec une clé TNT et l'enregistrement sur un NAS grâce à VDR)
 
-*	Un serveur [wp>DLNA](wp>DLNA) avec mediatomb ou minidlna
+*	Un serveur [wp>DLNA](/wp>DLNA) avec mediatomb ou minidlna
 
 *	Un serveur d'impression (Pour une imprimante USB)
 

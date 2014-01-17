@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # Transformation Wikidot > Dokuwiki
 
 J'ai transféré mon ex blog/wiki de wikidot (http://slucas.wikidot.com) à dokuwiki (http://www.slucas.fr). Par fainéantise j'ai donc créé un script Perl (d'un laideur rare) pour me faciliter le travail.
-`<code perl wikidot2dokuwiki.pl>`
+<code perl wikidot2dokuwiki.pl>
 #!/usr/bin/perl
 
 use strict;
@@ -31,7 +31,7 @@ sub TransformeCreate ($)
     open INPUT, "$fichier";
     open OUTPUT, ">$fichierSortie";
     
-    my @toutesLignes = `<INPUT>`;
+    my @toutesLignes = <INPUT>;
     close INPUT;
     
     while (my $ligne = shift (@toutesLignes))
@@ -44,8 +44,8 @@ sub TransformeCreate ($)
         $ligne =~ s/^\+\+\  + (.*)$/=== $1 ===/igs;
         $ligne =~ s/\[http(.*?) (.*?)\]/\[\[http$1\|$2\]\]/igs;
         $ligne =~ s/\[wikipedia\:(.*?)\]/\[\[wp>$1\]\]/igs;
-        $ligne =~ s/\[\[code\]\]/`<code>`/igs;
-        $ligne =~ s/\[\[\/code\]\]/`<\/code>`/igs;
+        $ligne =~ s/\[\[code\]\]/<code>/igs;
+        $ligne =~ s/\[\[\/code\]\]/<\/code>/igs;
         $ligne =~ s/\[\[footnote\]\]/((/igs;
         $ligne =~ s/\[\[\/footnote\]\]/))/igs;
         $ligne =~ s/^\*/  */igs;
@@ -54,7 +54,7 @@ sub TransformeCreate ($)
     
     close OUTPUT;
 }
-`</code>`
+</code>
 Il gère :
 
 *	Les liens externes

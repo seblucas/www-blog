@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # Nginx et Photostation
 
 ## Problème
-J'ai un nas Synology (voir [Installer un serveur Subversion sur un NAS Synology](blog/synology-subversion-ssh)) et j'utilise activement photostation pour partager avec mes photos de famille. Pour simplifier l'url à donner à ma famille j'ai créé un sous domaine sur mon dockstar et il ne restait plus qu'à configurer nginx pour qu'il fasse office de proxy.
+J'ai un nas Synology (voir [Installer un serveur Subversion sur un NAS Synology](/blog/synology-subversion-ssh)) et j'utilise activement photostation pour partager avec mes photos de famille. Pour simplifier l'url à donner à ma famille j'ai créé un sous domaine sur mon dockstar et il ne restait plus qu'à configurer nginx pour qu'il fasse office de proxy.
 ## Configuration nginx
 
 	

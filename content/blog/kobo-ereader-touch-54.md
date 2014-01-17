@@ -14,7 +14,7 @@ D'autres nouvelles orientées bidouille dans quelques jours.
 
 ## Image de couverture avec les .kepub.epub
 
-Vous avez peut être lu un de mes précédents articles ([Firmware Kobo 2.3.1 : La suite](blog/kobo-ereader-touch-48)) où j'expliquais qu'en renommant un fichier epub en kepub.epub le moteur de rendu utilisé par le Kobo changeait et que cela amenait toute une série de changements.
+Vous avez peut être lu un de mes précédents articles ([Firmware Kobo 2.3.1 : La suite](/blog/kobo-ereader-touch-48)) où j'expliquais qu'en renommant un fichier epub en kepub.epub le moteur de rendu utilisé par le Kobo changeait et que cela amenait toute une série de changements.
 
 Un des principaux problèmes était la perte de la couverture du livre. David Forrester a trouvé [une astuce](http://www.mobileread.com/forums/showpost.php?p=2389073&postcount=15) pour corriger ce problème. Dans Calibre, procédez ainsi :
 
@@ -28,18 +28,18 @@ Un des principaux problèmes était la perte de la couverture du livre. David Fo
 
 *	Ouvrez ce fichier dans un éditeur de texte (Notepad++).
 
-*	Trouvez la section "`<manifest>`".
+*	Trouvez la section "<manifest>".
 
 *	Dans cette section vous devriez trouver quelque chose de ce style : 
 
 	
-	`<item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />`
+	<item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
 
 
 *	Ajoutez properties="cover-image" dans cette ligne pour arriver à cela :
 
 	
-	`<item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" properties="cover-image" />`
+	<item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" properties="cover-image" />
 
 
 *	Enregistrez le fichier
@@ -54,10 +54,10 @@ Attention :
   
 Pour toutes ces raisons je n'ai jamais mis en application cette technique, j'ai modifié COPS pour générer à la volée des fichiers .kepub.epub avec la bonne structure sans mettre en péril le fichier epub original. La version contenant cette modification devrait sortir très bientôt.
 
-A noter aussi que David Forrester s'interroge sur le fait d'intégrer la création de .kepub.epub dans le driver Kobo de Calibre (un peu à la façon de ce [driver alternatif](https///github.com/jgoguen/calibre-kobo-driver)).
+A noter aussi que David Forrester s'interroge sur le fait d'intégrer la création de .kepub.epub dans le driver Kobo de Calibre (un peu à la façon de ce [driver alternatif](/https///github.com/jgoguen/calibre-kobo-driver)).
 ## Gestion des métadonnées de série en Epub3
 
-Comme indiqué dans un précédent article ([Quelques news sur la Kobo](blog/kobo-ereader-touch-52)), Kobo s'est engagé à supporter l'Epub3 cette année. Les spécifications de l'Epub2 pour les métadonnées ne permettaient pas la gestion des séries. Calibre a un peu pallié à ce problème en ajoutant les métadonnées suivantes :
+Comme indiqué dans un précédent article ([Quelques news sur la Kobo](/blog/kobo-ereader-touch-52)), Kobo s'est engagé à supporter l'Epub3 cette année. Les spécifications de l'Epub2 pour les métadonnées ne permettaient pas la gestion des séries. Calibre a un peu pallié à ce problème en ajoutant les métadonnées suivantes :
 
 *	meta avec le type "calibre:series"
 
@@ -70,23 +70,23 @@ L'Epub3 permet un support direct via une [technique relativement complexe](http:
 *	Le titre du livre est "The Fellowship of the Ring" :
 
 	
-	`<dc:title id="t1">`The Fellowship of the Ring`</dc:title>`
-	`<meta refines="#t1" property="title-type">`main`</meta>`
+	<dc:title id="t1">The Fellowship of the Ring</dc:title>
+	<meta refines="#t1" property="title-type">main</meta>
 
 
 *	La série du livre est "The Lord of the Rings" et c'est le premier livre :
 
 	
-	`<dc:title id="t2">`The Lord of the Rings`</dc:title>`
-	`<meta refines="#t2" property="title-type">`collection`</meta>`
-	`<meta refines="#t2" property="group-position">`1`</meta>`
+	<dc:title id="t2">The Lord of the Rings</dc:title>
+	<meta refines="#t2" property="title-type">collection</meta>
+	<meta refines="#t2" property="group-position">1</meta>
 
 
 *	Le titre complet du livre est "THE LORD OF THE RINGS, Part One: The Fellowship of the Ring" :
 
 	
-	`<dc:title id="t3">`THE LORD OF THE RINGS, Part One: The Fellowship of the Ring`</dc:title>`
-	`<meta refines="#t3" property="title-type">`extended`</meta>` 
+	<dc:title id="t3">THE LORD OF THE RINGS, Part One: The Fellowship of the Ring</dc:title>
+	<meta refines="#t3" property="title-type">extended</meta> 
 
 
 En pratique, pour le moment, la Kobo ne le supporte pas et ne met pas à jour les colonnes série de la liseuse. J'espère que cela va vite changer : à suivre !

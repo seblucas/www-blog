@@ -89,7 +89,7 @@ La paramétrage est assez complexe mais il semble fonctionner pour le moment. A 
 ## Correction de bugs
 
 Lors de mes tests j'ai du appliquer des patches pour que cela fonctionne, je ne sais plus trop quels étaient les problèmes mais cela a aidé :
-`<code ~ remote.diff>`
+<code ~ remote.diff>
 --- owncloud/remote.php 2012-06-11 12:18:38.000000000 +0200
 +++ /var/www/owncloud/remote.php        2012-06-15 14:00:12.000000000 +0200
 @@ -7,6 +7,13 @@
@@ -106,8 +106,8 @@ Lors de mes tests j'ai du appliquer des patches pour que cela fonctionne, je ne 
  if (!$pos = strpos($path_info, '/', 1)) {
         $pos = strlen($path_info);
  }
-`</code>`
-`<code ~ local.diff>`
+</code>
+<code ~ local.diff>
 --- owncloud/lib/filestorage/local.php  2012-06-11 12:18:37.000000000 +0200
 +++ /var/www/owncloud/lib/filestorage/local.php 2012-06-15 14:12:32.000000000 +0200
 @@ -65,6 +65,8 @@
@@ -119,7 +119,7 @@ Lors de mes tests j'ai du appliquer des patches pour que cela fonctionne, je ne 
                 if(!is_null($mtime)){
                         $result=touch( $this->datadir.$path, $mtime );
                 }else{
-`</code>`
+</code>
 ## Bilan à chaud
 
 Je ne l'ai installé que vendredi, donc mon opinion n'est pas encore faire. Toutefois j'ai déjà repéré du bon et du moins bon.

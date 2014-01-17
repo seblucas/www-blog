@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # Le cache fastcgi et Nginx - Partie 2
 
 ## Précédemment dans ...
-Dans mon précédent billet (voir [Le cache fastcgi et Nginx et un peu de déception](blog/nginx-fastcgi-cache)), j'étais resté sur une déception sur l'impossibilité de Nginx à utiliser le cache sur les pages venant de dokuwiki à cause des entêtes transmises.
+Dans mon précédent billet (voir [Le cache fastcgi et Nginx et un peu de déception](/blog/nginx-fastcgi-cache)), j'étais resté sur une déception sur l'impossibilité de Nginx à utiliser le cache sur les pages venant de dokuwiki à cause des entêtes transmises.
 
 J'ai repassé un peu de temps sur le problème et relu la documentation (cela aide toujours) et j'ai trouvé des solutions.
 

@@ -17,7 +17,7 @@ L'installation d'[Apache Bench](http://httpd.apache.org/docs/2.0/programs/ab.htm
 
 	
 	$ab -kc 10 -n 50 http://blog.slucas.fr/blog/nginx-gzip-css-js
-	This is ApacheBench, Version 2.3 `<$Revision: 655654 $>`
+	This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 	Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 	Licensed to The Apache Software Foundation, http://www.apache.org/
 	
@@ -68,7 +68,7 @@ Dans l'exemple je lance 10 connexions en parallèle 50 fois de suite.
 
 	
 	$ ab -kc 10 -n 50 http://blog.slucas.fr/lib/images/license/button/cc-by-nc-sa.png
-	This is ApacheBench, Version 2.3 `<$Revision: 655654 $>`
+	This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 	Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 	Licensed to The Apache Software Foundation, http://www.apache.org/
 	

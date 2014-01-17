@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # Migration Git vers Mercurial
 
 ## Pourquoi
-Dans la série "je fais des forks" (voir [Migration de Subversion vers Mercurial](blog/subversion-to-mercurial)), j'ai du travailler sur un projet actuellement hébergé sur github (et donc Git) comme je préfère travailler avec mercurial j'ai du le porter.
+Dans la série "je fais des forks" (voir [Migration de Subversion vers Mercurial](/blog/subversion-to-mercurial)), j'ai du travailler sur un projet actuellement hébergé sur github (et donc Git) comme je préfère travailler avec mercurial j'ai du le porter.
 ## Pré-requis
 
 il faut bien sur que mercurial soit installé et il faut aussi installer le client git :

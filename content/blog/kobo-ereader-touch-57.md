@@ -9,7 +9,7 @@ Robots: noindex,nofollow
 
 Après trois semaines, je pense qu'on peut dresser un bilan sur le dernier firmware. Pour gacher le suspense, j'aime bien !
 
-Les informations ci-dessous sont un complément à [Firmware 2.4.0 : des corrections de bugs (enfin) et quelques nouveautés](blog/kobo-ereader-touch-56).
+Les informations ci-dessous sont un complément à [Firmware 2.4.0 : des corrections de bugs (enfin) et quelques nouveautés](/blog/kobo-ereader-touch-56).
 
 A noter que je n'ai pas testé ce dont je ne me sers jamais : 
 

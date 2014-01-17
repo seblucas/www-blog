@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # Installation de la branche de Glandos de Tvheadend pour le RTSP
 
 ## Quoi ?
-Merci de lire [Nouvelles d'OpenElec / Tvheadend / Raspberry Pi](blog/raspberry-pi-xbmc-8) pour mieux comprendre de quoi ça parle.
+Merci de lire [Nouvelles d'OpenElec / Tvheadend / Raspberry Pi](/blog/raspberry-pi-xbmc-8) pour mieux comprendre de quoi ça parle.
 En pratique cela permet d'accéder aux flux RTSP de la Freebox.
 
 ## Téléchargement et compilation
@@ -49,7 +49,7 @@ Je n'ai pas voulu voulu passer par la case installation (make install) pour gard
 Et tout devrait fonctionner sans erreur, vous devriez pouvoir aller sur l'adresse suivante pour configurer Tvheadend :
 
 	
-	http://`<votre ip>`:9981/
+	http://<votre ip>:9981/
 
 ## Paramétrage de XBMC
 

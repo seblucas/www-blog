@@ -32,7 +32,7 @@ Source :
 *	Bénéficier de plusieurs résolutions de bugs.
 
 Les statistiques ne sont disponibles pour le moment que sur les Kepubs (les livres achetés chez Kobo) et je dois dire que j'aime assez. Cela donne cet affichage (en cliquant sur le lien avec le pourcentage d'avancement dans le livre) : 
-![Image](/blog/kobo-statistics.jpg)
+{{ :blog:kobo-statistics.jpg?200 |}}
 
 Cela permet donc d'avoir :
 
@@ -54,7 +54,7 @@ Concernant la nouvelle page d'accueil, je ne sais pas si je la trouve mieux ou m
 Les dictionnaires Anglais-Japonais, Portugais-Anglais, Anglais-Portugais ont été ajoutés.
 ### Gestion des séries
 
-Comme indiqué précédemment (voir [Meilleure gestion des séries dans la Kobo](blog/kobo-ereader-touch-45)), les séries sont mieux intégrées dans les listes sur la Kobo (et dans les recherches), par contre, il faut passer par Calibre pour mettre à jour la zone série pour les Epubs.
+Comme indiqué précédemment (voir [Meilleure gestion des séries dans la Kobo](/blog/kobo-ereader-touch-45)), les séries sont mieux intégrées dans les listes sur la Kobo (et dans les recherches), par contre, il faut passer par Calibre pour mettre à jour la zone série pour les Epubs.
 ### Correction du problème de changement de taille de police / typographie
 
 Précédemment, lorsque je voulais changer rapidement la taille et/ou la police, j'avais des plantages avec des redémarrages de la liseuse. Maintenant, le changement de ces paramètres entraine l'affichage d'un petit texte (Mise à jour des paramètres de ...) et cela ne plante plus.

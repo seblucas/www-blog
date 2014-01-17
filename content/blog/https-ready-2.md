@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # HTTPS disponible avec Nginx ... vraiment
 
 ## La rançon du succès ?
-Depuis mon article indiquant l'intégration de l'accès HTTPS (voir [HTTPS disponible grâce à StartSSL](blog/https-ready)), j'ai voulu intégrer des publicités sur le site. 
+Depuis mon article indiquant l'intégration de l'accès HTTPS (voir [HTTPS disponible grâce à StartSSL](/blog/https-ready)), j'ai voulu intégrer des publicités sur le site. 
 
 Ma volonté pour les publicités était de déplacer le serveur sur un VPS quelconque pour pouvoir ouvrir plus de services et améliorer la bande passante limitée de mon ADSL. En effet j'ai eu le plaisir de voir beaucoup d'accès à ce blog (300 à 400 visiteurs uniques et quelques milliers de pages vues par jour) ce qui a montré les limites du Dockstar et de ma ligne ADSL. Je vais continuer le test encore un mois pour estimer si la location d'un VPS est couverte.
 

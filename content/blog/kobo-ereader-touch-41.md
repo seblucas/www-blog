@@ -20,11 +20,11 @@ Pour l'instant je ne l'ai pas testé mais cela va venir.
 Attention le plugin n'a pas été testé sur les Kobo Glo (voir [ici](http://www.mobileread.com/forums/showpost.php?p=2278924&postcount=37)) et risque donc de ne pas fonctionner correctement.
 ## Transformer sa liseuse en station météo
 
-![Image](/blog/kobowifiweathersmall.jpg)
+{{ :blog:kobowifiweathersmall.jpg?200 |}}
 Cela se passe toujours sur [MobileRead](http://www.mobileread.com/forums/showthread.php?t=194376) et je trouve l'idée assez bonne. Kobo pourrait la reprendre en écran de veille optionnel.
 ## Une liseuse solaire !
 
-![Image](/blog/solarkobo.jpg)
+{{ :blog:solarkobo.jpg?200 |}}
 [Un amateur éclairé](http://www.mobileread.com/forums/showthread.php?t=193785) a décidé d'ajouter un chargeur solaire sur sa Kobo. Les images sont assez impressionnantes.
 ## Un test sur la Kobo Glo
 

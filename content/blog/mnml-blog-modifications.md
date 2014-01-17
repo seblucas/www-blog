@@ -40,14 +40,14 @@ J'ai aussi ajouté une ombre grise autour de la page principale :
 
 ## Version mobile du site
 
-Comme pour mon précédent template (voir [Version mobile du template Arctic pour Dokuwiki](fr/oss/dokuwiki-arctic-mobile)), j'ai voulu ajouter une version optimisée pour les smartphones.
+Comme pour mon précédent template (voir [Version mobile du template Arctic pour Dokuwiki](/fr/oss/dokuwiki-arctic-mobile)), j'ai voulu ajouter une version optimisée pour les smartphones.
 ### Modification du main.php
 
-J'ai ajouté avant le `</head>` : 
+J'ai ajouté avant le </head> : 
 
 	:::html
-	`<meta name="HandheldFriendly" content="true" />`
-	`<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />`
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
 
 ### Modification de user/screen.css
 
@@ -111,7 +111,7 @@ Voici le diff :
 	+
 	             if (tpl_getConf("mnmlblog_search") &&
 	                 tpl_getConf("mnmlblog_search_pos") === "headernav"){
-	                 echo "\n            `<div id=\"tmpl_header_nav_search\" class=\"dokuwiki\">`\n";
+	                 echo "\n            <div id=\"tmpl_header_nav_search\" class=\"dokuwiki\">\n";
 
 ### Modification de user/screen.css
 

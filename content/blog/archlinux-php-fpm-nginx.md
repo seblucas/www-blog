@@ -95,7 +95,7 @@ Pour compiler il faut installer le nécessaire (make, gcc, ...), l’équivalent
 ### Compilation
 
 En premier lieu, je me suis inspiré du PKGBUILD officiel de Nginx pour que ma compilation colle au mieux à celle de Archlinux. J'ai fini par écrire un script de compilation :
-`<code ~ build.sh>`
+<code ~ build.sh>
 ./configure \
         --prefix=/etc/nginx \
         --conf-path=/etc/nginx/nginx.conf \
@@ -133,7 +133,7 @@ En premier lieu, je me suis inspiré du PKGBUILD officiel de Nginx pour que ma c
         #--with-http_perl_module \
 
 make -f objs/Makefile
-`</code>`
+</code>
 
 Ensuite c'est simple :
 
@@ -185,7 +185,7 @@ C'est étonnamment rapide.
 
 
 *	J'ai ensuite dû modifier le fichier rc.d pour adapter le changement de chemin (/etc/nginx/conf vers /etc/nginx) :
-`<code ~ nginx>`
+<code ~ nginx>
 #!/bin/bash
 
 # general config
@@ -261,7 +261,7 @@ case "$1" in
 * )
     echo "usage: $0 {start|stop|restart|reload|check|careless_start}"
 esac
-`</code>`
+</code>
 
 *	On peut démarrer le serveur :
 
@@ -285,12 +285,12 @@ Auparavant, j'avais pris l'habitude d'utiliser xcache. Comme Archlinux utilise P
 
 
 *	Paramétrage (création du fichier /etc/php/conf.d/apc.ini avec le contenu suivant)
-`<code ~ apc.ini>`
+<code ~ apc.ini>
 extension=apc.so
 apc.shm_size=16M
 #apc.stat=0
 
-`</code>`
+</code>
 
 *	Redémarrage de php-fpm
 

@@ -25,17 +25,17 @@ Mes principales sources d'informations sont :
 ## Bidouilles
 
 ###  Enlever le logo FNAC - Avoir la couverture du livre en cours de lecture 
-En plus de la technique précédente (voir [Kobo by Fnac : sortie officielle et différences avec le Kobo original](blog/kobo-ereader-touch-4)). 
+En plus de la technique précédente (voir [Kobo by Fnac : sortie officielle et différences avec le Kobo original](/blog/kobo-ereader-touch-4)). 
 
-`<del>`Pour enlever l'écran de veille Fnac, une nouvelle technique a été trouvée :`</del>`
+<del>Pour enlever l'écran de veille Fnac, une nouvelle technique a été trouvée :</del>
 
 *	Brancher votre Kobo
 
 *	Naviguer dans la mémoire et ouvrir le dossier .kobo (ce répertoire sera caché sous Linux ou MacOSX)
 
-*	`<del>`Puis ouvrez le dossier Kobo dans lequel se trouve un fichier "Kobo eReader.conf"`</del>`
+*	<del>Puis ouvrez le dossier Kobo dans lequel se trouve un fichier "Kobo eReader.conf"</del>
 
-*	`<del>`Éditez le fichier, et cherchez la section [PowerOptions] passez les valeurs showBookCoverWhenOff et showBookCoverWhenSuspended à true`</del>`
+*	<del>Éditez le fichier, et cherchez la section [PowerOptions] passez les valeurs showBookCoverWhenOff et showBookCoverWhenSuspended à true</del>
 
 La méthode précédente n'est plus valide avec le firmware 2.0.0, il faut donc utiliser la méthode suivante (modification du fichier affiliate.conf dans le même répertoire).
 

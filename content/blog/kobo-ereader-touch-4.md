@@ -24,7 +24,7 @@ Je n'ai pas pu me rendre compte de visu des différences vu que je n'ai pas voul
 
 *	Il semble être impossible d'accéder au site Kobo.com, il y aurait une redirection vers le site de la Fnac.
 
-*	Le dictionnaire français n'est toujours pas présent (comme sur le Kobo normal), `<del>`la Fnac compte livrer le firmware avec le dictionnaire avant Noël`</del>`. Kobo ne confirme pas la livraison du dictionnaire avant Noel (voir http://ristic.fr/hitech/test-comparatif-kobo-touch-fnac-vs-amazon-kindle-4/#comment-282).
+*	Le dictionnaire français n'est toujours pas présent (comme sur le Kobo normal), <del>la Fnac compte livrer le firmware avec le dictionnaire avant Noël</del>. Kobo ne confirme pas la livraison du dictionnaire avant Noel (voir http://ristic.fr/hitech/test-comparatif-kobo-touch-fnac-vs-amazon-kindle-4/#comment-282).
 
 *	Le système de numérotation de firmware est le même : les Kobo by Fnac sont aussi en version 1.9.14.
 

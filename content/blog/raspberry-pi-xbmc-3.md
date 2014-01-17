@@ -12,7 +12,7 @@ Un minuscule article sur des choses déjà mondialement connues mais que j'ai ch
 ## Télécommande XBOX sur OpenElec
 
 J'ai fait l'article en anglais mais cela devrait être lisible par tous :
-[How to use an Xbox remote with OpenElec on a Raspberry Pi](en/tips/raspberry-pi-openelec-xbox-dongle)
+[How to use an Xbox remote with OpenElec on a Raspberry Pi](/en/tips/raspberry-pi-openelec-xbox-dongle)
 ## Accéder à des partages NFS sur un NAS Synology
 
 Bizarrement cela ne fonctionne pas nativement. Comme le protocole NFS est censé être plus efficace que SAMBA, j'ai creusé un peu plus pour trouver [ça](http://wiki.xbmc.org/index.php?title=NFS#Synology). En résumé il faut :
@@ -32,9 +32,9 @@ Bizarrement cela ne fonctionne pas nativement. Comme le protocole NFS est censé
 
 Ce fichier permet de faire des modifications dans le comportement d'XBMC. Pour tous les détails, vous pouvez voir [ici](http://wiki.xbmc.org/index.php?title=Userdata/advancedsettings.xml). Les paramètres qui j'ai trouvé intéressants sont :
 
-*	`<cachemembuffersize>`5242880`</cachemembuffersize>` : Taille en octet de la mémoire tampon (RAM).
+*	<cachemembuffersize>5242880</cachemembuffersize> : Taille en octet de la mémoire tampon (RAM).
 
-*	`<algorithmdirtyregions>`1`</algorithmdirtyregions>` : Pour améliorer le nombre de FPS.
+*	<algorithmdirtyregions>1</algorithmdirtyregions> : Pour améliorer le nombre de FPS.
 
 
 

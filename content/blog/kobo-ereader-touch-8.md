@@ -24,5 +24,5 @@ J'avais déjà remarqué que la lecture en plein soleil était difficile à caus
 
 Le lien est toujours le même que la dernière fois : http://www.mobileread.com/forums/showthread.php?t=163997.
 
-La nouveauté est que ah- a créé un vrai petit plugin sur [son compte github](https///github.com/ah-/koboplugins).
+La nouveauté est que ah- a créé un vrai petit plugin sur [son compte github](/https///github.com/ah-/koboplugins).
 

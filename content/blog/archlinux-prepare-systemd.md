@@ -7,7 +7,7 @@ Robots: noindex,nofollow
 */
 # Préparer le passage à Systemd sur Archlinux
 
-Le weekend dernier avant la sortie de COPS ([COPS 0.3.2](blog/cops-0.3.2)) j'ai voulu faire un test avec PHP5.4 sur mon Dockstar et j'ai été obligé de faire un redémarrage de php-fpm. Habituellement je fais :
+Le weekend dernier avant la sortie de COPS ([COPS 0.3.2](/blog/cops-0.3.2)) j'ai voulu faire un test avec PHP5.4 sur mon Dockstar et j'ai été obligé de faire un redémarrage de php-fpm. Habituellement je fais :
 
 	
 	rc.d stop php-fpm
@@ -18,7 +18,7 @@ Mais là j'ai le désagréable message suivant :
 	
 	:: Daemon script php-fpm does not exist or is not executable.
 
-Après recherche cela est au passage de Sysvinit à [Systemd](https///wiki.archlinux.org/index.php/Systemd) de Archlinux. Vous trouverez donc ci-après la méthode de migration la plus sure que j'ai trouvée.
+Après recherche cela est au passage de Sysvinit à [Systemd](/https///wiki.archlinux.org/index.php/Systemd) de Archlinux. Vous trouverez donc ci-après la méthode de migration la plus sure que j'ai trouvée.
 
 Source : http://archlinuxarm.org/forum/viewtopic.php?f=18&t=4979
 

@@ -7,7 +7,7 @@ Robots: noindex,nofollow
 */
 # Installation de XBMC sur le Raspberry Pi - 1 mois après
 
-Comme indiqué dans l'[article précédent](blog/raspberry-pi-xbmc-1), mon choix s'est porté sur Raspbmc à l'époque en version RC4. Il avait l'avantage de bien gérer ma télécommande de Xbox.
+Comme indiqué dans l'[article précédent](/blog/raspberry-pi-xbmc-1), mon choix s'est porté sur Raspbmc à l'époque en version RC4. Il avait l'avantage de bien gérer ma télécommande de Xbox.
 
 Je vais faire un petit déballage de tout ce que j'ai pu lire ou appliquer sur ce dernier mois. Ca va être un peu façon bloc-notes mais les informations y seront.
 

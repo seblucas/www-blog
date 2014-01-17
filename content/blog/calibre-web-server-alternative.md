@@ -29,7 +29,7 @@ Comme je l'ai déjà dit Calibre est installé sur mon ordinateur portable (sous
 Pour partager facile les données j'ai choisi de placer mon répertoire de travail de Calibre dans Dropbox ce qui fait qu'à chaque ajout ou modification d'un livre les données sont automatiquement synchronisée dans le Cloud. J'avais pensé passer un serveur Owncloud mais pour l'instant le volet de synchronisation n'existe on accède direction à un partage Webdav.
 ## Configuration du Dropbox sur le Linux
 
-Voir [Récupérer des répertoires Dropbox en console](blog/dropbox-sync-console).
+Voir [Récupérer des répertoires Dropbox en console](/blog/dropbox-sync-console).
 ## Installation de Calibre PHP Server
 
 ### Qui
@@ -78,7 +78,7 @@ Simple :
 
 
 Dans mon cas le fichier de config est le suivant :
-`<code ~ config_local.php>`
+<code ~ config_local.php>
 <?php
         /*
                 Name:            Calibre PHP webserver
@@ -238,7 +238,7 @@ Dans mon cas le fichier de config est le suivant :
         $config['initial_sort_field'] = 'Title';
         $config['initial_sort_direction'] = 'ascending';
 ?>
-`</code>`
+</code>
 ### Configuration de Nginx
 
 Mon fichier de configuration Nginx :
@@ -285,4 +285,4 @@ La version xhtml est téléchargeable ci-dessous :
 {{:blog:calibre-php-server-xhtml.zip|}}
 ## Au final
 
-Ce serveur ne me correspond pas totalement, j'ai donc développé [COPS](fr/oss/calibre-opds-php-server).
+Ce serveur ne me correspond pas totalement, j'ai donc développé [COPS](/fr/oss/calibre-opds-php-server).

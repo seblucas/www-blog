@@ -13,7 +13,7 @@ Désolé pour le peu d'articles en ce moment, je suis assez pris par le travail 
 
 J'ai essayé d'installer un environnement de compilation adapté à la Kobo. Je n'ai pas eu le temps pour le moment d'aller jusqu'à la compilation du plugin (mon but), mais je vais publier au fur et à mesure mes avancées.
 
-Pour le moment, la première partie est ici : [Création d'un environnement de compilation Kobo - Partie 1](fr/oss/kobo-build-environment-1)
+Pour le moment, la première partie est ici : [Création d'un environnement de compilation Kobo - Partie 1](/fr/oss/kobo-build-environment-1)
 ## Dictionnaires personnalisés sur la Kobo
 
 Malgré ce titre, il y a à la fois une bonne et une mauvaise nouvelle.
@@ -48,6 +48,6 @@ Personnellement, je ne crois pas trop au Java sur un processeur si lent mais j�
 
 ## Firmware Japonais / prochain firmware
 
-Suite à mon dernier article lié à la Kobo ([Sortie du firmware 2.2.0 au Japon](blog/kobo-ereader-touch-42)), le firmware 2.2.1 a été déployé au Japon sans grande information sur le détail des modifications.
+Suite à mon dernier article lié à la Kobo ([Sortie du firmware 2.2.0 au Japon](/blog/kobo-ereader-touch-42)), le firmware 2.2.1 a été déployé au Japon sans grande information sur le détail des modifications.
 
 Du côté du groupe bêta, ça bosse pas mal mais je ne pense que la sortie soit imminente pour le moment.

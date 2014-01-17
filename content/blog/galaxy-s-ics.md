@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # Passage à Ice Cream Sandwich avec mon Samsung Galaxy S - L'installation
 
 ## Petit rappel
-Il y a maintenant presque un an je postais un autre billet ([Samsung Galaxy S / Android : Bilan après 1 an](blog/galaxy-s-one-year-after)). Entretemps je suis passé sur la ROM Simplicity ([voir sur xda](http://forum.xda-developers.com/showthread.php?t=1203047)) et j'hésitais depuis longtemps à passer sur ICS (Ice Cream Sandwich). J'avais été assez impressionné par le passage de la Folio en ICS (voir [Ice Cream Sandwich sur Folio 100 - Une semaine après](blog/ice-cream-sandwich-folio-100-1)) et donc j'étais tenté.
+Il y a maintenant presque un an je postais un autre billet ([Samsung Galaxy S / Android : Bilan après 1 an](/blog/galaxy-s-one-year-after)). Entretemps je suis passé sur la ROM Simplicity ([voir sur xda](http://forum.xda-developers.com/showthread.php?t=1203047)) et j'hésitais depuis longtemps à passer sur ICS (Ice Cream Sandwich). J'avais été assez impressionné par le passage de la Folio en ICS (voir [Ice Cream Sandwich sur Folio 100 - Une semaine après](/blog/ice-cream-sandwich-folio-100-1)) et donc j'étais tenté.
 
 Les avantages que j'avais repéré étaient :
 

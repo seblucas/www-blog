@@ -11,7 +11,7 @@ Robots: noindex,nofollow
 Il y a pas mal de concurrence dans le domaine des NAS, j'ai choisi la marque Synology parce qu'il est accessible par SSH/telnet et donc modifiable assez simplement.
 ## Installation de ipkg
 
-[wp>ipkg](wp>ipkg) est grosso modo un équivalent de apt-get/aptitude. Sur mon DS210j il s'installe comme cela (attention l'archive à télécharger dépends de votre NAS) : 
+[wp>ipkg](/wp>ipkg) est grosso modo un équivalent de apt-get/aptitude. Sur mon DS210j il s'installe comme cela (attention l'archive à télécharger dépends de votre NAS) : 
 
 *	Activer la connexion SSH dans la console d'administration
 
@@ -71,17 +71,17 @@ Par défaut seul root a le droit de se connecter en ssh, il va donc falloir ruse
 *	On modifie le /etc/passwd pour ajouter le répertoire home et le shell à notre utilisateur svn :
 
 	
-	svn:x:`<Number>`:`<Group>`:Subversion user:/user/svn:/bin/ash
+	svn:x:<Number>:<Group>:Subversion user:/user/svn:/bin/ash
 
 Vous pouvez vous connecter avec l'utilisateur svn
 ### Préparation de la connexion svn+ssh
 
 Le principe d'une connexion svn+ssh est bien sur de lancer une connexion ssh et ensuite via celle ci de lancer svnserve avec certains paramètres. Comme je savais ce que je voulais, j'ai utilisé une méthode de sioux : lors d'une connexion par svn+ssh le profile n'est pas exécuté donc /opt/bin (lieu ou sont stockés les éléments installés via ipkg) n'est pas dans le path. J'ai donc créé un petit script dans /usr/bin :
-`<code bash svnserve>`
+<code bash svnserve>
 #!/bin/ash
 
 /opt/bin/svnserve -r /volume1 $@
-`</code>`
+</code>
 Quelques explications : 
 
 *	le -r /volume1 est pour préciser la racine virtuelle (pour alléger les url des dépôts)

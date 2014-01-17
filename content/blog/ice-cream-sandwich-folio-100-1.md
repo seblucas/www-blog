@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # Ice Cream Sandwich sur Folio 100 - Une semaine après
 
 ## Une demande
-Après mon billet de la semaine dernière ([ICS (Ice Cream Sandwich) sur une Toshiba Folio-100](blog/ice-cream-sandwich-folio-100)), un lecteur m'a demandé plus d'informations sur mon ressenti sur ICS et la Folio 100 : le voilà !
+Après mon billet de la semaine dernière ([ICS (Ice Cream Sandwich) sur une Toshiba Folio-100](/blog/ice-cream-sandwich-folio-100)), un lecteur m'a demandé plus d'informations sur mon ressenti sur ICS et la Folio 100 : le voilà !
 
 Bonne lecture.
 
@@ -42,9 +42,9 @@ J'ai fini par :
 
 *	Wipe du cache
 
-`<del>`Et pour l'instant ça a l'air de marcher sans problème sauf pour quelques soucis de reconnaissance du tactile de temps en temps.`</del>` 
+<del>Et pour l'instant ça a l'air de marcher sans problème sauf pour quelques soucis de reconnaissance du tactile de temps en temps.</del> 
 
-`<del>`Je ne joue pas trop sur la tablette mais en testant Angry Birds Rio j'ai noté plus de ralentissements que sur CM 7.2`</del>`. Par contre pour le surf (mon utilisation principale), Chrome est un énorme atout.
+<del>Je ne joue pas trop sur la tablette mais en testant Angry Birds Rio j'ai noté plus de ralentissements que sur CM 7.2</del>. Par contre pour le surf (mon utilisation principale), Chrome est un énorme atout.
 
 Le bilan des utilisateurs sur Frandroid est assez mitigé pour les amateurs de vrais jeux (utilisant la puce graphique Tegra 2) : beaucoup de jeux ne se lancent pas ou ont des problèmes à cause d'un manque de RAM (alors qu'ils fonctionnent impeccable avec la CM7).
 
@@ -76,12 +76,12 @@ Les points positifs :
 
 Les points négatifs :
 
-*	`<del>`Installation capricieuse`</del>`
+*	<del>Installation capricieuse</del>
 
-*	`<del>`Accès au market capricieux`</del>`
+*	<del>Accès au market capricieux</del>
 
 *	RAM limité pour les "gros" jeux
 
-*	`<del>`Des soucis avec le tactile de temps en temps`</del>`
+*	<del>Des soucis avec le tactile de temps en temps</del>
 
 *	La résolution de la Folio pas forcément adaptée à ICS

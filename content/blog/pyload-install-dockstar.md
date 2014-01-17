@@ -66,7 +66,7 @@ et pour l'arrêter :
 ## Démarrage automatique
 
 J'ai créé un script simple à mettre dans /etc/init.d/pyload :
-`<code bash pyload>`
+<code bash pyload>
 #!/bin/sh
 
 ### BEGIN INIT INFO
@@ -99,7 +99,7 @@ stop)
 esac
 
 exit 0
-`</code>`
+</code>
 
 Il ne reste plus qu'à rendre le script exécutable et la planifier dans les scripts de démarrage/arrêt.
 
@@ -110,7 +110,7 @@ Il ne reste plus qu'à rendre le script exécutable et la planifier dans les scr
 ## Reverse proxy avec nginx
 
 j'ai ajouté un nouveau sous domaine pour que pyLoad soit accessible de partout :
-`<code ~ pyload-nginx>`
+<code ~ pyload-nginx>
 server {
         listen [::]:80;
 
@@ -129,7 +129,7 @@ server {
         }
 
 }
-`</code>`
+</code>
 
 
 

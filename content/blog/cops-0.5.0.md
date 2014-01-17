@@ -9,9 +9,9 @@ Robots: noindex,nofollow
 
 Pour cette nouvelle version, une toute nouvelle interface graphique et quelques corrections de bugs :
 
-*	[Voici COPS : Calibre OPDS PHP Serveur](fr/oss/calibre-opds-php-server)
+*	[Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
 
-*	[Liste des changements](fr/oss/calibre-opds-php-server-changelog)
+*	[Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
 
 La modification la plus important est la nouvelle interface HTML5 / CSS3. J'espère que ça vous plaira et que cela fonctionnera correctement sur les navigateurs que je n'ai pas testé (PRS-T1, Kindle, ...).
 

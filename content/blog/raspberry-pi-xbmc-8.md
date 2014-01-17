@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # Nouvelles d'OpenElec / Tvheadend / Raspberry Pi
 
 ##  Dernières versions d'OpenElec 
-Je vais commencer par la mauvaise nouvelle, je suis bloqué à la version d'OpenElec du 12 janvier compilée par Rbej (voir [XBMC sur le Raspberry Pi : Openelec RC1](https///blog.slucas.fr/blog/raspberry-pi-xbmc-7)).
+Je vais commencer par la mauvaise nouvelle, je suis bloqué à la version d'OpenElec du 12 janvier compilée par Rbej (voir [XBMC sur le Raspberry Pi : Openelec RC1](/https///blog.slucas.fr/blog/raspberry-pi-xbmc-7)).
 
 Depuis ce moment toutes les versions que j'essaie posent problème sur les flux RTSP de la Freebox :
 
@@ -40,7 +40,7 @@ Pour pallier aux defauts de la dernière version sur le décodage RTSP, j'ai ess
 
 *	Tvheadend ne supporte pas le RTSP.
   
-Concernant le dernier point, ce n'est plus totalement vrai grâce à un développeur Français qui a ajouté cette fonctionnalité. Je vous laisse consulter son [Github](https///github.com/Glandos/tvheadend).
+Concernant le dernier point, ce n'est plus totalement vrai grâce à un développeur Français qui a ajouté cette fonctionnalité. Je vous laisse consulter son [Github](/https///github.com/Glandos/tvheadend).
 
 Je ferai un tutoriel complet dans quelques jours.
 ## Choses en cours

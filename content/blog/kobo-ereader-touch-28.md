@@ -37,4 +37,4 @@ Bon firmware à installer si vous êtes en 2.0.2 rien que pour la vitesse de cha
 
 EDIT : Dans la précipitation j'ai oublié le principal ... le lien de téléchargement est : http://download.kobobooks.com/firmwares/kobo3/rgreen/kobo3-update-2.1.1.zip
 
-Pour l'installation, comme toujours [Kobo eReader Touch : trucs et astuces d'origine diverse](blog/kobo-ereader-touch-5) au chapitre Installation manuelle d'un firmware.
+Pour l'installation, comme toujours [Kobo eReader Touch : trucs et astuces d'origine diverse](/blog/kobo-ereader-touch-5) au chapitre Installation manuelle d'un firmware.

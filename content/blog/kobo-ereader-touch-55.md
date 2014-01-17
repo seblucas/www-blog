@@ -19,7 +19,7 @@ Cela ne concerne bien sur que les Kepub achetés chez Kobo / Fnac.
 
 Plus d'informations plus tard quand j'en aurais appris plus.
 
-EDIT : Les liens de téléchargement pour les aventureux (lisez bien [Kobo Touch avec un hardware différent ?](blog/kobo-ereader-touch-51)) :
+EDIT : Les liens de téléchargement pour les aventureux (lisez bien [Kobo Touch avec un hardware différent ?](/blog/kobo-ereader-touch-51)) :
 
 *	Anciens Touch : http://download.kobobooks.com/firmwares/kobo3/k240/kobo-update-2.4.0.zip
 

@@ -30,7 +30,7 @@ Après silence radio :
 
 Encore une fois rien de choquant, la travail d'abord, la communication ensuite.
 
-Il y a quelques semaines, j'ai écrit un billet disant que je commençais à avoir peur de la tournure des évènements (voir [Kobo eReader Touch : Revue de Web et autres informations](blog/kobo-ereader-touch-15)). Suite à cela j'ai fait un mail un peu humouristique pour attirer une réponse des officiels de Kobo et j'ai eu une réponse sous forme d'une photo qui m'a redonné un peu d'espoir (voir [Kobo : La patience est une vertu](blog/kobo-ereader-touch-16)).
+Il y a quelques semaines, j'ai écrit un billet disant que je commençais à avoir peur de la tournure des évènements (voir [Kobo eReader Touch : Revue de Web et autres informations](/blog/kobo-ereader-touch-15)). Suite à cela j'ai fait un mail un peu humouristique pour attirer une réponse des officiels de Kobo et j'ai eu une réponse sous forme d'une photo qui m'a redonné un peu d'espoir (voir [Kobo : La patience est une vertu](/blog/kobo-ereader-touch-16)).
 
 Mais rien ne bouge. Beaucoup de monde commencent à avoir assez d'attendre :
 

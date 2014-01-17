@@ -23,7 +23,7 @@ Ce modèle (le plus intéressant par rapport à mes besoins) est grosso modo bas
 
 *	Processeur à 1GHz (800MHz pour l'ancien modèle).
 
-*	Ecran XGA de `<del>`768x1024`</del>` 758x1024 (voir [ici](http://www.mobileread.com/forums/showpost.php?p=2233436&postcount=15)) (contre 600x800 pour le modèle actuel)
+*	Ecran XGA de <del>768x1024</del> 758x1024 (voir [ici](http://www.mobileread.com/forums/showpost.php?p=2233436&postcount=15)) (contre 600x800 pour le modèle actuel)
 
 *	Glow light
 

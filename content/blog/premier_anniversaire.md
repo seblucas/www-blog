@@ -14,7 +14,7 @@ Donc j'ai choisi le template [mnml-blog](http://www.dokuwiki.org/template:mnml-b
 
 *	Intégration du plugin [translation](http://www.dokuwiki.org/plugin:translation) directement dans la barre de navigation horizontale.
 
-*	Modification pour que le rendu sur smartphone soit correct (même technique que pour le précédent template : [Version mobile du template Arctic pour Dokuwiki](fr/oss/dokuwiki-arctic-mobile)).
+*	Modification pour que le rendu sur smartphone soit correct (même technique que pour le précédent template : [Version mobile du template Arctic pour Dokuwiki](/fr/oss/dokuwiki-arctic-mobile)).
 
 *	Ajout d'ombre pour utiliser une nouvelle fonction CSS3.
 

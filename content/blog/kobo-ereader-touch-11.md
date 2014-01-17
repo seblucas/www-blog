@@ -13,7 +13,7 @@ Robots: noindex,nofollow
 
 Je ne sais pas si ça va intéresser grand monde mais au moins c'est dans la nature, il ne reste plus qu'à attendre les éventuels retours.
 
-Téléchargement et explication : [Voici COPS : Calibre OPDS PHP Serveur](fr/oss/calibre-opds-php-server).
+Téléchargement et explication : [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server).
 
 Un serveur COPS de démo à ajouter à votre client OPDS préféré : http://cops-demo.slucas.fr/feed.php
 

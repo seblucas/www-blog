@@ -65,9 +65,9 @@ Vous pouvez ensuite le tester :
 #### Paramétrage de udev pour que la tablette soit reconnue
 
 En root, ajoutez ce fichier dans /etc/udev/rules.d/ :
-`<code ~ 11-android.rules>`
+<code ~ 11-android.rules>
 SUBSYSTEMS=="usb", ATTRS{idVendor}=="0955", MODE="0666", OWNER="monUtilisateur"
-`</code>`
+</code>
 
 En remplaçant monUtilisateur pour votre login préféré.
 #### Démarrage de la Folio 100 en mode fastboot

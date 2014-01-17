@@ -7,7 +7,7 @@ Robots: noindex,nofollow
 */
 # Export au format EPUB sur Wikipedia
 
-Suite à un [commentaire de Totoro](https///blog.slucas.fr/blog/kobo-ereader-touch-34#comment-660824006) sur un précédent article au sujet des exports EPUB sur Wikisource, je me suis intéressé à nouveau aux exports EPUB de Wikipedia (je sais ce n'est pas logique mais je fais ce que je veux :P).
+Suite à un [commentaire de Totoro](/https///blog.slucas.fr/blog/kobo-ereader-touch-34#comment-660824006) sur un précédent article au sujet des exports EPUB sur Wikisource, je me suis intéressé à nouveau aux exports EPUB de Wikipedia (je sais ce n'est pas logique mais je fais ce que je veux :P).
 
 Je n'avais jamais pris le temps de les tester et c'est mal !
 
@@ -60,7 +60,7 @@ Attention j'ai testé sur le dernier firmware beta donc il se peut que j'ai un c
 Vu la qualité de certaines pages Wikipedia, je pense que cà vaut le cout de se construire un "livre" avec quelques articles pour le consulter au calme sur sa liseuse.
 ## Wikisource
 
-`<del>`J'ai essayé de faire la même chose avec Wikisource mais je n'ai pas vu d'option d'export comme dans Wikipedia Donc si l'un d'entre vous maitrise le sujet qu'il n'hésite surtout pas à tout m'expliquer dans les commentaires.`</del>`
+<del>J'ai essayé de faire la même chose avec Wikisource mais je n'ai pas vu d'option d'export comme dans Wikipedia Donc si l'un d'entre vous maitrise le sujet qu'il n'hésite surtout pas à tout m'expliquer dans les commentaires.</del>
 
 Ca y est j'ai compris, tous les articles ne peuvent pas s'exporter en EPUB seulement ceux avec l’icône verte .... je me repose et je teste ;) A demain !
 

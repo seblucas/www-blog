@@ -9,9 +9,9 @@ Robots: noindex,nofollow
 
 Pour cette nouvelle version, beaucoup de petites choses et quelques nouvelles fonctionnalités :
 
-*	[Voici COPS : Calibre OPDS PHP Serveur](fr/oss/calibre-opds-php-server)
+*	[Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
 
-*	[Liste des changements](fr/oss/calibre-opds-php-server-changelog)
+*	[Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
 
 La principale motivation de cette nouvelle version est la correction de quelques petites anomalies.
 

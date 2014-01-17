@@ -13,7 +13,7 @@ Toujours pas de sortie officielle du firmware 2.1.1 (et même un [avertissement 
 
 ## Premier achat chez Kobo : Mauvaise expérience
 
-J'ai profité de l'opération 200K (voir [Bragelonne : Opération 200k](blog/bragelonne-operation-200k)) pour faire mon premier achat chez Kobo (auparavant c'était surtout chez Immateriel ou Sony). Et j'ai été extrêmement déçu pour une raison simple : PAS DE PANIER. J'ai acheté 3 livres et j'ai dû faire 3 achats distincts. Comme, par principe, je refuse d'enregistrer le détail de ma carte bancaire sur le site, j'ai dû tout ressaisir 3 fois.
+J'ai profité de l'opération 200K (voir [Bragelonne : Opération 200k](/blog/bragelonne-operation-200k)) pour faire mon premier achat chez Kobo (auparavant c'était surtout chez Immateriel ou Sony). Et j'ai été extrêmement déçu pour une raison simple : PAS DE PANIER. J'ai acheté 3 livres et j'ai dû faire 3 achats distincts. Comme, par principe, je refuse d'enregistrer le détail de ma carte bancaire sur le site, j'ai dû tout ressaisir 3 fois.
 
 Après le premier livre, j'ai franchement hésité à passer à une autre librairie partenaire de l'offre de Bragelonne.
 ## Fréquence des mises à jour de la Kobo
