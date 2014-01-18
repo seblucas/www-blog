@@ -23,14 +23,17 @@ Le désavantage est que les paquets sont globalement moins largement testés not
 
 ### Installation
 Simple :
+
 ```
 pacman -S nginx php-fpm php-sqlite php-gd
 ```
 Par défaut, PHP-FPM est configuré pour utiliser un socket unix donc je n'ai rien modifié de ce côté là, j'ai juste démarré le service : 
+
 ```
 rc.d start php-fpm
 ```
 J'ai ensuite adapté la configuration de Nginx pour que mes pages web soient dans /var/www (je n'aime pas le chemin par défaut de Arch) et j'ai quelque chose de simple :
+
 ```
 server {
 
@@ -55,12 +58,14 @@ Attention au lien vers PHP-FPM (unix:/var/run/php-fpm/php-fpm.sock) selon les ve
 ### Premier test
 
 Bilan : cela ne fonctionne pas. Après quelques recherches, il se trouve que je suis obligé de déclarer dans le php.ini tous les endroits où des scripts peuvent exister :
+
 ```
 open_basedir = /srv/http/:/home/:/tmp/:/usr/share/pear/:/var/www
 ```
 ### Deuxième test
 
 Cela fonctionne ... de temps en temps. J'ai aussi les erreurs suivantes dans les logs :
+
 ```
 2012/06/03 22:23:27 [notice] 31802#0: start worker process 31803
 2012/06/03 22:23:32 [notice] 31802#0: signal 17 (SIGCHLD) received
@@ -83,6 +88,7 @@ J'ai choisi la deuxième solution.
 
 ### Dépendances
 Pour compiler il faut installer le nécessaire (make, gcc, ...), l’équivalent de build-essential est :
+
 ```
 pacman -S base-devel
 ```
@@ -130,6 +136,7 @@ make -f objs/Makefile
 </code>
 
 Ensuite c'est simple :
+
 ```bash
 wget http://nginx.org/download/nginx-1.2.1.tar.gz
 tar xvzf nginx-1.2.1.tar.gz
@@ -142,6 +149,7 @@ C'est étonnamment rapide.
 ### Installation
 
 *	En premier, on sauvegarde la configuration par défaut de Archlinux
+
 ```bash
 cd /root
 cp -R /etc/nginx/ .
@@ -150,6 +158,7 @@ cp /etc/logrotate.d/nginx nginx-logrotate
 ```
 
 *	On désinstalle le paquet officiel
+
 ```bash
 rc.d stop nginx
 pacman -Rs nginx
@@ -157,12 +166,14 @@ rm -Rf /etc/nginx/
 ```
 
 *	On installe le nouveau
+
 ```bash
 cd /root/nginx-1.2.1
 make install
 ```
 
 *	On reprend notre paramétrage
+
 ```bash
 cp -R /root/nginx/sites-available/ .
 mkdir sites-enabled
@@ -253,6 +264,7 @@ esac
 </code>
 
 *	On peut démarrer le serveur :
+
 ```
 rc.d start nginx
 ```
@@ -265,6 +277,7 @@ Auparavant, j'avais pris l'habitude d'utiliser xcache. Comme Archlinux utilise P
 
 
 *	Installation
+
 ```
 pacman -S php-apc
 vi /etc/php/conf.d/apc.ini
@@ -280,6 +293,7 @@ apc.shm_size=16M
 </code>
 
 *	Redémarrage de php-fpm
+
 ```bash
 rc.d stop php-fpm
 rc.d start php-fpm
@@ -289,6 +303,7 @@ Cela marche bien avec la configuration que j'ai donné. Par contre, dès que j'a
 ## Récupération des logs d'erreur PHP
 
 Un point très important, avec le Fastcgi classique les erreurs PHP se retrouvent dans le log d'erreur de Nginx. Ce n'est plus vrai avec la version de PHP-FPM installé par Arch pour avoir accès au log j'ai du activer le paramètre suivant dans /etc/php/php-fpm.conf (à la fin du fichier) :
+
 ```
 catch_workers_output = yes
 ```
