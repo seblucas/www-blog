@@ -12,24 +12,22 @@ J'avais déjà lu que le choix du CPU du Raspberry Pi était critiqué pour sa t
 Je me suis basé sur ce [post](http://www.raspberrypi.org/phpBB3/viewtopic.php?f=63&t=16397) sur le forum officiel du Raspberry Pi.
 
 Sur un Dockstar (avec un Archlinux et noyau 3.1.10-13) :
-
-	
-	time echo "scale=2000; 4*a(1)" | bc -l
-	...
-	real    0m13.814s
-	user    0m13.770s
-	sys     0m0.010s
-
+```
+time echo "scale=2000; 4*a(1)" | bc -l
+...
+real    0m13.814s
+user    0m13.770s
+sys     0m0.010s
+```
 
 Sur un Raspberry Pi (avec Raspbian et le noyau 3.1.9-test-12-06) avec overclock à 840MHz et aucun service actif :
-
-	
-	time echo "scale=2000; 4*a(1)" | bc -l
-	...
-	real    0m20.451s
-	user    0m20.400s
-	sys     0m0.010s
-
+```
+time echo "scale=2000; 4*a(1)" | bc -l
+...
+real    0m20.451s
+user    0m20.400s
+sys     0m0.010s
+```
 
 Pour les deux mesures j'ai lancé 5 fois la commande à la suite et j'ai pris le meilleur des résultats.
 

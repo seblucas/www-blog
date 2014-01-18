@@ -12,19 +12,17 @@ Pour faire suite à mon billet précédent je suis passé à l'action et j'ai in
 ## Dépendances
 
 J'ai bêtement repris les dépendances indiquées sur le site en ignorant les paquets non disponibles (certainement pour Ubuntu) :
-
-	:::bash
-	apt-get install php5-json php-xml php-mbstring php5-zip php5-gd php5-sqlite curl libcurl3 libcurl3-dev php5-curl php-pdo
-
+```bash
+apt-get install php5-json php-xml php-mbstring php5-zip php5-gd php5-sqlite curl libcurl3 libcurl3-dev php5-curl php-pdo
+```
 
 Vous pouvez aussi installer MySQL / Postgres si vous voulez stocker plus de fichiers (par défaut la base est sqlite).
 ## Modification du php.ini
 
 L'intérêt de ce genre de logiciel est de pouvoir charger (upload) des fichiers sur le serveur, il faut donc augmenter certains paramètres pour que les gros fichiers passent (dans mon cas je me suis limité à 64Mo).
-
-	:::bash
-	vi /etc/php5/cgi/php.ini
-
+```bash
+vi /etc/php5/cgi/php.ini
+```
 Les paramètres à changer sont :
 
 *	post_max_size = 64M
@@ -37,59 +35,57 @@ Si votre PHP est en fastcgi ou FPM, n'oubliez de redémarrer le processus pour q
 ## Installation proprement dite
 
 Simple : 
-
-	:::bash
-	cd /var/www
-	wget http://download.owncloud.org/releases/owncloud-4.0.2.tar.bz2
-	tar xvjf owncloud-4.0.2.tar.bz2
-	chown -R :www-data owncloud/
-	chmod -R g+w owncloud/
-
+```bash
+cd /var/www
+wget http://download.owncloud.org/releases/owncloud-4.0.2.tar.bz2
+tar xvjf owncloud-4.0.2.tar.bz2
+chown -R :www-data owncloud/
+chmod -R g+w owncloud/
+```
 ## Paramétrage de Nginx
 
 La paramétrage est assez complexe mais il semble fonctionner pour le moment. A noter que celui que je donne est en HTTP, je vous conseille la passage en HTTPS.
+```
+server {
 
-	
-	server {
-	
-	        listen [::]:80;
-	
-	        server_name owncloud.mondomaine.fr;
-	
-	        access_log  /var/log/nginx/owncloud.access.log;
-	        error_log /var/log/nginx/owncloud.error.log;
-	        root   /var/www/owncloud;
-	        index index.php;
-	        client_max_body_size 64M;
-	
-	  # deny direct access
-	  location ~ ^/(data|config|\.ht|db_structure\.xml|README) {
-	    deny all;
-	  }
-	  # default try order
-	  location / {
-	    try_files $uri $uri/ @webdav;
-	  }
-	  # owncloud WebDAV
-	  location @webdav {
-	    fastcgi_split_path_info ^(.+\.php)(/.*)$;
-	    fastcgi_pass unix:/tmp/fcgi.sock;
-	    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
-	    include fastcgi_params;
-	  }
-	  # enable php
-	  location ~ \.php$ {
-	    fastcgi_pass unix:/tmp/fcgi.sock;
-	    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
-	    include fastcgi_params;
-	  }
-	}
-	
+        listen [::]:80;
 
+        server_name owncloud.mondomaine.fr;
+
+        access_log  /var/log/nginx/owncloud.access.log;
+        error_log /var/log/nginx/owncloud.error.log;
+        root   /var/www/owncloud;
+        index index.php;
+        client_max_body_size 64M;
+
+  # deny direct access
+  location ~ ^/(data|config|\.ht|db_structure\.xml|README) {
+    deny all;
+  }
+  # default try order
+  location / {
+    try_files $uri $uri/ @webdav;
+  }
+  # owncloud WebDAV
+  location @webdav {
+    fastcgi_split_path_info ^(.+\.php)(/.*)$;
+    fastcgi_pass unix:/tmp/fcgi.sock;
+    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    include fastcgi_params;
+  }
+  # enable php
+  location ~ \.php$ {
+    fastcgi_pass unix:/tmp/fcgi.sock;
+    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    include fastcgi_params;
+  }
+}
+
+```
 ## Correction de bugs
 
 Lors de mes tests j'ai du appliquer des patches pour que cela fonctionne, je ne sais plus trop quels étaient les problèmes mais cela a aidé :
-<code ~ remote.diff>
+```
 --- owncloud/remote.php 2012-06-11 12:18:38.000000000 +0200
 +++ /var/www/owncloud/remote.php        2012-06-15 14:00:12.000000000 +0200
 @@ -7,6 +7,13 @@
@@ -106,8 +102,8 @@ Lors de mes tests j'ai du appliquer des patches pour que cela fonctionne, je ne 
  if (!$pos = strpos($path_info, '/', 1)) {
         $pos = strlen($path_info);
  }
-</code>
-<code ~ local.diff>
+```
+```
 --- owncloud/lib/filestorage/local.php  2012-06-11 12:18:37.000000000 +0200
 +++ /var/www/owncloud/lib/filestorage/local.php 2012-06-15 14:12:32.000000000 +0200
 @@ -65,6 +65,8 @@
@@ -119,7 +115,7 @@ Lors de mes tests j'ai du appliquer des patches pour que cela fonctionne, je ne 
                 if(!is_null($mtime)){
                         $result=touch( $this->datadir.$path, $mtime );
                 }else{
-</code>
+```
 ## Bilan à chaud
 
 Je ne l'ai installé que vendredi, donc mon opinion n'est pas encore faire. Toutefois j'ai déjà repéré du bon et du moins bon.

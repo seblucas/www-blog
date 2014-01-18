@@ -40,16 +40,14 @@ L'installation et le paramétrage de Xbmc s'est bien passé mais vu que ma tél�
 *	Se connecter en SSH
 
 *	Éditer la configuration :
-
-	
-	vi ~/.xbmc/userdata/guisettings.xml
-
+```
+vi ~/.xbmc/userdata/guisettings.xml
+```
 
 *	Changer la ligne suivante :
-
-	
-	<webserver>true</webserver>
-
+```
+<webserver>true</webserver>
+```
 
 *	Redémarrer le Pi ou uniquement XBMC
   

@@ -42,43 +42,40 @@ Une personne sur Mobileread (encore et toujours) a mis à disposition un serveur
 ### Dépendances
 
 Mon serveur a déjà une base pour gérer le PHP (avec Nginx), les seules dépendances étaient :
-
-	
-	aptitude install php5-gd smarty php5-sqlite
-
+```
+aptitude install php5-gd smarty php5-sqlite
+```
 
 Ne pas oublier de redémarrer le fastcgi PHP après ces installations.
 
 ### Paramétrage lié à smarty
 
 Le serveur a besoin de smarty et d'un répertoire de travail pour smarty, j'ai choisi de tout stocker sur /tmp
-
-	:::bash
-	cd /tmp/
-	mkdir smarty
-	cd smarty/
-	mkdir smarty_cache
-	mkdir smarty_templates_c
-	cd ..
-	chown www-data:www-data -R smarty/
-
+```bash
+cd /tmp/
+mkdir smarty
+cd smarty/
+mkdir smarty_cache
+mkdir smarty_templates_c
+cd ..
+chown www-data:www-data -R smarty/
+```
 ### Installation du serveur
 
 Simple :
-
-	:::bash
-	su -
-	cd /var/www
-	wget http://charles.the-haleys.org/calibre/calibre_php_server-V0.2.8.zip
-	unzip calibre_php_server-V0.2.8.zip
-	mv  calibre_php_server-V0.2.8/ ebook
-	cd ebook
-	cp config_default.php config_local.php
-	vi config_local.php
-
+```bash
+su -
+cd /var/www
+wget http://charles.the-haleys.org/calibre/calibre_php_server-V0.2.8.zip
+unzip calibre_php_server-V0.2.8.zip
+mv  calibre_php_server-V0.2.8/ ebook
+cd ebook
+cp config_default.php config_local.php
+vi config_local.php
+```
 
 Dans mon cas le fichier de config est le suivant :
-<code ~ config_local.php>
+```
 <?php
         /*
                 Name:            Calibre PHP webserver
@@ -238,32 +235,31 @@ Dans mon cas le fichier de config est le suivant :
         $config['initial_sort_field'] = 'Title';
         $config['initial_sort_direction'] = 'ascending';
 ?>
-</code>
+```
 ### Configuration de Nginx
 
 Mon fichier de configuration Nginx :
+```
+server {
 
-	
-	server {
-	
-	        listen [::]:80;
-	
-	        server_name xxx.mydomain.com;
-	
-	        access_log  /var/log/nginx/ebook.access.log;
-	        error_log /var/log/nginx/ebook.error.log;
-	        root   /var/www/ebook;
-	        index index.php;
-	
-	        location ~ \.php$ {
-	               include /etc/nginx/fastcgi_params;
-	               fastcgi_split_path_info ^(.+\.php)(/.*)$;
-	               fastcgi_param   SCRIPT_FILENAME  $document_root$fastcgi_script_name;
-	               fastcgi_param  PATH_INFO        $fastcgi_path_info;
-	               fastcgi_pass    unix:/tmp/fcgi.sock;
-	        }
-	}
+        listen [::]:80;
 
+        server_name xxx.mydomain.com;
+
+        access_log  /var/log/nginx/ebook.access.log;
+        error_log /var/log/nginx/ebook.error.log;
+        root   /var/www/ebook;
+        index index.php;
+
+        location ~ \.php$ {
+               include /etc/nginx/fastcgi_params;
+               fastcgi_split_path_info ^(.+\.php)(/.*)$;
+               fastcgi_param   SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+               fastcgi_param  PATH_INFO        $fastcgi_path_info;
+               fastcgi_pass    unix:/tmp/fcgi.sock;
+        }
+}
+```
 ### Ça marche
 
 Je vous encourage à lire le README du serveur PHP Calibre pour le reste de la configuration.

@@ -40,17 +40,15 @@ En plus de la technique précédente (voir [Kobo by Fnac : sortie officielle et 
 La méthode précédente n'est plus valide avec le firmware 2.0.0, il faut donc utiliser la méthode suivante (modification du fichier affiliate.conf dans le même répertoire).
 
 Sinon le contenu du fichier affiliate.conf pour un Kobo original est :
-
-	
-	[General]
-	affiliate=Kobo
-
+```
+[General]
+affiliate=Kobo
+```
 Alors que pour un Fnac c'est (essayez de deviner) :
-
-	
-	[General]
-	affiliate=fnac
-
+```
+[General]
+affiliate=fnac
+```
 ### Installation manuelle d'un firmware
 
 #### Téléchargement du firmware
@@ -86,14 +84,13 @@ Mes sources :
 
 L'utilisation du clavier sur la liseuse est assez fastidieuse surtout pour les URL ou il faut souvent passer du clavier classique au clavier avec les chiffres et caractères spéciaux.
 Pour se faciliter la tâche il suffit de connecter par USB la liseuse et de modifier le fichier koboEreader.conf (dans le répertoire .kobo). Ce fichier contient par exemple :
-
-	
-	[BROWSER_FAVOURITES_GROUP]
-	http%253A%252F%252Fen.mobile.wikipedia.org%252F=
-	http%253A%252F%252Fwww.ctv.ca%252Fservlet%252FPage %252Fctv%252Fmobile%252Fslim=
-	http%253A%252F%252Fm.weatheroffice.gc.ca%252Fcity% 252Fpages%252Fqc-147_e.html=
-	http%253A%252F%252Fwww.google.com%252F=
-
+```
+[BROWSER_FAVOURITES_GROUP]
+http%253A%252F%252Fen.mobile.wikipedia.org%252F=
+http%253A%252F%252Fwww.ctv.ca%252Fservlet%252FPage %252Fctv%252Fmobile%252Fslim=
+http%253A%252F%252Fm.weatheroffice.gc.ca%252Fcity% 252Fpages%252Fqc-147_e.html=
+http%253A%252F%252Fwww.google.com%252F=
+```
 
 Certains caractères sont à remplacer :
 
@@ -114,13 +111,12 @@ Comme vous le savez certainement la bibliothèque n'affiche que le titre du livr
 Il faut donc aller dans Preferences et ensuite Tableaux de connexions de métadonnées.
 
 Par exemple avec ce paramétrage :
-
-	
-	format:ePub
-	Device:Kobo
-	Source Template: {series:re(([^\s])[^\s]+(\s|$),\1)}{series_index:0>2s| - | - }{title}
-	Destination Field: title
-
+```
+format:ePub
+Device:Kobo
+Source Template: {series:re(([^\s])[^\s]+(\s|$),\1)}{series_index:0>2s| - | - }{title}
+Destination Field: title
+```
 Dans le cas ou livre fait partie d'une série on ajoute en début du titre le nom de série (en compressé : que la première lettre de chaque mot) et l'index du livre dans la série.
 
 Plus d'informations : 

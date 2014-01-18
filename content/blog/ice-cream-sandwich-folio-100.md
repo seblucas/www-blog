@@ -51,23 +51,21 @@ En premier téléchargez ce fichier :
 {{:blog:fastboot.bz2|}}
 
 Il faut ensuite le décompresser et lui donner les droits d’exécution :
-
-	
-	bunzip2 fastboot.bz2
-	chmod +x fastboot
-
+```
+bunzip2 fastboot.bz2
+chmod +x fastboot
+```
 
 Vous pouvez ensuite le tester :
-
-	
-	./fastboot
-
+```
+./fastboot
+```
 #### Paramétrage de udev pour que la tablette soit reconnue
 
 En root, ajoutez ce fichier dans /etc/udev/rules.d/ :
-<code ~ 11-android.rules>
+```
 SUBSYSTEMS=="usb", ATTRS{idVendor}=="0955", MODE="0666", OWNER="monUtilisateur"
-</code>
+```
 
 En remplaçant monUtilisateur pour votre login préféré.
 #### Démarrage de la Folio 100 en mode fastboot
@@ -86,18 +84,17 @@ Attention ne pas appuyer 4 fois sur le bouton Power cela peut bloquer la tablett
 #### Test de bon fonctionnement
 
 Taper : 
-
-	
-	./fastboot devices
-
+```
+./fastboot devices
+```
 
 Il doit retourner une ligne avec plein de ????? qui montre que ça marche.
 ### Formatage de la tablette et installation du recovery
 
-	
-	./fastboot -w
-	./fastboot flash recovery  cwm-recovery-5.5.0.4.img
-
+```
+./fastboot -w
+./fastboot flash recovery  cwm-recovery-5.5.0.4.img
+```
 ### Redémarrage de la tablette et lancement du recovery
 
 *	Insérez votre carte SD dans la Folio

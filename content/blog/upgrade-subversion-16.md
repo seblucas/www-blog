@@ -20,30 +20,28 @@ Lien utiles :
 ## Pack
 
 la commande doit être logiquement la suivante :
-
-	
-	svnadmin pack dépôt
-
+```
+svnadmin pack dépôt
+```
 En pratique mes dépôts sont trop anciens (portés des la version 1.2) et le svnadmin upgrade de la 1.5 n'a pas du créer les shards correctement. Donc la commande précédente n'a rien donné. J'ai donc été amené à porter l'ensemble de mes dépôts.
 ## Mise à jour complète des dépôts
 
 ### Déplacement du répertoire subversion
-
-	
-	cd /var/
-	mv svn svn-old
-	mkdir svn
-
+```
+cd /var/
+mv svn svn-old
+mkdir svn
+```
 ### Conversion
 
-<code bash upgradeSvn16.sh>
+```bash
 #!/bin/bash
 
 cd svn-old
 dirList=$(find . -maxdepth 1 -type d)
 cd ..
 for directory in $dirList; do
-  if [ $directory != "." ](/ $directory != "." )
+  if [[ $directory != "." ]]
   then
     svnadmin create svn/$directory
     svnadmin dump svn-old/$directory | svnadmin load svn/$directory
@@ -52,7 +50,7 @@ for directory in $dirList; do
     chmod -R g+w svn/$directory
   fi
 done
-</code>
+```
 Télécharger et installer le script ci-dessus dans /var et quelques heures plus tard l'ensemble de vos dépôts sont entièrement 1.6.
 
 ## Bilan

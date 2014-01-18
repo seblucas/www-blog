@@ -12,7 +12,7 @@ Sur une page web que je visite régulièrement il y a toute une série de lien q
 ## La solution
 
 J'ai fait un script avec GreaseMonkey (extension Firefox) qui reporte les liens dans une div à moitié transparente en haut à gauche de la page.
-<code javascript getAllMegaUploadLinks.js>
+```javascript
 */*///////////////////////////////////////////////////
 // Get all download links v1.0
 */*///////////////////////////////////////////////////
@@ -58,13 +58,12 @@ logo.innerHTML = '<div style="float: left; height: 0px; text-align: left; opacit
     linkList +
     '</div>';
 document.body.insertBefore(logo, document.body.firstChild);
-</code>
+```
 
 Pour utiliser le script il faut remplacer le site web en haut par votre site préféré et changer la ligne suivante par votre expression régulière favorite :
-
-	
-	regMega = new RegExp ("megaupload");
-
+```
+regMega = new RegExp ("megaupload");
+```
 
 C'est librement inspiré (= copié honteusement ;))) de ce [lien](http://diveintogreasemonkey.org/patterns/match-attribute.html).
 ## Reste à faire

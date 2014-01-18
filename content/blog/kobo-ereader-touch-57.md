@@ -36,12 +36,11 @@ Si vous avez le problème suivez le guide : http://www.mobileread.com/forums/sho
 Comme le chargement de fichier .kepub.epub n'est pas supporté officiellement, il se peut que certains fichiers aient le problème.
 
 Dans ce cas la solution est de modifier la base de données de la liseuse et d'appliquer la requête suivante :
-
-	
-	UPDATE content SET ___UserID='kepub_user'
-	WHERE ContentID LIKE 'file:///mnt/%'
-	AND ContentID LIKE '%kepub.epub%';
-
+```
+UPDATE content SET ___UserID='kepub_user'
+WHERE ContentID LIKE 'file:///mnt/%'
+AND ContentID LIKE '%kepub.epub%';
+```
 ### Sudoku
 
 Le clavier en bas a un petit bug de couleur.
@@ -57,11 +56,10 @@ Beaucoup d'utilisateurs s'étaient offusqués du fait que le tri par titre n'ét
 Vous parlez français mais vous n'êtes pas français (québécois, suisse, belge, ...) et les formats de dates ou de l'heure affichés sur le Kobo ne respectent que les habitudes de France (JJ/MM/AAAA).
 
 Vous pouvez modifier le fichier Kobo/Kobo eReader.conf et ajouter le bloc suivant (pour la Suisse) :
-
-	
-	[ApplicationPreferences]
-	CurrentLocale=fr_CH
-
+```
+[ApplicationPreferences]
+CurrentLocale=fr_CH
+```
 
 Un redémarrage de votre liseuse plus tard et le format des dates devrait être conforme à vos habitudes (DD. MM. AAAA dans le cas de la Suisse).
 

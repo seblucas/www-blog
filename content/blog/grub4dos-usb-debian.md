@@ -23,10 +23,9 @@ Télécharger les éléments suivants :
 Insérer la clé USB sous Windows.
 
 Décompresser GrubInst et faire l'installation avec la GUI (grubinst_gui.exe) si cela ne fonctionne pas alors exécuter la commande suivante :
-
-	
-	grubinst.exe --skip-mbr-test (hd1)
-
+```
+grubinst.exe --skip-mbr-test (hd1)
+```
 Remplacer hd1 par le point de montage de votre clé USB.
 
 Décompresser grub4dos et copier les fichiers sur la clé USB :
@@ -37,41 +36,40 @@ Décompresser grub4dos et copier les fichiers sur la clé USB :
 ## Modification du menu.lst
 
 ### Méthode "en dur"
-
-	
-	title Start Squeeze
-	root (hd1,3)
-	kernel /boot/grub/core.img
-
+```
+title Start Squeeze
+root (hd1,3)
+kernel /boot/grub/core.img
+```
 Ici on accède directement à la bonne partition (4ième du deuxième disque) et on charge grub.
 ### Méthode automatique
 
-	
-	title Find and load Grub
-	find --set-root --ignore-floppies /boot/grub/core.img
-	map () (hd0)
-	map (hd0) ()
-	map --rehook
-	find --set-root --ignore-floppies /boot/grub/core.img
-	kernel /boot/grub/core.img
-	savedefault --wait=2
-
+```
+title Find and load Grub
+find --set-root --ignore-floppies /boot/grub/core.img
+map () (hd0)
+map (hd0) ()
+map --rehook
+find --set-root --ignore-floppies /boot/grub/core.img
+kernel /boot/grub/core.img
+savedefault --wait=2
+```
 Ici on demande à grub4dos de chercher sur les partitions le fichier /boot/grub/core.img et une fois trouvé de le lancer.
 
 Cette méthode permet de pouvoir redémarrer un Linux donc le grub aurait été effacé par une installation de XP par exemple.
 ### Fun : charger geexbox
 
-	
-	title geexbox-2.0-alpha2-en.i386.eglibc.iso
-	map --sectors-per-track=0 --heads=0 /geexbox-2.0-alpha2-en.i386.eglibc.iso (0xFF) || map --mem --sectors-per-track=0 --heads=0 /geexbox-2.0-alpha2-en.i386.eglibc.iso (0xFF)
-	map --hook
-	root (0xFF)
-	chainloader (0xFF)
-
+```
+title geexbox-2.0-alpha2-en.i386.eglibc.iso
+map --sectors-per-track=0 --heads=0 /geexbox-2.0-alpha2-en.i386.eglibc.iso (0xFF) || map --mem --sectors-per-track=0 --heads=0 /geexbox-2.0-alpha2-en.i386.eglibc.iso (0xFF)
+map --hook
+root (0xFF)
+chainloader (0xFF)
+```
 Il faut bien sur ajouter le fichier /geexbox-2.0-alpha2-en.i386.eglibc.iso à la racine de la clé USB.
 ### Fichier complet
 
-<code - menu.lst>
+```-
 # This is a sample menu.lst file. You should make some changes to it.
 
 # The old install method of booting via the stage-files has been removed.
@@ -138,7 +136,7 @@ reboot
 title halt
 halt
 
-</code>
+```
 
 
 

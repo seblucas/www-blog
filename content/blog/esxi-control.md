@@ -11,7 +11,7 @@ Source : http://blog.peacon.co.uk/esxi-control-pl-script-vm-actions-on-free-lice
 
 This is not my code / Ce n'est pas mon code
 
-<code perl esxi-control.pl>
+```perl
 #!/usr/bin/perl -w
 
 #
@@ -1654,6 +1654,6 @@ sub commify {
 ## END OF SCRIPT
 ####################
 
-</code>
+```
 
 

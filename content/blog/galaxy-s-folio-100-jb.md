@@ -60,18 +60,17 @@ Démarrer la tablette en mode fastboot :
 *	Brancher la tablette via le port mini USB sur votre ordinateur
 
 Sur l'ordinateur exécuter les commandes suivantes :
+```
+./fastboot erase userdata
+./fastboot erase system
+./fastboot erase cache
+./fastboot erase linux
+./fastboot erase recovery
+./fastboot flash recovery recovery-cwm-CM10-A3.img
 
-	
-	./fastboot erase userdata
-	./fastboot erase system
-	./fastboot erase cache
-	./fastboot erase linux
-	./fastboot erase recovery
-	./fastboot flash recovery recovery-cwm-CM10-A3.img
-	
-	
-	./fastboot reboot
 
+./fastboot reboot
+```
 
 Pour la commande qui flashe le recovery, il faut bien sur avoir recopié le fichier img dans le répertoire courant ou adapter la commande.
 ### Installation

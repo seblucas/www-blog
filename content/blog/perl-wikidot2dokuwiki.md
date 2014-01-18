@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # Transformation Wikidot > Dokuwiki
 
 J'ai transféré mon ex blog/wiki de wikidot (http://slucas.wikidot.com) à dokuwiki (http://www.slucas.fr). Par fainéantise j'ai donc créé un script Perl (d'un laideur rare) pour me faciliter le travail.
-<code perl wikidot2dokuwiki.pl>
+```perl
 #!/usr/bin/perl
 
 use strict;
@@ -54,7 +54,7 @@ sub TransformeCreate ($)
     
     close OUTPUT;
 }
-</code>
+```
 Il gère :
 
 *	Les liens externes

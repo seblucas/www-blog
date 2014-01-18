@@ -31,7 +31,7 @@ J'ai donc pu envoyer quelques milliers de photos sur Picasa. Malheureusement mê
 
 J'ai donc réalisé un petit script (inspiré par ce [lien](http://stackoverflow.com/questions/4559030/not-able-to-change-a-date-of-my-picasa-web-albums-album-via-python-api)) qui change la date de l'album et qui permet d'avoir un tri correct des photos.
 
-<code python updateAlbum.py>
+```python
 #!/usr/bin/python
 
 import gdata.photos.service
@@ -66,7 +66,7 @@ for album in albums.entry:
 
   print 'title: %s, number of photos: %s, id: %s' % (album.title.text, 
     album.numphotos.text, album.gphoto_id.text)
-</code>
+```
 
 Et voilà avec ça, j'ai les photos dans le bon ordre.
 

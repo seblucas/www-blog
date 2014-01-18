@@ -34,7 +34,7 @@ J'ai pris la version Windows et je n'ai pas testé la version Linux pour le mome
 La seule dépendance est esxi-control.pl à récupérer [ici](http://blog.peacon.co.uk/wiki/Esxi-control.pl). J'ai choisi la simplicité et j'ai placé ce fichier dans le répertoire C:\Program Files\VMware\VMware vSphere CLI\Perl\bin.
 ### Scripts de sauvegarde
 
-<code ~ saveOneVM.cmd>
+```
 set PERL5LIB=
 set esxi_server=XXX.XXX.XXX.XXX
 set esxi_username=root
@@ -52,7 +52,7 @@ perl.exe esxi-control.pl --server %esxi_server% --username %esxi_username% --pas
 perl.exe esxi-control.pl --server %esxi_server% --username %esxi_username% --password %esxi_password% --action copy-file --sourcefile "[%esxi_datastore_in%] %1/%1.vmx" --destfile "[%esxi_datastore_out%] %1/%1.vmx"
 perl.exe esxi-control.pl --server %esxi_server% --username %esxi_username% --password %esxi_password% --action copy-file --sourcefile "[%esxi_datastore_in%] %1/%1.vmxf" --destfile "[%esxi_datastore_out%] %1/%1.vmxf"
 perl.exe esxi-control.pl --server %esxi_server% --username %esxi_username% --password %esxi_password% --action poweron --vmname %1
-</code>
+```
 Quelques explications :
 
 *	Ce script est à installer dans C:\Program Files\VMware\VMware vSphere CLI\Perl\bin. 
@@ -82,9 +82,9 @@ ATTENTION :
 Il est possible d'adapter le script pour éviter d'arrêter les machines en lançant un snapshot avant de faire les sauvegardes et libérer ce snapshot à la fin. Personnellement ça ne m'intéressait pas (je fais une sauvegarde complète en ayant planifié un reboot par mois).
 ### Script à ajouter aux tâches planifiées
 
-<code ~ saveESXi.cmd>
+```
 for %%X in (vm1 vm2 vm3 vm4) do (saveOneVM.cmd %%X)
-</code>
+```
 
 
 

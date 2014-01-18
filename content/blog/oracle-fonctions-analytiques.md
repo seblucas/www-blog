@@ -27,44 +27,41 @@ Le plus simple était de passer par une fonction.
 cela passe par trois étapes :
 
 *	Création d'un type
-
-	:::sql
-	CREATE OR REPLACE TYPE t_varchar2_tab AS TABLE OF VARCHAR2(4000);
-
+```sql
+CREATE OR REPLACE TYPE t_varchar2_tab AS TABLE OF VARCHAR2(4000);
+```
 
 *	Création d'une fonction
-
-	:::sql
-	CREATE OR REPLACE FUNCTION tab_to_string (p_varchar2_tab  IN  t_varchar2_tab,
-	                                          p_delimiter     IN  VARCHAR2 DEFAULT ',') RETURN VARCHAR2 IS
-	  l_string     VARCHAR2(32767);
-	BEGIN
-	  FOR i IN p_varchar2_tab.FIRST .. p_varchar2_tab.LAST LOOP
-	    IF i != p_varchar2_tab.FIRST THEN
-	      l_string := l_string || p_delimiter;
-	    END IF;
-	    l_string := l_string || p_varchar2_tab(i);
-	  END LOOP;
-	  RETURN l_string;
-	END tab_to_string;
-	/
-
+```sql
+CREATE OR REPLACE FUNCTION tab_to_string (p_varchar2_tab  IN  t_varchar2_tab,
+                                          p_delimiter     IN  VARCHAR2 DEFAULT ',') RETURN VARCHAR2 IS
+  l_string     VARCHAR2(32767);
+BEGIN
+  FOR i IN p_varchar2_tab.FIRST .. p_varchar2_tab.LAST LOOP
+    IF i != p_varchar2_tab.FIRST THEN
+      l_string := l_string || p_delimiter;
+    END IF;
+    l_string := l_string || p_varchar2_tab(i);
+  END LOOP;
+  RETURN l_string;
+END tab_to_string;
+/
+```
 
 *	La requête
-
-	:::sql
-	SELECT deptno,
-	       tab_to_string(CAST(COLLECT(ename) AS t_varchar2_tab)) AS employees
-	FROM   emp
-	GROUP BY deptno;
-
+```sql
+SELECT deptno,
+       tab_to_string(CAST(COLLECT(ename) AS t_varchar2_tab)) AS employees
+FROM   emp
+GROUP BY deptno;
+```
 ###  en 11g : LISTAGG 
 
-	:::sql
-	SELECT deptno, LISTAGG(ename, ',') WITHIN GROUP (ORDER BY ename) AS employees
-	FROM   emp
-	GROUP BY deptno;
-
+```sql
+SELECT deptno, LISTAGG(ename, ',') WITHIN GROUP (ORDER BY ename) AS employees
+FROM   emp
+GROUP BY deptno;
+```
 ## Les tables virtuelles
 
 http://www.oracle-developer.net/display.php?id=207

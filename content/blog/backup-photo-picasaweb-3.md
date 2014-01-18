@@ -12,7 +12,7 @@ Comme je l'ai déjà dit dans les articles précédents (voir [Sauvegarder ses p
 ## Python à la rescousse
 
 Avec un peu de reverse engineering et avec l'API j'ai retrouvé comment reconstituer l'URL d'accès aux albums et j'ai fait un script python qui me permet de me générer une structure HTML prête à être intégrée dans une page.
-<code python getPicasaAlbum.py>
+```python
 #!/usr/bin/python
 
 # -*- coding: utf-8 -*-
@@ -61,7 +61,7 @@ fileht.write ("  </ul>\n");
 fileht.write("</div>");
 fileht.close();
 
-</code>
+```
 
 Attention le script peut être à réadapter en fonction de la règle de nommage de l'album vu que je regroupe par année. La suite mettre le tout dans une belle page HTML agréable à l’œil.
 

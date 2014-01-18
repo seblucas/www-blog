@@ -21,20 +21,19 @@ Nginx gère l'accès à PHP via un fastcgi donc le paramètre PHP $_SERVER['HTTP
 ### Solution dans Nginx
 
 J'ai mélangé la configuration HTTP et HTTPS dans le même fichier (étant donné que je n'ai pas de différence) ce qui me donne le fichier suivant pour l'entête :
+```
+        listen [::]:80;
+        listen  [::]:443 ssl;
 
-	
-	        listen [::]:80;
-	        listen  [::]:443 ssl;
-	
-	        server_name blog.slucas.fr blog-ipv6.slucas.fr;
-	
-	        if ($server_port = 443) { set $https on; }
-	        if ($server_port = 80) { set $https off; }
-	
-	        ssl_certificate      /etc/nginx/ssl-blog.crt;
-	        ssl_certificate_key  /etc/nginx/slucas.fr.key;
-	
+        server_name blog.slucas.fr blog-ipv6.slucas.fr;
 
+        if ($server_port = 443) { set $https on; }
+        if ($server_port = 80) { set $https off; }
+
+        ssl_certificate      /etc/nginx/ssl-blog.crt;
+        ssl_certificate_key  /etc/nginx/slucas.fr.key;
+
+```
 Notez :
 
 *	que je positionne une variable $https avec la valeur on ou off selon l'accès.
@@ -42,19 +41,17 @@ Notez :
 *	que j'écoute sur le port 80 et 443.
 
 Ensuite pour l'appel de mes fichiers php, j'ai modifié les éléments suivants :
-
-	
-	fastcgi_cache_key $https$request_method$host$request_uri;
-	fastcgi_param HTTPS $https;
-
+```
+fastcgi_cache_key $https$request_method$host$request_uri;
+fastcgi_param HTTPS $https;
+```
 En effet, je dois avoir des clés de cache différentes entre le mode ssl et le mode normale vu que le HTML sera différent. Et enfin je passe le paramètre HTTPS au fastcgi PHP.
 ### Modification des scripts PHP
 
 Il ne reste plus qu'à modifier les scripts PHP pour ajouter des contrôles de ce style :
-
-	:::php
-	if (!(isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on"))
-	{
-	// Code uniquement HTTP
-	}
-
+```php
+if (!(isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on"))
+{
+// Code uniquement HTTP
+}
+```

@@ -17,9 +17,9 @@ La principale motivation de cette nouvelle version est la rationalisation du par
 
 Ensuite j'ai aussi ajouté un paramétrage qui me tenait à cœur pour activer la [recherche à facettes](http://fr.wikipedia.org/wiki/Recherche_%C3%A0_facettes) (ou en [anglais](http://opds-spec.org/2011/06/14/faceted-search-browsing/)) dans le catalogue OPDS. Grosso modo cela me permet de pouvoir filtrer chaque liste de livres en fonction de Tags. J'ai par exemple un Tag Read que j'ai affecté à chaque livre que j'ai déjà lu. Avec le paramétrage suivant :
 
-	
-	$config['cops_books_filter'] = array ("Tout" => "", "Non lu" => "!Read", "Lu" => "Read")
-
+```
+$config['cops_books_filter'] = array ("Tout" => "", "Non lu" => "!Read", "Lu" => "Read")
+```
 
 Je peux afficher facilement uniquement les livres non lus si besoin. Attention seul Mantano Reader (Android) et Bluefire (IOS) supportent ces fonctionnalités (Si vous êtes un fan d'un autre client OPDS, demandez à l'auteur d'ajouter le support). Le même type de filtre sera ajouté sur le catalogue HTML dans un prochaine version.
 

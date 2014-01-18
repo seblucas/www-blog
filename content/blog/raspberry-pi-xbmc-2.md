@@ -40,17 +40,16 @@ Au final, comme le développeur de Raspbmc le fait remarquer beaucoup de choses 
 Comme indiqué précédemment c'est la version de production chez moi. Et un soir, elle a voulu se mettre à jour. Je n'ai pas été assez rapide pour enlever le câble réseau et au final je me suis retrouvé avec un XBMC qui ne fonctionnait plus.
 
 Je me suis donc connecté en SSH (user pi/raspberry) et j'ai exécuté les commandes suivantes : 
-
-	
-	sudo initctl stop xbmc
-	sudo rm -rf /opt/xbmc-bcm
-	sudo wget http://raspbmc.com/downloads/bin/xbmc/xbmc-rbp-20120805.tar.gz -O /tmp/xbmc-rbp-20120805.tar.gz
-	sudo tar xzf /tmp/xbmc-rbp-20120805.tar.gz -C /opt
-	sudo rm /tmp/xbmc-rbp-20120805.tar.gz
-	sudo ldconfig
-	sudo initctl start xbmc
-	touch /home/pi/.noupgrades
-
+```
+sudo initctl stop xbmc
+sudo rm -rf /opt/xbmc-bcm
+sudo wget http://raspbmc.com/downloads/bin/xbmc/xbmc-rbp-20120805.tar.gz -O /tmp/xbmc-rbp-20120805.tar.gz
+sudo tar xzf /tmp/xbmc-rbp-20120805.tar.gz -C /opt
+sudo rm /tmp/xbmc-rbp-20120805.tar.gz
+sudo ldconfig
+sudo initctl start xbmc
+touch /home/pi/.noupgrades
+```
 ## Flamewar entre Raspbmc et XBian ?
 
 Honnêtement je n'ai pas d'avis, mais si vous voulez rire, faites des recherches sur ce sujet. Moi ça m'amuse ;).

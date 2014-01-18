@@ -16,78 +16,70 @@ http://ubuntuservergui.com/ubuntu-server-guide/install-dropbox-ubuntu-server
 ## Installation
 
 ### Création d'un compte
-
-	
-	adduser dropbox
-	su - dropbox
-
+```
+adduser dropbox
+su - dropbox
+```
 ### Téléchargement
 
 *	Version 32 bits :
-
-	
-	wget -O dropbox.tar.gz "http://www.dropbox.com/download/?plat=lnx.x86"
-
+```
+wget -O dropbox.tar.gz "http://www.dropbox.com/download/?plat=lnx.x86"
+```
 
 *	Version 64 bits : 
-
-	
-	wget -O dropbox.tar.gz "http://www.dropbox.com/download/?plat=lnx.x86_64"
-
+```
+wget -O dropbox.tar.gz "http://www.dropbox.com/download/?plat=lnx.x86_64"
+```
 ### Vérification
 
 Il faut bien vérifier que la variable d'environnement LANG est bien spécifiée :
-
-	
-	printenv LANG
-
+```
+printenv LANG
+```
 Dans le cas ou la variable n'existe pas, il faut exécuter (en root) : 
-
-	
-	aptitude install locales
-	dpkg-reconfigure locales
-
+```
+aptitude install locales
+dpkg-reconfigure locales
+```
 ### Installation
 
-	
-	tar -xzvf dropbox.tar.gz
-	~/.dropbox-dist/dropboxd
-
+```
+tar -xzvf dropbox.tar.gz
+~/.dropbox-dist/dropboxd
+```
 
 Il faut ensuite copier l'URL affichée dans la console et la mettre dans votre meilleur navigateur et vous connecter à votre compte. Il est possible de quitter avec CTRL+C le programme dropboxd.
 ### Synchronisation
 
 La synchronisation manuelle se passe facilement : 
-
-	
-	~/.dropbox-dist/dropbox
-
+```
+~/.dropbox-dist/dropbox
+```
 
 Le plus propre est de faire un fichier init.d (je l'ajouterai plus tard).
 ### Gestion avancée
 
 Il est possible de faire une gestion plus fine (exclure des répertoire, vérifier le statut, ...) avec un programme python :
-
-	
-	wget -O ~/.dropbox/dropbox.py "http://www.dropbox.com/download?dl=packages/dropbox.py"
-	chmod +x ~/.dropbox/dropbox.py
-
+```
+wget -O ~/.dropbox/dropbox.py "http://www.dropbox.com/download?dl=packages/dropbox.py"
+chmod +x ~/.dropbox/dropbox.py
+```
 
 La documentation est la suivante : 
-
-	
-	~/.dropbox/dropbox.py help
-	 
-	Note: use dropbox help <command> to view usage for a specific command.
-	 
-	 status       get current status of the dropboxd
-	 help         provide help
-	 puburl       get public url of a file in your dropbox
-	 stop         stop dropboxd
-	 running      return whether dropbox is running
-	 start        start dropboxd
-	 filestatus   get current sync status of one or more files
-	 ls           list directory contents with current sync status
-	 autostart    automatically start dropbox at login
-	 exclude      ignores/excludes a directory from syncing
-
+```
+~/.dropbox/dropbox.py help
+ 
+Note: use dropbox help <command> to view usage for a specific command.
+ 
+ status       get current status of the dropboxd
+ help         provide help
+ puburl       get public url of a file in your dropbox
+ stop         stop dropboxd
+ running      return whether dropbox is running
+ start        start dropboxd
+ filestatus   get current sync status of one or more files
+ ls           list directory contents with current sync status
+ autostart    automatically start dropbox at login
+ exclude      ignores/excludes a directory from syncing
+```

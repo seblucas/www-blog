@@ -18,22 +18,21 @@ Il y a pas mal de concurrence dans le domaine des NAS, j'ai choisi la marque Syn
 *	Se connecter en SSH
 
 *	Executer ces commandes :
-
-	:::bash
-	wget http://ipkg.nslu2-linux.org/feeds/optware/cs08q1armel/cross/unstable/syno-mvkw-bootstrap_1.2-7_arm.xsh
-	chmod +x ./syno-mvkw-bootstrap_1.2-7_arm.xsh
-	./syno-mvkw-bootstrap_1.2-7_arm.xsh
-	rm ./syno-mvkw-bootstrap_1.2-7_arm.xsh
-	ipkg update
-
+```bash
+wget http://ipkg.nslu2-linux.org/feeds/optware/cs08q1armel/cross/unstable/syno-mvkw-bootstrap_1.2-7_arm.xsh
+chmod +x ./syno-mvkw-bootstrap_1.2-7_arm.xsh
+./syno-mvkw-bootstrap_1.2-7_arm.xsh
+rm ./syno-mvkw-bootstrap_1.2-7_arm.xsh
+ipkg update
+```
 Pour être sur d'installer la bonne version correspondant à votre NAS voir [ici](http://forum.synology.com/wiki/index.php/Overview_on_modifying_the_Synology_Server,_bootstrap,_ipkg_etc#How_to_install_ipkg)
 
 ## Installation de subversion
 
-	
-	ipkg update
-	ipkg install subversion
-
+```
+ipkg update
+ipkg install subversion
+```
 ## Paramétrage sur svn+ssh
 
 ### Attention
@@ -61,27 +60,25 @@ J'ai trouvé un début de tutoriel ici : http://forum.synology.com/enu/viewtopic
 Par défaut seul root a le droit de se connecter en ssh, il va donc falloir ruser :
 
 *	On crée un répertoire home pour svn :
-
-	
-	mkdir /user
-	mkdir /user/svn
-	chown svn.root /user/svn
-
+```
+mkdir /user
+mkdir /user/svn
+chown svn.root /user/svn
+```
 
 *	On modifie le /etc/passwd pour ajouter le répertoire home et le shell à notre utilisateur svn :
-
-	
-	svn:x:<Number>:<Group>:Subversion user:/user/svn:/bin/ash
-
+```
+svn:x:<Number>:<Group>:Subversion user:/user/svn:/bin/ash
+```
 Vous pouvez vous connecter avec l'utilisateur svn
 ### Préparation de la connexion svn+ssh
 
 Le principe d'une connexion svn+ssh est bien sur de lancer une connexion ssh et ensuite via celle ci de lancer svnserve avec certains paramètres. Comme je savais ce que je voulais, j'ai utilisé une méthode de sioux : lors d'une connexion par svn+ssh le profile n'est pas exécuté donc /opt/bin (lieu ou sont stockés les éléments installés via ipkg) n'est pas dans le path. J'ai donc créé un petit script dans /usr/bin :
-<code bash svnserve>
+```bash
 #!/bin/ash
 
 /opt/bin/svnserve -r /volume1 $@
-</code>
+```
 Quelques explications : 
 
 *	le -r /volume1 est pour préciser la racine virtuelle (pour alléger les url des dépôts)
@@ -97,25 +94,22 @@ Pour faire plus simple il est aussi possible de faire un lien symbolique directe
 
 #### Création d'un dépôt
 Se connecter en svn
-
-	
-	cd /volume1/svn
-	svnadmin create test
-
+```
+cd /volume1/svn
+svnadmin create test
+```
 #### Checkout
 
 Sur une autre machine (windows ou Linux), faire un checkout de la façon suivante : 
-
-	
-	svn co svn+ssh://svn@AdresseIpDuNas/svn/test
-
+```
+svn co svn+ssh://svn@AdresseIpDuNas/svn/test
+```
 Une fois le mot de passe saisi tout doit fonctionner correctement.
 
 Si le choix du lien symbolique a été fait il faut remplacer l'url par la suivante : 
-
-	
-	svn co svn+ssh://svn@AdresseIpDuNas/volume1/svn/test
-
+```
+svn co svn+ssh://svn@AdresseIpDuNas/volume1/svn/test
+```
 ### Ajout de clé privée/publique pour se faciliter la vie
 
 A compléter

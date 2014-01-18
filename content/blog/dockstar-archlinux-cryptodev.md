@@ -17,23 +17,22 @@ Depuis le crash de ma clé USB en décembre, j'ai un peu laissé tomber le Docks
 Mon Dockstar était déjà prêt donc je n'ai rien eu à faire. Donc allez voir mes précédents articles si besoin.
 ### Téléchargement
 
-	
-	wget http://archlinuxarm.org/os/ArchLinuxARM-armv5te-latest.tar.gz
-
+```
+wget http://archlinuxarm.org/os/ArchLinuxARM-armv5te-latest.tar.gz
+```
 ### Préparation de la clé
 
 Pour aller plus vite j'ai mis ma clé USB sur mon ordinateur portable (en dev/sdb). Je l'ai partitionné de la même manière que mon installation debian (sdb1 = partition /).
-
-	
-	mk2fs /dev/sdb1
-	mkdir usb
-	mount /dev/sdb1 usb
-	cd usb
-	tar xvzf ../ArchLinuxARM-armv5te-latest.tar.gz
-	sync
-	cd ..
-	umount usb
-
+```
+mk2fs /dev/sdb1
+mkdir usb
+mount /dev/sdb1 usb
+cd usb
+tar xvzf ../ArchLinuxARM-armv5te-latest.tar.gz
+sync
+cd ..
+umount usb
+```
 ### Boot
 
 Au boot on démarre directement sur notre ArchLinux (mot de passe root/root).
@@ -56,41 +55,37 @@ Le moyen le plus propre est d'utiliser le module noyau crytodev que la biblioth�
 ### Installation
 
 #### Installation du package
-
-	
-	pacman -Syyuf
-	pacman -S openssl-cryptodev
-
+```
+pacman -Syyuf
+pacman -S openssl-cryptodev
+```
 Il faut accepter tout ce qu'il propose (désinstaller le package openssl notamment).
 #### Modification des règles udev
 
-	
-	echo '"KERNEL=="crypto", MODE="0666"' > /etc/udev/rules.d/99-cryptodev.rules
-
+```
+echo '"KERNEL=="crypto", MODE="0666"' > /etc/udev/rules.d/99-cryptodev.rules
+```
 #### Ajout du chargement du module
 
 Ajout le module cryptodev dans le fichier /etc/rc.conf :
-
-	
-	MODULES=(cryptodev)
-
+```
+MODULES=(cryptodev)
+```
 #### Reboot et test
 
 Après un reboot vous devriez avoir ce genre de sortie :
-
-	
-	[root@alarm ~]# openssl engine
-	(cryptodev) BSD cryptodev engine
-	(dynamic) Dynamic engine loading support
-
+```
+[root@alarm ~]# openssl engine
+(cryptodev) BSD cryptodev engine
+(dynamic) Dynamic engine loading support
+```
 ### Bench Openssl
 
 Test avec l'accélération matérielle :
-
-	
-	openssl speed -elapsed -evp aes-128-cbc
-	openssl speed -elapsed -evp aes-256-cbc
-
+```
+openssl speed -elapsed -evp aes-128-cbc
+openssl speed -elapsed -evp aes-256-cbc
+```
 
 Attention au paramètre -elapsed qui est très important pour pouvoir comparer une implémentation matérielle et logicielle. Sans ce paramètre les chiffres ne sont pas comparables.
 
@@ -107,22 +102,19 @@ Merci à thana54 sur HFR qui m'a bien aidé (voir [ici](http://forum.hardware.fr
 Pour ce test je fais un test iperf via un tunnel crypté SSH.
 
 Sur le dockstar : 
-
-	
-	iperf -s
-
+```
+iperf -s
+```
 
 Sur une autre machine Linux de test (en réseau filaire), on créé le tunnel :
-
-	
-	ssh -L 5001:localhost:5001 IPDockstar 
-
+```
+ssh -L 5001:localhost:5001 IPDockstar 
+```
 
 Sur cette même machine on lance iperf :
-
-	
-	iperf -c 127.0.0.1 -t 60 -i 10
-
+```
+iperf -c 127.0.0.1 -t 60 -i 10
+```
 
 Bilan :
 

@@ -49,23 +49,28 @@ J'ai pu tester les systèmes de fichiers suivants :
 La Kobo ne supporte pas les carte µSD formatée sans table de partition (en mode superfloppy). Donc si vous avez totalement remis à zéro une carte µSD, pensez à bien recréer la partition.
 
 Sous Linux :
+```bash
+#adjust /sdd to be your device
 
-	:::bash
-	#adjust /sdd to be your device
-	#check its unmounted by Nautilus
-	udisks --unmount /dev/sdd1
-	#wipe it
-	dd if=/dev/zero of=/dev/sdd bs=1M
-	#use full card size with first partition
-	fdisk -H255 -S63 /dev/sdd
-	#manually eject it now so kernel updates with partition
-	#format it, in this case ext4
-	mkfs.ext4 /dev/sdd1
-	#stop wasting reserved space
-	tune2fs /dev/sdd1 -m0 -O sparse_super -L "8Gb KOBO"
-	#turn journal off as flash
-	tune2fs -O ^has_journal /dev/sdd1
+#check its unmounted by Nautilus
+udisks --unmount /dev/sdd1
+#wipe it
 
+dd if=/dev/zero of=/dev/sdd bs=1M
+#use full card size with first partition
+
+fdisk -H255 -S63 /dev/sdd
+#manually eject it now so kernel updates with partition
+
+#format it, in this case ext4
+mkfs.ext4 /dev/sdd1
+#stop wasting reserved space
+
+tune2fs /dev/sdd1 -m0 -O sparse_super -L "8Gb KOBO"
+#turn journal off as flash
+
+tune2fs -O ^has_journal /dev/sdd1
+```
 
 Source : http://www.richud.com/wiki/Kobo_eReader_touch
 ## Personnaliser l'écran de veille
@@ -76,30 +81,27 @@ Alors c'est encore plus chaud que tout le reste mais cela reste amusant. Un util
 *	Mettre en place les accès telnet et ftp.
 
 *	Récupérer la bibliothèque nickel sur la Kobo :
-
-	:::bash
-	    ftp kobo
-	    cd /usr/local/Kobo
-	    get libnickel.so.1.0.0
-
+```bash
+    ftp kobo
+    cd /usr/local/Kobo
+    get libnickel.so.1.0.0
+```
 
 *	A l'aide d'un éditeur binaire recherche la chaine de caractères "Sleep Mode" et il faut la remplacer celle de votre choix. Attention : ne pas changer la taille totale de la chaine (compléter par des espaces si nécessaire). Ici l'exemple avec "Chuck" :
-
-	
-	    010E0160  65 70 69 6E 67 2D 62 6C 61 63 6B 2E 70 6E 67 00 eping-black.png.
-	    010E0170  66 6F 6E 74 3A 20 69 74 61 6C 69 63 20 34 34 70 font: italic 44p
-	    010E0180  78 20 47 65 6F 72 67 69 61 20 3B 00 20 43 68 75 x Georgia ;. Chu
-	    010E0190  63 6B 27 73 20 00 00 00 51 57 69 64 67 65 74 20 ck's ...QWidget
-	    010E01A0  7B 20 63 6F 6C 6F 72 3A 20 72 67 62 28 32 35 35 { color: rgb(255 
-
+```
+    010E0160  65 70 69 6E 67 2D 62 6C 61 63 6B 2E 70 6E 67 00 eping-black.png.
+    010E0170  66 6F 6E 74 3A 20 69 74 61 6C 69 63 20 34 34 70 font: italic 44p
+    010E0180  78 20 47 65 6F 72 67 69 61 20 3B 00 20 43 68 75 x Georgia ;. Chu
+    010E0190  63 6B 27 73 20 00 00 00 51 57 69 64 67 65 74 20 ck's ...QWidget
+    010E01A0  7B 20 63 6F 6C 6F 72 3A 20 72 67 62 28 32 35 35 { color: rgb(255 
+```
 
 *	Transmettre le fichier modifié sur la Kobo
-
-	:::bash
-	    ftp kobo
-	    cd /usr/local/Kobo
-	    put libnickel.so.1.0.0
-
+```bash
+    ftp kobo
+    cd /usr/local/Kobo
+    put libnickel.so.1.0.0
+```
 
 *	Redémarrer la liseuse (par le petit bouton et un trombone)
 

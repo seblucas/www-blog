@@ -11,13 +11,13 @@ Comme indiqué dans mon précédent article sur le sujet (voir [Partager un rép
 
 ## Installation de Avahi (équivalent de Zeronconf)
 
-	
-	pacman -S avahi
-
+```
+pacman -S avahi
+```
 ## Ajout du partage NFS
 
 Ajouter le fichier suivant dans /etc/avahi/services :
-<code ~ nfs-partage.service>
+```
 <?xml version="1.0" standalone='no'?>
  <!DOCTYPE service-group SYSTEM "avahi-service.dtd">
  <service-group>
@@ -28,13 +28,13 @@ Ajouter le fichier suivant dans /etc/avahi/services :
      <txt-record>path=/home/user/partage</txt-record>
    </service>
  </service-group>
-</code> 
+```
 ## Démarrer les services
 
-	
-	rc.d start dbus
-	rc.d start avahi-daemon
-
+```
+rc.d start dbus
+rc.d start avahi-daemon
+```
 
 Ne pas hésiter à ajouter ces deux démons dans la section DAEMONS du fichier rc.conf.
 ## Bilan

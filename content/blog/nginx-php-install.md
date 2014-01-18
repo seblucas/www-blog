@@ -23,23 +23,22 @@ Mon objectif était de transformer un Dockstar en serveur Web, vu les capacités
 
 ##  Installation de nginx
 
-	
-	aptitude install nginx
-
+```
+aptitude install nginx
+```
 ## Installation de PHP en fastcgi
 
 Pour la suite je me suis inspiré de : http://neokraft.net/2010/serveur-web-nginx-php-mysql
 ### Installation
 
 Attention ne pas installer le paquet php car celui entraine l'installation d'apache et ce n'est pas vraiment le but.
-
-	
-	aptitude install php5-cgi spawn-fcgi
-
+```
+aptitude install php5-cgi spawn-fcgi
+```
 ### Demon
 
 Ce démon est à créer dans /etc/init.d
-<code bash php5-fcgi>
+```bash
 #!/bin/sh
 
 ### BEGIN INIT INFO
@@ -97,35 +96,33 @@ case "$1" in
   ;;
 esac
 exit $RETVAL
-</code>
+```
 Il reste ensuite à le paramétrer pour qu'il démarre automatiquement :
-
-	
-	cd /etc/init.d
-	chmod +x php5-fcgi
-	update-rc.d php5-fcgi defaults
-
+```
+cd /etc/init.d
+chmod +x php5-fcgi
+update-rc.d php5-fcgi defaults
+```
 
 ## Utilisation du PHP dans nginx
 
 Mon fichier de configuration de nginx (/etc/nginx/sites-enabled) :
+```
+server {
+        listen   80; ## listen for ipv4
 
-	
-	server {
-	        listen   80; ## listen for ipv4
-	
-	        server_name blog.slucas.fr;
-	
-	        access_log  /var/log/nginx/xxx.log;
-	        root   /xxx;
-	        index doku.php;
-	
-	        location ~ \.php$ {
-	                include /etc/nginx/fastcgi_params;
-	                fastcgi_param   SCRIPT_FILENAME  $document_root$fastcgi_script_name;
-	                fastcgi_pass    127.0.0.1:9000;
-	        }
-	}
+        server_name blog.slucas.fr;
 
+        access_log  /var/log/nginx/xxx.log;
+        root   /xxx;
+        index doku.php;
+
+        location ~ \.php$ {
+                include /etc/nginx/fastcgi_params;
+                fastcgi_param   SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+                fastcgi_pass    127.0.0.1:9000;
+        }
+}
+```
 Dans le cas de dokuwiki tout passe par le php donc je n'ai même pas mis de /.
 

@@ -14,14 +14,14 @@ Il est censé exister un moyen de la faire via l'application Perl scripting API 
 J'ai trouvé l'inspiration sur ce site http://www.cyberciti.biz/tips/start-stop-vmware-virtualization-vms-command.html. Les exemples suivants sont pour Windows, le même principe est applicable sous Linux
 ### Arrêt d'une machine virtuelle
 
-	
-	C:\Program Files\VMware\VMware Server>vmrun -T server -h "url" -u user -p password stop "LienVersLeFichierVMX"
-
+```
+C:\Program Files\VMware\VMware Server>vmrun -T server -h "url" -u user -p password stop "LienVersLeFichierVMX"
+```
 ### Démarrage d'une machine virtuelle
 
-	
-	C:\Program Files\VMware\VMware Server>vmrun -T server -h "url" -u user -p password start "LienVersLeFichierVMX"
-
+```
+C:\Program Files\VMware\VMware Server>vmrun -T server -h "url" -u user -p password start "LienVersLeFichierVMX"
+```
 ### Explications
 
 *	url : https://NomServeur:8333/sdk

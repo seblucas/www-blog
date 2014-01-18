@@ -26,13 +26,12 @@ Je ne sais pas si c'est parce que ma commande s'est faite entre Noël et Nouvel 
 Via l'administration 1&1, j'ai accès a une interface Web me permettant d'arrêter/démarré ma machine quand je veux. Je peux aussi la réinitialiser si nécessaire.
 
 La version de Debian préinstallé est une Lenny donc j'ai été obligé de migrer vers une Squeeze (version stable) en mettant à jour le /etc/apt/sources.list :
+```
+deb http://update.onlinehome-server.info/distribution/debian squeeze main contrib non-free
+deb http://update.onlinehome-server.info/distribution/debian-security squeeze/updates main contrib non-free
 
-	
-	deb http://update.onlinehome-server.info/distribution/debian squeeze main contrib non-free
-	deb http://update.onlinehome-server.info/distribution/debian-security squeeze/updates main contrib non-free
-	
-	deb http://www.backports.org/debian squeeze-backports main
-
+deb http://www.backports.org/debian squeeze-backports main
+```
 avant de lancer un 
   aptitude upgrade
   

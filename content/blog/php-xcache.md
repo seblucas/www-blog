@@ -11,16 +11,15 @@ Robots: noindex,nofollow
 [XCache](http://xcache.lighttpd.net/) est un outil permettant de mettre en cache (en mémoire vive) le résultat de la compilation des fichiers PHP. Cela entraine bien évidemment un gain en performance (en terme de CPU et d'I/O).
 ## Installation
 
-	
-	aptitude install php5-xcache
-
+```
+aptitude install php5-xcache
+```
 ## Configuration
 
 Tout est préparé par defaut (un petit phpinfo() permet de la confirmer), il reste juste à éditer /etc/php5/conf.d/xcache.ini pour modifier la ligne suivante :
-
-	
-	xcache.size = 16M
-
+```
+xcache.size = 16M
+```
 J'ai choisi 16Mo parce que mon serveur Web a peu de RAM (voir [Dockstar](/blog/dockstar-install-squeeze)).
 
 ## Test

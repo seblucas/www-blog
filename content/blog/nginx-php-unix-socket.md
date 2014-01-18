@@ -12,7 +12,7 @@ Quand j'ai installé pour la premiere fois nginx + php (voir [Installation de ng
 ## Changement du script de fastcgi
 
 Les changements sont suivis de #.
-<code bash php5-fcgi>
+```bash
 #!/bin/sh
 
 ### BEGIN INIT INFO
@@ -73,17 +73,18 @@ case "$1" in
   ;;
 esac
 exit $RETVAL
-</code>
+```
 ## Changement des sites nginx
 
-	
-	location ~ \.php$ {
-	                include /etc/nginx/fastcgi_params;
-	                fastcgi_param   SCRIPT_FILENAME  $document_root$fastcgi_script_name;
-	#               fastcgi_pass    127.0.0.1:9000;
-	                fastcgi_pass    unix:/tmp/fcgi.sock; #####################################
-	        }
+```
+location ~ \.php$ {
+                include /etc/nginx/fastcgi_params;
+                fastcgi_param   SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+#               fastcgi_pass    127.0.0.1:9000;
 
+                fastcgi_pass    unix:/tmp/fcgi.sock; #####################################
+        }
+```
 ## Bilan
 
 Comment dire ce n'est pas flagrant, cela semble un peu plus rapide (en testant avec apache bench) mais cela ne change pas grand chose.

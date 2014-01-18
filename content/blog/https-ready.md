@@ -24,10 +24,10 @@ https://blog.slucas.fr
 Je vous laisse créer le compte et utiliser le Validation Wizard pour valider que vous êtes bien propriétaire de votre site.
 ### Création de la clé et du CSR (Certificate Signing Request)
 
-	
-	openssl genrsa -out slucas.fr.key 2048
-	openssl req -new -key slucas.fr.key -out slucas.fr.csr
-
+```
+openssl genrsa -out slucas.fr.key 2048
+openssl req -new -key slucas.fr.key -out slucas.fr.csr
+```
 Dans mon cas je n'ai pas mis de mot de passe sur le csr
 ### Transmission du CSR à StartSSL
 
@@ -41,12 +41,12 @@ Au final nous allons récupérer 3 fichiers :
 *	ca.pem
 ### Mise en place dans Nginx
 
-	
-	cat blog-startssl.crt sub.class1.server.ca.pem ca.pem > /etc/nginx/ssl-blog.crt
-	cp slucas.fr.key /etc/nginx/
-
+```
+cat blog-startssl.crt sub.class1.server.ca.pem ca.pem > /etc/nginx/ssl-blog.crt
+cp slucas.fr.key /etc/nginx/
+```
 il ne reste plus qu'à créer un nouveau site dans nginx et redémarrer Nginx :
-<code ~ ssl-blog>
+```
 server {
         listen   [::]:443;
         ssl on;
@@ -60,7 +60,7 @@ server {
                 proxy_pass http://blog.slucas.fr;
         }
 }
-</code>
+```
 
 ### Premier test : non concluant
 

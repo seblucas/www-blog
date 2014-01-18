@@ -8,7 +8,7 @@ Robots: noindex,nofollow
 # Ranger proprement des fichiers dans des répertoires
 
 Dernièrement un ami m'a donné des photos (un bon paquet de photos : 2325). Le problème est qu'elles étaient toutes dans un seul et même répertoire sans organisation en répertoire. Par contre elles étaient toutes nommées de la même manière : <Date au format ISO>-<Numéro>. Comme mon objectif était de les trier et de les organiser, j'ai décidé dans un premier de les regrouper par paquet du même jour pour me faciliter le travail. Et encore une fois vive perl :
-<code perl range.pl>
+```perl
 #!/usr/bin/perl
 
 use strict;
@@ -36,7 +36,7 @@ foreach my $v_file ( @v_filelist )
 }
 
 print "Fin\n";
-</code>
+```
 
 
 

@@ -33,35 +33,31 @@ J'ai installé une version minimale de Squeeze avec le serveur SSH, donc pas de 
     * Partition primaire 2 : ~7,5Go en ext4
 
 Après cette installation j'ai installé les paquets suivants (pour compiler les VMware tools) :
-
-	
-	aptitude install --without-recommends linux-headers-2.6-686
-
+```
+aptitude install --without-recommends linux-headers-2.6-686
+```
 Après la compilation et l'installation des VMware tools j'en ai supprimé les sources.
 
 ## Compression pour mise à disposition
 
 Dans le but de mettre à disposition l'appliance, j'ai fait un maximum de ménage pour réduire la taille totale du paquet. J'ai ensuite utilisé ce howto : http://www.howtoforge.com/how-to-shrink-vmware-virtual-disk-files-vmdk. 
-
-	
-	aptitude clean
-	aptitude autoclean
-	cat /dev/zero > zero.fill;sync;sleep 1;sync;rm -f zero.fill
-
+```
+aptitude clean
+aptitude autoclean
+cat /dev/zero > zero.fill;sync;sleep 1;sync;rm -f zero.fill
+```
 La dernière commande permet d'être certain que l'espace libre du disque virtuel est bien composé de 0 pour faciliter la compression.
 
 Le fichier compressé a ensuite été obtenu comme suit :
-
-	
-	7za a -t7z -m0=lzma -mx=8 -mfb=64 -md=32m -ms=on SqueezeMinimal.7z SqueezeMinimal/
-
+```
+7za a -t7z -m0=lzma -mx=8 -mfb=64 -md=32m -ms=on SqueezeMinimal.7z SqueezeMinimal/
+```
 ## Téléchargement
 
 http://dl.free.fr/n9E2zCz4f
 
 Ce fichier fait environ 184Mo. Il est à décompresser avec 7zip (http://www.7-zip.org/) sous Windows ou avec cette commande :
-
-	
-	7za x SqueezeMinimal.7z
-
+```
+7za x SqueezeMinimal.7z
+```
 

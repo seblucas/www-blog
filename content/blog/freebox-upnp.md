@@ -25,9 +25,9 @@ Après des tests plus approfondis de UShare et quelques déceptions, mon choix s
 
 La compilation de ushare est relativement simple. La seule dépendance est libupnp :
 
-	
-	aptitude install libupnp-dev
-
+```
+aptitude install libupnp-dev
+```
 
 Par contre l'installation est plus que compliqué sur une debian pour que le script de lancement automatique (init.d) s'installe ou il faut. Il faut vraiment jouer sur tous les paramètres (--prefix et --sysconfdir) du fichier configure pour y arriver.
 
@@ -43,9 +43,9 @@ A l'usage ushare a les désavantages suivants :
 ### Installation
 Suite à mes remarques négatives sur ushare j'ai installé Mediatomb. L'installation est toute simple (un paquet existe) :
 
-	
-	aptitude install mediatomb
-
+```
+aptitude install mediatomb
+```
 
 La configuration se fait ensuite via l'interface Web : http://adresseIPDuServeur:49152 (voir éventuellement le chapitre suivant sur iptables).
 
@@ -55,10 +55,10 @@ Avant d'ajouter les répertoires, je vous conseille :
 
 *	Modifier le fichier de configuration de mediatomb pour ajouter la gestion des mkv et des ts qui sont lisibles par la Freebox. Il faut ajouter les lignes suivantes dans le fichier /etc/mediatomb/config.xml
 
-	
-	<map from="mkv" to="video/x-matroska"/>
-	<map from="ts" to="video/mp2t"/>
-
+```
+<map from="mkv" to="video/x-matroska"/>
+<map from="ts" to="video/mp2t"/>
+```
 
 Il ne vous reste plus qu'à ajouter vos répertoires, personnellement je choisi toujours :
 
@@ -70,40 +70,39 @@ Il ne vous reste plus qu'à ajouter vos répertoires, personnellement je choisi 
 ### En cas d'erreur
 
 J'ai eu un problème ou Mediatomb état inaccessible après le boot. Un restart du service corrige le problème à tout les coups. J'ai regardé le log (/var/log/mediatomb) et je suis tombé sur ce genre d'erreur :
-
-	
-	2010-09-12 07:38:39    INFO: Loading configuration from: /etc/mediatomb/config.x
-	ml
-	2010-09-12 07:38:39    INFO: Checking configuration...
-	2010-09-12 07:38:39    INFO: Setting filesystem import charset to ANSI_X3.4-1968
-	2010-09-12 07:38:39    INFO: Setting metadata import charset to ANSI_X3.4-1968
-	2010-09-12 07:38:39    INFO: Setting playlist charset to ANSI_X3.4-1968
-	2010-09-12 07:38:39    INFO: Configuration check succeeded.
-	2010-09-12 07:38:39   ERROR: main: upnp error -117
-	2010-09-12 07:38:39   ERROR: upnp_cleanup: UpnpUnRegisterRootDevice failed
-
+```
+2010-09-12 07:38:39    INFO: Loading configuration from: /etc/mediatomb/config.x
+ml
+2010-09-12 07:38:39    INFO: Checking configuration...
+2010-09-12 07:38:39    INFO: Setting filesystem import charset to ANSI_X3.4-1968
+2010-09-12 07:38:39    INFO: Setting metadata import charset to ANSI_X3.4-1968
+2010-09-12 07:38:39    INFO: Setting playlist charset to ANSI_X3.4-1968
+2010-09-12 07:38:39    INFO: Configuration check succeeded.
+2010-09-12 07:38:39   ERROR: main: upnp error -117
+2010-09-12 07:38:39   ERROR: upnp_cleanup: UpnpUnRegisterRootDevice failed
+```
 Il m'a semblé que Mediatomb démarre avant que la carte réseau ne soit prête. Pour corriger cela j'ai ajouté un restart du service dès que la carte réseau est prête, j'ai donc ajouté le ficher suivant dans /etc/network/if-up.d/ :
-<code - mediatomb>
+```-
 #!/bin/sh
 
 /etc/init.d/mediatomb restart
-</code>
+```
 Il ne reste qu'à rendre le fichier exécutable.
-
-	
-	chmod +x /etc/network/if-up.d/mediatomb
-
+```
+chmod +x /etc/network/if-up.d/mediatomb
+```
 
 ## Comment configurer le firewall pour un serveur UPnP
 
 Les règles à mettre en place sont assez simples pour autoriser l'accès sur le réseau local :
 
-	
-	# Accès upnp sur le réseau local
-	iptables -A INPUT -s 192.168.0.0/24 -m tcp -p tcp --dport 49152 -j ACCEPT
-	iptables -A INPUT -s 192.168.0.0/24 -m udp -p udp --dport 49152 -j ACCEPT
-	iptables -A INPUT -s 192.168.0.0/24 -m udp -p udp --dport 1900 -j ACCEPT
+```
+# Accès upnp sur le réseau local
 
+iptables -A INPUT -s 192.168.0.0/24 -m tcp -p tcp --dport 49152 -j ACCEPT
+iptables -A INPUT -s 192.168.0.0/24 -m udp -p udp --dport 49152 -j ACCEPT
+iptables -A INPUT -s 192.168.0.0/24 -m udp -p udp --dport 1900 -j ACCEPT
+```
 
 Attention au port, le port par défaut d'UShare est le 49152, je n'ai pas trouvé d'informations sur le vrai standard à ce sujet (je n'ai pas beaucoup cherché non plus). Vérifiez bien le port utilisé par votre serveur UPnP.
 
@@ -113,15 +112,17 @@ Avec cette configuration vos autres ordinateurs peuvent accéder au serveur, ce 
 
 J'ai été un peu bourrin dans le sens ou je fais une confiance totale à la Freebox, je lui autorise un accès complet sur tous les ports :
 
-	
-	# On accepte tout ce qui vient/va de la Freebox HD
-	iptables -A INPUT -s 212.27.40.254 -j ACCEPT
+```
+# On accepte tout ce qui vient/va de la Freebox HD
 
+iptables -A INPUT -s 212.27.40.254 -j ACCEPT
+```
 
 Pour information l'adresse IP ci dessus correspond à hd1.freebox.fr qui correspond au boitier HD. On peut utiliser la même technique pour l'accès au multiposte avec cette fois ci l'adresse qui correspond à mafreebox.freebox.fr :
 
-	
-	# On accepte tout ce qui vient/va de la Freebox
-	iptables -A INPUT -s 212.27.38.253 -j ACCEPT
+```
+# On accepte tout ce qui vient/va de la Freebox
 
+iptables -A INPUT -s 212.27.38.253 -j ACCEPT
+```
 

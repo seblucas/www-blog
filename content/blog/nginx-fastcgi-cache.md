@@ -18,14 +18,13 @@ http://wiki.nginx.org/HttpFcgiModule
 ### Déclaration du cache
 
 On modifie /etc/nginx/nginx.conf :
-
-	
-	fastcgi_cache_path /tmp/nginx
-	                   levels=1:2
-	                   keys_zone=mycache:10m
-	                   inactive=1h
-	                   max_size=100m;
-
+```
+fastcgi_cache_path /tmp/nginx
+                   levels=1:2
+                   keys_zone=mycache:10m
+                   inactive=1h
+                   max_size=100m;
+```
 Une petite explication : 
 
 *	Le nom du cache est mycache
@@ -38,18 +37,17 @@ Une petite explication :
 ### Lier le cache et le site web
 
 Modifier votre site web (typiquement dans /etc/nginx/sites-enabled) :
+```
+location ~ \.php$ {
+                fastcgi_cache mycache; #################
+                fastcgi_cache_key $request_method$host$request_uri; #################
+                fastcgi_cache_valid any 1h; #################
 
-	
-	location ~ \.php$ {
-	                fastcgi_cache mycache; #################
-	                fastcgi_cache_key $request_method$host$request_uri; #################
-	                fastcgi_cache_valid any 1h; #################
-	
-	                include /etc/nginx/fastcgi_params;
-	                fastcgi_param   SCRIPT_FILENAME  $document_root$fastcgi_script_name;
-	                fastcgi_pass    unix:/tmp/fcgi.sock;
-	        }
-
+                include /etc/nginx/fastcgi_params;
+                fastcgi_param   SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+                fastcgi_pass    unix:/tmp/fcgi.sock;
+        }
+```
 
 Les lignes modifiées ont un #########.
 
@@ -62,10 +60,9 @@ Une petite explication :
 *	Les fichiers en cache resteront valide au maximum 1 heure (quelque soit la réponse du fastcgi).
 
 Une fois les deux modifications effectuées relancer nginx :
-
-	
-	/etc/init.d/nginx restart
-
+```
+/etc/init.d/nginx restart
+```
 ### Comment vérifier que ça fonctionne
 
 *	Afficher dans un navigateur une page
