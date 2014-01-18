@@ -31,6 +31,13 @@ h2 {
     background: #2c3e50;
 }
 
+.centered {
+    width:100%;
+    max-width:300px;
+    display:block;
+    margin:auto;
+}
+
 #content {
     padding: 2em 3em 0;
 }

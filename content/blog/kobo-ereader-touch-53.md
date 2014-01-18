@@ -12,9 +12,9 @@ Vu la gratuité du premier volume de la Roue du Temps de Robert Jordan (merci Br
 ## Le problème
 
 Dans les premières pages du livre il y a ça : 
-<a href='/blog/footnote-1.jpg'><img src='/blog/footnote-1.jpg' style='width:100%;max-width:200px;display:block;margin:auto' /></a>
+![Image](/blog/footnote-1.jpg){.centered}
 Comme je ne sais pas qui est ce Monsieur (ou cette dame d'ailleurs), j'ai cliqué sur le lien et là :
-<a href='/blog/footnote-2.jpg'><img src='/blog/footnote-2.jpg' style='width:100%;max-width:200px;display:block;margin:auto' /></a>
+![Image](/blog/footnote-2.jpg){.centered}
 
 J'espère que vous voyez mon problème ...
 
