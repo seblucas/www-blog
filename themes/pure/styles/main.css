@@ -61,9 +61,16 @@ h2 {
     color: #1abc9c;
 }
 
+pre {
+    background-color: #F8F8F8;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    padding: 6px 10px;
+}
+
 .post {
     margin-bottom: 2em;
-    font-size: 1.5em;
+    font-size: 1.0em;
 }
 
 .post a{
