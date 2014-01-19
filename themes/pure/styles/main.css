@@ -68,10 +68,12 @@ h2 {
 }
 
 pre {
-    background-color: #F8F8F8;
+    background-color: #F5F2F0;
     border: 1px solid #DDDDDD;
     border-radius: 3px;
     padding: 6px 10px;
+    color: #000000;
+    font-family: Consolas,Monaco,'Andale Mono',monospace;
 }
 
 .post {
