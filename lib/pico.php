@@ -138,7 +138,9 @@ class Pico {
 	{
 		$content = preg_replace('#/\*.+?\*/#s', '', $content); // Remove comments and meta
 		$content = str_replace('%base_url%', $this->base_url(), $content);
-		$content = MarkdownExtra::defaultTransform($content);
+        $parser = new MarkdownExtra;
+        $parser->code_class_prefix = "language-";
+		$content = $parser->transform($content);
 
 		return $content;
 	}
