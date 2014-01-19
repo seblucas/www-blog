@@ -41,7 +41,7 @@
             <div class="pure-u-1">
                 <div id="content">
 {% if is_front_page %}
-{% for page in pages %}
+{% for page in pages|slice(0, 10) %}
 {% if page.date and not(page.url == base_url~'/') %}
 		    <div class="post">
 		        <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
@@ -52,11 +52,8 @@
 {% endfor %}
 {% else %}
 		    <div class="post">
-{% if meta.title %}
-		        <h2>{{ meta.title }}</h2>
-{% endif %}
 {% if meta.date %}
-		        <p class="meta">Published {{ meta.date_formatted }}</p>
+		        <p class="meta" style="float:right">Published {{ meta.date_formatted }}</p>
 {% endif %}
 		        {% spaceless %}{{ content }}{% endspaceless %}
 				
