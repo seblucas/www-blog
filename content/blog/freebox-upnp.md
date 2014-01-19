@@ -7,7 +7,7 @@ Robots: noindex,nofollow
 */
 # Freebox et UPnP
 
-Depuis mi mai la Freebox HD peut se connecter à des serveurs [wp>UPnP](/wp>UPnP). Cela fonctionne quasiment nativement sous Windows XP / Vista grâce au serveur intégré à Windows Media Player 11. Par contre sous Linux c'est un peu plus compliqué si on veut éviter les usines à gaz.
+Depuis mi mai la Freebox HD peut se connecter à des serveurs [UPnP](http://fr.wikipedia.org/wiki/Special:Search?search=UPnP). Cela fonctionne quasiment nativement sous Windows XP / Vista grâce au serveur intégré à Windows Media Player 11. Par contre sous Linux c'est un peu plus compliqué si on veut éviter les usines à gaz.
 
 ## L'offre
 
@@ -56,8 +56,8 @@ Avant d'ajouter les répertoires, je vous conseille :
 *	Modifier le fichier de configuration de mediatomb pour ajouter la gestion des mkv et des ts qui sont lisibles par la Freebox. Il faut ajouter les lignes suivantes dans le fichier /etc/mediatomb/config.xml
 
 ```
-<map from="mkv" to="video/x-matroska"/>
-<map from="ts" to="video/mp2t"/>
+`<map from="mkv" to="video/x-matroska"/>`
+`<map from="ts" to="video/mp2t"/>`
 ```
 
 Il ne vous reste plus qu'à ajouter vos répertoires, personnellement je choisi toujours :

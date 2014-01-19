@@ -11,7 +11,7 @@ Robots: noindex,nofollow
 Il y a pas mal de concurrence dans le domaine des NAS, j'ai choisi la marque Synology parce qu'il est accessible par SSH/telnet et donc modifiable assez simplement.
 ## Installation de ipkg
 
-[wp>ipkg](/wp>ipkg) est grosso modo un équivalent de apt-get/aptitude. Sur mon DS210j il s'installe comme cela (attention l'archive à télécharger dépends de votre NAS) : 
+[ipkg](http://fr.wikipedia.org/wiki/Special:Search?search=ipkg) est grosso modo un équivalent de apt-get/aptitude. Sur mon DS210j il s'installe comme cela (attention l'archive à télécharger dépends de votre NAS) : 
 
 *	Activer la connexion SSH dans la console d'administration
 
@@ -68,7 +68,7 @@ chown svn.root /user/svn
 
 *	On modifie le /etc/passwd pour ajouter le répertoire home et le shell à notre utilisateur svn :
 ```
-svn:x:<Number>:<Group>:Subversion user:/user/svn:/bin/ash
+svn:x:`<Number>`:`<Group>`:Subversion user:/user/svn:/bin/ash
 ```
 Vous pouvez vous connecter avec l'utilisateur svn
 ### Préparation de la connexion svn+ssh

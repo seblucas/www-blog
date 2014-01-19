@@ -93,7 +93,7 @@ diff -Naur -x '*.dat' dokuwiki/lib/plugins/tag/helper.php slucas-wiki/lib/plugin
 +                else $url   = wl($tag, array('do'=>'showtag', 'tag'=>$tag));
              }
              $links[] = '<a href="'.$url.'" class="'.$class.'" title="'.hsc($tag).
-                 '" rel="tag">'.hsc($title).'</a>';
+                 '" rel="tag">'.hsc($title).`</a>`;
 @@ -232,6 +233,7 @@
              if (!(($tag{0} == '+') || ($tag{0} == '-'))) continue;
              $cleaned_tag = substr($tag, 1);

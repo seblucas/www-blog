@@ -37,7 +37,7 @@ hg init newrepo
 
 Simple : 
 ```
-hg clone ssh://svn@<IP DU NAS>///volume1/hg/newrepo
+hg clone ssh://svn@`<IP DU NAS>`///volume1/hg/newrepo
 ```
 ### Utilisation de clé privée/publique
 

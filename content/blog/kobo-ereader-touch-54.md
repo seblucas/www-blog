@@ -28,16 +28,16 @@ Un des principaux problèmes était la perte de la couverture du livre. David Fo
 
 *	Ouvrez ce fichier dans un éditeur de texte (Notepad++).
 
-*	Trouvez la section "<manifest>".
+*	Trouvez la section "`<manifest>`".
 
 *	Dans cette section vous devriez trouver quelque chose de ce style : 
 ```
-<item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />
+`<item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" />`
 ```
 
 *	Ajoutez properties="cover-image" dans cette ligne pour arriver à cela :
 ```
-<item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" properties="cover-image" />
+`<item href="Images/cover.jpg" id="cover.jpg" media-type="image/jpeg" properties="cover-image" />`
 ```
 
 *	Enregistrez le fichier
@@ -67,21 +67,21 @@ L'Epub3 permet un support direct via une [technique relativement complexe](http:
 
 *	Le titre du livre est "The Fellowship of the Ring" :
 ```
-<dc:title id="t1">The Fellowship of the Ring</dc:title>
-<meta refines="#t1" property="title-type">main</meta>
+`<dc:title id="t1">`The Fellowship of the Ring`</dc:title>`
+`<meta refines="#t1" property="title-type">`main`</meta>`
 ```
 
 *	La série du livre est "The Lord of the Rings" et c'est le premier livre :
 ```
-<dc:title id="t2">The Lord of the Rings</dc:title>
-<meta refines="#t2" property="title-type">collection</meta>
-<meta refines="#t2" property="group-position">1</meta>
+`<dc:title id="t2">`The Lord of the Rings`</dc:title>`
+`<meta refines="#t2" property="title-type">`collection`</meta>`
+`<meta refines="#t2" property="group-position">`1`</meta>`
 ```
 
 *	Le titre complet du livre est "THE LORD OF THE RINGS, Part One: The Fellowship of the Ring" :
 ```
-<dc:title id="t3">THE LORD OF THE RINGS, Part One: The Fellowship of the Ring</dc:title>
-<meta refines="#t3" property="title-type">extended</meta> 
+`<dc:title id="t3">`THE LORD OF THE RINGS, Part One: The Fellowship of the Ring`</dc:title>`
+`<meta refines="#t3" property="title-type">`extended`</meta>` 
 ```
 
 En pratique, pour le moment, la Kobo ne le supporte pas et ne met pas à jour les colonnes série de la liseuse. J'espère que cela va vite changer : à suivre !

@@ -25,7 +25,7 @@ import re
 import unicodedata
 
 fileht = open("photo.inc", "w+")
-fileht.write("<div class='accordeon'>\n");
+fileht.write("`<div class='accordeon'>`\n");
 
 gd_client = gdata.photos.service.PhotosService()
 gd_client.email = 'USER@gmail.com'
@@ -50,15 +50,15 @@ for album in albums.entry:
       album.numphotos.text)
     if (anneePrec is None or anneePrec != annee):
       if (anneePrec is not None):
-        fileht.write ("  </ul>\n");
-      fileht.write ("  <h3 class='expand'>Annee %s</h3>\n" % annee)
-      fileht.write ("  <ul class='collapse'>\n");
-    fileht.write ("    <li><a class='group' href='%s'>%s / Nb photo : %s</a></li>\n" % (url, album.title.text, album.numphotos.text))
+        fileht.write ("  `</ul>`\n");
+      fileht.write ("  `<h3 class='expand'>`Annee %s`</h3>`\n" % annee)
+      fileht.write ("  `<ul class='collapse'>`\n");
+    fileht.write ("    `<li>``<a class='group' href='%s'>`%s / Nb photo : %s`</a>``</li>`\n" % (url, album.title.text, album.numphotos.text))
     anneePrec = annee
 
 
-fileht.write ("  </ul>\n");
-fileht.write("</div>");
+fileht.write ("  `</ul>`\n");
+fileht.write("`</div>`");
 fileht.close();
 
 ```

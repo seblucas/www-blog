@@ -32,8 +32,8 @@ ATTENTION : Lire [ATTENTION : Ne pas installer les mises à jour Kobo manuelleme
 *	Glo : http://download.kobobooks.com/firmwares/kobo4/brodeur/kobo-update-2.1.5.zip
 ## Firmware unifié
 
-<del>Pour le moment (cela ne veut pas dire que ce sera toujours le cas), le firmware sont les mêmes entre les Touch, Glo et Mini. Cela permet de simplifier la gestion pour l'équipe de Kobo.
-</del>
+`<del>`Pour le moment (cela ne veut pas dire que ce sera toujours le cas), le firmware sont les mêmes entre les Touch, Glo et Mini. Cela permet de simplifier la gestion pour l'équipe de Kobo.
+`</del>`
 
 Mea culpa, Voir ici pour plus d'informations :
 

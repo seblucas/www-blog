@@ -47,7 +47,7 @@ cd ../..
 ```
 Et tout devrait fonctionner sans erreur, vous devriez pouvoir aller sur l'adresse suivante pour configurer Tvheadend :
 ```
-http://<votre ip>:9981/
+http://`<votre ip>`:9981/
 ```
 ## Paramétrage de XBMC
 

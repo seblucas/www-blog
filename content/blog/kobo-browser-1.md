@@ -31,16 +31,16 @@ Dans les deux derniers cas une entête Content-Disposition est envoyée pour sp�
   - Rien ne se passe
   - La fenêtre de téléchargement apparait avec le nom alice.epub (au lieu de 8.epub) mais au téléchargement le bon fichier est créé.
 
-<del>Autre fonctionnement étrange à partir du moment ou j'ai cliqué sur un lien alors dès que j'essaye de quitter via le bouton Home ou le menu alors la liseuse redémarre.</del> Un lecteur m'a confirmé ne pas avoir eu de problème de plantage à la visualisation de la page (avec le firmware 1.9.16). Suite à cela j'ai fait un factory reset de mon Kobo (version 1.9.17) et tout fonctionne correctement. Mon problème devait être du à un résidu d'un des firmwares beta.
+`<del>`Autre fonctionnement étrange à partir du moment ou j'ai cliqué sur un lien alors dès que j'essaye de quitter via le bouton Home ou le menu alors la liseuse redémarre.`</del>` Un lecteur m'a confirmé ne pas avoir eu de problème de plantage à la visualisation de la page (avec le firmware 1.9.16). Suite à cela j'ai fait un factory reset de mon Kobo (version 1.9.17) et tout fonctionne correctement. Mon problème devait être du à un résidu d'un des firmwares beta.
 
 
-<del>Ce dernier point me fait peur et risque de ruiner mon beau projet ...</del> Je compte donc sur toi Oh lecteur pour faire le test sur ta propre liseuse et m'envoyer un mail pour me dire si le fonctionnement est le même ou pas. Attention ne pas oublier de préciser la marque de sa liseuse (Kobo, Nook, Sony, ...) et la version de firmware.
+`<del>`Ce dernier point me fait peur et risque de ruiner mon beau projet ...`</del>` Je compte donc sur toi Oh lecteur pour faire le test sur ta propre liseuse et m'envoyer un mail pour me dire si le fonctionnement est le même ou pas. Attention ne pas oublier de préciser la marque de sa liseuse (Kobo, Nook, Sony, ...) et la version de firmware.
 
 EDIT : J'ai eu suffisamment de réponses de possesseurs de Kobo (merci à ceux qui m'ont écrit) pour valider que mon problème de plantage m'était spécifique. Vu qu'il a été résolu, ne vous embêtez pas à faire le test, il y a 99% de chance que vous ayez les mêmes résultats que moi (après factory reset). Par contre si vous possédez une autre liseuse, merci d'avance :).
 
 ## Bilan définitif
 
-*	<del>La Kobo plante ....</del>
+*	`<del>`La Kobo plante ....`</del>`
 
 *	Le navigateur de la Kobo n'essaye même pas de télécharger des liens pointant sur des scripts
 

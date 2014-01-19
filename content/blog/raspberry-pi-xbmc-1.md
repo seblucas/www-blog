@@ -46,7 +46,7 @@ vi ~/.xbmc/userdata/guisettings.xml
 
 *	Changer la ligne suivante :
 ```
-<webserver>true</webserver>
+`<webserver>`true`</webserver>`
 ```
 
 *	Redémarrer le Pi ou uniquement XBMC
