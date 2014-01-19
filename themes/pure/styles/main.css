@@ -71,8 +71,12 @@ pre {
     background-color: #F5F2F0;
     border: 1px solid #DDDDDD;
     border-radius: 3px;
-    padding: 6px 10px;
+    padding: 1em;
     color: #000000;
+    font-family: Consolas,Monaco,'Andale Mono',monospace;
+}
+
+code {
     font-family: Consolas,Monaco,'Andale Mono',monospace;
 }
 
