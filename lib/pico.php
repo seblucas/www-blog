@@ -161,7 +161,8 @@ class Pico {
 			'author' 		=> 'Author',
 			'date' 			=> 'Date',
 			'robots'     	=> 'Robots',
-			'template'      => 'Template'
+			'template'      => 'Template',
+			'language'      => 'Language'
 		);
 
 		// Add support for custom headers by hooking into the headers array
