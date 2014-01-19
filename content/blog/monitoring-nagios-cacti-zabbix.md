@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
+Language: fr
 */
 # Une solution de monitoring assez simple : Zabbix
 

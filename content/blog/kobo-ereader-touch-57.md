@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2013/03/08
 Robots: noindex,nofollow
+Language: fr
 */
 # Firmware 2.4.0 : Bilan à tête reposée
 

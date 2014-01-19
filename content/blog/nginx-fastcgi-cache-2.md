@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2011/09/18
 Robots: noindex,nofollow
+Language: fr
 */
 # Le cache fastcgi et Nginx - Partie 2
 

@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/04/14
 Robots: noindex,nofollow
+Language: fr
 */
 # Quelques tests sur le navigateur de la Kobo eReader Touch
 

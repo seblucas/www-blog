@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
+Language: fr
 */
 # Sauvegarder ses photos de famille - Partie 2 : Le transfert
 
@@ -24,7 +25,7 @@ J'ai donc trouvé un outil faisant le transfert et le redimensionnement des phot
 
 *	Impossible de changer la date des albums créés
 
-J'ai créé des correctifs pour les deux premiers points via un [fork github](/https///github.com/vlad59/PicasaWebSync) qui a été réintégré dans la version officielle par l'auteur. 
+J'ai créé des correctifs pour les deux premiers points via un [fork github](https://github.com/vlad59/PicasaWebSync) qui a été réintégré dans la version officielle par l'auteur. 
 
 J'ai donc pu envoyer quelques milliers de photos sur Picasa. Malheureusement même si mes répertoires sont toujours de la forme : YYYYMMDD - Thème, le tri n'est pas bon. Comme je l'ai précisé il est impossible de changer la date de publication d'un album avec le SDK .Net mais par contre c'est possible via python ...
 ## Un peu de python

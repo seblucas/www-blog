@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/11/30
 Robots: noindex,nofollow
+Language: fr
 */
 # De la bidouille autour de la Kobo
 

@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/03/17
 Robots: noindex,nofollow
+Language: fr
 */
 # Piratage et prix des ebooks
 

@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
+Language: fr
 */
 # Nginx PHP Fastcgi avec socket Unix
 

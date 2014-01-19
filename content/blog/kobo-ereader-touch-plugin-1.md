@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/01/27
 Robots: noindex,nofollow
+Language: fr
 */
 # Des plugins non officiel pour le Kobo eReader Touch / Fnacbook / Kobo by Fnac
 

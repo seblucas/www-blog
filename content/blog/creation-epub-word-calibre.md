@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/01/03
 Robots: noindex,nofollow
+Language: fr
 */
 # Comment créer un fichier epub avec Word et Calibre
 

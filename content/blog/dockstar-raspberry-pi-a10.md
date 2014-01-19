@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/08/30
 Robots: noindex,nofollow
+Language: fr
 */
 # Deux Dockstar ... et après
 

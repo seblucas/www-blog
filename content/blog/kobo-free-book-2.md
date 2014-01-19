@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2011/12/30
 Robots: noindex,nofollow
+Language: fr
 */
 # Livre gratuit : L'Appel de la Lune: Mercy Thompson, T1
 

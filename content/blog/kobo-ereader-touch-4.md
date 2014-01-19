@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2011/12/10
 Robots: noindex,nofollow
+Language: fr
 */
 # Kobo by Fnac : sortie officielle et différences avec le Kobo original
 

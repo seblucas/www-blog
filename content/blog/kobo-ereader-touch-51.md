@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/12/27
 Robots: noindex,nofollow
+Language: fr
 */
 # Kobo Touch avec un hardware différent ?
 

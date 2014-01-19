@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2013/05/15
 Robots: noindex,nofollow
+Language: fr
 */
 # Kobo Aura HD en vente demain à la FNAC
 

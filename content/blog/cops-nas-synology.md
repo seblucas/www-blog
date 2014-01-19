@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/10/21
 Robots: noindex,nofollow
+Language: fr
 */
 # COPS sur un NAS Synology
 

@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/07/05
 Robots: noindex,nofollow
+Language: fr
 */
 # Des commentaires dans le Blog
 

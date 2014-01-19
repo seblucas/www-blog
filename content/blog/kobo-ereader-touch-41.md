@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/10/25
 Robots: noindex,nofollow
+Language: fr
 */
 # Petites informations Kobo
 

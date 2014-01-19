@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/07/05
 Robots: noindex,nofollow
+Language: fr
 */
 # La Kobo va avoir un dictionnaire français "très bientôt" !
 

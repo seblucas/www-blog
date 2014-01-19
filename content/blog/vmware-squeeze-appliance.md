@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2011/09/25
 Robots: noindex,nofollow
+Language: fr
 */
 # Appliance / Image Debian Squeeze pour VMware
 

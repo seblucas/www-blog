@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2011/10/11
 Robots: noindex,nofollow
+Language: fr
 */
 # Le cache fastcgi et Nginx - Partie 3
 
@@ -52,6 +53,6 @@ location ~ doku\.php$ {
                fastcgi_pass    unix:/tmp/fcgi.sock;
 }
 ```
-J'ai utilisé [Firecookie](/https///addons.mozilla.org/fr/firefox/addon/firecookie/) pour me créer un cookie qui expire en 2013 et cela fonctionne suffisamment pour écrire cet article.
+J'ai utilisé [Firecookie](https://addons.mozilla.org/fr/firefox/addon/firecookie/) pour me créer un cookie qui expire en 2013 et cela fonctionne suffisamment pour écrire cet article.
 
 

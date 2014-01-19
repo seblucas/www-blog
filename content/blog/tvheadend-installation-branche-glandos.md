@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2013/04/12
 Robots: noindex,nofollow
+Language: fr
 */
 # Installation de la branche de Glandos de Tvheadend pour le RTSP
 

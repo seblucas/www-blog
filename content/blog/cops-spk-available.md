@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2013/02/03
 Robots: noindex,nofollow
+Language: fr
 */
 # Le SPK de COPS est disponible
 

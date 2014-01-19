@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/05/30
 Robots: noindex,nofollow
+Language: fr
 */
 # Tout ce que vous ne voulez pas savoir sur la Kobo !
 

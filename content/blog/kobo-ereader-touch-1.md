@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2011/10/16
 Robots: noindex,nofollow
+Language: fr
 */
 # Mes premières impressions avec mon Kobo eReader Touch Edition
 

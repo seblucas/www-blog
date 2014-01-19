@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/12/22
 Robots: noindex,nofollow
+Language: fr
 */
 # XBMC sur le Raspberry Pi - XBMC 12 RC2
 

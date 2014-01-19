@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2011/10/18
 Robots: noindex,nofollow
+Language: fr
 */
 # Installation de pyLoad sur un Seagate Dockstar / Debian Squeeze
 

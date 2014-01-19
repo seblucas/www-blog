@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2013/01/07
 Robots: noindex,nofollow
+Language: fr
 */
 # Alternative au serveur de contenu de Calibre
 

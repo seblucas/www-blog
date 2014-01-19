@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2013/09/13
 Robots: noindex,nofollow
+Language: fr
 */
 # COPS 0.6.2
 

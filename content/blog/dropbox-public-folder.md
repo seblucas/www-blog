@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/06/19
 Robots: noindex,nofollow
+Language: fr
 */
 # Plus de répertoire Public dans les nouveaux comptes Dropbox ?
 

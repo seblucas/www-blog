@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/09/14
 Robots: noindex,nofollow
+Language: fr
 */
 # Bragelonne : Opération 200k
 

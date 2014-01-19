@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2013/05/14
 Robots: noindex,nofollow
+Language: fr
 */
 # Firmware 2.5.0 et 2.5.1 ... Enfin
 

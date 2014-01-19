@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
+Language: fr
 */
 # Comment démarrer Clonezilla avec Grub4dos
 

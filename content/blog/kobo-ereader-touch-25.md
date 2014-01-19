@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/07/16
 Robots: noindex,nofollow
+Language: fr
 */
 # Retour de la mise à jour 2.0.0 ??
 

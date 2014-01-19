@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/02/29
 Robots: noindex,nofollow
+Language: fr
 */
 # Y-a-t-il un bridage de Free avec Youtube et les autres services de Video sur le Web
 

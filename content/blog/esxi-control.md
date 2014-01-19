@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2013/01/10
 Robots: noindex,nofollow
+Language: fr
 */
 # esxi-control
 

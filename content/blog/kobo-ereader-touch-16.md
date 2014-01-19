@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/05/24
 Robots: noindex,nofollow
+Language: fr
 */
 # Kobo : La patience est une vertu
 

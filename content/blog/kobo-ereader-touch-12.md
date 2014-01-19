@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/03/17
 Robots: noindex,nofollow
+Language: fr
 */
 # Sortie du Firmware 1.9.17 pour la Kobo touch (ou Kobo by Fnac)
 
@@ -38,6 +39,6 @@ Le plugin a été mis à jour pour fonctionner avec la version 1.9.17 :
 
 *	[Message du développeur](http://www.mobileread.com/forums/showpost.php?p=2007552&postcount=176)
 
-*	[Téléchargement](/https///github.com/ah-/koboplugins/downloads)
+*	[Téléchargement](https://github.com/ah-/koboplugins/downloads)
 
 

@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2011/11/26
 Robots: noindex,nofollow
+Language: fr
 */
 # Kobo eReader Touch : firmware 1.9.14 et revue de Web
 

@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/10/26
 Robots: noindex,nofollow
+Language: fr
 */
 # Android : Jelly Bean sinon rien
 
@@ -27,7 +28,7 @@ Le seul défaut que je trouve pour le moment est que la nouvelle gestion de la r
 ## Folio 100
 
 ### Rappel
-Comme indiqué dans mes précédents article le passage à ICS avait été une bénédiction pour le Folio 100. Dernièrement [DerArtem](/https///blog.slucas.fr/blog/ice-cream-sandwich-folio-100) a sorti des versions basées sur Jelly Bean et je dois dire que c'est une réussite.
+Comme indiqué dans mes précédents article le passage à ICS avait été une bénédiction pour le Folio 100. Dernièrement [DerArtem](https://blog.slucas.fr/blog/ice-cream-sandwich-folio-100) a sorti des versions basées sur Jelly Bean et je dois dire que c'est une réussite.
 
 **ATTENTION** : Les explications qui vont suivre vont effacer complètement votre tablette (y compris les données de la SD interne), veuillez donc faire les sauvegardes appropriées au préalable.
 ### Mise en place de Fastboot
@@ -38,11 +39,11 @@ Voir : [ICS (Ice Cream Sandwich) sur une Toshiba Folio-100](/blog/ice-cream-sand
 A la date d'écriture de cet article, la dernière version est l'Alpha 4
 
 
-*	[recovery-cwm-CM10-A3.img](/https///github.com/downloads/DerArtem/android_device_toshiba_betelgeuse/recovery-cwm-CM10-A3.img)
+*	[recovery-cwm-CM10-A3.img](https://github.com/downloads/DerArtem/android_device_toshiba_betelgeuse/recovery-cwm-CM10-A3.img)
 
-*	[cm-10-20121021-UNOFFICIAL-betelgeuse.zip](/https///github.com/downloads/DerArtem/android_device_toshiba_betelgeuse/cm-10-20121021-UNOFFICIAL-betelgeuse.zip)
+*	[cm-10-20121021-UNOFFICIAL-betelgeuse.zip](https://github.com/downloads/DerArtem/android_device_toshiba_betelgeuse/cm-10-20121021-UNOFFICIAL-betelgeuse.zip)
 
-*	[formatsd.zip](/https///github.com/downloads/DerArtem/android_device_toshiba_betelgeuse/formatsd.zip)
+*	[formatsd.zip](https://github.com/downloads/DerArtem/android_device_toshiba_betelgeuse/formatsd.zip)
 
 *	[gapps-jb-20120726-signed.zip](http://goo.im/gapps/gapps-jb-20120726-signed.zip)
 

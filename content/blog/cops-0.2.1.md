@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/09/16
 Robots: noindex,nofollow
+Language: fr
 */
 # COPS 0.2.1
 
@@ -15,7 +16,7 @@ J'ai eu très peu de temps à accorder à COPS depuis mon retour de vacances, ma
 
 Les modifications ne concernent que des corrections de bugs à une exception près : la recherche sur le catalogue OPDS. Un utilisateur m'a indiqué que la recherche ne fonctionnait plus à partir de FBReaderJ et j'ai pu confirmer qu'il avait raison. Or, je suis certain que cela fonctionnait parfaitement en mai, j'ai donc pensé donc à une régression de FBReaderJ d'autant plus que Mantano continue de bien fonctionner. 
 
-J'ai essayé de regarder le code (via le [Github](/https///github.com/geometer/FBReaderJ)) et j'ai aussi ajouté un [ticket](/https///github.com/geometer/FBReaderJ/issues/70) et pour l'instant pas de nouvelles. J'ai aussi validé que ma méthode était bien la bonne (voir [ici](/https///groups.google.com/forum/?fromgroups=#!topic/openpub/8Gnd5UgDCUE)).
+J'ai essayé de regarder le code (via le [Github](https://github.com/geometer/FBReaderJ)) et j'ai aussi ajouté un [ticket](https://github.com/geometer/FBReaderJ/issues/70) et pour l'instant pas de nouvelles. J'ai aussi validé que ma méthode était bien la bonne (voir [ici](https://groups.google.com/forum/?fromgroups=#!topic/openpub/8Gnd5UgDCUE)).
 
 En désespoir de cause, j'ai ajouté un paramètre (cops_generate_invalid_opds_stream) à modifier dans votre config_local.php pour que COPS génère un flux non conforme. Par contre, cela va permettre la recherche dans certains clients non conformes comme FBReaderJ et Moon+ Reader. 
 

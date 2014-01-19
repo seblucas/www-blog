@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/07/03
 Robots: noindex,nofollow
+Language: fr
 */
 # Rakuten lance le Kobo eReader Touch au Japon
 

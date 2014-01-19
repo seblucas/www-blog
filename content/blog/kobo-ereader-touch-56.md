@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2013/02/16
 Robots: noindex,nofollow
+Language: fr
 */
 # Firmware 2.4.0 : des corrections de bugs (enfin) et quelques nouveautés
 

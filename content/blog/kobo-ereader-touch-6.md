@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/01/03
 Robots: noindex,nofollow
+Language: fr
 */
 # Sortie du firmware 1.9.16 et revue de Web
 

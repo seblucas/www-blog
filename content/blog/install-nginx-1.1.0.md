@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2011/10/11
 Robots: noindex,nofollow
+Language: fr
 */
 # Installation de nginx 1.1.0
 

@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2011/12/26
 Robots: noindex,nofollow
+Language: fr
 */
 # Mon cadeau de Noël : le site cassé
 

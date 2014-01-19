@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/05/23
 Robots: noindex,nofollow
+Language: fr
 */
 # Paramétrage d'Archlinux sur le Dockstar
 

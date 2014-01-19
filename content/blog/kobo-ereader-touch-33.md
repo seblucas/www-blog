@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/09/23
 Robots: noindex,nofollow
+Language: fr
 */
 # Un peu plus de détails sur le Glo et le Mini
 

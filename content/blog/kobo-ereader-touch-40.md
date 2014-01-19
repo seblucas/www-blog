@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/10/19
 Robots: noindex,nofollow
+Language: fr
 */
 # ATTENTION : Ne pas installer les mises à jour Kobo manuellement
 

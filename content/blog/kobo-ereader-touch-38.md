@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/10/04
 Robots: noindex,nofollow
+Language: fr
 */
 # Un peu plus de détail sur le firmware 2.1.4
 

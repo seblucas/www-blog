@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/09/23
 Robots: noindex,nofollow
+Language: fr
 */
 # Raspberry Pi VS Dockstar : Le combat
 

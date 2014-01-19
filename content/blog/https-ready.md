@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/10/18
 Robots: noindex,nofollow
+Language: fr
 */
 # HTTPS disponible grâce à StartSSL
 

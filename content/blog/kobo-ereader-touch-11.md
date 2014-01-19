@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/03/04
 Robots: noindex,nofollow
+Language: fr
 */
 # COPS / Quelques maigres news sur le Kobo / Divers
 

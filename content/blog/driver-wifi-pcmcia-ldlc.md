@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/08/26
 Robots: noindex,nofollow
+Language: fr
 */
 # Driver Windows 2000/XP pour carte Wifi PCMCIA LDLC
 

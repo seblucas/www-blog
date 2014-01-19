@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/11/23
 Robots: noindex,nofollow
+Language: fr
 */
 # Ce site a deux ans
 

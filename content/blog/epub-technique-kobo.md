@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/05/10
 Robots: noindex,nofollow
+Language: fr
 */
 # Lire un epub technique sur une liseuse Kobo
 

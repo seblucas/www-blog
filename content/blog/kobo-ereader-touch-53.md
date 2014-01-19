@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2013/01/19
 Robots: noindex,nofollow
+Language: fr
 */
 # Les notes de bas de page sur la Kobo
 

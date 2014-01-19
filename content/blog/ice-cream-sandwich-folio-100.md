@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/10/26
 Robots: noindex,nofollow
+Language: fr
 */
 # ICS (Ice Cream Sandwich) sur une Toshiba Folio-100
 

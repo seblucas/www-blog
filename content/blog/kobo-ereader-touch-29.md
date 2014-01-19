@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/08/29
 Robots: noindex,nofollow
+Language: fr
 */
 # Epub et le dictionnaire français sur le Kobo
 

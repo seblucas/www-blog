@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/07/10
 Robots: noindex,nofollow
+Language: fr
 */
 # Firmware 2.0.0 sur la Kobo eReader Touch
 

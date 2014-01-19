@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2013/03/09
 Robots: noindex,nofollow
+Language: fr
 */
 # Préparer le passage à Systemd sur Archlinux
 
@@ -16,7 +17,7 @@ Mais là j'ai le désagréable message suivant :
 ```
 :: Daemon script php-fpm does not exist or is not executable.
 ```
-Après recherche cela est au passage de Sysvinit à [Systemd](/https///wiki.archlinux.org/index.php/Systemd) de Archlinux. Vous trouverez donc ci-après la méthode de migration la plus sure que j'ai trouvée.
+Après recherche cela est au passage de Sysvinit à [Systemd](https://wiki.archlinux.org/index.php/Systemd) de Archlinux. Vous trouverez donc ci-après la méthode de migration la plus sure que j'ai trouvée.
 
 Source : http://archlinuxarm.org/forum/viewtopic.php?f=18&t=4979
 

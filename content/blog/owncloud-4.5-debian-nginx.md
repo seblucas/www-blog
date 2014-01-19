@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/11/28
 Robots: noindex,nofollow
+Language: fr
 */
 # Installation de Owncloud 4.5.X avec Debian et Nginx
 

@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/07/11
 Robots: noindex,nofollow
+Language: fr
 */
 # Le crash de vendredi et 1&1
 

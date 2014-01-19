@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2013/06/07
 Robots: noindex,nofollow
+Language: fr
 */
 # Firmware 2.6.1 pour Kobo ?
 

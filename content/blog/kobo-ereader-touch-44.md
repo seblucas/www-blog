@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/12/02
 Robots: noindex,nofollow
+Language: fr
 */
 # Acheter un livre électronique : Pas facile
 

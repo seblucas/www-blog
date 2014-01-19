@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2011/12/16
 Robots: noindex,nofollow
+Language: fr
 */
 # HTTPS disponible avec Nginx ... vraiment
 

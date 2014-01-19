@@ -4,6 +4,7 @@ Description:
 Author: Sébastien Lucas
 Date: 2012/09/01
 Robots: noindex,nofollow
+Language: fr
 */
 # Installation de XBMC sur le Raspberry Pi - Les choix
 
