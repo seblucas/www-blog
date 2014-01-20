@@ -41,7 +41,7 @@ class Pico_Tags {
 	}
 
 	public function after_load_content(&$file, &$content) {
-		$this->current_meta = $this->read_file_meta($content);
+
 	}
 
 	public function before_404_load_content(&$file) {
@@ -60,6 +60,7 @@ class Pico_Tags {
 		// only set $headers['tags'] if there are any
 		if (strlen($meta['tags']) > 1) $meta['tags'] = explode(',', $meta['tags']);
 		else $meta['tags'] = NULL;
+		$this->current_meta = $meta;
 	}
 
 	public function content_parsed(&$content) {
