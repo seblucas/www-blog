@@ -67,6 +67,15 @@ class Pico_Tags {
 
 	}
 
+	public function get_page_data(&$data, $page_meta)
+	{
+		if (array_key_exists ('tags', $page_meta)) {
+			$data ['tags'] = $page_meta ['tags'];
+		} else {
+			$data ['tags'] = NULL;
+		}
+	}
+
 	public function get_pages(&$pages, &$current_page, &$prev_page, &$next_page) {
 		// display pages with current tag if visiting tag/ url
 		// display only pages with tags when visiting index page
@@ -81,15 +90,11 @@ class Pico_Tags {
 			foreach ($pages as $page) {
 				$file_url = substr($page["url"], strlen($this->base_url));
 				$file_name = CONTENT_DIR . $file_url . ".md";
-				
+
 				// get metadata from page
 				if (file_exists($file_name)) {
-					$file_content = file_get_contents($file_name);
-					$file_meta = $this->read_file_meta($file_content);
-					$page = array_merge($page, $file_meta);
-
 					// append to pages array only if tags match, or if it's index page
-					$tags = $file_meta['tags'];
+					$tags = $page ['tags'];
 					if (count($tags) > 0 && (in_array($this->current_tag, $tags) || $is_index)) {
 						array_push($new_pages, $page);
 					}
@@ -108,7 +113,7 @@ class Pico_Tags {
 		if ($this->is_tag) {
 			// override 404 header
 			header($_SERVER['SERVER_PROTOCOL'].' 200 OK');
-			
+
 			// set as front page, allows using the same navigation for index and tag pages
 			$twig_vars["is_front_page"] = true;
 			// sets page title to #TAG
