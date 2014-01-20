@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/07/05
 Robots: noindex,nofollow
 Language: fr
+Tags: blog
 */
 # Des commentaires dans le Blog
 

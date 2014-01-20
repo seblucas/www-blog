@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/09/25
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Export au format EPUB sur Wikipedia
 

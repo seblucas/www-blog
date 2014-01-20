@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/11/23
 Robots: noindex,nofollow
 Language: fr
+Tags: blog
 */
 # Ce site a deux ans
 

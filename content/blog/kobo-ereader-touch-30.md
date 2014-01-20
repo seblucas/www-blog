@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/09/03
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Le firmware 2.1.X pour le reste du monde pour bientôt
 

@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/09/18
 Robots: noindex,nofollow
 Language: fr
+Tags: dokuwiki,nginx,php
 */
 # Le cache fastcgi et Nginx - Partie 2
 

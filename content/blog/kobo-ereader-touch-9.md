@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/02/12
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Encore une revue de Web autour du Kobo : avec de moins en moins à se mettre sous la dent
 

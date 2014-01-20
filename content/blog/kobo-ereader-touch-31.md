@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/09/06
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Kobo eReader Touch : meilleur choix pour 60 millions de consommateurs
 

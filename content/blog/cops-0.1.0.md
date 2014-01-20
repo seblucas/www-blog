@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/07/11
 Robots: noindex,nofollow
 Language: fr
+Tags: calibre,ereader,nginx,opds,php
 */
 # COPS 0.1.0
 

@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/12/29
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Un livre offert par Kobo !
 

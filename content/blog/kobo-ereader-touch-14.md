@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/04/04
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Petite Revue de Web et pas d'autres news :(
 

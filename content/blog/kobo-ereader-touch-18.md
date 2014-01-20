@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/06/22
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Ai-je fait le bon choix avec la Kobo eReader Touch ?
 

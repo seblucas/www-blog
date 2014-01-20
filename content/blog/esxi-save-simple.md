@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/10/11
 Robots: noindex,nofollow
 Language: fr
+Tags: perl,vmware
 */
 # Sauvegarde simple des VMs d'un hôte VMWare ESXi
 

@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
 Language: fr
+Tags: picasa,synology
 */
 # Sauvegarder ses photos de famille et les rendre disponible à moindre cout - Partie 1
 

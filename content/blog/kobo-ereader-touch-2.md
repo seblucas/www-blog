@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/11/12
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Kobo eReader Touch : 1 mois après et quelques notes d'humeur
 

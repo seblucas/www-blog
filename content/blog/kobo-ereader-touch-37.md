@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/10/04
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Sortie du firmware 2.1.4
 

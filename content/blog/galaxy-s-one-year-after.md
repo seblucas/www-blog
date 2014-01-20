@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
 Language: fr
+Tags: android
 */
 # Samsung Galaxy S / Android : Bilan après 1 an 
 

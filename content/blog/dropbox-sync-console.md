@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/01/24
 Robots: noindex,nofollow
 Language: fr
+Tags: debian
 */
 # Récupérer des répertoires Dropbox en console
 

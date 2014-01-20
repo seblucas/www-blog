@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
 Language: fr
+Tags: dotnet,picasa,python
 */
 # Sauvegarder ses photos de famille - Partie 2 : Le transfert
 

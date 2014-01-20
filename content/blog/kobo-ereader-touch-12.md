@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/03/17
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Sortie du Firmware 1.9.17 pour la Kobo touch (ou Kobo by Fnac)
 

@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/03/04
 Robots: noindex,nofollow
 Language: fr
+Tags: calibre,ereader
 */
 # COPS / Quelques maigres news sur le Kobo / Divers
 

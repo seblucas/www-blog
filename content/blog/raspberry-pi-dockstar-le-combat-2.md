@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/09/26
 Robots: noindex,nofollow
 Language: fr
+Tags: dockstar,rpi
 */
 # Raspberry Pi VS Dockstar : Le combat II
 

@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/01/03
 Robots: noindex,nofollow
 Language: fr
+Tags: epub,ereader
 */
 # Comment créer un fichier epub avec Word et Calibre
 

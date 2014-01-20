@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/01/09
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Petite revue de Web autour du Kobo eReader Touch et quelques trucs et astuces en prime
 

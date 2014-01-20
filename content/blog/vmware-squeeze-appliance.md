@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/09/25
 Robots: noindex,nofollow
 Language: fr
+Tags: debian,vmware
 */
 # Appliance / Image Debian Squeeze pour VMware
 

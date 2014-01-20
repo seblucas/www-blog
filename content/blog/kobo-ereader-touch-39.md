@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/10/20
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Sortie du firmware 2.1.5 pour Kobo et un peu de divers
 

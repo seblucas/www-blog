@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/11/28
 Robots: noindex,nofollow
 Language: fr
+Tags: cloud,debian,nginx
 */
 # Installation de Owncloud 4.5.X avec Debian et Nginx
 

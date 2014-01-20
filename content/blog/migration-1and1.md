@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/01/05
 Robots: noindex,nofollow
 Language: fr
+Tags: debian,dockstar,nginx
 */
 # Migration sur un VPS L de 1&1
 

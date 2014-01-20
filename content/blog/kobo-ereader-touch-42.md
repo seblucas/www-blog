@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/11/15
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Sortie du firmware 2.2.0 au Japon
 

@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
 Language: fr
+Tags: vmware
 */
 # Arrêter / Démarrer une VM VMware en ligne de commande
 

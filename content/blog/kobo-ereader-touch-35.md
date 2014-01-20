@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/09/26
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Retour de la police de caractères Caecilia prochainement
 

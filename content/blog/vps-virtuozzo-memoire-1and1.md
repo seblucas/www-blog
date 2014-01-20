@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/07/11
 Robots: noindex,nofollow
 Language: fr
+Tags: dropbox,nginx,vps
 */
 # Le crash de vendredi et 1&1
 

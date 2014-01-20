@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2013/03/09
 Robots: noindex,nofollow
 Language: fr
+Tags: archlinux,dockstar
 */
 # Préparer le passage à Systemd sur Archlinux
 

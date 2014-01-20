@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/04/17
 Robots: noindex,nofollow
 Language: fr
+Tags: archlinux,dockstar
 */
 # Dockstar et ArchLinux : tout ça pour l'accélération matérielle
 

@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/05/17
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Kobo eReader Touch : Revue de Web et autres informations
 

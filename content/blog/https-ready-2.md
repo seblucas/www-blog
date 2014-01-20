@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/12/16
 Robots: noindex,nofollow
 Language: fr
+Tags: dockstar,dokuwiki,nginx
 */
 # HTTPS disponible avec Nginx ... vraiment
 

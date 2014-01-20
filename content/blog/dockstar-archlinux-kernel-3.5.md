@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/10/03
 Robots: noindex,nofollow
 Language: fr
+Tags: archlinux,dockstar
 */
 # Comment passer au noyau 3.5 sur le Dockstar (Archlinux)
 

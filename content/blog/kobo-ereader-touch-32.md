@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/09/06
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Sortie de 3 nouveaux modèles pour Kobo
 

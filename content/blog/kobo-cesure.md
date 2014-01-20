@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/07/22
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Meilleure gestion des césures pour le firmware 2.0.0
 

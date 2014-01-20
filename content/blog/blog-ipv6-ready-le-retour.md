@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/06/25
 Robots: noindex,nofollow
 Language: fr
+Tags: dockstar,nginx
 */
 # Blog disponible en ipv6 : le retour
 

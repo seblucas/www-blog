@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/08/28
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Firmware 2.1.1 Japonais pour la Kobo eReader Touch
 

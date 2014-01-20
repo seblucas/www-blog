@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
 Language: fr
+Tags: oracle
 */
 # Comment faire pour que Sqlplus s'arrête en cas d'erreur
 

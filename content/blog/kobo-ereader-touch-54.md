@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2013/02/11
 Robots: noindex,nofollow
 Language: fr
+Tags: epub,ereader
 */
 # Quelques news sur la Kobo
 

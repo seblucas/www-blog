@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/12/17
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Firmware Kobo 2.3.1 : La suite
 

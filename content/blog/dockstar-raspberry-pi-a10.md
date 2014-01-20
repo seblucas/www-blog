@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/08/30
 Robots: noindex,nofollow
 Language: fr
+Tags: dockstar,rpi
 */
 # Deux Dockstar ... et après
 

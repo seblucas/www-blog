@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
 Language: fr
+Tags: javascript
 */
 # Comment récupérer tous les liens de téléchargement d'un page web
 

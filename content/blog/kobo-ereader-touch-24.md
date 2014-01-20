@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/07/14
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Firmware 2.0.0 retours après quelques jours et quelques autres choses
 

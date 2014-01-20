@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/01/21
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Encore une minuscule revue de Web sur le Kobo et les liseuses
 

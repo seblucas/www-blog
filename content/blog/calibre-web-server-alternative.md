@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2013/01/07
 Robots: noindex,nofollow
 Language: fr
+Tags: calibre,ereader
 */
 # Alternative au serveur de contenu de Calibre
 

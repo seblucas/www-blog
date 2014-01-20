@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/03/20
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Retour sur la version 1.9.17 pour la Kobo Touch / Tétris sur la Kobo / Revue de Web
 

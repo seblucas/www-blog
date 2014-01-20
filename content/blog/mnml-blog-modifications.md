@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/09/18
 Robots: noindex,nofollow
 Language: fr
+Tags: dokuwiki
 */
 # Mes modifications sur le template mnml-blog
 

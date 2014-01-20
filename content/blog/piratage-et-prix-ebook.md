@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/03/17
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Piratage et prix des ebooks
 

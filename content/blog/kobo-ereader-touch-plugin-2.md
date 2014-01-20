@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/04/07
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Tetris pour le Kobo via le plugin / et quelques questions de lecteurs
 

@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
 Language: fr
+Tags: debian,grub
 */
 # Utiliser une clé USB pour démarrer Debian - Partie 2
 

@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
 Language: fr
+Tags: dokuwiki,nginx
 */
 # Mise à jour Dokuwiki Anteater et Nginx
 

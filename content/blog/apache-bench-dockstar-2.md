@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/10/14
 Robots: noindex,nofollow
 Language: fr
+Tags: dockstar,nginx
 */
 # Performance d'un serveur web sur un Dockstar (Apache bench) - Partie 2
 

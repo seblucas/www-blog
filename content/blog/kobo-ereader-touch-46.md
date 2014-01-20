@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/12/14
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Firmware 2.3.1 pour notre Kobo ?
 

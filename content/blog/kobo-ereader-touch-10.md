@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/02/18
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Mon petit billet hebdomadaire sur le Kobo et ce qui tourne autour
 

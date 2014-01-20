@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/10/21
 Robots: noindex,nofollow
 Language: fr
+Tags: calibre,opds,synology
 */
 # COPS sur un NAS Synology
 

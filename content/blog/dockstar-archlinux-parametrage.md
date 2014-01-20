@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/05/23
 Robots: noindex,nofollow
 Language: fr
+Tags: archlinux,dockstar
 */
 # Paramétrage d'Archlinux sur le Dockstar
 

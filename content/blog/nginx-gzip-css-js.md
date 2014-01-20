@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
 Language: fr
+Tags: dokuwiki,nginx
 */
 # Paramétrage de la compression avec nginx
 

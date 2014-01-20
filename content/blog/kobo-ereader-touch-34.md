@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/09/23
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Quelques informations diverses et variées autour de la Kobo
 

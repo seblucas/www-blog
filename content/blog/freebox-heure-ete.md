@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/03/27
 Robots: noindex,nofollow
 Language: fr
+Tags: free
 */
 # La Freebox V6 et l'heure d'été
 

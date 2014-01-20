@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/05/16
 Robots: noindex,nofollow
 Language: fr
+Tags: android
 */
 # Passage à Ice Cream Sandwich avec mon Samsung Galaxy S - L'installation
 

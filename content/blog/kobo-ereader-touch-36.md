@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/10/02
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Le prochain firmware sera le 2.1.4
 

@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/10/19
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # ATTENTION : Ne pas installer les mises à jour Kobo manuellement
 

@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/07/11
 Robots: noindex,nofollow
 Language: fr
+Tags: archlinux,dockstar,nginx,php
 */
 # Nginx et PHP avec Archlinux : pas si facile
 

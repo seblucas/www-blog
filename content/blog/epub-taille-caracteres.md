@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/05/07
 Robots: noindex,nofollow
 Language: fr
+Tags: epub,ereader
 */
 # Taille de police différente selon les ebooks
 

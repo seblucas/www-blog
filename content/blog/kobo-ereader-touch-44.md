@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/12/02
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Acheter un livre électronique : Pas facile
 

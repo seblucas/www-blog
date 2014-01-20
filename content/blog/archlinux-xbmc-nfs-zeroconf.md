@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2013/01/14
 Robots: noindex,nofollow
 Language: fr
+Tags: archlinux,xbmc
 */
 # Faciliter l'intégration des partages NFS dans XBMC
 

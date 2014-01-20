@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/11/27
 Robots: noindex,nofollow
 Language: fr
+Tags: mercurial,synology
 */
 # Installer un serveur Mercurial sur un NAS Synology
 

@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/11/10
 Robots: noindex,nofollow
 Language: fr
+Tags: dockstar,rpi
 */
 # Quelques nouvelles sur le monde des petites machines ARM (et autres Google TV) 
 

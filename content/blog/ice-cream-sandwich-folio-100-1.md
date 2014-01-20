@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/03/25
 Robots: noindex,nofollow
 Language: fr
+Tags: android
 */
 # Ice Cream Sandwich sur Folio 100 - Une semaine après
 

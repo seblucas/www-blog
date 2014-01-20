@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2013/02/15
 Robots: noindex,nofollow
 Language: fr
+Tags: epub,ereader
 */
 # Firmware 2.4.0 pour la Kobo
 

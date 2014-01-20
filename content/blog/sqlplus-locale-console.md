@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
 Language: fr
+Tags: oracle
 */
 # Sqlplus en mode console et les caractères accentués
 

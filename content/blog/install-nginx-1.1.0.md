@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/10/11
 Robots: noindex,nofollow
 Language: fr
+Tags: debian,dockstar,nginx
 */
 # Installation de nginx 1.1.0
 

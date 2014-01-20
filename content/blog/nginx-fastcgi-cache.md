@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
 Language: fr
+Tags: dockstar,dokuwiki,nginx
 */
 # Le cache fastcgi et Nginx et un peu de déception
 

@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2013/04/12
 Robots: noindex,nofollow
 Language: fr
+Tags: dockstar,freebox,rpi,xbmc
 */
 # Installation de la branche de Glandos de Tvheadend pour le RTSP
 

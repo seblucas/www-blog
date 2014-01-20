@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2013/01/19
 Robots: noindex,nofollow
 Language: fr
+Tags: epub,ereader
 */
 # Les notes de bas de page sur la Kobo
 

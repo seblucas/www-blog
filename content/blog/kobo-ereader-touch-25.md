@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/07/16
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Retour de la mise à jour 2.0.0 ??
 

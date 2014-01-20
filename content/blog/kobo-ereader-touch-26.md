@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/07/20
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Une version 2.0.2 pour la Kobo eReader Touch ... Non officielle
 

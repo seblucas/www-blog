@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/10/18
 Robots: noindex,nofollow
 Language: fr
+Tags: rpi,xbmc
 */
 # XBMC sur le Raspberry PI - Quelques trucs
 

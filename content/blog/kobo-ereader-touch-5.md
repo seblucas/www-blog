@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/11/30
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Kobo eReader Touch : trucs et astuces d'origine diverse
 

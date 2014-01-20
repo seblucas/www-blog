@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/10/14
 Robots: noindex,nofollow
 Language: fr
+Tags: rpi
 */
 # Installation de XBMC sur le Raspberry Pi - 1 mois après
 

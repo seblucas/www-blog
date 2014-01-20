@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/12/26
 Robots: noindex,nofollow
 Language: fr
+Tags: dockstar,ereader
 */
 # Mon cadeau de Noël : le site cassé
 

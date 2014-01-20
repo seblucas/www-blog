@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2011/09/16
 Robots: noindex,nofollow
 Language: fr
+Tags: android
 */
 # Comment faire une réinitialisation usine (factory reset) sur un Samsung Galaxy S
 

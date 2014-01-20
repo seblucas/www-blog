@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2013/04/04
 Robots: noindex,nofollow
 Language: fr
+Tags: rpi,xbmc
 */
 # Nouvelles d'OpenElec / Tvheadend / Raspberry Pi
 

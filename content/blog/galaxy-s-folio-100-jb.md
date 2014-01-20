@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/10/26
 Robots: noindex,nofollow
 Language: fr
+Tags: android
 */
 # Android : Jelly Bean sinon rien
 

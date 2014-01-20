@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/12/05
 Robots: noindex,nofollow
 Language: fr
+Tags: ereader
 */
 # Meilleure gestion des séries dans la Kobo
 

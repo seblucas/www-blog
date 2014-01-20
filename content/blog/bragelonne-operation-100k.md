@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/03/26
 Robots: noindex,nofollow
 Language: fr
+Tags: epub,ereader
 */
 # Bragelonne : opération 100k
 

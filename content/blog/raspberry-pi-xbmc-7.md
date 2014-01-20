@@ -5,6 +5,7 @@ Author: Sébastien Lucas
 Date: 2012/12/29
 Robots: noindex,nofollow
 Language: fr
+Tags: rpi,xbmc
 */
 # XBMC sur le Raspberry Pi : Openelec RC1
 
