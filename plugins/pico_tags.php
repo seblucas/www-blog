@@ -20,22 +20,8 @@ class Pico_Tags {
 	private $current_meta;
 
 	// copied from pico source, $headers as array gives ability to add additional metadata, e.g. header image
-	private function read_file_meta($content) {
-		$headers = array('tags' => 'Tags');
-
-	 	foreach ($headers as $field => $regex) {
-			if (preg_match('/^[ \t\/*#@]*' . preg_quote($regex, '/') . ':(.*)$/mi', $content, $match) && $match[1]){
-				$headers[ $field ] = trim(preg_replace("/\s*(?:\*\/|\?>).*/", '', $match[1]));
-			} else {
-				$headers[ $field ] = '';
-			}
-		}
-
-		// only set $headers['tags'] if there are any
-		if (strlen($headers['tags']) > 1) $headers['tags'] = explode(',', $headers['tags']);
-		else $headers['tags'] = NULL;
-
-		return $headers;
+	private function before_read_file_meta (&$headers) {
+		$headers['tags'] = 'Tags';
 	}
 
 	public function plugins_loaded() {
@@ -71,7 +57,9 @@ class Pico_Tags {
 	}
 
 	public function file_meta(&$meta) {
-
+		// only set $headers['tags'] if there are any
+		if (strlen($meta['tags']) > 1) $meta['tags'] = explode(',', $meta['tags']);
+		else $meta['tags'] = NULL;
 	}
 
 	public function content_parsed(&$content) {
