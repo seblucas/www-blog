@@ -58,7 +58,7 @@ class Pico_Tags {
 
 	public function file_meta(&$meta) {
 		// only set $headers['tags'] if there are any
-		if (strlen($meta['tags']) > 1) $meta['tags'] = explode(',', $meta['tags']);
+		if (array_key_exists ('tags', $meta) && strlen($meta['tags']) > 1) $meta['tags'] = explode(',', $meta['tags']);
 		else $meta['tags'] = NULL;
 		$this->current_meta = $meta;
 	}
