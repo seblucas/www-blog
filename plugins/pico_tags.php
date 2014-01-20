@@ -20,7 +20,7 @@ class Pico_Tags {
 	private $current_meta;
 
 	// copied from pico source, $headers as array gives ability to add additional metadata, e.g. header image
-	private function before_read_file_meta (&$headers) {
+	public function before_read_file_meta (&$headers) {
 		$headers['tags'] = 'Tags';
 	}
 
