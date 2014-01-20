@@ -15,7 +15,7 @@ A noter que la mise à jour va être diffusée dans le monde entier petit à pet
 
 ## Changements officiels 
 
-###  Liste officielle
+### Liste officielle
 
 *	Installer des dictionnaires de langue étrangère
 

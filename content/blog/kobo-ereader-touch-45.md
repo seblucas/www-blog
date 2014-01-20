@@ -59,7 +59,7 @@ Pour que cela fonctionne il faut que vous refassiez la manipulation une seconde 
 Cette fois ci, si vous allez dans le menu bibliothèque de la liseuse, vous devriez voir sous le titre la série et l'index du livre dans la série. A noter que le tri prend bien en compte les séries et numéros.
 
 Pour la petite histoire, le transfert doit être fait deux fois car les données de série et d'index doivent être mises à jour dans la base de données et les enregistrements correspondant aux livres ajoutés ne sont créés qu'à partir de l'analyse des données (donc fin de première étape).
-##  Bilan
+## Bilan
 
 Le fait de faire deux fois le boulot n'est pas génial, mais en étant pragmatique les alternatives ne sont pas nombreuses :
 

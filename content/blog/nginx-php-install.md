@@ -23,7 +23,7 @@ Mon objectif était de transformer un Dockstar en serveur Web, vu les capacités
 *	[nginx](http://nginx.org/)
     * Avantage : Pas de dépendances, pas mal de documentation sur le Web.
 
-##  Installation de nginx
+## Installation de nginx
 
 ```
 aptitude install nginx
