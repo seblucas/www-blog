@@ -41,6 +41,9 @@
             <div class="pure-u-1">
                 <div id="content">
 {% if is_front_page %}
+            {% if meta.title %}
+                <h1>{{ meta.title }}</h1>
+            {% endif %}
 {% for page in pages %}
 {% if page.date and not(page.url == base_url~'/') %}
 		    <div class="post">
