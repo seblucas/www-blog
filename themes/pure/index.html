@@ -32,9 +32,8 @@
                     <input type="checkbox" id="toggle" />
                     <label for="toggle" class="toggle" data-open="Main Menu" data-close="Close Menu" onclick></label>
                     <ul class="menu">
-{% for page in pages %}{% if not(page.date) and not(page.url == base_url~'/') %}
-                        <li><a href="{{ page.url }}">{{ page.title }}</a></li>                         
-{% endif %}{% endfor %}
+                        <li><a href="/">Blog</a></li>
+                        <li><a href="/fr/debian/start">Wiki (FR)</a></li>
                     </ul>
                 </div>
             </div>
