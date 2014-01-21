@@ -101,6 +101,8 @@ code {
 
 .meta a{
     margin-left: 6px;
+    font-variant: small-caps;
+    font-size: 1.1em;
 }
 
 blockquote {

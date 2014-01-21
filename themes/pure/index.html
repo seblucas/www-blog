@@ -41,7 +41,7 @@
             <div class="pure-u-1">
                 <div id="content">
 {% if is_front_page %}
-{% for page in pages|slice(0, 10) %}
+{% for page in pages %}
 {% if page.date and not(page.url == base_url~'/') %}
 		    <div class="post">
 		        <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
