@@ -59,7 +59,7 @@ class Pico_Tags {
 	private function handle_meta (&$meta)
 	{
 		// already handled
-		if (array_key_exists ('tags', $meta) && is_array ($meta ['tags']) {
+		if (array_key_exists ('tags', $meta) && is_array ($meta ['tags'])) {
 			return;
 		}
 		

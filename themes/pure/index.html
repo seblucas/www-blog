@@ -58,17 +58,16 @@
 {% else %}
 		    <div class="post">
 {% if meta.date %}
-		        <p class="meta" style="float:right">Published {{ meta.date_formatted }}</p>
-{% endif %}
-		        {% spaceless %}{{ content }}{% endspaceless %}
-				
-		    </div>
-            <address>
+		        <p class="meta" style="float:right">Published {{ meta.date_formatted }} //
                 <!-- display single page tags with proper urls -->
                 {% for tag in meta.tags %}
                     <a href="/tag/{{ tag }}">#{{ tag }}</a>
                 {% endfor %}
-            </address>
+                </p>
+{% endif %}
+		        {% spaceless %}{{ content }}{% endspaceless %}
+				
+		    </div>
 {% endif %}
                 </div>
             </div>
