@@ -72,7 +72,7 @@ class Pico_Tags {
 
 	public function get_page_data(&$data, $page_meta)
 	{
-		file_meta (&$page_meta);
+		$this->file_meta ($page_meta);
 		$data ['tags'] = $page_meta ['tags'];
 	}
 

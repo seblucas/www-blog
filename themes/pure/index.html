@@ -48,7 +48,7 @@
 		        <p class="meta">Published {{ page.date_formatted }}</p>
                 <address>
                     <!-- display single page tags with proper urls -->
-                    {% for tag in meta.tags %}
+                    {% for tag in page.tags %}
                         <a href="/tag/{{ tag }}">#{{ tag }}</a>
                     {% endfor %}
                 </address>
