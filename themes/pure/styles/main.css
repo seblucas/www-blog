@@ -95,8 +95,12 @@ code {
 
 .meta {
     margin: 0;
-    color: #777;
-    font-size: .8em;
+    color: #666;
+    font-size: 1em;
+}
+
+.meta a{
+    margin-left: 6px;
 }
 
 blockquote {
