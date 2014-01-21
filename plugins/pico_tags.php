@@ -55,14 +55,25 @@ class Pico_Tags {
 	public function config_loaded(&$settings) {
 		$this->base_url = $settings['base_url'];
 	}
-
-	public function file_meta(&$meta) {
+	
+	private function handle_meta (&$meta)
+	{
+		// already handled
+		if (array_key_exists ('tags', $meta) && is_array ($meta ['tags']) {
+			return;
+		}
+		
 		// only set $headers['tags'] if there are any
 		if (array_key_exists ('tags', $meta) && strlen($meta['tags']) > 1) {
 			$meta['tags'] = explode(',', $meta['tags']);
 		} else {
 			$meta['tags'] = NULL;
 		}
+	}
+
+	public function file_meta(&$meta) {
+		$this->handle_meta ($meta);
+		
 		$this->current_meta = $meta;
 	}
 
@@ -72,7 +83,7 @@ class Pico_Tags {
 
 	public function get_page_data(&$data, $page_meta)
 	{
-		$this->file_meta ($page_meta);
+		$this->handle_meta ($page_meta);
 		$data ['tags'] = $page_meta ['tags'];
 	}
 
