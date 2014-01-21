@@ -31,7 +31,7 @@ class Pico_Tags {
 	public function request_url(&$url) {
 		$this->current_url = $url;
 
-		// substr first four letters, becouse "tag/" is four letters long
+		// substr first four letters, because "tag/" is four letters long
 		$this->is_tag = (substr($this->current_url, 0, 4) == "tag/");
 		if ($this->is_tag) $this->current_tag = substr($this->current_url, 4);
 	}
@@ -58,8 +58,11 @@ class Pico_Tags {
 
 	public function file_meta(&$meta) {
 		// only set $headers['tags'] if there are any
-		if (array_key_exists ('tags', $meta) && strlen($meta['tags']) > 1) $meta['tags'] = explode(',', $meta['tags']);
-		else $meta['tags'] = NULL;
+		if (array_key_exists ('tags', $meta) && strlen($meta['tags']) > 1) {
+			$meta['tags'] = explode(',', $meta['tags']);
+		} else {
+			$meta['tags'] = NULL;
+		}
 		$this->current_meta = $meta;
 	}
 
@@ -69,11 +72,8 @@ class Pico_Tags {
 
 	public function get_page_data(&$data, $page_meta)
 	{
-		if (array_key_exists ('tags', $page_meta)) {
-			$data ['tags'] = $page_meta ['tags'];
-		} else {
-			$data ['tags'] = NULL;
-		}
+		file_meta (&$page_meta);
+		$data ['tags'] = $page_meta ['tags'];
 	}
 
 	public function get_pages(&$pages, &$current_page, &$prev_page, &$next_page) {
