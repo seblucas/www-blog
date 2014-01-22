@@ -24,8 +24,26 @@ En plus de l'usage classique, j'ai eu des usages multiples de mes différents or
 *	...
 ## Liste des pages
 
-{{pagequery>ns:fr:debian: *;sort=name;nostart;title}}
+[Installer et configurer Conky](/fr/debian/conky)
+[Tutoriel Iptables](/fr/debian/iptables)
+[Debian & IPV6](/fr/debian/ipv6)
+[Link](/fr/debian/lenny-install)
+[Link](/fr/debian/lenny-xorg)
+[Compilation de MPlayer](/fr/debian/mplayer)
+[Installation de NoMachine](/fr/debian/nomachine)
+[Le voisinage réseau sous Debian : merci à Gigolo](/fr/debian/squeeze-gigolo)
+[Midori : l'autre navigateur Web](/fr/debian/squeeze-midori)
+[Tips & Tricks Debian](/fr/debian/tips)
+[Applications utiles](/fr/debian/xfce-applications)
+
 # Open Source
 
 ## Mes maigres participations
-{{pagequery>ns:fr:oss: *;sort=name;nostart;title}}
+[Calibre OPDS PHP Serveur : Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
+[Voici COPS : Calibre OPDS (et HTML) PHP Serveur](/fr/oss/calibre-opds-php-server)
+[Version mobile du template Arctic pour Dokuwiki](/fr/oss/dokuwiki-arctic-mobile)
+[Ajout de sidebar au template Arctic (dokuwiki)](/fr/oss/dokuwiki-arctic-sidebar)
+[Dokuwiki et nginx](/fr/oss/dokuwiki-nginx-config)
+[hgweb(dir) avec mod_python](/fr/oss/hgweb-mod_python)
+[Création d'un environnement de compilation Kobo - Partie 1](/fr/oss/kobo-build-environment-1)
+

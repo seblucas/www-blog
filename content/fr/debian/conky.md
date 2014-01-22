@@ -65,7 +65,7 @@ cp /etc/conky/conky.conf ~/.conkyrc
 
 ### Copie d'écran
 
-{{:fr:debian:fondecranxfceconky.jpg?512}}
+![Image](/fr/debian/fondecranxfceconky.jpg){.centered}
 ### Mon conkyrc
 
 ```-

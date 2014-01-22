@@ -38,12 +38,12 @@ dpkg -i nxserver_`<Version>`_i386.deb
 TODO : ajouter les liens
 ### Lancer NX Connection Wizard
 
-{{:fr:debian:nxclient01.png|}}
+![Image](/fr/debian/nxclient01.png)
 
 *	Cliquer sur Next
 ### Configuration de l'ordinateur cible
 
-{{:fr:debian:nxclient02.png|}}
+![Image](/fr/debian/nxclient02.png)
 
 *	Session : Nom avec lequel vous allez retrouver votre connection distante
 
@@ -52,7 +52,7 @@ TODO : ajouter les liens
 *	Régler le type de connection pour que les performances soient bonnes
 ### Configuration du window manager de l'ordinateur cible
 
-{{:fr:debian:nxclient03.png|}}
+![Image](/fr/debian/nxclient03.png)
 
 *	Première liste déroulante : laisser Unix
 
@@ -61,7 +61,7 @@ TODO : ajouter les liens
 *	Avant de pouvoir choisir la résolution il faut d'abord cliquer sur le bouton Settings
 ### Paramétrage XFCE
 
-{{:fr:debian:nxclient04.png|}}
+![Image](/fr/debian/nxclient04.png)
 
 *	Dans "Run the following command" : saisir startxfce4.
 
@@ -70,19 +70,19 @@ TODO : ajouter les liens
 *	Cliquer sur OK
 ### Sélection de la résolution
 
-{{:fr:debian:nxclient05.png|}}
+![Image](/fr/debian/nxclient05.png)
 
 *	Je vous laisse choisir la résolution voulue
 
 *	Cliquer sur Next
 ### Fin
 
-{{:fr:debian:nxclient06.png|}}
+![Image](/fr/debian/nxclient06.png)
 
 *	Cliquer sur Finish
 ### Premier test
 
-{{:fr:debian:nxclient07.png|}}
+![Image](/fr/debian/nxclient07.png)
 
 *	Renseignez votre nom d'utilisateur et mot de passe (comme pour une connection ssh normale) et voila !
 
