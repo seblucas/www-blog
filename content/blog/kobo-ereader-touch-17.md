@@ -29,7 +29,7 @@ Lors d'une remise à zéro (voir [trucs et astuces](/blog/kobo-ereader-touch-5))
 Cela a un intérêt : même en bidouillant comme un dingue la partition root, il n'y a (en théorie) aucun risque de casser définitivement la liseuse tant que la partition de secours est préservée.
 ## La mémoire interne de la Kobo serait une carte µSD : donc remplaçable
 
-{{ :blog:kobointerieur.jpg? |}}
+![Image](/blog/kobointerieur.jpg)
 J'ai vu sur [le forum de MobileRead](http://www.mobileread.com/forums/showthread.php?t=177676) une photo qui confirmerait cela. Et cette même personne indique qu'elle a réussi à augmenter la taille de sa partition allouée aux livres avec l'outil gparted. J'y vois surtout l'avantage de pouvoir la remplacer si nécessaire. 
 
 Ma pauvre liseuse fonctionne encore parfaitement pour la lecture mais le navigateur ne fonctionne plus du tout même après une remise à zéro. Si cela est du à des blocs défectueux sur la carte comme je le crains, je peux garder l'espoir de la changer et même de prendre une carte plus rapide pour donner un coup de boost à la Kobo.

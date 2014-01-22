@@ -43,4 +43,4 @@ A bientôt pour la suite avec certainement l'apparition des commentaires vu que 
 ## Performance actuelle
 
 J'ai fait un test avec [blitz.io](http://blitz.io/gb8bLRUrhuEzl) pour vérifier les performances et ça a l'air d'aller. Voila le graphique :
-{{ :blog:responsetimes.png? |}}
+![Image](/blog/responsetimes.png)

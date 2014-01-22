@@ -27,14 +27,14 @@ Cette opération n'est à faire qu'une seule fois, les paramètres sont ensuite 
 *	Connectez votre Kobo (cliquez bien sur Connecter sur la liseuse)
 
 *	Après une grosse minute l'interface de Calibre change pour faire apparaitre l’icône "Appareil"
-{{ :blog:calibre_appareil.jpg?80 |}}
+![Image](/blog/calibre_appareil.jpg){.centered}
 
 *	Cliquer le menu de l'icône "Appareil" (le petit v à droite)
 
 *	Sélectionner configurer cet appareil
 
 *	Dans l'écran de configuration cocher "Set Series information"
-{{ :blog:calibre_kobo_config.jpg?200 |}}
+![Image](/blog/calibre_kobo_config.jpg){.centered}
 
 *	Cliquer sur Ok
 

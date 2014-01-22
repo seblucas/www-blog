@@ -95,4 +95,4 @@ Je vais compléter le tableau dans la semaine avec des HTML, CBR, images seules 
 
 Je mettrai à disposition un zip avec mes cas de tests pour que les sceptiques puissent tester et m'envoyer un [mail](/user/sebastien_lucas) si ils voient des différences sur leur liseuse.
 
-Le fichier zip est : {{:blog:testkobo.zip|}}
+Le fichier zip est : [testkobo.zip](/blog/testkobo.zip)

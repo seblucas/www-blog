@@ -280,7 +280,7 @@ Mon but ultime est de modifier le template pour que le rendu soit optimisé pour
 N'hésitez pas à me contacter si vous voulez m'aider sur ce projet.
 
 La version xhtml est téléchargeable ci-dessous :
-{{:blog:calibre-php-server-xhtml.zip|}}
+[calibre-php-server-xhtml.zip](/blog/calibre-php-server-xhtml.zip)
 ## Au final
 
 Ce serveur ne me correspond pas totalement, j'ai donc développé [COPS](/fr/oss/calibre-opds-php-server).

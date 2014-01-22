@@ -93,7 +93,7 @@ Attention au paramètre -elapsed qui est très important pour pouvoir comparer u
 
 Pour le avant / après un petit graphique :
 
-{{ :blog:grapheopenssl.png? |}}
+![Image](/blog/grapheopenssl.png)
 
 On voit que l'implémentation matérielle est nettement moins rapide avec des blocs de petite taille mais se rattrape à partir des blocs d'un Ko.
 
@@ -128,7 +128,7 @@ Pour information un iperf sans tunnel SSH sature sans problème un tuyau à 100M
 
 Un petit graphe :
 
-{{ :blog:grapheiperf.png? |}}
+![Image](/blog/grapheiperf.png)
 
 ### Source
 

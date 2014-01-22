@@ -22,7 +22,7 @@ Je vous laisse lire [le fil sur le forum de mobileread](http://www.mobileread.co
 
 C'est très simple :
 
-*	Télécharger le fichier d'installation : {{:blog:koboroot.zip|}} 
+*	Télécharger le fichier d'installation : [koboroot.zip](/blog/koboroot.zip) 
 
 *	Connectez votre Kobo à votre ordinateur.
 

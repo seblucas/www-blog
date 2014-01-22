@@ -50,7 +50,7 @@ J'ai essayé fastboot sous Windows (voir le Mega tuto dans les sources) et comme
 
 En premier téléchargez ce fichier :
 
-{{:blog:fastboot.bz2|}}
+[fastboot.bz2](/blog/fastboot.bz2)
 
 Il faut ensuite le décompresser et lui donner les droits d’exécution :
 ```

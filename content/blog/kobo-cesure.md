@@ -21,7 +21,7 @@ Je suis donc parti d'un firmware ou je n'ai gardé que le fichier gérant les c�
 
 Au final :
 
-{{:blog:koboroothyphenfr.zip|}}
+[koboroothyphenfr.zip](/blog/koboroothyphenfr.zip)
 
 La méthode d'installation :
 
