@@ -28,10 +28,10 @@ class Pico {
 		// Load the settings
 		$settings = $this->get_config();
 		$this->run_hooks('config_loaded', array(&$settings));
-        
-        $this->cache = phpFastCache("files");
-		$this->cache->option("path", $settings['phpfastcache_path']);
-		$this->cache->option("securityKey", "cache.blog");
+		
+		$options = array ("path" => $settings['phpfastcache_path'],
+						  "securityKey" => "cache.blog");
+		$this->cache = phpFastCache("files", $options);
 
 		// Get request url and script url
 		$url = '';
