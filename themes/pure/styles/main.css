@@ -116,8 +116,8 @@ blockquote {
 #cloud a { padding: 0px; color: white; }
 
 #cloud a.tag1 { font-size: 0.9em; font-weight: 300; }
-#cloud a.tag2 { font-size: 1.0em; font-weight: 400; }
-#cloud a.tag3 { font-size: 1.2em; font-weight: 500; }
+#cloud a.tag2 { font-size: 1.0em; font-weight: 600; }
+#cloud a.tag3 { font-size: 1.2em; font-weight: 600; }
 #cloud a.tag4 { font-size: 1.4em; font-weight: 600; }
 #cloud a.tag5 { font-size: 1.6em; font-weight: 700; }
 
@@ -136,6 +136,10 @@ blockquote {
     
     .pure-menu-custom ul {
         margin-top: 0;
+    }
+    
+    #cloud {
+        display:none;
     }
 }
 
