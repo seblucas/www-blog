@@ -36,6 +36,11 @@
                         <li><a href="/fr/debian/start">Wiki (FR)</a></li>
                     </ul>
                 </div>
+                <div id="cloud">
+                    {% for tag in tagcloud %}
+                    <a href="/tag/{{ tag.name }}" class="tag{{ tag.rank }}">{{ tag.name }}</a>
+                    {% endfor %}
+                </div>
             </div>
             <div class="pure-u-1">
                 <div id="content">

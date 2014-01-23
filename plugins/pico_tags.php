@@ -18,6 +18,7 @@ class Pico_Tags {
 	private $current_tag;
 	private $is_tag;
 	private $current_meta;
+	private $tag_cloud;
 
 	// copied from pico source, $headers as array gives ability to add additional metadata, e.g. header image
 	public function before_read_file_meta (&$headers) {
@@ -92,6 +93,31 @@ class Pico_Tags {
 		// display only pages with tags when visiting index page
 		// this adds possiblity to distinct tagged pages (e.g. blog posts),
 		// and untagged (e.g. static pages like "about")
+		
+		$this->tag_cloud = array ();
+		$tagList = array ();
+		foreach ($pages as $page) {
+			if (!is_array ($page ['tags'])) {
+				continue;
+			}
+			foreach ($page ['tags'] as $tag) {
+				if (array_key_exists ($tag, $tagList)) {
+					$tagList [$tag]++;
+				} else {
+					$tagList [$tag] = 1;
+				}
+			}
+		}
+		ksort ($tagList);
+		foreach ($tagList as $tag => $number) {
+			$number = intval ($number / 10) + 1;
+			if ($number > 10) {
+				$number = 10;
+			}
+			array_push ($this->tag_cloud, array ("name" => $tag, "rank" => $number));
+		}
+		//echo (var_dump ($this->tag_cloud));
+		
 
 		$is_index = ($this->base_url == $current_page["url"]);
 
@@ -121,6 +147,7 @@ class Pico_Tags {
 	}
 
 	public function before_render(&$twig_vars, &$twig) {
+		$twig_vars ["tagcloud"] = $this->tag_cloud;
 		if ($this->is_tag) {
 			// override 404 header
 			header($_SERVER['SERVER_PROTOCOL'].' 200 OK');
