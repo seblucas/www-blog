@@ -109,14 +109,11 @@ class Pico_Tags {
 			}
 		}
 		ksort ($tagList);
+		$max = max ($tagList);
 		foreach ($tagList as $tag => $number) {
-			$number = intval ($number / 10) + 1;
-			if ($number > 10) {
-				$number = 10;
-			}
+			$number = ceil ($number * 5 / $max);
 			array_push ($this->tag_cloud, array ("name" => $tag, "rank" => $number));
 		}
-		//echo (var_dump ($this->tag_cloud));
 		
 
 		$is_index = ($this->base_url == $current_page["url"]);
