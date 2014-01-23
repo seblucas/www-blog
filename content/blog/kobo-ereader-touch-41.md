@@ -2,7 +2,7 @@
 Title: Petites informations Kobo
 Description: 
 Author: Sébastien Lucas
-Date: 2012/10/25
+Date: 2012/10/23
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

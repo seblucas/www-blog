@@ -2,7 +2,7 @@
 Title: Transformation Wikidot > Dokuwiki
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2010/09/26
 Robots: noindex,nofollow
 Language: fr
 Tags: dokuwiki,perl

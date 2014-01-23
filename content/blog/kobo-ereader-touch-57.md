@@ -2,7 +2,7 @@
 Title: Firmware 2.4.0 : Bilan à tête reposée
 Description: 
 Author: Sébastien Lucas
-Date: 2013/03/08
+Date: 2013/03/07
 Robots: noindex,nofollow
 Language: fr
 Tags: epub,ereader

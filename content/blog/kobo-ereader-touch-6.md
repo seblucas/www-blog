@@ -2,7 +2,7 @@
 Title: Sortie du firmware 1.9.16 et revue de Web
 Description: 
 Author: Sébastien Lucas
-Date: 2012/01/03
+Date: 2011/12/27
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

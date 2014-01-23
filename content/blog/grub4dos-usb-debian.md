@@ -2,7 +2,7 @@
 Title: Utiliser une clé USB pour démarrer Debian
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2010/11/12
 Robots: noindex,nofollow
 Language: fr
 Tags: debian,grub

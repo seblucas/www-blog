@@ -2,7 +2,7 @@
 Title: Nginx et Photostation
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/01/24
 Robots: noindex,nofollow
 Language: fr
 Tags: dockstar,nginx,synology

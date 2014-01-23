@@ -2,7 +2,7 @@
 Title: Comment récupérer tous les liens de téléchargement d'un page web
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/08/22
 Robots: noindex,nofollow
 Language: fr
 Tags: javascript

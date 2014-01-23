@@ -2,7 +2,7 @@
 Title: Erreur -18 à l'installation de mise à jour avec l'Android Market
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/03/19
 Robots: noindex,nofollow
 Language: fr
 Tags: android

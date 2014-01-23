@@ -2,7 +2,7 @@
 Title: Piratage et prix des ebooks
 Description: 
 Author: Sébastien Lucas
-Date: 2012/03/17
+Date: 2012/03/15
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

@@ -2,7 +2,7 @@
 Title: Mise à jour vers Subversion 1.6
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/02/08
 Robots: noindex,nofollow
 Language: fr
 Tags: subversion

@@ -2,7 +2,7 @@
 Title: No space left on device et pourtant il reste de la place
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/08/08
 Robots: noindex,nofollow
 Language: fr
 Tags: centos,debian

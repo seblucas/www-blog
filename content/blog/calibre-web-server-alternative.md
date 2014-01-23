@@ -2,7 +2,7 @@
 Title: Alternative au serveur de contenu de Calibre
 Description: 
 Author: Sébastien Lucas
-Date: 2013/01/07
+Date: 2012/02/28
 Robots: noindex,nofollow
 Language: fr
 Tags: calibre,ereader

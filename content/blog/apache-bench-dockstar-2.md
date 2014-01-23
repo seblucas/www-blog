@@ -2,7 +2,7 @@
 Title: Performance d'un serveur web sur un Dockstar (Apache bench) - Partie 2
 Description: 
 Author: Sébastien Lucas
-Date: 2011/10/14
+Date: 2011/10/12
 Robots: noindex,nofollow
 Language: fr
 Tags: dockstar,nginx

@@ -2,7 +2,7 @@
 Title: Serveur web ipv6 avec Nginx
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/01/14
 Robots: noindex,nofollow
 Language: fr
 Tags: nginx

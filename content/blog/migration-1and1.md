@@ -2,7 +2,7 @@
 Title: Migration sur un VPS L de 1&1
 Description: 
 Author: Sébastien Lucas
-Date: 2012/01/05
+Date: 2011/12/31
 Robots: noindex,nofollow
 Language: fr
 Tags: debian,dockstar,nginx

@@ -2,7 +2,7 @@
 Title: Problème de réception de MMS lorsque le mode réseau de données (2G/3G) est désactivé
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/05/23
 Robots: noindex,nofollow
 Language: fr
 Tags: android

@@ -2,7 +2,7 @@
 Title: Une solution de monitoring assez simple : Zabbix
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/07/17
 Robots: noindex,nofollow
 Language: fr
 Tags: debian

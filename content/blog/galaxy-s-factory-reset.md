@@ -2,7 +2,7 @@
 Title: Comment faire une réinitialisation usine (factory reset) sur un Samsung Galaxy S
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/03/31
 Robots: noindex,nofollow
 Language: fr
 Tags: android

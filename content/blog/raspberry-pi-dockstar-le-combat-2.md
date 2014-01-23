@@ -2,7 +2,7 @@
 Title: Raspberry Pi VS Dockstar : Le combat II
 Description: 
 Author: Sébastien Lucas
-Date: 2012/09/26
+Date: 2012/09/23
 Robots: noindex,nofollow
 Language: fr
 Tags: dockstar,rpi

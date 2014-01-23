@@ -2,7 +2,7 @@
 Title: Petite Revue de Web et pas d'autres news :(
 Description: 
 Author: Sébastien Lucas
-Date: 2012/04/04
+Date: 2012/04/03
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

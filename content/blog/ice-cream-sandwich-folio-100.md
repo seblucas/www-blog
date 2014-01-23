@@ -2,7 +2,7 @@
 Title: ICS (Ice Cream Sandwich) sur une Toshiba Folio-100
 Description: 
 Author: Sébastien Lucas
-Date: 2012/10/26
+Date: 2012/03/13
 Robots: noindex,nofollow
 Language: fr
 Tags: android

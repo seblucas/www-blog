@@ -2,7 +2,7 @@
 Title: Installation des VMWare Tools sur une Squeeze
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2010/09/26
 Robots: noindex,nofollow
 Language: fr
 Tags: debian,vmware

@@ -2,7 +2,7 @@
 Title: Quelques news sur la Kobo
 Description: 
 Author: Sébastien Lucas
-Date: 2013/02/10
+Date: 2013/01/14
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

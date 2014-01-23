@@ -2,7 +2,7 @@
 Title: Firmware 2.5.0 et 2.5.1 ... Enfin
 Description: 
 Author: Sébastien Lucas
-Date: 2013/05/14
+Date: 2013/05/06
 Robots: noindex,nofollow
 Language: fr
 Tags: epub,ereader

@@ -2,7 +2,7 @@
 Title: Migration Git vers Mercurial
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/02/08
 Robots: noindex,nofollow
 Language: fr
 Tags: git,mercurial

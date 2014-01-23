@@ -2,7 +2,7 @@
 Title: Latence d'écriture avec un Perc H200 et VMWare ESXi
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/05/16
 Robots: noindex,nofollow
 Language: fr
 Tags: vmware

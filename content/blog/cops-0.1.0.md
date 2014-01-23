@@ -2,7 +2,7 @@
 Title: COPS 0.1.0
 Description: 
 Author: Sébastien Lucas
-Date: 2012/07/11
+Date: 2012/06/05
 Robots: noindex,nofollow
 Language: fr
 Tags: calibre,ereader,nginx,opds,php

@@ -2,7 +2,7 @@
 Title: Comment ajouter un certificat https valide gratuitement grâce à StartSSL
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/06/24
 Robots: noindex,nofollow
 Language: fr
 Tags: nginx

@@ -2,7 +2,7 @@
 Title: De la bidouille autour de la Kobo
 Description: 
 Author: Sébastien Lucas
-Date: 2012/11/30
+Date: 2012/11/29
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

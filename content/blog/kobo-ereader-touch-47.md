@@ -2,7 +2,7 @@
 Title: Firmware 2.3.1 pour Kobo : plus de détails
 Description: 
 Author: Sébastien Lucas
-Date: 2012/12/18
+Date: 2012/12/16
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

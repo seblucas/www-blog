@@ -2,7 +2,7 @@
 Title: Android : Jelly Bean sinon rien
 Description: 
 Author: Sébastien Lucas
-Date: 2012/10/26
+Date: 2012/10/25
 Robots: noindex,nofollow
 Language: fr
 Tags: android

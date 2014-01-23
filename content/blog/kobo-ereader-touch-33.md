@@ -2,7 +2,7 @@
 Title: Un peu plus de détails sur le Glo et le Mini
 Description: 
 Author: Sébastien Lucas
-Date: 2012/09/23
+Date: 2012/09/10
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

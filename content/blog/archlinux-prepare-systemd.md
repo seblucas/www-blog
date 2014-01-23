@@ -2,7 +2,7 @@
 Title: Préparer le passage à Systemd sur Archlinux
 Description: 
 Author: Sébastien Lucas
-Date: 2013/03/09
+Date: 2013/03/07
 Robots: noindex,nofollow
 Language: fr
 Tags: archlinux,dockstar

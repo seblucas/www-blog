@@ -2,7 +2,7 @@
 Title: Ice Cream Sandwich sur Folio 100 - Une semaine après
 Description: 
 Author: Sébastien Lucas
-Date: 2012/03/25
+Date: 2012/03/19
 Robots: noindex,nofollow
 Language: fr
 Tags: android

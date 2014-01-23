@@ -2,7 +2,7 @@
 Title: Ranger proprement des fichiers dans des répertoires
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/08/21
 Robots: noindex,nofollow
 Language: fr
 Tags: debian,perl

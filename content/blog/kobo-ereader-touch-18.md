@@ -2,7 +2,7 @@
 Title: Ai-je fait le bon choix avec la Kobo eReader Touch ?
 Description: 
 Author: Sébastien Lucas
-Date: 2012/06/22
+Date: 2012/06/21
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

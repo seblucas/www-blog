@@ -2,7 +2,7 @@
 Title: Tout ce que vous ne voulez pas savoir sur la Kobo !
 Description: 
 Author: Sébastien Lucas
-Date: 2012/05/30
+Date: 2012/05/29
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

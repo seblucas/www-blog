@@ -2,7 +2,7 @@
 Title: Mes premières impressions avec mon Kobo eReader Touch Edition
 Description: 
 Author: Sébastien Lucas
-Date: 2011/10/16
+Date: 2011/09/29
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

@@ -2,7 +2,7 @@
 Title: Mise à jour Dokuwiki vers la version Angua et dépôts pour les sources
 Description: 
 Author: Sébastien Lucas
-Date: 2012/07/11
+Date: 2012/06/05
 Robots: noindex,nofollow
 Language: fr
 Tags: dokuwiki

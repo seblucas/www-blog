@@ -2,7 +2,7 @@
 Title: Migration de Subversion vers Mercurial
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/01/29
 Robots: noindex,nofollow
 Language: fr
 Tags: mercurial,subversion

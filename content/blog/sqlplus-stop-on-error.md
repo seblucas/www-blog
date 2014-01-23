@@ -2,7 +2,7 @@
 Title: Comment faire pour que Sqlplus s'arrête en cas d'erreur
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/05/28
 Robots: noindex,nofollow
 Language: fr
 Tags: oracle

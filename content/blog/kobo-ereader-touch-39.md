@@ -2,7 +2,7 @@
 Title: Sortie du firmware 2.1.5 pour Kobo et un peu de divers
 Description: 
 Author: Sébastien Lucas
-Date: 2012/10/20
+Date: 2012/10/18
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

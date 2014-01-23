@@ -2,7 +2,7 @@
 Title: Horreur ! VMware Player ne marche plus après une mise à jour Debian !
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2010/12/30
 Robots: noindex,nofollow
 Language: fr
 Tags: debian,vmware

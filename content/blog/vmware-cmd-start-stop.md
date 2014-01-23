@@ -2,7 +2,7 @@
 Title: Arrêter / Démarrer une VM VMware en ligne de commande
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2010/10/07
 Robots: noindex,nofollow
 Language: fr
 Tags: vmware

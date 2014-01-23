@@ -2,7 +2,7 @@
 Title: Kobo by Fnac : sortie officielle et différences avec le Kobo original
 Description: 
 Author: Sébastien Lucas
-Date: 2011/12/10
+Date: 2011/11/30
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

@@ -2,7 +2,7 @@
 Title: PHP XCache
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2010/10/13
 Robots: noindex,nofollow
 Language: fr
 Tags: php

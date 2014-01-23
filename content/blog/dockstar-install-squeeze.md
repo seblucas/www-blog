@@ -2,7 +2,7 @@
 Title: Installation d'une Debian Squeeze sur un Seagate Dockstar
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2010/10/11
 Robots: noindex,nofollow
 Language: fr
 Tags: debian,dockstar

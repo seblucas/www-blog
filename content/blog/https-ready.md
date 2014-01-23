@@ -2,7 +2,7 @@
 Title: HTTPS disponible grâce à StartSSL
 Description: 
 Author: Sébastien Lucas
-Date: 2012/10/18
+Date: 2011/10/19
 Robots: noindex,nofollow
 Language: fr
 Tags: dockstar,dokuwiki,nginx

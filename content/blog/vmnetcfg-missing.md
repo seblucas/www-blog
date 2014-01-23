@@ -2,7 +2,7 @@
 Title: vmnetcfg.exe absent après une installation de VMware Player
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2010/10/25
 Robots: noindex,nofollow
 Language: fr
 Tags: vmware

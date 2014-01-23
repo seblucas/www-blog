@@ -2,7 +2,7 @@
 Title: Mise à jour de Diskstation Manager en 3.1 sur NAS Synology et lenteurs 
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/03/12
 Robots: noindex,nofollow
 Language: fr
 Tags: synology

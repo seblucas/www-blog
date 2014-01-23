@@ -2,7 +2,7 @@
 Title: Sauvegarder ses photos de famille et les rendre disponible à moindre cout - Partie 1
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/08/24
 Robots: noindex,nofollow
 Language: fr
 Tags: picasa,synology

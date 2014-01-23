@@ -2,7 +2,7 @@
 Title: Installation de nginx sous Debian
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2010/10/12
 Robots: noindex,nofollow
 Language: fr
 Tags: debian,nginx,php

@@ -2,7 +2,7 @@
 Title: Paramétrage de la compression avec nginx
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/01/20
 Robots: noindex,nofollow
 Language: fr
 Tags: dokuwiki,nginx

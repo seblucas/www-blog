@@ -2,7 +2,7 @@
 Title: Mise à jour Dokuwiki Anteater et Nginx
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2010/11/25
 Robots: noindex,nofollow
 Language: fr
 Tags: dokuwiki,nginx

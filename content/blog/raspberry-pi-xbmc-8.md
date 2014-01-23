@@ -2,7 +2,7 @@
 Title: Nouvelles d'OpenElec / Tvheadend / Raspberry Pi
 Description: 
 Author: Sébastien Lucas
-Date: 2013/04/04
+Date: 2013/04/03
 Robots: noindex,nofollow
 Language: fr
 Tags: rpi,xbmc

@@ -2,7 +2,7 @@
 Title: Plus de répertoire Public dans les nouveaux comptes Dropbox ?
 Description: 
 Author: Sébastien Lucas
-Date: 2012/06/19
+Date: 2012/06/16
 Robots: noindex,nofollow
 Language: fr
 Tags: cloud,dropbox,opds

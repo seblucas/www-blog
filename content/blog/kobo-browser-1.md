@@ -2,7 +2,7 @@
 Title: Quelques tests sur le navigateur de la Kobo eReader Touch
 Description: 
 Author: Sébastien Lucas
-Date: 2012/04/14
+Date: 2012/04/13
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

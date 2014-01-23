@@ -2,7 +2,7 @@
 Title: Petite revue de Web autour du Kobo eReader Touch et quelques trucs et astuces en prime
 Description: 
 Author: Sébastien Lucas
-Date: 2012/01/09
+Date: 2012/01/08
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

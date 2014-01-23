@@ -2,7 +2,7 @@
 Title: Samsung Galaxy S / Android : Bilan après 1 an 
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/09/04
 Robots: noindex,nofollow
 Language: fr
 Tags: android

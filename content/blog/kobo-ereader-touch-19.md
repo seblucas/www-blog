@@ -2,7 +2,7 @@
 Title: Quelques petits trucs sur le Kobo
 Description: 
 Author: Sébastien Lucas
-Date: 2012/07/11
+Date: 2012/06/30
 Robots: noindex,nofollow
 Language: fr
 Tags: ereader

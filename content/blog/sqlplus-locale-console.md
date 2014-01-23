@@ -2,7 +2,7 @@
 Title: Sqlplus en mode console et les caractères accentués
 Description: 
 Author: Sébastien Lucas
-Date: 2011/09/16
+Date: 2011/05/27
 Robots: noindex,nofollow
 Language: fr
 Tags: oracle
