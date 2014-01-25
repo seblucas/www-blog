@@ -43,7 +43,7 @@ foreach ($bookmarks as $key => $value)
 }
 ?>
 ```
-Cela crée des images d'ajout de bookmark pour delicious, digg, facebook, twitter, google, etc. `<del>`Mon prochain objectif est de l'intégrer plus proprement (sans duplication de code) et avec la possibilité de choisir ses icônes`</del>` (Fait le 22/05/2011).
+Cela crée des images d'ajout de bookmark pour delicious, digg, facebook, twitter, google, etc. ~~Mon prochain objectif est de l'intégrer plus proprement (sans duplication de code) et avec la possibilité de choisir ses icônes~~ (Fait le 22/05/2011).
 
 Pour l'instant j'utilise des icônes (libres) récupérées ici : http://nouveller.deviantart.com/art/Social-Media-Bookmark-Icon-125995730
 

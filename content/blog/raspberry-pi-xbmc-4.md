@@ -11,15 +11,15 @@ Tags: rpi,xbmc
 
 J'ai refait un test complet de Raspbmc RC5 hier et cela avance dans le bon sens. J'ai donc fait une réinstallation complète (en reprenant l'image d'installation) et j'ai installé la nightly du 2 novembre 2012. J'ai repris la liste d'un précédent billet ([Installation de XBMC sur le Raspberry Pi - 1 mois après](/blog/raspberry-pi-xbmc-2)) et j'ai barré les problèmes n'existant plus :
 
-*	`<del>`La lecture de flux RTSP venant de la Freebox ne fonctionne plus.`</del>`
+*	~~La lecture de flux RTSP venant de la Freebox ne fonctionne plus.~~
 
-*	`<del>`Certaines videos ont des soucis d'aspect ratio.`</del>`
+*	~~Certaines videos ont des soucis d'aspect ratio.~~
 
 *	La gestion de la télécommande de la Xbox est imprécise : beaucoup de répétitions de touches.
 
-*	`<del>`La gestion de l'overclocking intégré avec l'application Raspbmc ne fonctionne pas : j'ai utilisé ce bon vieux vi.`</del>`
+*	~~La gestion de l'overclocking intégré avec l'application Raspbmc ne fonctionne pas : j'ai utilisé ce bon vieux vi.~~
 
-*	`<del>`Le scrapper de film XBMC a une mauvaise traduction française ce qui fait qu'au lieu d'avoir "Film", il y un texte super long qui n'a rien à voir.`</del>`
+*	~~Le scrapper de film XBMC a une mauvaise traduction française ce qui fait qu'au lieu d'avoir "Film", il y un texte super long qui n'a rien à voir.~~
 
 *	J'ai eu des plantages.
 

@@ -40,7 +40,7 @@ Les modifications vont dans le bon sens et il ne manque plus grand chose pour en
 
 *	Traiter correctement les séries dans la bibliothèque pour préfixer le nom du livre par celui de la série ainsi que son numéro.
 
-*	`<del>`Permettre de lire les fichiers CBZ et CBR en mode paysage; Cela permettrait (au prix d'un défilement) d'avoir un texte lisible pour les mangas.`</del>` En fait ça a été partiellement ajouté dans le firmware 1.9.14 mais une fois passé en paysage il est impossible de faire défiler l'image ce qui limite beaucoup l'intérêt donc il y a mieux mais il reste du boulot.
+*	~~Permettre de lire les fichiers CBZ et CBR en mode paysage; Cela permettrait (au prix d'un défilement) d'avoir un texte lisible pour les mangas.~~ En fait ça a été partiellement ajouté dans le firmware 1.9.14 mais une fois passé en paysage il est impossible de faire défiler l'image ce qui limite beaucoup l'intérêt donc il y a mieux mais il reste du boulot.
 
 *	Un dictionnaire français ... Il y en aura certainement un avec le firmware spécifique FNAC, reste à voir les différences entre les deux firmwares et les modalités de passage de l'un à l'autre.
 

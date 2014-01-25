@@ -62,7 +62,7 @@ Attention j'ai testé sur le dernier firmware beta donc il se peut que j'ai un c
 Vu la qualité de certaines pages Wikipedia, je pense que cà vaut le cout de se construire un "livre" avec quelques articles pour le consulter au calme sur sa liseuse.
 ## Wikisource
 
-`<del>`J'ai essayé de faire la même chose avec Wikisource mais je n'ai pas vu d'option d'export comme dans Wikipedia Donc si l'un d'entre vous maitrise le sujet qu'il n'hésite surtout pas à tout m'expliquer dans les commentaires.`</del>`
+~~J'ai essayé de faire la même chose avec Wikisource mais je n'ai pas vu d'option d'export comme dans Wikipedia Donc si l'un d'entre vous maitrise le sujet qu'il n'hésite surtout pas à tout m'expliquer dans les commentaires.~~
 
 Ca y est j'ai compris, tous les articles ne peuvent pas s'exporter en EPUB seulement ceux avec l’icône verte .... je me repose et je teste ;) A demain !
 
