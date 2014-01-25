@@ -1,5 +1,5 @@
 <?php
-require_once (dirname(__FILE__) . "/../vendor/phpfastcache/phpfastcache.php");
+
 use \Michelf\MarkdownExtra;
 
 /**
@@ -13,7 +13,7 @@ use \Michelf\MarkdownExtra;
 class Pico {
 
 	private $plugins;
-	private $cache;
+	private $cache = NULL;
 
 	/**
 	 * The constructor carries out all the processing in Pico.
@@ -29,9 +29,11 @@ class Pico {
 		$settings = $this->get_config();
 		$this->run_hooks('config_loaded', array(&$settings));
 		
-		$options = array ("path" => $settings['phpfastcache_path'],
-						  "securityKey" => "cache.blog");
-		$this->cache = phpFastCache("files", $options);
+
+        if (isset ($settings['phpfastcache_path'])) {
+            echo "Cache set";
+            $this->cache = new \Doctrine\Common\Cache\FilesystemCache ($settings['phpfastcache_path']);
+        }
 
 		// Get request url and script url
 		$url = '';
@@ -71,10 +73,15 @@ class Pico {
 		$this->run_hooks('content_parsed', array(&$content)); // Depreciated @ v0.8
 		
 		// Get all the pages
-		$pages = $this->cache->get ("pages");
-		if (is_null ($pages)) {
+        $pages = false;
+        if (!empty ($this->cache)) {
+            $pages = $this->cache->fetch ("pages");
+        }
+		if (!$pages) {
 			$pages = $this->get_pages($settings['base_url'], $settings['pages_order_by'], $settings['pages_order'], $settings['excerpt_length']);
-			$this->cache->set ("pages", $pages, 300);
+            if (!empty ($this->cache)) {
+                $this->cache->save ("pages", $pages, 300);
+            }
 		}
 		$prev_page = array();
 		$current_page = array();
