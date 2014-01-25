@@ -31,7 +31,6 @@ class Pico {
 		
 
         if (isset ($settings['phpfastcache_path'])) {
-            echo "Cache set";
             $this->cache = new \Doctrine\Common\Cache\FilesystemCache ($settings['phpfastcache_path']);
         }
 
@@ -155,9 +154,7 @@ class Pico {
 	{
 		$content = preg_replace('#/\*.+?\*/#s', '', $content); // Remove comments and meta
 		$content = str_replace('%base_url%', $this->base_url(), $content);
-        $parser = new MarkdownExtra;
-        $parser->code_class_prefix = "language-";
-		$content = $parser->transform($content);
+        $content = Parsedown::instance()->parse($content);
 
 		return $content;
 	}
