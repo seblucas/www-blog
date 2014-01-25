@@ -36,6 +36,10 @@
                         <li><a href="/fr/debian/start">Wiki (FR)</a></li>
                     </ul>
                 </div>
+                <h3>Follow</h3>
+                <a href="/feed"><img src="{{ theme_url }}/images/rss.png" alt="RSS" /></a>
+                <a href="https://plus.google.com/102416292364311891777"><img src="{{ theme_url }}/images/googleplus.png" alt="RSS" /></a>
+                <h3>Tag cloud</h3>
                 <div id="cloud">
                     {% for tag in tagcloud %}
                     <a href="/tag/{{ tag.name }}" class="tag{{ tag.rank }}">{{ tag.name }}</a>
