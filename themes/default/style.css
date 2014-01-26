@@ -254,7 +254,7 @@ blockquote {
 #footer a { color: #ddd; }
 #footer a:hover { color: #fff; }
 
-#cloud { padding: 8px; line-height: 1em; text-align: center; }
+#cloud { padding: 8px; line-height: 1.1em; text-align: justify; }
 #cloud a { padding: 0px; }
 
 #cloud a.tag1 { font-size: 0.9em; font-weight: 300; }
@@ -288,4 +288,8 @@ blockquote {
     margin-left: 6px;
     font-variant: small-caps;
     font-size: 1.1em;
+}
+
+.post {
+    text-align: justify;
 }
