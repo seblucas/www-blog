@@ -236,6 +236,9 @@ blockquote {
 	margin-top: 80px;
 	color: #C0C0C0;
 }
+#footer h3 {
+	color: #C0C0C0;
+}
 .footer-column {
     float: left;
     padding-bottom: 1.5em;
