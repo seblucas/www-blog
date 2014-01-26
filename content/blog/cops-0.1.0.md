@@ -17,9 +17,7 @@ Quand je dis que la version est presque complète cela veut dire que je n'ai plu
 
 Comme la dernière fois, j'ai fait des modifications à la version HTML (voir [COPS : version alpha avec support des navigateurs de nos liseuses](/blog/cops-eink-1)).
 
-A noter que j'ai pris le temps de monter le dépôt de sources sur [[https://github.com/seblucas/cops
- | GitHub]] donc clonez comme des fous et n'oubliez pas les Merge Request !
- | ------------------------------------------------------------------------
+A noter que j'ai pris le temps de monter le dépôt de sources sur [GitHub](https://github.com/seblucas/cops) donc clonez comme des fous et n'oubliez pas les Merge Request !
 
 
 
