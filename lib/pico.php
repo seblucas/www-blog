@@ -154,7 +154,15 @@ class Pico {
 	{
 		$content = preg_replace('#/\*.+?\*/#s', '', $content); // Remove comments and meta
 		$content = str_replace('%base_url%', $this->base_url(), $content);
-        $content = Parsedown::instance()->parse($content);
+        if (preg_match ("/------/", $content)) {
+            // Use php-markdown if we detect a table
+            $parser = new MarkdownExtra;
+            $parser->code_class_prefix = "language-";
+            $content = $parser->transform($content);
+        } else {
+            // Use parsedown otherwise (way faster)
+            $content = Parsedown::instance()->parse($content);
+        }
 
 		return $content;
 	}
