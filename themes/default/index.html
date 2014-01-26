@@ -32,14 +32,47 @@
 
 	<section id="content">
 		<div class="inner">
-			{{ content }}
+
+ {% if is_front_page %}
+            {% if meta.title %}
+                <h1>{{ meta.title }}</h1>
+            {% endif %}
+{% for page in pages %}
+{% if page.date and not(page.url == base_url~'/') %}
+		    <div class="post">
+		        <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+		        <p class="meta">Published {{ page.date_formatted }} // 
+                    <!-- display single page tags with proper urls -->
+                    {% for tag in page.tags %}
+                        <a href="/tag/{{ tag }}">#{{ tag }}</a>
+                    {% endfor %}
+                </p>
+		        <p class="excerpt">{{ page.excerpt }}</p>                
+		    </div>
+{% endif %}
+{% endfor %}
+{% else %}
+		    <div class="post">
+{% if meta.date %}
+		        <p class="meta" style="float:right">Published {{ meta.date_formatted }} //
+                <!-- display single page tags with proper urls -->
+                {% for tag in meta.tags %}
+                    <a href="/tag/{{ tag }}">#{{ tag }}</a>
+                {% endfor %}
+                </p>
+{% endif %}
+		        {% spaceless %}{{ content }}{% endspaceless %}
+				
+		    </div>
+{% endif %}
+
+        
 		</div>
 	</section>
 	
 	<footer id="footer">
 		<div class="inner">
-			<a href="http://pico.dev7studios.com">Pico</a> was made by <a href="http://gilbert.pellegrom.me">Gilbert Pellegrom</a> 
-			from <a href="http://dev7studios.com">Dev7studios</a>.
+			Basé sur une version modifiée de <a href="http://pico.dev7studios.com">Pico</a>. Sauf mention contraire, le contenu de ce wiki est placé sous la licence suivante : <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC Attribution-Noncommercial-Share Alike 3.0 Unported</a>.
 		</div>
 	</footer>
     
