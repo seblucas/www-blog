@@ -13,14 +13,14 @@ There was no problem before the switch to VS 2010 and framework 4.0. So after so
 
 *	Edit your nunit.exe.config (should be in your Program directory next to nunit.exe)
 
-*	under <configuration> add : 
+*	under `<configuration>` add : 
 ```
 <startup>
   <supportedRuntime version="v4.0.30319" />
 </startup>
 ```
 
-*	and under <runtime> add:
+*	and under `<runtime>` add:
 ```
 <loadFromRemoteSources enabled="true" />
 ```

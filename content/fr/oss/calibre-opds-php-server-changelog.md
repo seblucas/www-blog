@@ -280,7 +280,7 @@ Tags: calibre,ereader,nginx,opds,php
 
 *	Fix all rewriting rule I forgot to change it in last release
 
-*	Fix <hr> in book comment (thanks to jillmess)
+*	Fix `<hr>` in book comment (thanks to jillmess)
 
 *	Fix cover zoom in HTML catalog (you can also navigate through cover with keyboard)
 

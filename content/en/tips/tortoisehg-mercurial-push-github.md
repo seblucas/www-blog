@@ -28,7 +28,7 @@ hg clone http://bitbucket.org/durin42/hg-git c:\work\hg-git
 ```
 ## Enable the hg-git plugin
 
-Edit your Mercurial.ini (in C:\Users\<YourName>) to add this line
+Edit your Mercurial.ini (in C:\Users\`<YourName>`) to add this line
 ```
 [extensions]
 hggit = C:\work\hg-git\hggit

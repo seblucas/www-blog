@@ -13,16 +13,16 @@ Try the search box (on the right).
 ## Possibly incomplete list
 
 ### in french
-<blog related>
+`<blog related>`
   blog   default
   tags   debian
   limit 100
-</blog>
+`</blog>`
 ### in english
 
-<blog related>
+`<blog related>`
   blog   tips
   tags   debian
   limit 100
-</blog>
+`</blog>`
 

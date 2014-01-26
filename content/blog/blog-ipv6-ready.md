@@ -28,7 +28,7 @@ location ~ ^/(data|conf|bin|inc) {
 Au final je remplace une erreur 403 par une 404 ce qui ne me pose aucun problème.
 ## Comment ai-je testé
 
-Tout simplement avec Firefox/Iceweasel qui gère très bien l'ipv6 par défaut, mais il est possible de le désactiver en tapant about:config dans la barre de location et en changeant le parametre <network.dns.disableIPv6>.
+Tout simplement avec Firefox/Iceweasel qui gère très bien l'ipv6 par défaut, mais il est possible de le désactiver en tapant about:config dans la barre de location et en changeant le parametre `<network.dns.disableIPv6>`.
 
 
 

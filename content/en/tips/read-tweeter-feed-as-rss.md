@@ -11,10 +11,10 @@ Tags: feed
 
 I have no twitter / facebook account and I wanted to subscribe to an Twitter feed without creating an account. Here is quick howto :
 
-*	Get the user name : http://www.twitter.com/<USER_NAME>
+*	Get the user name : http://www.twitter.com/`<USER_NAME>`
 
 *	Use this website to get a user id : http://www.idfromuser.com/
 
-*	put this url to your favorite RSS reader : http://twitter.com/statuses/user_timeline/<USER_ID>.rss
+*	put this url to your favorite RSS reader : http://twitter.com/statuses/user_timeline/`<USER_ID>`.rss
 
 

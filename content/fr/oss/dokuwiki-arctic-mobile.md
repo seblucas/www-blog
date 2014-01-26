@@ -77,7 +77,7 @@ div.dokuwiki div.toc {
 Comme indiqué précédemment le but est juste de réduire les marges et maximiser l'espace affiché.
 ### La modification de main.php
 
-il s'agit juste de 3 lignes ajoutées avant le </head> :
+il s'agit juste de 3 lignes ajoutées avant le `</head>` :
 ```html
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />

@@ -30,7 +30,7 @@ Un des principaux problèmes était la perte de la couverture du livre. David Fo
 
 *	Ouvrez ce fichier dans un éditeur de texte (Notepad++).
 
-*	Trouvez la section "<manifest>".
+*	Trouvez la section "`<manifest>`".
 
 *	Dans cette section vous devriez trouver quelque chose de ce style : 
 ```
