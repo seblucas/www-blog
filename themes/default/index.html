@@ -72,7 +72,21 @@
 	
 	<footer id="footer">
 		<div class="inner">
+            <div class=footer-column">
+                <div id="cloud" class="column">
+                    {% for tag in tagcloud %}
+                    <a href="/tag/{{ tag.name }}" class="tag{{ tag.rank }}">{{ tag.name }}</a>
+                    {% endfor %}
+                </div>
+                <div class="column">
+                    <h3>Follow</h3>
+                    <a href="/feed"><img width="32" height="32" src="{{ theme_url }}/images/rss.png" alt="RSS" /></a>
+                    <a href="https://plus.google.com/102416292364311891777"><img width="32" height="32" src="{{ theme_url }}/images/googleplus.png" alt="Google+" /></a>
+                </div>
+            </div>
+            <div class="copyright">
 			Basé sur une version modifiée de <a href="http://pico.dev7studios.com">Pico</a>. Sauf mention contraire, le contenu de ce wiki est placé sous la licence suivante : <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC Attribution-Noncommercial-Share Alike 3.0 Unported</a>.
+            </div>
 		</div>
 	</footer>
     

@@ -236,8 +236,33 @@ blockquote {
 	margin-top: 80px;
 	color: #C0C0C0;
 }
+.footer-column {
+    float: left;
+    padding-bottom: 1.5em;
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+.copyright {
+    border-top: 1px solid #ABB6C5;
+    padding-top: 1em;
+}
+
 #footer a { color: #ddd; }
 #footer a:hover { color: #fff; }
+
+#cloud { padding: 8px; line-height: 1em; text-align: center; }
+#cloud a { padding: 0px; }
+
+#cloud a.tag1 { font-size: 0.9em; font-weight: 300; }
+#cloud a.tag2 { font-size: 1.0em; font-weight: 600; }
+#cloud a.tag3 { font-size: 1.2em; font-weight: 600; }
+#cloud a.tag4 { font-size: 1.4em; font-weight: 600; }
+#cloud a.tag5 { font-size: 1.6em; font-weight: 700; }
+
 
 /* Misc Styles
 /*---------------------------------------------*/
