@@ -13,7 +13,6 @@ Tags: debian,tips
 ```
 aptitude install xfsdump
 ```
-
 *	Usage
 ```
 xfs_fsr -t 600

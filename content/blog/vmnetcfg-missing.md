@@ -14,7 +14,6 @@ Après l'installation de VMware player sur le poste d'un collègue, les machines
 ## Solution
 
 *	Soit installer une version d'évaluation de VMware Workstation pour avoir accès à l'outil
-
 *	Utiliser la technique précisée sur le lien suivant : http://efreedom.com/Question/3-187767/VMWare-Player-311-Missing-Vmnetcfgexe-Utility-Get
 
 

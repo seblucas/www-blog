@@ -122,7 +122,6 @@ Voir [ici](/fr/debian/nomachine) pour l'installation de [NoMachine](http://www.n
 J'aime beaucoup [SABnzbd](http://sabnzbd.wikidot.com/). C'est simple à installer et il fonctionne parfaitement avec l'IPV6.
 
 Il n'y a pas de paquets tout fait, il faut donc l'installer "à l'ancienne"  :
-
 *	Il faut d'abord mettre les sources d'apt pour inclure les paquet "non-free". Editer le ficher /etc/apt/sources.list pour qu'il ressemble à ça :
 
 ```
@@ -138,7 +137,6 @@ deb-src http://ftp.fr.debian.org/debian/ lenny main
 deb http://security.debian.org/ lenny/updates main contrib non-free
 deb-src http://security.debian.org/ lenny/updates main
 ```
-
 
 *	Suivre [ce tutoriel Ubuntu](http://sabnzbd.wikidot.com/install-ubuntuserver804)
 

@@ -10,9 +10,7 @@ Tags: tips
 # Optimize PNG's size lossless
 
 ## Pngcrush
-
 *	http://pmt.sourceforge.net/pngcrush/
-
 *	Usage : 
 ```
 pngcrush -brute -e _small.png MyPngFile.png

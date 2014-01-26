@@ -42,15 +42,10 @@ Au boot on démarre directement sur notre ArchLinux (mot de passe root/root).
 
 ### mv_cesa / cryptodev
 Notre Dockstar possède une unité de calcul cryptographique dédiée avec notamment la prise en charge du AES. Mon objectif était que tous les programmes qui doivent chiffrer des informations puissent le faire via le matériel, en effet il y a :
-
 *	l'accès SSH
-
 *	Le transfert via SFTP
-
 *	Un VPN OpenVPN
-
 *	Un site Web en HTTPS
-
 *	...
   
 Le moyen le plus propre est d'utiliser le module noyau crytodev que la bibliothèque openssl qui peut l'utiliser si elle est compilée pour.
@@ -119,9 +114,7 @@ iperf -c 127.0.0.1 -t 60 -i 10
 ```
 
 Bilan :
-
 *	Avec support matériel : 60Mbits/sec.
-
 *	Sans support matériel : 45Mbits/sec.
 
 Pour information un iperf sans tunnel SSH sature sans problème un tuyau à 100Mbits/sec (environ 310Mbits/sec pour thana54).
@@ -133,8 +126,6 @@ Un petit graphe :
 ### Source
 
 *	Installation : http://archlinuxarm.org/forum/viewtopic.php?f=30&t=2452
-
 *	Modalité de test : http://vdupain.wordpress.com/2010/10/15/debits-vpn/
-
 *	Le post qui a tout déclenché : http://www.altechnative.net/2011/05/22/hardware-accelerated-ssl-on-marvell-kirkwood-arm-using-openssl-on-fedora/
 

@@ -17,23 +17,14 @@ Comme convenu un petit article un peu plus étoffé sur le nouveau firmware.
 ## Liste des changements
 
 La liste officielle est ci-dessous :
-
 *	La page d'accueil réorganisée permet de trouver des livres plus facilement
-
 *	Épinglez des livres à votre Liste d'envies pour les acheter plus tard
-
 *	Créer des étagères personnalisées
-
 *	Obtenez des recommandations de livres personnalisées
-
 *	Trouvez des livres semblables à ceux de votre bibliothèque
-
 *	Dictionnaire en français
-
 *	Précision améliorée de la police
-
 *	Affinez la police grâce à des réglages personnalisés
-
 *	Changez de compte sur votre liseuse
 ## Téléchargement direct
 
@@ -72,9 +63,7 @@ Les polices intégrées ont un nouveau paramétrage (avancé) qui permet de spé
 ### Régressions
 
 Le terme peut paraitre péjoratif mais cela représente simplement des choses que je préférais dans les firmwares précédents :
-
 *	Il faut un clic de plus pour accéder à l'heure en cours de lecture, c'est vraiment rageant.
-
 *	Le rendu des fichiers EPUB avec des polices personnalisées (Averia dans mon cas) est différent du firmware précédent et j'ai eu beau essayer tous les réglages j'aime moins le nouveau rendu.
 
 Pour l'instant je n'ai trouvé que ça.

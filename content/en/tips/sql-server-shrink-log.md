@@ -13,7 +13,6 @@ Tags: sql
 ```
 Backup log <DATABASENAME> with No_Log
 ```
-
 *	Then you can shrink the journal with Management Studio :
     * Right click on the database, 
     * All tasks, 

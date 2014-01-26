@@ -14,11 +14,8 @@ Après trois semaines, je pense qu'on peut dresser un bilan sur le dernier firmw
 Les informations ci-dessous sont un complément à [Firmware 2.4.0 : des corrections de bugs (enfin) et quelques nouveautés](/blog/kobo-ereader-touch-56).
 
 A noter que je n'ai pas testé ce dont je ne me sers jamais : 
-
 *	Les étagères
-
 *	Les annotations
-
 *	Les signets (hormis le signet automatique)
 
 ## Anomalies

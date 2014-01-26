@@ -10,15 +10,10 @@ Tags: xfce
 
 ### Inutile mais amusant
 [Conky](http://conky.sourceforge.net/) est un petit outil permettant de monitorer votre ordinateur. Il vous permet d'avoir des informations sur la santé de votre système directement sur le fond d'écran :
-
 *	Charge CPU 
-
 *	uptime
-
 *	Utilisation RAM 
-
 *	Températures (CPU, GPU, HDD)
-
 *	Vitesse des ventilateurs
 ### Dépendances
 

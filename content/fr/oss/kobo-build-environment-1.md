@@ -46,5 +46,4 @@ La dernière ligne doit indiquer : Sourcery G++ Lite 2010q1-202
 ## Sources
 
 *	http://code.google.com/p/kobo-plus/wiki/GettingStarted
-
 *	http://www.mobileread.com/forums/showthread.php?p=2176378

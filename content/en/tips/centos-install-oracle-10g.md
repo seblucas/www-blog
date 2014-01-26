@@ -44,7 +44,6 @@ su - $ORACLE_OWNER -c "$ORACLE_HOME/bin/dbshut $ORACLE_HOME"
 rm -f /var/lock/subsys/oracle
 echo "OK"
 ;;
-
 *)
 echo $"Usage: $0 {start|stop}"
 esac

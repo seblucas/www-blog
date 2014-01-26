@@ -18,13 +18,9 @@ J'ai trouvé sur [MobileRead](http://www.mobileread.com/forums/showpost.php?p=23
 Pour avoir le nom interne sous Windows, il suffit de double cliquer sur le fichier ttf (il correspond à la zone Nom de la police).
 
 J'ai donc connecté mon Kobo à l'ordinateur et j'ai renommé les fichiers correspondant à la police Averia Sans de la manière suivante (notez l'espace en plus) : 
-
 *	AveriaSans-Regular.ttf -> Averia Sans-Regular.ttf
-
 *	AveriaSans-Bold.ttf -> Averia Sans-Bold.ttf
-
 *	AveriaSans-BoldItalic.ttf -> Averia Sans-BoldItalic.ttf
-
 *	AveriaSans-Italic.ttf -> Averia Sans-Italic.ttf
 
 Et voila les italiques fonctionnent correctement.

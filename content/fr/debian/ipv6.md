@@ -19,9 +19,7 @@ Avec l'IPV6, chaque ordinateur de votre LAN est directement connecté sur Intern
 
 A partir de la version Sarge (au moins) IPV6 est inclus dans le kernel debian. Si l'IPV6 ne vous interesse pas il faut le desactiver explicitement. J'ai trouvé toute une série de méthode permettant de le désactiver (je n'en ai testée aucune) :
 
-
 *	http://www.debian-administration.org/articles/409
-
 *	http://ubuntuforums.org/showthread.php?t=6841
 
 ### Vérifier que tout fonctionne
@@ -50,35 +48,25 @@ www.kame.net has IPv6 address 2001:200:0:8002:203:47ff:fea5:3085
 ### Essayer avec un navigateur Internet
 
 Il y a pas mal de sites pour tester :
-
 *	http://6to4.nro.net/
-
 *	http://go6.net/
-
 *	http://www.sixxs.net/ (Vérifier en haut à droite)
-
 *	http://www.kame.net/ (La tortue doit être animée)
-
 *	bien d'autres
 
 ### Super et à quoi ça sert
 
 La vrai raison est qu'il est super drôle de se souvenir de 8 groupe de 4 chiffres hexadécimaux. En étant sérieux, pour l'instant il n'y a aucun intérêt mais la pénurie d'adresse ipv4 s'accélérant, l'adoption généralisée de l'ipv6 ne devrais plus tarder.
 En cherchant bien il y a ceci :
-
 *	Voir une tortue dancer : http://www.kame.net
-
 *	http://www.sixxs.net/misc/coolstuff/
 
 ### Exemples de scripts de parefeu
 
 #### ip6tables
 Un parefeu ipv6 est quasiment identique à un parefeu ipv4, la différence réside dans le nom du programme à utiliser :
-
 *	iptables -> ip6tables
-
 *	iptables-save -> ip6tables-save
-
 *	iptables-restore -> ip6tables-restore
 
 Voir mon article sur iptable : [en:debian:iptables](/en/debian/iptables).

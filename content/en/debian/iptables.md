@@ -15,17 +15,13 @@ See [Netfilter](http://fr.wikipedia.org/wiki/Special:Search?search=Netfilter)
 In a lot of other Linux distributions, there is a file /etc/init.d/iptables which is loaded automatically. There is no such file in Debian (at least in Etch and Lenny). The Debian way (see [here](http://www.debian-administration.org/articles/445)) is to load the firewall rules as soon as the network is started (so your computer is always protected).
 
 So how do we do this :
-
 *	First log on as root
-
 *	create a file named firewall.sh which will contain all your iptables rules (detail later).
-
 *	make sure firewall.sh can be executed :
 
 ```
 chmod +x firewall.sh
 ```
-
 
 *	Execute firewall.sh and check if everything still works as expected (ssh, samba, torrent, www, ...)
 
@@ -33,13 +29,11 @@ chmod +x firewall.sh
 ./firewall.sh
 ```
 
-
 *	Everything works fine so let's save our rules to a file (I prefer to save it in /etc) :
 
 ```
 iptables-save > /etc/firewall.conf
 ```
-
 
 *	Create a script to start the rules :
 
@@ -52,17 +46,13 @@ chmod +x /etc/network/if-up.d/iptables
 ### Firewall rules update
 
 If you need to update your firewall rules :
-
 *	Edit firewall.sh to make your desired changes.
-
 *	Execute it and check if everything works as expected
-
 *	If everything runs ok, run :
 
 ```
 iptables-save > /etc/firewall.conf
 ```
-
 
 *	That's all
 ### A simple firewall script explained
@@ -83,9 +73,7 @@ iptables -F
 iptables -X
 ```
 
-
 *	iptables -F : flush all the iptables chains.
-
 *	iptables -X : delete all the iptables chains.
 
 ```

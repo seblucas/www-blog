@@ -68,7 +68,6 @@ case "$1" in
       start
       RETVAL=$?
   ;;
-
     *)
       echo "Usage: fastcgi {start|stop|restart}"
       exit 1

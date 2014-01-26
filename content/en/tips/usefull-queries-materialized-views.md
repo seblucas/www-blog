@@ -87,15 +87,10 @@ Source : http://www.cnblogs.com/hibernate315/archive/2010/04/23/2399283.html
 ## References
 
 *	[Create Materialized View](http://docs.oracle.com/cd/B12037_01/server.101/b10759/statements_6002.htm)
-
 *	[Create Materialized View Log](http://docs.oracle.com/cd/B12037_01/server.101/b10759/statements_6003.htm)
-
 *	[Simple but thorough explanation](http://www.sqlsnippets.com/en/topic-12868.html)
-
 *	[Another one](http://www.skill-guru.com/blog/2010/01/03/understanding-materialized-view-in-oracle/)
-
 *	[Burleson tips](http://www.dba-oracle.com/art_9i_mv.htm)
-
 *	
 
 

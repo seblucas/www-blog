@@ -42,9 +42,7 @@ Je trouve (et je ne suis pas le seul) que les changements de pages sur les epubs
 
 ### Impossible d'utiliser les étagères
 Le problème vient souvent de l'activation des étagères via le plugin. Dans ce cas, deux solutions :
-
 *	Factory reset (dans les paramètres)
-
 *	Changement de compte (voir après).
   
 La deuxième solution est plus efficace car vous devriez garder vos epubs déjà chargés.

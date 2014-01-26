@@ -20,9 +20,7 @@ Dès que je trouve plus d’informations je refais un billet complet.
 Bonne mise à jour ... si vous le voulez bien sur ;).
 
 Les liens directs (pour les téméraires) :
-
 *	Kobo Touch ancienne génération : http://download.kobobooks.com/firmwares/kobo3/bleedblue/kobo-update-2.5.2.zip
-
 *	Kobo Touch Low Cost (N905C Model), Kobo Glo, Kobo Mini, Aura : http://download.kobobooks.com/firmwares/kobo4/bleedblue/kobo-update-2.5.2.zip
 
 

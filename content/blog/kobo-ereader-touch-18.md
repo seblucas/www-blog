@@ -25,9 +25,7 @@ Quelques jours après la sortie du firmware 1.9.17, un bug assez gênant a été
 Encore quelques jours plus tard, les compilations de nuit ont été arrêtées. Donc le groupe beta ne teste plus rien. Rien de choquant la dedans, les nightly build avaient eu quelques effets néfastes pour certains testeurs (lors de la béta de la 1.9.17).
 
 Après silence radio :
-
 *	Plus aucun message sur Mobileread
-
 *	Plus de message sur le groupe beta
 
 Encore une fois rien de choquant, la travail d'abord, la communication ensuite.
@@ -35,11 +33,8 @@ Encore une fois rien de choquant, la travail d'abord, la communication ensuite.
 Il y a quelques semaines, j'ai écrit un billet disant que je commençais à avoir peur de la tournure des évènements (voir [Kobo eReader Touch : Revue de Web et autres informations](/blog/kobo-ereader-touch-15)). Suite à cela j'ai fait un mail un peu humouristique pour attirer une réponse des officiels de Kobo et j'ai eu une réponse sous forme d'une photo qui m'a redonné un peu d'espoir (voir [Kobo : La patience est une vertu](/blog/kobo-ereader-touch-16)).
 
 Mais rien ne bouge. Beaucoup de monde commencent à avoir assez d'attendre :
-
 *	Sur MobileRead les derniers messages sur [le topic du firmware 1.9.17](http://www.mobileread.com/forums/showthread.php?t=172355) sont de plus en plus dépités.
-
 *	Sur le [twitter de Kobo](http://twitter.com/#!/Kobo_FR) il commence à y avoir des questions sur la date d'arrivée du dictionnaire.
-
 *	Plus modestement j'ai reçu environ 20 mails depuis une semaine et demi ou vous me demandez si j'ai des nouvelles.
 
 Je ne suis malheureusement pas dans les petits papiers de Kobo, donc pas de scoop pour le moment.

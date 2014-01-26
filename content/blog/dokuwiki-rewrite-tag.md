@@ -13,14 +13,11 @@ Tags: dokuwiki,nginx
 ### Liens
 
 *	Dokuwiki et les moteurs de recherche : http://www.dokuwiki.org/fr:seo
-
 *	Dokuwiki et le mode rewrite (en anglais) : http://www.dokuwiki.org/rewrite
 ### Installation
 
 J'ai donc suivi le lien sur le rewrite pour modifier dokuwiki :
-
 *	userewrite = 1
-
 *	useslash = 1
 J'ai ensuite modifié ma configuration nginx en conséquence (comme indiqué dans le lien) :
 ```

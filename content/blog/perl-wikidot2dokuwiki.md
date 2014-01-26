@@ -58,14 +58,9 @@ sub TransformeCreate ($)
 }
 ```
 Il gère :
-
 *	Les liens externes
-
 *	Les notes de bas de page
-
 *	Les liens vers wikipedia
-
 *	Les titres
-
 *	Les listes non ordonnées
 

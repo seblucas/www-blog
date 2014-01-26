@@ -30,7 +30,5 @@ Le nouvel outil de synchronisation (1.1.1) marche mieux. Je n'ai pas essayé pou
 En tout cas pour mon utilisation de partage de la bibliothèque Calibre cela fonctionne très bien.
 
 Un petit détail : mes logs sont saturés de messages d'avertissement liés à l'utilisation de Xcache. Je n'ai as trouvé de solution pour le moment, juste des explications ne faisant pas avancer le problème : 
-
 *	http://stackoverflow.com/questions/2976829/xcache-var-size-error
-
 *	http://forum.owncloud.org/viewtopic.php?f=3&t=4547

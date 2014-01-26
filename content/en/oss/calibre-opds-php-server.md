@@ -16,19 +16,12 @@ That's the main reason why I coded this OPDS / HTML content server. I needed a s
 I initially thought of Calibre2OPDS but as it generate static file no search was possible.
 
 So COPS's main advantages are :
-
 *	No need for many dependencies.
-
 *	No need for a lot of CPU or RAM.
-
 *	Not much code.
-
 *	Search is available.
-
 *	With Dropbox / Owncloud it's very easy to have an up to date OPDS content server.
-
 *	100% OPDS valid code (checked with http://opds-validator.appspot.com/).
-
 *	It was fun to code.
 
 **Disclaimer**
@@ -42,19 +35,12 @@ Other users have reported COPS working with Stanza, Megareader, Shubook and Blue
 
 ## Features
 
-
 *	HTML5 / CSS3 interface with responsive design.
-
 *	Multiple Calibre database support in a single COPS install.
-
 *	Epub metadata update like Calibre Content Server (enable it with $config['cops_update_epub-metadata']) : If you fixed the author name / a tag / the serie name of a book in Calibre, then the epub you'll download with COPS will contain the fix.
-
 *	Calibre custom columns.
-
 *	[Facets](http://opds-spec.org/2011/06/14/faceted-search-browsing/) in the OPDS feed to filter book list (the only OPDS clients supporting it are Mantano Reader and Bluefire for now).
-
 *	Multilanguage : English, French, German, Russian, Spanish, Catalan, Italian, Norwegian Bokmål, Chinese.
-
 *	Certainly many other.
 
 ## Demo
@@ -69,11 +55,8 @@ http://cops-demo.slucas.fr/index.php
 
 ## Prerequisites for installation
 
-
 *	PHP 5.3 / 5.4 with GD image processing & SQLite3 support.
-
 *	A web server with PHP support (Nginx, Apache, Cherokee, Lighttpd, IIS).
-
 *	The path to a Calibre library (metadata.db, format, & cover files).
 
 On any Debian base Linux you can use :
@@ -83,15 +66,11 @@ aptitude install php5-gd php5-sqlite
 
 ## Install
 
-
 *	Extract the zip file to a folder in web space (visible to the web server).
-
 *	If a first-time install, copy config_local.php.example to config_local.php
-
 *	Edit config_local.php to match your config. The most important config item to edit are :
     * $config['calibre_directory'] : Path to your Calibre directory.
     * $config['cops_use_url_rewriting'] : If you want to enable URL rewriting.
-
 *	Add some other config item from config_default.php
 
 ## Known problems
@@ -114,43 +93,23 @@ You can download it here ([Changelog](/en/oss/calibre-opds-php-server-changelog)
 
 Older releases :
 
-
 *	[cops-0.6.2.zip](/en/oss/cops-0.6.2.zip)
-
 *	[cops-0.6.1.zip](/en/oss/cops-0.6.1.zip)
-
 *	[cops-0.6.0.zip](/en/oss/cops-0.6.0.zip)
-
 *	[cops-0.5.0.zip](/en/oss/cops-0.5.0.zip)
-
 *	[cops-0.4.0.zip](/en/oss/cops-0.4.0.zip)
-
 *	[cops-0.3.4.zip](/en/oss/cops-0.3.4.zip)
-
 *	[cops-0.3.3.zip](/en/oss/cops-0.3.3.zip)
-
 *	[cops-0.3.2.zip](/en/oss/cops-0.3.2.zip)
-
 *	[cops-0.3.1.zip](/en/oss/cops-0.3.1.zip)
-
 *	[cops-0.3.0.zip](/en/oss/cops-0.3.0.zip)
-
 *	[cops-0.2.3.zip](/en/oss/cops-0.2.3.zip)
-
 *	[cops-0.2.2.zip](/en/oss/cops-0.2.2.zip)
-
 *	[cops-0.2.1.zip](/en/oss/cops-0.2.1.zip)
-
 *	[cops-0.2.0.zip](/en/oss/cops-0.2.0.zip)
-
 *	[cops-0.1.1.zip](/en/oss/cops-0.1.1.zip)
-
 *	[cops-0.1.0.zip](/en/oss/cops-0.1.0.zip)
-
 *	[cops-0.0.4.zip](/en/oss/cops-0.0.4.zip)
-
 *	[cops-0.0.3.zip](/en/oss/cops-0.0.3.zip)
-
 *	[cops-0.0.2.zip](/en/oss/cops-0.0.2.zip)
-
 *	[cops-0.0.1.zip](/en/oss/cops-0.0.1.zip)

@@ -72,15 +72,11 @@ Comme tout ne peut pas être négatif, le service client 1&1 a répondu rapideme
 ## Bilan
 
 *	Dès qu'il y a paravirtualisation (1&1, Gandi, ...), la RAM garantie ne veut pas dire grand chose, il faut avoir les informations sur les limites.
-
 *	Dropbox est assez immonde en terme d'utilisation mémoire.
-
 *	Je comprends pourquoi OVH est plus cher 
 ## Autres informations à ce sujet
 
 *	http://florent.clairambault.fr/serveur-prive-1and1-une-belle-arnaque
-
 *	http://wiki.openvz.org/UBC_auxiliary_parameters
-
 *	http://www.webhostingtalk.com/showthread.php?t=682317
 

@@ -121,13 +121,9 @@ startx
 
 #### Many choices
 For now, our Lenny should start in text mode and we can and we can start the GUI with startx. It's also possible to log on with a GUI, you'll nee a Display Manager. there are a lot :
-
 *	gdm : linked to Gnome, that's why I don't use it (a lot of dependencies).
-
 *	kdm : linked to KDE.
-
 *	xdm : not a lot of dependencies but not very pretty.
-
 *	wdm : ditto
 #### Installation of SLiM
 
@@ -142,8 +138,6 @@ Everything is then already done. You can log on graphically (CTRL + ALT + F7 if 
 ### See also
 
 *	[Useful Applications](/en/debian/xfce-applications)
-
 *	[Tips & Tricks](/en/debian/tips)
-
 *	[Install NVIDIA driver](/en/debian/nvidia)
 

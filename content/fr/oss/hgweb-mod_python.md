@@ -25,7 +25,6 @@ a2enmod mod_python
 /etc/init.d/apache2 reload
 ```
 
-
 *	Télécharger modpython_gateway.py (à partir d'[ici](http://www.aminus.net/wiki/ModPythonGateway)). Ne pas essaye d'utiliser [WSGIHandler](http://trac.gerf.org/pse/wiki/WSGIHandler), Ce programme doit contenir quelques bugs dans l'initialisation de PATH_INFO. L'installer (dans le PYTHON_PATH ou /var/hg) :
 
 ```
@@ -34,9 +33,7 @@ wget http://www.aminus.net/browser/modpython_gateway.py
 cp modpython_gateway.py /var/hg
 ```
 
-
 *	Copier hgwebdir.cgi dans /var/hg/hgwebdir.py
-
 *	Ajouter cette fonction à /var/hg/hgwebdir.py (Vous pouvez changer le nom de la variable, si vous n'aimez pas toto)  :
 
 ```python
@@ -44,7 +41,6 @@ def test(environ, start_response):
     toto = wsgiapplication(make_web_app)
     return toto (environ, start_response)
 ```
-
 
 *	Ajouter ceci à votre configuration apache (personnellement pour garder le fichier de configuration d'apache propre j'ai ajouter la configuration suivante dans /etc/apache2/hg.conf) :
 
@@ -59,20 +55,17 @@ def test(environ, start_response):
 </Location>
 ```
 
-
 *	Si vous avez créé un fichier /etc/apache2/hg.conf, il ne vous reste qu'à ajouter ce qui suit à la fin du fichier de configuration apache :
 
 ```
 Include /etc/apache2/hg.conf
 ```
 
-
 *	Redémarrer apache
 
 ```
 /etc/init.d/apache2 reload
 ```
-
 
 *	Profitez
 
@@ -150,10 +143,7 @@ def test(environ, start_response):
 ## Résolutions de problème
 
 Si ce tutoriel ne fonctionne pas chez vous :
-
 *	Decommenter la ligne concernant PythonDebug.
-
 *	Relancer Apache.
-
 *	Bien vérifier les messages d'erreur dans le navigateur internet et dans /var/log/apache2/error.log.
 

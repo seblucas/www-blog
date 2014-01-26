@@ -10,9 +10,7 @@ Tags: calibre,ereader,nginx,opds,php
 # COPS 0.2.3
 
 Pour cette nouvelle version, quelques nouvelles fonctionnalités :
-
 *	[Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
-
 *	[Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
 
 Le plus gros changement est que l'intégration au Nas Synology et donc aux autres système avec Apache est complète, il ne manque plus qu'un package officiel pour faciliter l'installation. J'ai aussi ajouté les évaluations associées aux livre ainsi que la langue du livre dans le détail.

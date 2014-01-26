@@ -27,17 +27,12 @@ A noter que je n'ai même pas utilisé mon overclock habituel.
 
 Vu qu'on me l'a demandé par mail, je vais faire une liste des extensions XBMC que j'ai installé, pas d'énormité :
 Sur le dépôt XBMC :
-
 *	M6 Groupe
 
 Sur le dépôt [Passion-XBMC.org Add-ons](http://passion-xbmc.org/addons/?Page=View&ID=repository.passion.xbmc.org.frodo) :
-
 *	TF1 Replay
-
 *	Canal +
-
 *	D8 Replay
-
 *	D17 Replay
 
 

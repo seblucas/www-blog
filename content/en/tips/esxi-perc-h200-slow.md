@@ -27,11 +27,8 @@ Download the latest Ubuntu CD for amd64. In my case : ubuntu-11.04-desktop-amd64
 ### Modification
 
 *	Boot the CD
-
 *	Choose your language and click Try Ubuntu
-
 *	Start a command line (Application -> Accessories -> Terminal)
-
 *	Install and configure the tools
 ```
 sudo echo 'deb http://linux.dell.com/repo/community/deb/latest /' | sudo tee -a /etc/apt/sources.list.d/linux.dell.com.sources.list
@@ -42,14 +39,11 @@ sudo apt-get install -y --force-yes srvadmin-storageservices
 
 sudo service dataeng start
 ```
-
 *	Check if the disk cache is disabled
 ```
 sudo /opt/dell/srvadmin/bin/omreport storage vdisk | grep 'Disk Cache Policy'
 ```
-
 *	If you already got : **Disk Cache Policy : Enabled** then sorry there's nothing I can do for you.
-
 *	Otherwise try this command to enable the cache (it's persistent across reboot) :
 ```
 sudo /opt/dell/srvadmin/sbin/omconfig storage vdisk  action=changepolicy controller=0 vdisk=0 diskcachepolicy=enabled

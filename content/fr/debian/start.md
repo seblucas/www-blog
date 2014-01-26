@@ -12,15 +12,10 @@ J'utilise Linux depuis 1998, j'ai comme beaucoup de monde commencé par une Red 
 ## A quoi ça sert
 
 En plus de l'usage classique, j'ai eu des usages multiples de mes différents ordinateur Debian :
-
 *	Magnétoscope Numérique grâce à VDR et carte DVB-S.
-
 *	Divx Box (à l'époque).
-
 *	Serveur Web.
-
 *	Plateforme de développement
-
 *	...
 ## Liste des pages
 

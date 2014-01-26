@@ -16,19 +16,12 @@ C'est pourquoi j'ai développé ce serveur OPDS / HTML. J'avais besoin d'un serv
 J'avais initialement pensé Calibre2OPDS mais comme il génère des fichiers statiques il n'était pas possible de faire des recherches. De plus il fallait penser à relancer le traitement à chaque modification de la bibliothèque.
 
 Donc les principaux avantages de COPS sont :
-
 *	Peu de dépendances.
-
 *	Pas besoin de beaucoup de CPU ou RAM.
-
 *	Peu de code.
-
 *	La recherche est possible.
-
 *	Avec Dropbox / Owncloud, il est très simple d'avoir un serveur OPDS toujours à jour (voir [Alternative au serveur de contenu de Calibre](/blog/calibre-web-server-alternative)).
-
 *	La code OPDS est 100% valide (vérifié avec http://opds-validator.appspot.com/).
-
 *	Enfin c'était mon premier projet en PHP et c'était fun.
 
 **ATTENTION**
@@ -42,19 +35,12 @@ D'autres utilisateurs ont confirmé que COPS fonctionne avec Stanza, Megareader,
 
 ## Fonctionnalités
 
-
 *	Interface HTML5 / CSS3 avec responsive design.
-
 *	Supporte plusieurs base de données Calibre avec une seule installation de COPS.
-
 *	Mise à jour des métadonnées des fichiers Epub comme le serveur de contenu de Calibre (à activer avec $config['cops_update_epub-metadata']) : Si vous avez corrigé le nom de l'auteur / une étiquette / le nom de la série d'un livre dans Calibre, alors le fichier que vous allez télécharger contiendra votre correction.
-
 *	Colonne personnalisée de Calibre.
-
 *	Facets dans le flux OPDS pour filtrer la liste des livres (les seuls clients OPDS le supportant sont Mantano Reader and Bluefire).
-
 *	Multilangue : Anglais, Français, Allemand, Russe, Espagnol, Catalan, Italien, Norvégien, Chinois.
-
 *	beaucoup d'autres
 
 ## Démonstration
@@ -69,11 +55,8 @@ http://cops-demo.slucas.fr/index.php
 
 ## Pré-requis
 
-
 *	PHP 5.3/5.4 avec GD & le support SQLite3.
-
 *	Un serveur Web avec le support PHP (Nginx, Apache, Cherokee, Lighttpd, IIS).
-
 *	Le chemin vers la bibliothèque Calibre (metadata.db, images de couverture et fichier epub).
 
 Sur toutes les distributions basées sur Debian, vous utiliser :
@@ -83,13 +66,9 @@ aptitude install php5-gd php5-sqlite
 
 ## Installation
 
-
 *	Extraire le zip dans un répertoire visible du serveur Web.
-
 *	Pour une première installation copier config_local.php.example vers config_local.php
-
 *	Modifier config_local.php pour l'adapter à votre configuration.
-
 *	Si nécessaire ajouter des nouveaux paramétrages venant de config_default.php
 
 ## Problèmes connus
@@ -112,43 +91,23 @@ Le fichier est ici ([Liste des changements](/fr/oss/calibre-opds-php-server-chan
 
 Anciennes versions :
 
-
 *	[cops-0.6.2.zip](/en/oss/cops-0.6.2.zip)
-
 *	[cops-0.6.1.zip](/en/oss/cops-0.6.1.zip)
-
 *	[cops-0.6.0.zip](/en/oss/cops-0.6.0.zip)
-
 *	[cops-0.5.0.zip](/en/oss/cops-0.5.0.zip)
-
 *	[cops-0.4.0.zip](/en/oss/cops-0.4.0.zip)
-
 *	[cops-0.3.4.zip](/en/oss/cops-0.3.4.zip)
-
 *	[cops-0.3.3.zip](/en/oss/cops-0.3.3.zip)
-
 *	[cops-0.3.2.zip](/en/oss/cops-0.3.2.zip)
-
 *	[cops-0.3.1.zip](/en/oss/cops-0.3.1.zip)
-
 *	[cops-0.3.0.zip](/en/oss/cops-0.3.0.zip)
-
 *	[cops-0.2.3.zip](/en/oss/cops-0.2.3.zip)
-
 *	[cops-0.2.2.zip](/en/oss/cops-0.2.2.zip)
-
 *	[cops-0.2.1.zip](/en/oss/cops-0.2.1.zip)
-
 *	[cops-0.2.0.zip](/en/oss/cops-0.2.0.zip)
-
 *	[cops-0.1.1.zip](/en/oss/cops-0.1.1.zip)
-
 *	[cops-0.1.0.zip](/en/oss/cops-0.1.0.zip)
-
 *	[cops-0.0.4.zip](/en/oss/cops-0.0.4.zip)
-
 *	[cops-0.0.3.zip](/en/oss/cops-0.0.3.zip)
-
 *	[cops-0.0.2.zip](/en/oss/cops-0.0.2.zip)
-
 *	[cops-0.0.1.zip](/en/oss/cops-0.0.1.zip)

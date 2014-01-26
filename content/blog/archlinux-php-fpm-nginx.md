@@ -15,9 +15,7 @@ Il y a quelques mois, j'ai remis en route mon Dockstar avec Archlinux et cela fa
 ## Etat des lieux
 
 Archlinux est en rolling release : c'est à dire qu'il n'y a pas de version stable / testing (comme sur debian) mais une seule version avec les paquets qui se remplacent au fur et à mesure. L'énorme avantage est que les paquets sont super récents : 
-
 *	Nginx est déjà en 1.2.1 (sortie le 5 juin).
-
 *	PHP est en 5.4
   
 Le désavantage est que les paquets sont globalement moins largement testés notamment au niveau des interactions entre eux.
@@ -75,9 +73,7 @@ Cela fonctionne ... de temps en temps. J'ai aussi les erreurs suivantes dans les
 Après de nombreuses recherches, j'ai trouvé [un post sur Archlinuxarm](http://archlinuxarm.org/forum/viewtopic.php?f=9&t=1914) à ce sujet.
 
 Il y a plusieurs solutions :
-
 *	Ne plus utiliser PHP-FPM
-
 *	Compiler Nginx à partir des sources
   
 J'ai choisi la deuxième solution.
@@ -150,20 +146,17 @@ cp -R /etc/nginx/ .
 cp /etc/rc.d/nginx nginx-rc.d
 cp /etc/logrotate.d/nginx nginx-logrotate
 ```
-
 *	On désinstalle le paquet officiel
 ```bash
 rc.d stop nginx
 pacman -Rs nginx
 rm -Rf /etc/nginx/
 ```
-
 *	On installe le nouveau
 ```bash
 cd /root/nginx-1.2.1
 make install
 ```
-
 *	On reprend notre paramétrage
 ```bash
 cp -R /root/nginx/sites-available/ .
@@ -174,7 +167,6 @@ cp nginx-logrotate /etc/logrotate.d/nginx
 cp nginx-rc.d /etc/rc.d/nginx
 mkdir /var/tmp/nginx    
 ```
-
 *	J'ai ensuite dû modifier le fichier rc.d pour adapter le changement de chemin (/etc/nginx/conf vers /etc/nginx) :
 ```
 #!/bin/bash
@@ -248,12 +240,10 @@ case "$1" in
   check)
     check_config
     ;;
-
   *)
     echo "usage: $0 {start|stop|restart|reload|check|careless_start}"
 esac
 ```
-
 *	On peut démarrer le serveur :
 ```
 rc.d start nginx
@@ -265,14 +255,12 @@ Ca marche !
 
 Auparavant, j'avais pris l'habitude d'utiliser xcache. Comme Archlinux utilise PHP5.4, j'ai été obligé d'utiliser APC et cela n'a pas été très compliqué.
 
-
 *	Installation
 ```
 pacman -S php-apc
 vi /etc/php/conf.d/apc.ini
 cp /usr/share/php-apc/apc.php /var/www
 ```
-
 *	Paramétrage (création du fichier /etc/php/conf.d/apc.ini avec le contenu suivant)
 ```
 extension=apc.so
@@ -280,7 +268,6 @@ apc.shm_size=16M
 #apc.stat=0
 
 ```
-
 *	Redémarrage de php-fpm
 ```bash
 rc.d stop php-fpm

@@ -22,19 +22,13 @@ Le fichier n'est pas valide à cause de l'utilisation d'un attribut "lang" à la
 ## Sur la Kobo
 
 Points négatifs : 
-
 *	La taille de l'interligne n'est pas modifiable. C'est même plus étrange que cela car l'interligne du titre du chapitre change bien mais pas celui du texte.
-
 *	La lettrine de chaque début de paragraphe apparait en deuxième ligne.
 
 Points positifs : 
-
 *	La taille de police et la police sont modifiables.
-
 *	Les marges sont modifiables.
-
 *	La table des matières est complète et utilisable via les menus.
-
 *	Il y a une couverture.
 
 Les points négatifs sont assez désagréables pour une bonne expérience de lecture. J'ai donc décidé de faire d'autres tests sur d'autres lecteurs EPUB.

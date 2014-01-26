@@ -85,6 +85,5 @@ reboot
 ## Source
 
 *	https://github.com/OpenELEC/OpenELEC.tv/issues/783
-
 *	http://openelec.tv/forum/124-raspberry-pi/42030-solved-help-xbox-dvd-kit
 

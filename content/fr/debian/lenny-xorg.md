@@ -121,13 +121,9 @@ startx
 
 #### Plusieurs possibilités
 Pour l'instant notre Lenny démarre en mode texte et nous pouvons lancer l'interface graphique via startx. Il est possible de démarrer avec l'interface graphique et de se connecter graphiquement, il faut pour cela installer un Display Manager. Il en existe plusieurs :
-
 *	gdm : lié à Gnome, c'est pour cela que je ne l'installe pas.
-
 *	kdm : lié à KDE.
-
 *	xdm : Aucune dépendance lourde mais un peu austère.
-
 *	wdm : Idem
 #### Installation de SLiM
 
@@ -142,8 +138,6 @@ Tout est ensuite automatique, nous pouvons nous logger graphiquement (CTRL + ALT
 ### Voir aussi
 
 *	[Applications utiles](/fr/debian/xfce-applications)
-
 *	[Trucs et astuces](/fr/debian/tips)
-
 *	[Installation du driver binaire nvidia](/fr/debian/nvidia)
 

@@ -66,9 +66,7 @@ apt-get install ntfs-3g
 #### Problem
 
 The problem is that if I connect my NTFS USB drive it is perfectly mounted but :
-
 *	with the ntfs read only kernel driver,
-
 *	and only root has the permission to read on it.
 #### Solution (almost clean)
 

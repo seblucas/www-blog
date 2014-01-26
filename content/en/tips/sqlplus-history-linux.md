@@ -13,12 +13,10 @@ Tags: oracle,tips
 ```
 aptitude install rlwrap
 ```
-
 *	Add an alias to your profile
 ```
 alias sqlplus='rlwrap sqlplus'
 ```
-
 *	Reload your profile and enjoy
 
 

@@ -88,7 +88,6 @@ stop)
   echo "Shutting down pyLoad."
    su -c "/home/pyload/pyload/pyLoadCore.py --quit" pyload
 ;;
-
 *)
   echo "Usage: $0 {start|stop}"
   exit 1

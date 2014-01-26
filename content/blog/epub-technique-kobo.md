@@ -13,13 +13,9 @@ Tags: epub,ereader
 Un ami m'a prêté un livre papier de chez O'Reilly et connaissant mes préférences, il a ajouté qu'il avait aussi ce même livre en format électronique. Cela faisait quelques temps que je voulais tester la Kobo sur ce genre de livre. Je ne vais pas citer le nom du livre car mes remarques sont, je pense, assez générales.
 
 Avant de continuer le test, je tiens à préciser que j'étais vraiment septique sur la qualité de ce genre de livre dans un fichier EPUB. Je m'explique, la mise en page est souvent assez travaillée : 
-
 *	avec souvent une colonne gauche (ou droite) avec des explications additionnelles. 
-
 *	Des blocs avec des fonds de couleur entrelacées dans le texte.
-
 *	Des blocs de code avec une typographie différente.
-
 *	Beaucoup de notes de bas de page.
   
 L'exercice est donc très différent d'un roman classique.

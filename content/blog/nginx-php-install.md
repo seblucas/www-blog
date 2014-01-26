@@ -11,15 +11,12 @@ Tags: debian,nginx,php
 
 ## Pourquoi nginx
 Mon objectif était de transformer un Dockstar en serveur Web, vu les capacités de la bête ([Hardware Seagate Dockstar](/blog/dockstar-install-squeeze)), j'ai voulu un serveur Web super léger. Après pas mal de lecture je suis tombé sur les alternatives suivantes :
-
 *	[Lighttpd](http://www.lighttpd.net/)
     * Avantage : Outil reconnu, beaucoup de documentation.
     * Défaut : Il a pas mal de dépendances.
-
 *	[Cherokee](http://www.cherokee-project.com/) 
     * Avantage : Vraiment très rapide, paramétrage PHP simplifié.
     * Défaut : L'installation sous Debian entraine énormément de dépendances y compris cron que je ne voulais pas installer.
-
 *	[nginx](http://nginx.org/)
     * Avantage : Pas de dépendances, pas mal de documentation sur le Web.
 
@@ -91,7 +88,6 @@ case "$1" in
       start
       RETVAL=$?
   ;;
-
     *)
       echo "Usage: fastcgi {start|stop|restart}"
       exit 1

@@ -64,19 +64,14 @@ Un simple glisser/déposer permet d'importer le fichier dans Calibre
 ### Fin : Transformation en epub
 
 *	Lancer Calibre
-
 *	Faire un click droit sur le HTML que vous avez importé (il est reconnu comme un zip) et faire Convertir les livres -> Convertir individuellement.
-
 *	Dans "Metadonnées" vous pouvez renseigner le titre, l'auteur, la série, la couverture, etc.
-
 *	Dans "Détection de la structure" il faut :
     * Changer la marque de chapitre pour la mettre à none
     * Enlever le contenu de la zone "Insérer un saut de page avant"
-
 *	Dans "Table des matières" il faut :
     * Changer le niveau 1 TDM en : //h:h1
     * Changer le niveau 2 TDM en : //h:h2
-
 *	Cliquer sur le bouton OK
 
 Ça a suffit pour moi. J'ai pu lire l'epub confortablement sur ma liseuse. Je ne le met pas à disposition car c'est expressément interdit dans le blabla légal du blog de GRRM mais c'est très simple à faire.

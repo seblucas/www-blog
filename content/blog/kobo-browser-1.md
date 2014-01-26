@@ -43,11 +43,8 @@ EDIT : J'ai eu suffisamment de réponses de possesseurs de Kobo (merci à ceux q
 ## Bilan définitif
 
 *	~~La Kobo plante ....~~
-
 *	Le navigateur de la Kobo n'essaye même pas de télécharger des liens pointant sur des scripts
-
 *	Le navigateur ne respecte pas l'entête Content-Disposition.
-
 *	Le nom de fichier affiché n'est pas toujours correct, mais le téléchargement est correct.
 
 Le bilan est acceptable pour la Kobo, ouf !

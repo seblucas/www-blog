@@ -27,7 +27,6 @@ C:\Program Files\VMware\VMware Server>vmrun -T server -h "url" -u user -p passwo
 ### Explications
 
 *	url : https://NomServeur:8333/sdk
-
 *	LienVersLeFichierVMX : à trouver dans l'interface Web, en cliquant dans configure VM et reprendre le Virtual Machine Configuration File.
 
 

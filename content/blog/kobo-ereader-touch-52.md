@@ -26,9 +26,7 @@ Cette "solution" ne me convient pas vu que je n'arrive pas à lire à pleine vit
 A noter que c'est un problème que je n'ai jamais eu personnellement.
 
 Pour le moment les solutions sont : 
-
 *	Passer en 2.3.2 
-
 *	Passer les epubs problématiques à la moulinette Calibre
 ### Police OpenDislexic
 

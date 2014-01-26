@@ -18,42 +18,27 @@ Je vais profiter de cet article pour donner toutes mes sources de renseignements
 
 ###  Serveur 
 Mon Dockstar (petit serveur qui consomme 4W) est installé avec les services suivants : 
-
 *	Serveur Web / PHP avec Nginx 
-
 *	Serveur de téléchargement SABnzbd directement sur le NAS
-
 *	Serveur de téléchargement sur les sites de DDL avec pyLoad
-
 *	Serveur openVPN
-
 *	Serveur UPNP (en conjonction avec le NAS)
 
 Beaucoup d'autres services pourraient être ajoutés : 
-
 *	Serveur de fichiers
-
 *	Serveur MPD (avec une carte son USB ou non)
-
 *	Serveur d'impression
-
 *	Serveur de mail
-
 *	Serveur cloud (avec owncloud par exemple)
-
 *	Serveur SVN / GIT / Mercurial / ...
-
 *	...
   
 Pour toutes ces utilisations le Dockstar fait très bien le boulot, pas besoin d'un ordinateur qui consomme 90W pour ça.
 ### Client graphique / Video
 
 Depuis quelques années les smartphones ont des GPU/VPU permettant :
-
 *	de lire des vidéos (y compris HD),
-
 *	de jouer à des jeux jolis (avec OpenGL ES),
-
 *	d'avoir des interfaces graphiques accélérées. 
 
 Suite à cela, beaucoup de petites machines ARM sont sorties avec sortie HDMI et la promesse d'accélération graphique. Je parle de promesse parce que la plupart du temps c'est le seul point dépendant d'un driver propriétaire donc souvent inaccessible simplement via un Linux tout simple.
@@ -69,15 +54,10 @@ A vrai dire j'ai failli m'en acheter un pour remplacer un vieux portable qui me 
 
 Pour les spécifications, je vous laisse consulter [la page Wikipedia](http://fr.wikipedia.org/wiki/Raspberry_Pi).  
 Pour simplifier :
-
 *	CPU : Arm11 à 700MHz avec support des nombres à virgule flottante.
-
 *	256Mo de RAM
-
 *	1 port réseau 100Mbits (dans le modèle B uniquement)
-
 *	Decodage video H264 video maximum 1080p30
-
 *	2 ports USB
   
 On parle là d'une vraie petite machine bien qu'un peu plus faible qu'un Dockstar elle a la gestion des virgules flottante en plus. Le gros avantage est le support de Xbmc et une très grosse communauté. Le gros défaut est qu'il me manque au moins une sortie SPDIF (j'ai un vieil ampli) et j'aurais aimé un processeur un peu plus puissant.
@@ -86,29 +66,18 @@ Bref, bon support mais matériel un peu limite.
 ## Allwinner A10 - Mele A2000 ou bien d'autres sytèmes
 
 Pour plus de détails voir :
-
 *	http://rhombus-tech.net/allwinner_a10/
-
 *	http://wiki.xbmc.org/index.php?title=Allwinner_A10_devices
-
 *	http://forum.xbmc.org/showthread.php?tid=126995
-
 *	http://forum.doozan.com/list.php?6
-
 *	beaucoup d'autres sites (merci Google)
   
 Un très très gros potentiel car les spécifications sont top :
-
 *	CPU : 1.2ghz Cortex A8 ARM Core
-
 *	Entre 512Mo et 1Go de RAM selon les modèles
-
 *	1 port réseau 100Mbits
-
 *	Un decodage video H264 de 4 flux 1080p donc support de la 3D
-
 *	Port USB / Port SATA / Carte Wifi sur certaines versions / Sortie SPDIF / ...
-
 *	...
   
 Vous pouvez voir mes liens pour plus de détails. Je voulais m'en acheter un mais le problème est que le support du matériel est inclus uniquement dans Android et via des applications propriétaires. Un rapprochement est peut être en cours avec un développeur de XBMC mais je vais faire comme Saint Thomas et attendre de voir. Le prix est aussi très correct.

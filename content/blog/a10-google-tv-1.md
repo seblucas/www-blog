@@ -19,15 +19,11 @@ A lire [ici](http://www.clubic.com/processeur/actualite-520629-architecture-x86-
 La version d'XBMC n'est pas encore utilisable en production mais ça avance.
 
 Pour XBMC : 
-
 *	https://github.com/empatzero/xbmca10
-
 *	http://linux-sunxi.org/XBMC
-
 *	http://forum.xbmc.org/showthread.php?tid=126995&page=110
 
 Pour des images Linux en armhf :
-
 *	http://guillaumeplayground.net/mele-a2000-headless-debian-wheezy-armhf-with-nand-install-v1/
 
 Au final la société derrière le A10 est totalement inutile mais la communauté a réussi à faire pas mal de choses.
@@ -38,25 +34,15 @@ Je ne sais pas si vous connaissez le site http://www.j1nx.nl/ qui est une excell
 Le lien si vous voulez participer : http://www.indiegogo.com/open-amlogic-box
 
 Les spécifications :
-
 *	Amlogic-8726M3 Cortex A9, CPU Max 1GHz.
-
 *	Mali-400 GPU
-
 *	1 GB memory
-
 *	4 GB flash storage
-
 *	WiFi: 802.11b/g/n
-
 *	10/100Mbps LAN
-
 *	2 USB
-
 *	Lecteur de carte SD
-
 *	Sortie composite, YUV / Sortie optique SPDIF / HDMI
-
 *	Télécommande
 
 Je pense que je vais acheter un modèle pour participer même si le prix peut paraitre assez élevé (pour information la version dual core est disponible au même prix chez [OvalElephant](http://www.ovalelephant.com/index.php?route=product/product&product_id=2085)). Mais il faut garder en tête qu'ils sont obligés d'ajouter la TVA (ce que les sites chinois ne font jamais).
@@ -64,10 +50,7 @@ Je pense que je vais acheter un modèle pour participer même si le prix peut pa
 ## Ouya
 
 Quelques nouvelles ont été postée sur le [blog de la Ouya](http://www.ouya.tv/blog/), notamment un article sur la mise à jour du matériel et logiciel ([ici](http://www.ouya.tv/the-big-hardware-update-and-more/)). Les informations à retenir :
-
 *	Une photo du PCB
-
 *	La console sera sur Jelly Bean
-
 *	Les kits de développement sont disponibles.
 

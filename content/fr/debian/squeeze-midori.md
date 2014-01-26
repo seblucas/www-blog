@@ -24,14 +24,11 @@ aptitude install midori
 ## Améliorer l'expérience
 
 ### Rendre midori navigateur par defaut
-
 *	Installer galternatives
 ```
 aptitude install galternatives
 ```
-
 *	Le lancer (il doit demande le mot de passe root)
-
 *	Sélectionner x-www-browser et mettez midori comme choix.
 ### Changer le user-agent
 
@@ -40,20 +37,14 @@ La majorité des sites ne supportent pas midori en temps que tel, je conseille d
 ### Changer le fonctionnement des onglets
 
 Par défaut un CTRL+clic ouvre les onglets à coté de l'onglet courant, je préfère que les nouveaux onglets soient ouvert tout à la fin :
-
 *	Edition -> Préférences
-
 *	Onglet Interface
-
 *	Décocher Ouvrir les onglets à côté de l'actuel 
 ### Mettre en place le correcteur orthographique
 
 *	Edition -> Préférences
-
 *	Onglet Comportement
-
 *	Cocher Activer la vérification de l'orthographe
-
 *	indiquer fr_FR comme dictionnaire.
 
 Pour éviter de vous arracher les cheveux comme moi, pour corriger une faute il faut que le mot entier soit sélectionné (via une double click par exemple) avant de cliquer sur le bouton droit.

@@ -16,7 +16,6 @@ Tags: tips
 DOW=$(date +"%a")
 echo $DOW
 ```
-
 *	In english :
 ```
 #!/bin/sh

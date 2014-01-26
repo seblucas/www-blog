@@ -10,15 +10,10 @@ Tags: xfce
 
 ### Useless but fun
 [Conky](http://conky.sourceforge.net/) is a light-weight system monitor. It allow you to have informations about your computer directly on your background like :
-
 *	CPU load
-
 *	uptime
-
 *	RAM use
-
 *	Temperatures (CPU, GPU, HDD)
-
 *	Fan speed
 ### Dependencies
 

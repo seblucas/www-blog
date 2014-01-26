@@ -15,26 +15,20 @@ Voir [Netfilter](http://fr.wikipedia.org/wiki/Special:Search?search=Netfilter)
 Dans pas mal d'autres distributions, il y a une fichier /etc/init.d/iptables qui est chargé automatiquement. Il n'y a pas de fichier de ce style dans Debian (au moins dans Etch, Lenny et Squeeze). La méthode Debian (voir [ici](http://www.debian-administration.org/articles/445)) est de charger les règles du firewall dès que le réseau est démarré (donc l'ordinateur est toujours protégé).
 
 Donc comment faire :
-
 *	Se connecter en root
-
 *	Créer un fichier nommé firewall.sh qui va contenir les règles iptables (plus de détail après).
-
 *	Valider que ce fichier est exécutable :
 ```
 chmod +x firewall.sh
 ```
-
 *	Exécuter firewall.sh et vérifier si tout fonctionne encore normalement (ssh, samba, torrent, www, ...)
 ```
 ./firewall.sh
 ```
-
 *	Tout fonctionne correctement, donc enregistrons les règles dans un fichier (pour moi dans /etc) :
 ```
 iptables-save > /etc/firewall.conf
 ```
-
 *	Créer une script pour lancer les règles :
 
 ```
@@ -45,17 +39,13 @@ chmod +x /etc/network/if-up.d/iptables
 ### Mise à jour des règles du firewall
 
 Pour les mettre à jour il faut :
-
 *	Éditer firewall.sh pour faire les changements voulus.
-
 *	L'exécuter et vérifier que tout marche comme escompté.
-
 *	Lancer :
 
 ```
 iptables-save > /etc/firewall.conf
 ```
-
 
 *	Fini ;)
 ### Un script simple expliqué
@@ -76,9 +66,7 @@ iptables -F
 iptables -X
 ```
 
-
 *	iptables -F : vide toutes les commandes iptables.
-
 *	iptables -X : supprime toutes les commandes iptables.
 
 ```
@@ -126,11 +114,8 @@ iptables -A INPUT -p tcp --dport 22 -m recent --update --seconds 60 --hitcount 4
 ```
 
 Pour le ssh c'est presque comme le torrent. MAis pour se protéger des méchants hackeurs en herbe, j'ai mis une limite de 4 connexions par minute (60 secondes). Chaque fois que quelqu'un essaye d'ouvrir une cinquième connexion il est banni pour une minute supplémentaire. Il existe d'autres solution pour vous prémunir d'attaques ssh (et avoir un /var/log/auth.log propre) :
-
 *	Utiliser fail2ban
-
 *	Ne pas utiliser le port 22 comme port externe
-
 *	désactiver la connexion par mot de passe (utilisez des clés)
 
 ```

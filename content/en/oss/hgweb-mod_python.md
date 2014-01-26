@@ -25,7 +25,6 @@ a2enmod mod_python
 /etc/init.d/apache2 reload
 ```
 
-
 *	Download modpython_gateway.py (from [here](http://www.aminus.net/wiki/ModPythonGateway)). Don't try to use [WSGIHandler](http://trac.gerf.org/pse/wiki/WSGIHandler), it contains some bug in the initialisation of PATH_INFO. Install it (in your python path or /var/hg) :
 
 ```
@@ -34,9 +33,7 @@ wget http://www.aminus.net/browser/modpython_gateway.py
 cp modpython_gateway.py /var/hg
 ```
 
-
 *	Copy hgwebdir.cgi to /var/hg/hgwebdir.py
-
 *	Add this function to /var/hg/hgwebdir.py (you can change the variable name, if you don't like toto)  :
 
 ```python
@@ -44,7 +41,6 @@ def test(environ, start_response):
     toto = wsgiapplication(make_web_app)
     return toto (environ, start_response)
 ```
-
 
 *	Add this to your apache configuration (to keep apache configuration clean, I personally prefer adding the mercurial configuration to an external file like /etc/apache2/hg.conf) :
 
@@ -59,20 +55,17 @@ def test(environ, start_response):
 </Location>
 ```
 
-
 *	If you followed my advice about the external file /etc/apache2/hg.conf, you still have to update your apache configuration :
 
 ```
 Include /etc/apache2/hg.conf
 ```
 
-
 *	Restart apache
 
 ```
 /etc/init.d/apache2 reload
 ```
-
 
 *	Enjoy
 ## Complete /var/hg/hgwebdir.py
@@ -149,10 +142,7 @@ def test(environ, start_response):
 ## Solving problems
 
 If this howto don't work for you, here is what you should do :
-
 *	Uncomment the line about PythonDebug.
-
 *	Reload Apache.
-
 *	Check all error messages from your web browser and in /var/log/apache2/error.log.
 

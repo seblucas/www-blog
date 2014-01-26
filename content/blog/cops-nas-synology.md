@@ -14,13 +14,9 @@ J'ai enfin passé un peu de temps pour m'assurer que COPS fonctionne correctemen
 ## Préparation du NAS
 
 *	Allez à la page "Menu principal > Panneau de configuration > Services Web > Applications Web" sur l'interface de gestion utilisateur, et cochez Activer Web Station
-
 *	Un nouveau partage "web" est créé. Vous devrez peut être adapter les droits d'accès sur ce répertoire.
-
 *	Créer un répertoire "cops".
-
 *	Déposer dans ce répertoire le contenu du zip de la dernière version de COPS.
-
 *	Faire un copier coller de "config_default.php" en "config_local.php"
 
 ## Base Calibre dans le répertoire Web
@@ -47,11 +43,8 @@ Dans mon cas ma bibliothèque de test est dans le répertoire "feedbook" dans le
 ### Paramétrage de PHP
 
 il faut indiquer au moteur PHP qu'il a le droit d'aller lire dans le répertoire contenant la bibliothèque :
-
 *	Allez à la page "Menu principal > Panneau de configuration > Services Web > Applications Web"
-
 *	Deuxième onglet > Personnaliser PHP open_base_dir 
-
 *	Ajouter à la fin :
 ```
 :/volume1/logiciel/feedbook/

@@ -23,13 +23,8 @@ J'ai ajouté le nécessaire pour ajouter des favoris sur le navigateur de la Kob
 
 Certainement déjà lue par tout le monde mais je suis encore dans le décalage horaire post-vacances ;).
 
-
 *	[Le Kobo by Fnac s'aligne au prix du Kindle](http://www.actualitte.com/actualite/lecture-numerique/tablettes/le-kobo-by-fnac-s-aligne-au-prix-du-kindle-33826.htm) : une bonne nouvelle de la vente en masse.
-
 *	[Hachette Livre : 2000 ebooks passent à un prix 'Poche'](http://www.actualitte.com/actualite/lecture-numerique/usages/hachette-livre-2000-ebooks-passent-a-un-prix-poche-33907.htm) : cela ne pas assez loin mais l'initiative est suffisamment isolée pour être saluée.
-
 *	[Le marketing vu par J’ai Lu](http://lecteursencolere.com/2012/05/11/le-marketing-vu-par-jai-lu/) : sans commentaire !
-
 *	[Lire la nuit](http://aldus2006.typepad.fr/mon_weblog/2012/05/lire-la-nuit.html) : un bon article qui fait un petit point sur la technologie Glowlight et les autres.
-
 *	[Nook Touch with GlowLight sur GoodeReader](http://aldus2006.typepad.fr/mon_weblog/2012/05/nook-touch-with-glowlight-sur-goodereader.html) : Test élogieux !

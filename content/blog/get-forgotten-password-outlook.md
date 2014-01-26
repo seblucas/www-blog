@@ -18,9 +18,7 @@ http://www.nirsoft.net/utils/mailpv.html
 ### Pour les mots de passe présents sous des astérisques
 
 *	http://www.nirsoft.net/utils/bullets_password_view.html
-
 *	http://www.nirsoft.net/password_recovery_tools.html
-
 *	http://www.lostpassword.com/asterisk.htm
 
 

@@ -21,17 +21,11 @@ Je vous laisse lire [le fil sur le forum de mobileread](http://www.mobileread.co
 ## Installation du plugin
 
 C'est très simple :
-
 *	Télécharger le fichier d'installation : [koboroot.zip](/blog/koboroot.zip) 
-
 *	Connectez votre Kobo à votre ordinateur.
-
 *	Copiez le fichier KoboRoot.tgz (contenu dans le zip téléchargé) dans le répertoire .kobo de votre liseuse.
-
 *	Ejectez proprement la liseuse.
-
 *	Déconnectez l'USB.
-
 *	L'installation va se faire toute seule et la liseuse va redémarrer.
 ## Utilisation
 
@@ -46,15 +40,10 @@ Attention après chaque modification de ce fichier il faut redémarrer la liseus
 ## Fonctionnalités
 
 Pour l'instant les fonctionnalités sont maigres mais ce n'est que le début :
-
 *	Ajout d'un lien direct vers le navigateur internet
-
 *	Ajout d'un lien direct pour passer en mode avion
-
 *	Ajout d'un lien direct vers le dictionnaire (je n'ai pas réussi à le faire fonctionner)
-
 *	Le bloc avec les livres en avant peuvent être supprimés totalement.
-
 *	...
 ## Photos
 

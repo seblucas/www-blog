@@ -40,7 +40,6 @@ Faire une petite sauvegarde de ces paramètres permet de vite retrouver ses marq
 ## Mini revue de Web
 
 *	[La fin des DRM pour les ebooks des éditions Michel Lafon](http://www.actualitte.com/actualite/lecture-numerique/usages/la-fin-des-drm-pour-les-ebooks-des-editions-michel-lafon-35084.htm) : Une bien bonne nouvelle.
-
 *	[Le Nook vendu à l'international dans le courant de l'année](http://www.actualitte.com/actualite/monde-edition/economie/le-nook-vendu-a-l-international-dans-le-courant-de-l-annee-35069.htm) : Pour les déçus du Kobo qui veulent voir si l'herbe est plus verte ailleurs.
 
 C'est tout pour aujourd'hui. La prochaine fois, je ferai un tutoriel rapide sur la structure de la base de données de la Kobo (fichier KoboReader.sqlite).

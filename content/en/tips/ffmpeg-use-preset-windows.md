@@ -11,9 +11,7 @@ Tags: multimedia
 
 It's used for example to ease x264 encoding.
 
-
 *	Create a directory named .ffmpeg within C:\DirectoryWhereYourPresetAreInstalled where you can put all your preset
-
 *	Execute the following script
 ```
 set HOME=C:\DirectoryWhereYourPresetAreInstalled
