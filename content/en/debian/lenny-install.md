@@ -10,6 +10,7 @@ Tags: lenny
 #### ISO download
 I downloaded a nightly build because the beta 2 wasn't booting with my computer (very old) :
 [Lenny Netinst](http://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/i386/iso-cd/)
+
 #### Basic installation
 
 ##### Starting the installer
@@ -18,6 +19,7 @@ I pretty much followed all the default stuff of the installation. The only diffe
 The official Debian documentation is [here](http://d-i.alioth.debian.org/manual/fr.i386/index.html) if you need help.
 
 Do not be scared to install Grub in the MBR, the installer perfectly detect any Windows you could have and I can testify it's still bootable afterwards.
+
 ##### First start
 
 First you got to update the list of the package available :

@@ -15,6 +15,7 @@ J'avais été confronté à ce problème il y a quelques années et je viens de 
 No space left on device
 ```
 Ma première réaction est de faire un df pour me rendre compte qu'il me reste environ 60% de place disponible.
+
 ## L'explication
 
 Il reste bel et bien de la place disponible mais plus d'inodes. Pour vérifier cela :

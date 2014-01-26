@@ -10,6 +10,7 @@ Tags: multimedia
 
 ### Introduction
 [MPlayer](http://www.mplayerhq.hu) is a media player which is IMHO a little lighter than Xine or VLC. It's a very active project.
+
 ### Dependencies
 
 ```

@@ -17,6 +17,7 @@ Comme je n'ai pas trouvé beaucoup d’informations sur le sujet, un petit bille
 ```
 pacman -S nfs-utils
 ```
+
 ### Démarrage des services
 
 ```
@@ -25,6 +26,7 @@ rc.d start nfs-common
 rc.d start nfs-server
 ```
 Pour éviter de les démarrer à la main à chaque reboot, il faut ajouter dans le fichier /etc/rc.conf (section DAEMONS).
+
 ### Paramétrage des répertoires à exporter
 
 J'ai modifié le fichier /etc/exports pour ajouter la ligne suivantes : 
@@ -41,6 +43,7 @@ A noter qu'après avoir modifié le fichier il faut lancer la commande suivante 
 ```
 exportfs -arv
 ```
+
 ## Paramétrage de XBMC
 
 La détection automatique des partages NFS n'a pas fonctionné chez moi. J'ai donc saisi à la main mon partage :

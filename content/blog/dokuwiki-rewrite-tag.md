@@ -10,10 +10,12 @@ Tags: dokuwiki,nginx
 # URL propres avec Dokuwiki
 
 ## Cas général
+
 ### Liens
 
 *	Dokuwiki et les moteurs de recherche : http://www.dokuwiki.org/fr:seo
 *	Dokuwiki et le mode rewrite (en anglais) : http://www.dokuwiki.org/rewrite
+
 ### Installation
 
 J'ai donc suivi le lien sur le rewrite pour modifier dokuwiki :
@@ -42,9 +44,11 @@ J'ai ensuite modifié ma configuration nginx en conséquence (comme indiqué dan
                 fastcgi_pass    127.0.0.1:9000;
         }
 ```
+
 ### Bilan
 
 Ca marche bien .... sauf pour les tags qui restent avec des urls longues comme le bras.
+
 ## Les tags
 
 J'ai cherché un petit peu et j'ai juste trouvé un post sur une mailing list correspondant exactement à mon problème : http://www.freelists.org/post/dokuwiki/PATCH-Clean-URLs-for-tags-and-blogarchive .
@@ -103,6 +107,7 @@ diff -Naur -x '*.dat' dokuwiki/lib/plugins/tag/helper.php slucas-wiki/lib/plugin
                  $cond = in_array($page['id'], $tagpages);
 
 ```
+
 ## Le plugin cloud
 
 Ce plugin (http://www.dokuwiki.org/plugin:cloud) n'était pas non plus adapté aux url propres dans les nuages de tags qu'il génère, je l'ai donc modifié de la même manière que le plugin tag.

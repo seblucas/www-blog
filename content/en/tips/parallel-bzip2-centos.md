@@ -12,6 +12,7 @@ Tags: centos,tips
 ## Two alternatives
 *	[PBZIP2](http://www.compression.ca/pbzip2/)
 *	[lbzip2](http://www.linuxinsight.com/lbzip2-parallel-bzip2-utility.html)
+
 ## My choice
 
 *	Get the rpm :

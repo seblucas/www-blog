@@ -41,9 +41,11 @@ Dernière nouvelle, je fais partie du groupe de beta-testeurs du firmware Kobo, 
 *	[KYOBO eReader : le premier appareil Mirasol grand public](http://www.ebouquin.fr/2011/11/22/kyobo-ereader-le-premier-appareil-mirasol-grand-public/)
 *	[Le Kobo Touch passe à la publicité](http://www.ebouquin.fr/2011/11/12/le-kobo-touch-passe-a-la-publicite/)
 *	[Kobo by Fnac : dans tous les magasins, ce 28 novembre](http://www.actualitte.com/actualite/lecture-numerique/lecteurs-ebook/kobo-by-fnac-dans-tous-les-magasins-ce-28-novembre-30080.htm)
+
 ### DRM et autres idioties
 
 *	[DRM, Kindle et Bragelonne : pourquoi acheter chez Amazon ?](http://www.actualitte.com/actualite/lecture-numerique/usages/drm-kindle-et-bragelonne-pourquoi-acheter-chez-amazon-30071.htm)
+
 ### Ebook
 
 *	[TVA à 7% sur le livre numérique : pourquoi ça coince ?](http://actu-des-ebooks.fr/2011/11/22/tva-7-pour-cent-sur-le-livre-numerique-pourquoi-ca-coince/)

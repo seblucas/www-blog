@@ -14,6 +14,7 @@ L'installation d'[Apache Bench](http://httpd.apache.org/docs/2.0/programs/ab.htm
 ```
 aptitude install apache2-utils
 ```
+
 ##  Lancement du test d'une page complète sur le LAN et le résultat
 
 ```
@@ -65,6 +66,7 @@ Percentage of the requests served within a certain time (ms)
 
 ```
 Dans l'exemple je lance 10 connexions en parallèle 50 fois de suite. 
+
 ## Même exemple mais sur une image
 
 ```
@@ -116,6 +118,7 @@ Percentage of the requests served within a certain time (ms)
   99%      6
  100%      6 (longest request)
 ```
+
 ## Analyse du résultat
 
 On voit tout de suite que le Dockstar n'est pas un foudre de guerre (environ 3 requêtes par secondes), par contre pour la moitié des visiteurs la page s'affiche en moins de 3 secondes. Pour information, l'essentiel de la charge ne vient pas nginx mais de PHP (il n'y a qu'a voir la différence entre les deux lancements). La prochaine étape est de vérifier le plus gros consommateur PHP (donc lié à dokuwiki) et de voir si c'est légitime (et éventuellement améliorable) ou pas.

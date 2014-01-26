@@ -17,11 +17,13 @@ Depuis le crash de ma clé USB en décembre, j'ai un peu laissé tomber le Docks
 
 ### Préparation du Dockstar
 Mon Dockstar était déjà prêt donc je n'ai rien eu à faire. Donc allez voir mes précédents articles si besoin.
+
 ### Téléchargement
 
 ```
 wget http://archlinuxarm.org/os/ArchLinuxARM-armv5te-latest.tar.gz
 ```
+
 ### Préparation de la clé
 
 Pour aller plus vite j'ai mis ma clé USB sur mon ordinateur portable (en dev/sdb). Je l'ai partitionné de la même manière que mon installation debian (sdb1 = partition /).
@@ -35,9 +37,11 @@ sync
 cd ..
 umount usb
 ```
+
 ### Boot
 
 Au boot on démarre directement sur notre ArchLinux (mot de passe root/root).
+
 ## Accélération matérielle des algorithmes de cryptage
 
 ### mv_cesa / cryptodev
@@ -49,6 +53,7 @@ Notre Dockstar possède une unité de calcul cryptographique dédiée avec notam
 *	...
   
 Le moyen le plus propre est d'utiliser le module noyau crytodev que la bibliothèque openssl qui peut l'utiliser si elle est compilée pour.
+
 ### Installation
 
 #### Installation du package
@@ -57,17 +62,20 @@ pacman -Syyuf
 pacman -S openssl-cryptodev
 ```
 Il faut accepter tout ce qu'il propose (désinstaller le package openssl notamment).
+
 #### Modification des règles udev
 
 ```
 echo '"KERNEL=="crypto", MODE="0666"' > /etc/udev/rules.d/99-cryptodev.rules
 ```
+
 #### Ajout du chargement du module
 
 Ajout le module cryptodev dans le fichier /etc/rc.conf :
 ```
 MODULES=(cryptodev)
 ```
+
 #### Reboot et test
 
 Après un reboot vous devriez avoir ce genre de sortie :
@@ -76,6 +84,7 @@ Après un reboot vous devriez avoir ce genre de sortie :
 (cryptodev) BSD cryptodev engine
 (dynamic) Dynamic engine loading support
 ```
+
 ### Bench Openssl
 
 Test avec l'accélération matérielle :

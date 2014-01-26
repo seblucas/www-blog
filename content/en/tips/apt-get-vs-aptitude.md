@@ -11,6 +11,7 @@ Tags: debian
 
 ## The fact
 aptitude is newer and better than apt-get so it's simple : use aptitude.
+
 ## Under the change
 
 aptitude by default install recommended packages. So if you want to have only what's necessary and nothing more 

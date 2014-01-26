@@ -16,6 +16,7 @@ Comme indiqué dans mon précédent article sur le sujet (voir [Partager un rép
 ```
 pacman -S avahi
 ```
+
 ## Ajout du partage NFS
 
 Ajouter le fichier suivant dans /etc/avahi/services :
@@ -31,6 +32,7 @@ Ajouter le fichier suivant dans /etc/avahi/services :
    </service>
  </service-group>
 ```
+
 ## Démarrer les services
 
 ```
@@ -39,6 +41,7 @@ rc.d start avahi-daemon
 ```
 
 Ne pas hésiter à ajouter ces deux démons dans la section DAEMONS du fichier rc.conf.
+
 ## Bilan
 
 Avec cette méthode le partage apparait dans le Zeroconf browser de XBMC donc plus de saisie manuelle !

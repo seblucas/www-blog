@@ -19,6 +19,7 @@ Enfin je vais arrêter avec ma paranoïa et je vais attendre encore un petit moi
 ## Un petit ajout dans les trucs et astuces
 
 J'ai ajouté le nécessaire pour ajouter des favoris sur le navigateur de la Kobo directement en modifiant un fichier de configuration (pour éviter de perdre du temps à se battre avec le clavier virtuel). [Voir ici pour le détail](http://blog.slucas.fr/blog/kobo-ereader-touch-5#ajout_manuel_d_un_favori_sur_le_navigateur).
+
 ## Informations en vrac
 
 Certainement déjà lue par tout le monde mais je suis encore dans le décalage horaire post-vacances ;).

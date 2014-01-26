@@ -25,6 +25,7 @@ J'ai enfin passé un peu de temps pour m'assurer que COPS fonctionne correctemen
 Sur le principe, cette méthode est moins sécurisée dans le sens ou toutes les personnes qui ont accès au NAS peuvent télécharger la base de données Calibre (et les livres). Ensuite si votre NAS n'est disponible que chez vous, cela ne change pas grand chose.
 
 Pour la suite je vais considérer que la base Calibre (metadata.db et tous les répertoires) est dans %%\\VotreNas\web\cops\Data\metadata.db%% et que vous avez tout bien copié.
+
 ### Modification de la configuration de COPS
 
 Dans ce cas il n'y qu'à modifier les clés suivantes de config_local.php :
@@ -34,12 +35,14 @@ $config['calibre_internal_directory'] = './Data/';
 ```
 
 Et tout fonctionne !
+
 ## Base Calibre en dehors du répertoire Web
 
 ### Principe
 Cette configuration est utile si votre bibliothèque Calibre est déjà sur votre NAS (ou que vous voulez mieux la sécuriser).
 
 Dans mon cas ma bibliothèque de test est dans le répertoire "feedbook" dans le partage "logiciel" ce qui correspond au chemin interne "/volume1/logiciel/feedbook".
+
 ### Paramétrage de PHP
 
 il faut indiquer au moteur PHP qu'il a le droit d'aller lire dans le répertoire contenant la bibliothèque :
@@ -49,6 +52,7 @@ il faut indiquer au moteur PHP qu'il a le droit d'aller lire dans le répertoire
 ```
 :/volume1/logiciel/feedbook/
 ```
+
 ### Modification de la configuration de COPS
 
 Changer les clés suivantes dans config_local.php :
@@ -59,6 +63,7 @@ $config['cops_x_accel_redirect'] = "X-Sendfile";
 ```
 
 Et tout fonctionne toujours !
+
 ## Tenté par l'expérience ?
 
 Si vous avez testé, merci de me confirmer ou non le succès de l'opération dans les commentaires.

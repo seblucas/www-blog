@@ -15,6 +15,7 @@ Suite à la mise en ligne de nouveaux services hébergés, j'ai eu besoin d'une 
 *	j'ai une petite dizaine de machines virtuelles en local que je peux suivre (l'occasion fait le larron),
 *	Peu de besoin de contrôle très fréquent (par exemple regarder le CPU toutes les 10s ou autre) vu que les machines sont très largement surdimensionnées.
 *	Besoin fort de contrôler l'état de services Windows et démons Linux et de vérifier l'état de certains ports TCP.
+
 ## Les challengers
 
 Avec les limites précédentes en tête j'ai regardé les possibilités et j'ai trouvé les challengers suivants :
@@ -22,6 +23,7 @@ Avec les limites précédentes en tête j'ai regardé les possibilités et j'ai 
 *	[Cacti](http://www.cacti.net/)
 *	[Zabbix](http://www.zabbix.com/)
 *	Une solution maison.
+
 ## And the winner is ...
 
 Je ne vais pas rentrer dans le détail de mon cheminement mais au final Nagios et Cacti m'ont semblé trop complexes et trop lourd pour mon cas, et Zabbix au contraire m'a bien plu (totalement subjectif). J'ai notamment bien aimé la simplicité d'installation des agents à mettre sur les serveurs à monitorer (anglicisme quand tu nous tiens).

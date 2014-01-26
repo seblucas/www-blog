@@ -25,6 +25,7 @@ J'ai bêtement voulu demander à Google de me trouver des boutiques vendant ce l
 Je ne suis même pas allé sur la deuxième page.
 
 Si vous voulez tester par vous même : https://www.google.fr/search?q=brethren+epub+young
+
 ## Espèce d'Epub !
 
 Je me suis ensuite dit que epub devrait être un gros mot utilisé par les pirates et jamais par les vrais vendeurs de livres électroniques. Même recherche mais en enlevant le mot interdit. C'est mieux, en première page je tombe sur :
@@ -35,9 +36,11 @@ Je me suis ensuite dit que epub devrait être un gros mot utilisé par les pirat
 Je me suis encore arrêté à la première page. A noter que le mot Epub doit vraiment être tabou car Google books qui fournit des fichiers Epub (avec DRM soit, mais des fichiers epub quand même) n'en parle pas du tout.
 
 Encore une autre remarque, Kobobooks (la librairie Kobo) n'apparait même pas en deuxième page alors qu'on y retrouve quelques liens vers des torrents.
+
 ## Soyons corporate
 
 J'ai acheté une liseuse Kobo, je suis quand même allé voir ce que ça donnait chez [Kobobooks](http://www.kobobooks.com/ebook/Brethren/book-4-SKoNDFhkK_HdEx0WLhhQ/page1.html) : 6,49 €.
+
 ## Premier bilan
 
 Les prix trouvés ont le mérite d'être cohérents et d'être dans une bonne moyenne pour un livre disponible en poche. A noter tout de même que bookstore de Sony est plus cher avec $12.99. Sony et Kobo ont du boulot de référencement à faire.
@@ -45,6 +48,7 @@ Les prix trouvés ont le mérite d'être cohérents et d'être dans une bonne mo
 Dans tous les cas, il y a un DRM.
 
 Je vais donc me faire offrir ce livre via Kobobooks (vive Noël).
+
 ## Version française
 
 L'absence de version électronique française est quand même difficilement compréhensible : 
@@ -53,6 +57,7 @@ L'absence de version électronique française est quand même difficilement comp
 *	Il est trop rentabilisé ?
 
 A noter que comme la nature a horreur du vide, une version électronique du livre français a été réalisée par des fans. C'est illégal certes, mais il n'y a pas d'alternative légale...
+
 ## Un bel article et de belles remarques
 
 Il y a environ deux semaines, j'avais lu un [bel article](http://www.actualitte.com/usages/piratage-cout-du-numerique-livre-papier-et-ebook-place-aux-jeunes-38204.htm) sur Actualitté. Cet article présente des infographies au sujet du coût du numérique et du piratage et ses impacts.

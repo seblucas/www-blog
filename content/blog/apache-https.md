@@ -10,11 +10,13 @@ Tags: apache
 # Configurer SSL avec Apache
 
 ## Génération des clés
+
 ### Installer openssl
 
 ```
 aptitude install openssl
 ```
+
 ### Génération de la clé
 
 ```
@@ -25,6 +27,7 @@ Attention : la durée de mon certificat est de 2000 jours, ce n'est pas forcemen
 Les deux fichiers générés sont à mettre dans /etc/apache2/ssl.
 
 Pour plus de renseignements sur les questions posées ensuite voir : http://doc.ubuntu-fr.org/tutoriel/securiser_apache2_avec_ssl#creation_du_certificat
+
 ## Configuration d'Apache
 
 Modifier le site pour ajouter les lignes suivantes :

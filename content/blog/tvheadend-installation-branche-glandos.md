@@ -19,23 +19,27 @@ En pratique cela permet d'accéder aux flux RTSP de la Freebox.
 Il vous faut :
 *	Un environnement de compilation
 *	Git
+
 ###  Téléchargement 
 
 ```
 git clone git://github.com/Glandos/tvheadend.git
 cd tvheadend/
 ```
+
 ### Positionnement sur la bonne branche
 
 ```
 git checkout -b iptv_rtsp remotes/origin/iptv_rtsp
 ```
+
 ### Configuration & Compilation
 
 ```
 configure && make
 ```
 le résultat de la compilation se trouve dans le répertoire build.linux.
+
 ### Installation et/ou paramétrage
 
 Je n'ai pas voulu voulu passer par la case installation (make install) pour garder le tout dans un seul répertoire. J'ai donc tout mis en place dans le répertoire build.linux : 
@@ -49,9 +53,11 @@ Et tout devrait fonctionner sans erreur, vous devriez pouvoir aller sur l'adress
 ```
 http://<votre ip>:9981/
 ```
+
 ## Paramétrage de XBMC
 
 Je n'ai pas trouvé mieux que [le Wiki officiel](http://wiki.xbmc.org/index.php?title=PVR).
+
 ## Après
 
 C'est un peu brut, je sais, je pense que je ferai un article complémentaire plus didactique par la suite.

@@ -11,6 +11,7 @@ Tags: xfce,xorg
 ### Emulateur de terminal
 
 XFCE inclus [Terminal](http://www.os-cillation.com/index.php?id=42&L=5) qui logiquement est installé par défaut
+
 ### Editeur de texte
 
 XFCE inclus [Mousepad](http://www.xfce.org/projects/mousepad/) qui est l'équivalent du bloc notes de Windows. Il est à installer séparément :
@@ -56,10 +57,12 @@ Je conseille [gFTP](http://gftp.seul.org/) qui est simple et qui n'a que très p
 ```
 apt-get install gftp
 ```
+
 ### Navigateur Internet
 
 #### Midori
 La navigateur officiel de Xfce est Midori. J'ai créé une page spécifique [Midori : l'autre navigateur Web](/fr/debian/squeeze-midori).
+
 #### Iceweasel
 
 Evidemment Firefox qui sous Debian s'appelle [IceWeasel](http://fr.wikipedia.org/wiki/IceWeasel) :
@@ -100,6 +103,7 @@ apt-get install deluge-torrent
 ### Media player
 
 Ici il y a deux possibilités.
+
 #### xfmedia
 
 Utiliser [xfmedia](http://spuriousinterrupt.org/projects/xfmedia) basé sur xine :
@@ -151,6 +155,7 @@ apt-get install galculator
 ### Moniteur systême
 
 Voir [ici](/fr/debian/conky) pour l'installation de [Conky](http://conky.sourceforge.net/).
+
 ### Voisinage réseau (windows, linux, mac)
 
 Après pas mal de tests et de déceptions, j'ai trouvé Gigolo. Plus de détail [ici](/fr/debian/squeeze-gigolo).

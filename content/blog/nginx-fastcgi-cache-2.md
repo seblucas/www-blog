@@ -23,6 +23,7 @@ header('Cache-Control: public, proxy-revalidate, no-transform, max-age=3600');
 header('Pragma: public');
 ```
 Bilan le cache fonctionne par contre le client lui aussi va mettre la page en cache, donc on peut trouver mieux.
+
 ## La solution est dans la documentation
 
 En relisant la documentation de Nginx j'ai trouvé LE paramètre pour lui permettre d'ignorer certaines entêtes (notamment celles qui me posaient problème) : ''fastcgi_ignore_headers''. et j'ai aussi décidé de n'appliquer le cache que pour ce qui passe par doku.php.

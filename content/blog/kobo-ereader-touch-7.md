@@ -29,9 +29,11 @@ Je n'ai aucun de ces problèmes ...
 Mais pas mal de personnes sont revenues en version 1.9.14.
 
 Pour le souci de qualité de menu une correction a été faite et j'ai pu la tester pour le groupe beta, mais malheureusement elle amène de nouveaux bugs. Bilan, il faut attendre que ça se fasse et que Kobo fasse mieux.
+
 ## Excellente vente pour le Kobo by Fnac
 
 Cette nouvelle a déjà été reprise partout sur le Web, je ne vais donc pas épiloguer. C'est une excellente nouvelle pour espérer un suivi dans le temps de la liseuse.
+
 ## Kobo et le respect de la vie privée
 
 Vaste sujet : Kobo est une entreprise qui veut nous vendre des livres et nous aimerions lui donner le moins d'informations possible  (voire aucune information).
@@ -54,6 +56,7 @@ Et pour les plus paranoïaque d'entre nous le moyen de tout arrêter en bidouill
 Le principe est simple : modifier le fichier /etc/hosts de la Kobo (qui est un Linux je le rappelle) pour faire pointer les serveurs de Google vers la Kobo.
 
 Je n'ai pas testé mais vu que je fais une synchronisation uniquement quand il y a un nouveau firmware, je n'envoie pas grand chose à leurs serveurs.
+
 ## Outil de création/optimisation de CBZ
 
 Comme vous le savez la résolution d'un Kobo est faible (800 * 600) et le nombre de niveaux de gris est encore pire (16) donc même pour des mangas en noir et blanc la qualité n'est pas toujours au rendez vous.

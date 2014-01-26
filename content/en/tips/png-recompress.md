@@ -15,6 +15,7 @@ Tags: tips
 ```
 pngcrush -brute -e _small.png MyPngFile.png
 ```
+
 ## PNGOUT
 
 *	http://www.advsys.net/ken/util/pngout.htm

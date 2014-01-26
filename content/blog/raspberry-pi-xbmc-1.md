@@ -29,6 +29,7 @@ J'ai à chaque fois essayé avec ma télécommande Xbox 1 avec un adaptateur USB
 *	Overclock par défaut : non
   
 OpenELEC est une distribution déjà très connue autour d'XBMC. Cette distribution a été faite à la base pour les processeurs x86 et a ensuite été adapté aussi sur Apple TV. Elle est basée sur un Linux et est très optimisée (elle ne prends qu'environ 70Mo).
+
 ### Test
 
 L'installation et le paramétrage de Xbmc s'est bien passé mais vu que ma télécommande n'a pas été détectée (même si le module lirc_xbox est bien détecté), j'ai du me connecter en SSH et activer le serveur Web :
@@ -44,6 +45,7 @@ vi ~/.xbmc/userdata/guisettings.xml
 *	Redémarrer le Pi ou uniquement XBMC
   
 J'ai ensuite pu configurer via l'interface Web (http://IP). J'ai aussi pu vérifier avec top la consommation pendant mes tests.
+
 ### Bilan
 
 Avantages :
@@ -55,6 +57,7 @@ Inconvénients :
 *	Télécommande ne fonctionne pas 
 *	Lenteur dans les menus
 *	xbmc.bin consomme beaucoup de CPU (entre 80 et 90% de CPU dans un menu)
+
 ## Choix n°2 : Xbian
 
 ### Carte d'identité
@@ -66,9 +69,11 @@ Inconvénients :
 *	Overclock par défaut : oui (overclock assez important ne fonctionnant pas sur tout les Pi)
   
 Xbian est une distribution basée sur la Raspbian se prétendant la distribution la plus rapide. Les sources / modifications ne sont pas clairement accessibles.
+
 ### Test
 
 L'installation et le paramétrage de Xbmc s'est bien passé mais vu que ma télécommande n'a pas été détectée (aucun module de détecté). On a une vrai impression de fluidité à l'utilisation.
+
 ### Bilan
 
 Avantages :
@@ -80,6 +85,7 @@ Inconvénients :
 *	Manque de clarté sur les modifications et le respect de la GPL
 *	Installation lourde (carte 2Go minimum)
 *	Pas de système de mise à jour automatique
+
 ## Choix n°3 : Raspbmc
 
 ### Carte d'identité
@@ -91,11 +97,13 @@ Inconvénients :
 *	Overclock par défaut : oui
   
 Raspbmc est une distribution basée sur la Raspbian. Les sources / modifications sont clairement accessibles et cette distribution a un système de mise à jour automatique bien fait
+
 ### Test
 
 L'installation et le paramétrage de Xbmc s'est bien passé y compris la télécommande. On a une vrai impression de fluidité à l'utilisation malgré le temps de boot un peu plus long que Xbian et OpenElec.
 
 A noter qu'à l'installation toute la place disponible sur la carte SD est utilisée (sur Xbian c'est 2Go uniquement)
+
 ### Bilan
 
 Avantages :
@@ -106,9 +114,11 @@ Avantages :
   
 Inconvénients :
 *	Installation lourde (carte 2Go minimum)
+
 ##  Choix n°4 : Raspbian + XBMC 
 
 Je ne l'ai pas testé je vais donc en parler très rapidement. Il est aussi possible d'utiliser une Raspbian normale et y ajouter un [Xbmc compilé à la main](http://www.raspbian.org/RaspbianXBMC) ou [un package tout fait](http://www.raspberrypi.org/phpBB3/viewtopic.php?t=12455).
+
 ## Bilan
 
 Pour optimiser mon WAF et bénéficier de la télécommande, j'ai choisi Raspbmc qui fonctionne plutôt pas mal. Le seul problème qu'il me reste à résoudre est la gestion de l'audio.

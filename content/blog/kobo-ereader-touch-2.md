@@ -10,6 +10,7 @@ Tags: ereader
 # Kobo eReader Touch : 1 mois après et quelques notes d'humeur
 
 ## Mon Kobo : 1 mois après
+
 ### Bilan
 
 Après un mois d'utilisation, je suis globalement très ravi, je n'ai aucune envie de retourner sur une tablette rétro éclairée. Par contre, j'ai continué de lire un livre papier que j'avais commencé avant mon achat et je pense que j'en lirais encore quelques uns par an. Le confort de lecture est vraiment comparable entre les deux.
@@ -31,6 +32,7 @@ Je suis en train de développer des scripts PHP pour faire une interface pour Ca
 *	Dès qu'on commence à avoir beaucoup de livres dans la mémoire, il devient difficile de s'y retrouver, il manque la possibilité de les organiser (avec les catégories ou autre).
 *	Je n'ai toujours pas acheté de livre sur Kobo, j'ai toujours trouvé moins cher ailleurs.
 *	La lecture de manga est assez difficile, le format 6 pouces est vraiment limite. J'ai développé un petit script qui enlève les marges et redimensionne mais cela reste assez difficile à lire. Il ne faut surtout pas que la lecture de manga soit le moteur de l'achat d'une liseuse e-ink 6 pouces.
+
 ## Kobo et ses alliances
 
 Pour résumer Kobo a fait pas mal d'alliances dans beaucoup de pays avec notamment :
@@ -43,6 +45,7 @@ Ces alliances ont pour objectif de promouvoir leur site de vente en ligne via le
 J'ai suivi avec attention les alliances faites par la société Kobo et ils me confortent dans l'idée que ma liseuse est un bon investissement qui devrait être suivi dans le temps (firmware mis à jour régulièrement).
 
 J'ai tout de même une angoisse concernant la FNAC avec notre habitude franco-française de vouloir tout réinventer, ils seraient capables de reprendre l'ancien modèle de Kobo (sans le tactile) ou de repartir sur un nouveau modèle spécifique à la France. WHSmith a eu une attitude plus claire avec le eReader Touch en vente dans leurs magasins alors que pour la FNAC on ne saura rien avant la toute fin de l'année (période de Noël).
+
 ## Prix des ebooks
 
 Le prix des ebooks en France n'a aucun sens, les prix sont souvent basés sur les éditions Broché voire sont plus chers. On se retrouve dans une situation pire encore que pour la musique à l'époque où le téléchargement en ligne avait commencé à monter en puissance.
@@ -95,6 +98,7 @@ Pour le reste, en lisant un forum, je suis tombé sur un lien sur une propositio
 Je ne vais pas en parler longtemps car c'est le même débat qu'avec la musique et tout le monde sait comment ça a fini. Les DRM sont idiots parce qu'ils ne lèsent qu'une catégorie de personnes : ceux qui achètent l'offre légale.
 
 Si vous avez des problèmes de DRM, demandez à Google, les liens sont plus nombreux pour expliquer comment les enlever que comment utiliser Adobe Digital Editions (ou autre) pour les gérer de façon normale. Il vous reste à voir quels liens vous voulez utiliser :P.
+
 ## Qualité des ebooks
 
 Je n'ai pas eu trop à me plaindre pour le moment à part quelques notes de bas de page introuvables (sauf en toute fin du livre) et des liens non cliquables.

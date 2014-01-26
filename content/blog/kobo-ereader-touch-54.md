@@ -43,6 +43,7 @@ Attention :
 Pour toutes ces raisons je n'ai jamais mis en application cette technique, j'ai modifié COPS pour générer à la volée des fichiers .kepub.epub avec la bonne structure sans mettre en péril le fichier epub original. La version contenant cette modification devrait sortir très bientôt.
 
 A noter aussi que David Forrester s'interroge sur le fait d'intégrer la création de .kepub.epub dans le driver Kobo de Calibre (un peu à la façon de ce [driver alternatif](https://github.com/jgoguen/calibre-kobo-driver)).
+
 ## Gestion des métadonnées de série en Epub3
 
 Comme indiqué dans un précédent article ([Quelques news sur la Kobo](/blog/kobo-ereader-touch-52)), Kobo s'est engagé à supporter l'Epub3 cette année. Les spécifications de l'Epub2 pour les métadonnées ne permettaient pas la gestion des séries. Calibre a un peu pallié à ce problème en ajoutant les métadonnées suivantes :
@@ -70,6 +71,7 @@ L'Epub3 permet un support direct via une [technique relativement complexe](http:
 ```
 
 En pratique, pour le moment, la Kobo ne le supporte pas et ne met pas à jour les colonnes série de la liseuse. J'espère que cela va vite changer : à suivre !
+
 ### Groupe Beta
 
 Comme indiqué dans un précédent message, nous avons des nouveaux firmwares à tester. Ensuite, je n'ai aucune information (ni sentiment) sur une future date de livraison.

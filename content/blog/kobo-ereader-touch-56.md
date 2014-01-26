@@ -19,18 +19,22 @@ Le firmware 2.3.1 avait entrainé le bug le plus gênant pour une liseuse : la p
 Cela semble être résolu dans le firmware 2.4.0. J'ai testé à la fois sur des fichiers Epub et Kepub et je n'ai repéré aucun problème.
 
 A noter quand même qu'en testant sur un fichier renommé en .kepub.epub, les signets ne fonctionnent pas correctement : je reviens toujours en début de chapitre.
+
 ### Problème du chapitre actif dans le table des matières
 
 Ce point a aussi été corrigé, la coche est bien en face du chapitre courant.
 
 Là aussi j'ai testé sur un Kepub et un Epub.
+
 ### Problème pour aller au chapitre suivant via la navigation
 
 C'est certainement lié au bug précédent mais ce problème est lui aussi résolu.
+
 ## Nouveautés
 
 ### Notes de bas de page sur les Kepub
 Les notes de bas de page apparaissent dans une popup avec la possibilité de voir le détail. Vivement que cela arrive avec les Epub.
+
 ### Archivage des Kepubs
 
 Au final, c'est pratique vu que tous mes fichiers Kepub sont lus, j'ai tout archivé.

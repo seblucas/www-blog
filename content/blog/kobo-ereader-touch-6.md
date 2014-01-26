@@ -37,10 +37,12 @@ Pour revenir sur les nouveautés, pas grand chose d'intéressant :
 *	Un Amazonisation au niveau de l'intégration de la boutique Kobo. A surveiller.
 
 Ce dernier point commence à me faire peur et j'en ai parlé sur la liste de diffusion de la beta. Mon argumentaire était que j'avais acheté une liseuse pas une liseuse sponsorisée par des publicités. En plus lors de mon achat il n'existait rien dans le firmware m'indiquant un intégration trop forte sur le site de vente. Cela a au moins l'avantage d'ajouter la possibilité d'afficher ses favoris dans la barre du bas en lieu et place des recommandations.
+
 ## Test de liseuses dans Micro Hebdo 714 & 715
 
 voir ici pour le lien : http://www.lekiosque.fr/magazine-1167142-Micro-Hebdo.html
 Le bilan est que la Kobo sort deuxième mais est légèrement déclassée du fait qu'elle soit associée avec un magasin en ligne (Kobo + Fnac).
+
 ## Le vrai buzz d'avant Noël
 
 Ce buzz vient du format Kepub mis en avant par Kobo, qui logiquement doit juste permettre de facilement synchroniser les livres sur les différents périphériques supportés par Kobo (android, liseuse Kobo Touch, PC, ...). Mais au final cela rends le fichier (vendu comme un epub) lisible uniquement sur une liseuse Kobo donc au revoir l'interopérabilité.
@@ -57,9 +59,11 @@ Au final cela oblige l'honnête lecteur (si il veut bidouiller) a devenir un pir
 *	et enfin obtenir un **vrai** epub qui puisse être valide.
 
 Pour l'instant je reste (à peu près) droit dans me bottes : je n'ai acheté qu'un livre chez Kobo (un vrai epub avec DRM), un chez Sony (encore un vrai epub avec DRM) et plusieurs chez http://librairie.immateriel.fr/ (epub sans DRM). J'aurais aimé rester sans DRM mais sur des sorties de livres il n'y a pas trop de choix malheureusement.
+
 ## Mise à jour des trucs et astuces
 
 J'ai aussi pris le temps de mettre à jour la page des trucs et astuces : [Kobo eReader Touch : trucs et astuces d'origine diverse](/blog/kobo-ereader-touch-5)
+
 ## Test exhaustif des formats pris en charge
 
 J'ai pu lire (je ne sais plus ou) que la Kobo ne supportait que le PDF et l'epub. C'est faux !

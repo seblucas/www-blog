@@ -21,14 +21,17 @@ J'ai créé ce site comme un bloc note personnel sans grand espoir d'être lu. L
 Tout a commencé avec le Dockstar et ensuite (en septembre 2012) j'ai acheté (un peu en avance par rapport à beaucoup de lecteurs français) ma liseuse Kobo et dès que je l'ai reçue, j'en ai parlé sur ce blog. A ma grande surprise, ces articles ont beaucoup plus et ont bien été positionnés par Google. Ensuite, je suis passé au Raspberry Pi et il y a eu d'autres geekeries (patent pending ;)). 
 
 Bref je suis resté sur une ligne cohérente : Technology and me ;). Ensuite je peux comprendre que mes centres d'intérêts soient suffisamment hétéroclites pour ne pas intéresser tout le monde.
+
 ## La lecture électronique
 
 Je suis totalement convaincu et j'ai même un peu de mal à retourner à un vrai livre papier. J'ai beaucoup lu sur la Kobo (environ 2 ou 3 livre par mois depuis un an) et j'ai enfin pu relire quelques livres en anglais sans l'angoisse du dictionnaire.
 
 La Kobo Glo me fait de l'oeil, je sens que je vais céder !
+
 ## Dockstar / Raspberry Pi / ...
 
 Geek un jour, geek toujours. Bidouiller ces petites machines m'amuse et en plus elles ont une vraie utilité à la maison donc ça va continuer !
+
 ## Bilan depuis l'année dernière
 
 Au final je ne parle toujours que de ce qui m'intéresse (ce qui est égoïste mais primordial pour garder la motivation) et le site reçoit un peu plus de 10000 visiteurs uniques par mois (ce qui m'étonne encore). Au niveau des pages vues la répartition est très équilibrée :

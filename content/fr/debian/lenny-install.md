@@ -10,6 +10,7 @@ Tags: lenny
 #### Téléchargement de l'ISO
 J'ai préféré prendre un version très récente car la beta 2 ne boote pas sur mon ordinateur (très très vieux) :
 [Lenny Netinst](http://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/i386/iso-cd/)
+
 #### Installation basique
 
 ##### Exécution de l'installeur
@@ -18,6 +19,7 @@ Pour l'installation j'ai pris tout les éléments par défaut en décochant l'in
 La documentation officielle Debian est [ici](http://d-i.alioth.debian.org/manual/fr.i386/index.html)
 
 Ne pas hésiter à installer Grub sur le MBR, l'installateur détecte l'éventuel Windows installé et il sera toujours bootable après l'installation.
+
 ##### Premier démarrage
 
 En premier on met à jour les paquets :

@@ -18,6 +18,7 @@ Je vais suivre ce projet et je vous tiendrai au courant.
 ## Résumé des épisodes précédents
 
 Je vous laisse lire [le fil sur le forum de mobileread](http://www.mobileread.com/forums/showthread.php?t=163997).
+
 ## Installation du plugin
 
 C'est très simple :
@@ -27,9 +28,11 @@ C'est très simple :
 *	Ejectez proprement la liseuse.
 *	Déconnectez l'USB.
 *	L'installation va se faire toute seule et la liseuse va redémarrer.
+
 ## Utilisation
 
 Après chaque reboot de la liseuse le plugin ne sera chargé que si vous accédez au moins une fois à la bibliothèque.
+
 ## Configuration
 
 Le plugin peut se configurer via le fichier koboplugins.ini qui est dans le répertoire .kobo.
@@ -37,6 +40,7 @@ Le plugin peut se configurer via le fichier koboplugins.ini qui est dans le rép
 Il est notamment possible de modifier la langue par défaut
 
 Attention après chaque modification de ce fichier il faut redémarrer la liseuse pour que les modifications soient prises en compte.
+
 ## Fonctionnalités
 
 Pour l'instant les fonctionnalités sont maigres mais ce n'est que le début :
@@ -45,6 +49,7 @@ Pour l'instant les fonctionnalités sont maigres mais ce n'est que le début :
 *	Ajout d'un lien direct vers le dictionnaire (je n'ai pas réussi à le faire fonctionner)
 *	Le bloc avec les livres en avant peuvent être supprimés totalement.
 *	...
+
 ## Photos
 
 TODO

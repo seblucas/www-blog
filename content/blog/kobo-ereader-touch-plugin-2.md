@@ -25,6 +25,7 @@ C'est vrai que dans la page de trucs et astuces (voir [Kobo eReader Touch : truc
     * Connecter la liseuse en USB
     * Bien choisir Connecter sur la liseuse
     * Synchroniser
+
 ## Comment importer dans calibre les livres téléchargés sur le site de Kobo ?
 
 La plupart (voire tous) les livres proposés par Kobo sont téléchargeables en EPUB (alors que la version synchronisée automatiquement est un Kepub).

@@ -13,11 +13,13 @@ Tags: epub,ereader
 Lors de mes courtes vacances, j'ai lu sur mon Kobo et en commençant un nouveau livre j'ai la désagréable surprise de le voir apparaitre avec une taille de caractère énorme. En rouvrant mon précédent livre j'ai retrouvé la taille à laquelle j'étais habitué.
 
 Vu que j'avais un peu de temps, j'ai essayé de comprendre la cause de tout cela au lieu de bêtement changer le paramétrage de la Kobo (ce qui est gênant étant donné que je lis 2 ou 3 livres en parallèle).
+
 ## EPUB = HTML dans un ZIP
 
 Un fichier epub est un fichier ZIP avec une série de fichier HTML et un feuille de style CSS. Pour comprendre l'origine du problème j'ai d'abord ouvert ce fichier epub avec Sigil pour en analyser la feuille de style et la comparer avec mon livre précédent.
 
 Bilan : je ne savais pas trop ou chercher donc je n'ai pas trouvé grand chose. Mais je suis tenace donc je continue.
+
 ## Firebug pour la victoire
 
 Vu que les fichiers epub contiennent des fichier HTML j'ai extrait le premier chapitre ainsi que la feuille de style et j'ai ouvert ce fichier dans Firefox et j'ai activé le plugin Firebug (merveilleux d'ailleurs). La différence était évidente.
@@ -44,6 +46,7 @@ La taille de police du paragraphe étant relative à celle du body (pour simplif
 CQFD
 
 J'ai donc juste modifié la taille de police spécifié dans la classe du body et mon problème est résolu.
+
 ## Autres problèmes : même explication
 
 Dans les trucs et astuces liées à la Kobo ([Kobo eReader Touch : trucs et astuces d'origine diverse](/blog/kobo-ereader-touch-5)), j'ai indiqué que si les marges n'étaient pas modifiables il fallait modifier l'epub via Calibre : cela revient à simplifier la feuille de style.
@@ -51,6 +54,7 @@ Dans les trucs et astuces liées à la Kobo ([Kobo eReader Touch : trucs et astu
 Dans mon livre 2, les interlignes ne sont pas modifiables : c'est lié à une instruction line-height dans la feuille de style.
 
 Etc.
+
 ### Bilan
 
 Messieurs les éditeurs et Messieurs des sociétés de numérisation : restez simple, pas de balises inutiles qui peuvent gâcher le plaisir de lecture.

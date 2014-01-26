@@ -13,6 +13,7 @@ Tags: nginx
 Je ne vais pas faire de recopie mais simplement lier à un tutoriel très bien écrit :
 *	http://technique.arscenic.org/ssl-securisation-des/article/startssl-utiliser-un-certificat
 *	http://technique.arscenic.org/ssl-securisation-des/article/creation-d-un-certificate-signing
+
 ## Installation du certificat avec Nginx
 
 Normalement vous devez avoir ces fichiers :

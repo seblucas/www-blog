@@ -15,6 +15,7 @@ Tags: xfce
 *	Utilisation RAM 
 *	Températures (CPU, GPU, HDD)
 *	Vitesse des ventilateurs
+
 ### Dépendances
 
 Ce ne sont de réelles dépendances mais sans contrôle de température, conky est à mon avis un peu inutile.
@@ -61,6 +62,7 @@ cp /etc/conky/conky.conf ~/.conkyrc
 ### Copie d'écran
 
 ![Image](/fr/debian/fondecranxfceconky.jpg){.centered}
+
 ### Mon conkyrc
 
 ```-

@@ -11,6 +11,7 @@ Tags: javascript
 
 ## Pourquoi ?
 Sur une page web que je visite régulièrement il y a toute une série de lien qui pointent vers des services de téléchargement spécialisés (comme megaupload, dl.free.fr, ...) et pour les intégrer facilement dans [pyLoad](http://pyload.org/), j'ai eu besoin de récupérer rapidement l'ensemble des liens.
+
 ## La solution
 
 J'ai fait un script avec GreaseMonkey (extension Firefox) qui reporte les liens dans une div à moitié transparente en haut à gauche de la page.
@@ -68,6 +69,7 @@ regMega = new RegExp ("megaupload");
 ```
 
 C'est librement inspiré (= copié honteusement ;))) de ce [lien](http://diveintogreasemonkey.org/patterns/match-attribute.html).
+
 ## Reste à faire
 
 *	Rendre cette extension plus générique en permettant de saisir en live l'expression régulière et ensuite faire la recherche.

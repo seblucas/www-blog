@@ -19,9 +19,11 @@ https://blog.slucas.fr
 ### Source
 *	http://technique.arscenic.org/ssl-securisation-des/article/startssl-utiliser-un-certificat
 *	http://technique.arscenic.org/ssl-securisation-des/article/creation-d-un-certificate-signing
+
 ### Création d'un compte chez StartSSL
 
 Je vous laisse créer le compte et utiliser le Validation Wizard pour valider que vous êtes bien propriétaire de votre site.
+
 ### Création de la clé et du CSR (Certificate Signing Request)
 
 ```
@@ -29,6 +31,7 @@ openssl genrsa -out slucas.fr.key 2048
 openssl req -new -key slucas.fr.key -out slucas.fr.csr
 ```
 Dans mon cas je n'ai pas mis de mot de passe sur le csr
+
 ### Transmission du CSR à StartSSL
 
 Il faut ensuite aller dans le Certificate Wizard de StartSSL pour demander un Web Server SSL/TLS Certificate. On peut passer la première étape vu que nous avons déjà le CSR.
@@ -36,6 +39,7 @@ Au final nous allons récupérer 3 fichiers :
 *	blog-startssl.crt : le certificat proprement dit qui s'applique à blog.slucas.fr
 *	sub.class1.server.ca.pem
 *	ca.pem
+
 ### Mise en place dans Nginx
 
 ```

@@ -10,11 +10,13 @@ Tags: iptables
 
 ### Pourquoi ?
 J'ai la chance d'avoir un fournisseur Internet me donnant un sous-réseau /64 en ipv6 et je suis suffisamment geek pour avoir envie de comprendre à quoi ça sert. 
+
 ### Quelques éléments à comprendre
 
 Quand votre ordinateur est derrière un routeur, seul votre routeur a une IP publique. L'ensemble de votre LAN utilisent un système appellé NAT pour accéder à Internet. C'est pourquoi il faut configurer des transferts de ports TCP pour accéder à un ordinateur du LAN de l'extérieur (pour du ssh, ftp ou web). Donc le routeur sécurise un peu votre réseau interne.
 
 Avec l'IPV6, chaque ordinateur de votre LAN est directement connecté sur Internet et est donc accessible par n'importe quel autre ordinateur ayant une adresse IPV6. Il est donc primordial d'avoir un parefeu bien configuré.
+
 ### Je ne veux pas d'IPV6
 
 A partir de la version Sarge (au moins) IPV6 est inclus dans le kernel debian. Si l'IPV6 ne vous interesse pas il faut le desactiver explicitement. J'ai trouvé toute une série de méthode permettant de le désactiver (je n'en ai testée aucune) :
@@ -25,6 +27,7 @@ A partir de la version Sarge (au moins) IPV6 est inclus dans le kernel debian. S
 ### Vérifier que tout fonctionne
 
 Il y a plusieurs possibilités :
+
 #### Faire un ping sur une serveur IPV6 (ici www.kame.net) :
 
 ```
@@ -70,6 +73,7 @@ Un parefeu ipv6 est quasiment identique à un parefeu ipv4, la différence rési
 *	iptables-restore -> ip6tables-restore
 
 Voir mon article sur iptable : [en:debian:iptables](/en/debian/iptables).
+
 #### Parefeu paranoiaque
 
 Comme son nom l'indique, il revient à bloquer tout le traffic ipv6 :

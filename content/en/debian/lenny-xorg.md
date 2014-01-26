@@ -125,6 +125,7 @@ For now, our Lenny should start in text mode and we can and we can start the GUI
 *	kdm : linked to KDE.
 *	xdm : not a lot of dependencies but not very pretty.
 *	wdm : ditto
+
 #### Installation of SLiM
 
 I'll then install an other one : [SLiM](http://slim.berlios.de/) : 

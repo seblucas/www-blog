@@ -19,9 +19,11 @@ http://lalystar.developpez.com/fonctionsAnalytiques/
 ### Source
 *	http://www.oracle-base.com/articles/misc/StringAggregationTechniques.php
 *	http://www.oracle-developer.net/display.php?id=306
+
 ###  Avant la 10g 
 
 Le plus simple était de passer par une fonction.
+
 ###  en 10g : COLLECT 
 
 cela passe par trois étapes :
@@ -52,6 +54,7 @@ SELECT deptno,
 FROM   emp
 GROUP BY deptno;
 ```
+
 ###  en 11g : LISTAGG 
 
 ```sql
@@ -59,19 +62,24 @@ SELECT deptno, LISTAGG(ename, ',') WITHIN GROUP (ORDER BY ename) AS employees
 FROM   emp
 GROUP BY deptno;
 ```
+
 ## Les tables virtuelles
 
 http://www.oracle-developer.net/display.php?id=207
+
 ## Transformer les colonnes en lignes ou le pivot
 
 ### Le problème
 https://forums.oracle.com/forums/thread.jspa?threadID=305252
+
 ### En 10g
 
 L'extension MODEL permet de s'en sortir. Voir http://technology.amis.nl/blog/300/pivoting-in-sql-using-the-10g-model-clause.
+
 ### En 11g
 
 Cette nouvelle version amène une nouvelle fonction de PIVOT.
+
 ## Accès direct à un fichier CSV
 
 http://oracle.developpez.com/guide/architecture/tables/?page=Chap1#L1.5.1

@@ -15,6 +15,7 @@ Après 10 ans de loyauté à Nokia j'ai fini il y a un an par passer à Android 
 Le passage a Odin a été un peu stressant mais au final cela s'est passé sans problème et très rapidement. De plus, comme l'essentiel des données du smartphone est stockée dans le cloud (compte gmail, dropbox) et que Titanium Backup existe en une heure je me retrouve avec un téléphone fonctionnel (en ayant faire un factory reset).
 
 Le changement de Rom Opérateur vers Rom nue est facile (via Odin) et virer le simlock est relativement simple aussi (merci [helroz et sa boite à outils](http://forum.frandroid.com/topic/24784-ref-boite-a-outils/)).
+
 ## Bilan
 
 Je suis globalement satisfait, ce smartphone est suffisamment rapide pour qu'il donne envie de l'utiliser et Android est globalement très facile à utiliser. L'énorme avantage est le Market avec des centaines de milliers d'applications gratuites disponibles (mais de qualité).
@@ -27,6 +28,7 @@ Côté bidouillage, on est servi :
 ## Regrets
 
 ### Matériel
+
 #### GPS
 
 Le vrai regret matériel concerne la puce GPS qui est vraiment mauvaise (fix très long et précision de l'ordre de 15m). J'ai été obligé de palier ce défaut en réutilisant un GPS bluetooth Holux M1200 (utilisé pour TomTom sur un vieux PDA) et l'application BLuetooth GPS.
@@ -39,6 +41,7 @@ Auparavant avec mes nombreux téléphones Nokia j'utilisais une oreillette bluet
 Nativement en 2.1 rien n'existait. Avec la 2.2, il y a moyen via la bluetooth en disant une phrase en anglais "call Marcel Durant" avec l'accent anglais. Bref pas top.
 
 Récemment je suis tombé sur [Voice Speed Dial](https://market.android.com/details?id=com.cyberon.cvsd) sur le market permettant de faire exactement le même chose que mes vieux Nokia. Je l'ai testée et l'ai adopté dans la foulée. Attention par contre à bien lever la voix pour les enregistrements des tags. A moi les joies du téléphone en voiture en toute sécurité pour 2,11 €.
+
 #### SIP
 
 Via mon abonnement Freebox j'ai accès à un compte SIP et j'ai attendu avec impatience Gingerbread pour avoir une pile SIP intégrée directement dans l'OS. La pile est bien intégrée mais malheureusement Samsung dans son infinie bonté a décidé de la désactiver ..... connerie quand tu nous tiens.

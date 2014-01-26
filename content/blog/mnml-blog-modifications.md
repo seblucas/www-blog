@@ -42,6 +42,7 @@ div#pagewrap
 ## Version mobile du site
 
 Comme pour mon précédent template (voir [Version mobile du template Arctic pour Dokuwiki](/fr/oss/dokuwiki-arctic-mobile)), j'ai voulu ajouter une version optimisée pour les smartphones.
+
 ### Modification du main.php
 
 J'ai ajouté avant le `</head>` : 
@@ -49,6 +50,7 @@ J'ai ajouté avant le `</head>` :
 <meta name="HandheldFriendly" content="true" />
 <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
 ```
+
 ### Modification de user/screen.css
 
 Pour simplifier j'ai viré purement et simplement la barre latérale de droite et le champ de recherche (mais il serait possible de les garder et les mettre à la fin par exemple).
@@ -87,9 +89,11 @@ width: 100%;
 }
 }
 ```
+
 ## Intégration du plugin translation
 
 Pour certaines parties du site à la fois en français et anglais, j'utilise le plugin [translation](http://www.dokuwiki.org/plugin:translation) et j'ai voulu l'intégrer dans la barre de navigation horizontale.
+
 ### Modification du main.php
 
 Voici le diff :
@@ -113,6 +117,7 @@ Voici le diff :
                  tpl_getConf("mnmlblog_search_pos") === "headernav"){
                  echo "\n            <div id=\"tmpl_header_nav_search\" class=\"dokuwiki\">\n";
 ```
+
 ### Modification de user/screen.css
 
 ```css
@@ -140,6 +145,7 @@ Voici le diff :
   color: #000000;
 }
 ```
+
 ### Modification de user/screen.css pour la version mobile
 
 ```css

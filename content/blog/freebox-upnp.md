@@ -20,6 +20,7 @@ Il existe plusieurs solutions sous Linux :
 
 Update 14/06/2009 :
 Après des tests plus approfondis de UShare et quelques déceptions, mon choix s'est finalement porté sur Mediatomb qui contrairement à ce j'ai dit n'a pas besoin de mysql.
+
 ## Installation d'UShare
 
 La compilation de ushare est relativement simple. La seule dépendance est libupnp :
@@ -34,6 +35,7 @@ A l'usage ushare a les désavantages suivants :
 *	Mauvaise gestion (ou pas de gestion du tout) des sous-répertoires.
 *	Pas de mise à jour automatique en cas d'ajout d'un fichier dans un partage upnp. La seule solution est de mettre une commande du style wget http://monAdresseIP:monPort/web/ushare.cgi?action=refresh dans la cron.
 *	Documentation pas forcement à jour (le projet étant arrêté cela n'est pas étonnant).
+
 ## Mediatomb
 
 ### Installation
@@ -58,6 +60,7 @@ Il ne vous reste plus qu'à ajouter vos répertoires, personnellement je choisi 
 *	Scan Mode : Inotify.
 *	Initial Scan : Full
 *	Recursive : Yes
+
 ### En cas d'erreur
 
 J'ai eu un problème ou Mediatomb état inaccessible après le boot. Un restart du service corrige le problème à tout les coups. J'ai regardé le log (/var/log/mediatomb) et je suis tombé sur ce genre d'erreur :

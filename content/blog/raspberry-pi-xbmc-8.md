@@ -38,6 +38,7 @@ Pour pallier aux defauts de la dernière version sur le décodage RTSP, j'ai ess
 Concernant le dernier point, ce n'est plus totalement vrai grâce à un développeur Français qui a ajouté cette fonctionnalité. Je vous laisse consulter son [Github](https://github.com/Glandos/tvheadend).
 
 Je ferai un tutoriel complet dans quelques jours.
+
 ## Choses en cours
 
 ### Une breadboard
@@ -48,9 +49,11 @@ J'ai fini par me laisser tenter par l'achat d'un breadboard avec deux objectifs 
 L'objectif est d'intégrer tous ces éléments dans ma boite existante pour avoir vraiment une solution clé en main.
   
 En parallèle, j'aimerai éventuellement brancher un afficheur 2 lignes que j'utilisais sur mon VDR précédemment. 
+
 ### Récepteur infra-rouge
 
 Pour le récepteur infra-rouge, j'ai récupéré quelques TSOP38238 qui correspondent au [LIRC GPIO driver](http://aron.ws/projects/lirc_rpi/). Pour le moment je n'ai pas encore testé mais tout est prêt.
+
 ### Un bouton de redémarrage après arrêt
 
 J'ai trouvé des informations sur deux techniques :

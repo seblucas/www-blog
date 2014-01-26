@@ -15,6 +15,7 @@ Tags: xfce
 *	RAM use
 *	Temperatures (CPU, GPU, HDD)
 *	Fan speed
+
 ### Dependencies
 
 It's not reel dependencies but without any temperature monitor, Conky is, in my opinion, is a little useless.
@@ -61,6 +62,7 @@ cp /etc/conky/conky.conf ~/.conkyrc
 ### Screenshot
 
 ![Image](/fr/debian/fondecranxfceconky.jpg){.centered}
+
 ### My conkyrc
 
 ```-

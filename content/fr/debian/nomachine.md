@@ -29,41 +29,49 @@ dpkg -i nxserver_<Version>_i386.deb
 ```
 
 *	C'est terminé
+
 ## Installer et configurer la partie cliente
 
 ### Installer le client NX
 TODO : ajouter les liens
+
 ### Lancer NX Connection Wizard
 
 ![Image](/fr/debian/nxclient01.png)
 *	Cliquer sur Next
+
 ### Configuration de l'ordinateur cible
 
 ![Image](/fr/debian/nxclient02.png)
 *	Session : Nom avec lequel vous allez retrouver votre connection distante
 *	Host : identifiant de la machine distante
 *	Régler le type de connection pour que les performances soient bonnes
+
 ### Configuration du window manager de l'ordinateur cible
 
 ![Image](/fr/debian/nxclient03.png)
 *	Première liste déroulante : laisser Unix
 *	Deuxième liste déroulante : choisir Custom (il n'y a pas XFCE dans la liste).
 *	Avant de pouvoir choisir la résolution il faut d'abord cliquer sur le bouton Settings
+
 ### Paramétrage XFCE
 
 ![Image](/fr/debian/nxclient04.png)
 *	Dans "Run the following command" : saisir startxfce4.
 *	Sélectionner "New virtual desktop".
 *	Cliquer sur OK
+
 ### Sélection de la résolution
 
 ![Image](/fr/debian/nxclient05.png)
 *	Je vous laisse choisir la résolution voulue
 *	Cliquer sur Next
+
 ### Fin
 
 ![Image](/fr/debian/nxclient06.png)
 *	Cliquer sur Finish
+
 ### Premier test
 
 ![Image](/fr/debian/nxclient07.png)

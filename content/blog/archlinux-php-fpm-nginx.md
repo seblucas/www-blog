@@ -19,6 +19,7 @@ Archlinux est en rolling release : c'est à dire qu'il n'y a pas de version stab
 *	PHP est en 5.4
   
 Le désavantage est que les paquets sont globalement moins largement testés notamment au niveau des interactions entre eux.
+
 ## Essai 1 : les paquets officiels
 
 ### Installation
@@ -52,12 +53,14 @@ server {
 }
 ```
 Attention au lien vers PHP-FPM (unix:/var/run/php-fpm/php-fpm.sock) selon les versions de PHP-FPM il est peut être différent vérifiez donc la propriété listen de /etc/php/php-fpm.conf.
+
 ### Premier test
 
 Bilan : cela ne fonctionne pas. Après quelques recherches, il se trouve que je suis obligé de déclarer dans le php.ini tous les endroits où des scripts peuvent exister :
 ```
 open_basedir = /srv/http/:/home/:/tmp/:/usr/share/pear/:/var/www
 ```
+
 ### Deuxième test
 
 Cela fonctionne ... de temps en temps. J'ai aussi les erreurs suivantes dans les logs :
@@ -77,6 +80,7 @@ Il y a plusieurs solutions :
 *	Compiler Nginx à partir des sources
   
 J'ai choisi la deuxième solution.
+
 ## Essai 2 : Compilation de Nginx
 
 ### Dépendances
@@ -84,6 +88,7 @@ Pour compiler il faut installer le nécessaire (make, gcc, ...), l’équivalent
 ```
 pacman -S base-devel
 ```
+
 ### Compilation
 
 En premier lieu, je me suis inspiré du PKGBUILD officiel de Nginx pour que ma compilation colle au mieux à celle de Archlinux. J'ai fini par écrire un script de compilation :
@@ -137,6 +142,7 @@ cd nginx-1.2.1
 ```
 
 C'est étonnamment rapide.
+
 ### Installation
 
 *	En premier, on sauvegarde la configuration par défaut de Archlinux
@@ -248,9 +254,11 @@ esac
 ```
 rc.d start nginx
 ```
+
 ### Bilan
 
 Ca marche !
+
 ## Installation du cache opcode PHP
 
 Auparavant, j'avais pris l'habitude d'utiliser xcache. Comme Archlinux utilise PHP5.4, j'ai été obligé d'utiliser APC et cela n'a pas été très compliqué.
@@ -275,6 +283,7 @@ rc.d start php-fpm
 ```
 
 Cela marche bien avec la configuration que j'ai donné. Par contre, dès que j'active la ligne apc.stat=0 plus rien ne fonctionne ... C'est vraiment étrange (alors que tout fonctionne sur une autre machine en PHP 5.3).
+
 ## Récupération des logs d'erreur PHP
 
 Un point très important, avec le Fastcgi classique les erreurs PHP se retrouvent dans le log d'erreur de Nginx. Ce n'est plus vrai avec la version de PHP-FPM installé par Arch pour avoir accès au log j'ai du activer le paramètre suivant dans /etc/php/php-fpm.conf (à la fin du fichier) :

@@ -11,6 +11,7 @@ Tags: nginx,php
 
 ## Socket Unix / HTTP
 Quand j'ai installé pour la premiere fois nginx + php (voir [Installation de nginx sous Debian](/blog/nginx-php-install)), j'avais vu une autre manière soit disant plus rapide utilisant des sockets unix.
+
 ## Changement du script de fastcgi
 
 Les changements sont suivis de #.
@@ -75,6 +76,7 @@ case "$1" in
 esac
 exit $RETVAL
 ```
+
 ## Changement des sites nginx
 
 ```
@@ -86,6 +88,7 @@ location ~ \.php$ {
                 fastcgi_pass    unix:/tmp/fcgi.sock; #####################################
         }
 ```
+
 ## Bilan
 
 Comment dire ce n'est pas flagrant, cela semble un peu plus rapide (en testant avec apache bench) mais cela ne change pas grand chose.

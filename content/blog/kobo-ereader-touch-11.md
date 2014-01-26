@@ -21,9 +21,11 @@ Un serveur COPS de démo à ajouter à votre client OPDS préféré : http://cop
 ## Sortie du prochain firmware Kobo imminente
 
 Vu les discussions dans le groupe beta, le prochain firmware devrait sortir très rapidement (dans les deux semaines max, je pense).
+
 ## Kobo & Windows 8
 
 Kobo a profité du buzz de la semaine sur Windows 8 pour se faire un [peu de pub](http://www.actualitte.com/actualite/lecture-numerique/applications/lecture-numerique-kobo-prend-ses-marques-sur-windows-8-32462.htm).
+
 ## Anniversaire de la mort de Philip K. Dick
 
 Vu que c'est un de mes auteurs préférés et qu'il alimente Hollywood depuis des années sans forcement que son nom soit souvent cité, je vais me permettre de rappeler que Philip K. Dick est mort il y a 30 ans.

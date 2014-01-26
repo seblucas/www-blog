@@ -22,11 +22,13 @@ Pour l'instant la cause n'est pas claire :
 *	...
 
 Comme je l'ai déjà dit, je n'utilise pas du tout les étagères donc je n'ai pas expérimenté le problème directement.
+
 ## Souci avec la table des matières / navigation
 
 Depuis la dernière version, l'affichage de la coche dans la table des matières (indiquant le chapitre courant) n'est pas toujours correct. De la même manière, l'utilisation du bouton d'avance rapide dans le menu de navigation (bouton avec la double flèche) est aussi aléatoire : j'étais au chapitre 9 et un clic sur l'avance rapide m'a fait arriver au chapitre 1.
 
 C'est une fonctionnalité que j'utilise rarement mais que j'appréciais jusqu'à maintenant.
+
 ## Des statistiques dans les Epub ;)
 
 Le titre est suffisamment racoleur !

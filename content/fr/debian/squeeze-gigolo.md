@@ -16,12 +16,14 @@ J'ai passé beaucoup de temps à recherche un outil graphique me permettant de r
 *	...
 
 Jusqu'au jour ou j'ai trouvé Gigolo qui correspond exactement à ce que je veux.
+
 ## Gigolo
 
 Liens intéressants :
 *	Site officiel : http://www.uvena.de/gigolo/
 *	Page Ubuntu en français : http://doc.ubuntu-fr.org/gigolo
 *	
+
 ## Installation de Gigolo
 
 Ce n'est pas forcement si simple que d'habitude : 
@@ -38,9 +40,11 @@ gpasswd -a MonUser fuse
 modprobe fuse
 ```
 *	Si vous avez autant de bol que moi, essayez une déconnexion/reconnexion.
+
 ## Configuration
 
 La configuration par défaut est bonne, la seule chose que j'ai fait concerne l'affichage du panneau latéral qui permet d'accéder au réseau SMB complet.
+
 ## Cas du NFS
 
 Gigolo ne permet pas de monter du NFS. J'ai donc défini mes points de montage dans /etc/fstab en les spécifiant accessible aux utilisateurs :

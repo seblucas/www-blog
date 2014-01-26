@@ -22,14 +22,17 @@ A noter que je n'ai pas testé ce dont je ne me sers jamais :
 
 ### Consommation de batterie excessive
 Quelques très rares utilisateurs ont noté des baisses très rapides de la batterie (de l'ordre de la journée) suite au transfert de fichiers epub.
+
 ### Mise en veille rapide après ouverture d'un livre
 
 Juste après l'ouverture d'un livre si vous ne tournez pas de pages pendant un peu plus d'une minute (70 secondes selon les tests), la liseuse se met en veille.
 
 Personnellement ça ne me dérange pas et je considère ça presque comme une nouvelle fonctionnalité mais le consensus (et Kobo) semble le classifier en bug.
+
 ### Livres avec DRM ADE non autorisés après le passage en 2.4.0
 
 Si vous avez le problème suivez le guide : http://www.mobileread.com/forums/showpost.php?p=2434189&postcount=6
+
 ### Bouton d'achat sur des fichiers kepub.epub chargés manuellement
 
 Comme le chargement de fichier .kepub.epub n'est pas supporté officiellement, il se peut que certains fichiers aient le problème.
@@ -40,9 +43,11 @@ UPDATE content SET ___UserID='kepub_user'
 WHERE ContentID LIKE 'file:///mnt/%'
 AND ContentID LIKE '%kepub.epub%';
 ```
+
 ### Sudoku
 
 Le clavier en bas a un petit bug de couleur.
+
 ### Tri des livres
 
 Depuis l'apparition de l'information de série dans notre Kobo, le tri par titre avait été changé pour devenir un tri par Série, Numéro du livre dans la série, Titre du livre.
@@ -50,6 +55,7 @@ Depuis l'apparition de l'information de série dans notre Kobo, le tri par titre
 Encore une fois, étant un grand lecteur de série, je trouvais ça pratique !
 
 Beaucoup d'utilisateurs s'étaient offusqués du fait que le tri par titre n'était plus un tri par titre. Au final, Kobo a rétabli le tri par titre (sans prendre en compte la série). J'espère qu'un choix de tri incluant les séries fera partie des évolutions du prochain firmware.
+
 ## La petite bidouille du jour
 
 Vous parlez français mais vous n'êtes pas français (québécois, suisse, belge, ...) et les formats de dates ou de l'heure affichés sur le Kobo ne respectent que les habitudes de France (JJ/MM/AAAA).

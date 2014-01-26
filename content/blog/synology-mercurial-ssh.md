@@ -18,10 +18,12 @@ Cela fait maintenant quasiment deux ans que j'ai fait ce genre de modification m
 ipkg install py26-mercurial
 ```
 Cela peut prendre du temps car il va aussi installer python.
+
 ## Paramétrage du push via ssh
 
 ### Pré-requis
 Je vais réutiliser le même user que pour Subversion (svn) mais rien de vous empêche d'en créer un spécifique.
+
 ### Préparation de l'accès ssh
 
 De la même façon que pour Subversion il faut que la commande hg soit accessible immédiatement après la connexion ssh donc je fais un lien dans /usr/bin :
@@ -29,18 +31,21 @@ De la même façon que pour Subversion il faut que la commande hg soit accessibl
 cd /usr/bin/
 ln -s /opt/bin/hg hg
 ```
+
 ### Création d'un nouveau dépôt
 
 ```
 cd /volume1/hg/
 hg init newrepo
 ```
+
 ### Premier clone
 
 Simple : 
 ```
 hg clone ssh://svn@<IP DU NAS>///volume1/hg/newrepo
 ```
+
 ### Utilisation de clé privée/publique
 
 Comme indiqué dans l'article concernant Subversion, pour gagner du temps je vous conseille d'utiliser des clés (avec pageant ou ssh-agent). Je ferai l'article prochainement.

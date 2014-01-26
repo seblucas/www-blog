@@ -19,6 +19,7 @@ J'ai ensuite ajouté mes fichiers :
 *	tnsnames.ora
 *	slqnet.ora
 dans ce même répertoire
+
 ## Configuration
 
 Il ne reste plus qu'à mettre à jour les variables d'environnement :

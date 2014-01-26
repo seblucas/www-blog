@@ -29,41 +29,49 @@ dpkg -i nxserver_<Version>_i386.deb
 ```
 
 *	That's all (easy, isn't it !)
+
 ### Client install
 
 #### Install NX client
 TODO : add links
+
 #### Start NX Connection Wizard
 
 ![Image](/fr/debian/nxclient01.png)
 *	Click Next
+
 #### Configure the target server
 
 ![Image](/fr/debian/nxclient02.png)
 *	Session : Name of your remote connection
 *	Host : remote server name (or IP)
 *	Choose your connection type to keep good performance
+
 #### Configure the window manager of the remote server
 
 ![Image](/fr/debian/nxclient03.png)
 *	First drop down list : keep Unix
 *	Second drop down list : choose Custom (there is no XFCE in the list).
 *	You can't yet select the screen resolution, so click Settings
+
 #### Configure XFCE
 
 ![Image](/fr/debian/nxclient04.png)
 *	In "Run the following command" : type startxfce4.
 *	Choose "New virtual desktop".
 *	Click OK
+
 #### Select your desired resolution
 
 ![Image](/fr/debian/nxclient05.png)
 *	Choose the resolution you prefer.
 *	Click Next
+
 #### End
 
 ![Image](/fr/debian/nxclient06.png)
 *	Click Finish
+
 #### First test
 
 ![Image](/fr/debian/nxclient07.png)

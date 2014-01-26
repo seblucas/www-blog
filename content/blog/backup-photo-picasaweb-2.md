@@ -23,6 +23,7 @@ J'ai donc trouvé un outil faisant le transfert et le redimensionnement des phot
 J'ai créé des correctifs pour les deux premiers points via un [fork github](https://github.com/vlad59/PicasaWebSync) qui a été réintégré dans la version officielle par l'auteur. 
 
 J'ai donc pu envoyer quelques milliers de photos sur Picasa. Malheureusement même si mes répertoires sont toujours de la forme : YYYYMMDD - Thème, le tri n'est pas bon. Comme je l'ai précisé il est impossible de changer la date de publication d'un album avec le SDK .Net mais par contre c'est possible via python ...
+
 ## Un peu de python
 
 J'ai donc réalisé un petit script (inspiré par ce [lien](http://stackoverflow.com/questions/4559030/not-able-to-change-a-date-of-my-picasa-web-albums-album-via-python-api)) qui change la date de l'album et qui permet d'avoir un tri correct des photos.

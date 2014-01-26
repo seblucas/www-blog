@@ -18,6 +18,7 @@ A noter que la mise à jour ne m'a pas été proposée ce matin quand j'ai synch
 ## Changements officiels
 
 Rien du tout. La mise à jour ne doit concerner que de la correction de bugs certainement.
+
 ## Changement non officiels
 
 Depuis la sortie du Kobo Glo, une fronde avait démarrée sur MobileRead suite à beaucoup de problèmes de reboot intempestifs. Beaucoup d'utilisateurs avaient aussi eu des problèmes avec les cartes µSD qui ne fonctionnaient pas du tout ou provoquait encore une fois des reboots (à la fois sur Touch et Glo).
@@ -30,6 +31,7 @@ ATTENTION : Lire [ATTENTION : Ne pas installer les mises à jour Kobo manuelleme
 
 *	Touch : http://download.kobobooks.com/firmwares/kobo3/brodeur/kobo-update-2.1.5.zip
 *	Glo : http://download.kobobooks.com/firmwares/kobo4/brodeur/kobo-update-2.1.5.zip
+
 ## Firmware unifié
 
 ~~Pour le moment (cela ne veut pas dire que ce sera toujours le cas), le firmware sont les mêmes entre les Touch, Glo et Mini. Cela permet de simplifier la gestion pour l'équipe de Kobo.
@@ -38,6 +40,7 @@ ATTENTION : Lire [ATTENTION : Ne pas installer les mises à jour Kobo manuelleme
 Mea culpa, Voir ici pour plus d'informations :
 *	http://www.mobileread.com/forums/showpost.php?p=2270009&postcount=37
 *	[ATTENTION : Ne pas installer les mises à jour Kobo manuellement](/blog/kobo-ereader-touch-40)
+
 ## Le retour du plugin
 
 Le plugin revient avec une version sans grand intérêt pratique pour le Kobo mais qui a le mérite de prouver qu'il peut toujours fonctionner.
@@ -45,6 +48,7 @@ Le plugin revient avec une version sans grand intérêt pratique pour le Kobo ma
 http://www.mobileread.com/forums/showthread.php?t=193377
 
 A noter que la version dans le lien est pour le firmware 2.1.4.
+
 ## Merci
 
 Merci à Redfish de m'avoir prévenu et d'avoir su trouver un intérêt à mon insomnie ;).

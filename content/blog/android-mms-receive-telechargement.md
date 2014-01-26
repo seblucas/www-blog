@@ -11,6 +11,7 @@ Tags: android
 
 ## Problème
 J'ai pris la bonne (ou mauvaise) habitude de désactiver le réseau de données lorsque je n'ai pas de raison de m'en servir (l'activation prends 3 secondes et la 3G consomme pas mal de batterie). Comme les MMS ont besoin d'une connectivité data pour être reçus, il me semblait logique de ne pas les recevoir en désactivant le réseau de données. Mais ce n'est pas le fonctionnement avec mon Galaxy S (Android 2.2.1 JS8) : le MMS est bien reçu sans notification mais lors de la visualisation du contenu il y a juste le texte : "Téléchargement" en grisé.
+
 ## Solution
 
 *	Activer le Wifi ou le réseau de données

@@ -19,6 +19,7 @@ System.InvalidOperationException: Attempt to load Oracle client libraries threw 
    at System.Data.Common.UnsafeNativeMethods.OCILobCopy2(IntPtr svchp, IntPtr errhp, IntPtr dst_locp, IntPtr src_locp, UInt64 amount, UInt64 dst_offset, UInt64 src_offset)
    at System.Data.OracleClient.OCI.DetermineClientVersion()
 ```
+
 ## Solution
 
 Easy :
@@ -26,6 +27,7 @@ Easy :
 *	Do a right click and go to Advanced settings.
 *	change "Enable 32-bit Applications" to True.
 *	Restart both the pool and the website and everything should be working correctly.
+
 ## Source
 
 My source : http://social.msdn.microsoft.com/Forums/en-US/netfx64bit/thread/3f00bf30-2d81-4e6c-9bcc-16e06ebf46eb/

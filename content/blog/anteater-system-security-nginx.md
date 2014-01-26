@@ -11,6 +11,7 @@ Tags: dokuwiki,nginx
 
 ## Pourquoi ?
 Suite à la dernière mise à jour Dokuwiki, j'ai eu une alerte sécurité me disant que mes répertoires data,conf,inc et bin étaient accessibles de l'extérieur. Et la documentation officielle http://www.dokuwiki.org/security ne donnait pas de solution toute faite pour Nginx.
+
 ## Solution
 
 Ajouter les lignes suivantes dans la configuration nginx :

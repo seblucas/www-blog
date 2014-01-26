@@ -24,6 +24,7 @@ Notre liseuse utilise un linux et pour son stockage interne utilise 2Go de mémo
 Lors d'une remise à zéro (voir [trucs et astuces](/blog/kobo-ereader-touch-5)) la partition de secours est recopiée dans la partition root.
 
 Cela a un intérêt : même en bidouillant comme un dingue la partition root, il n'y a (en théorie) aucun risque de casser définitivement la liseuse tant que la partition de secours est préservée.
+
 ## La mémoire interne de la Kobo serait une carte µSD : donc remplaçable
 
 ![Image](/blog/kobointerieur.jpg)
@@ -32,6 +33,7 @@ J'ai vu sur [le forum de MobileRead](http://www.mobileread.com/forums/showthread
 Ma pauvre liseuse fonctionne encore parfaitement pour la lecture mais le navigateur ne fonctionne plus du tout même après une remise à zéro. Si cela est du à des blocs défectueux sur la carte comme je le crains, je peux garder l'espoir de la changer et même de prendre une carte plus rapide pour donner un coup de boost à la Kobo.
 
 Attention : cette information n'est pas confirmée à 100% pour toutes les liseuses, lorsque j'aurais eu l'inconscience de l'ouvrir et de vérifier par mes propres yeux je posterai une mise à jour.
+
 ## Carte µSD et type de système de fichier
 
 J'ai pu tester les systèmes de fichiers suivants :
@@ -39,6 +41,7 @@ J'ai pu tester les systèmes de fichiers suivants :
 *	ext3 : OK
 *	ext4 : OK
 *	NTFS : NOK
+
 ## Carte µSD externe et partitionnement
 
 La Kobo ne supporte pas les carte µSD formatée sans table de partition (en mode superfloppy). Donc si vous avez totalement remis à zéro une carte µSD, pensez à bien recréer la partition.
@@ -68,6 +71,7 @@ tune2fs -O ^has_journal /dev/sdd1
 ```
 
 Source : http://www.richud.com/wiki/Kobo_eReader_touch
+
 ## Personnaliser l'écran de veille
 
 Alors c'est encore plus chaud que tout le reste mais cela reste amusant. Un utilisateur de Kobo a ajouté son nom sur l'écran de veille de la Kobo afin d'être certain de ne pas confondre sa liseuse avec celle de son épouse. Cela implique l'édition binaire d'un exécutable de la Kobo.

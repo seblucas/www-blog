@@ -23,15 +23,18 @@ La ROM marche vraiment bien et j'y trouve les avantages suivants :
 *	Le bureau par défaut gère parfaitement le passage en paysage.
 
 Le seul défaut que je trouve pour le moment est que la nouvelle gestion de la reconnaissance vocale bloque l'utilisation de Voice Speed Dial. Mais au fond cela n'est pas très important
+
 ## Folio 100
 
 ### Rappel
 Comme indiqué dans mes précédents article le passage à ICS avait été une bénédiction pour le Folio 100. Dernièrement [DerArtem](https://blog.slucas.fr/blog/ice-cream-sandwich-folio-100) a sorti des versions basées sur Jelly Bean et je dois dire que c'est une réussite.
 
 **ATTENTION** : Les explications qui vont suivre vont effacer complètement votre tablette (y compris les données de la SD interne), veuillez donc faire les sauvegardes appropriées au préalable.
+
 ### Mise en place de Fastboot
 
 Voir : [ICS (Ice Cream Sandwich) sur une Toshiba Folio-100](/blog/ice-cream-sandwich-folio-100).
+
 ### Téléchargement
 
 A la date d'écriture de cet article, la dernière version est l'Alpha 4
@@ -42,6 +45,7 @@ A la date d'écriture de cet article, la dernière version est l'Alpha 4
 *	[gapps-jb-20120726-signed.zip](http://goo.im/gapps/gapps-jb-20120726-signed.zip)
 
 Les 3 derniers fichiers doivent être mis sur une carte SD insérée dans la Folio.
+
 ### Mise à jour du recovery
 
 Démarrer la tablette en mode fastboot : 
@@ -64,6 +68,7 @@ Sur l'ordinateur exécuter les commandes suivantes :
 ```
 
 Pour la commande qui flashe le recovery, il faut bien sur avoir recopié le fichier img dans le répertoire courant ou adapter la commande.
+
 ### Installation
 
 Au reboot, aller dans le recovery :
@@ -82,11 +87,13 @@ Il faut ensuite :
     * gapps-jb-20120726-signed.zip
 
 Un petit reboot et c'est terminé.
+
 ### Retour d'utilisation
 
 La passage sous ICS avait été un grand pas en avant pour la Folio 100, mais je pense que Jelly Bean est encore mieux adapté.
 
 Pour l'instant aucun problème, j'ai l'impression que le Wifi (le point faible de la Folio) accroche mieux.
+
 ## Un petit coup de gueule qui ne servira à rien
 
 La semaine dernière, j'ai lu une annonce de Sony indiquant les téléphones allant recevoir la mise à jour en Jelly Bean (à lire [ici](http://www.frandroid.com/actualites-generales/114278_sony-annonce-les-smartphones-qui-auront-droit-a-jelly-bean-les-xperia-2011-resteront-sur-ice-cream-sandwich/) par exemple). J'en ai profité pour charrier copieusement un collègue qui possède un Xperia S.

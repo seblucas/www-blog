@@ -18,22 +18,26 @@ A suivre un tutoriel sur l'installation d'OpenVPN.
 
 ### Principe
 Beaucoup, beaucoup de choses se paramètrent dans le fichier /etc/rc.conf c'est assez déstabilisant quand on vient de Debian.
+
 ### Changement du Hostname
 
 Il se change dans le fichier rc.conf :
 ```
 HOSTNAME="minus"
 ```
+
 ### Réglage de l'heure
 
 #### Pourquoi ?
 Le Dockstar ne possède pas d'horloge interne il faut donc passer par un NTP pour avoir une date et heure correcte.
+
 #### Fuseau horaire
 
 Encore une fois, on édite le rc.conf :
 ```
 TIMEZONE="Europe/Paris"
 ```
+
 #### NTP
 
 *	Installation
@@ -48,6 +52,7 @@ ntpd -qg
 ```
 DAEMONS=(... !hwclock ntpd ...)
 ```
+
 ### Langue
 
 *	Vérification des locales installées
@@ -71,6 +76,7 @@ locale-gen
 ```
 LOCALE="fr_FR.UTF-8"
 ```
+
 ### Mise en place du noatime
 
 Le fichier fstab avant l'installation ressemble à ça
@@ -100,6 +106,7 @@ et on peut ensuite modifier le fstab :
 UUID="xx"       /       ext2    defaults,noatime 0       1
 tmpfs           /tmp    tmpfs   nodev,nosuid     0       0
 ```
+
 ## Commandes utiles
 
 ### Mise à jour du système

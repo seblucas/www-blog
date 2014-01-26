@@ -17,9 +17,11 @@ Suite à cela j'ai essayé [open-vm-tools](http://open-vm-tools.sourceforge.net/
 aptitude install --without-recommends open-vm-tools open-vm-dkms
 ```
 Le --without-recommends permet d'installer les outils dans le driver X (inutile pour un serveur headless). Cela semble marcher mais j'ai préféré prendre les outils officiels en attendant que ces outils soient un peu plus reconnus.
+
 ## Récupérer un linux.iso récent
 
 Personnellement, j'ai utilisé un VMWare Player récent sous Linux. Le fichier linux.iso est trouvable dans le répertoire suivant /usr/share/vmware/isoimages si il n'existe pas il suffit de créer une nouvelle machine virtuelle debian par exemple et il va le télécharger automatiquement.
+
 ## Installation
 
 *	Faire pointer le lecteur CD virtuel de la machine virtuelle vers linux.iso

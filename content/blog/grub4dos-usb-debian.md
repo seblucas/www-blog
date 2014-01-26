@@ -11,9 +11,11 @@ Tags: debian,grub
 
 ## Pourquoi ?
 Je voulais installer Debian sur un ordinateur portable mais en étant certain de ne pas perturber l'installation de Windows existante. J'ai donc installer ma Debian Squeeze normalement mais dans installer Grub dans le MBR (donc sans virer le bootloader de Windows). Le plan était d'utiliser une clé USB pour démarrer Debian.
+
 ## Installation de Grub sur la clé
 
 Je n'ai pas réussi à faire fonctionner cette solution. Si quelqu'un a une idée je suis preneur.
+
 ## Installation de Grub4dos sur la clé
 
 Télécharger les éléments suivants :
@@ -31,6 +33,7 @@ Remplacer hd1 par le point de montage de votre clé USB.
 Décompresser grub4dos et copier les fichiers sur la clé USB :
 *	grldr
 *	menu.lst
+
 ## Modification du menu.lst
 
 ### Méthode "en dur"
@@ -40,6 +43,7 @@ root (hd1,3)
 kernel /boot/grub/core.img
 ```
 Ici on accède directement à la bonne partition (4ième du deuxième disque) et on charge grub.
+
 ### Méthode automatique
 
 ```
@@ -55,6 +59,7 @@ savedefault --wait=2
 Ici on demande à grub4dos de chercher sur les partitions le fichier /boot/grub/core.img et une fois trouvé de le lancer.
 
 Cette méthode permet de pouvoir redémarrer un Linux donc le grub aurait été effacé par une installation de XP par exemple.
+
 ### Fun : charger geexbox
 
 ```
@@ -65,6 +70,7 @@ root (0xFF)
 chainloader (0xFF)
 ```
 Il faut bien sur ajouter le fichier /geexbox-2.0-alpha2-en.i386.eglibc.iso à la racine de la clé USB.
+
 ### Fichier complet
 
 ```-

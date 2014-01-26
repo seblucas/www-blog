@@ -10,6 +10,7 @@ Tags: dokuwiki
 
 ## Backlinks
 J'ai bêtement utilisé la méthode expliquée ici : http://www.dokuwiki.org/template:arctic#backlinks
+
 ## Bookmark
 
 Créer le fichier sidebar.php suivant dans le répertoire lib/tpl/arctic/sidebars/bookmark/sidebar.php :

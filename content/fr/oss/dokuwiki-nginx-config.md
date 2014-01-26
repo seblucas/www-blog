@@ -52,6 +52,7 @@ server {
         }
 }
 ```
+
 ## Explications
 
 ```

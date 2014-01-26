@@ -26,6 +26,7 @@ Très simple :
 ## Un fichier EPUB valide ?
 
 J'ai personnellement testé avec la page du [Trône de fer](http://fr.wikipedia.org/wiki/Le_Tr%C3%B4ne_de_fer) et en testant le fichier produit sur [un validateur](http://validator.idpf.org/), le fichier est parfaitement valide.
+
 ## Sur la Kobo
 
 Je vais commencer par les points négatifs :
@@ -43,9 +44,11 @@ Et ensuite les points positifs :
 J'ai regardé rapidement le code généré, il me semble un peu complexe (ce qui pourrait expliquer le temps de chargement), mais au final le rendu est correct (mais perfectible).
 
 Attention j'ai testé sur le dernier firmware beta donc il se peut que j'ai un comportement différent d'une version 2.0.2 ou 2.1.1.
+
 ## Conclusion
 
 Vu la qualité de certaines pages Wikipedia, je pense que cà vaut le cout de se construire un "livre" avec quelques articles pour le consulter au calme sur sa liseuse.
+
 ## Wikisource
 
 ~~J'ai essayé de faire la même chose avec Wikisource mais je n'ai pas vu d'option d'export comme dans Wikipedia Donc si l'un d'entre vous maitrise le sujet qu'il n'hésite surtout pas à tout m'expliquer dans les commentaires.~~

@@ -21,12 +21,14 @@ J'ai créé une page html toute simple et valide W3C disponible [ici](http://cop
 
 Dans tous les cas un type mime correct est envoyé : application/epub+zip.
 Dans les deux derniers cas une entête Content-Disposition est envoyée pour spécifier un nom complet.
+
 ## Les résultats
 
 ###  Firefox sous Windows 
   - OK
   - OK avec le nom complet
   - OK avec le nom complet
+
 ### Kobo eReader Touch avec firmware 1.9.17
 
   - La fenêtre de téléchargement apparait le nom alice.epub

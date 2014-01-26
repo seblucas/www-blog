@@ -9,6 +9,7 @@ Language: en
 
 ## Why
 I use Linux since 1998, I started, like a lot of people, with Red Hat. In 2002, I installed my first Woody and Debian never deceived me since. I tried, some years ago, Ubuntu but I stay faithful to Debian.
+
 ## How can I use it
 
 Beside of the classic desktop use, I had many dedicated usage of Debian :

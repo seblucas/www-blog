@@ -43,22 +43,28 @@ Concernant la nouvelle page d'accueil, je ne sais pas si je la trouve mieux ou m
 
 ### Ajout de dictionnaires
 Les dictionnaires Anglais-Japonais, Portugais-Anglais, Anglais-Portugais ont été ajoutés.
+
 ### Gestion des séries
 
 Comme indiqué précédemment (voir [Meilleure gestion des séries dans la Kobo](/blog/kobo-ereader-touch-45)), les séries sont mieux intégrées dans les listes sur la Kobo (et dans les recherches), par contre, il faut passer par Calibre pour mettre à jour la zone série pour les Epubs.
+
 ### Correction du problème de changement de taille de police / typographie
 
 Précédemment, lorsque je voulais changer rapidement la taille et/ou la police, j'avais des plantages avec des redémarrages de la liseuse. Maintenant, le changement de ces paramètres entraine l'affichage d'un petit texte (Mise à jour des paramètres de ...) et cela ne plante plus.
+
 ### Amélioration de la gestion des marges dans les Epubs
 
 Les marges (et interlignes) devraient être plus facilement modifiables sur les Epubs.
+
 ### Corrections sur les annotations
 
 Le changement ou la modification des annotations dans la liste fonctionne à nouveau.
+
 ## Nouveaux bugs
 
 ### Affichage de l'italique
 Selon la police utilisée, le texte devant être affiché en italique est affiché en gras. J'ai transmis le détail du problème sur le groupe beta.
+
 ### Certainement d'autres ...
 
 Utilisez les commentaires si vous en détectez d'autres.

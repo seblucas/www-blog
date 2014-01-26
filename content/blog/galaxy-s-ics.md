@@ -35,6 +35,7 @@ Plus d'information sur la ROM :
 *	http://forum.xda-developers.com/showthread.php?t=1488096 (en)
 *	http://forum.frandroid.com/topic/99627-rom404-slim-ics-33-clean-simple-and-fast/ (fr)
 *	http://galaxys-team.fr/viewtopic.php?t=24169 (fr)
+
 ## Préparation de l'installation
 
 Prudence est mère de sûreté !
@@ -46,6 +47,7 @@ Prudence est mère de sûreté !
 Une fois tout cela fini j'ai sauvegarde l'ensemble de mon téléphone (en le connectant au PC), je l'ai chargé à fond et j'ai enlevé la carte µSD externe.
 
 J'ai aussi téléchargé préalablement les ROMs que je voulais installé et une ROM JVU au cas ou il y aurait problème.
+
 ## Installation
 
 Je ne vais pas recopier les tutoriels existants sur le Web, j'en ai suivi plusieurs pour arriver à mes fins. Je vais juste détailler les étapes importantes :

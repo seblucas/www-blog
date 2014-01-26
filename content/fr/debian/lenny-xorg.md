@@ -125,6 +125,7 @@ Pour l'instant notre Lenny démarre en mode texte et nous pouvons lancer l'inter
 *	kdm : lié à KDE.
 *	xdm : Aucune dépendance lourde mais un peu austère.
 *	wdm : Idem
+
 #### Installation de SLiM
 
 Je vais donc installer le dernier [SLiM](http://slim.berlios.de/) : 

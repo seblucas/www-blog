@@ -21,6 +21,7 @@ J'ai trouvé [sur un autre forum](http://forum.teamalexandriz.org/les_liseuses_d
 Plus de détails sur la police sur sa page Web : http://iotic.com/averia/
 
 C'est une police avec des bords irréguliers qui rappelle un peu les caractères imprimés sur un papier qui boit un peu l'encre. J'ai personnellement choisi la version Sans Serif et c'est devenu ma police par défaut.
+
 ## Un peu plus d'informations sur le fichier koboEreader.conf
 
 Pour ceux qui, comme moi, font des factory reset assez régulièrement, la seule chose à sauvegarder (en plus des livres qui sont dans Calibre) sont les paramétrages de marge, police et interlignage. Tous ces paramètres se retrouvent dans le fichier de configuration (koboEreader.conf) :
@@ -37,6 +38,7 @@ readingLineHeight=1.775
 readingRightMargin=6
 ```
 Faire une petite sauvegarde de ces paramètres permet de vite retrouver ses marques après un factory reset.
+
 ## Mini revue de Web
 
 *	[La fin des DRM pour les ebooks des éditions Michel Lafon](http://www.actualitte.com/actualite/lecture-numerique/usages/la-fin-des-drm-pour-les-ebooks-des-editions-michel-lafon-35084.htm) : Une bien bonne nouvelle.

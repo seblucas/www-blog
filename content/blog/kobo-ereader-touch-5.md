@@ -43,10 +43,12 @@ Alors que pour un Fnac c'est (essayez de deviner) :
 [General]
 affiliate=fnac
 ```
+
 ### Installation manuelle d'un firmware
 
 #### Téléchargement du firmware
 Le dernier firmware est trouvable à l'adresse suivante : http://download.kobobooks.com/firmwares/kobo3/albacore/kobo3-update-1.9.14.zip
+
 #### Installation
 
 C'est très simple :
@@ -58,6 +60,7 @@ C'est très simple :
 *	Copier les deux fichiers et le répertoire dans le répertoire .kobo
 *	Ejecter le Kobo
 *	Le firmware s'installe
+
 ### Modification du firmware pour ajouter l'accès telnet / ftp
 
 Je n'ai pas du tutoriel pour le moment, mais dès que j'aurais fait la manipulation j'écrirai un article complet.
@@ -66,6 +69,7 @@ Mes sources :
 *	http://www.chauveau-central.net/pub/KoboTouch/
 *	http://blog.ringerc.id.au/2011/01/enabling-telnet-and-ftp-access-to-kobo.html
 *	http://www.mobileread.com/forums/showthread.php?t=141388 (notamment les pages 2 et 3).
+
 ###  Ajout manuel d'un favori sur le navigateur 
 
 L'utilisation du clavier sur la liseuse est assez fastidieuse surtout pour les URL ou il faut souvent passer du clavier classique au clavier avec les chiffres et caractères spéciaux.
@@ -86,6 +90,7 @@ Certains caractères sont à remplacer :
 Et chaque favori se termine par un =.
 
 Source : http://www.mobileread.com/forums/showpost.php?p=1906318&postcount=158.
+
 ## Gestion de la bibliothèque
 
 ### Ajouter la série et l'index du livre dans le Kobo
@@ -107,9 +112,11 @@ Plus d'informations :
 *	http://www.mobileread.com/forums/showthread.php?t=118563
 
 A noter que les métadonnées series et series_index ne sont officiellement inclues dans la norme EPUB (voir http://dublincore.org/documents/dcmi-terms/ pour la liste officielle) par contre elles sont supportées par de nombreux logiciel (Calibre, Aldiko, ...). Merci à Patrick pour cette information.
+
 ### Importer les annotation dans Calibre
 
 Connecter le Kobo à Calibre (version 0.8.24 minimum) faire un click droit sur le bouton envoyer au périphérique et lancer récupérer les annotations.
+
 ### Faire une réinitialisation usine (Factory reset)
 
 Le bouton se trouve dans le menu paramétrage avec les informations techniques.
@@ -125,6 +132,7 @@ Dans le cas ou la liseuse ne démarre plus il reste les possibilités suivantes 
     * Donner une impulsion sur le bouton reset avec un trombone
     * Ne relâcher le bouton Home que quand la Kobo s'allume avec le message "Reinitialisation"
     * Encore merci à lui.
+
 ### Comment utiliser la liseuse dans la connecter avec le logiciel (et donc créer un compte)
 
 Depuis le firmware 1.9.14 c'est malheureusement un passage obligé. J'ai personnellement créé un compte bidon avec un adresse email bidon mais pour ceux que ça embête une solution existe : 
@@ -132,15 +140,19 @@ Depuis le firmware 1.9.14 c'est malheureusement un passage obligé. J'ai personn
 *	En français : http://forum.pcinpact.com/topic/153932-ebook-le-topic-de-le-book/page__view__findpost__p__2647337
 
 Attention c'est dangereux. Le principe étant d'aller insérer une ligne dans la table user dans le base sqlite du Kobo (fichier .kobo\KoboReader.sqlite).
+
 ## Lecture
 
 ### Ajouter un livre sur le Kobo
+
 #### Directement avec l'explorateur de fichier
 
 Quand le Kobo est connecté avec le cable micro usb fourni à un ordinateur il vous demande si vous voulez le connecter ou non. Si vous choisissez de la faire alors il est reconnu comme un périphérique de stockage USB (comme une clé). Vous pouvez alors glisser le ou les fichiers epub directement à la racine ou dans un répertoire si vous préférez.
+
 #### Avec Calibre
 
 Bien vérifier que vous avez bien paramétré Calibre pour votre Kobo (si nécessaire vous pouvez relancer l'assistant de démarrage). En ensuite il suffit de connecter le Kobo (comme dans le point précédent) de faire un clic droit sur un livre et sélectionner Envoyer au lecteur.
+
 ###  Impossible de changer la marge sur mon livre 
 
 Le seul moyen connu à ce jour est de passer par une conversion avec Calibre :
@@ -153,6 +165,7 @@ Le seul moyen connu à ce jour est de passer par une conversion avec Calibre :
 *	cliquer sur OK pour lancer la conversion
 
 Dans certains cas il faut aussi cocher la case : "supprimer l'interligne entre les paragraphes".
+
 ### Ajouter une nouvelle police de caractère sur le Kobo
 
 C'est aussi simple que d'ajouter un livre : 

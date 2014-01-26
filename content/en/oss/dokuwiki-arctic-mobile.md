@@ -67,6 +67,7 @@ div.dokuwiki div.toc {
 }
 ```
 As stated before the goal is just have as much space as possible for the text.
+
 ### The modification on main.php
 
 That's just 3 lines to add just before `</head>` :

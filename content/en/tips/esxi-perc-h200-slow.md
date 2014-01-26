@@ -17,13 +17,16 @@ The installation works perfectly to the point where it feeled that many of my vi
 After a lot of googling I found out I was not the only one (some guy said that it took 1,5 week to create an RAID 1 array of 1TB). Dell officially explains that as the Përc H200 does not have a battery, it does not use any cache (so far understandable) and it disables disk cache (unbelievable).
 
 I also tried to update the firmware or find some hidden option but without any luck. As my main use of this server was ESXi and I didn't wand to invest in a Perc H700 (with BBU), I continued the search.
+
 ## Solution
 
 ### French power !!!!
 I found in a [french forum](http://forum.online.net/index.php?/topic/316-en-cas-de-performances-degradees-de-votre-h200-assurez-vous-de-lactivation-du-cache-disque-sata/page__p__1328__hl__h200__fromsearch__1#entry1328) a way to enable the disk cache. It should not harm your data (at least not mine), but do a backup before. So here is a quick translation.
+
 ### Get Ubuntu
 
 Download the latest Ubuntu CD for amd64. In my case : ubuntu-11.04-desktop-amd64.iso.
+
 ### Modification
 
 *	Boot the CD

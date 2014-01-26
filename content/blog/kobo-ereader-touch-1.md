@@ -25,6 +25,7 @@ Au début je pensais l'acheter au Canada (chez Chapters) mais bien sur ils inter
 J'ai fini par me dire que j'allais attendre la sortie en Allemagne (en octobre normalement), mais j'ai finalement vu le prix européen : 149,00€. Je vais me permettre ce petit aparté (en espérant que les dirigeants de Kobo puissent me lire) : il faudrait expliquer les règles du taux de change : $129.00 ne font pas 149,00€ je suis prêt à accepter 129,00€ mais je trouve que l'Europe a bon dos.
 
 J'ai fini par l'acheter sur Ebay pour environ 120,00€.
+
 ## Premières impressions
 
 Le Kobo est très léger, l'écran est super agréable (vive le e-ink pearl). J'ai commencé par installer Kobo Desktop pour mettre à jour le firmware (1.9.11 à la date d'écriture de ce post) et enchainé par un factory reset pour être certain de partir d'une bonne base.
@@ -45,12 +46,14 @@ Pour le moment je lis un livre en anglais (ce qui limite peut être le nombre de
 *	Contrairement à ce qui peut être lu sur le net, il est possible de traduire ou d'avoir accès à la définition d'un mot pour les epub chargés avec Calibre ... Par contre il n'y qu'un dictionnaire anglais.
 *	Visualisation des CBZ (attention l'écran est quand même plus petit qu'un manga classique donc la qualité de l'image est importante)
 *	Un sudoku ......
+
 ### Points neutres
 
 *	Tactile vraiment bof venant d'un Galaxy S capacitif (c'est assez injuste comme comparaison) mais qui reste utilisable
 *	Intégration avec Facebook .... je ne vois pas l'intérêt mais si ça peut faire plaisir à certains
 *	Statistiques de lecture certainement fausses ou je n'en comprends pas la logique
 *	Navigateur Internet à moitié inutile sauf pour des sites dédiés (je pense que j'en ferais un pour partager ma bibliothèque Calibre)
+
 ### Points négatifs
 
 *	Je n'ai jamais réussi à charger un CBR (mais le CBZ fonctionne lui).

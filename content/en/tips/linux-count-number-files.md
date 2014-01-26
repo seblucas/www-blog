@@ -13,11 +13,13 @@ Tags: debian,tips
 ```
 find targetdir -type f -maxdepth 1 | wc -l 
 ```
+
 ## Recursive
 
 ```
 find targetdir -type f | wc -l 
 ```
+
 ## Recursive and follow symlink
 
 ```

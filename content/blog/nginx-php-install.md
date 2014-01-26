@@ -25,15 +25,18 @@ Mon objectif était de transformer un Dockstar en serveur Web, vu les capacités
 ```
 aptitude install nginx
 ```
+
 ## Installation de PHP en fastcgi
 
 Pour la suite je me suis inspiré de : http://neokraft.net/2010/serveur-web-nginx-php-mysql
+
 ### Installation
 
 Attention ne pas installer le paquet php car celui entraine l'installation d'apache et ce n'est pas vraiment le but.
 ```
 aptitude install php5-cgi spawn-fcgi
 ```
+
 ### Demon
 
 Ce démon est à créer dans /etc/init.d

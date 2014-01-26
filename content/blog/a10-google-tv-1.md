@@ -14,6 +14,7 @@ Vous trouverez ci-après quelques liens sur des articles qui m'ont intéressé d
 ## L'architecture x86 perd du terrain
 
 A lire [ici](http://www.clubic.com/processeur/actualite-520629-architecture-x86-recule-parts-de-marche-intel-amd.html), le changement est assez notable pour en parler un peu (et pour entrainer des pages de discussions chez Clubic). Même si je pense qu'on aura toujours besoin de PC normaux, c'est vrai qu'avec une tablette très à la mode les netbooks sont vraiment en difficulté.
+
 ## Linux et XBMC sur un Allwinner A10
 
 La version d'XBMC n'est pas encore utilisable en production mais ça avance.
@@ -27,6 +28,7 @@ Pour des images Linux en armhf :
 *	http://guillaumeplayground.net/mele-a2000-headless-debian-wheezy-armhf-with-nand-install-v1/
 
 Au final la société derrière le A10 est totalement inutile mais la communauté a réussi à faire pas mal de choses.
+
 ## Crowdfounding pour des sources GPL
 
 Je ne sais pas si vous connaissez le site http://www.j1nx.nl/ qui est une excellente source d'information pour les boitiers à base d'ARM. La personne derrière le site (Peter Steenbergen) a décidé de démarrer une campagne de crowdfounding pour qu'une société chinoise décide de fournir les sources du noyau ainsi que les modifications de Uboot et du système de build pour un SOC AMLogic 8726-M3. Par contre, même si ces éléments sont, pour la plupart, sous licence GPL (c'est à dire qu'on devrait déjà avoir les sources), cette société ne le fera que si ils ont un certain nombre de commandes; d’où la demande de financement.

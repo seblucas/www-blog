@@ -11,6 +11,7 @@ Tags: debian,grub
 
 ## Pourquoi ?
 J'avais déjà fait le nécessaire avec Grub4dos (voir [Utiliser une clé USB pour démarrer Debian](/blog/grub4dos-usb-debian)) mais malheureusement j'ai été maladroit et cette clé n'est plus de ce monde. Au final il ne me reste plus qu'un vieille clé de 32Mo surlaquelle il est impossible d'installer Grub4dos donc j'ai du retenter d'installer Grub2.
+
 ## Installation de Grub2
 
 ### Préparation de la clé
@@ -22,6 +23,7 @@ S'arranger pour avoir une et une seule partition de type linux et bootable (avec
 ```
 mkfs.ext2 /dev/sdb1
 ```
+
 ### Installation de Grub2
 
 ```
@@ -30,6 +32,7 @@ grub-install --force --no-floppy --root-directory=/media/disk /dev/sdb
 remplacer /media/disk par le point de montage de /dev/sdb1.
 
 A partir de ce moment, la clé doit être bootable il reste à ajouter le menu.
+
 ## Paramétrage de Grub2
 
 Copier le fichier grub.cfg dans le répertoire /media/disk/boot/grub :

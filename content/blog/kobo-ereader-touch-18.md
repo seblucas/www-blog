@@ -38,6 +38,7 @@ Mais rien ne bouge. Beaucoup de monde commencent à avoir assez d'attendre :
 *	Plus modestement j'ai reçu environ 20 mails depuis une semaine et demi ou vous me demandez si j'ai des nouvelles.
 
 Je ne suis malheureusement pas dans les petits papiers de Kobo, donc pas de scoop pour le moment.
+
 ## Bilan
 
 Je reste optimiste mais cela me passera certainement après les vacances.

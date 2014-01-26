@@ -10,11 +10,13 @@ Tags: iptables
 
 ### Why ?
 I'm lucky enough to have an Internet provider which gives me a free /64 ipv6 network. And I'm geek enough to try it just to know about it. 
+
 ### Things you should know
 
 When your computer is behind a router. Only your router has an ip (ipv4) address on the internet. All the computer in your LAN use a system called NAT to access Internet. That's why you need to configure your router to forward specific TCP port if you want to access a computer through ssh, ftp or web. So using a router brings a little security to your LAN.
 
 With IPV6, every computer in your LAN is directly connected to Internet so your router does not bring any security at all. You absolutely NEED to configure an IPV6 firewall.
+
 ### I really don't want it
 
 Starting with Sarge (at least) IPV6 is built in the kernel. So if you don't want it you'll have to explicitly disable it. There's is many known methods, I'll only link to them (I didn't tried any of them) :
@@ -25,6 +27,7 @@ Starting with Sarge (at least) IPV6 is built in the kernel. So if you don't want
 ### Check if everything is working
 
 There is many way to check if it's working :
+
 #### Ping an IPV6 server (here www.kame.net) :
 
 ```
@@ -70,6 +73,7 @@ creating an IPV6 firewall is as almost the same as for IPV4, the difference lies
 *	iptables-restore -> ip6tables-restore
 
 You can check my other [howto about netfilter](/en/debian/iptables).
+
 #### Paranoid firewall
 
 You really shouldn't use it , as it totally blocks any IPV6 communications :

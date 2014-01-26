@@ -10,6 +10,7 @@ Tags: xfce,xorg
 
 ### XTerm
 XFCE include [Terminal](http://www.os-cillation.com/index.php?id=42&L=5) which should already been installed.
+
 ### Text editor
 
 XFCE include [Mousepad](http://www.xfce.org/projects/mousepad/) which is basically Windows's Notepad. You'll have to install it :
@@ -96,6 +97,7 @@ apt-get install deluge-torrent
 ### Media player
 
 There are two choices.
+
 #### xfmedia
 
 Use [xfmedia](http://spuriousinterrupt.org/projects/xfmedia) based on xine :

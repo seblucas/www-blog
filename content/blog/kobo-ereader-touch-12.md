@@ -27,6 +27,7 @@ Comme je vous l'avais laissé entendre, des corrections de bugs et la seule évo
 Je mettrai à jour ce billet une fois que j'aurai pu mettre à jour et que j'aurai lu plus de retour pour vous indiquer la tendance pour ce firmware.
 
 Bon test.
+
 ## Plugin mis à jour
 
 Le plugin a été mis à jour pour fonctionner avec la version 1.9.17 :

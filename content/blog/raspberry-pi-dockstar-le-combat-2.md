@@ -39,6 +39,7 @@ sys     0m0.020s
 ```
 
 L'overclock apporte donc un gain certain. Je m'attendais à une différence plus important vu qu'un bug sur l'USB a été corrigé (censé apporter ~10% de performance), mais c'est déjà ça !
+
 ## Dockstar en noyau 3.5.4
 
 Aucune différence :
@@ -47,6 +48,7 @@ real    0m13.782s
 user    0m13.750s
 sys     0m0.000s
 ```
+
 ## Melee A2000 (Allwinner A10)
 
 J'en avais déjà parlé dans un précédent article (voir [Deux Dockstar ... et après](/blog/dockstar-raspberry-pi-a10)), voila donc le résultat d'un A10 à 1GHz (ARM Cortex A8) : 

@@ -21,6 +21,7 @@ Comme je ne sais pas qui est ce Monsieur (ou cette dame d'ailleurs), j'ai cliqu�
 J'espère que vous voyez mon problème ...
 
 Pour avoir la définition je dois aller à "Dragon" qui est à la page ... 36 donc 43 petites tapes gentilles sur la liseuse. A noter qu'à la fin de la note sur "Dragon", il y a un report sur "Dragon Réincarné" qui est heureusement juste à côté.
+
 ## Différence Kepub / Epub
 
 Je n'ai pas le même comportement sur les notes de bas de pages sur ce livre selon que je lise le Kepub ou l'Epub. Je ne sais si c'est lié au fait que je sois sur un firmware beta (oui c'est reparti ;)).
@@ -28,6 +29,7 @@ Je n'ai pas le même comportement sur les notes de bas de pages sur ce livre sel
 Je me souviens en tout cas qu'en version 2.3.1 sur la version Epub, je perdais le lien "Précédent" qui permet de revenir dans le livre.
 
 D'ailleurs si quelqu'un (avec le firmware 2.3.1 ou 2.3.2) peut faire le test sur la version Kepub et me dire ce qu'il voit cela m'arrangerait. Merci d'avance.
+
 ## Meilleures solutions ?
 
 Il y en a au moins deux assez évidentes :

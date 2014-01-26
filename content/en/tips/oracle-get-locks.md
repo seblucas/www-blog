@@ -34,6 +34,7 @@ select session_id
   where a.object_id = b.object_id
   and c.sid=a.session_id
 ```
+
 ## Kill a locked session
 
 ```sql

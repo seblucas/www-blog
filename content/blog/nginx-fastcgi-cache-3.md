@@ -32,6 +32,7 @@ location ~ doku\.php$ {
                fastcgi_pass    unix:/tmp/fcgi.sock;
 }
 ```
+
 ## Le cache oui mais il faut me laisser bosser :P
 
 Avec la configuration ci dessus le cache est actif pour tout le monde ... même moi. Je ne peux donc plus me connecter pour ajouter/modifier des articles. Je vous laisse imaginer que ce n'est pas une solution viable.

@@ -10,6 +10,7 @@ Tags: debian,dockstar
 # Installation d'une Debian Squeeze sur un Seagate Dockstar
 
 ## Seagate Dockstar
+
 ### Historique
 
 Cela faisait des années que je suivais tout ce qui concernait les [PlugComputer](http://fr.wikipedia.org/wiki/Special:Search?search=PlugComputer), notamment les [SheevaPlug](http://fr.wikipedia.org/wiki/Special:Search?search=SheevaPlug) et les [BeagleBoard](http://fr.wikipedia.org/wiki/Special:Search?search=BeagleBoard). Et en juillet suite à un post sur http://forum.hardware.fr, j'ai fini par acheter sur un site en ligne un superbe Dockstar ([Lien officiel](http://www.seagate.com/www/fr-fr/products/network_storage/freeagent_dockstar/)) pour le prix modique de 18,95€. 
@@ -25,6 +26,7 @@ Il a les caractéristiques suivantes :
 *	1 port Ethernet Gigabit
 
 En pratique on a la puissance d'un PIII-600 mais sans unité de calcul de nombre flottant.
+
 ### A quoi ça sert
 
 Dans mon cas j'ai plusieurs objectifs :
@@ -36,12 +38,15 @@ Dans mon cas j'ai plusieurs objectifs :
 *	Un serveur OpenVPN
 *	Un lecteur de musique connecté à un système HIFI (avec une carte son USB).
 *	...
+
 ### Consommation électrique
 
 Mon Wattmètre qui a une précision de 4W m'indique ...... 0W. J'en déduis donc que le Dockstar + une clé USB de 8Go consomment environ 4W.
+
 ## Installation
 
 Tout ce qui va suivre est une honteuse copie/ré-interprétation de la documentation de ce lien : http://forum.hardware.fr/hfr/OSAlternatifs/Hardware-2/seagate-dockstar-computer-sujet_71314_1.htm.
+
 ### Désactiver les mises à jour
 
 Le système est paramétré pour se mettre à jour dès qu'il est connecté sur internet, il est donc primordial de désactiver les mises à jour avant tout. Personnellement je l'ai connecté avec le câble fourni sur mon portable ce qui fait qu'il va avoir une adresse du style 169.254.0.0/16 (il est aussi possible de déconnecter l'ADSL de son routeur mais j'ai choisi la méthode complexe). La prochaine étape est donc de trouver son IP :
@@ -69,11 +74,13 @@ mount / -rw -o remount
 ```
 mount / -r -o remount
 ```
+
 ### Installation de Debian Squeeze
 
 C'est simple il suffit de suivre le tutoriel de Jeff Doozan : http://jeff.doozan.com/debian/
 
 Personnellement j'ai fait l'installation sur une clé USB de 8Go que j'ai partitionnée avec le système Pogoplug (fdisk est dans /sbin). Je me suis prévu 256Mo de swap que je n'ai jamais monté pour le moment (pas d'intérêt).
+
 ## Liens utiles
 
 *	Topic sur hardware.fr : http://forum.hardware.fr/hfr/OSAlternatifs/Hardware-2/seagate-dockstar-computer-sujet_71314_1.htm

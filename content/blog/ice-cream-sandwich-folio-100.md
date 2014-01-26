@@ -22,6 +22,7 @@ Je ne suis qu'un banal utilisateur éclairé pour cette installation, mes source
 *	Une mine d'or de tutoriels dans tous les sens : http://forum.frandroid.com/topic/45847-maxi-tuto-gestions-des-rom-pour-les-debutants/
 *	Fastboot pour la Folio : http://forum.xda-developers.com/showthread.php?t=1103479
 *	Fastboot Android : http://android-dls.com/wiki/index.php?title=Fastboot
+
 ## Installation
 
 ### Téléchargement
@@ -31,13 +32,16 @@ Dans ce lien il faut télécharger les fichiers suivants (pour la version Alpha 
 *	Les outils Google : gapps-ics-20120224-signed.zip
 
 Les deux derniers fichiers doivent être copiés sur une carte SD.
+
 ### Sauvegarde de la tablette
 
 Attention cette installation va totalement effacer votre tablette (carte SD interne comprise). Donc utilisez bien votre meilleur outil de sauvegarde (Titanium backup par exemple).
+
 ### Mise en place de fastboot sous Linux
 
 #### Pourquoi Linux ?
 J'ai essayé fastboot sous Windows (voir le Mega tuto dans les sources) et comme il faut obligatoirement installer un driver et que cela ne semblait pas être limpide, j'ai préféré le tenter sous Linux.
+
 #### Téléchargement du programme
 
 En premier téléchargez ce fichier :
@@ -54,6 +58,7 @@ Vous pouvez ensuite le tester :
 ```
 ./fastboot
 ```
+
 #### Paramétrage de udev pour que la tablette soit reconnue
 
 En root, ajoutez ce fichier dans /etc/udev/rules.d/ :
@@ -62,6 +67,7 @@ SUBSYSTEMS=="usb", ATTRS{idVendor}=="0955", MODE="0666", OWNER="monUtilisateur"
 ```
 
 En remplaçant monUtilisateur pour votre login préféré.
+
 #### Démarrage de la Folio 100 en mode fastboot
 
 Simple : 
@@ -71,6 +77,7 @@ Simple :
 *	Brancher la tablette via le port mini USB sur votre ordinateur
 
 Attention ne pas appuyer 4 fois sur le bouton Power cela peut bloquer la tablette.
+
 #### Test de bon fonctionnement
 
 Taper : 
@@ -79,12 +86,14 @@ Taper :
 ```
 
 Il doit retourner une ligne avec plein de ????? qui montre que ça marche.
+
 ### Formatage de la tablette et installation du recovery
 
 ```
 ./fastboot -w
 ./fastboot flash recovery  cwm-recovery-5.5.0.4.img
 ```
+
 ### Redémarrage de la tablette et lancement du recovery
 
 *	Insérez votre carte SD dans la Folio
@@ -93,6 +102,7 @@ Il doit retourner une ligne avec plein de ????? qui montre que ça marche.
 *	Sélectionner install zip from sdcard et select zip from sdcard
 *	Installer d'abord le fichier update-cm et ensuite les Gapps
 *	redémarrer
+
 ## Profiter
 
 Pour l'instant j'apprécie, reste à voir la suite.

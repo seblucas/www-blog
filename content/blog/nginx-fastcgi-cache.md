@@ -13,10 +13,12 @@ Tags: dockstar,dokuwiki,nginx
 Comme expliqué dans les tutoriels précédents ([Installation de nginx sous Debian](/blog/nginx-php-install)) Nginx fait appel au PHP via un fastcgi. donc pour schmatiser le php va renvoyer une page HTML à Nginx qui va se charger de l'envoyer au visiteur du site.
 
 Le principe du cache est que Nginx ne va appeler le fastcgi que si il n'a pas encore la version HTML dans son cache.
+
 ## La mise en œuvre
 
 ### On regarde la documentation officielle
 http://wiki.nginx.org/HttpFcgiModule
+
 ### Déclaration du cache
 
 On modifie /etc/nginx/nginx.conf :
@@ -32,6 +34,7 @@ Une petite explication :
 *	Les éléments du cache seront gardés en mémoire vive avec un maximum de 10Mo
 *	La taille totale du cache est de 100Mo
 *	Le chemin de stockage du cache est dans /tmp ce qui a l'avantage d'automatiser la purge en cas de reboot et de limiter le besoin de faire des chmod.
+
 ### Lier le cache et le site web
 
 Modifier votre site web (typiquement dans /etc/nginx/sites-enabled) :
@@ -58,6 +61,7 @@ Une fois les deux modifications effectuées relancer nginx :
 ```
 /etc/init.d/nginx restart
 ```
+
 ### Comment vérifier que ça fonctionne
 
 *	Afficher dans un navigateur une page
@@ -67,6 +71,7 @@ Une fois les deux modifications effectuées relancer nginx :
    * Noter le temps lié à certains scripts
    * recharger la page (même avec un CTRL + F5)
    * Valider que le temps a baissé drastiquement (dans mon cas 400ms -> 12ms)
+
 ## La déception
 
 Dans mon cas je voulais appliquer la modification du cache à ce site donc à Dokuwiki et cela n'est pas à la hauteur de mes espérances.

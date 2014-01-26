@@ -13,6 +13,7 @@ Tags: debian,vmware
 *	VMware player 3.1.2 pour amd64.
 *	Installer Debian Squeeze (http://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/i386/iso-cd/debian-testing-i386-netinst.iso) du 05/10/2010.
 *	VMware tools 8.4.4.
+
 ## Spécificités de l'installation
 
 J'ai installé une version minimale de Squeeze avec le serveur SSH, donc pas de Xorg pour cette version. J'ai aussi pris les choix suivants :
@@ -46,6 +47,7 @@ Le fichier compressé a ensuite été obtenu comme suit :
 ```
 7za a -t7z -m0=lzma -mx=8 -mfb=64 -md=32m -ms=on SqueezeMinimal.7z SqueezeMinimal/
 ```
+
 ## Téléchargement
 
 http://dl.free.fr/n9E2zCz4f

@@ -34,6 +34,7 @@ Beaucoup d'autres services pourraient être ajoutés :
 *	...
   
 Pour toutes ces utilisations le Dockstar fait très bien le boulot, pas besoin d'un ordinateur qui consomme 90W pour ça.
+
 ### Client graphique / Video
 
 Depuis quelques années les smartphones ont des GPU/VPU permettant :
@@ -46,6 +47,7 @@ Suite à cela, beaucoup de petites machines ARM sont sorties avec sortie HDMI et
 Avec ce genre de machines on peut rêver à une utilisation de media center et tout ce qu'un serveur X apporte (consultation de mail, navigateur Internet, ...).
 
 Pour les vieux de la vieille, j'ai encore une Xbox que j'avais acheté en priorité pour XBMC et qui a très bien rempli sa mission pendant des années. Remplacer une Xbox par une boite 5 fois plus petite et totalement silencieuse serait assez agréable.
+
 ## Raspberry Pi
 
 Voir [ici](http://www.raspberrypi.org/) pour plus d'informations.
@@ -63,6 +65,7 @@ Pour simplifier :
 On parle là d'une vraie petite machine bien qu'un peu plus faible qu'un Dockstar elle a la gestion des virgules flottante en plus. Le gros avantage est le support de Xbmc et une très grosse communauté. Le gros défaut est qu'il me manque au moins une sortie SPDIF (j'ai un vieil ampli) et j'aurais aimé un processeur un peu plus puissant.
 
 Bref, bon support mais matériel un peu limite.
+
 ## Allwinner A10 - Mele A2000 ou bien d'autres sytèmes
 
 Pour plus de détails voir :
@@ -83,12 +86,15 @@ Un très très gros potentiel car les spécifications sont top :
 Vous pouvez voir mes liens pour plus de détails. Je voulais m'en acheter un mais le problème est que le support du matériel est inclus uniquement dans Android et via des applications propriétaires. Un rapprochement est peut être en cours avec un développeur de XBMC mais je vais faire comme Saint Thomas et attendre de voir. Le prix est aussi très correct.
 
 Bref, bon matériel mais mauvais support de Linux.
+
 ## XBMC pour Android
 
 Depuis le mois de juillet XBMC est disponible sur Android (voir [ici](http://xbmc.org/theuni/2012/07/13/xbmc-for-android/). Attention en ce qui concerne l'accélération vidéo, cela ne concerne que les Pivos. Mais, cela laisse présager d'autres matériels compatibles.
+
 ## L'avenir
 
 Beaucoup de périphériques ARM sont sur le point d'arriver sur le marché, très souvent avec Android. J'ai notamment repéré [Ouya](http://www.kickstarter.com/projects/ouya/ouya-a-new-kind-of-video-game-console) qui a bien monopolisé l'attention sur lui. Sur le papier on aurait une machine plus qu'intéressante (Tegra 3 donc une belle puissance brute : environ le décodage du 720p en soft) et qui [veut supporter Xbmc](http://xbmc.org/natethomas/2012/08/07/xbmc-and-ouya-oh-yeah/).
+
 ## Bilan
 
 Il est urgent d'attendre.

@@ -18,6 +18,7 @@ J'ai beaucoup lu d'informations dans les forums concernant les vendeurs de la Fn
 
 ###  Emballage et contenu de la boite 
 La boite du Kobo by Fnac est plus fine certainement car elle ne contient pas de chargeur secteur (donc à prévoir pour les départs en vacances sans ordinateurs portable). Pour information un simple chargeur de Samsung Galaxy S remplace très bien le chargeur qui n'est pas inclus.
+
 ### Différence de firmware
 
 Je n'ai pas pu me rendre compte de visu des différences vu que je n'ai pas voulu ouvrir le cadeau. Mais à la lecture d'informations trouvée sur le Web j'ai trouvé ceci (à confirmer ou infirmer) :

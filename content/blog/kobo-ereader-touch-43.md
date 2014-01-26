@@ -16,6 +16,7 @@ Désolé pour le peu d'articles en ce moment, je suis assez pris par le travail 
 J'ai essayé d'installer un environnement de compilation adapté à la Kobo. Je n'ai pas eu le temps pour le moment d'aller jusqu'à la compilation du plugin (mon but), mais je vais publier au fur et à mesure mes avancées.
 
 Pour le moment, la première partie est ici : [Création d'un environnement de compilation Kobo - Partie 1](/fr/oss/kobo-build-environment-1)
+
 ## Dictionnaires personnalisés sur la Kobo
 
 Malgré ce titre, il y a à la fois une bonne et une mauvaise nouvelle.
@@ -30,6 +31,7 @@ Pour le moment, il existe quelques dictionnaires alternatifs :
 *	Anglais : http://www.mobileread.com/forums/showthread.php?t=196925
 *	Japonais-Anglais : http://www.mobileread.com/forums/showthread.php?t=197828
   
+
 ## Plugin mis à jour
 
 Le plugin a été mis à jour de façon mineure depuis mon dernier article. Pour le moment, je change régulièrement de firmware (pas mal de tests pour le groupe beta), donc je ne l'utilise plus. Cependant les échos sont bons, vous pouvez donc l'installer sans crainte.

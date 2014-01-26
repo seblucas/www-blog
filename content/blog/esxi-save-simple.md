@@ -11,6 +11,7 @@ Tags: perl,vmware
 
 ## Pourquoi ?
 J'ai déployé dernièrement un serveur ESXi (donc la version gratuite de l'hyperviseur ESX de VMWare) et rien n'existe pour faciliter les sauvegardes (ce qui n'est pas le cas de la version payante).
+
 ## Alternatives trop complexes pour moi
 
 En cherchant un peu sur la toiles j'ai trouvé plusieurs possibilités :
@@ -19,18 +20,22 @@ En cherchant un peu sur la toiles j'ai trouvé plusieurs possibilités :
 *	backup-vm.bat : http://blog.peacon.co.uk/completely-free-backup-for-esxi/
 
 Au final les deux premiers étaient trop complexes pour moi et le dernier trop spécifique mais avec un beau potentiel.
+
 ## Une solution moins puissante mais plus simple
 
 ### Principe
 J'utilise le composant PERL esxi-control.pl développé [ici](http://blog.peacon.co.uk/esxi-control-pl-script-vm-actions-on-free-licensed-esxi/) (le site officiel semblant mort, une copie est disponible [ici](/blog/esxi-control)) pour communiquer avec le serveur ESXi. A côté de cela j'ai fait des scripts batch Windows pour automatiser mes sauvegardes
+
 ### Installation de VMware vSphere CLI Perl
 
 A récupérer ici : http://www.vmware.com/support/developer/vcli/
 
 J'ai pris la version Windows et je n'ai pas testé la version Linux pour le moment.
+
 ### Installation des dépendances
 
 La seule dépendance est esxi-control.pl à récupérer [ici](http://blog.peacon.co.uk/wiki/Esxi-control.pl). J'ai choisi la simplicité et j'ai placé ce fichier dans le répertoire C:\Program Files\VMware\VMware vSphere CLI\Perl\bin.
+
 ### Scripts de sauvegarde
 
 ```
@@ -68,6 +73,7 @@ ATTENTION :
 *	Il y a une attente de 2 minutes après la demande d'arrêt, cela peut être limite pour certains Windows.
 
 Il est possible d'adapter le script pour éviter d'arrêter les machines en lançant un snapshot avant de faire les sauvegardes et libérer ce snapshot à la fin. Personnellement ça ne m'intéressait pas (je fais une sauvegarde complète en ayant planifié un reboot par mois).
+
 ### Script à ajouter aux tâches planifiées
 
 ```

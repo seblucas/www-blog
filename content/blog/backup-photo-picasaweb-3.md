@@ -11,6 +11,7 @@ Tags: picasa,python
 
 ## La problématique
 Comme je l'ai déjà dit dans les articles précédents (voir [Sauvegarder ses photos de famille et les rendre disponible à moindre cout - Partie 1](/blog/backup-photo-picasaweb)), Picasa me génère des liens sur les albums qui sont accessibles par tout le monde. Donc mon objectif est de récupérer l'ensemble de ces liens et de les ajouter sur une page web que je vais héberger sur mon Seagate Dockstar.
+
 ## Python à la rescousse
 
 Avec un peu de reverse engineering et avec l'API j'ai retrouvé comment reconstituer l'URL d'accès aux albums et j'ai fait un script python qui me permet de me générer une structure HTML prête à être intégrée dans une page.

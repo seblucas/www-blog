@@ -17,6 +17,7 @@ Et oui cela faisait longtemps mais le site a été indisponible vendredi matin p
 Les VPS fournis par 1&1 sont des systèmes paravirtualisés avec Virtuozzo (lié à OpenVZ) donc il n'y a pas virtualisation matérielle comme avec VMWare.
 
 Il s'agit d'une virtualisation par conteneurs : c'est à dire que le noyau Linux du serveur exécute tous les processus de tous les conteneurs mais interdit la communication entre processus de conteneurs différents.
+
 ## Garantie de 512Mo de RAM
 
 Sur le VPS que j'ai loué (le moins cher), j'ai droit à 512Mo de RAM et éventuellement une utilisation à 2Go en pointe. Le problème : la phrase 512Mo de RAM garantie est partiellement vraie car il y a des autres limites qui sont fixées à chaque conteneur (à tort ou à raison, là n'est pas le problème).
@@ -66,14 +67,17 @@ Bilan : dès que je lance le démon Dropbox, mon VPS est inaccessible car l'allo
 Donc, ma solution pour feinter l'ours a été de supprimer mon répertoire Dropbox et de relancer une synchronisation complète (comme ça, il y a 0 fichier existant et je n'explose pas la limite). Malheureusement, le processus Dropbox a dû être redémarré automatiquement et là il y a eu vérification de l'existant -> Crash.
 
 Un petit aparté : Le démon Dropbox sous Linux prend environ 200Mo de RAM constamment ... c'est évidemment beaucoup trop.
+
 ## Le service client 1&1
 
 Comme tout ne peut pas être négatif, le service client 1&1 a répondu rapidement à mes mails. Malheureusement pour moi, ils ne veulent pas augmenter les limites pour mon VPS et je ne peux pas passer sur un VPS plus costaud, donc je vais devoir trouver une autre solution dans l'année qui vient.
+
 ## Bilan
 
 *	Dès qu'il y a paravirtualisation (1&1, Gandi, ...), la RAM garantie ne veut pas dire grand chose, il faut avoir les informations sur les limites.
 *	Dropbox est assez immonde en terme d'utilisation mémoire.
 *	Je comprends pourquoi OVH est plus cher 
+
 ## Autres informations à ce sujet
 
 *	http://florent.clairambault.fr/serveur-prive-1and1-une-belle-arnaque

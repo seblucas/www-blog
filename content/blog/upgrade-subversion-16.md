@@ -16,6 +16,7 @@ Lien utiles :
 *	http://subversion.apache.org/docs/release-notes/1.6.html
 *	http://subversion.apache.org/docs/release-notes/1.5.html
 *	http://softwareproductionengineering.blogspot.com/2010/07/subversion-case-sensitivity-svnadmin.html
+
 ## Pack
 
 la commande doit être logiquement la suivante :
@@ -23,6 +24,7 @@ la commande doit être logiquement la suivante :
 svnadmin pack dépôt
 ```
 En pratique mes dépôts sont trop anciens (portés des la version 1.2) et le svnadmin upgrade de la 1.5 n'a pas du créer les shards correctement. Donc la commande précédente n'a rien donné. J'ai donc été amené à porter l'ensemble de mes dépôts.
+
 ## Mise à jour complète des dépôts
 
 ### Déplacement du répertoire subversion
@@ -31,6 +33,7 @@ cd /var/
 mv svn svn-old
 mkdir svn
 ```
+
 ### Conversion
 
 ```bash

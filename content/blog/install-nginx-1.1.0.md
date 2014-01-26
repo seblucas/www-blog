@@ -16,21 +16,25 @@ Parce que la version de Squeeze est quand même super vieille et que j'ai toujou
 
 ### Attention
 Je vous conseille de lire l'ensemble de l'article avant de tenter la manipulation.
+
 ### Sauvegarde
 
 Faites comme moi, un petit coup de clonezilla avant la mise à jour ça permet d'être serein.
+
 ### Ajout du dépôt des backports squeeze
 
 on édite /etc/apt/sources.list pour ajouter :
 ```
 deb http://www.backports.org/debian squeeze-backports main
 ```
+
 ### Paranoïa : 2ième
 
 On fait une sauvegarde rapidement accessible de la configuration de nos sites :
 ```
 cp /etc/nginx -R /root/nginx
 ```
+
 ### Mise à jour des paquets
 
 ```
@@ -38,6 +42,7 @@ apt-get update
 apt-get -t squeeze-backport install nginx-light
 ```
 J'ai choisi la version light de nginx, vous pouvez en savoir plus sur les autres version [ici](http://packages.debian.org/search?suite=squeeze-backports&searchon=names&keywords=nginx).
+
 ### Un coup de stress
 
 Il faut savoir que la mise à jour de nginx va modifier les fichiers suivants :

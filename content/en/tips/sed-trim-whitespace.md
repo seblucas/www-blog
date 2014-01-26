@@ -13,11 +13,13 @@ Tags: debian,tips
 ```
 find . -name '*.js' -exec sed -i 's/[[:blank:]]*\n$/\n/g' '{}' \;
 ```
+
 ## Windows files
 
 ```
 find . -name '*.js' -exec sed -i 's/[[:blank:]]*\r$/\r/g' '{}' \;
 ```
+
 ## Sed oneliners
 
 http://sed.sourceforge.net/sed1line.txt

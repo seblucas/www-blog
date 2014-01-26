@@ -14,12 +14,14 @@ Il faut savoir que l'encodage de caractères dans une invite de commande Windows
 ```
 set NLS_LANG=FRENCH_FRANCE.WE8PC850
 ```
+
 ## Invite de commande Windows et scripts externes
 
 Dans le cas de lancement de scripts externes (avec @) il faut encore changer son fusil d'épaule et spécifier le NLS_LANG en fonction de l'encodage des scripts donc sous Windows certainement de la façon suivante :
 ```
 set NLS_LANG=FRENCH_FRANCE.WE8MSWIN1252
 ```
+
 ## Console Linux via Putty
 
 Le maître mot est la **cohérence**.

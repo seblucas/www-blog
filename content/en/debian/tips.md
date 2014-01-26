@@ -10,6 +10,7 @@ Language: en
 
 ## You're looking for something else
 Try the search box (on the right).
+
 ## Possibly incomplete list
 
 ### in french
@@ -18,6 +19,7 @@ Try the search box (on the right).
   tags   debian
   limit 100
 `</blog>`
+
 ### in english
 
 `<blog related>`

@@ -33,6 +33,7 @@ Bien accepter les demandes de confirmation. Ensuite vous devriez pouvoir vérifi
 [root@minus ~]# ls -l /sbin/init
 lrwxrwxrwx 1 root root 26 16 janv. 19:38 /sbin/init -> ../usr/lib/systemd/systemd
 ```
+
 ## Paramétrage des services à démarrer
 
 Au minimum il faut activer les services suivants
@@ -60,9 +61,11 @@ systemctl enable rpcbind.service
 systemctl enable rpc-mountd.service
 systemctl enable nfsd.service
 ```
+
 ## Reboot
 
 Le moment stressant, il faut rebooter. Je n'ai eu aucun problème et j'espère qu'il en sera de même pour vous.
+
 ## Après le reboot
 
 Systemd doit être activé, vous pouvez donc mettre à jour votre nom d'hôte et la locale par defaut :
@@ -75,6 +78,7 @@ Vous pouvez aussi vérifier le bon chargement de vos services :
 ```
 systemctl status php-fpm
 ```
+
 ## La suite
 
 Dans ce cas le système est encore mixte : le fichier rc.conf existe encore et est encore lu. Dans l'absolu il faudrait supprimer la paquet initscript pour avec un systeme 100% systemd.

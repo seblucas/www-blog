@@ -11,17 +11,20 @@ Tags: debian,dockstar,iptables,nginx,python
 
 ## Quoi ?
 On parle de [pyLoad](http://pyload.org/).
+
 ## Installation
 
 ### Dépendances
 ```bash
 apt-get install python-crypto python-pycurl tesseract-ocr spidermonkey-bin python-imaging
 ```
+
 ### Création d'un utilisateur spécifique
 
 ```bash
 adduser pyload
 ```
+
 ### Installation de pyLoad
 
 On va se connecter sous l'utilisateur pyload que nous venons de créer :
@@ -37,11 +40,13 @@ cd pyload
 ./pyLoadCore.py -s
 ```
 Au niveau de la configuration j'ai tout laissé par défaut (sauf pour la langue en fr) y compris l'accès pour toutes les IPs (0.0.0.0).
+
 ### Ajout des règles iptables
 
 ```bash
 iptables -A INPUT -p tcp -s 192.168.0.0/24 --dport 8000 -j ACCEPT
 ```
+
 ### Premier lancement et test
 
 Je vous conseille de lancer pyLoad en mode debug afin de tester que tout fonctionne bien.
@@ -49,6 +54,7 @@ Je vous conseille de lancer pyLoad en mode debug afin de tester que tout fonctio
 ./pyLoadCore.py -d
 ```
 et vous pouvez lancer votre navigateur préféré sur l'adresse http://AdresseDeVotreDockstar:8000.
+
 ### Démarrage manuel
 
 Si vous voulez lancer manuellement pyload en mode démon :
@@ -59,6 +65,7 @@ et pour l'arrêter :
 ```bash
 ./pyLoadCore.py --quit
 ```
+
 ## Démarrage automatique
 
 J'ai créé un script simple à mettre dans /etc/init.d/pyload :
@@ -101,6 +108,7 @@ Il ne reste plus qu'à rendre le script exécutable et la planifier dans les scr
 chmod +x /etc/init.d/pyload
 update-rc.d pyload defaults
 ```
+
 ## Reverse proxy avec nginx
 
 j'ai ajouté un nouveau sous domaine pour que pyLoad soit accessible de partout :

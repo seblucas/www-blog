@@ -20,6 +20,7 @@ Tout cela pour dire que les publicités sont en HTTP donc cela rendait l'accès 
 
 ### Principe
 Nginx gère l'accès à PHP via un fastcgi donc le paramètre PHP $_SERVER['HTTPS'] n'est pas positionné par défaut sauf si il est forcé dans le fichier de paramétrage Nginx. Ma précédente méthode, dans le cas du HTTPS, était d'utiliser un reverse proxy ce qui ne me permet pas de déterminer de façon fiable si l'origine de la connexion est sécurisée ou pas.
+
 ### Solution dans Nginx
 
 J'ai mélangé la configuration HTTP et HTTPS dans le même fichier (étant donné que je n'ai pas de différence) ce qui me donne le fichier suivant pour l'entête :
@@ -46,6 +47,7 @@ fastcgi_cache_key $https$request_method$host$request_uri;
 fastcgi_param HTTPS $https;
 ```
 En effet, je dois avoir des clés de cache différentes entre le mode ssl et le mode normale vu que le HTML sera différent. Et enfin je passe le paramètre HTTPS au fastcgi PHP.
+
 ### Modification des scripts PHP
 
 Il ne reste plus qu'à modifier les scripts PHP pour ajouter des contrôles de ce style :

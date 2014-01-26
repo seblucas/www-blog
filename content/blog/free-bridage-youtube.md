@@ -24,9 +24,11 @@ J'ai installé un proxy sur mon serveur 1&1 :
 aptitude install tinyproxy
 ```
 J'ai ouvert le port du proxy sur le firewall (voir mes autres articles sur le sujet).
+
 ### Un cas de test
 
 Comme les liens de téléchargement direct des videos sur Youtube ne sont pas facile à obtenir, j'ai fait un test sur blip.tv.
+
 ### Téléchargement de chez moi sans proxy
 
 ```
@@ -45,6 +47,7 @@ Sauvegarde en : «Striderdoom-Day9Daily423P3BurrowedBanelingFundayMonday293.flv.
 
  0% [                                       ] 1 090 094   55,4K/s  eta 85m 19s
 ```
+
 ### Avec proxy
 
 Pour utiliser wget avec un proxy il faut mettre le contenu suivant dans le fichier ~/.wgetrc :
@@ -70,6 +73,7 @@ Sauvegarde en : «Striderdoom-Day9Daily423P3BurrowedBanelingFundayMonday293.flv.
 ```
 
 Donc deux fois plus rapide.
+
 ### Et directement sur le serveur 1&1
 
 ```
@@ -90,9 +94,11 @@ Sauvegarde en : «Striderdoom-Day9Daily423P3BurrowedBanelingFundayMonday293.flv�
 ```
 
 Donc 6 fois plus rapide qu'avec le proxy.
+
 ###  Et un proxy derrière un tunnel SSL 
 
 Si Free bride en analysant le contenu alors le fait de crypter va solutionner le problème par contre cela entraine une dépense de bande passante supplémentaire. A tester.
+
 ## Conclusion
 
 Soit il y a bridage soit la bande passante que Free dédie a ce genre de service est limitée. En tout cas pour les personnes qui ont un serveur hébergé pensez à installer un petit proxy. J'ai remarqué que le proxy peut aider de temps en temps.

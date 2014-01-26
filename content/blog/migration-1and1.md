@@ -19,6 +19,7 @@ Suite au crash de ma clé USB, j'ai du migrer sur un serveur temporaire ([Mon ca
 ## Service commercial à revoir
 
 Je ne sais pas si c'est parce que ma commande s'est faite entre Noël et Nouvel An mais le service commercial a été un peu mou et j'ai même failli m'énerver. Au final la livraison a été faite en 3 jours après envoi d'une copie de ma carte d'identité et d'un justificatif de domicile.
+
 ## Côté technique
 
 Via l'administration 1&1, j'ai accès a une interface Web me permettant d'arrêter/démarré ma machine quand je veux. Je peux aussi la réinitialiser si nécessaire.
@@ -36,6 +37,7 @@ avant de lancer un
 A part ça le reste de l'installation s'est bien passé et j'ai pu faire le transfert DNS hier dans l'après midi.
 
 A bientôt pour la suite avec certainement l'apparition des commentaires vu que j'ai la puissance nécessaire.
+
 ## Performance actuelle
 
 J'ai fait un test avec [blitz.io](http://blitz.io/gb8bLRUrhuEzl) pour vérifier les performances et ça a l'air d'aller. Voila le graphique :

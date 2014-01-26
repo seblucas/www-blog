@@ -25,9 +25,11 @@ Malgré tous ces défauts j'aime suffisamment Calibre pour le conserver comme ou
 Comme je l'ai déjà dit Calibre est installé sur mon ordinateur portable (sous Windows 7) alors que mon serveur est hébergé (et sous Debian).
 
 Pour partager facile les données j'ai choisi de placer mon répertoire de travail de Calibre dans Dropbox ce qui fait qu'à chaque ajout ou modification d'un livre les données sont automatiquement synchronisée dans le Cloud. J'avais pensé passer un serveur Owncloud mais pour l'instant le volet de synchronisation n'existe on accède direction à un partage Webdav.
+
 ## Configuration du Dropbox sur le Linux
 
 Voir [Récupérer des répertoires Dropbox en console](/blog/dropbox-sync-console).
+
 ## Installation de Calibre PHP Server
 
 ### Qui
@@ -56,6 +58,7 @@ mkdir smarty_templates_c
 cd ..
 chown www-data:www-data -R smarty/
 ```
+
 ### Installation du serveur
 
 Simple :
@@ -213,6 +216,7 @@ Dans mon cas le fichier de config est le suivant :
         $config['initial_sort_direction'] = 'ascending';
 ?>
 ```
+
 ### Configuration de Nginx
 
 Mon fichier de configuration Nginx :
@@ -237,9 +241,11 @@ server {
         }
 }
 ```
+
 ### Ça marche
 
 Je vous encourage à lire le README du serveur PHP Calibre pour le reste de la configuration.
+
 ### Quelques adaptations
 
 J'ai commencé à faire quelques adaptations sur le template pour le transformer en xhtml et le rendre valide.
@@ -253,6 +259,7 @@ N'hésitez pas à me contacter si vous voulez m'aider sur ce projet.
 
 La version xhtml est téléchargeable ci-dessous :
 [calibre-php-server-xhtml.zip](/blog/calibre-php-server-xhtml.zip)
+
 ## Au final
 
 Ce serveur ne me correspond pas totalement, j'ai donc développé [COPS](/fr/oss/calibre-opds-php-server).

@@ -19,6 +19,7 @@ apt-get install php5-json php-xml php-mbstring php5-zip php5-gd php5-sqlite curl
 ```
 
 Vous pouvez aussi installer MySQL / Postgres si vous voulez stocker plus de fichiers (par défaut la base est sqlite).
+
 ## Modification du php.ini
 
 L'intérêt de ce genre de logiciel est de pouvoir charger (upload) des fichiers sur le serveur, il faut donc augmenter certains paramètres pour que les gros fichiers passent (dans mon cas je me suis limité à 64Mo).
@@ -31,6 +32,7 @@ Les paramètres à changer sont :
 *	date.timezone = "Europe/Paris"
 
 Si votre PHP est en fastcgi ou FPM, n'oubliez de redémarrer le processus pour que les paramètres soient pris en compte.
+
 ## Installation proprement dite
 
 Simple : 
@@ -41,6 +43,7 @@ tar xvjf owncloud-4.0.2.tar.bz2
 chown -R :www-data owncloud/
 chmod -R g+w owncloud/
 ```
+
 ## Paramétrage de Nginx
 
 La paramétrage est assez complexe mais il semble fonctionner pour le moment. A noter que celui que je donne est en HTTP, je vous conseille la passage en HTTPS.
@@ -81,6 +84,7 @@ server {
 }
 
 ```
+
 ## Correction de bugs
 
 Lors de mes tests j'ai du appliquer des patches pour que cela fonctionne, je ne sais plus trop quels étaient les problèmes mais cela a aidé :
@@ -115,6 +119,7 @@ Lors de mes tests j'ai du appliquer des patches pour que cela fonctionne, je ne 
                         $result=touch( $this->datadir.$path, $mtime );
                 }else{
 ```
+
 ## Bilan à chaud
 
 Je ne l'ai installé que vendredi, donc mon opinion n'est pas encore faire. Toutefois j'ai déjà repéré du bon et du moins bon.

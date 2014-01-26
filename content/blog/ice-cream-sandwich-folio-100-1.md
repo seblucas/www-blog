@@ -17,6 +17,7 @@ Bonne lecture.
 ## 1ère étape : c'est top
 
 Après l'installation j'ai été bluffé. Le rendu est rapide : l'interface est enfin prévue pour une tablette (je n'ai jamais testé de ROM Honeycomb). J'en ai profité pour tester Chrome et au final très bon retour.
+
 ## 2ème étape : la honte
 
 Heureux de mon test, le lendemain je me décide à montrer le rendu à ma moitié et là patatra :
@@ -26,6 +27,7 @@ Heureux de mon test, le lendemain je me décide à montrer le rendu à ma moiti�
 Bref, j'ai eu l'air d'un con ;)
 
 J'ai lu pas mal de messages sur Frandroid ([voir le thread complet](http://forum.frandroid.com/topic/90378-devwip-ics-cm9-403-alpha-3-31-kernel-last-update-04032012/)) et je me suis un peu rassuré en me rendant compte que je n'étais pas seul.
+
 ## 3ième étape : la réinstallation
 
 J'ai fini par :

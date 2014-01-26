@@ -59,6 +59,7 @@ end codes
 
 end remote
 ```
+
 ## Fix lircd command line
 
 The easiest way I found is to add create an autoexec.sh file : 
@@ -77,11 +78,13 @@ killall -9 lircd
 --pidfile=/var/run/lirc/lircd-lirc0.pid \
 /storage/.config/lircd.conf
 ```
+
 ## Reboot
 
 ```
 reboot
 ```
+
 ## Source
 
 *	https://github.com/OpenELEC/OpenELEC.tv/issues/783

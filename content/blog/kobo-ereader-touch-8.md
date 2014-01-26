@@ -18,6 +18,7 @@ Pour commencer, ne vous attendez à une lecture longue : il n'y a pas beaucoup d
 Je vous recommande la lecture de [ce sondage sur le site du Monde](http://lafeuille.blog.lemonde.fr/2012/01/19/usages-des-liseuses-2/). Les résultats sont très intéressants et parfois même surprenants.
 
 Au final je me retrouve vraiment dans les résultats de ce sondage.
+
 ## Un affichage e-ink et les conditions climatiques
 
 J'avais déjà remarqué que la lecture en plein soleil était difficile à cause de l'infra-rouge perturbé par une lumière trop forte (le changement de page est ardu). Il faut aussi savoir qu'un froid important peut rendre perturber l'affichage d'un écran e-ink (donc aussi bien le Kindle ou les Sony que la Kobo / Fnacbook). Donc si vous aimez lire dehors par -5° prévoyez de paramétrer le rafraichissement toutes les pages (au lieu de toutes les 6 pages).

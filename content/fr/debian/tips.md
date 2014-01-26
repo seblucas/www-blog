@@ -10,6 +10,7 @@ Language: fr
 
 ## Vous cherchez autre chose
 Essayez la zone de recherche en haut à droite.
+
 ## Liste presque complète
 
 ### En français
@@ -18,6 +19,7 @@ Essayez la zone de recherche en haut à droite.
   tags   debian
   limit 100
 `</blog>`
+
 ### En anglais
 
 `<blog related>`

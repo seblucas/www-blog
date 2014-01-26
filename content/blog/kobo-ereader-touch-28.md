@@ -19,6 +19,7 @@ Je ne l'avais pas senti venir vu les discussions sur le groupe beta mais c'est l
 Donc amélioration du WIFI et meilleure gestion de la visualisation des mangas / comics (donc des CBR / CBZ).
 
 Concernant les CBR / CBZ je n'ai pas ressenti grand chose et le bug de la lecture en paysage est toujours présent.
+
 ## Autres améliorations
 
 Je n'ai pas trop repéré les changements officiels. Par contre j'ai beaucoup aimé le reste :
@@ -28,6 +29,7 @@ Je n'ai pas trop repéré les changements officiels. Par contre j'ai beaucoup ai
 *	L'heure apparait très rapidement en haut de l'écran suite à un clic en cours de lecture (régression du précédent firmware).
 
 Je n'ai pas eu le temps de tester les césures pour vérifier si il y a eu une amélioration, je vous tiens au courant.
+
 ## Bilan
 
 Bon firmware à installer si vous êtes en 2.0.2 rien que pour la vitesse de changement de page.

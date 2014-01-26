@@ -13,16 +13,19 @@ Tags: oracle
 ```sql
 select * from user_mviews
 ```
+
 ## Get latest refresh times for all materialized views
 
 ```sql
 select * from user_mview_refresh_times
 ```
+
 ## Get information on a log
 
 ```sql
 select count(*) from mlog$_MyTable;
 ```
+
 ## Get the list of all materialized views on a view log
 
 ```sql
@@ -34,17 +37,20 @@ WHERE user_registered_snapshots.snapshot_id = user_snapshot_logs.snapshot_id (+)
 First column is the master table and name is the materialized view name. An interesting information is the last date to check for never updated view and growing logs.
 
 Source : http://www.oracle-developer.com/mv_refresh.html
+
 ## Refresh a view
 
 ```sql
 execute DBMS_MVIEW.REFRESH ('MyTable', 'F');
 ```
 You can replace the F (as Fast refresh) by a C to get a complete refresh.
+
 ## Special care on view log
 
 You may had to add WITH SEQUENCE to your log creation to cope with certain use as stated in Oracle documentation :
 
 Specify SEQUENCE to indicate that a sequence value providing additional ordering information should be recorded in the materialized view log. Sequence numbers are necessary to support fast refresh after some update scenarios.
+
 ## You can create a materialized view on a prebuild table
 
 ```sql
@@ -74,6 +80,7 @@ commit;
 ```
 
 Source : http://oraclesponge.blogspot.fr/2005/12/ora-12034-materialized-view-log.html
+
 ## Database link
 
 If you need to refresh some materialized views through a db link on many schemas on the same database, be sure to give a different name to yours db links. If you don't you could have this error :
