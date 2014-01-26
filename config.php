@@ -23,7 +23,7 @@ $config['custom_setting'] = 'Hello'; 	// Can be accessed by {{ config.custom_set
 */
 
 $config['site_title'] = 'Technology and Me';
-$config['theme'] = 'pure';
+$config['theme'] = 'default';
 $config['pages_order_by'] = 'date';
 $config['pages_order'] = 'desc';
 $config['phpfastcache_path'] = "/var/www/cache/";
