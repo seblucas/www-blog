@@ -37,7 +37,7 @@ J'ai fait un script avec GreaseMonkey (extension Firefox) qui reporte les liens 
 // ==/UserScript==
 
 var allLinks, thisLink, linkList, regMega;
-linkList = "`<p>`Liste Liens : `</p>`";
+linkList = "<p>Liste Liens : </p>";
 regMega = new RegExp ("megaupload");
 allLinks = document.evaluate(
     '//a[@href]',
@@ -49,16 +49,16 @@ for (var i = 0; i < allLinks.snapshotLength; i++) {
     thisLink = allLinks.snapshotItem(i);
     if (regMega.test (thisLink))
     {
-        linkList += "`<p>`" + thisLink + "`</p>`";
+        linkList += "<p>" + thisLink + "</p>";
     }
     
     // do something with thisLink
 }
 //alert (linkList);
 var logo = document.createElement("div");
-logo.innerHTML = `<div style="float: left; height: 0px; text-align: left; opacity: 0.3;">` +
+logo.innerHTML = '<div style="float: left; height: 0px; text-align: left; opacity: 0.3;">' +
     linkList +
-    `</div>`;
+    '</div>';
 document.body.insertBefore(logo, document.body.firstChild);
 ```
 

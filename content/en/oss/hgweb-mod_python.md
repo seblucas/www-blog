@@ -49,14 +49,14 @@ def test(environ, start_response):
 *	Add this to your apache configuration (to keep apache configuration clean, I personally prefer adding the mercurial configuration to an external file like /etc/apache2/hg.conf) :
 
 ```
-`<Location /hg>`
+<Location /hg>
   PythonPath "sys.path + [ '/var/hg' ]"
   #PythonDebug On #Uncomment this ligne if you got a problem and need debug information
   SetHandler mod_python
   PythonHandler modpython_gateway::handler
   PythonOption SCRIPT_NAME /hg
   PythonOption wsgi.application hgwebdir::test
-`</Location>`
+</Location>
 ```
 
 

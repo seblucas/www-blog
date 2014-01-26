@@ -1066,17 +1066,17 @@ sub createHelloMessage {
 	my ($user,$pass) = @_;
  
 	my $msg = <<SOAP_HELLO_MESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<Login xmlns="urn:internalvim25">`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <Login xmlns="urn:internalvim25">
       <_this xsi:type="SessionManager" type="SessionManager"
-serverGuid="">ha-sessionmgr`</_this>`
-      `<userName>`$user`</userName>`
-      `<password>`$pass`</password>`
-      `<locale>`en_US`</locale>`
-    `</Login>`
-  `</soap:Body>`
-`</soap:Envelope>`
+serverGuid="">ha-sessionmgr</_this>
+      <userName>$user</userName>
+      <password>$pass</password>
+      <locale>en_US</locale>
+    </Login>
+  </soap:Body>
+</soap:Envelope>
 SOAP_HELLO_MESSAGE
  
 	return $msg;
@@ -1086,14 +1086,14 @@ SOAP_HELLO_MESSAGE
  
 sub createShutdownMessage {
 	my $msg = <<SOAP_SHUTDOWN_MESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<ShutdownHost_Task xmlns="urn:internalvim25">`
-      `<_this xsi:type="HostSystem" type="HostSystem" serverGuid="">`ha-host`</_this>`
-      `<force>`true`</force>`
-    `</ShutdownHost_Task>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ShutdownHost_Task xmlns="urn:internalvim25">
+      <_this xsi:type="HostSystem" type="HostSystem" serverGuid="">ha-host</_this>
+      <force>true</force>
+    </ShutdownHost_Task>
+  </soap:Body>
+</soap:Envelope>
 SOAP_SHUTDOWN_MESSAGE
  
 	return $msg;
@@ -1103,14 +1103,14 @@ SOAP_SHUTDOWN_MESSAGE
  
 sub createRebootMessage {
 	my $msg = <<SOAP_SHUTDOWN_MESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<RebootHost_Task xmlns="urn:internalvim25">`
-      `<_this xsi:type="HostSystem" type="HostSystem" serverGuid="">`ha-host`</_this>`
-      `<force>`true`</force>`
-    `</RebootHost_Task>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <RebootHost_Task xmlns="urn:internalvim25">
+      <_this xsi:type="HostSystem" type="HostSystem" serverGuid="">ha-host</_this>
+      <force>true</force>
+    </RebootHost_Task>
+  </soap:Body>
+</soap:Envelope>
 SOAP_SHUTDOWN_MESSAGE
  
 	return $msg;
@@ -1120,16 +1120,16 @@ SOAP_SHUTDOWN_MESSAGE
  
 sub createVMDKDeleteMessage {
 	my $msg = <<SOAP_VMFILEDELETEMESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<Delete_Task xmlns="urn:internalvim25">`
-      `<_this xsi:type="FileManager" type="FileManager" serverGuid="">`ha-nfc-file-manager`</_this>`
-      `<datacenter type="Datacenter" serverGuid="">`ha-datacenter`</datacenter>`
-      `<datastorePath>`$file`</datastorePath>`
-      `<fileType>`VirtualDisk`</fileType>`
-    `</Delete_Task>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <Delete_Task xmlns="urn:internalvim25">
+      <_this xsi:type="FileManager" type="FileManager" serverGuid="">ha-nfc-file-manager</_this>
+      <datacenter type="Datacenter" serverGuid="">ha-datacenter</datacenter>
+      <datastorePath>$file</datastorePath>
+      <fileType>VirtualDisk</fileType>
+    </Delete_Task>
+  </soap:Body>
+</soap:Envelope>
 SOAP_VMFILEDELETEMESSAGE
  
 	return $msg;
@@ -1139,16 +1139,16 @@ SOAP_VMFILEDELETEMESSAGE
  
 sub createFileDeleteMessage {
 	my $msg = <<SOAP_VMFILEDELETEMESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<Delete_Task xmlns="urn:internalvim25">`
-      `<_this xsi:type="FileManager" type="FileManager" serverGuid="">`ha-nfc-file-manager`</_this>`
-      `<datacenter type="Datacenter" serverGuid="">`ha-datacenter`</datacenter>`
-      `<datastorePath>`$file`</datastorePath>`
-      `<fileType>`File`</fileType>`
-    `</Delete_Task>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <Delete_Task xmlns="urn:internalvim25">
+      <_this xsi:type="FileManager" type="FileManager" serverGuid="">ha-nfc-file-manager</_this>
+      <datacenter type="Datacenter" serverGuid="">ha-datacenter</datacenter>
+      <datastorePath>$file</datastorePath>
+      <fileType>File</fileType>
+    </Delete_Task>
+  </soap:Body>
+</soap:Envelope>
 SOAP_VMFILEDELETEMESSAGE
  
 	return $msg;
@@ -1158,18 +1158,18 @@ SOAP_VMFILEDELETEMESSAGE
  
 sub createFileCopyMessage {
 	my $msg = <<SOAP_VMFILECOPYMESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<Copy_Task xmlns="urn:internalvim25">`
-      `<_this xsi:type="FileManager" type="FileManager" serverGuid="">`ha-nfc-file-manager`</_this>`
-      `<sourceDatacenter type="Datacenter" serverGuid="">`ha-datacenter`</sourceDatacenter>`
-      `<sourcePath>`$sourcefile`</sourcePath>`
-      `<destinationPath>`$destfile`</destinationPath>`
-      `<force>`false`</force>`
-      `<fileType>`File`</fileType>`
-    `</Copy_Task>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <Copy_Task xmlns="urn:internalvim25">
+      <_this xsi:type="FileManager" type="FileManager" serverGuid="">ha-nfc-file-manager</_this>
+      <sourceDatacenter type="Datacenter" serverGuid="">ha-datacenter</sourceDatacenter>
+      <sourcePath>$sourcefile</sourcePath>
+      <destinationPath>$destfile</destinationPath>
+      <force>false</force>
+      <fileType>File</fileType>
+    </Copy_Task>
+  </soap:Body>
+</soap:Envelope>
 SOAP_VMFILECOPYMESSAGE
  
 	return $msg;
@@ -1179,18 +1179,18 @@ SOAP_VMFILECOPYMESSAGE
  
 sub createVMDKCopyMessage {
 	my $msg = <<SOAP_VMFILECOPYMESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<Copy_Task xmlns="urn:internalvim25">`
-      `<_this xsi:type="FileManager" type="FileManager" serverGuid="">`ha-nfc-file-manager`</_this>`
-      `<sourceDatacenter type="Datacenter" serverGuid="">`ha-datacenter`</sourceDatacenter>`
-      `<sourcePath>`$sourcefile`</sourcePath>`
-      `<destinationPath>`$destfile`</destinationPath>`
-      `<force>`false`</force>`
-      `<fileType>`VirtualDisk`</fileType>`
-    `</Copy_Task>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <Copy_Task xmlns="urn:internalvim25">
+      <_this xsi:type="FileManager" type="FileManager" serverGuid="">ha-nfc-file-manager</_this>
+      <sourceDatacenter type="Datacenter" serverGuid="">ha-datacenter</sourceDatacenter>
+      <sourcePath>$sourcefile</sourcePath>
+      <destinationPath>$destfile</destinationPath>
+      <force>false</force>
+      <fileType>VirtualDisk</fileType>
+    </Copy_Task>
+  </soap:Body>
+</soap:Envelope>
 SOAP_VMFILECOPYMESSAGE
  
 	return $msg;
@@ -1200,13 +1200,13 @@ SOAP_VMFILECOPYMESSAGE
  
 sub createVMDeleteAllSnapShotMessage {
 	my $msg = <<SOAP_VMDELETEALLSNAPSHOT_MESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<RemoveAllSnapshots_Task xmlns="urn:internalvim25">`
-      `<_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">`$vmid`</_this>`
-    `</RemoveAllSnapshots_Task>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <RemoveAllSnapshots_Task xmlns="urn:internalvim25">
+      <_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">$vmid</_this>
+    </RemoveAllSnapshots_Task>
+  </soap:Body>
+</soap:Envelope>
 SOAP_VMDELETEALLSNAPSHOT_MESSAGE
  
 	return $msg;
@@ -1218,17 +1218,17 @@ sub createVMSnapShotMessage {
 	my ($name) = @_;
  
 	my $msg = <<SOAP_VMSNAPSHOT_MESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<CreateSnapshot_Task xmlns="urn:internalvim25">`
-      `<_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">`$vmid`</_this>`
-      `<name>`$name`</name>`
-      `<description>``</description>`
-      `<memory>`false`</memory>`
-      `<quiesce>`true`</quiesce>`
-    `</CreateSnapshot_Task>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <CreateSnapshot_Task xmlns="urn:internalvim25">
+      <_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">$vmid</_this>
+      <name>$name</name>
+      <description></description>
+      <memory>false</memory>
+      <quiesce>true</quiesce>
+    </CreateSnapshot_Task>
+  </soap:Body>
+</soap:Envelope>
 SOAP_VMSNAPSHOT_MESSAGE
  
 	return $msg;
@@ -1239,13 +1239,13 @@ sub createVMSnapShotRevertMessage {
 	my ($vmsnapshotid) = @_;
 	my $msg = <<SOAP_VMSNAPSHOTREVERT_MESSAGE;
  
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<RevertToSnapshot_Task xmlns="urn:internalvim25">`
-      `<_this xsi:type="ManagedObjectReference" type="VirtualMachineSnapshot" serverGuid="">`$vmsnapshotid`</_this>`
-    `</RevertToSnapshot_Task>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <RevertToSnapshot_Task xmlns="urn:internalvim25">
+      <_this xsi:type="ManagedObjectReference" type="VirtualMachineSnapshot" serverGuid="">$vmsnapshotid</_this>
+    </RevertToSnapshot_Task>
+  </soap:Body>
+</soap:Envelope>
  
 SOAP_VMSNAPSHOTREVERT_MESSAGE
  
@@ -1260,14 +1260,14 @@ sub createVMSnapShotRemoveMessage {
  
 	my $msg = <<SOAP_VMSNAPSHOTREMOVE_MESSAGE;
  
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<RemoveSnapshot_Task xmlns="urn:internalvim25">`
-      `<_this xsi:type="ManagedObjectReference" type="VirtualMachineSnapshot" serverGuid="">`$vmsnapshotid`</_this>`
-      `<removeChildren>`$removeChildrenStr`</removeChildren>`
-    `</RemoveSnapshot_Task>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <RemoveSnapshot_Task xmlns="urn:internalvim25">
+      <_this xsi:type="ManagedObjectReference" type="VirtualMachineSnapshot" serverGuid="">$vmsnapshotid</_this>
+      <removeChildren>$removeChildrenStr</removeChildren>
+    </RemoveSnapshot_Task>
+  </soap:Body>
+</soap:Envelope>
  
 SOAP_VMSNAPSHOTREMOVE_MESSAGE
  
@@ -1279,13 +1279,13 @@ SOAP_VMSNAPSHOTREMOVE_MESSAGE
 sub createVMSnapShotRevertToCurrentMessage {
 	my $msg = <<SOAP_VMSNAPSHOTREREVERTTOCURRENT_MESSAGE;
  
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<RevertToCurrentSnapshot_Task xmlns="urn:internalvim25">`
-      `<_this xsi:type="ManagedObjectReference" type="VirtualMachine" serverGuid="">`$vmid`</_this>`
-    `</RevertToCurrentSnapshot_Task>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <RevertToCurrentSnapshot_Task xmlns="urn:internalvim25">
+      <_this xsi:type="ManagedObjectReference" type="VirtualMachine" serverGuid="">$vmid</_this>
+    </RevertToCurrentSnapshot_Task>
+  </soap:Body>
+</soap:Envelope>
  
 SOAP_VMSNAPSHOTREREVERTTOCURRENT_MESSAGE
  
@@ -1295,13 +1295,13 @@ SOAP_VMSNAPSHOTREREVERTTOCURRENT_MESSAGE
  
 sub createVMResetMessage {
 	my $msg = <<SOAP_VMRESET_MESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<ResetVM_Task xmlns="urn:internalvim25">`
-      `<_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">`$vmid`</_this>`
-    `</ResetVM_Task>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ResetVM_Task xmlns="urn:internalvim25">
+      <_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">$vmid</_this>
+    </ResetVM_Task>
+  </soap:Body>
+</soap:Envelope>
 SOAP_VMRESET_MESSAGE
  
 	return $msg;
@@ -1310,13 +1310,13 @@ SOAP_VMRESET_MESSAGE
  
 sub createVMRestartMessage {
 	my $msg = <<SOAP_VMRESTART_MESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<RebootGuest xmlns="urn:internalvim25">`
-      `<_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">`$vmid`</_this>`
-    `</RebootGuest>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <RebootGuest xmlns="urn:internalvim25">
+      <_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">$vmid</_this>
+    </RebootGuest>
+  </soap:Body>
+</soap:Envelope>
 SOAP_VMRESTART_MESSAGE
  
 	return $msg;
@@ -1325,13 +1325,13 @@ SOAP_VMRESTART_MESSAGE
  
 sub createVMShutdownMessage {
 	my $msg = <<SOAP_VMSHUTDOWN_MESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<ShutdownGuest xmlns="urn:internalvim25">`
-      `<_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">`$vmid`</_this>`
-    `</ShutdownGuest>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ShutdownGuest xmlns="urn:internalvim25">
+      <_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">$vmid</_this>
+    </ShutdownGuest>
+  </soap:Body>
+</soap:Envelope>
 SOAP_VMSHUTDOWN_MESSAGE
  
 	return $msg;
@@ -1340,13 +1340,13 @@ SOAP_VMSHUTDOWN_MESSAGE
  
 sub createVMSuspendMessage {
 	my $msg = <<SOAP_VMSUSPEND_MESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<SuspendVM_Task xmlns="urn:internalvim25">`
-      `<_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">`$vmid`</_this>`
-    `</SuspendVM_Task>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <SuspendVM_Task xmlns="urn:internalvim25">
+      <_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">$vmid</_this>
+    </SuspendVM_Task>
+  </soap:Body>
+</soap:Envelope>
 SOAP_VMSUSPEND_MESSAGE
  
 	return $msg;
@@ -1355,13 +1355,13 @@ SOAP_VMSUSPEND_MESSAGE
  
 sub createVMPowerOnMessage {
 	my $msg = <<SOAP_VMPOWERON_MESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<PowerOnVM_Task xmlns="urn:internalvim25">`
-      `<_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">`$vmid`</_this>`
-    `</PowerOnVM_Task>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <PowerOnVM_Task xmlns="urn:internalvim25">
+      <_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">$vmid</_this>
+    </PowerOnVM_Task>
+  </soap:Body>
+</soap:Envelope>
 SOAP_VMPOWERON_MESSAGE
  
 	return $msg;
@@ -1370,13 +1370,13 @@ SOAP_VMPOWERON_MESSAGE
  
 sub createVMPowerOffMessage {
 	my $msg = <<SOAP_VMPOWERON_MESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<PowerOffVM_Task xmlns="urn:internalvim25">`
-      `<_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">`$vmid`</_this>`
-    `</PowerOffVM_Task>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <PowerOffVM_Task xmlns="urn:internalvim25">
+      <_this xsi:type="VirtualMachine" type="VirtualMachine" serverGuid="">$vmid</_this>
+    </PowerOffVM_Task>
+  </soap:Body>
+</soap:Envelope>
 SOAP_VMPOWERON_MESSAGE
  
 	return $msg;
@@ -1385,13 +1385,13 @@ SOAP_VMPOWERON_MESSAGE
  
 sub createRescanAllHbaMessage {
 	my $msg = <<SOAP_RESCANHBA_MESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<RescanAllHba xmlns="urn:internalvim25">`
-      `<_this xsi:type="ManagedObjectReference" type="HostStorageSystem" serverGuid="">`storageSystem`</_this>`
-    `</RescanAllHba>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <RescanAllHba xmlns="urn:internalvim25">
+      <_this xsi:type="ManagedObjectReference" type="HostStorageSystem" serverGuid="">storageSystem</_this>
+    </RescanAllHba>
+  </soap:Body>
+</soap:Envelope>
 SOAP_RESCANHBA_MESSAGE
  
 	return $msg;
@@ -1400,13 +1400,13 @@ SOAP_RESCANHBA_MESSAGE
  
 sub createRescanVmfsMessage {
 	my $msg = <<SOAP_RESCANVMFS_MESSAGE;
-`<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">`
-  `<soap:Body>`
-    `<RescanVmfs xmlns="urn:internalvim25">`
-      `<_this xsi:type="ManagedObjectReference" type="HostStorageSystem" serverGuid="">`storageSystem`</_this>`
-    `</RescanVmfs>`
-  `</soap:Body>`
-`</soap:Envelope>`
+<soap:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <RescanVmfs xmlns="urn:internalvim25">
+      <_this xsi:type="ManagedObjectReference" type="HostStorageSystem" serverGuid="">storageSystem</_this>
+    </RescanVmfs>
+  </soap:Body>
+</soap:Envelope>
 SOAP_RESCANVMFS_MESSAGE
  
 	return $msg;
@@ -1557,7 +1557,7 @@ sub processFile {
         my ($hostlist) =  @_;
         my $HANDLE;
         open (HANDLE, $hostlist) or die("ERROR: Can not locate \"$hostlist\" input file!\n");
-        my @lines = `<HANDLE>`;
+        my @lines = <HANDLE>;
         my @errorArray;
         my $line_no = 0;
  

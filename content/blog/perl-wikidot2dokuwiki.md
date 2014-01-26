@@ -33,7 +33,7 @@ sub TransformeCreate ($)
     open INPUT, "$fichier";
     open OUTPUT, ">$fichierSortie";
     
-    my @toutesLignes = `<INPUT>`;
+    my @toutesLignes = <INPUT>;
     close INPUT;
     
     while (my $ligne = shift (@toutesLignes))
@@ -46,8 +46,8 @@ sub TransformeCreate ($)
         $ligne =~ s/^\+\+\  + (.*)$/=== $1 ===/igs;
         $ligne =~ s/\[http(.*?) (.*?)\]/\[\[http$1\|$2\]\]/igs;
         $ligne =~ s/\[wikipedia\:(.*?)\]/\[\[wp>$1\]\]/igs;
-        $ligne =~ s/\[\[code\]\]/`<code>`/igs;
-        $ligne =~ s/\[\[\/code\]\]/`<\/code>`/igs;
+        $ligne =~ s/\[\[code\]\]/<code>/igs;
+        $ligne =~ s/\[\[\/code\]\]/<\/code>/igs;
         $ligne =~ s/\[\[footnote\]\]/((/igs;
         $ligne =~ s/\[\[\/footnote\]\]/))/igs;
         $ligne =~ s/^\*/  */igs;

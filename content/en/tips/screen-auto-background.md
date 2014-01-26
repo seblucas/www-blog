@@ -18,7 +18,7 @@ aptitude install screen
 
 *	start a program in background
 ```
-screen -d -m `<YourProgram>`
+screen -d -m <YourProgram>
 ```
 
 *	check the program

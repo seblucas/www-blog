@@ -18,16 +18,16 @@ aptitude install dvdauthor
 Next, you'll have to create an xml (file.xml) file for dvdauthor :
 
 ```
-`<dvdauthor>`
-    `<vmgm />`
-    `<titleset>`
-        `<titles>`
-            `<pgc>`
-                `<vob file="file.mpg" />`
-            `</pgc>`
-        `</titles>`
-    `</titleset>`
-`</dvdauthor>`
+<dvdauthor>
+    <vmgm />
+    <titleset>
+        <titles>
+            <pgc>
+                <vob file="file.mpg" />
+            </pgc>
+        </titles>
+    </titleset>
+</dvdauthor>
 ```
 
 Finally, launch dvdauthor and wait, you'll have a directory with AUDIO_TS and VIDEO_TS structure :

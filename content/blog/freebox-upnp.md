@@ -58,8 +58,8 @@ Avant d'ajouter les répertoires, je vous conseille :
 *	Modifier le fichier de configuration de mediatomb pour ajouter la gestion des mkv et des ts qui sont lisibles par la Freebox. Il faut ajouter les lignes suivantes dans le fichier /etc/mediatomb/config.xml
 
 ```
-`<map from="mkv" to="video/x-matroska"/>`
-`<map from="ts" to="video/mp2t"/>`
+<map from="mkv" to="video/x-matroska"/>
+<map from="ts" to="video/mp2t"/>
 ```
 
 Il ne vous reste plus qu'à ajouter vos répertoires, personnellement je choisi toujours :

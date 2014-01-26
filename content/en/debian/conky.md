@@ -38,7 +38,7 @@ sensors-detect
 Do not hesitate to accept the automatic modification of /etc/modules. To conclude you just have to test :
 
 ```
-modprobe `<Module detected by sensors-detect>`
+modprobe <Module detected by sensors-detect>
 sensors
 hddtemp /dev/hda
 ```

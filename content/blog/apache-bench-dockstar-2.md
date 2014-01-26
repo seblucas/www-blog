@@ -17,7 +17,7 @@ Avec les dernières modifications sur le cache Nginx, j'ai décidé de refaire l
 ```
 # ab -kc 10 -n 50 http://blog.slucas.fr/blog/nginx-gzip-css-js
 
-This is ApacheBench, Version 2.3 `<$Revision: 655654 $>`
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
@@ -69,7 +69,7 @@ Avec une page plus grosse (14727 bytes à la place de 12130 bytes) je passe de 3
 
 ```
 $ ab -kc 10 -n 50 http://blog.slucas.fr/blog/nginx-gzip-css-js
-This is ApacheBench, Version 2.3 `<$Revision: 655654 $>`
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
@@ -121,7 +121,7 @@ J'ai fait plus de tests avec un niveau de parallélisme plus important :
 
 ```
 $ ab -kc 30 -n 50 http://blog.slucas.fr/blog/nginx-gzip-css-js
-This is ApacheBench, Version 2.3 `<$Revision: 655654 $>`
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 
@@ -168,7 +168,7 @@ Percentage of the requests served within a certain time (ms)
 
 
 $ ab -kc 50 -n 50 http://blog.slucas.fr/blog/nginx-gzip-css-js
-This is ApacheBench, Version 2.3 `<$Revision: 655654 $>`
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
 Licensed to The Apache Software Foundation, http://www.apache.org/
 

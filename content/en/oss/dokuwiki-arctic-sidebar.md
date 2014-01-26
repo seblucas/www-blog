@@ -38,7 +38,7 @@ foreach ($bookmarks as $key => $value)
   $image = DOKU_TPL."images/".$value["image"];
   $text = "Bookmark to ".$key;
 ?>
-  `<a href="<?php echo $url?>`" target="_blank" rel="external nofollow">`<img src="<?php echo $image?>`" width="16" height="16" alt="`<?php echo $text?>`" title="`<?php echo $text?>`" />`</a>`
+  <a href="<?php echo $url?>" target="_blank" rel="external nofollow"><img src="<?php echo $image?>" width="16" height="16" alt="<?php echo $text?>" title="<?php echo $text?>" /></a>
 <?php
 }
 ?>

@@ -11,7 +11,7 @@ Tags: sql
 
 *	First run this command (warning it doesn't backup anything) :
 ```
-Backup log `<DATABASENAME>` with No_Log
+Backup log <DATABASENAME> with No_Log
 ```
 
 *	Then you can shrink the journal with Management Studio :

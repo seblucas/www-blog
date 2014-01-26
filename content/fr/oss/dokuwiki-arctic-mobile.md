@@ -77,11 +77,11 @@ div.dokuwiki div.toc {
 Comme indiqué précédemment le but est juste de réduire les marges et maximiser l'espace affiché.
 ### La modification de main.php
 
-il s'agit juste de 3 lignes ajoutées avant le `</head>` :
+il s'agit juste de 3 lignes ajoutées avant le </head> :
 ```html
-    `<meta name="HandheldFriendly" content="true" />`
-    `<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />`
-    `<link rel="stylesheet" media="only screen and (max-device-width: 599px)" type="text/css" href="<?php echo DOKU_TPL?>`arctic_mobile.css" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+    <link rel="stylesheet" media="only screen and (max-device-width: 599px)" type="text/css" href="<?php echo DOKU_TPL?>arctic_mobile.css" />
 ```
 
 Il est aussi possible d'ajouter ces lignes dans le fichier meta.html.

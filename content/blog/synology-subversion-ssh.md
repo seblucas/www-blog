@@ -70,7 +70,7 @@ chown svn.root /user/svn
 
 *	On modifie le /etc/passwd pour ajouter le répertoire home et le shell à notre utilisateur svn :
 ```
-svn:x:`<Number>`:`<Group>`:Subversion user:/user/svn:/bin/ash
+svn:x:<Number>:<Group>:Subversion user:/user/svn:/bin/ash
 ```
 Vous pouvez vous connecter avec l'utilisateur svn
 ### Préparation de la connexion svn+ssh

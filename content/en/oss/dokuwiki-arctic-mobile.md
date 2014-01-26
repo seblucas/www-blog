@@ -77,11 +77,11 @@ div.dokuwiki div.toc {
 As stated before the goal is just have as much space as possible for the text.
 ### The modification on main.php
 
-That's just 3 lines to add just before `</head>` :
+That's just 3 lines to add just before </head> :
 ```html
-    `<meta name="HandheldFriendly" content="true" />`
-    `<meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />`
-    `<link rel="stylesheet" media="only screen and (max-device-width: 599px)" type="text/css" href="<?php echo DOKU_TPL?>`arctic_mobile.css" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+    <link rel="stylesheet" media="only screen and (max-device-width: 599px)" type="text/css" href="<?php echo DOKU_TPL?>arctic_mobile.css" />
 ```
 
 It's also possible to add those lines to the file meta.html.

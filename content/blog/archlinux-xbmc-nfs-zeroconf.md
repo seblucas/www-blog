@@ -20,16 +20,16 @@ pacman -S avahi
 
 Ajouter le fichier suivant dans /etc/avahi/services :
 ```
-`<?xml version="1.0" standalone='no'?>`
- `<!DOCTYPE service-group SYSTEM "avahi-service.dtd">`
- `<service-group>`
-   `<name replace-wildcards="yes">`NFS partage on %h`</name>`
-   `<service>`
-     `<type>`_nfs._tcp`</type>`
-     `<port>`2049`</port>`
-     `<txt-record>`path=/home/user/partage`</txt-record>`
-   `</service>`
- `</service-group>`
+<?xml version="1.0" standalone='no'?>
+ <!DOCTYPE service-group SYSTEM "avahi-service.dtd">
+ <service-group>
+   <name replace-wildcards="yes">NFS partage on %h</name>
+   <service>
+     <type>_nfs._tcp</type>
+     <port>2049</port>
+     <txt-record>path=/home/user/partage</txt-record>
+   </service>
+ </service-group>
 ```
 ## Démarrer les services
 

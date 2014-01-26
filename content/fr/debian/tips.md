@@ -13,16 +13,16 @@ Essayez la zone de recherche en haut à droite.
 ## Liste presque complète
 
 ### En français
-`<blog related>`
+<blog related>
   blog   default
   tags   debian
   limit 100
-`</blog>`
+</blog>
 ### En anglais
 
-`<blog related>`
+<blog related>
   blog   tips
   tags   debian
   limit 100
-`</blog>`
+</blog>
 

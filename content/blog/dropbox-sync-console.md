@@ -72,7 +72,7 @@ La documentation est la suivante :
 ```
 ~/.dropbox/dropbox.py help
  
-Note: use dropbox help `<command>` to view usage for a specific command.
+Note: use dropbox help <command> to view usage for a specific command.
  
  status       get current status of the dropboxd
  help         provide help

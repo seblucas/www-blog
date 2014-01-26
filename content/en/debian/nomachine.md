@@ -25,9 +25,9 @@ apt-get install libaudiofile0
 *	Installer the 3 packages
 
 ```
-dpkg -i nxclient_`<Version>`_i386.deb 
-dpkg -i nxnode_`<Version>`_i386.deb 
-dpkg -i nxserver_`<Version>`_i386.deb 
+dpkg -i nxclient_<Version>_i386.deb 
+dpkg -i nxnode_<Version>_i386.deb 
+dpkg -i nxserver_<Version>_i386.deb 
 ```
 
 

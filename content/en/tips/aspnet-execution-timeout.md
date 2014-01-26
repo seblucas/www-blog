@@ -14,7 +14,7 @@ There is two solutions :
  * Execute your page with Visual Studio (there will never be any timeout).
  * Add this into your web.config (under the system.web tag) :
 ```
-`<httpRuntime executionTimeout="300" />`
+<httpRuntime executionTimeout="300" />
 ```
 
 In this case the execution timeout is set to 300 seconds (so 5 minutes).
