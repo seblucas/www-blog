@@ -200,7 +200,8 @@ blockquote {
 /* Structure Styles
 /*---------------------------------------------*/
 .inner {
-	width: 1005px;
+	width: 99%;
+	max-width: 1005px;
 	margin: 0 auto;
 }
 
