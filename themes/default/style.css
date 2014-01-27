@@ -297,3 +297,8 @@ blockquote {
 .post {
     text-align: justify;
 }
+
+.excerpt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
