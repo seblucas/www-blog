@@ -66,12 +66,12 @@
 		    </div>
 {% if prev_page %}
             <div style="float: left;">
-            <a href="{{ prev_page.url }}">{{ prev_page.title }}</a>
+            <a href="{{ prev_page.url }}">&lt; {{ prev_page.title }}</a>
             </div>
 {% endif %}
 {% if next_page %}
             <div style="float: right;">
-            <a href="{{ next_page.url }}">{{ next_page.title }}</a>
+            <a href="{{ next_page.url }}">{{ next_page.title }} &gt;</a>
             </div>
 {% endif %}
 {% endif %}
