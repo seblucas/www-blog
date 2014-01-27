@@ -53,17 +53,18 @@
 {% endfor %}
 {% else %}
 		    <div class="post">
+		        {% spaceless %}{{ content }}{% endspaceless %}
+		    </div>
+            <hr />
 {% if meta.date %}
-		        <p class="meta" style="float:right">Published {{ meta.date_formatted }} //
+		        <p class="meta" >Published {{ meta.date_formatted }} //
                 <!-- display single page tags with proper urls -->
                 {% for tag in meta.tags %}
                     <a href="/tag/{{ tag }}">#{{ tag }}</a>
                 {% endfor %}
                 </p>
 {% endif %}
-		        {% spaceless %}{{ content }}{% endspaceless %}
-				
-		    </div>
+            <div>
 {% if prev_page %}
             <div style="float: left;">
             <a href="{{ prev_page.url }}">&lt; {{ prev_page.title }}</a>
@@ -74,6 +75,7 @@
             <a href="{{ next_page.url }}">{{ next_page.title }} &gt;</a>
             </div>
 {% endif %}
+            </div>
 {% endif %}
 
         
