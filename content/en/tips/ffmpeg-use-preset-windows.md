@@ -13,6 +13,7 @@ It's used for example to ease x264 encoding.
 
 *	Create a directory named .ffmpeg within C:\DirectoryWhereYourPresetAreInstalled where you can put all your preset
 *	Execute the following script
+
 ```
 set HOME=C:\DirectoryWhereYourPresetAreInstalled
 ffmpeg -i "%1" -acodec copy -s 1280x720 -vcodec libx264 -vpre default -nr 300 -crf 20 -threads 0  "%1.mkv"

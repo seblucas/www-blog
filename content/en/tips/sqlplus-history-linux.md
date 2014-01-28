@@ -10,10 +10,12 @@ Tags: oracle,tips
 # How to get your command history in Sqlplus with Linux
 
 *	Install rlwrap
+
 ```
 aptitude install rlwrap
 ```
 *	Add an alias to your profile
+
 ```
 alias sqlplus='rlwrap sqlplus'
 ```

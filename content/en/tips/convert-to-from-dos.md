@@ -11,10 +11,12 @@ Tags: debian,tips
 
 The point is to replace \r\n -> \n.
 *	Install
+
 ```
 aptitude install tofrodos
 ```
 *	Usage
+
 ```
 dos2unix
 unix2dos

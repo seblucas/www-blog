@@ -10,10 +10,12 @@ Tags: debian,tips
 # How to defrag an XFS partition
 
 *	Install
+
 ```
 aptitude install xfsdump
 ```
 *	Usage
+
 ```
 xfs_fsr -t 600
 ```

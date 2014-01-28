@@ -51,19 +51,23 @@ Tout ce qui va suivre est une honteuse copie/ré-interprétation de la documenta
 
 Le système est paramétré pour se mettre à jour dès qu'il est connecté sur internet, il est donc primordial de désactiver les mises à jour avant tout. Personnellement je l'ai connecté avec le câble fourni sur mon portable ce qui fait qu'il va avoir une adresse du style 169.254.0.0/16 (il est aussi possible de déconnecter l'ADSL de son routeur mais j'ai choisi la méthode complexe). La prochaine étape est donc de trouver son IP :
 *	Avec nmap :
+
 ```
 nmap -e eth0 -sP 169.254.0.0/16
 ```
 *	Avec netdiscover :
+
 ```
 netdiscover -r 169.254.0.0/16 -P
 ```
 Une fois l'adresse IP trouvée il faut se connecter en SSH et exécuter les commandes suivantes :
 *	Monter le système en lecture/écriture
+
 ```
 mount / -rw -o remount
 ```
 *	Modifier le /etc/hosts pour bloquer les mises à jour
+
 ```
 127.0.0.1 service.pogoplug.com
 127.0.0.1 pm2.pogoplug.com
@@ -71,6 +75,7 @@ mount / -rw -o remount
 127.0.0.1 upgrade.pogoplug.com
 ```
 *	Remettre le système en lecture seule
+
 ```
 mount / -r -o remount
 ```

@@ -12,6 +12,7 @@ Tags: dotnet
 There is two solutions :
  * Execute your page with Visual Studio (there will never be any timeout).
  * Add this into your web.config (under the system.web tag) :
+
 ```
 <httpRuntime executionTimeout="300" />
 ```

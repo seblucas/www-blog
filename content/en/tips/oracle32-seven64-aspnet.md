@@ -13,6 +13,7 @@ Tags: dotnet,tips
 I had a problem with a Windows Seven x64 with Oracle 10g 32Bits. My Asp.Net application didn't start because of Oracle.
 
 Full error :
+
 ```
 System.InvalidOperationException: Attempt to load Oracle client libraries threw BadImageFormatException.  This problem will occur when running in 64 bit mode with the 32 bit Oracle client components installed. 
 ---> System.BadImageFormatException: An attempt was made to load a program with an incorrect format. (Exception from HRESULT: 0x8007000B)

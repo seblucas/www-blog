@@ -10,6 +10,7 @@ Tags: javascript
 # The single line regex modifier is not available for Javascript
 
 To prevent it replace your . by [\s\S] :
+
 ```
 start(.*?)end
 
@@ -19,10 +20,12 @@ start([\s\S]*?)end
 ```
 
 I had trouble with this syntax :
+
 ```javascript
 var myregExp = new RegExp ("start([\s\S]*?)end", "g");
 ```
 Instead I used that way without trouble : 
+
 ```javascript
 var myregExp = /start([\s\S]*?)end/g;
 ```

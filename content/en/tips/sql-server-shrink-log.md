@@ -10,6 +10,7 @@ Tags: sql
 # How to shrink on Sql Server
 
 *	First run this command (warning it doesn't backup anything) :
+
 ```
 Backup log <DATABASENAME> with No_Log
 ```

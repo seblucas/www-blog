@@ -25,16 +25,19 @@ Bilan : je ne savais pas trop ou chercher donc je n'ai pas trouvé grand chose. 
 Vu que les fichiers epub contiennent des fichier HTML j'ai extrait le premier chapitre ainsi que la feuille de style et j'ai ouvert ce fichier dans Firefox et j'ai activé le plugin Firebug (merveilleux d'ailleurs). La différence était évidente.
 
 Les paragraphes (balise p) de ces deux fichiers ont tous les deux les mêmes informations concernant la taille de la police de caractère :
+
 ```css
 font-size: 1.33333em;
 ```
 
 Par contre ces paragraphes sont situés dans le balise body qui a elle aussi un spécification de taille de police :
 *	Livre 1 : avec une taille normale
+
 ```css
 font-size: 1em;
 ```
 *	Libre 2 : avec une grande taille
+
 ```css
 font-size: 1.25em;
 ```

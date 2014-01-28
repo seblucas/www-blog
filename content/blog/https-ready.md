@@ -47,6 +47,7 @@ cat blog-startssl.crt sub.class1.server.ca.pem ca.pem > /etc/nginx/ssl-blog.crt
 cp slucas.fr.key /etc/nginx/
 ```
 il ne reste plus qu'à créer un nouveau site dans nginx et redémarrer Nginx :
+
 ```
 server {
         listen   [::]:443;

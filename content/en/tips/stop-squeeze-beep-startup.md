@@ -10,6 +10,7 @@ Tags: debian,tips
 # How to stop the startup beep with Debian Squeeze
 
 By googling for an answer, I found out that the most popular way was to blacklist the module pcspkr :
+
 ```
 echo "blacklist pcspkr" >> /etc/modprobe.d/blacklist.conf
 ```

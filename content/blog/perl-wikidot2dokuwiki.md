@@ -10,6 +10,7 @@ Tags: dokuwiki,perl
 # Transformation Wikidot > Dokuwiki
 
 J'ai transféré mon ex blog/wiki de wikidot (http://slucas.wikidot.com) à dokuwiki (http://www.slucas.fr). Par fainéantise j'ai donc créé un script Perl (d'un laideur rare) pour me faciliter le travail.
+
 ```perl
 #!/usr/bin/perl
 

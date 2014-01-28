@@ -10,6 +10,7 @@ Tags: nginx
 # How to upload a big file with nginx
 
 Add to your /etc/nginx/nginx.conf :
+
 ```
 client_max_body_size    150m;
 ```

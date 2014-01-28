@@ -10,6 +10,7 @@ Tags: debian,tips
 # How to enable shutdown and reboot as a normal user with XFCE and Lenny
 
 Add yourself to the powerdev group
+
 ```
 gpasswd -a myFavoriteUser powerdev
 ```

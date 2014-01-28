@@ -35,10 +35,12 @@ OpenELEC est une distribution déjà très connue autour d'XBMC. Cette distribut
 L'installation et le paramétrage de Xbmc s'est bien passé mais vu que ma télécommande n'a pas été détectée (même si le module lirc_xbox est bien détecté), j'ai du me connecter en SSH et activer le serveur Web :
 *	Se connecter en SSH
 *	Éditer la configuration :
+
 ```
 vi ~/.xbmc/userdata/guisettings.xml
 ```
 *	Changer la ligne suivante :
+
 ```
 <webserver>true</webserver>
 ```

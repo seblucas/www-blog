@@ -71,6 +71,7 @@ gmplayer
 ## Fichier de configuration par défaut
 
 à placer dans ~/.mplayer
+
 ```-
 [deinterlace]
 vf-add=yadif
@@ -131,6 +132,7 @@ ass-font-scale=2.0
 Attention pour l'utiliser il faut ajouter --enable-menu à la compilation de mplayer.
 
 à placer dans ~/.mplayer (le plus intéressant est à la fin) :
+
 ```-
 <keybindings name="default">
     <binding key="UP" cmd="menu up" />

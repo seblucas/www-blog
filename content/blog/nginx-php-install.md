@@ -33,6 +33,7 @@ Pour la suite je me suis inspiré de : http://neokraft.net/2010/serveur-web-ngin
 ### Installation
 
 Attention ne pas installer le paquet php car celui entraine l'installation d'apache et ce n'est pas vraiment le but.
+
 ```
 aptitude install php5-cgi spawn-fcgi
 ```
@@ -40,6 +41,7 @@ aptitude install php5-cgi spawn-fcgi
 ### Demon
 
 Ce démon est à créer dans /etc/init.d
+
 ```bash
 #!/bin/sh
 
@@ -95,6 +97,7 @@ esac
 exit $RETVAL
 ```
 Il reste ensuite à le paramétrer pour qu'il démarre automatiquement :
+
 ```
 cd /etc/init.d
 chmod +x php5-fcgi
@@ -104,6 +107,7 @@ update-rc.d php5-fcgi defaults
 ## Utilisation du PHP dans nginx
 
 Mon fichier de configuration de nginx (/etc/nginx/sites-enabled) :
+
 ```
 server {
         listen   80; ## listen for ipv4

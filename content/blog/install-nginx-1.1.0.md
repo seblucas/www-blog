@@ -24,6 +24,7 @@ Faites comme moi, un petit coup de clonezilla avant la mise à jour ça permet d
 ### Ajout du dépôt des backports squeeze
 
 on édite /etc/apt/sources.list pour ajouter :
+
 ```
 deb http://www.backports.org/debian squeeze-backports main
 ```
@@ -31,6 +32,7 @@ deb http://www.backports.org/debian squeeze-backports main
 ### Paranoïa : 2ième
 
 On fait une sauvegarde rapidement accessible de la configuration de nos sites :
+
 ```
 cp /etc/nginx -R /root/nginx
 ```
@@ -46,6 +48,7 @@ J'ai choisi la version light de nginx, vous pouvez en savoir plus sur les autres
 ### Un coup de stress
 
 Il faut savoir que la mise à jour de nginx va modifier les fichiers suivants :
+
 ```
 Installation de la nouvelle version du fichier de configuration /etc/nginx/nginx.conf ...
 Installation de la nouvelle version du fichier de configuration /etc/nginx/mime.types ...

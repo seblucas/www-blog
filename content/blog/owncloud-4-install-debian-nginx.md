@@ -14,6 +14,7 @@ Pour faire suite à mon billet précédent je suis passé à l'action et j'ai in
 ## Dépendances
 
 J'ai bêtement repris les dépendances indiquées sur le site en ignorant les paquets non disponibles (certainement pour Ubuntu) :
+
 ```bash
 apt-get install php5-json php-xml php-mbstring php5-zip php5-gd php5-sqlite curl libcurl3 libcurl3-dev php5-curl php-pdo
 ```
@@ -23,6 +24,7 @@ Vous pouvez aussi installer MySQL / Postgres si vous voulez stocker plus de fich
 ## Modification du php.ini
 
 L'intérêt de ce genre de logiciel est de pouvoir charger (upload) des fichiers sur le serveur, il faut donc augmenter certains paramètres pour que les gros fichiers passent (dans mon cas je me suis limité à 64Mo).
+
 ```bash
 vi /etc/php5/cgi/php.ini
 ```
@@ -36,6 +38,7 @@ Si votre PHP est en fastcgi ou FPM, n'oubliez de redémarrer le processus pour q
 ## Installation proprement dite
 
 Simple : 
+
 ```bash
 cd /var/www
 wget http://download.owncloud.org/releases/owncloud-4.0.2.tar.bz2
@@ -47,6 +50,7 @@ chmod -R g+w owncloud/
 ## Paramétrage de Nginx
 
 La paramétrage est assez complexe mais il semble fonctionner pour le moment. A noter que celui que je donne est en HTTP, je vous conseille la passage en HTTPS.
+
 ```
 server {
 
@@ -88,6 +92,7 @@ server {
 ## Correction de bugs
 
 Lors de mes tests j'ai du appliquer des patches pour que cela fonctionne, je ne sais plus trop quels étaient les problèmes mais cela a aidé :
+
 ```
 --- owncloud/remote.php 2012-06-11 12:18:38.000000000 +0200
 +++ /var/www/owncloud/remote.php        2012-06-15 14:00:12.000000000 +0200
@@ -106,6 +111,7 @@ Lors de mes tests j'ai du appliquer des patches pour que cela fonctionne, je ne 
         $pos = strlen($path_info);
  }
 ```
+
 ```
 --- owncloud/lib/filestorage/local.php  2012-06-11 12:18:37.000000000 +0200
 +++ /var/www/owncloud/lib/filestorage/local.php 2012-06-15 14:12:32.000000000 +0200

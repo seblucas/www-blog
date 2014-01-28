@@ -10,12 +10,14 @@ Tags: android
 # Error in Eclipse with Android Emulator
 
  * Error (DDMS) :
+
 ```
 57:29 E/DeviceMonitor: Connection attempts: 1
 57:30 E/DeviceMonitor: Connection attempts: 2
 ...
 ```
  * Solution (quick and dirty solution) :
+
 ```
 sysctl -w net.ipv6.bindv6only=0
 ```

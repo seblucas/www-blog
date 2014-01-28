@@ -10,6 +10,7 @@ Tags: oracle
 # Comment faire pour que Sqlplus s'arrête en cas d'erreur
 
 Dans le cas de requête automatique (notamment d'intégration continue) il est intéressant d'arrêter le script à la première erreur ce qui n'est pas le mode de fonctionnement par défaut de sqlplus. Il suffit d'ajouter en début du script à exécuter :
+
 ```
 WHENEVER OSERROR  EXIT 9
 WHENEVER SQLERROR EXIT SQL.SQLCODE

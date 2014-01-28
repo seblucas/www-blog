@@ -49,12 +49,14 @@ En premier téléchargez ce fichier :
 [fastboot.bz2](/blog/fastboot.bz2)
 
 Il faut ensuite le décompresser et lui donner les droits d’exécution :
+
 ```
 bunzip2 fastboot.bz2
 chmod +x fastboot
 ```
 
 Vous pouvez ensuite le tester :
+
 ```
 ./fastboot
 ```
@@ -62,6 +64,7 @@ Vous pouvez ensuite le tester :
 #### Paramétrage de udev pour que la tablette soit reconnue
 
 En root, ajoutez ce fichier dans /etc/udev/rules.d/ :
+
 ```
 SUBSYSTEMS=="usb", ATTRS{idVendor}=="0955", MODE="0666", OWNER="monUtilisateur"
 ```
@@ -81,6 +84,7 @@ Attention ne pas appuyer 4 fois sur le bouton Power cela peut bloquer la tablett
 #### Test de bon fonctionnement
 
 Taper : 
+
 ```
 ./fastboot devices
 ```

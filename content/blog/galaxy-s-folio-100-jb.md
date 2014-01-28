@@ -55,6 +55,7 @@ Démarrer la tablette en mode fastboot :
 *	Brancher la tablette via le port mini USB sur votre ordinateur
 
 Sur l'ordinateur exécuter les commandes suivantes :
+
 ```
 ./fastboot erase userdata
 ./fastboot erase system

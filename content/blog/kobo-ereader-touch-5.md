@@ -34,11 +34,13 @@ En plus de la technique précédente (voir [Kobo by Fnac : sortie officielle et 
 La méthode précédente n'est plus valide avec le firmware 2.0.0, il faut donc utiliser la méthode suivante (modification du fichier affiliate.conf dans le même répertoire).
 
 Sinon le contenu du fichier affiliate.conf pour un Kobo original est :
+
 ```
 [General]
 affiliate=Kobo
 ```
 Alors que pour un Fnac c'est (essayez de deviner) :
+
 ```
 [General]
 affiliate=fnac
@@ -74,6 +76,7 @@ Mes sources :
 
 L'utilisation du clavier sur la liseuse est assez fastidieuse surtout pour les URL ou il faut souvent passer du clavier classique au clavier avec les chiffres et caractères spéciaux.
 Pour se faciliter la tâche il suffit de connecter par USB la liseuse et de modifier le fichier koboEreader.conf (dans le répertoire .kobo). Ce fichier contient par exemple :
+
 ```
 [BROWSER_FAVOURITES_GROUP]
 http%253A%252F%252Fen.mobile.wikipedia.org%252F=
@@ -99,6 +102,7 @@ Comme vous le savez certainement la bibliothèque n'affiche que le titre du livr
 Il faut donc aller dans Preferences et ensuite Tableaux de connexions de métadonnées.
 
 Par exemple avec ce paramétrage :
+
 ```
 format:ePub
 Device:Kobo

@@ -18,6 +18,7 @@ http://ubuntuservergui.com/ubuntu-server-guide/install-dropbox-ubuntu-server
 ## Installation
 
 ### Création d'un compte
+
 ```
 adduser dropbox
 su - dropbox
@@ -26,10 +27,12 @@ su - dropbox
 ### Téléchargement
 
 *	Version 32 bits :
+
 ```
 wget -O dropbox.tar.gz "http://www.dropbox.com/download/?plat=lnx.x86"
 ```
 *	Version 64 bits : 
+
 ```
 wget -O dropbox.tar.gz "http://www.dropbox.com/download/?plat=lnx.x86_64"
 ```
@@ -37,10 +40,12 @@ wget -O dropbox.tar.gz "http://www.dropbox.com/download/?plat=lnx.x86_64"
 ### Vérification
 
 Il faut bien vérifier que la variable d'environnement LANG est bien spécifiée :
+
 ```
 printenv LANG
 ```
 Dans le cas ou la variable n'existe pas, il faut exécuter (en root) : 
+
 ```
 aptitude install locales
 dpkg-reconfigure locales
@@ -58,6 +63,7 @@ Il faut ensuite copier l'URL affichée dans la console et la mettre dans votre m
 ### Synchronisation
 
 La synchronisation manuelle se passe facilement : 
+
 ```
 ~/.dropbox-dist/dropbox
 ```
@@ -67,12 +73,14 @@ Le plus propre est de faire un fichier init.d (je l'ajouterai plus tard).
 ### Gestion avancée
 
 Il est possible de faire une gestion plus fine (exclure des répertoire, vérifier le statut, ...) avec un programme python :
+
 ```
 wget -O ~/.dropbox/dropbox.py "http://www.dropbox.com/download?dl=packages/dropbox.py"
 chmod +x ~/.dropbox/dropbox.py
 ```
 
 La documentation est la suivante : 
+
 ```
 ~/.dropbox/dropbox.py help
  

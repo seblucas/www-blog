@@ -10,6 +10,7 @@ Tags: tips,windows
 # Windows 2008 R2 default FTP firewall rule don't work
 
 If you just installed the FTP server on your new Windows Server 2008 R2 and begin to loose patience.... The default firewall rules don't work. The cleanest (IMHO) solution so far is to execute the following commands :
+
 ```
 sc sidtype ftpsvc unrestricted
 net stop ftpsvc & net start ftpsvc 

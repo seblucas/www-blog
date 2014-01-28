@@ -21,6 +21,7 @@ aptitude install php5-xcache
 ## Configuration
 
 Tout est préparé par defaut (un petit phpinfo() permet de la confirmer), il reste juste à éditer /etc/php5/conf.d/xcache.ini pour modifier la ligne suivante :
+
 ```
 xcache.size = 16M
 ```

@@ -64,6 +64,7 @@ Il ne vous reste plus qu'à ajouter vos répertoires, personnellement je choisi 
 ### En cas d'erreur
 
 J'ai eu un problème ou Mediatomb état inaccessible après le boot. Un restart du service corrige le problème à tout les coups. J'ai regardé le log (/var/log/mediatomb) et je suis tombé sur ce genre d'erreur :
+
 ```
 2010-09-12 07:38:39    INFO: Loading configuration from: /etc/mediatomb/config.x
 ml
@@ -76,11 +77,13 @@ ml
 2010-09-12 07:38:39   ERROR: upnp_cleanup: UpnpUnRegisterRootDevice failed
 ```
 Il m'a semblé que Mediatomb démarre avant que la carte réseau ne soit prête. Pour corriger cela j'ai ajouté un restart du service dès que la carte réseau est prête, j'ai donc ajouté le ficher suivant dans /etc/network/if-up.d/ :
+
 ```-
 #!/bin/sh
 /etc/init.d/mediatomb restart
 ```
 Il ne reste qu'à rendre le fichier exécutable.
+
 ```
 chmod +x /etc/network/if-up.d/mediatomb
 ```

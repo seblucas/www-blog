@@ -22,6 +22,7 @@ Beaucoup, beaucoup de choses se paramètrent dans le fichier /etc/rc.conf c'est 
 ### Changement du Hostname
 
 Il se change dans le fichier rc.conf :
+
 ```
 HOSTNAME="minus"
 ```
@@ -34,6 +35,7 @@ Le Dockstar ne possède pas d'horloge interne il faut donc passer par un NTP pou
 #### Fuseau horaire
 
 Encore une fois, on édite le rc.conf :
+
 ```
 TIMEZONE="Europe/Paris"
 ```
@@ -41,14 +43,17 @@ TIMEZONE="Europe/Paris"
 #### NTP
 
 *	Installation
+
 ```
 pacman -S ntp
 ```
 *	Synchronisation
+
 ```
 ntpd -qg
 ```
 *	Mise en place en mode démon (en éditant le rc.conf)
+
 ```
 DAEMONS=(... !hwclock ntpd ...)
 ```
@@ -56,10 +61,12 @@ DAEMONS=(... !hwclock ntpd ...)
 ### Langue
 
 *	Vérification des locales installées
+
 ```
 locale -a
 ```
 *	Ajout des locales manquantes (en éditant /etc/locale.gen)
+
 ```
 en_US.UTF-8 UTF-8
 en_US ISO-8859-1
@@ -69,10 +76,12 @@ fr_FR.UTF-8 UTF-8
 fr_FR ISO-8859-1
 ```
 *	Re-génération
+
 ```
 locale-gen
 ```
 *	Édition du rc.conf
+
 ```
 LOCALE="fr_FR.UTF-8"
 ```
@@ -80,6 +89,7 @@ LOCALE="fr_FR.UTF-8"
 ### Mise en place du noatime
 
 Le fichier fstab avant l'installation ressemble à ça
+
 ```
 #
 # /etc/fstab: static file system information
@@ -89,11 +99,13 @@ tmpfs           /tmp    tmpfs   nodev,nosuid    0       0
 ```
 
 On récupère donc le UUID de notre partition / avec la commande suivante :
+
 ```
 blkid
 ```
 
 et on peut ensuite modifier le fstab :
+
 ```
 #
 # /etc/fstab: static file system information
@@ -106,6 +118,7 @@ tmpfs           /tmp    tmpfs   nodev,nosuid     0       0
 ## Commandes utiles
 
 ### Mise à jour du système
+
 ```
 pacman -Syyuf
 ```

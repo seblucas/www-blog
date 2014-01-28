@@ -11,6 +11,7 @@ Tags: oracle,tips
 
 ## Detection
 To be executed as SYSTEM : 
+
 ```sql
 select session_id
 ,      serial#

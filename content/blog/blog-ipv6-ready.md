@@ -21,6 +21,7 @@ Pour info http://blog.slucas.fr est accessible à la fois en ipv4 et ipv6 et j'a
 J'ai quand même eu une angoisse concernant nginx, je me suis rendu compte que les répertoires systèmes de dokuwiki étaient accessibles (voir [ici](/blog/anteater-system-security-nginx)) et que c'était directement lié à l'ipv6. J'ai donc cherché un peu sur le web malheureusement sans réponse. J'ai donc posé la question sur la mailing list de nginx (voir [ici](http://forum.nginx.org/read.php?2,166530)) pour m'entendre répondre que la version de nginx de Squeeze est trop ancienne pour supporter mon contrôle.
 
 Au début j'ai pensé compiler la dernière version de nginx, mais une grande flemme aidant j'ai trouvé une solution plus simple :
+
 ```
 location ~ ^/(data|conf|bin|inc) {
   return 404;

@@ -10,6 +10,7 @@ Tags: archlinux
 # How to connect to an NFS share with Archlinux
 
 Easy ;)
+
 ```
 pacman -S nfs-utils
 rc.d start rpcbind

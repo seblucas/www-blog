@@ -40,6 +40,7 @@ Au final cela ne semble pas perturber le cache.
 ## Le code
 
 ### la CSS ajoutée
+
 ```css
 body {
   margin: 0.1em;
@@ -71,6 +72,7 @@ Comme indiqué précédemment le but est juste de réduire les marges et maximis
 ### La modification de main.php
 
 il s'agit juste de 3 lignes ajoutées avant le `</head>` :
+
 ```html
     <meta name="HandheldFriendly" content="true" />
     <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />

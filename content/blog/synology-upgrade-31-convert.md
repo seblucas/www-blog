@@ -19,6 +19,7 @@ Ca m'apprendra à faire des mises à jours non nécessaires.
 ## Palliatif
 
 En regardant le forum anglais de Synology j'ai trouvé d'autres naufragés comme moi et un palliatif m'a intéressé (voir [ce post](http://forum.synology.com/enu/viewtopic.php?f=169&t=34446&start=15#p139187)) : 
+
 ```
 /usr/syno/etc/rc.d/S77synomkthumbd.sh stop
 ```

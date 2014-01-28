@@ -27,6 +27,7 @@ aptitude install midori
 
 ### Rendre midori navigateur par defaut
 *	Installer galternatives
+
 ```
 aptitude install galternatives
 ```

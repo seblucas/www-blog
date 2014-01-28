@@ -47,6 +47,7 @@ J'ai pu tester les systèmes de fichiers suivants :
 La Kobo ne supporte pas les carte µSD formatée sans table de partition (en mode superfloppy). Donc si vous avez totalement remis à zéro une carte µSD, pensez à bien recréer la partition.
 
 Sous Linux :
+
 ```bash
 #adjust /sdd to be your device
 #check its unmounted by Nautilus
@@ -72,12 +73,14 @@ Alors c'est encore plus chaud que tout le reste mais cela reste amusant. Un util
 
 *	Mettre en place les accès telnet et ftp.
 *	Récupérer la bibliothèque nickel sur la Kobo :
+
 ```bash
     ftp kobo
     cd /usr/local/Kobo
     get libnickel.so.1.0.0
 ```
 *	A l'aide d'un éditeur binaire recherche la chaine de caractères "Sleep Mode" et il faut la remplacer celle de votre choix. Attention : ne pas changer la taille totale de la chaine (compléter par des espaces si nécessaire). Ici l'exemple avec "Chuck" :
+
 ```
     010E0160  65 70 69 6E 67 2D 62 6C 61 63 6B 2E 70 6E 67 00 eping-black.png.
     010E0170  66 6F 6E 74 3A 20 69 74 61 6C 69 63 20 34 34 70 font: italic 44p
@@ -86,6 +89,7 @@ Alors c'est encore plus chaud que tout le reste mais cela reste amusant. Un util
     010E01A0  7B 20 63 6F 6C 6F 72 3A 20 72 67 62 28 32 35 35 { color: rgb(255 
 ```
 *	Transmettre le fichier modifié sur la Kobo
+
 ```bash
     ftp kobo
     cd /usr/local/Kobo

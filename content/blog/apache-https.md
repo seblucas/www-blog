@@ -31,6 +31,7 @@ Pour plus de renseignements sur les questions posées ensuite voir : http://doc.
 ## Configuration d'Apache
 
 Modifier le site pour ajouter les lignes suivantes :
+
 ```
 SSLCertificateFile    /etc/apache2/ssl/server.crt
 SSLCertificateKeyFile /etc/apache2/ssl/server.key

@@ -12,6 +12,7 @@ Tags: tips
 ## Pngcrush
 *	http://pmt.sourceforge.net/pngcrush/
 *	Usage : 
+
 ```
 pngcrush -brute -e _small.png MyPngFile.png
 ```

@@ -28,14 +28,17 @@ Liens intéressants :
 
 Ce n'est pas forcement si simple que d'habitude : 
 *	Installer les paquets
+
 ```
 aptitude install gigolo gvfs-backends gvfs-fuse
 ```
 *	Ajouter son utilisateur dans le groupe fuse
+
 ```
 gpasswd -a MonUser fuse
 ```
 *	S'assurer que le module fuse est bien chargé (à faire en root)
+
 ```
 modprobe fuse
 ```
@@ -48,6 +51,7 @@ La configuration par défaut est bonne, la seule chose que j'ai fait concerne l'
 ## Cas du NFS
 
 Gigolo ne permet pas de monter du NFS. J'ai donc défini mes points de montage dans /etc/fstab en les spécifiant accessible aux utilisateurs :
+
 ```
 192.168.1.125:/volume1/video /home/vlad/mount/nas nfs noauto,user,rw 0 0
 ```

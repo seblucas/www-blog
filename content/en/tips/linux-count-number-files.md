@@ -10,6 +10,7 @@ Tags: debian,tips
 # How to count the number of files in a directory
 
 ## Non recursive
+
 ```
 find targetdir -type f -maxdepth 1 | wc -l 
 ```

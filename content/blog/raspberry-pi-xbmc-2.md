@@ -38,6 +38,7 @@ Au final, comme le développeur de Raspbmc le fait remarquer beaucoup de choses 
 Comme indiqué précédemment c'est la version de production chez moi. Et un soir, elle a voulu se mettre à jour. Je n'ai pas été assez rapide pour enlever le câble réseau et au final je me suis retrouvé avec un XBMC qui ne fonctionnait plus.
 
 Je me suis donc connecté en SSH (user pi/raspberry) et j'ai exécuté les commandes suivantes : 
+
 ```
 sudo initctl stop xbmc
 sudo rm -rf /opt/xbmc-bcm

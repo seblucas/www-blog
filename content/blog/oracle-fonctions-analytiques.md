@@ -28,10 +28,12 @@ Le plus simple était de passer par une fonction.
 
 cela passe par trois étapes :
 *	Création d'un type
+
 ```sql
 CREATE OR REPLACE TYPE t_varchar2_tab AS TABLE OF VARCHAR2(4000);
 ```
 *	Création d'une fonction
+
 ```sql
 CREATE OR REPLACE FUNCTION tab_to_string (p_varchar2_tab  IN  t_varchar2_tab,
                                           p_delimiter     IN  VARCHAR2 DEFAULT ',') RETURN VARCHAR2 IS
@@ -48,6 +50,7 @@ END tab_to_string;
 /
 ```
 *	La requête
+
 ```sql
 SELECT deptno,
        tab_to_string(CAST(COLLECT(ename) AS t_varchar2_tab)) AS employees

@@ -12,6 +12,7 @@ Tags: debian
 There's is some easy steps to follow :
 *	If possible change the sshd daemon listening port ([How to change the listening port of Sshd](/en/tips/sshd-change-port))
 *	If you enabled login through private key ([How to open an ssh session with a private key](/en/tips/ssh-connect-private-key)), you can disable password authentication. You just have to edit /etc/ssh/sshd_config to add :
+
 ```
 PermitEmptyPasswords no
 ```

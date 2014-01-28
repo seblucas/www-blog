@@ -23,6 +23,7 @@ Bizarrement cela ne fonctionne pas nativement. Comme le protocole NFS est censé
 *	Se connecter en SSH (root / mot de passe du compte admin)
 *	Modifier /etc/exports (avec vi par exemple) pour remplacer "insecure_locks" par "insecure"
 *	redémarrer le nas ou exécuter la commande suivante : 
+
 ```
 exportfs -ra
 ```

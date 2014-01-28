@@ -10,6 +10,7 @@ Tags: oracle
 # Some useful queries / tricks around Oracle Materialized Views
 
 ## Get all materialized views
+
 ```sql
 select * from user_mviews
 ```

@@ -14,6 +14,7 @@ Comme je n'ai pas trouvé beaucoup d’informations sur le sujet, un petit bille
 ## Paramétrage de Archlinux
 
 ### Installation des paquets
+
 ```
 pacman -S nfs-utils
 ```
@@ -30,6 +31,7 @@ Pour éviter de les démarrer à la main à chaque reboot, il faut ajouter dans 
 ### Paramétrage des répertoires à exporter
 
 J'ai modifié le fichier /etc/exports pour ajouter la ligne suivantes : 
+
 ```
 /home/user/partage 192.168.0.9(rw,insecure,all_squash)
 ```
@@ -40,6 +42,7 @@ Quelques explications :
 *	insecure,all_squash : cela semble nécessaire pour XBMC.
 
 A noter qu'après avoir modifié le fichier il faut lancer la commande suivante pour mettre à jour les répertoires exportés :
+
 ```
 exportfs -arv
 ```
@@ -47,6 +50,7 @@ exportfs -arv
 ## Paramétrage de XBMC
 
 La détection automatique des partages NFS n'a pas fonctionné chez moi. J'ai donc saisi à la main mon partage :
+
 ```
 nfs://192.168.0.106//home/user/partage
 ```

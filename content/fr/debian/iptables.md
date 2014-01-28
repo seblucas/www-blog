@@ -19,14 +19,17 @@ Donc comment faire :
 *	Se connecter en root
 *	Créer un fichier nommé firewall.sh qui va contenir les règles iptables (plus de détail après).
 *	Valider que ce fichier est exécutable :
+
 ```
 chmod +x firewall.sh
 ```
 *	Exécuter firewall.sh et vérifier si tout fonctionne encore normalement (ssh, samba, torrent, www, ...)
+
 ```
 ./firewall.sh
 ```
 *	Tout fonctionne correctement, donc enregistrons les règles dans un fichier (pour moi dans /etc) :
+
 ```
 iptables-save > /etc/firewall.conf
 ```

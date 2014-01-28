@@ -9,6 +9,7 @@ Tags: dokuwiki,nginx
 # Dokuwiki et nginx
 
 ## Fichier complet
+
 ```
 server {
 

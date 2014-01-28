@@ -24,6 +24,7 @@ Nginx gère l'accès à PHP via un fastcgi donc le paramètre PHP $_SERVER['HTTP
 ### Solution dans Nginx
 
 J'ai mélangé la configuration HTTP et HTTPS dans le même fichier (étant donné que je n'ai pas de différence) ce qui me donne le fichier suivant pour l'entête :
+
 ```
         listen [::]:80;
         listen  [::]:443 ssl;
@@ -42,6 +43,7 @@ Notez :
 *	que j'écoute sur le port 80 et 443.
 
 Ensuite pour l'appel de mes fichiers php, j'ai modifié les éléments suivants :
+
 ```
 fastcgi_cache_key $https$request_method$host$request_uri;
 fastcgi_param HTTPS $https;
@@ -51,6 +53,7 @@ En effet, je dois avoir des clés de cache différentes entre le mode ssl et le 
 ### Modification des scripts PHP
 
 Il ne reste plus qu'à modifier les scripts PHP pour ajouter des contrôles de ce style :
+
 ```php
 if (!(isset($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on"))
 {

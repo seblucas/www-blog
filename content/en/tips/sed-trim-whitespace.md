@@ -10,6 +10,7 @@ Tags: debian,tips
 # How to remove trailing whitespace from a bunch of files
 
 ## Linux files (and also Mac)
+
 ```
 find . -name '*.js' -exec sed -i 's/[[:blank:]]*\n$/\n/g' '{}' \;
 ```

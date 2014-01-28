@@ -12,6 +12,7 @@ Tags: centos,oracle,tips
 See : http://ivan.kartik.sk/oracle/install_ora10gR2_redhat.html
 
 The only thing you have to change is the startup scripts that does not correctly stop the service. With Centos it seems that the Kill script is not called if there is no file in /var/lock/subsys/. Instead you can use this one : 
+
 ```bash
 #!/bin/bash
 #

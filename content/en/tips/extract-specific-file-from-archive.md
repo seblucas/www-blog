@@ -10,6 +10,7 @@ Tags: debian,windows
 # How to extract a specific file from an archive
 
 I'll use 7zip :
+
 ```
 7z e *.rar -ir!*.txt
 ```

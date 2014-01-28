@@ -20,6 +20,7 @@ pacman -S avahi
 ## Ajout du partage NFS
 
 Ajouter le fichier suivant dans /etc/avahi/services :
+
 ```
 <?xml version="1.0" standalone='no'?>
  <!DOCTYPE service-group SYSTEM "avahi-service.dtd">

@@ -60,6 +60,7 @@ http://cops-demo.slucas.fr/index.php
 *	Le chemin vers la bibliothèque Calibre (metadata.db, images de couverture et fichier epub).
 
 Sur toutes les distributions basées sur Debian, vous utiliser :
+
 ```
 aptitude install php5-gd php5-sqlite
 ```

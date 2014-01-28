@@ -60,6 +60,7 @@ http://cops-demo.slucas.fr/index.php
 *	The path to a Calibre library (metadata.db, format, & cover files).
 
 On any Debian base Linux you can use :
+
 ```
 aptitude install php5-gd php5-sqlite
 ```

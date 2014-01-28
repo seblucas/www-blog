@@ -14,6 +14,7 @@ Easiest way to go is to get sqlcmd from [here](http://www.microsoft.com/download
 *	SQLServer2005_SQLCMD.msi
 
 There is many good tutorials around but to be quick the standard command line is
+
 ```
 sqlcmd -SServer -UUser -PPassword -dDatabase -iMyFile.sql
 ```

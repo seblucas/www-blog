@@ -10,6 +10,7 @@ Tags: debian,tips
 # How to make output of df/du readable
 
 Use
+
 ```
 du -h --max-depth 1
 df -h

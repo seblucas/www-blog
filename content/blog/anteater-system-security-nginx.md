@@ -15,6 +15,7 @@ Suite à la dernière mise à jour Dokuwiki, j'ai eu une alerte sécurité me di
 ## Solution
 
 Ajouter les lignes suivantes dans la configuration nginx :
+
 ```
 location ~ ^/(data|conf|bin|inc) {
   deny all;

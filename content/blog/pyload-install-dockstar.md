@@ -15,6 +15,7 @@ On parle de [pyLoad](http://pyload.org/).
 ## Installation
 
 ### Dépendances
+
 ```bash
 apt-get install python-crypto python-pycurl tesseract-ocr spidermonkey-bin python-imaging
 ```
@@ -28,10 +29,12 @@ adduser pyload
 ### Installation de pyLoad
 
 On va se connecter sous l'utilisateur pyload que nous venons de créer :
+
 ```bash
 su - pyload
 ```
 et on installe :
+
 ```bash
 wget http://get.pyload.org/get/src/
 mv index.html pyload-src-v0.4.7.zip
@@ -50,6 +53,7 @@ iptables -A INPUT -p tcp -s 192.168.0.0/24 --dport 8000 -j ACCEPT
 ### Premier lancement et test
 
 Je vous conseille de lancer pyLoad en mode debug afin de tester que tout fonctionne bien.
+
 ```bash
 ./pyLoadCore.py -d
 ```
@@ -58,10 +62,12 @@ et vous pouvez lancer votre navigateur préféré sur l'adresse http://AdresseDe
 ### Démarrage manuel
 
 Si vous voulez lancer manuellement pyload en mode démon :
+
 ```bash
 ./pyLoadCore.py --daemon
 ```
 et pour l'arrêter :
+
 ```bash
 ./pyLoadCore.py --quit
 ```
@@ -69,6 +75,7 @@ et pour l'arrêter :
 ## Démarrage automatique
 
 J'ai créé un script simple à mettre dans /etc/init.d/pyload :
+
 ```bash
 #!/bin/sh
 ### BEGIN INIT INFO
@@ -99,6 +106,7 @@ exit 0
 ```
 
 Il ne reste plus qu'à rendre le script exécutable et la planifier dans les scripts de démarrage/arrêt.
+
 ```
 chmod +x /etc/init.d/pyload
 update-rc.d pyload defaults
@@ -107,6 +115,7 @@ update-rc.d pyload defaults
 ## Reverse proxy avec nginx
 
 j'ai ajouté un nouveau sous domaine pour que pyLoad soit accessible de partout :
+
 ```
 server {
         listen [::]:80;

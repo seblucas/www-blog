@@ -19,6 +19,7 @@ En voici le détail.
 Toutes ces modifications ont été faites dans le fichier user/screen.css.
 
 J'ai voulu ajouté une légère ombre bleue autour de la barre de navigation horizontale (pour rappeler la couleur des liens et des titres) : 
+
 ```css
 #tmpl_header_nav
 {
@@ -29,6 +30,7 @@ J'ai voulu ajouté une légère ombre bleue autour de la barre de navigation hor
 ```
 
 J'ai aussi ajouté une ombre grise autour de la page principale :
+
 ```css
 div#pagewrap
 {
@@ -45,6 +47,7 @@ Comme pour mon précédent template (voir [Version mobile du template Arctic pou
 ### Modification du main.php
 
 J'ai ajouté avant le `</head>` : 
+
 ```html
 <meta name="HandheldFriendly" content="true" />
 <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
@@ -53,6 +56,7 @@ J'ai ajouté avant le `</head>` :
 ### Modification de user/screen.css
 
 Pour simplifier j'ai viré purement et simplement la barre latérale de droite et le champ de recherche (mais il serait possible de les garder et les mettre à la fin par exemple).
+
 ```css
 @media (max-device-width: 599px)
 {
@@ -94,6 +98,7 @@ Pour certaines parties du site à la fois en français et anglais, j'utilise le 
 ### Modification du main.php
 
 Voici le diff :
+
 ```php
 --- main.php    2011-09-18 12:41:42.000000000 +0000
 +++ /new/main.php     2011-09-16 15:18:57.000000000 +0000

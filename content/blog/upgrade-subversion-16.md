@@ -20,6 +20,7 @@ Lien utiles :
 ## Pack
 
 la commande doit être logiquement la suivante :
+
 ```
 svnadmin pack dépôt
 ```
@@ -28,6 +29,7 @@ En pratique mes dépôts sont trop anciens (portés des la version 1.2) et le sv
 ## Mise à jour complète des dépôts
 
 ### Déplacement du répertoire subversion
+
 ```
 cd /var/
 mv svn svn-old

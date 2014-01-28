@@ -25,6 +25,7 @@ C'est une police avec des bords irréguliers qui rappelle un peu les caractères
 ## Un peu plus d'informations sur le fichier koboEreader.conf
 
 Pour ceux qui, comme moi, font des factory reset assez régulièrement, la seule chose à sauvegarder (en plus des livres qui sont dans Calibre) sont les paramétrages de marge, police et interlignage. Tous ces paramètres se retrouvent dans le fichier de configuration (koboEreader.conf) :
+
 ```
 [Reading]
 homePageList=SomeFakeShortlistTabID

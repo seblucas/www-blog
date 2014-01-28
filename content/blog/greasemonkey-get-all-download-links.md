@@ -15,6 +15,7 @@ Sur une page web que je visite régulièrement il y a toute une série de lien q
 ## La solution
 
 J'ai fait un script avec GreaseMonkey (extension Firefox) qui reporte les liens dans une div à moitié transparente en haut à gauche de la page.
+
 ```javascript
 */*///////////////////////////////////////////////////
 // Get all download links v1.0
@@ -64,6 +65,7 @@ document.body.insertBefore(logo, document.body.firstChild);
 ```
 
 Pour utiliser le script il faut remplacer le site web en haut par votre site préféré et changer la ligne suivante par votre expression régulière favorite :
+
 ```
 regMega = new RegExp ("megaupload");
 ```

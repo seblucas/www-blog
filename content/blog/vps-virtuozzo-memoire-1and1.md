@@ -23,6 +23,7 @@ Il s'agit d'une virtualisation par conteneurs : c'est à dire que le noyau Linux
 Sur le VPS que j'ai loué (le moins cher), j'ai droit à 512Mo de RAM et éventuellement une utilisation à 2Go en pointe. Le problème : la phrase 512Mo de RAM garantie est partiellement vraie car il y a des autres limites qui sont fixées à chaque conteneur (à tort ou à raison, là n'est pas le problème).
 
 Ces limites sont consultables sur l'interface Virtuozzo ou via votre VPS : 
+
 ```
 s40:~# cat /proc/user_beancounters
 Version: 2.5

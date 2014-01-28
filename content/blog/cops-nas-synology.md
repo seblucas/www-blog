@@ -29,6 +29,7 @@ Pour la suite je vais considérer que la base Calibre (metadata.db et tous les r
 ### Modification de la configuration de COPS
 
 Dans ce cas il n'y qu'à modifier les clés suivantes de config_local.php :
+
 ```
 $config['calibre_directory'] = './Data/';
 $config['calibre_internal_directory'] = './Data/';
@@ -49,6 +50,7 @@ il faut indiquer au moteur PHP qu'il a le droit d'aller lire dans le répertoire
 *	Allez à la page "Menu principal > Panneau de configuration > Services Web > Applications Web"
 *	Deuxième onglet > Personnaliser PHP open_base_dir 
 *	Ajouter à la fin :
+
 ```
 :/volume1/logiciel/feedbook/
 ```
@@ -56,6 +58,7 @@ il faut indiquer au moteur PHP qu'il a le droit d'aller lire dans le répertoire
 ### Modification de la configuration de COPS
 
 Changer les clés suivantes dans config_local.php :
+
 ```
 $config['calibre_directory'] = '/volume1/logiciel/feedbook/';
 $config['calibre_internal_directory'] = '/volume1/logiciel/feedbook/'; 

@@ -16,10 +16,12 @@ J'avais déjà fait le nécessaire avec Grub4dos (voir [Utiliser une clé USB po
 
 ### Préparation de la clé
 Insérer la clé sur votre ordinateur, utiliser la commande suivante pour déterminer le device utilisé (dans mon cas /dev/sdb) :
+
 ```
 dmesg | tail
 ```
 S'arranger pour avoir une et une seule partition de type linux et bootable (avec fdisk) et la formater :
+
 ```
 mkfs.ext2 /dev/sdb1
 ```
@@ -36,6 +38,7 @@ A partir de ce moment, la clé doit être bootable il reste à ajouter le menu.
 ## Paramétrage de Grub2
 
 Copier le fichier grub.cfg dans le répertoire /media/disk/boot/grub :
+
 ```
 menuentry "Grub Direct" {
         insmod ext2

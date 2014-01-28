@@ -25,6 +25,7 @@ In addition, It was actually fun to connect both worlds.
 ## Install hg-git
 
 It's the plugin that allow to make it work :
+
 ```
 hg clone http://bitbucket.org/durin42/hg-git c:\work\hg-git
 ```
@@ -32,6 +33,7 @@ hg clone http://bitbucket.org/durin42/hg-git c:\work\hg-git
 ## Enable the hg-git plugin
 
 Edit your Mercurial.ini (in C:\Users\`<YourName>`) to add this line
+
 ```
 [extensions]
 hggit = C:\work\hg-git\hggit
@@ -44,6 +46,7 @@ Check that both Pageant and your private key are loaded
 ## Pull & Push
 
 You can now try to pull a Github repository with this URL :
+
 ```
 git+ssh://git@github.com/your-github-username/your-repo-name.git
 ```

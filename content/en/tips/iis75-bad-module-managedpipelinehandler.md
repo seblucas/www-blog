@@ -12,6 +12,7 @@ Tags: dotnet
 The error is : Handler “PageHandlerFactory-Integrated” has a bad module “ManagedPipelineHandler” in its module list.
 
 For an unknown reason, the link between IIS and ASP.net is not correct so you'll have to register the framework into IIS. In my case the solution was :
+
 ```
 %windir%\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis.exe -i
 ```

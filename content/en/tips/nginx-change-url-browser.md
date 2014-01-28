@@ -10,6 +10,7 @@ Tags: nginx
 # Nginx change my server name in my browser
 
 Add this line in your /etc/nginx/nginx.conf :
+
 ```
 server_name_in_redirect off;
 ```

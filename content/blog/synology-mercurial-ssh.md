@@ -27,6 +27,7 @@ Je vais réutiliser le même user que pour Subversion (svn) mais rien de vous em
 ### Préparation de l'accès ssh
 
 De la même façon que pour Subversion il faut que la commande hg soit accessible immédiatement après la connexion ssh donc je fais un lien dans /usr/bin :
+
 ```
 cd /usr/bin/
 ln -s /opt/bin/hg hg
@@ -42,6 +43,7 @@ hg init newrepo
 ### Premier clone
 
 Simple : 
+
 ```
 hg clone ssh://svn@<IP DU NAS>///volume1/hg/newrepo
 ```

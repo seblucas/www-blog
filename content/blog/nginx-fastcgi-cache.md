@@ -22,6 +22,7 @@ http://wiki.nginx.org/HttpFcgiModule
 ### Déclaration du cache
 
 On modifie /etc/nginx/nginx.conf :
+
 ```
 fastcgi_cache_path /tmp/nginx
                    levels=1:2
@@ -38,6 +39,7 @@ Une petite explication :
 ### Lier le cache et le site web
 
 Modifier votre site web (typiquement dans /etc/nginx/sites-enabled) :
+
 ```
 location ~ \.php$ {
                 fastcgi_cache mycache; #################
@@ -58,6 +60,7 @@ Une petite explication :
 *	Les fichiers en cache resteront valide au maximum 1 heure (quelque soit la réponse du fastcgi).
 
 Une fois les deux modifications effectuées relancer nginx :
+
 ```
 /etc/init.d/nginx restart
 ```

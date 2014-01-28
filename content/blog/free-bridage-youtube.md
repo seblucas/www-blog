@@ -20,6 +20,7 @@ Au final ce sont les consommateurs qui sont lésés.
 
 ### Installation d'un proxy
 J'ai installé un proxy sur mon serveur 1&1 :
+
 ```
 aptitude install tinyproxy
 ```
@@ -51,12 +52,14 @@ Sauvegarde en : «Striderdoom-Day9Daily423P3BurrowedBanelingFundayMonday293.flv.
 ### Avec proxy
 
 Pour utiliser wget avec un proxy il faut mettre le contenu suivant dans le fichier ~/.wgetrc :
+
 ```
 http_proxy = http://87.106.98.163:8888/
 use_proxy = on
 wait = 15
 ```
 Et le résultat :
+
 ```
 vlad@xbmc:~$ wget http://blip.tv/file/get/Striderdoom-Day9Daily423P3BurrowedBanelingFundayMonday293.flv
 --2012-02-28 20:50:34--  http://blip.tv/file/get/Striderdoom-Day9Daily423P3BurrowedBanelingFundayMonday293.flv

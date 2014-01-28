@@ -40,6 +40,7 @@ Une personne sur Mobileread (encore et toujours) a mis à disposition un serveur
 ### Dépendances
 
 Mon serveur a déjà une base pour gérer le PHP (avec Nginx), les seules dépendances étaient :
+
 ```
 aptitude install php5-gd smarty php5-sqlite
 ```
@@ -49,6 +50,7 @@ Ne pas oublier de redémarrer le fastcgi PHP après ces installations.
 ### Paramétrage lié à smarty
 
 Le serveur a besoin de smarty et d'un répertoire de travail pour smarty, j'ai choisi de tout stocker sur /tmp
+
 ```bash
 cd /tmp/
 mkdir smarty
@@ -62,6 +64,7 @@ chown www-data:www-data -R smarty/
 ### Installation du serveur
 
 Simple :
+
 ```bash
 su -
 cd /var/www
@@ -74,6 +77,7 @@ vi config_local.php
 ```
 
 Dans mon cas le fichier de config est le suivant :
+
 ```
 <?php
         /*
@@ -220,6 +224,7 @@ Dans mon cas le fichier de config est le suivant :
 ### Configuration de Nginx
 
 Mon fichier de configuration Nginx :
+
 ```
 server {
 

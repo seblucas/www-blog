@@ -11,6 +11,7 @@ Tags: tips,windows
 
 *	Get pscp.exe : http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 *	Create a batch file like this :
+
 ```
 pscp.exe -P PORT -batch -pw PASSWORD USER@HOST:DIRECTORY/FILE .
 ```

@@ -25,6 +25,7 @@ Télécharger les éléments suivants :
 Insérer la clé USB sous Windows.
 
 Décompresser GrubInst et faire l'installation avec la GUI (grubinst_gui.exe) si cela ne fonctionne pas alors exécuter la commande suivante :
+
 ```
 grubinst.exe --skip-mbr-test (hd1)
 ```
@@ -37,6 +38,7 @@ Décompresser grub4dos et copier les fichiers sur la clé USB :
 ## Modification du menu.lst
 
 ### Méthode "en dur"
+
 ```
 title Start Squeeze
 root (hd1,3)

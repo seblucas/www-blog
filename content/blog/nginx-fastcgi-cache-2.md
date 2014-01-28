@@ -17,6 +17,7 @@ J'ai repassé un peu de temps sur le problème et relu la documentation (cela ai
 ## Solution honteuse
 
 En utilisant grep sur le code de dokuwiki j'ai appris que le Cache-Control n'était pas imposé par lui mais que c'était le fonctionnement par défaut de PHP si on ne lui proposait pas d'entêtes spécifiques. J'ai donc fait une modification crade du doku.php pour ajouter les lignes suivantes :
+
 ```php
 header('Expires: '.gmdate("D, d M Y H:i:s", time()+3600).' GMT');
 header('Cache-Control: public, proxy-revalidate, no-transform, max-age=3600');
@@ -29,6 +30,7 @@ Bilan le cache fonctionne par contre le client lui aussi va mettre la page en ca
 En relisant la documentation de Nginx j'ai trouvé LE paramètre pour lui permettre d'ignorer certaines entêtes (notamment celles qui me posaient problème) : ''fastcgi_ignore_headers''. et j'ai aussi décidé de n'appliquer le cache que pour ce qui passe par doku.php.
 
 Cela donne la configuration de nginx suivante :
+
 ```
         location ~ doku\.php$ {
                fastcgi_cache mycache;

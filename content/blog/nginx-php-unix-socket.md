@@ -15,6 +15,7 @@ Quand j'ai installé pour la premiere fois nginx + php (voir [Installation de ng
 ## Changement du script de fastcgi
 
 Les changements sont suivis de #.
+
 ```bash
 #!/bin/sh
 

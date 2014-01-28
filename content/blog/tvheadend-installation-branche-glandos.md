@@ -43,6 +43,7 @@ le résultat de la compilation se trouve dans le répertoire build.linux.
 ### Installation et/ou paramétrage
 
 Je n'ai pas voulu voulu passer par la case installation (make install) pour garder le tout dans un seul répertoire. J'ai donc tout mis en place dans le répertoire build.linux : 
+
 ```
 cd build.linux/src/webui
 ln -s ../../../src/webui/static/ static
@@ -50,6 +51,7 @@ cd ../..
 ./tvheadend
 ```
 Et tout devrait fonctionner sans erreur, vous devriez pouvoir aller sur l'adresse suivante pour configurer Tvheadend :
+
 ```
 http://<votre ip>:9981/
 ```

@@ -12,6 +12,7 @@ Tags: oracle
 Oracle XE 10g has no hard limit on the number of processes but by default it is limited to 20 or 40 processes. You can change it : 
 *	Start sqlplus and connect to your database using system user
 *	Execute the following code :
+
 ```sql
 alter system set processes=300 scope=spfile;
 alter system set sessions=300 scope=spfile;

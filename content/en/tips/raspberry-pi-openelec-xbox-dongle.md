@@ -14,6 +14,7 @@ Thanks to a [recent commit](https://github.com/OpenELEC/OpenELEC.tv/issues/783) 
 ## Add Lircd configuration
 
 Connect to your Pi with ssh and copy + paste (or download) following code in /storage/.config/lircd.conf :
+
 ```
 begin remote
 
@@ -63,12 +64,14 @@ end remote
 ## Fix lircd command line
 
 The easiest way I found is to add create an autoexec.sh file : 
+
 ```
 vi /storage/.config/autostart.sh
 chmod +x /storage/.config/autostart.sh
 ```
 
 Don't forget to paste these lines in the autoexec : 
+
 ```
 #!/bin/sh
 killall -9 lircd
