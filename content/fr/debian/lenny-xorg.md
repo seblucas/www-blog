@@ -5,16 +5,16 @@ Robots: noindex,nofollow
 Language: fr
 Tags: lenny,xfce,xorg
 */
-### Installation de Xorg
+# Installation de Xorg
 
-#### Pré-requis
+## Pré-requis
 Depuis la version 7.3, Xorg détecte mieux le matériel et il n'est normalement plus nécessaire de reconfigurer le paquet xserver-xorg si les bons outils sont installés
 
 ```
 apt-get install mdetect read-edid hwinfo discover xdebconfigurator
 ```
 
-#### Installation de Xorg
+## Installation de Xorg
 
 Grâce à Debian, c'est d'une simplicité exemplaire :
 
@@ -28,7 +28,7 @@ apt-get install xorg
 dpkg-reconfigure xserver-xorg
 ```
 
-#### Modification manuelle du Xorg.conf
+## Modification manuelle du Xorg.conf
 
 La ficher de configuration de Xorg est /etc/X11/Xorg.conf (attention aux majuscules)
 
@@ -95,7 +95,7 @@ EndSection
 
 J'ai une carte vidéo avec deux sorties VGA. Je n'ai pour le moment qu'un seul écran connecté en VGA-1. Pour que tout fonctionne correctement (video avec XV par exemple) J'ai du désactiver VGA-0. Mon écran (un vieux 17' CRT) n'était pas correctement détecté; j'ai du spécifier les fréquences de l'écran pour éviter l'affichage en 60Hz.
 
-### Installation de XFCE
+# Installation de XFCE
 
 [XFCE](http://www.xfce.org) est un window manager simple et propre. Il est très léger et basé sur GTK2 ce qui lui donne un look paramétrable et très joli.
 Pour l'installation, encore une fois c'est tout simple :
@@ -110,16 +110,16 @@ Il ne reste plus qu'à tester, en se connectant sous un utilisateur normal (non 
 startx
 ```
 
-### Installation d'un Display Manager (DM)
+# Installation d'un Display Manager (DM)
 
-#### Plusieurs possibilités
+## Plusieurs possibilités
 Pour l'instant notre Lenny démarre en mode texte et nous pouvons lancer l'interface graphique via startx. Il est possible de démarrer avec l'interface graphique et de se connecter graphiquement, il faut pour cela installer un Display Manager. Il en existe plusieurs :
 *	gdm : lié à Gnome, c'est pour cela que je ne l'installe pas.
 *	kdm : lié à KDE.
 *	xdm : Aucune dépendance lourde mais un peu austère.
 *	wdm : Idem
 
-#### Installation de SLiM
+## Installation de SLiM
 
 Je vais donc installer le dernier [SLiM](http://slim.berlios.de/) : 
 
@@ -129,7 +129,7 @@ apt-get install slim
 
 Tout est ensuite automatique, nous pouvons nous logger graphiquement (CTRL + ALT + F7 si la console n'a pas été changée automatiquement).
 
-### Voir aussi
+# Voir aussi
 
 *	[Applications utiles](/fr/debian/xfce-applications)
 *	[Trucs et astuces](/fr/debian/tips)

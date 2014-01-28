@@ -6,12 +6,12 @@ Robots: noindex,nofollow
 Language: en
 Tags: xfce,xorg
 */
-## Useful applications
+# Useful applications
 
-### XTerm
+## XTerm
 XFCE include [Terminal](http://www.os-cillation.com/index.php?id=42&L=5) which should already been installed.
 
-### Text editor
+## Text editor
 
 XFCE include [Mousepad](http://www.xfce.org/projects/mousepad/) which is basically Windows's Notepad. You'll have to install it :
 
@@ -19,7 +19,7 @@ XFCE include [Mousepad](http://www.xfce.org/projects/mousepad/) which is basical
 apt-get install mousepad
 ```
 
-### Archive manager
+## Archive manager
 
 There is also XFCE tools to help you deal with archives. There is [Squeeze](http://squeeze.xfce.org/) which is an archive manager and there's also a plugin to Thunar (Xfce file manager) which bring a helpful contextual menu to compress/uncompress. The following command install both tools :
 
@@ -27,7 +27,7 @@ There is also XFCE tools to help you deal with archives. There is [Squeeze](http
 apt-get install thunar-archive-plugin
 ```
 
-### Image viewer
+## Image viewer
 
 XFCE include [Ristretto](http://goodies.xfce.org/projects/applications/ristretto) which is very light image viewer. You'll have to install it :
 
@@ -41,7 +41,7 @@ If you need to modify images (not only view them), you'll need [GIMP](http://www
 apt-get install gimp
 ```
 
-### Burn CD / DVD
+## Burn CD / DVD
 
 We'll use yet another XFCE tool : [Xfburn](http://www.xfce.org/projects/xfburn/).
 
@@ -49,7 +49,7 @@ We'll use yet another XFCE tool : [Xfburn](http://www.xfce.org/projects/xfburn/)
 apt-get install xfburn
 ```
 
-### FTP client
+## FTP client
 
 I prefer [gFTP](http://gftp.seul.org/) because it's very easy and it has almost no dependancies.
 
@@ -57,7 +57,7 @@ I prefer [gFTP](http://gftp.seul.org/) because it's very easy and it has almost 
 apt-get install gftp
 ```
 
-### Internet browser
+## Internet browser
 
 Of course Firefox which is called [IceWeasel](http://fr.wikipedia.org/wiki/IceWeasel) in Debian (change fr with your language) :
 
@@ -65,7 +65,7 @@ Of course Firefox which is called [IceWeasel](http://fr.wikipedia.org/wiki/IceWe
 apt-get install iceweasel iceweasel-l10n-fr
 ```
 
-### Flash player
+## Flash player
 
 Before there was a flashplugin-nonfree package. I didn't manage to find it in Lenny so I installed it with the official installer from adobe :
 
@@ -86,7 +86,7 @@ Please enter the installation path of the Mozilla, Netscape, or Opera browser (i
 
 You'll have to answer : /usr/lib/iceweasel
 
-### Torrent
+## Torrent
 
 There is of course [Azureus](http://azureus.sourceforge.net/) (now Vuze), but I prefer something lighter, my choice is [Deluge](http://deluge-torrent.org/) :
 
@@ -94,11 +94,11 @@ There is of course [Azureus](http://azureus.sourceforge.net/) (now Vuze), but I 
 apt-get install deluge-torrent
 ```
 
-### Media player
+## Media player
 
 There are two choices.
 
-#### xfmedia
+## xfmedia
 
 Use [xfmedia](http://spuriousinterrupt.org/projects/xfmedia) based on xine :
 
@@ -106,16 +106,16 @@ Use [xfmedia](http://spuriousinterrupt.org/projects/xfmedia) based on xine :
 apt-get install xfmedia
 ```
 
-#### MPlayer
+## MPlayer
 
 Personnally I prefer to install [MPlayer](http://www.mplayerhq.hu) by compiling the sources.
 See [here](/en/debian/mplayer).
 
-### Remote administration
+## Remote administration
 
 See [here](/en/debian/nomachine) for the installation of [NoMachine](http://www.nomachine.com/).
 
-### NZB downloader
+## NZB downloader
 
 I really like [SABnzbd](http://sabnzbd.wikidot.com/). It's easy to setup and it works with [ IPV6](/[en/debian-ipv6 )].
 
@@ -137,7 +137,7 @@ deb-src http://security.debian.org/ lenny/updates main
 
 *	follow this [howto for Ubuntu](http://sabnzbd.wikidot.com/install-ubuntuserver804)
 
-### Calculator
+## Calculator
 
 I personally like [galculator](http://galculator.sourceforge.net/).
 
@@ -145,7 +145,7 @@ I personally like [galculator](http://galculator.sourceforge.net/).
 apt-get install galculator
 ```
 
-### System monitor
+## System monitor
 
 See [here](/en/debian/conky) for the installation of [Conky](http://conky.sourceforge.net/).
 

@@ -6,9 +6,9 @@ Robots: noindex,nofollow
 Language: fr
 Tags: xfce
 */
-## Installer et configurer Conky
+# Installer et configurer Conky
 
-### Inutile mais amusant
+## Inutile mais amusant
 [Conky](http://conky.sourceforge.net/) est un petit outil permettant de monitorer votre ordinateur. Il vous permet d'avoir des informations sur la santé de votre système directement sur le fond d'écran :
 *	Charge CPU 
 *	uptime
@@ -16,7 +16,7 @@ Tags: xfce
 *	Températures (CPU, GPU, HDD)
 *	Vitesse des ventilateurs
 
-### Dépendances
+## Dépendances
 
 Ce ne sont de réelles dépendances mais sans contrôle de température, conky est à mon avis un peu inutile.
 D'abord l'installation :
@@ -39,7 +39,7 @@ sensors
 hddtemp /dev/hda
 ```
 
-### Installation
+## Installation
 
 Comme toujours c'est facile :
 
@@ -59,11 +59,11 @@ Vous pouvez prendre le conky.conf donné en exmple pour créer votre propre fich
 cp /etc/conky/conky.conf ~/.conkyrc
 ```
 
-### Copie d'écran
+## Copie d'écran
 
 ![Image](/fr/debian/fondecranxfceconky.jpg){.centered}
 
-### Mon conkyrc
+## Mon conkyrc
 
 ```-
 alignment bottom_right

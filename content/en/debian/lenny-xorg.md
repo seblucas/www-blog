@@ -5,16 +5,16 @@ Robots: noindex,nofollow
 Language: en
 Tags: lenny,xfce
 */
-### Installation of Xorg
+# Installation of Xorg
 
-#### Prerequisites
+## Prerequisites
 Starting with version 7.3, Xorg detect better your hardware and so it is not mandatory anymore to reconfigure the package xserver-xorg if good tools are installed
 
 ```
 apt-get install mdetect read-edid hwinfo discover xdebconfigurator
 ```
 
-#### Installation of Xorg
+## Installation of Xorg
 
 Thanks to Debian, it's really easy :
 
@@ -28,7 +28,7 @@ Eventually, you can reconfigure it with that command :
 dpkg-reconfigure xserver-xorg
 ```
 
-#### Manual modification of Xorg.conf
+## Manual modification of Xorg.conf
 
 The configuration file of Xorg is /etc/X11/Xorg.conf (beware of the case)
 
@@ -95,7 +95,7 @@ EndSection
 
 I have a video card with two VGA output. I currently have one screen on VGA-1. To make it work properly (XV video for example) I had to disable VGA-0. My screen frequencies are also not detected, I was forced to help Xorg by giving HorizSync and VertRefresh.
 
-### Installation of XFCE
+# Installation of XFCE
 
 [XFCE](http://www.xfce.org) is a window manager. It is very light and clean, it's base on GTK2 which give it a customisable look.
 It's also easy to install :
@@ -110,16 +110,16 @@ All we need to do is to test it by logging as a normal user and to type :
 startx
 ```
 
-### Installation of a Display Manager (DM)
+# Installation of a Display Manager (DM)
 
-#### Many choices
+## Many choices
 For now, our Lenny should start in text mode and we can and we can start the GUI with startx. It's also possible to log on with a GUI, you'll nee a Display Manager. there are a lot :
 *	gdm : linked to Gnome, that's why I don't use it (a lot of dependencies).
 *	kdm : linked to KDE.
 *	xdm : not a lot of dependencies but not very pretty.
 *	wdm : ditto
 
-#### Installation of SLiM
+## Installation of SLiM
 
 I'll then install an other one : [SLiM](http://slim.berlios.de/) : 
 
@@ -129,7 +129,7 @@ apt-get install slim
 
 Everything is then already done. You can log on graphically (CTRL + ALT + F7 if the console hasn't changed automatically).
 
-### See also
+# See also
 
 *	[Useful Applications](/en/debian/xfce-applications)
 *	[Tips & Tricks](/en/debian/tips)

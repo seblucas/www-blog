@@ -6,12 +6,12 @@ Robots: noindex,nofollow
 Language: fr
 Tags: debian,iptables
 */
-## Tutoriel Iptables
+# Tutoriel Iptables
 
-### Netfilter, iptables ??
+## Netfilter, iptables ??
 Voir [Netfilter](http://fr.wikipedia.org/wiki/Special:Search?search=Netfilter)
 
-### La méthode Debian (avec un peu de sel)
+## La méthode Debian (avec un peu de sel)
 
 Dans pas mal d'autres distributions, il y a une fichier /etc/init.d/iptables qui est chargé automatiquement. Il n'y a pas de fichier de ce style dans Debian (au moins dans Etch, Lenny et Squeeze). La méthode Debian (voir [ici](http://www.debian-administration.org/articles/445)) est de charger les règles du firewall dès que le réseau est démarré (donc l'ordinateur est toujours protégé).
 
@@ -41,7 +41,7 @@ echo "iptables-restore < /etc/firewall.conf" >> /etc/network/if-up.d/iptables
 chmod +x /etc/network/if-up.d/iptables 
 ```
 
-### Mise à jour des règles du firewall
+## Mise à jour des règles du firewall
 
 Pour les mettre à jour il faut :
 *	Éditer firewall.sh pour faire les changements voulus.
@@ -54,16 +54,16 @@ iptables-save > /etc/firewall.conf
 
 *	Fini ;)
 
-### Un script simple expliqué
+## Un script simple expliqué
 
-#### Attention
+## Attention
 Ce script est peut être très mauvais, et peut exposer votre ordinateur.
 
-#### Script complet
+## Script complet
 
 Il peut être téléchargé [ici](/en/debian/iptables-script).
 
-#### Explications détaillées
+## Explications détaillées
 
 Mon ordinateur a une seule carte réseau et est derrière un routeur. C'est un simple poste de travail.
 
