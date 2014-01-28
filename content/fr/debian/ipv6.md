@@ -100,29 +100,24 @@ ip6tables -F
 ip6tables -X
 
 # Default rules
-
 ip6tables -P INPUT DROP
 ip6tables -P FORWARD DROP
 ip6tables -P OUTPUT ACCEPT
 
 # lo connection are OK
-
 ip6tables -A INPUT -i lo -j ACCEPT
 ip6tables -A FORWARD -i lo -j ACCEPT
 ip6tables -A FORWARD -o lo -j ACCEPT
 
 # We allow ssh
-
 ip6tables -A INPUT -p tcp --dport 22 -m state --state NEW -j ACCEPT
 
 # We allow ping be with a limit
-
 ip6tables -A INPUT -p ipv6-icmp -m limit --limit 30/minute -j ACCEPT
 ip6tables -A INPUT -p ipv6-icmp -j DROP
 
 
 # already TCP et UDP connections are allowed
-
 ip6tables -A INPUT -p tcp -m state --state ESTABLISHED,RELATED -j ACCEPT
 ip6tables -A INPUT -p udp -m state --state ESTABLISHED,RELATED -j ACCEPT
 

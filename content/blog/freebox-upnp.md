@@ -78,7 +78,6 @@ ml
 Il m'a semblé que Mediatomb démarre avant que la carte réseau ne soit prête. Pour corriger cela j'ai ajouté un restart du service dès que la carte réseau est prête, j'ai donc ajouté le ficher suivant dans /etc/network/if-up.d/ :
 ```-
 #!/bin/sh
-
 /etc/init.d/mediatomb restart
 ```
 Il ne reste qu'à rendre le fichier exécutable.
@@ -92,7 +91,6 @@ Les règles à mettre en place sont assez simples pour autoriser l'accès sur le
 
 ```
 # Accès upnp sur le réseau local
-
 iptables -A INPUT -s 192.168.0.0/24 -m tcp -p tcp --dport 49152 -j ACCEPT
 iptables -A INPUT -s 192.168.0.0/24 -m udp -p udp --dport 49152 -j ACCEPT
 iptables -A INPUT -s 192.168.0.0/24 -m udp -p udp --dport 1900 -j ACCEPT
@@ -108,7 +106,6 @@ J'ai été un peu bourrin dans le sens ou je fais une confiance totale à la Fre
 
 ```
 # On accepte tout ce qui vient/va de la Freebox HD
-
 iptables -A INPUT -s 212.27.40.254 -j ACCEPT
 ```
 
@@ -116,7 +113,6 @@ Pour information l'adresse IP ci dessus correspond à hd1.freebox.fr qui corresp
 
 ```
 # On accepte tout ce qui vient/va de la Freebox
-
 iptables -A INPUT -s 212.27.38.253 -j ACCEPT
 ```
 

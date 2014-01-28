@@ -11,7 +11,6 @@ Tags: multimedia,tips
 
 ```bash
 #!/bin/sh
-
 mkfifo temp.wav
 screen -d -m mplayer "$1" -vc null -vo null -ao pcm:fast:waveheader:file=temp.wav 
 ./neroAacEnc -ignorelength -q 0.30 -if temp.wav -of "$1.aac"
@@ -23,7 +22,6 @@ Sometimes mplayer is too worried about seeks and don't work so you can use ffmpe
 
 ```bash
 #!/bin/sh
-
 mkfifo temp.wav
 screen -d -m ffmpeg -i "$1" -y -acodec pcm_s16le -f wav -ar 48000 temp.wav 
 ./neroAacEnc -ignorelength -q 0.30 -if temp.wav -of "$1.aac"

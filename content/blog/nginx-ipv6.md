@@ -59,7 +59,6 @@ listen 80;
 Après un redémarrage de nginx on peut vérifier le bon fonctionnement en utilisant netstat :
 ```
 #netstat -nlp | grep nginx
-
 tcp6       0      0 :::80                   :::*                    LISTEN      1147/nginx
 ```
 

@@ -17,7 +17,6 @@ Comme je l'ai déjà dit dans les articles précédents (voir [Sauvegarder ses p
 Avec un peu de reverse engineering et avec l'API j'ai retrouvé comment reconstituer l'URL d'accès aux albums et j'ai fait un script python qui me permet de me générer une structure HTML prête à être intégrée dans une page.
 ```python
 #!/usr/bin/python
-
 # -*- coding: utf-8 -*-
 
 import gdata.photos.service

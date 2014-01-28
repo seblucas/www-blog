@@ -49,24 +49,18 @@ La Kobo ne supporte pas les carte µSD formatée sans table de partition (en mod
 Sous Linux :
 ```bash
 #adjust /sdd to be your device
-
 #check its unmounted by Nautilus
 udisks --unmount /dev/sdd1
 #wipe it
-
 dd if=/dev/zero of=/dev/sdd bs=1M
 #use full card size with first partition
-
 fdisk -H255 -S63 /dev/sdd
 #manually eject it now so kernel updates with partition
-
 #format it, in this case ext4
 mkfs.ext4 /dev/sdd1
 #stop wasting reserved space
-
 tune2fs /dev/sdd1 -m0 -O sparse_super -L "8Gb KOBO"
 #turn journal off as flash
-
 tune2fs -O ^has_journal /dev/sdd1
 ```
 

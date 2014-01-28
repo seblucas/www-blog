@@ -14,239 +14,158 @@ This is not my code / Ce n'est pas mon code
 
 ```perl
 #!/usr/bin/perl -w
-
 #
-
 ###############################################################################################################################
-
 #
 # esxi-control.pl
-
 #
 # Provides command-line control over virtual machines for ESX(i) 4, including free-licensed version.
-
 #
-
 ###############################################################################################################################
-
 #
 # Usage:
-
 #
 # List registered VMs:
-
 # esxi-control --server [hostname] --username [username] --password [password] --action list
 #
-
 # List Datastores:
 # esxi-control --server [hostname] --username [username] --password [password] --action list-datastores
-
 #
 # List Recent Tasks:
-
 # esxi-control --server [hostname] --username [username] --password [password] --action list-tasks
 #
-
 # Shutdown the ESXi Host:
 # esxi-control --server [hostname] --username [username] --password [password] --action host-shutdown
-
 #
 # Restart the ESXi Host:
-
 # esxi-control --server [hostname] --username [username] --password [password] --action host-reboot
 #
-
 # Get ESXi Host Power Management Policy:
 # esxi-control --server [hostname] --username [username] --password [password] --action host-get-power-policy
-
 #
 # Change ESXi Host Power Management Policy:
-
 # esxi-control --server [hostname] --username [username] --password [password] --action host-set-power-policy
 #              --policy [high-performance|balanced|low-power|custom]
-
 #
 # VM actions:
-
 # esxi-control --server [hostname] --username [username] --password [password]
 #              --action [poweroff|poweron|reset|restart|shutdown|suspend|
-
 #                        create-snapshot|revert-to-snapshot|delete-all-snapshots|remove-snapshot]
 #              --snapshot [snapshot-name] [--remove-child-snapshots]
-
 #              --vmname [vmname]
 #
-
 # File copy:
 # esxi-control --server [hostname] --username [username] --password [password] --action copy-file --sourcefile [filename] --destfile [filename]
-
 #
 # File delete:
-
 # esxi-control --server [hostname] --username [username] --password [password] --action delete-file --file [filename]
 #
-
 # Storage Functions:
 #
-
 # esxi-control --server [hostname] --username [username] --password [password] --action host-rescanvmfs
 # esxi-control --server [hostname] --username [username] --password [password] --action host-rescanallhba
-
 #
 # where [action] is:
-
 #   create-snapshot        to take a snapshot, named "auto-snapshot", unless
 #                          --snapshotname [name] is specified
-
 #   copy-file              to copy [sourcefile] to [destfile]
 #   delete-all-snapshots   to remove all snapshots currently on a VM
-
 #   delete-file            to delete [file] (use with caution!)
 #   list                   to list the registered VMs
-
 #   list-datastores        to list the datastores and their status
 #   list-tasks             to list the status of any current actions
-
 #   host-get-power-policy  to list the ESXi host power management policy currently in use
 #   host-reboot            to reboot the ESXi host (use with caution!)
-
 #   host-rescanallhba      to rescan all HBAs on the host
 #   host-rescanvmfs        to rescan VMFS on the host
-
 #   host-shutdown          to shutdown the ESXi host (use with caution!)
 #   host-set-power-policy  to set the ESXi host power management policy (high-performance,balanced,low-power or custom)
-
 #   poweroff               to power off a VM (forcefully)
 #   poweron                to power on or resume, a VM
-
 #   reset                  to forcefully reset a guest
 #   restart                to request guest restart (needs vmware tools installed on the guest)
-
 #   remove-snapshot        to remove the snapshot specified by name, and optionally child snaps on that
 #                          (specify --remove-child-snapshots)
-
 #   revert-to-snapshot     to revert to current snapshot,
 #                          or a named snapshot if --snapshot [snapshot-name] is specified
-
 #   shutdown               to shut down a VM gracefully (needs vmware tools installed on the guest)
 #   suspend                to suspend the VM
-
 #
 #
-
 # Examples of file paths:
 #     [PERC5-1TB] ESX-Lab/vyatta-VC5/vyatta-VC5.vmdk
-
 #     [SATA-1TB] Backups/vyatta.backup/vyatta-VC5.vmdk
 #
-
 # [vmname] is not needed for list- and host- options.
 # [destfile] is not needed for the delete-file option.
-
 #
-
 ##############################################################################################################################
-
 #
 # Version 1.29
-
 #
 # - New snapshot functionality added:
-
 #   - create-snapshot    - --snapshotname [name] can now be added to specify the snapshot name
 #   - remove-snapshot    - to remove the snapshot specified by name,
-
 #                          or optionally child snaps on that (specify --remove-child-snapshots)
 #   - revert-to-snapshot - to revert to the snapshot specified by name
-
 #
 # Note that vmware allows multiple snapshots to be created with the same name: therefore, use of this script
-
 # REQUIRES diligence in snapshot naming (on the target VM) to be sure that the intended snapshot is reverted
 # or deleted.
-
 #
 #
-
 # Version 1.28
 #
-
 # - Fixed a bug in new task progress monitoring logic that prevented the routine exiting when a task returned an error
 #   status until the task disapeared from the list
-
 #
 # Version 1.27
-
 #
 # - New task progress monitoring logic using $task_view->ViewBase::update_view_data();
-
 #
 #
-
 # Version 1.26
 #
-
 # - No fixes since last version
 # - Added host-rescanvmfs and host-rescanallhba functions
-
 #
 #
-
 # Version 1.25
 #
-
 # - No fixes since last version
 # - Consolidated coding in &controlVM()
-
 # - Added reset and restart vm actions
 #
-
 #
 # Version 1.24
-
 #
 # - No fixes since last version.
-
 # - Added host-reboot command.
 #
-
 #
 # Version 1.23
-
 #
 # Fixes since last version:
-
 #
 # - Changed error handling in monitorStatus function
-
 #
 #
-
 # Version 1.22
 #
-
 # Fixes since last version:
 #
-
 # - removed a spurious line-feed when running tasks with status checking
 #
-
 #
 # Version 1.21
-
 #
 # Fixes since last version:
-
 #
 # - corrected the hostname used by functions 
-
 # - added host power management setting functions
 # - fixed reporting of guest shutdown task
-
 #
-
 ##############################################################################################################################
-
  
  
 use strict;
@@ -262,7 +181,6 @@ use XML::Parser;
  
  
 # define command line parameters
-
  
 my %opts = (
    'action' => {
@@ -339,21 +257,18 @@ my %opts = (
 );
  
 # read and validate command-line parameters 
-
 Opts::add_options(%opts);
 Opts::parse();
 Opts::validate();
 Util::connect();
  
 # Global vars
-
 my @hostlist;
 my ($host_view,$request,$message,$response,$retval,$cookie);
 my ($action,$snapshotname,$removeChildren,$vmname,$sourcefile,$destfile,$file,$policy,$logfile,$vmid);
 my ($username,$password,$hostname);
  
 # Get command-line data
-
 $action         = Opts::get_option("action");
 $vmname         = Opts::get_option("vmname");
 $snapshotname   = Opts::get_option("snapshotname");
@@ -372,7 +287,6 @@ my $LOG_FILE = $logfile;
 print "\nesxi-control - a perl script to control VMs for free-licensed ESXi\n\n";
  
 # establish a view to the host...
-
 $host_view = Vim::find_entity_view(view_type => 'HostSystem');
  
 if ($action eq "list") {
@@ -418,23 +332,17 @@ Util::disconnect();
  
  
  
-
 ############################################################################
-
 # MAIN SUB-ROUTINES; THESE DO THE WORK
-
 ############################################################################
-
  
  
  
  
 sub listVMs {
 # Prints a list of registered VM on the screen.
-
 # Does not log it's use.
 #
-
 	my ($host_view) = @_;
 	my $vms = Vim::get_views(mo_ref_array => $host_view->vm, properties => ['name','runtime.powerState','guest.toolsRunningStatus']);
 	my $totalVMs = 0;
@@ -450,10 +358,8 @@ sub listVMs {
  
 sub listDataStores {
 # Prints a list of datastores and their status
-
 # Does not log it's use.
 #
-
 	my ($host_view) = @_;
  
 	my $DSs = Vim::get_views(mo_ref_array => $host_view->datastore);
@@ -477,10 +383,8 @@ sub listDataStores {
  
 sub listTasks {
 # Prints a list of active tasks and their status
-
 # Does not log it's use.
 #
-
 	my ($host_view) = @_;
  
 	my $status = 'running';
@@ -513,7 +417,6 @@ sub listTasks {
  
 sub hostShutdown {
 # shuts down the ESXi host.  The host will use the VM startup and shutdown configuration per the vSphere
-
 # client.
  
 	my ($host_view) = @_;
@@ -555,7 +458,6 @@ sub hostShutdown {
  
 sub hostReboot {
 # Reboots the ESXi host.  The host will use the VM startup and shutdown configuration per the vSphere
-
 # client.
  
 	my ($host_view) = @_;
@@ -597,7 +499,6 @@ sub hostReboot {
  
 sub hostGetPerfData {
 # lists VM performance data
-
 # doesn't log it as a read-only event
  
 	my ($host_view) = @_;
@@ -616,7 +517,6 @@ sub hostGetPerfData {
  
 sub hostGetPowerPolicy {
 # lists the power management policy currently in use
-
 # doesn't log it as a read-only event
  
 	my ($host_view) = @_;
@@ -631,7 +531,6 @@ sub hostGetPowerPolicy {
  
 sub hostSetPowerPolicy {
 # sets the power management policy currently in use
-
  
 	my ($host_view) = @_;
  
@@ -668,7 +567,6 @@ sub hostSetPowerPolicy {
  
 sub fileAction {
 # Performs file actions - copy and delete
-
  
 	my ($host_view) = @_;
  
@@ -780,13 +678,10 @@ sub fileAction {
  
 sub controlVM {
 # Performs the specified control action on the named VM.  Logs this fact.
-
 #
 # Cycles through the registered VMs to try an match against the specified name
-
 # to pull out the VMID.
 #
-
 	my ($host_view) = @_;
  
 	my $vms = Vim::get_views(mo_ref_array => $host_view->vm, properties => ['name','runtime.powerState','guest.toolsRunningStatus','snapshot']);
@@ -994,16 +889,11 @@ sub hostRescan {
  
  
  
-
 #############################################################
-
 #
 # Snapshot tree trawler follows
-
 #
-
 #############################################################
-
  
 sub findSnapShotID {
 	my ($vmsnapshot, $searchstr) = @_;
@@ -1043,16 +933,11 @@ sub checkSnaps {
  
  
  
-
 #############################################################
-
 #
 # Functions to provide the required SOAP requests
-
 #
-
 #############################################################
-
  
  
 sub sendRequest {
@@ -1512,16 +1397,11 @@ sub monitorStatus {
  
  
  
-
 #####################################################################
-
 #
 # Helpers - cookie grab etc
-
 #
-
 #####################################################################
-
  
  
  
@@ -1564,7 +1444,6 @@ sub getTaskKey {
 }
  
 # Subroutine to process the input file
-
 sub processFile {
         my ($hostlist) =  @_;
         my $HANDLE;
@@ -1600,22 +1479,16 @@ sub TrimSpaces {
  
  
  
-
 #####################################################################
-
 #
 # Helpers - generic code eg log writing, get date
-
 #
-
 #####################################################################
-
  
  
  
 sub writelog {
 # Appends specified text to the log file
-
 # also displays on screen
 	print "@_\n";
 	open (LOGFILE, ">>$LOG_FILE");
@@ -1664,13 +1537,9 @@ sub commify {
 } 
  
  
-
 ####################
-
 ## END OF SCRIPT
-
 ####################
-
 ```
 
 

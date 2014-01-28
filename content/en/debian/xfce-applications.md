@@ -124,7 +124,6 @@ There is no all-in-one package for debian so you'll have to install it the hard 
 
 ```
 #
-
 # deb cdrom:[Debian GNU/Linux testing _Lenny_ - Official Beta i386 NETINST Binary-1 20080705-09:34]/ lenny main
 
 #deb cdrom:[Debian GNU/Linux testing _Lenny_ - Official Beta i386 NETINST Binary-1 20080705-09:34]/ lenny main

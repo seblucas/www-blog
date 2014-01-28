@@ -71,19 +71,14 @@ et pour l'arrêter :
 J'ai créé un script simple à mettre dans /etc/init.d/pyload :
 ```bash
 #!/bin/sh
-
 ### BEGIN INIT INFO
 # Provides: pyload
-
 # Required-Start: $all
 # Required-Stop:
-
 # Default-Start: 2 3 4 5
 # Default-Stop: 0 1 6
-
 # Short-Description: start pyLoad
 # Description: start pyLoad
-
 ### END INIT INFO
 
 case "$1" in

@@ -14,13 +14,10 @@ See : http://ivan.kartik.sk/oracle/install_ora10gR2_redhat.html
 The only thing you have to change is the startup scripts that does not correctly stop the service. With Centos it seems that the Kill script is not called if there is no file in /var/lock/subsys/. Instead you can use this one : 
 ```bash
 #!/bin/bash
-
 #
 # oracle Init file for starting and stopping
-
 # Oracle Database. Script is valid for 10g and 11g versions.
 #
-
 # chkconfig: 345 99 01
 # description: Oracle Database startup script
 

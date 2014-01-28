@@ -38,7 +38,6 @@ mkdir svn
 
 ```bash
 #!/bin/bash
-
 cd svn-old
 dirList=$(find . -maxdepth 1 -type d)
 cd ..

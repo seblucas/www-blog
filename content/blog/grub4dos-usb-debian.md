@@ -75,10 +75,8 @@ Il faut bien sur ajouter le fichier /geexbox-2.0-alpha2-en.i386.eglibc.iso à la
 
 ```-
 # This is a sample menu.lst file. You should make some changes to it.
-
 # The old install method of booting via the stage-files has been removed.
 # Please install GRLDR boot strap code to MBR with the bootlace.com
-
 # utility under DOS/Win9x or Linux.
 
 color blue/green yellow/red white/magenta white/magenta

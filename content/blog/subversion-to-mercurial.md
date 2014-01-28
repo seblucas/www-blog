@@ -21,7 +21,6 @@ aptitude install python-subversion
 il faut aussi activer l'extension convert en modifiant le fichier /etc/mercurial/hgrc.d/hgext.rc et en décommantant la ligne 
 ```
 #hgext.convert =
-
 ```
 
 ## Lancement de la conversion : 1er essai
@@ -41,7 +40,6 @@ svnadmin create svn-mirror
 *	Création du fichier svn-mirror/hooks/pre-revprop-change (avec vi ou autre)
 ```
 #!/bin/sh
-
 exit 0
 ```
 *	Rendre le fichier précédent exécutable

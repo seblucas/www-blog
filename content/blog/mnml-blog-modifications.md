@@ -21,7 +21,6 @@ Toutes ces modifications ont été faites dans le fichier user/screen.css.
 J'ai voulu ajouté une légère ombre bleue autour de la barre de navigation horizontale (pour rappeler la couleur des liens et des titres) : 
 ```css
 #tmpl_header_nav
-
 {
   -moz-box-shadow: 0 0 4px 1px #2B85A2;
   -webkit-box-shadow: 0 0 4px 1px #2B85A2;
@@ -63,7 +62,6 @@ display:none;
 }
 
 #tmpl_header_nav_search
-
 {
 display:none;
 }
@@ -78,7 +76,6 @@ margin: 0;
 }
 
 #tmpl_header #tmpl_header_nav ul li.level1 a, #tmpl_header #tmpl_header_nav ul li.level1 a:visited
-
 {
   padding: 10px 5px;
 }

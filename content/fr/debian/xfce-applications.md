@@ -130,7 +130,6 @@ Il n'y a pas de paquets tout fait, il faut donc l'installer "à l'ancienne"  :
 
 ```
 #
-
 # deb cdrom:[Debian GNU/Linux testing _Lenny_ - Official Beta i386 NETINST Binary-1 20080705-09:34]/ lenny main
 
 #deb cdrom:[Debian GNU/Linux testing _Lenny_ - Official Beta i386 NETINST Binary-1 20080705-09:34]/ lenny main

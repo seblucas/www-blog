@@ -81,10 +81,8 @@ profile-desc="Profile Freebox"
 
 [default]
 # Write your default config options here!
-
 #vo=gl:yuv=2:rectangle=1:force-pbo:lscale=2
 #vo=gl:yuv=2:rectangle=1:force-pbo
-
 #vo=gl:rectangle=1:force-pbo:slice-height=0:swapinterval=2
 vo=xv
 ao=alsa:device=spdif
@@ -117,13 +115,10 @@ fontconfig=1
 subfont-autoscale=1
 subfont-osd-scale=4.1
 #subfont−text−scale=14
-
 #subfont-blur=2
 #subfont-encoding=iso-8859-15
-
 utf8=1
 #subcp=iso-8859-15
-
 spuaa=20
 ass-color=ffffff10
 ass-border-color=000000A0

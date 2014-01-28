@@ -182,7 +182,6 @@ mkdir /var/tmp/nginx
 NGINX_CONFIG="/etc/nginx/nginx.conf" ################################
 
 #. /etc/conf.d/nginx ###############################
-
 . /etc/rc.conf
 . /etc/rc.d/functions
 
@@ -274,7 +273,6 @@ cp /usr/share/php-apc/apc.php /var/www
 extension=apc.so
 apc.shm_size=16M
 #apc.stat=0
-
 ```
 *	Redémarrage de php-fpm
 ```bash

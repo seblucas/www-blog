@@ -82,7 +82,6 @@ iptables -X
 
 ```
 # Default rules
-
 iptables -P INPUT DROP
 iptables -P FORWARD DROP
 iptables -P OUTPUT ACCEPT
@@ -100,7 +99,6 @@ I don't know if this is needed but it can't hurt. Every process in my computer a
 
 ```
 #Samba access but only in the LAN
-
 iptables -A INPUT -s 192.168.0.0/24 -p udp -m udp --dport 137 -j ACCEPT
 iptables -A INPUT -s 192.168.0.0/24 -p udp -m udp --dport 138 -j ACCEPT
 iptables -A INPUT  -m state --state NEW -m tcp -p tcp -s 192.168.0.0/24 --dport 139 -j ACCEPT
@@ -111,7 +109,6 @@ It's getting interesting. Even if I'm behind a router with no port forwarding so
 
 ```
 # We accept incoming connections on the torrent port
-
 iptables -A INPUT -p tcp --dport 34567 -m state --state NEW -j ACCEPT
 ```
 
@@ -119,7 +116,6 @@ You need to open the port you're using for torrent (here 34567).
 
 ```
 # SSH
-
 iptables -A INPUT -p tcp --dport 22 -m state --state NEW -m recent --set --name SSH -j ACCEPT
 iptables -A INPUT -p tcp --dport 22 -m recent --update --seconds 60 --hitcount 4 --rttl --name SSH -j DROP
 ```
@@ -128,7 +124,6 @@ About ssh it's basically like torrent. But to protect myself against scripts kid
 
 ```
 # Ping
-
 iptables -A INPUT -p icmp -m limit --limit 30/minute -j ACCEPT
 iptables -A INPUT -p icmp -j DROP
 ```
@@ -137,7 +132,6 @@ Like with ssh, there's a limit if 30 ping within a minute.
 
 ```
 # PPTP VPN
-
 iptables -A INPUT -j ACCEPT -p tcp --sport 1723
 iptables -A INPUT -j ACCEPT -p gre
 ```
@@ -146,18 +140,15 @@ I use [pptpclient](http://pptpclient.sourceforge.net/) to connect to a Windows P
 
 ```
 # rtsp only on LAN
-
 iptables -A INPUT -s 192.168.0.0/24 -m tcp -p tcp --dport 554 -j ACCEPT
 iptables -A INPUT -s 192.168.0.0/24 -m udp -p udp --dport 554 -j ACCEPT
 
 # upnp A/V only on LAN
-
 iptables -A INPUT -s 192.168.0.0/24 -m tcp -p tcp --dport 49200 -j ACCEPT
 iptables -A INPUT -s 192.168.0.0/24 -m udp -p udp --dport 49200 -j ACCEPT
 iptables -A INPUT -s 192.168.0.0/24 -m udp -p udp --dport 1900 -j ACCEPT
 
 # FTP only on LAN
-
 iptables -A INPUT  -m state --state NEW -m tcp -p tcp -s 192.168.0.0/24 --dport
 21 -j ACCEPT
 iptables -A INPUT  -m state --state NEW -m tcp -p tcp -s 192.168.0.0/24 --dport
@@ -168,7 +159,6 @@ Here are some other rules. that's basically the same thing over and over. The re
 
 ```
 # We allow TCP and UDP connections already established to enter
-
 iptables -A INPUT -p tcp -m state --state ESTABLISHED,RELATED -j ACCEPT
 iptables -A INPUT -p udp -m state --state ESTABLISHED,RELATED -j ACCEPT
 ```

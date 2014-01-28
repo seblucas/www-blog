@@ -21,7 +21,6 @@ aptitude install git-core
 il faut aussi activer l'extension convert en modifiant le fichier /etc/mercurial/hgrc.d/hgext.rc et en décommantant la ligne 
 ```
 #hgext.convert =
-
 ```
 
 ## Lancement de la conversion : 1er essai

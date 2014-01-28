@@ -75,7 +75,6 @@ Vous pouvez vous connecter avec l'utilisateur svn
 Le principe d'une connexion svn+ssh est bien sur de lancer une connexion ssh et ensuite via celle ci de lancer svnserve avec certains paramètres. Comme je savais ce que je voulais, j'ai utilisé une méthode de sioux : lors d'une connexion par svn+ssh le profile n'est pas exécuté donc /opt/bin (lieu ou sont stockés les éléments installés via ipkg) n'est pas dans le path. J'ai donc créé un petit script dans /usr/bin :
 ```bash
 #!/bin/ash
-
 /opt/bin/svnserve -r /volume1 $@
 ```
 Quelques explications : 

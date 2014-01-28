@@ -19,16 +19,12 @@ Les changements sont suivis de #.
 #!/bin/sh
 
 ### BEGIN INIT INFO
-
 # Provides:       php5-fcgi
 # Required-Start: $remote_fs $syslog
-
 # Required-Stop:  $remote_fs $syslog
 # Default-Start:  2 3 4 5
-
 # Default-Stop:   0 1 6
 # Short-Description: PHP5 FastCgi Spawned processes
-
 ### END INIT INFO
 
 COMMAND=/usr/bin/spawn-fcgi
@@ -48,7 +44,6 @@ start() {
     export PHP_FCGI_MAX_REQUESTS PHP_FCGI_CHILDREN
     $COMMAND -s $SOCKET -u $USER -g $GROUP -f $PHPCGI -P $PIDFILE ###############################
 #    $COMMAND -a $ADDRESS -p $PORT -u $USER -g $GROUP -f $PHPCGI -P $PIDFILE
-
 }
 
 stop() {
@@ -84,7 +79,6 @@ location ~ \.php$ {
                 include /etc/nginx/fastcgi_params;
                 fastcgi_param   SCRIPT_FILENAME  $document_root$fastcgi_script_name;
 #               fastcgi_pass    127.0.0.1:9000;
-
                 fastcgi_pass    unix:/tmp/fcgi.sock; #####################################
         }
 ```

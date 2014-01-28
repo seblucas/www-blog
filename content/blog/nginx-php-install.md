@@ -44,16 +44,12 @@ Ce démon est à créer dans /etc/init.d
 #!/bin/sh
 
 ### BEGIN INIT INFO
-
 # Provides:       php5-fcgi
 # Required-Start: $remote_fs $syslog
-
 # Required-Stop:  $remote_fs $syslog
 # Default-Start:  2 3 4 5
-
 # Default-Stop:   0 1 6
 # Short-Description: PHP5 FastCgi Spawned processes
-
 ### END INIT INFO
 
 COMMAND=/usr/bin/spawn-fcgi

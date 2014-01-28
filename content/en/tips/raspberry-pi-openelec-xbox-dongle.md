@@ -71,7 +71,6 @@ chmod +x /storage/.config/autostart.sh
 Don't forget to paste these lines in the autoexec : 
 ```
 #!/bin/sh
-
 killall -9 lircd
 /usr/sbin/lircd --driver=default --device=/dev/lirc0 --uinput \
 --output=/var/run/lirc/lircd \

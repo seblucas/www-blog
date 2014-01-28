@@ -12,14 +12,12 @@ Tags: tips
 *	Localized day of week : 
 ```
 #!/bin/sh
-
 DOW=$(date +"%a")
 echo $DOW
 ```
 *	In english :
 ```
 #!/bin/sh
-
 LANG=C DOW=$(date +"%a")
 echo $DOW
 ```
