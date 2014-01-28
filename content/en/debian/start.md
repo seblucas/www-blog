@@ -30,11 +30,11 @@ Beside of the classic desktop use, I had many dedicated usage of Debian :
 
 [Debian & IPV6](/en/debian/ipv6)
 
-[Link](/en/debian/lenny-install)
+[Install Debian Lenny](/en/debian/lenny-install)
 
 [Automount with XFCE and Lenny](/en/debian/lenny-xfce-automount)
 
-[Link](/en/debian/lenny-xorg)
+[Installation of Xorg](/en/debian/lenny-xorg)
 
 [Compiler MPlayer](/en/debian/mplayer)
 

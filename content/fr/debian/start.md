@@ -27,9 +27,9 @@ En plus de l'usage classique, j'ai eu des usages multiples de mes différents or
 
 [Debian & IPV6](/fr/debian/ipv6)
 
-[Link](/fr/debian/lenny-install)
+[Installer Debian Lenny](/fr/debian/lenny-install)
 
-[Link](/fr/debian/lenny-xorg)
+[Installation de Xorg](/fr/debian/lenny-xorg)
 
 [Compilation de MPlayer](/fr/debian/mplayer)
 
