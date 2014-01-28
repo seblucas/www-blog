@@ -1,4 +1,5 @@
 /*
+Title: Installation of Xorg
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
