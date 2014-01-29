@@ -217,7 +217,7 @@ blockquote {
 
 #header {
 	background: #2EAE9B;
-	padding: 80px 0;
+	padding: 40px 0;
 	margin-bottom: 80px;
 	color: #afe1da;
 }
@@ -228,9 +228,13 @@ blockquote {
 	font-weight: bold;
 	margin: 0; 
 	text-align: center;
+	padding: 20px 0;
+}
+#header .logo {
+	text-align: center;
 }
 #header img { 
-	text-align: center;
+	padding: 20px 0;
 }
 #header .nav {
 	text-align: center;
