@@ -77,7 +77,7 @@ class Pico {
             $pages = $this->cache->fetch ("pages");
         }
 		if (!$pages) {
-			$pages = $this->get_pages($settings['base_url'], $settings['pages_order_by'], $settings['pages_order'], $settings['excerpt_length']);
+			$pages = $this->get_pages($this->base_url(), $settings['pages_order_by'], $settings['pages_order'], $settings['excerpt_length']);
             if (!empty ($this->cache)) {
                 $this->cache->save ("pages", $pages, 300);
             }
@@ -107,7 +107,7 @@ class Pico {
 			'base_dir' => rtrim(ROOT_DIR, '/'),
 			'base_url' => $settings['base_url'],
 			'theme_dir' => THEMES_DIR . $settings['theme'],
-			'theme_url' => $settings['base_url'] .'/'. basename(THEMES_DIR) .'/'. $settings['theme'],
+			'theme_url' => $this->base_url() .'/'. basename(THEMES_DIR) .'/'. $settings['theme'],
 			'site_title' => $settings['site_title'],
 			'meta' => $meta,
 			'content' => $content,
@@ -315,7 +315,7 @@ class Pico {
 	protected function base_url()
 	{
 		global $config;
-		if(isset($config['base_url']) && $config['base_url']) return $config['base_url'];
+		if(isset($config['base_url']) && $config['base_url']) return rtrim ($config['base_url'], '/');
 
 		$url = '';
 		$request_url = (isset($_SERVER['REQUEST_URI'])) ? $_SERVER['REQUEST_URI'] : '';
