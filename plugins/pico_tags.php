@@ -129,7 +129,7 @@ class Pico_Tags {
 				if (file_exists($file_name)) {
 					// append to pages array only if tags match, or if it's index page
 					$tags = $page ['tags'];
-					if (count($tags) > 0 && (in_array($this->current_tag, $tags) || $is_index)) {
+					if (in_array($this->current_tag, $tags) || $is_index) {
 						array_push($new_pages, $page);
 					}
 				}

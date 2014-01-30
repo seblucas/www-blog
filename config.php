@@ -22,6 +22,7 @@ $config['custom_setting'] = 'Hello'; 	// Can be accessed by {{ config.custom_set
 
 */
 
+$config['base_url'] = '/';
 $config['site_title'] = 'Technology and Me';
 $config['theme'] = 'default';
 $config['pages_order_by'] = 'date';
