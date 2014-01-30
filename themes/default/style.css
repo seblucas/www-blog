@@ -228,14 +228,12 @@ blockquote {
 	font-weight: bold;
 	margin: 0; 
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.8em;
 	padding: 20px 0;
-}
-#header .logo {
-	text-align: center;
 }
 #header img { 
-	padding: 20px 0;
+	padding: 20px 10px;
+	vertical-align: middle; 
 }
 #header .nav {
 	text-align: center;
