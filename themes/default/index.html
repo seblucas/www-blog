@@ -54,6 +54,13 @@
 {% endif %}
 {% endfor %}
 {% else %}
+            {% for lang in meta.languages %}
+                {% if lang.url == "#" %}
+                    <span>{{ lang.name }}</span>
+                {% else %}
+                    <a href="{{ lang.url }}">{{ lang.name }}</a>
+                {% endif %}
+            {% endfor %}
 		    <div class="post">
 		        {% spaceless %}{{ content }}{% endspaceless %}
 		    </div>
