@@ -129,6 +129,9 @@ class Pico_Tags {
 				if (file_exists($file_name)) {
 					// append to pages array only if tags match, or if it's index page
 					$tags = $page ['tags'];
+					if (is_null ($tags)) {
+						$tags = array ();
+					}
 					if (in_array($this->current_tag, $tags) || $is_index) {
 						array_push($new_pages, $page);
 					}
@@ -156,7 +159,7 @@ class Pico_Tags {
 		}
 		else {
 			// add tags to post meta
-			$twig_vars["meta"] = array_merge($twig_vars["meta"], $this->current_meta);
+			$twig_vars["meta"]["tags"] = $this->current_meta ["tags"];
 		}
 	}
 
