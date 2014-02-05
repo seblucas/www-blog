@@ -93,6 +93,11 @@ class Pico_Tags {
 		// display only pages with tags when visiting index page
 		// this adds possiblity to distinct tagged pages (e.g. blog posts),
 		// and untagged (e.g. static pages like "about")
+
+		if (is_null($pages) || count($pages) == 0)
+		{
+			return;
+		}
 		
 		$this->tag_cloud = array ();
 		$tagList = array ();
