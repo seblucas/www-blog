@@ -26,17 +26,31 @@ class Pico_Search {
 	
 	public function get_pages(&$pages, &$current_page, &$prev_page, &$next_page){
 		if($this->is_search){
+			// Execute grep
+			$search = $this->search;
+			exec ("grep -cRi '{$search}' content/* | grep :[1-9]", $output);
+			$results = array ();
+
+			// Get all the files found by grep and put them in an array
+			foreach ($output as $out) {
+				list ($file, $number) = split (":", $out);
+				$file=str_replace (".md", "", substr ($file, 7));
+				$results [$file] = $number;
+			}
+
 			$new_pages = array ();
 			foreach ($pages as $page) {
-				if (preg_match ("/" . $this->search . "/", $page["content"])) {
+				// if the page was found by grep then keep it
+				if (array_key_exists ($page["url"], $results)) {
 					array_push($new_pages, $page);
 				}
+
 			}
 
 			$pages = $new_pages;
 		}
 	}
-	
+
 	public function before_render(&$twig_vars, &$twig) {
 		if ($this->is_search) {
 			// override 404 header
