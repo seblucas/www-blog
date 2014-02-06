@@ -23,19 +23,37 @@ class Pico_Search {
 			$this->search = $matches [1];
 		}
 	}
-	
+
 	public function get_pages(&$pages, &$current_page, &$prev_page, &$next_page){
 		if($this->is_search){
 			// Execute grep
 			$search = $this->search;
-			exec ("grep -cRi '{$search}' content/* | grep :[1-9]", $output);
-			$results = array ();
+			$results = NULL;
+			foreach (split (" ", $this->search) as $search) {
+				exec ("grep -cRi '{$search}' content/* | grep :[1-9]", $output);
 
-			// Get all the files found by grep and put them in an array
-			foreach ($output as $out) {
-				list ($file, $number) = split (":", $out);
-				$file=str_replace (".md", "", substr ($file, 7));
-				$results [$file] = $number;
+				// Get all the files found by grep and put them in an array
+				$current_results = array ();
+				foreach ($output as $out) {
+					list ($file, $number) = split (":", $out);
+					$file=str_replace (".md", "", substr ($file, 7));
+					$current_results [$file] = $number;
+				}
+				if (is_null ($results)) {
+					$results = $current_results;
+					continue;
+				} else {
+					$intersect = array_intersect(array_keys($results), array_keys($current_results));
+					if (count($intersect) == 0) {
+						$pages = array ();
+						return;
+					}
+					$new_results = array ();
+					foreach ($intersect as $url) {
+						$new_results [$url] = $results [$url] + $current_results [$url];
+					}
+					$results = $new_results;
+				}
 			}
 
 			$new_pages = array ();
