@@ -29,7 +29,8 @@ class Pico_Search {
 			// Execute grep
 			$search = $this->search;
 			$results = NULL;
-			foreach (split (" ", $this->search) as $search) {
+			foreach (split ("\+", $this->search) as $search) {
+				$output = NULL; // This initialization seems important
 				exec ("grep -cRi '{$search}' content/* | grep :[1-9]", $output);
 
 				// Get all the files found by grep and put them in an array
