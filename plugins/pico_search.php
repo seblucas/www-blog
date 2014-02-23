@@ -29,14 +29,14 @@ class Pico_Search {
 			// Execute grep
 			$search = $this->search;
 			$results = NULL;
-			foreach (split ("\+", $this->search) as $search) {
+			foreach (explode (" ", $this->search) as $search) {
 				$output = NULL; // This initialization seems important
 				exec ("grep -cRi '{$search}' content/* | grep :[1-9]", $output);
 
 				// Get all the files found by grep and put them in an array
 				$current_results = array ();
 				foreach ($output as $out) {
-					list ($file, $number) = split (":", $out);
+					list ($file, $number) = explode (":", $out);
 					$file=str_replace (".md", "", substr ($file, 7));
 					$current_results [$file] = $number;
 				}
