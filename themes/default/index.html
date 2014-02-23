@@ -2,19 +2,19 @@
 <html lang="en" class="no-js">
 <head>
 	<meta charset="utf-8" />
-	
+
 	<title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
 {% if meta.description %}
-	<meta name="description" content="{{ meta.description }}"> 
+	<meta name="description" content="{{ meta.description }}">
 {% endif %}{% if meta.robots %}
 	<meta name="robots" content="{{ meta.robots }}">
 {% endif %}
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css" />
 	<link rel="stylesheet" href="{{ theme_url }}/style.css" type="text/css" />
 	<link rel="stylesheet" href="{{ theme_url }}/prism.css" type="text/css" />
-	
+
 	<script src="{{ theme_url }}/scripts/modernizr-2.6.1.min.js"></script>
 </head>
 <body>
@@ -43,13 +43,13 @@
 {% if page.date and not(page.url == base_url~'/') %}
 		    <div class="post">
 		        <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-		        <p class="meta">Published {{ page.date_formatted }} // 
+		        <p class="meta">Published {{ page.date_formatted }} //
                     <!-- display single page tags with proper urls -->
                     {% for tag in page.tags %}
                         <a href="{{ base_url }}tag/{{ tag }}">#{{ tag }}</a>
                     {% endfor %}
                 </p>
-		        <p class="excerpt">{{ page.excerpt }}</p>                
+		        <p class="excerpt">{{ page.excerpt }}</p>
 		    </div>
 {% endif %}
 {% endfor %}
@@ -101,13 +101,13 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    
+
 {% endif %}
 
-        
+
 		</div>
 	</section>
-	
+
 	<footer id="footer">
 		<div class="inner">
             <div class=footer-column">
