@@ -18,7 +18,7 @@ class Pico_Search {
 
 	public function request_url(&$url)
 	{
-		if(preg_match ("/search\/(.*)/", $url, $matches)) {
+		if(preg_match ("/search\?query\=(.*)/", $url, $matches)) {
 			$this->is_search = true;
 			$this->search = $matches [1];
 		}
