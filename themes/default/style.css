@@ -89,7 +89,6 @@ input,
 textarea,
 select {
 	padding: 5px;
-	font: 400 1em Verdana, Sans-serif;
 	color: #666;
 	background: #fff;
 	border: 1px solid #999999;
@@ -235,7 +234,6 @@ blockquote {
 	vertical-align: middle; 
 }
 #header .nav {
-	text-align: right;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -244,6 +242,16 @@ blockquote {
 #header .nav a {
 	font-weight: bold;
 	margin-left: 20px;
+}
+
+#menu {
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+#search input {
+	margin: 0;
 }
 
 #footer {
