@@ -250,19 +250,6 @@ h1 img {
 	position: relative;
 }
 
-.search-btn {
-	-webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    background-color: transparent;
-    border: none;
-    font-size: 1.2em;
-    margin: 0;
-    padding: 0;
-    text-rendering:auto;
-}
-
 .search-glyph:before {
 	content : "\26B2";
 }
