@@ -34,9 +34,9 @@ body {
 hr {
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 }
 
@@ -71,7 +71,7 @@ label, input[type=button], input[type=submit], button {
 	cursor: pointer;
 }
 
-/* make buttons play nice in IE:	 
+/* make buttons play nice in IE:
 		www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
 button {
 	width: auto;
@@ -225,15 +225,15 @@ blockquote {
 #header h1 a:hover,
 #header a { color: #fff; }
 #header a:hover { color: #afe1da; }
-#header h1 { 
+#header h1 {
 	font-weight: bold;
-	margin: 0; 
+	margin: 0;
 	font-size: 1.8em;
 	padding: 10px 0;
 }
-h1 img { 
+h1 img {
 	padding: 20px 10px;
-	vertical-align: middle; 
+	vertical-align: middle;
 }
 #header .nav {
 	list-style: none;
