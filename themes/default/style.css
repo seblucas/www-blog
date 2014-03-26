@@ -337,6 +337,8 @@ h1 img {
 	float: right;
 }
 
+/* Media queries */
+
 @media (min-width:1200px)
 {
 	#header h1 {
