@@ -122,6 +122,10 @@ class Pico {
         $this->run_hooks('before_render', array(&$twig_vars, &$twig, &$template));
         $output = $twig->render($template .'.html', $twig_vars);
         $this->run_hooks('after_render', array(&$output));
+        $expires = 60*60*1; // One hour
+        header("Pragma: public");
+        header("Cache-Control: maxage=".$expires);
+        header('Expires: ' . gmdate('D, d M Y H:i:s', time()+$expires) . ' GMT');
         echo $output;
     }
 
