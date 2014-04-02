@@ -28,4 +28,4 @@ Suite à un crash de la clé USB connectée au Dockstar Je suis maintenant hébe
 
 ## Me contacter
 
-Je suis joignable par mail : [sebastien@slucas.fr](/sebastien@slucas.fr) (english accepted of course)
+Je suis joignable par mail : [Sébastien](mailto:sebastien__@__slucas__.__fr) (english accepted of course). Enlever les caractères en trop / Remove unneeded characters.
