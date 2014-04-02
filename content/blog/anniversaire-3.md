@@ -22,4 +22,4 @@ Les RSS vont certainement poser quelques petits problèmes dans les prochains jo
 
 ## Bilan
 
-Un blog c'est prenant, je pense avoir réglé les détails qui me prenait du temps à chaque post. Je détaillerai le principe du site très vite.
+Un blog c'est prenant, je pense avoir réglé les détails qui me prenaient le plus de temps à chaque post. Je détaillerai le principe du site très vite.
