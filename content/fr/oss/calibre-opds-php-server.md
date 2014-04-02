@@ -86,7 +86,7 @@ Je vérifie ce [thread MobileRead](http://www.mobileread.com/forums/showthread.p
 
 Ce projet est open source (GPL v2) et est accessible via [GitHub](https://github.com/seblucas/cops). Si vous voulez contribuer, vous pouvez envoyer des merge request via GitHub ou au pire des patches par mail (dans le bas de [cette page](/user/sebastien_lucas)).
 
-Le fichier est ici ([Liste des changements](/fr/oss/calibre-opds-php-server-changelog)):
+Le fichier est ici ([Liste des changements](https://github.com/seblucas/cops/releases)):
 
 [cops-0.9.0.zip](https://github.com/seblucas/cops/releases/download/0.9.0/cops-0.9.0.zip)
 
