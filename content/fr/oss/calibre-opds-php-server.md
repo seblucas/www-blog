@@ -88,27 +88,7 @@ Ce projet est open source (GPL v2) et est accessible via [GitHub](https://github
 
 Le fichier est ici ([Liste des changements](/fr/oss/calibre-opds-php-server-changelog)):
 
-[cops-0.9.0.zip](/en/oss/cops-0.9.0.zip)
+[cops-0.9.0.zip](https://github.com/seblucas/cops/releases/download/0.9.0/cops-0.9.0.zip)
 
-Anciennes versions :
+Vous pouvez télécharger les anciennes version [ici](https://github.com/seblucas/cops/releases)
 
-*	[cops-0.6.2.zip](/en/oss/cops-0.6.2.zip)
-*	[cops-0.6.1.zip](/en/oss/cops-0.6.1.zip)
-*	[cops-0.6.0.zip](/en/oss/cops-0.6.0.zip)
-*	[cops-0.5.0.zip](/en/oss/cops-0.5.0.zip)
-*	[cops-0.4.0.zip](/en/oss/cops-0.4.0.zip)
-*	[cops-0.3.4.zip](/en/oss/cops-0.3.4.zip)
-*	[cops-0.3.3.zip](/en/oss/cops-0.3.3.zip)
-*	[cops-0.3.2.zip](/en/oss/cops-0.3.2.zip)
-*	[cops-0.3.1.zip](/en/oss/cops-0.3.1.zip)
-*	[cops-0.3.0.zip](/en/oss/cops-0.3.0.zip)
-*	[cops-0.2.3.zip](/en/oss/cops-0.2.3.zip)
-*	[cops-0.2.2.zip](/en/oss/cops-0.2.2.zip)
-*	[cops-0.2.1.zip](/en/oss/cops-0.2.1.zip)
-*	[cops-0.2.0.zip](/en/oss/cops-0.2.0.zip)
-*	[cops-0.1.1.zip](/en/oss/cops-0.1.1.zip)
-*	[cops-0.1.0.zip](/en/oss/cops-0.1.0.zip)
-*	[cops-0.0.4.zip](/en/oss/cops-0.0.4.zip)
-*	[cops-0.0.3.zip](/en/oss/cops-0.0.3.zip)
-*	[cops-0.0.2.zip](/en/oss/cops-0.0.2.zip)
-*	[cops-0.0.1.zip](/en/oss/cops-0.0.1.zip)
