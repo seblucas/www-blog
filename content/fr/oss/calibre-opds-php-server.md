@@ -82,6 +82,12 @@ Vérifiez le [Wiki](https://github.com/seblucas/cops/wiki).
 
 Je vérifie ce [thread MobileRead](http://www.mobileread.com/forums/showthread.php?p=1988610) régulièrement (si la langue de Shakespeare ne vous rebute pas). Sinon il reste le mail (dans le bas de [cette page](/user/sebastien_lucas)).
 
+## Envie de m'aider ?
+
+Si vous aimez COPS et/ou que vous avez envie de m'aider, vous pouvez [m'offrir un verre](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9CNHDRJ6GX2Z4). Cela ne sera utilisé que pour le bien !
+
+J'ai notamment envie d'acheter une Kindle Paperwhite d'occasion pour corriger l'affichage de COPS.
+
 ## Téléchargement 
 
 Ce projet est open source (GPL v2) et est accessible via [GitHub](https://github.com/seblucas/cops). Si vous voulez contribuer, vous pouvez envoyer des merge request via GitHub ou au pire des patches par mail (dans le bas de [cette page](/user/sebastien_lucas)).

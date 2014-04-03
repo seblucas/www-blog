@@ -84,6 +84,12 @@ Read the [Wiki](https://github.com/seblucas/cops/wiki).
 
 I'll check this [MobileRead thread](http://www.mobileread.com/forums/showthread.php?p=1988610) frequently. You can also send me an email (on the bottom of [this page](/user/sebastien_lucas)).
 
+## Want to help me ?
+
+You like COPS or you simply want to support me, you can [offer me a drink](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9CNHDRJ6GX2Z4). I promise it will only be used for good and never for evil.
+
+My main objective would be to buy a used Kindle Paperwhite to fix the HTML rendering of COPS with this eReader.
+
 ## Download
 
 This project is open source (GPL v2) and available through [GitHub](https://github.com/seblucas/cops). If you have any code modification you can use merge request or send your patches to my email (on the bottom of [this page](/user/sebastien_lucas)).
