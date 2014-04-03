@@ -96,5 +96,5 @@ Le fichier est ici ([Liste des changements](https://github.com/seblucas/cops/rel
 
 [cops-1.0.0RC1.zip](https://github.com/seblucas/cops/releases/download/1.0.0RC1/cops-1.0.0RC1.zip)
 
-Vous pouvez télécharger les anciennes version [ici](https://github.com/seblucas/cops/releases)
+Vous pouvez télécharger les anciennes versions [ici](https://github.com/seblucas/cops/releases)
 

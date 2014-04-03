@@ -98,4 +98,4 @@ You can download it here ([Changelog](https://github.com/seblucas/cops/releases)
 
 [cops-1.0.0RC1.zip](https://github.com/seblucas/cops/releases/download/1.0.0RC1/cops-1.0.0RC1.zip)
 
-You can an older release check [here](https://github.com/seblucas/cops/releases)
+You can download older releases [here](https://github.com/seblucas/cops/releases)
