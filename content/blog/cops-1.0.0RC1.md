@@ -7,7 +7,7 @@ Robots: noindex,nofollow
 Language: fr
 Tags: calibre,ereader,nginx,opds,php
 */
-# 1.0.0RC1
+# COPS 1.0.0RC1
 
 Quelques corrections de bugs et quelques évolutions pour cette nouvelle version :
 *	[Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
