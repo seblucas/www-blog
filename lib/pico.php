@@ -107,6 +107,7 @@ class Pico {
             'base_dir' => rtrim(ROOT_DIR, '/'),
             'base_url' => $settings['base_url'],
             'theme_dir' => THEMES_DIR . $settings['theme'],
+            'full_url' => urlencode("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"),
             'theme_url' => $this->base_url() .'/'. basename(THEMES_DIR) .'/'. $settings['theme'],
             'site_title' => $settings['site_title'],
             'meta' => $meta,

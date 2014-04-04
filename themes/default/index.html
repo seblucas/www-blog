@@ -68,6 +68,12 @@
 				{% spaceless %}{{ content }}{% endspaceless %}
 			</div>
 			<hr />
+			<div class="share">
+			<p class="meta" >Share this post</p>
+			<a class="twitter" target="_blank" href="https://twitter.com/share?url={{ full_url }}">Twitter</a>
+			<a class="facebook" target="_blank" href="https://www.facebook.com/sharer.php?u={{ full_url }}">Facebook</a>
+			<a class="googleplus" target="_blank" href="https://plus.google.com/share?url={{ full_url }}">Google+</a>
+			</div>
 {% if meta.date %}
 				<p class="meta" >Published {{ meta.date_formatted }} //
 				<!-- display single page tags with proper urls -->
@@ -76,6 +82,8 @@
 				{% endfor %}
 				</p>
 {% endif %}
+			<br />
+			<br />
 			<div class="clearfix">
 {% if prev_page %}
 			<div style="float: left;">

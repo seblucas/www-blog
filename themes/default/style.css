@@ -337,6 +337,31 @@ h1 img {
 	float: right;
 }
 
+.share {
+width:120px;
+float:right;
+}
+
+.share a {
+display: inline-block;
+width: 18px;
+height: 18px;
+margin: 0;
+padding: 0 5px;
+vertical-align: middle;
+-o-transition: all .3s;
+-moz-transition: all .3s;
+-webkit-transition: all .3s;
+-ms-transition: all .3s;
+text-indent: -9999em;
+}
+
+.share a.twitter { background: url(images/share-twitter.png) left top no-repeat; }
+.share a.facebook { background: url(images/share-facebook.png) left top no-repeat; }
+.share a.googleplus { background: url(images/share-googleplus.png) left top no-repeat; }
+
+.share a:hover { background-position: left -26px; }
+
 /* Media queries */
 
 @media (min-width:1200px)
