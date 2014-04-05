@@ -19,11 +19,11 @@ Je pense avoir oublié de faire un billet sur la sortie de la version 0.9.0 donc
 
 Le point le plus important de la version 0.9.0 est la modification de la recherche pour qu'elle fonctionne avec de l'autocompletion et propose des résultats organisés par catégories.
 
-La seconde évolution est le paramètre $config ['cops_ignored_categories'] qui permet d'ignorer des catégories (éditeur, étiquettes, ...). Cela peut aussi être modifier directement dans COPS.
+La seconde évolution est le paramètre $config ['cops_ignored_categories'] qui permet d'ignorer des catégories (éditeur, étiquettes, ...). Cela peut aussi être modifié directement dans COPS.
 
 ## 1.0.0RC1
 
-L'évolution la plus importante est l'ajout d'un lecteur d'Epub embarqué. J'ai du le coder quasiment entièrement en me basant sur [Monocle](https://github.com/joseph/monocle). Pour information, il est en beta test depuis septembre dernier et j'hésitais vraiment à le diffusion car j'avais des doutes sur sa légitimité. Pour l'utiliser il suffit de cliquer sur l'icone avec l'oeil dans le détail d'un livre.
+L'évolution la plus importante est l'ajout d'un lecteur d'Epub embarqué. J'ai du le coder quasiment entièrement en me basant sur [Monocle](https://github.com/joseph/monocle). Pour information, il est en beta test depuis septembre dernier et j'hésitais vraiment à le diffuser car j'avais des doutes sur sa légitimité. Pour l'utiliser il suffit de cliquer sur l'icone avec l'oeil dans le détail d'un livre.
 
 Si vous constatez des problèmes avec ce module, je vous remercie de vérifier la [valididité](http://validator.idpf.org/) de votre livre avant de m'en faire part.
 
