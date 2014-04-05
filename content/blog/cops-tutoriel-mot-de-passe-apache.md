@@ -21,7 +21,7 @@ Je ne vais pas détailler l'installation de COPS (soit en manuel soir via la pac
 
 ## Préparer le fichier de mot de passe
 
-L'objectif est de créer un fichier `accesCops.htpasswd` qui contiendra les utilisateurs et mot de passe associés. Le plus simple est de passer par un service en ligne comme [celui-ci](http://www.htaccesstools.com/htpasswd-generator/).
+L'objectif est de créer un fichier `accesCops.htpasswd` qui contiendra les utilisateurs et mots de passe associés. Le plus simple est de passer par un service en ligne comme [celui-ci](http://www.htaccesstools.com/htpasswd-generator/).
 
 J'ai ajouté le compte `toto` avec comme mot de passe `truc` et cela me donne ce texte qu'il faut mettre dans notre fichier `accesCops.htpasswd` :
 
@@ -41,7 +41,7 @@ titi:$apr1$kNyI93X2$W2nRIftuAxiZhDUCnLbsx0
 Où vous voulez !
 
 Pour être plus précis et pour être en sécurité, le seul endroit qu'il faut exclure est un endroit accessible via un navigateur internet :
- * Si vous êtes sur un Synology, il faut pas le stocker dans le partage `web` (donc pas dans `/volume1/web/`).
+ * Si vous êtes sur un Synology, il ne faut pas le stocker dans le partage `web` (donc pas dans `/volume1/web/`).
  * Si vous êtes sur une Debian , il ne faut pas le stocker dans `/var/www`
  * etc
 
