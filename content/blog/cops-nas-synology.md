@@ -11,6 +11,8 @@ Tags: calibre,opds,synology
 
 J'ai enfin passé un peu de temps pour m'assurer que COPS fonctionne correctement sur un NAS Synology. C'est chose faite et ... tout fonctionne. Pour information, toutes ces manipulations ont été faites sur le DSM 4.1-2647.
 
+Après la rédaction de cet article j'ai fait un [paquet Spk](/blog/cops-spk-available) qui simplifie beaucoup l'installation.
+
 ## Préparation du NAS
 
 *	Allez à la page "Menu principal > Panneau de configuration > Services Web > Applications Web" sur l'interface de gestion utilisateur, et cochez Activer Web Station
