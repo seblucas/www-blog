@@ -101,6 +101,8 @@ De la même manière la réécriture d'URL n'est pas utile pour tout le monde (s
 
 Pour le moment je n'ai pas trouvé de palliatif fiable sur ce sujet pour le moment, si vous trouvez quelque chose indiquez le dans les commentaires je modifierai l'article.
 
+EDIT 04/05/2014 : En fait la réécriture d'URL ne pose pas de problèmes avec DSM5.
+
 ## Des commentaires
 
 Je n'ai pas l'intention d'installer le DSM 5 avant le mois de juin. Donc si vous avez plus d'informations, les commentaires sont à vous.
