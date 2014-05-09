@@ -66,9 +66,9 @@ Pour les métadonnées (`metadata.xml`) j'utilise la matrice suivante :
 
 ## Bilan
 
-Je me suis fait un joli Epub avec tout les extraits de Winds Of Winter que j'ai pu trouver très rapidement et en utilisant très peu d'outil. Je trouve la méthode beaucoup plus simple que la précédente que j'avais expliquée.
+Je me suis fait un joli Epub avec tout les extraits de Winds Of Winter que j'ai pu trouver très rapidement et en utilisant très peu d'outils. Je trouve la méthode beaucoup plus simple que la précédente.
 
-J'ai regardé un peu le fichier Epub généré et il est simple avec une feuille de style très légére et un code HTML logique (les paragraphes sont notamment des balises `<p>` et pas des `<div>`).
+J'ai regardé un peu le fichier Epub généré et il est simple avec une feuille de style très légère et un code HTML logique (les paragraphes sont notamment des balises `<p>` et pas des `<div>`).
 
 Je me suis lancé dans la création d'un vrai Epub complet à partir d'un scan avec un ami donc j'en reparlerai rapidement.
 
