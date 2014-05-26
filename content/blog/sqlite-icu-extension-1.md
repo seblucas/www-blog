@@ -19,7 +19,7 @@ Je vais essayer de rentrer dans le détail avec des exemples précis dans la sui
 
 Je me suis donc connecté sur une base Calibre avec des œuvres françaises. J'ai ensuite lancé la requête utilisée par COPS pour regrouper les livres par leur première lettre et voila le résultat :
 
-```
+```sql
 SQLite version 3.7.13 2012-06-11 02:05:22
 Enter ".help" for instructions
 Enter SQL statements terminated with a ";"
@@ -81,7 +81,7 @@ Je me suis créé une base de test avec le mot "épée" orthographié de façon 
 
 J'ai ensuite fait une requête avec un "Like" qui, en SQLite, ne tient pas compte de la casse pour les caractères latins.
 
-```
+```sql
 sqlite> select title from books where title like '%épée%';
 épée
 sqlite> select title from books where title like '%epee%';
@@ -103,7 +103,7 @@ Dans les sources de SQLite il y a un [répertoire icu](http://www.sqlite.org/src
 
 Je ne vais pas rentrer dans le détail de la compilation (je le ferais peut être plus tard si vous m'en parlez dans les commentaires) mais je l'ai compilé et activé via la commande suivante :
 
-```
+```sql
 sqlite> .load './libSqliteIcu.so'
 sqlite> select icu_load_collation ('fr_FR', 'FRENCH');
 ```
@@ -112,7 +112,7 @@ sqlite> select icu_load_collation ('fr_FR', 'FRENCH');
 
 Dans la section précédente j'ai défini la collation FRENCH que je vais utiliser ici :
 
-```
+```sql
 sqlite> select substr (upper (sort), 1, 1) as title, count(*) as count
    ...> from books
    ...> group by substr (upper (sort), 1, 1)
@@ -167,7 +167,7 @@ Les deux problèmes précédents sont résolus :
 
 En reprenant le même cas que précédemment (la base avec les différentes orthographes pour épée), cela donne :
 
-```
+```sql
 sqlite> select title from books where title like '%épée%';
 épée
 Épée

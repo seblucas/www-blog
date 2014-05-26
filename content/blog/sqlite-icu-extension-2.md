@@ -11,11 +11,11 @@ Tags: sql,sqlite
 
 ## Les expressions régulières
 
-La bibliothèque ICU présentée dans l'[article précédent](blog/sqlite-icu-extension) permet aussi de faire des recherche par expressions régulières (beaucoup plus puissant qu'un `like`).
+La bibliothèque ICU présentée dans l'[article précédent](blog/sqlite-icu-extension-1) permet aussi de faire des recherche par expressions régulières (beaucoup plus puissant qu'un `like`).
 
 ## Premier essai
 
-```
+```sql
 sqlite> select title from books where title REGEXP '[eéèêë]p[eéèêë]e';
 ```
 
@@ -27,7 +27,7 @@ Cela est du au fait que la recherche se fait sur toute la chaîne et donc corres
 
 ## Deuxième essai
 
-```
+```sql
 sqlite> select title from books where title REGEXP '.*[eéèêë]p[eéèêë]e.*';
 epee
 épée
