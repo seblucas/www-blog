@@ -17,7 +17,7 @@ Pour être honnête quelques semaines après la sortie du [firmware 3.3.0](/blog
 
 Je n'ai pas de liste précise, le plus gros changement est que la page d'accueil (qui avait été remaniée dans le firmware 2.6.X) est intégrée aussi pour la Mini.
 
-Je pense qu'ils ont du intégrer la majorités des changement des autres liseuses jusqu'au firmware 3.3.0.
+Je pense qu'ils ont du intégrer la majorité des changement des autres liseuses jusqu'au firmware 3.3.0.
 
 ## Bon test
 
