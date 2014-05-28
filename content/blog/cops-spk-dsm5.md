@@ -9,11 +9,11 @@ Tags: calibre,opds,synology
 */
 # COPS sur un NAS Synology avec le DSM 5
 
-Depuis quelques semaines maintenant, Synology à commencé à deployer la nouvelle version de son Diskstation (DSM 5). Pour être honnête c'est peut être une bonne nouvelle pour beaucoup d'utilisateurs, mais c'est catastrophique pour COPS !
+Depuis quelques semaines maintenant, Synology a commencé à déployer la nouvelle version de son Diskstation (DSM 5). Pour être honnête c'est peut être une bonne nouvelle pour beaucoup d'utilisateurs, mais c'est catastrophique pour COPS !
 
 Beaucoup d'utilisateurs de COPS utilisent des NAS et ma boite mail déborde de messages d'utilisateurs perturbés par la mise à jour.
 
-J'ai fait le choix de ne pas mettre à jour mon NAS donc je ne peux rien confirmer, je ne peux que croire sur parôle ce que je lis sur le Net et ce qu'on m'envoie par mail.
+J'ai fait le choix de ne pas mettre à jour mon NAS donc je ne peux rien confirmer, je ne peux que croire sur parole ce que je lis sur le Net et ce qu'on m'envoie par mail.
 
 ## Support de SQLite
 

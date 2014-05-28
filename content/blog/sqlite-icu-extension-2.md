@@ -11,7 +11,7 @@ Tags: sql,sqlite
 
 ## Les expressions régulières
 
-La bibliothèque ICU présentée dans l'[article précédent](/blog/sqlite-icu-extension-1) permet aussi de faire des recherche par expressions régulières (beaucoup plus puissant qu'un `like`).
+La bibliothèque ICU présentée dans l'[article précédent](/blog/sqlite-icu-extension-1) permet aussi de faire des recherches par expressions régulières (beaucoup plus puissant qu'un `like`).
 
 ## Premier essai
 
