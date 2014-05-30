@@ -1,5 +1,5 @@
 /*
-Title: Ebook : Morceaux choisis Volume 1
+Title: Ebook : Revue de Web - Volume 1
 Description: 
 Author: Sébastien Lucas
 Date: 2014/04/07
@@ -7,7 +7,7 @@ Robots: noindex,nofollow
 Language: fr
 Tags: epub,ereader
 */
-# Ebook : Morceaux choisis Volume 1
+# Ebook : Revue de Web - Volume 1
 
 Je continue dans ma lancée en relevant les deux articles qui m'ont le plus marqué cette semaine. J'y ai aussi ajouté une mention spéciale pour un numériseur d'ebook qui a pris le temps de répondre à mes mails.
 
