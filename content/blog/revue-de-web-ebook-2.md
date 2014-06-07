@@ -9,7 +9,7 @@ Tags: epub,ereader
 */
 # Ebook : Revue de Web - Volume 2
 
-Quelques articles au sujet de la lecture électronique qui m'ont intéressés ces dernières semaines.
+Quelques articles au sujet de la lecture électronique qui m'ont intéressé ces dernières semaines.
 
 ## [Le bras de fer se durcit entre Amazon et Hachette](http://www.liberation.fr/economie/2014/05/28/le-bras-de-fer-se-durcit-entre-amazon-et-hachette_1028628)
 
