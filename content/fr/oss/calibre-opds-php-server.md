@@ -16,13 +16,13 @@ C'est pourquoi j'ai développé ce serveur OPDS / HTML. J'avais besoin d'un serv
 J'avais initialement pensé Calibre2OPDS mais comme il génère des fichiers statiques il n'était pas possible de faire des recherches. De plus il fallait penser à relancer le traitement à chaque modification de la bibliothèque.
 
 Donc les principaux avantages de COPS sont :
-*	Peu de dépendances.
-*	Pas besoin de beaucoup de CPU ou RAM.
-*	Peu de code.
-*	La recherche est possible.
-*	Avec Dropbox / Owncloud, il est très simple d'avoir un serveur OPDS toujours à jour (voir [Alternative au serveur de contenu de Calibre](/blog/calibre-web-server-alternative)).
-*	La code OPDS est 100% valide (vérifié avec http://opds-validator.appspot.com/).
-*	Enfin c'était mon premier projet en PHP et c'était fun.
+ * Peu de dépendances.
+ * Pas besoin de beaucoup de CPU ou RAM.
+ * Peu de code.
+ * La recherche est possible.
+ * Avec Dropbox / Owncloud, il est très simple d'avoir un serveur OPDS toujours à jour (voir [Alternative au serveur de contenu de Calibre](/blog/calibre-web-server-alternative)).
+ * La code OPDS est 100% valide (vérifié avec http://opds-validator.appspot.com/).
+ * Enfin c'était mon premier projet en PHP et c'était fun.
 
 **ATTENTION**
 
@@ -33,6 +33,8 @@ Mon catalogue COPS est protégé avec "Basic HTTP auth" et HTTPS. C'est suffisam
 Du côté OPDS je n'ai testé qu'avec Aldiko, Mantano Reader et FBReader sur Android (A noter que ces trois supportent le fait de protéger la catalogue par un utilisateur/mot de passe). J'ai aussi utilisé [Ibis Reader](http://ibisreader.com/), mais il ne supporte pas les mots de passe.
 D'autres utilisateurs ont confirmé que COPS fonctionne avec Stanza, Megareader, Shubook and Bluefire.
 
+Comme je l'ai dit plus haut c'était ma première expérience de codage en PHP et je dois avouer que ça se sent en lisant le code. Un jour il sera réécrit ;).
+
 ## Fonctionnalités
 
 *	Interface HTML5 / CSS3 avec responsive design.
@@ -40,7 +42,7 @@ D'autres utilisateurs ont confirmé que COPS fonctionne avec Stanza, Megareader,
 *	Mise à jour des métadonnées des fichiers Epub comme le serveur de contenu de Calibre (à activer avec $config['cops_update_epub-metadata']) : Si vous avez corrigé le nom de l'auteur / une étiquette / le nom de la série d'un livre dans Calibre, alors le fichier que vous allez télécharger contiendra votre correction.
 *	Colonne personnalisée de Calibre.
 *	Facets dans le flux OPDS pour filtrer la liste des livres (les seuls clients OPDS le supportant sont Mantano Reader and Bluefire).
-*	Multilangue : Anglais, Français, Allemand, Russe, Espagnol, Catalan, Italien, Norvégien, Chinois.
+*	Multilangue : Catalan, Tchèque, Allemand, Anglais, Espagnol, Français, Haïtien (Creole), Italien, Norvégien (Bokmål), Néerlandais, Polonais, Portugais, Russe, Suédois, Chinois.
 *	beaucoup d'autres
 
 ## Démonstration

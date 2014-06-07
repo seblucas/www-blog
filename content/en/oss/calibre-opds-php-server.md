@@ -22,7 +22,7 @@ So COPS's main advantages are :
 *	Search is available.
 *	With Dropbox / Owncloud it's very easy to have an up to date OPDS content server.
 *	100% OPDS valid code (checked with http://opds-validator.appspot.com/).
-*	It was fun to code.
+*	It was my first PHP experiment and so fun to code.
 
 **Disclaimer**
 
@@ -33,6 +33,8 @@ I personally protect my COPS catalog with Basic HTTP auth and HTTPS. It's secure
 On the OPDS client side I mainly tested with FBReader Mantano Reader and Aldiko on Android (these 3 also ask for user/password if you have protected your COPS catalog). I also used [Ibis Reader](http://ibisreader.com/) with success but there is no support for password.
 Other users have reported COPS working with Stanza, Megareader, Shubook and Bluefire.
 
+As I already said, I had never coded in PHP before so I'm not proud at all about the code quality. I'll probably start it again in the future ;).
+
 ## Features
 
 *	HTML5 / CSS3 interface with responsive design.
@@ -40,7 +42,7 @@ Other users have reported COPS working with Stanza, Megareader, Shubook and Blue
 *	Epub metadata update like Calibre Content Server (enable it with $config['cops_update_epub-metadata']) : If you fixed the author name / a tag / the serie name of a book in Calibre, then the epub you'll download with COPS will contain the fix.
 *	Calibre custom columns.
 *	[Facets](http://opds-spec.org/2011/06/14/faceted-search-browsing/) in the OPDS feed to filter book list (the only OPDS clients supporting it are Mantano Reader and Bluefire for now).
-*	Multilanguage : English, French, German, Russian, Spanish, Catalan, Italian, Norwegian Bokmål, Chinese.
+*	Multilanguage : Catalan, Czech, German, English, Spanish, French, Haitian (Creole), Italian, Norwegian Bokmål, Dutch, Polish, Portuguese, Russian, Swedish, Chinese.
 *	Certainly many other.
 
 ## Demo
