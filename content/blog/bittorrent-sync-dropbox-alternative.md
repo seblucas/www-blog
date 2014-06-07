@@ -23,6 +23,7 @@ Mon utilisation de Dropbox pour le moment se limite à cela :
 ## L'aventure Owncloud
 
 J'ai beaucoup essayé d'utiliser [Owncloud](http://owncloud.org/) avec notamment son [client Windows et Linux](http://owncloud.org/sync-clients/) et je dois avouer que j'ai toujours été déçu :
+
  * L'intégration avec Nginx a été longue mais a fini par arriver.
  * La synchronisation de répertoire m'a causé pas mal de problèmes y compris des suppressions de données. J'ai notamment eu des répertoires de Calibre qui ne se synchronisaient jamais certainement à cause d'accents dans leurs noms.
  * Le passage aux versions supérieures n'ont jamais été automatiques et j'ai souvent du tout réinstaller et transférer à nouveau les données.
@@ -48,7 +49,7 @@ Bilan je l'utilise avec plaisir depuis quelques mois.
 
 ### Localisation des données
 
-De la même manière que Owncloud, j'ai choisi d'héberger mes données sur un serveur privé localisé en France. Donc :
+De la même manière que ma précédente solution avec Owncloud, j'ai choisi d'héberger mes données sur un serveur privé localisé en France. Donc :
 
  * Moins de risque que la NSA passe par là.
  * Pas d'exploitation commerciale de mes données.
