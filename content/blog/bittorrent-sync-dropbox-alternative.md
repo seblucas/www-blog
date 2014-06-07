@@ -14,6 +14,7 @@ Tags: dropbox,calibre
 J'ai loué un VPS avec pas mal de place (200Go) pour pouvoir l'utiliser pour centraliser des sauvegardes et tenter de me libérer de Dropbox / Google Drive / OneDrive / ...
 
 Mon utilisation de Dropbox pour le moment se limite à cela :
+
  * Ma base Calibre.
  * Mes différents projets de développements (depuis mon crash de disque dur de l'an dernier).
  * Du vrai partage avec des amis.
@@ -36,6 +37,7 @@ Je vais tout de suite parler du plus gros défaut de [BitTorrent Sync](http://ww
 Je ne vais pas vous expliquer comment ça marche, d'autres l'ont déjà fait ([Korben](http://korben.info/sauvegarder-photos-telephone-sur-ordinateur.html) ou [jcd](http://jcd.lv/post/2013/04/24/Installer-BitTorrent-Sync)). Je vous laisse consulter Google si besoin.
 
 Pour résumer BitTorrent Sync est clairement meilleur que le client Owncloud pour mes besoins :
+
  * Il est possible de faire un partage en lecture seule.
  * Aucun souci lors des mises à jour de version.
  * Utilisation raisonnable de ressources.
@@ -47,6 +49,7 @@ Bilan je l'utilise avec plaisir depuis quelques mois.
 ### Localisation des données
 
 De la même manière que Owncloud, j'ai choisi d'héberger mes données sur un serveur privé localisé en France. Donc :
+
  * Moins de risque que la NSA passe par là.
  * Pas d'exploitation commerciale de mes données.
 
@@ -77,6 +80,7 @@ Donc les données (cryptées) peuvent aussi passer par un tiers dans certains ca
 ### Une configuration de paranoïaque
 
 Ma situation est simple :
+
  * 1 ordinateur portable sur lequel je fais toutes les modifications.
  * 1 VPS hébergé.
  * 1 NAS sur mon réseau local.
@@ -89,6 +93,7 @@ Donc ma configuration VPS est la suivante sur tous mes partages :
 ![Configuration VPS](/blog/btsync-paranoid.png){.centered}
 
 La configuration des 3 autres clients est la même à ces différences :
+
  * Search LAN est coché.
  * J'ai ajouté un hôte prédéfini : mon serveur VPS.
 
