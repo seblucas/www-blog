@@ -42,7 +42,7 @@ Comme je l'ai dit plus haut c'était ma première expérience de codage en PHP e
 *	Mise à jour des métadonnées des fichiers Epub comme le serveur de contenu de Calibre (à activer avec $config['cops_update_epub-metadata']) : Si vous avez corrigé le nom de l'auteur / une étiquette / le nom de la série d'un livre dans Calibre, alors le fichier que vous allez télécharger contiendra votre correction.
 *	Colonne personnalisée de Calibre.
 *	Facets dans le flux OPDS pour filtrer la liste des livres (les seuls clients OPDS le supportant sont Mantano Reader and Bluefire).
-*	Multilangue : Catalan, Tchèque, Allemand, Anglais, Espagnol, Français, Haïtien (Creole), Italien, Norvégien (Bokmål), Néerlandais, Polonais, Portugais, Russe, Suédois, Chinois.
+*	Multilangue : Basque, Catalan, Tchèque, Allemand, Anglais, Espagnol, Français, Haïtien (Creole), Italien, Norvégien (Bokmål), Néerlandais, Polonais, Portugais, Russe, Suédois, Chinois.
 *	beaucoup d'autres
 
 ## Démonstration
@@ -96,7 +96,7 @@ Ce projet est open source (GPL v2) et est accessible via [GitHub](https://github
 
 Le fichier est ici ([Liste des changements](https://github.com/seblucas/cops/releases)):
 
-[cops-1.0.0RC1.zip](https://github.com/seblucas/cops/releases/download/1.0.0RC1/cops-1.0.0RC1.zip)
+[cops-1.0.0RC2.zip](https://github.com/seblucas/cops/releases/download/1.0.0RC2/cops-1.0.0RC2.zip)
 
 Vous pouvez télécharger les anciennes versions [ici](https://github.com/seblucas/cops/releases)
 

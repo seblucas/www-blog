@@ -42,7 +42,7 @@ As I already said, I had never coded in PHP before so I'm not proud at all about
 *	Epub metadata update like Calibre Content Server (enable it with $config['cops_update_epub-metadata']) : If you fixed the author name / a tag / the serie name of a book in Calibre, then the epub you'll download with COPS will contain the fix.
 *	Calibre custom columns.
 *	[Facets](http://opds-spec.org/2011/06/14/faceted-search-browsing/) in the OPDS feed to filter book list (the only OPDS clients supporting it are Mantano Reader and Bluefire for now).
-*	Multilanguage : Catalan, Czech, German, English, Spanish, French, Haitian (Creole), Italian, Norwegian Bokmål, Dutch, Polish, Portuguese, Russian, Swedish, Chinese.
+*	Multilanguage : Basque, Catalan, Czech, German, English, Spanish, French, Haitian (Creole), Italian, Norwegian Bokmål, Dutch, Polish, Portuguese, Russian, Swedish, Chinese.
 *	Certainly many other.
 
 ## Demo
@@ -98,6 +98,6 @@ This project is open source (GPL v2) and available through [GitHub](https://gith
 
 You can download it here ([Changelog](https://github.com/seblucas/cops/releases)) :
 
-[cops-1.0.0RC1.zip](https://github.com/seblucas/cops/releases/download/1.0.0RC1/cops-1.0.0RC1.zip)
+[cops-1.0.0RC2.zip](https://github.com/seblucas/cops/releases/download/1.0.0RC2/cops-1.0.0RC2.zip)
 
 You can download older releases [here](https://github.com/seblucas/cops/releases)
