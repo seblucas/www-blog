@@ -71,4 +71,6 @@ Le graphe est sans appel :
 
 ![Banana Pi CPU](/blog/SysBenchBananaPi.png)
 
-J'ai pu voir certains benchmarks du Banana Pi sur le net qui indiquaient une vitesse plus faible en monocore. Ces tests sont clairement faux, à mon avis ils utilisaient des binaires de sysbench pour ARMv6 au lieu de ARMv7.
+Pour information un ODROID-U3 arrive à un score de 34s.
+
+J'ai pu voir certains tests du Banana Pi sur le net qui indiquaient une vitesse plus faible en monocore. Ces tests sont clairement faux, à mon avis ils utilisaient des binaires de sysbench pour ARMv6 au lieu de ARMv7.
