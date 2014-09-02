@@ -15,11 +15,13 @@ Comme le Banana Pi est équipé un port SATA, j'ai acheté un SSD Crucial M500 1
 
 Je l'ai branché avec le câble que j'ai reçu avec le Banana Pi. Attention si vous voulez faire de la récupération l'alimentation SATA sur le Banana Pi semble être inversée (+5V et GND) par rapport au standard.
 
-Au début j'ai utilisé une vieille alimentation usb 1.2A venant d'un téléphone et le Banana Pi s'est arrêté en plein milieu du boot. En remplaçant l'alimentation par un bloc pouvant délivrer 2A plus de problèmes.
+## Premier démarrage
+
+Au début j'avais utilisé une vieille alimentation usb 1.2A venant d'un téléphone et le Banana Pi s'est arrêté plusieurs fois en plein milieu du boot. En remplaçant l'alimentation par un bloc pouvant délivrer 2A plus de problèmes.
 
 ## Partitionnement et formation
 
-Je ne vais pas vous apprendre à utiliser `fdisk` et `mkfs.ext4`.
+Je ne vais pas vous apprendre à utiliser `fdisk` et `mkfs.ext4`. Il y a beaucoup de tutorial bien fait sur le Net, je vous laisse chercher ;).
 
 ## Copie du système sur le SSD
 
