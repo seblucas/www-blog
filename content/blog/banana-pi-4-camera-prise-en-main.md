@@ -24,6 +24,7 @@ et de dos
 ## Le packaging
 
 Je pense pas que la packaging soit définitif mais je l'ai reçue dans une boite cartonnée identique à celle de mon Banana Pi. Le contenu de la boite était :
+
  * Le module de caméra
  * Une nappe assez courte (environ 10cm)
 
@@ -32,6 +33,7 @@ Je pense pas que la packaging soit définitif mais je l'ai reçue dans une boite
 Je n'ai pas fait de photo ni vidéo mais l'installation a été assez simple. Il faut par contre faire très attention à la nappe : ne pas la plier et ne pas toucher les extrémités (sauf sur le côté bleu).
 
 Le port CSI à utiliser est celui du côté de la carte SD, l'autre est un port LVDS. Ne soyez pas aussi bête que moi si vous avez un boîtier, mettez d'abord la nappe côté Banana Pi. Pour le fixer c'est très simple :
+
  * il faut remonter le haut du port CSI (en plastique gris), j'ai personnellement utilisé deux petits tournevis de précision (cela doit être possible avec les doigts).
  * Insérer la nappe, côté bleu vers le port réseau.
  * Abaisser le plastique gris pour la fixer.
