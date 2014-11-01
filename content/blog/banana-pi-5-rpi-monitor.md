@@ -15,7 +15,7 @@ Tags: bpi
 
 ## L'installation
 
-Je n'ai rien à ajouter à la méthode d'installation proposée par [tkaiser](http://forum.lemaker.org/thread-8137-1-1-.html). Elle a fonctionné parfaitement et les adaptations pour la Banana Pi marchent.
+Je n'ai rien à ajouter à la méthode d'installation proposée par [tkaiser](http://forum.lemaker.org/thread-8137-1-1-.html) auquel il faut ajouter l'installation de [RPI-Monitor](http://rpi-experiences.blogspot.fr/p/rpi-monitor-installation.html). Elle a fonctionné parfaitement et les adaptations pour la Banana Pi marchent.
 
 J'aime notamment le principe de son script `temp_daemon.sh` qui permet de gérer finement la fréquence d'actualisation sans bidouiller RPI-Monitor
 
