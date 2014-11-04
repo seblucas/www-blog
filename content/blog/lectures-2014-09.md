@@ -9,6 +9,8 @@ Tags: lecture
 */
 # Mes lectures du troisième trimestre 2014
 
+## Le détail
+
 Je continue avec mes bonnes résolutions et donc avec mes lectures de ces derniers mois.
 
 Pour finir avec la série d'Ewilan, j'ai lu les trois volumes des [Mondes d'Ewilan](http://fr.wikipedia.org/wiki/Les_Mondes_d%27Ewilan). C'est toujours une lecture des plus plaisantes.
@@ -27,3 +29,7 @@ A la suite de la sortie [L'Œuf de dragon](http://fr.feedbooks.com/item/791883/l
 
  * [Rogues](http://fr.feedbooks.com/item/864617/rogues)
  * [Dangerous Women](http://www.amazon.fr/Dangerous-Women-George-R-Martin/dp/076533206X)
+
+## Bilan
+
+Total : 19 livres, pas mal !
