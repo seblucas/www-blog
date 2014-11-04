@@ -13,7 +13,7 @@ Tags: bpi
 
 Sous ce nom étrange se cache un capteur de température et d'humidité qui est assez simple à interfacer avec un Raspberry Pi et donc un Banana Pi.
 
-[!DHT11 et DHT22](/blog/DHT11-DHT22.jpg)
+![DHT11 et DHT22](/blog/DHT11-DHT22.jpg)
 
 A gauche le DHT11 (moins précis) et à droite le DHT22 que j'ai utilisé.
 
