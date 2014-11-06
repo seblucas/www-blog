@@ -11,7 +11,7 @@ Tags: bpi
 
 ## DHT22 ?
 
-Vous vous souvenez de mon article sur le [capteur de température / hygrométrie DHT22](banana-pi-7-DHT22-temperature-hygrometrie). L'intérêt d'un lecture instantanée est très limitée, je veux donc avoir des relevés réguliers afin de pouvoir avoir une jolie courbe et de pouvoir analyser les tendances.
+Vous vous souvenez de mon article sur le [capteur de température / hygrométrie DHT22](banana-pi-7-DHT22-temperature-hygrometrie). L'intérêt d'une lecture instantanée est très limitée, je veux donc avoir des relevés réguliers afin de pouvoir avoir une jolie courbe et de pouvoir analyser les tendances.
 
 ## Intégration avec RPI-Monitor
 
@@ -86,4 +86,4 @@ J'ai bien évidemment le même pour l'hygrométrie.
 
 ## Prochaine étape
 
-Travailler sur des sondes distantes (une par pièce) qui transmettent par ondes RF le résultat.
+J'hésite encore entre ajouter les informations sur la température extérieure ou travailler sur des sondes distantes (une par pièce) qui transmettent par ondes RF le résultat.
