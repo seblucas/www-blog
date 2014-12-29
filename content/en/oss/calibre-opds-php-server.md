@@ -98,6 +98,6 @@ This project is open source (GPL v2) and available through [GitHub](https://gith
 
 You can download it here ([Changelog](https://github.com/seblucas/cops/releases)) :
 
-[cops-1.0.0RC2.zip](https://github.com/seblucas/cops/releases/download/1.0.0RC2/cops-1.0.0RC2.zip)
+[cops-1.0.0RC3.zip](https://github.com/seblucas/cops/releases/download/1.0.0RC3/cops-1.0.0RC3.zip)
 
 You can download older releases [here](https://github.com/seblucas/cops/releases)
