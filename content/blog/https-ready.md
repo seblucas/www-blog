@@ -28,7 +28,7 @@ Je vous laisse créer le compte et utiliser le Validation Wizard pour valider qu
 
 ```
 openssl genrsa -out slucas.fr.key 2048
-openssl req -new -key slucas.fr.key -out slucas.fr.csr
+openssl req -new -sha256 -key slucas.fr.key -out slucas.fr.csr
 ```
 Dans mon cas je n'ai pas mis de mot de passe sur le csr
 
