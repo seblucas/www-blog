@@ -57,14 +57,14 @@ http://cops-demo.slucas.fr/index.php
 
 ## Prerequisites for installation
 
-*	PHP 5.3 / 5.4 with GD image processing & SQLite3 support.
+*	PHP 5.3, 5.4, 5.5, 5.6 or hhvm with GD image processing, Libxml, Intl, Json & SQLite3 support.
 *	A web server with PHP support (Nginx, Apache, Cherokee, Lighttpd, IIS).
 *	The path to a Calibre library (metadata.db, format, & cover files).
 
 On any Debian base Linux you can use :
 
 ```
-aptitude install php5-gd php5-sqlite
+aptitude install php5-gd php5-sqlite php5-json php5-intl
 ```
 
 ## Install

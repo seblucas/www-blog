@@ -57,14 +57,14 @@ http://cops-demo.slucas.fr/index.php
 
 ## Pré-requis
 
-*	PHP 5.3/5.4 avec GD & le support SQLite3.
+*	PHP 5.3, 5.4, 5.5, 5.6 ou hhvm avec GD, Libxml, Intl, Json et le support SQLite3.
 *	Un serveur Web avec le support PHP (Nginx, Apache, Cherokee, Lighttpd, IIS).
 *	Le chemin vers la bibliothèque Calibre (metadata.db, images de couverture et fichier epub).
 
 Sur toutes les distributions basées sur Debian, vous utiliser :
 
 ```
-aptitude install php5-gd php5-sqlite
+aptitude install php5-gd php5-sqlite php5-json php5-intl
 ```
 
 ## Installation
