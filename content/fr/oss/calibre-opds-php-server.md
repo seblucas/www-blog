@@ -100,3 +100,4 @@ Le fichier est ici ([Liste des changements](https://github.com/seblucas/cops/rel
 
 Vous pouvez télécharger les anciennes versions [ici](https://github.com/seblucas/cops/releases)
 
+Si vous préférez un installation un peu plus automatique, COPS est aussi disponible avec Docker en version [x86](https://hub.docker.com/r/linuxserver/cops/) ou [Arm](https://hub.docker.com/r/lsioarmhf/cops/) grâce à l'équipe de [linuxserver.io](https://www.linuxserver.io/).

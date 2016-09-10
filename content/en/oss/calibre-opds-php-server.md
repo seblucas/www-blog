@@ -101,3 +101,5 @@ You can download it here ([Changelog](https://github.com/seblucas/cops/releases)
 [cops-1.0.0.zip](https://github.com/seblucas/cops/releases/download/1.0.0/cops-1.0.0.zip)
 
 You can download older releases [here](https://github.com/seblucas/cops/releases)
+
+If you prefer a more automatic way, COPS is also available with Docker for [x86](https://hub.docker.com/r/linuxserver/cops/) or [Arm](https://hub.docker.com/r/lsioarmhf/cops/) thanks to [linuxserver.io](https://www.linuxserver.io/).
