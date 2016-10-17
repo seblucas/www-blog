@@ -96,7 +96,7 @@ Ce projet est open source (GPL v2) et est accessible via [GitHub](https://github
 
 Le fichier est ici ([Liste des changements](https://github.com/seblucas/cops/releases)):
 
-[cops-1.0.0.zip](https://github.com/seblucas/cops/releases/download/1.0.0/cops-1.0.0.zip)
+[cops-1.0.1.zip](https://github.com/seblucas/cops/releases/download/1.0.1/cops-1.0.1.zip)
 
 Vous pouvez télécharger les anciennes versions [ici](https://github.com/seblucas/cops/releases)
 
