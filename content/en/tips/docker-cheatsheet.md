@@ -37,6 +37,9 @@ docker run -d --link mosquitto:mosquitto --name=mqttwarn slucas/alpine-mqttwarn
 # build an image from a local directory
 docker build -t ouruser/ourproject:v2 .
 
+# Change entrypoint
+docker run -it --rm --device /dev/i2c-1 -v /root/src/fireReading:/data --name python3-cron --entrypoint=/bin/sh seblucas/alpine-python3-cron:1.0
+
 ```
 
 Gestion des liens entre docker :
