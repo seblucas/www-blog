@@ -53,17 +53,21 @@ Le prix des ebooks en France n'a aucun sens, les prix sont souvent basés sur le
 Je ne vais pas prendre trop d'exemples précis vu que les prix peuvent changer dans le temps mais par exemple : A dance with Dragons de George R.R. Martin :
 
 Sur Amazon.com : [http://www.amazon.com/Dance-Dragons-Song-Fire-Book/dp/0553801473/ref=sr_1_1?ie=UTF8&qid=1320071649&sr=8-1](http://www.amazon.com/Dance-Dragons-Song-Fire-Book/dp/0553801473/ref=sr_1_1?ie=UTF8&qid=1320071649&sr=8-1)
+
 * Livre papier : $18.80
 * Kindle Edition : $22.49
 
 Sur Amazon.fr : [http://www.amazon.fr/Dance-Dragons-Book-Song-Fire/dp/0002247399/ref=sr_1_1?ie=UTF8&qid=1320071806&sr=8-1](http://www.amazon.fr/Dance-Dragons-Book-Song-Fire/dp/0002247399/ref=sr_1_1?ie=UTF8&qid=1320071806&sr=8-1)
+
 * Kindle Edition : 15,89 €
 * Les autres éditions sont en précommandes, mais l'édition Broché est à 9,13 € !
 
 Sur le Reader Store Sony : [http://ebookstore.sony.com/ebook/george-r-r-martin/a-dance-with-dragons-a-song-of-ice-and-fire-book-5/_/R-400000000000000429259](http://ebookstore.sony.com/ebook/george-r-r-martin/a-dance-with-dragons-a-song-of-ice-and-fire-book-5/_/R-400000000000000429259)
+
 * Epub avec DRM : $14,99
 
 Sur Kobobooks : [http://www.kobobooks.com/ebook/-Dance-Dragons-Song-Ice-Fire/book-M9jGErfTq0OX14pPsu9OUw/page1.html](http://www.kobobooks.com/ebook/-Dance-Dragons-Song-Ice-Fire/book-M9jGErfTq0OX14pPsu9OUw/page1.html)
+
 * Epub avec DRM : 15,89 €
 
 Ce livre a un peu plus de 1100 pages donc je m'attends à ce que le prix soit important mais d'une part il y a des différences énormes entre les stores (donc cherchez bien avant d'acheter) et la version électronique est quasiment toujours plus chère que la version papier d'autant plus avec les frais de port gratuit du livre papier.
@@ -71,6 +75,7 @@ Ce livre a un peu plus de 1100 pages donc je m'attends à ce que le prix soit im
 Pour les livres Français un peu anciens le cadre est différent : 
 
 Sur Amazon.fr : [http://www.amazon.fr/promesse-ténèbres-Maxime-Chattam/dp/226620338X/ref=pd_sim_b6](http://www.amazon.fr/promesse-ténèbres-Maxime-Chattam/dp/226620338X/ref=pd_sim_b6)
+
 * Kindle edition : 16,99 €
 * Poche : 7,50 €
 
@@ -79,14 +84,17 @@ Dans ce cas, d'après ce que j'ai compris, ce sont les éditeurs qui sont fautif
 Pour les livres récents, on retrouve une cohérence de temps en temps : 
 
 Sur Amazon.fr : [http://www.amazon.fr/passager-Jean-Christophe-Grang%C3%A9/dp/2226221328/ref=sr_1_1?ie=UTF8&qid=1320072410&sr=8-1](http://www.amazon.fr/passager-Jean-Christophe-Grang%C3%A9/dp/2226221328/ref=sr_1_1?ie=UTF8&qid=1320072410&sr=8-1)
+
 * Broché : 23,65 €
 * Kindle edition : 18,99 €
 
 Sur la FNAC : [http://livre.fnac.com/a3614875/Jean-Christophe-Grange-Le-passager](http://livre.fnac.com/a3614875/Jean-Christophe-Grange-Le-passager)
+
 * Broché : 23,66 €
 * Epub : 18,99 €
 
 Sur Numilog : [http://www.numilog.com/LIVRES/FICHES/91751.Livre](http://www.numilog.com/LIVRES/FICHES/91751.Livre)
+
 * Epub : 18,99 €
 
 Au moins il y a de la cohérence ...... par contre le prix reste discutable surtout en relation avec le livre papier.

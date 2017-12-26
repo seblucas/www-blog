@@ -17,6 +17,7 @@ J'ai d'abord utilisé la FolioMod et ensuite une vraie Cyanogenmod 7 (donc Ginge
 ## Sources
 
 Je ne suis qu'un banal utilisateur éclairé pour cette installation, mes sources sont les suivantes :
+
 * Pour la ROM : [ici en anglais](http://forum.xda-developers.com/showthread.php?t=1470823) et [là en français](http://forum.frandroid.com/topic/90378-devwip-ics-cm9-403-alpha-3-31-kernel-last-update-04032012/)
 * Pour la partie fastboot : http://forum.xda-developers.com/showthread.php?t=1055754
 * Une mine d'or de tutoriels dans tous les sens : http://forum.frandroid.com/topic/45847-maxi-tuto-gestions-des-rom-pour-les-debutants/
@@ -27,6 +28,7 @@ Je ne suis qu'un banal utilisateur éclairé pour cette installation, mes source
 
 ### Téléchargement
 Dans ce lien il faut télécharger les fichiers suivants (pour la version Alpha 4 à la date de l'écriture de ce billet) :
+
 * Le gestionnaire de boot : cwm-recovery-5.5.0.4.img
 * La ROM : update-cm-9.0.0-RC0-2012.03.04-betelgeuse-KANG-signed.zip
 * Les outils Google : gapps-ics-20120224-signed.zip
@@ -73,7 +75,8 @@ En remplaçant monUtilisateur pour votre login préféré.
 
 #### Démarrage de la Folio 100 en mode fastboot
 
-Simple : 
+Simple :
+
 * Démarrer la tablette normalement
 * A l'apparition du logo Toshiba, taper 3 fois sur le bouton Power et ensuite le bouton Volume+
 * Un petit message confirme le passage en mode fastboot

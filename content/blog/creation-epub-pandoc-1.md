@@ -12,6 +12,7 @@ Tags: epub,ereader
 Comme je l'ai dit dans [un article précédent](/blog/creation-epub-pandoc), un ami m'a demandé de l'aide pour créer un fichier Epub. Pour répondre à un défi de ses enfants il a voulu transformer [Ellana L'envol de Pierre Bottero](http://fr.wikipedia.org/wiki/Ellana_l%27envol) en Epub. Il a réalisé le scan, l'OCR et a même créé un fichier Epub (j'essaye de le motiver pour faire un tutoriel).
 
 Par contre il a rencontré les problèmes suivants :
+
  * Comme la plupart des livres jeunesse il y a une petite image à chaque nouveau chapitre. donc un simple OCR ne suffit pas. Pour l'instant il a décidé de garder ça pour plus tard.
  * Quand je dis qu'il a fait l'OCR, il n'a pas reconstitué les paragraphes ni enlevé les numéros de page. Donc l'Epub généré est illisible.
  * Le découpage des paragraphes n'était pas correct et l'Epub n'avait pas de table des matières.

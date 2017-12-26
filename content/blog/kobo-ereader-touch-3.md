@@ -12,7 +12,8 @@ Tags: ereader
 ## Firmware 1.9.14
 Ce firmware est sorti le 24/11/2011 et est donc le [1.9.14](http://www.mobileread.com/forums/showthread.php?t=158476) (à priori il n'y a pas eu de 1.9.13). Pour information [le précédent firmware](http://www.mobileread.com/forums/showthread.php?t=153402) a été diffusé le 13 octobre 2011 donc il y a grosso modo 1 mois. La principale nouveauté est l'ajout des annotations aux fichiers epub classiques (et pas seulement aux fichiers kepub comme dans la révision 1.9.12).
 
-Les nouveautés sont les suivantes : 
+Les nouveautés sont les suivantes :
+
 * Lors de la lecture d'un livre, en touchant le coin supérieur droit de la page, il est possible de la marquer (pour la retrouver facilement plus tard). Ce marque page vient en plus du marque page automatique de la dernière page lue.
 * Il est possible d'ajouter des notes sur les marques pages.
 * Les marques pages et les notes sont synchronisés automatiquement sur le cloud Kobo.
@@ -37,6 +38,7 @@ Dernière nouvelle, je fais partie du groupe de beta-testeurs du firmware Kobo, 
 ## Revue de Web
 
 ### Kobo et autres eReaders
+
 * [La Kobo by FNAC bientôt en vente chez SFR](http://www.ebouquin.fr/2011/11/24/la-kobo-by-fnac-bientot-en-vente-chez-sfr/)
 * [KYOBO eReader : le premier appareil Mirasol grand public](http://www.ebouquin.fr/2011/11/22/kyobo-ereader-le-premier-appareil-mirasol-grand-public/)
 * [Le Kobo Touch passe à la publicité](http://www.ebouquin.fr/2011/11/12/le-kobo-touch-passe-a-la-publicite/)

@@ -30,7 +30,9 @@ fastcgi_cache_path /tmp/nginx
                    inactive=1h
                    max_size=100m;
 ```
-Une petite explication : 
+
+Une petite explication :
+
 * Le nom du cache est mycache
 * Les éléments du cache seront gardés en mémoire vive avec un maximum de 10Mo
 * La taille totale du cache est de 100Mo
@@ -55,6 +57,7 @@ location ~ \.php$ {
 Les lignes modifiées ont un #########.
 
 Une petite explication :
+
 * Le cache a utiliser est mycache.
 * La clé du cache est l'URL complète + le type de requête (get post head) voir [ici](http://tonykwon.com/tag/fastcgi_cache/) pour valider l'intérêt.
 * Les fichiers en cache resteront valide au maximum 1 heure (quelque soit la réponse du fastcgi).
@@ -80,6 +83,7 @@ Une fois les deux modifications effectuées relancer nginx :
 Dans mon cas je voulais appliquer la modification du cache à ce site donc à Dokuwiki et cela n'est pas à la hauteur de mes espérances.
 
 Dokuwiki utilise principalement 4 fichiers php pour chaque page :
+
 * css.php : qui permet de récupérer une version minifiée des fichiers CSS.
 * js.php : idem pour les javascrips.
 * indexer.php : qui permet de mettre à jour les fichiers d'index de dokuwiki. il ne renvoie rien donc n'a aucun intérêt pour le cache.

@@ -108,6 +108,7 @@ EDIT 04/05/2014 : En fait la réécriture d'URL ne pose pas de problèmes avec D
 Je n'ai pas l'intention d'installer le DSM 5 avant le mois de juin. Donc si vous avez plus d'informations, les commentaires sont à vous.
 
 ## Sources et plus d'informations
+
  * [Apache / Webserver limitations in 5.0](http://forum.synology.com/enu/viewtopic.php?f=232&t=79801)
  * [3rd Party Applications absichern](http://www.synology-wiki.de/index.php/3rd_Party_Applications_absichern)
  * [BicBucStriim Upgrading Synology DSM 4 to 5](https://github.com/rvolz/BicBucStriim/wiki/UpgradeSynology)

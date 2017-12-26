@@ -16,8 +16,7 @@ Je n'ai pas trouvé de lien de téléchargement direct (pour les plus témérair
 
 ## Liste de changements officielle
 
-Source : 
-* http://www.mobileread.com/forums/showpost.php?p=2341667&postcount=61
+Source : http://www.mobileread.com/forums/showpost.php?p=2341667&postcount=61
 
 * Apercevoir vos statistiques de lecture lorsque vous lisez.
 * Profiter d'un affichage amélioré des livres.
@@ -30,6 +29,7 @@ Les statistiques ne sont disponibles pour le moment que sur les Kepubs (les livr
 ![Image](/blog/kobo-statistics.jpg){.centered}
 
 Cela permet donc d'avoir :
+
 * Le temps restant avant la fin du chapitre (je ne sais pas encore si cela se base sur un nombre de mots par minute constant ou sur une vitesse calculée spécifiquement pour l'utilisateur de la liseuse).
 * La durée en minutes du prochain chapitre.
 * Les prochains chapitres et leur durée sous forme graphique (cela avait été enlevé dans un précédent firmware).

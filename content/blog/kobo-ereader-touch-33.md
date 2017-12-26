@@ -22,7 +22,8 @@ Le multitouch (qui est utilisé sur le Cybook si je me souviens bien) n'est pas 
 
 ## Glo
 
-Ce modèle (le plus intéressant par rapport à mes besoins) est grosso modo basé sur le Kobo eReader Touch actuel avec les différences suivantes : 
+Ce modèle (le plus intéressant par rapport à mes besoins) est grosso modo basé sur le Kobo eReader Touch actuel avec les différences suivantes :
+
 * Processeur à 1GHz (800MHz pour l'ancien modèle).
 * Ecran XGA de ~~768x1024~~ 758x1024 (voir [ici](http://www.mobileread.com/forums/showpost.php?p=2233436&postcount=15)) (contre 600x800 pour le modèle actuel)
 * Glow light
@@ -35,6 +36,7 @@ Une petite video pour les amateurs anglophones : http://www.youtube.com/watch?fe
 ## Mini
 
 Le Mini sera donc basé sur le Touch actuel avec les différences suivantes :
+
 * Plus petit (5 pouces). Par contre a résolution de l'écran sera le même que le Kobo Touch (600x800).
 * Pas de carte µSD.
 * Ecran Vizplex au lieu de E-ink.

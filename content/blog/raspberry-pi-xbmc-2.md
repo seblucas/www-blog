@@ -24,6 +24,7 @@ Après de longues semaines d'attente, La [version RC5 de Raspbmc](http://www.ras
 Heureusement car au final comme elle se base sur sur la branche principale de XBMC et sur la dernière version de Raspbian il y a eu beaucoup de petits et gros problèmes.
 
 Les problèmes qui m'ont touché directement :
+
 * La lecture de flux RTSP venant de la Freebox ne fonctionne plus.
 * Certaines videos ont des soucis d'aspect ratio.
 * La gestion de la télécommande de la Xbox est imprécise : beaucoup de répétitions de touches.
@@ -57,6 +58,7 @@ Honnêtement je n'ai pas d'avis, mais si vous voulez rire, faites des recherches
 ## OpenElec ?
 
 Cette distribution a un beau potentiel. J'ai réussi à compiler sans problème ma propre version en suivant le [tutoriel officiel](http://wiki.openelec.tv/index.php?title=Building_and_Installing_OpenELEC_for_Raspberry_Pi). Le gros avantage de la compilation est qu'il est possible de modifier le fichier projets/RPi/options pour enlever plein de choses inutiles (pour moi) :
+
 * Support DVD et Bluray
 * Encodeurs audio
 * Modules additionnels de noyau pour carte Wifi ou DVB

@@ -19,6 +19,7 @@ Je n'ai pas réussi à faire fonctionner cette solution. Si quelqu'un a une idé
 ## Installation de Grub4dos sur la clé
 
 Télécharger les éléments suivants :
+
 * http://download.gna.org/grubutil/grubinst-1.1-bin-w32-2008-01-01.zip
 * http://download.gna.org/grub4dos/grub4dos-0.4.4-2009-06-20.zip
 
@@ -32,6 +33,7 @@ grubinst.exe --skip-mbr-test (hd1)
 Remplacer hd1 par le point de montage de votre clé USB.
 
 Décompresser grub4dos et copier les fichiers sur la clé USB :
+
 * grldr
 * menu.lst
 

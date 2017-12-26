@@ -15,6 +15,7 @@ Dans mon cas j'utilise [Keepass](http://keepass.info/) qui a l'avantage de fonct
 ## Dans le pire des cas
 
 ### Pour Outlook
+
 http://www.nirsoft.net/utils/mailpv.html
 
 ### Pour les mots de passe présents sous des astérisques

@@ -10,10 +10,12 @@ Tags: calibre,ereader,nginx,opds,php
 # COPS 0.3.0
 
 Pour cette nouvelle version, beaucoup de nouvelles fonctionnalités :
+
 * [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
 * [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
 
 Le plus gros changement est la mise à jour des métadonnées des fichiers Epub lors du téléchargement. Pour le moment il faut l'activer manuellement via le paramètre "cops_update_epub-metadata". La mise à jour concerne les éléments suivants :
+
 * Titre
 * Auteur
 * Série
@@ -22,6 +24,7 @@ Le plus gros changement est la mise à jour des métadonnées des fichiers Epub 
 * Résumé
 
 Il me reste à traiter :
+
 * La couverture
 * les liens ISBN / Google / Amazon
 * L'éditeur

@@ -35,6 +35,7 @@ Geek un jour, geek toujours. Bidouiller ces petites machines m'amuse et en plus 
 ## Bilan depuis l'année dernière
 
 Au final je ne parle toujours que de ce qui m'intéresse (ce qui est égoïste mais primordial pour garder la motivation) et le site reçoit un peu plus de 10000 visiteurs uniques par mois (ce qui m'étonne encore). Au niveau des pages vues la répartition est très équilibrée :
+
 * 1/3 : Kobo, COPS et lecture numérique.
 * 1/3 : Dockstar, Raspberry Pi, Nginx.
 * 1/3 : Divers et articles en anglais.

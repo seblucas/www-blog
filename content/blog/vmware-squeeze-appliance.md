@@ -10,6 +10,7 @@ Tags: debian,vmware
 # Appliance / Image Debian Squeeze pour VMware
 
 ## Versions utilisées
+
 * VMware player 3.1.2 pour amd64.
 * Installer Debian Squeeze (http://cdimage.debian.org/cdimage/daily-builds/daily/arch-latest/i386/iso-cd/debian-testing-i386-netinst.iso) du 05/10/2010.
 * VMware tools 8.4.4.
@@ -17,6 +18,7 @@ Tags: debian,vmware
 ## Spécificités de l'installation
 
 J'ai installé une version minimale de Squeeze avec le serveur SSH, donc pas de Xorg pour cette version. J'ai aussi pris les choix suivants :
+
 * Le compte root a pour mot de passe : route
 * Pas de compte user
 * La carte réseau est en DHCP
@@ -32,6 +34,7 @@ Après cette installation j'ai installé les paquets suivants (pour compiler les
 ```
 aptitude install --without-recommends linux-headers-2.6-686
 ```
+
 Après la compilation et l'installation des VMware tools j'en ai supprimé les sources.
 
 ## Compression pour mise à disposition
@@ -43,6 +46,7 @@ aptitude clean
 aptitude autoclean
 cat /dev/zero > zero.fill;sync;sleep 1;sync;rm -f zero.fill
 ```
+
 La dernière commande permet d'être certain que l'espace libre du disque virtuel est bien composé de 0 pour faciliter la compression.
 
 Le fichier compressé a ensuite été obtenu comme suit :

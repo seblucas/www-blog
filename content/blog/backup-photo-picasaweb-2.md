@@ -11,10 +11,12 @@ Tags: dotnet,picasa,python
 
 ## PicasaWebSync
 Pour transférer des photos sur Picasa Web Album il est possible d'utiliser l'outil de transfert intégré au site. Pour mon cas cela ne sera pas suffisant car :
+
 * Je dois retailler les photos pour avoir au max une résolution de 2048x2048
 * J'ai beaucoup de photos
 
 J'ai donc trouvé un outil faisant le transfert et le redimensionnement des photos si nécessaire [ici](http://www.geekytidbits.com/2011/04/picasawebsync/), suite à un test plutôt concluant, j'ai trouvé quelques problèmes :
+
 * Pas de transmission des informations Exif dans la cas d'un redimensionnement.
 * Quelques bugs
 * Impossible de transmettre des vidéos

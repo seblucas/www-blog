@@ -21,6 +21,7 @@ Le changement de Rom Opérateur vers Rom nue est facile (via Odin) et virer le s
 Je suis globalement satisfait, ce smartphone est suffisamment rapide pour qu'il donne envie de l'utiliser et Android est globalement très facile à utiliser. L'énorme avantage est le Market avec des centaines de milliers d'applications gratuites disponibles (mais de qualité).
 
 Côté bidouillage, on est servi :
+
 * Il existe des centaines de Roms customs disponible (via [xda](http://forum.xda-developers.com/forumdisplay.php?f=665)).
 * Des forums français de qualité ([Galaxy S Team](http://galaxys-team.fr/), [FRandroid](http://forum.frandroid.com/forum/57-samsung-galaxy-s-gt-i9000/), ...)
 * La possibilité de développer ses applications sur son mobile gratuitement et pour le market pour $25.00

@@ -18,6 +18,7 @@ Merci encore à Loendi ;).
 ## Je suis trop geek
 
 J'ai bêtement voulu demander à Google de me trouver des boutiques vendant ce livre, j'ai donc cherché les termes suivants : brethren young epub. Je n'ai pas été déçu :
+
 * Le premier lien pointe sur la Fnac (une boite française) et l'ebook est indisponible. J'ai encore du mal à comprendre comment un ebook peut être indisponible, mais ça doit venir de moi.
 * 8 liens me proposant des fichiers torrent pour les 3 tomes de la série (sympathique).
 * Le dernier lien de la page me propose de commander la version papier pour 15.90€
@@ -29,6 +30,7 @@ Si vous voulez tester par vous même : https://www.google.fr/search?q=brethren+e
 ## Espèce d'Epub !
 
 Je me suis ensuite dit que epub devrait être un gros mot utilisé par les pirates et jamais par les vrais vendeurs de livres électroniques. Même recherche mais en enlevant le mot interdit. C'est mieux, en première page je tombe sur :
+
 * Amazon.co.uk : version Kindle à £4.99 soit 6,15€
 * Amazon.com : version Kindle à $8.60 soit 6,62€
 * Google books : version numérique : 6,49€
@@ -52,6 +54,7 @@ Je vais donc me faire offrir ce livre via Kobobooks (vive Noël).
 ## Version française
 
 L'absence de version électronique française est quand même difficilement compréhensible : 
+
 * Le livre est trop vieux ?
 * Le livre est sorti en poche ?
 * Il est trop rentabilisé ?

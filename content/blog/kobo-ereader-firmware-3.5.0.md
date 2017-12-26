@@ -26,6 +26,7 @@ Pour les deux autres informations ... autant dire que Kobo ne nous en dit pas be
 Le plus gros changement est un peu caché : ce nouveau firmware est lié au RMSDK 10 d'Adobe. N'ayez pas peur le nouveau mode de sécurisation qui a beaucoup fait parler de lui n'est pas activé (c'est ce qui nous a été dit sur la liste de diffusion bêta).
 
 Les changements sont donc les suivants :
+
  * Le bug sur les long paragraphes qui étaient mal coupés est corrigé (lié au RMSDK 10 à priori).
  * Si votre liseuse a été éteinte avec la lumière activée alors elle restera activée lors du rallumage.
  * La synchronisation est plus rapide.

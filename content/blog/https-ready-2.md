@@ -39,6 +39,7 @@ J'ai mélangé la configuration HTTP et HTTPS dans le même fichier (étant donn
 
 ```
 Notez :
+
 * que je positionne une variable $https avec la valeur on ou off selon l'accès.
 * que j'écoute sur le port 80 et 443.
 

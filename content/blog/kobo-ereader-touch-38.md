@@ -16,6 +16,7 @@ A noter que la mise à jour va être diffusée dans le monde entier petit à pet
 ## Changements officiels 
 
 ### Liste officielle
+
 * Installer des dictionnaires de langue étrangère
 * Tourner les pages et télécharger des livres plus rapidement
 * Bénéficier de meilleurs outils de surlignage et de sélection

@@ -34,10 +34,10 @@ ATTENTION : Lire [ATTENTION : Ne pas installer les mises à jour Kobo manuelleme
 
 ## Firmware unifié
 
-~~Pour le moment (cela ne veut pas dire que ce sera toujours le cas), le firmware sont les mêmes entre les Touch, Glo et Mini. Cela permet de simplifier la gestion pour l'équipe de Kobo.
-~~
+~~Pour le moment (cela ne veut pas dire que ce sera toujours le cas), le firmware sont les mêmes entre les Touch, Glo et Mini. Cela permet de simplifier la gestion pour l'équipe de Kobo.~~
 
 Mea culpa, Voir ici pour plus d'informations :
+
 * http://www.mobileread.com/forums/showpost.php?p=2270009&postcount=37
 * [ATTENTION : Ne pas installer les mises à jour Kobo manuellement](/blog/kobo-ereader-touch-40)
 

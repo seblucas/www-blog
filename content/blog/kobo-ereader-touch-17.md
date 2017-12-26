@@ -17,6 +17,7 @@ Je vais simplement profiter de ce billet pour traduire en français toute une s�
 ## Le partitionnement de la Kobo
 
 Notre liseuse utilise un linux et pour son stockage interne utilise 2Go de mémoire partitionnée de la façon suivante :
+
 * /dev/mmcblk0p1 pour la partition root (environ 256Mo)
 * /dev/mmcblk0p2 pour la partition de secours (environ 256Mo)
 * /dev/mmcblk0p3 pour la partition user (environ 1.4Go) pour les livres et le reste de la configuration.
@@ -37,6 +38,7 @@ Attention : cette information n'est pas confirmée à 100% pour toutes les liseu
 ## Carte µSD et type de système de fichier
 
 J'ai pu tester les systèmes de fichiers suivants :
+
 * FAT32 : OK
 * ext3 : OK
 * ext4 : OK
@@ -79,6 +81,7 @@ Alors c'est encore plus chaud que tout le reste mais cela reste amusant. Un util
     cd /usr/local/Kobo
     get libnickel.so.1.0.0
 ```
+
 * A l'aide d'un éditeur binaire recherche la chaine de caractères "Sleep Mode" et il faut la remplacer celle de votre choix. Attention : ne pas changer la taille totale de la chaine (compléter par des espaces si nécessaire). Ici l'exemple avec "Chuck" :
 
 ```
@@ -88,6 +91,7 @@ Alors c'est encore plus chaud que tout le reste mais cela reste amusant. Un util
     010E0190  63 6B 27 73 20 00 00 00 51 57 69 64 67 65 74 20 ck's ...QWidget
     010E01A0  7B 20 63 6F 6C 6F 72 3A 20 72 67 62 28 32 35 35 { color: rgb(255 
 ```
+
 * Transmettre le fichier modifié sur la Kobo
 
 ```bash
@@ -95,6 +99,7 @@ Alors c'est encore plus chaud que tout le reste mais cela reste amusant. Un util
     cd /usr/local/Kobo
     put libnickel.so.1.0.0
 ```
+
 * Redémarrer la liseuse (par le petit bouton et un trombone)
 
 Source : http://mountain-tech.net/tech/embedded/kobo/

@@ -31,6 +31,7 @@ Bon test.
 ## Plugin mis à jour
 
 Le plugin a été mis à jour pour fonctionner avec la version 1.9.17 :
+
 * [Message du développeur](http://www.mobileread.com/forums/showpost.php?p=2007552&postcount=176)
 * [Téléchargement](https://github.com/ah-/koboplugins/downloads)
 

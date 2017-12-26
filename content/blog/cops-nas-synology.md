@@ -49,6 +49,7 @@ Dans mon cas ma bibliothèque de test est dans le répertoire "feedbook" dans le
 ### Paramétrage de PHP
 
 il faut indiquer au moteur PHP qu'il a le droit d'aller lire dans le répertoire contenant la bibliothèque :
+
 * Allez à la page "Menu principal > Panneau de configuration > Services Web > Applications Web"
 * Deuxième onglet > Personnaliser PHP open_base_dir 
 * Ajouter à la fin :

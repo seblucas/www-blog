@@ -10,6 +10,7 @@ Tags: calibre,ereader,nginx,opds,php
 # COPS 0.6.2
 
 Quelques corrections de bugs et quelques évolutions pour cette nouvelle version :
+
 * [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
 * [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
 

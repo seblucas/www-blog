@@ -14,6 +14,7 @@ Depuis mi mai la Freebox HD peut se connecter à des serveurs [UPnP](http://fr.w
 ## L'offre
 
 Il existe plusieurs solutions sous Linux :
+
 * [XBMC](http://www.xbmc.org) : il est très bien mais si le but est uniquement d'avoir un serveur UPnP c'est la grosse artillerie d'autant plus sur un serveur sans X.
 * [MediaTomb](http://mediatomb.cc) : Il a de très bons echos mais comme il a besoin d'une base mysql je ne l'ai pas testé.
 * [UShare](http://ushare.geexbox.org/) : Très léger, simple à configurer. Par contre il n'est plus développé.
@@ -47,7 +48,8 @@ aptitude install mediatomb
 
 La configuration se fait ensuite via l'interface Web : http://adresseIPDuServeur:49152 (voir éventuellement le chapitre suivant sur iptables).
 
-Avant d'ajouter les répertoires, je vous conseille : 
+Avant d'ajouter les répertoires, je vous conseille :
+
 * Bien vérifier que vos répertoires et fichiers à partager sont bien lisibles par tout le monde (éventuellement un petit chmod a+r -R peut aider).
 * Modifier le fichier de configuration de mediatomb pour ajouter la gestion des mkv et des ts qui sont lisibles par la Freebox. Il faut ajouter les lignes suivantes dans le fichier /etc/mediatomb/config.xml
 
@@ -57,6 +59,7 @@ Avant d'ajouter les répertoires, je vous conseille :
 ```
 
 Il ne vous reste plus qu'à ajouter vos répertoires, personnellement je choisi toujours :
+
 * Scan Mode : Inotify.
 * Initial Scan : Full
 * Recursive : Yes

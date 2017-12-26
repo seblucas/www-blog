@@ -41,6 +41,7 @@ titi:$apr1$kNyI93X2$W2nRIftuAxiZhDUCnLbsx0
 Où vous voulez !
 
 Pour être plus précis et pour être en sécurité, le seul endroit qu'il faut exclure est un endroit accessible via un navigateur internet :
+
  * Si vous êtes sur un Synology, il ne faut pas le stocker dans le partage `web` (donc pas dans `/volume1/web/`).
  * Si vous êtes sur une Debian , il ne faut pas le stocker dans `/var/www`
  * etc

@@ -13,7 +13,8 @@ En me baladant sur MobileRead je suis tombé sur [cet article](http://www.mobile
 
 Je vous rappelle que c'est du conditionnel et que je n'ai pas trouvé beaucoup d'autres sources pour croiser mes informations donc je vous laisse tirer vos propres conclusions.
 
-Ma conclusion personnelle est la suivante : 
+Ma conclusion personnelle est la suivante :
+
 * J'étais et je reste sceptique sur le fait de confier des données potentiellement personnelles à une entreprise privée.
 * Je n'aime pas les sociétés qui changent d'avis (et de conditions générales) trop souvent.
 * le client Dropbox ne fonctionne pas bien sur mon VPS (je sais c'est mesquin).

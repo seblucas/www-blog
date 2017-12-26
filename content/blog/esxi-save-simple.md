@@ -15,6 +15,7 @@ J'ai déployé dernièrement un serveur ESXi (donc la version gratuite de l'hype
 ## Alternatives trop complexes pour moi
 
 En cherchant un peu sur la toiles j'ai trouvé plusieurs possibilités :
+
 * GhettoVCB.sh : http://communities.vmware.com/docs/DOC-8760
 * MKSBackup : http://www.magikmon.com/mksbackup/ghettovcb.en.html
 * backup-vm.bat : http://blog.peacon.co.uk/completely-free-backup-for-esxi/
@@ -58,6 +59,7 @@ perl.exe esxi-control.pl --server %esxi_server% --username %esxi_username% --pas
 perl.exe esxi-control.pl --server %esxi_server% --username %esxi_username% --password %esxi_password% --action poweron --vmname %1
 ```
 Quelques explications :
+
 * Ce script est à installer dans C:\Program Files\VMware\VMware vSphere CLI\Perl\bin. 
 * set PERL5LIB= : la machine windows avait déjà un Perl installé par Oracle et la variable d'environnement bloquait l’exécution.
 * esxi_server : Adresse IP du serveur ESXi
@@ -68,6 +70,7 @@ Quelques explications :
 * La paramètre donné à ce script doit être le nom de la VM à sauvegarder.
 
 ATTENTION :
+
 * Il faut créer les répertoire sur le datastore de sauvegarde (esxi_datastore_out), le script ne les crée pas.
 * Les machines sont arrêtées avant sauvegarde et redémarrées après.
 * Il y a une attente de 2 minutes après la demande d'arrêt, cela peut être limite pour certains Windows.

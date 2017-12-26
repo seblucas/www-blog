@@ -18,6 +18,7 @@ Après quelques années de bons et loyaux services je voulais faire évoluer mon
 De plus le plugin de blogging que j'utilisais n'était compatible qu'avec SQLite 2 ce qui me limitait énormément dans mes choix (notamment en passant en dernière version de Debian).
 
 De plus, j'avais les attentes suivantes pour mon blog :
+
  * Facilement sauvegardable et déplaçable sur un autre serveur.
  * Affichage le plus rapide possible.
  * Mise en ligne facile de nouveaux articles.
@@ -30,6 +31,7 @@ De plus, j'avais les attentes suivantes pour mon blog :
 ### De bons vieux fichiers plats
 
 Depuis la fin d'année dernière, je lorgne sur beaucoup d'articles parlant de l'émergence des "Flat File CMS" (je vous laisse faire une recherche Google là dessus). Les plus célèbres candidats sont :
+
  * [Jekill](http://jekyllrb.com/)
  * [Kirby](http://getkirby.com/)
  * [Statamic](http://statamic.com/)
@@ -38,6 +40,7 @@ Depuis la fin d'année dernière, je lorgne sur beaucoup d'articles parlant de l
  * ...
 
 Leur principe est simple :
+
  * La structure du site est représentée par des répertoires.
  * Les articles sont des fichiers plats (texte).
 
@@ -48,6 +51,7 @@ Bref, il n'y a pas de base de données ce qui simplifie certaines choses.
 Après beaucoup de recherche, j'ai choisi [Pico](http://picocms.org/) dont les sources sont disponibles sur [Github](https://github.com/picocms/Pico).
 
 J'y ai vu les avantages suivants :
+
  * Écrit en PHP.
  * Un seul fichier fait tout : `pico.php`.
  * Assez populaire.
@@ -59,6 +63,7 @@ Ma seule angoisse était que le projet ne bouge pas énormément.
 ### Quelques modifications de Pico
 
 Je ne vais pas rentrer dans le détail de ce que j'ai du changer (c'est disponible sur [mon Github](https://github.com/seblucas/www-blog)). Les points les plus importants sont :
+
  * Correction de la détection HTTPS pour Nginx.
  * Mise à jour des dépendances.
  * Ajout de plusieurs greffons : gestion de tags, de l'internationalisation, de la recherche, rss, sitemap, ....
@@ -70,12 +75,14 @@ Le cache permet de ne pas traiter tous les fichiers de l'arborescence à chaque 
 ### Tout est stocké sur Github
 
 L'ensemble du site est géré dans [Github](https://github.com/seblucas/www-blog) :
+
  * la structure liée à Pico ainsi que les fichiers PHP.
  * Les pages du site.
  * Le thème (HTML, Javascript, CSS).
  * Les dépendances : images, zip, ...
 
 Mon mode de fonctionnement actuel est simple :
+
  * J'écris un article sur mon ordinateur portable (en Markdown).
  * Je le `commit` localement.
  * Je le `push` sur Github régulièrement dans une branche ou dans le master.

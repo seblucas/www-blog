@@ -15,7 +15,8 @@ Je n'avais jamais pris le temps de les tester et c'est mal !
 
 ## Comment faire un export
 
-Très simple : 
+Très simple :
+
 * Dans le menu de gauche cliquer sur "Créer un livre" (dans la section imprimer / exporter)
 * Cliquer sur le bouton vert "Démarrer le créateur de livre"
 * Cela ajouter un bandeau en haut des pages Wikipedia ou vous pouvez ajouter la page courante à votre livre
@@ -30,12 +31,14 @@ J'ai personnellement testé avec la page du [Trône de fer](http://fr.wikipedia.
 ## Sur la Kobo
 
 Je vais commencer par les points négatifs :
+
 * Pas de couverture.
 * Les notes de bas de page ne sont pas reprises.
 * Le tableau des publications est inexploitable.
 * Le chargement du livre est un peu lent.
 
 Et ensuite les points positifs :
+
 * Le tableau récapitulatif de la plupart des articles Wikipedia est repris en début d'article  et est parfaitement lisible.
 * Les images sont bien intégrées dans le fichier.
 * Pas de police de caractère en dur (ma fameuse police Averia est utilisée)

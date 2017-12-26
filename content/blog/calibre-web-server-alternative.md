@@ -256,6 +256,7 @@ Je vous encourage à lire le README du serveur PHP Calibre pour le reste de la c
 J'ai commencé à faire quelques adaptations sur le template pour le transformer en xhtml et le rendre valide.
 
 Mon but ultime est de modifier le template pour que le rendu soit optimisé pour la Kobo :
+
 * adapté à sa faible résolution.
 * adapté au noir et blanc.
 * adapté à l'imprécision du tactile IR et donc avec des zones cliquables assez grandes.

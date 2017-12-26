@@ -17,6 +17,7 @@ Suite à cela j'ai essayé [open-vm-tools](http://open-vm-tools.sourceforge.net/
 ```
 aptitude install --without-recommends open-vm-tools open-vm-dkms
 ```
+
 Le --without-recommends permet d'installer les outils dans le driver X (inutile pour un serveur headless). Cela semble marcher mais j'ai préféré prendre les outils officiels en attendant que ces outils soient un peu plus reconnus.
 
 ## Récupérer un linux.iso récent
@@ -32,11 +33,13 @@ Personnellement, j'ai utilisé un VMWare Player récent sous Linux. Le fichier l
 ```
 tar xvzf /media/cdrom/VMwareTools-8.4.3-282343.tar.gz -C .
 ```
+
 * lancer l'installation
 
 ```
 cd vmware-tools-distrib/
 ./vmware-install.pl
 ```
+
 * Voila c'est fini
 

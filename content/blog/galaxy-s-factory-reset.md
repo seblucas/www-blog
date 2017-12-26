@@ -15,7 +15,8 @@ Suite à de nombreux problèmes avec Kies qui n'a jamais reusi à mettre à jour
 ## Différentes méthodes
 
 ### Mode Recovery
-Attention tous les Galaxy n'ont pas ce mode de disponible (dans le cas contraire voir [ici](http://www.galaxys-team.fr/viewtopic.php?f=8&t=1801)). Comment l'utiliser : 
+Attention tous les Galaxy n'ont pas ce mode de disponible (dans le cas contraire voir [ici](http://www.galaxys-team.fr/viewtopic.php?f=8&t=1801)). Comment l'utiliser :
+
 * Arrêter le Galaxy S
 * Bien attendre une vingtaine de secondes que le Galaxy S soit bien arrêté (il vibre une seconde)
 * Appuyer en même temps sur Volume+, Home et Power
@@ -26,6 +27,7 @@ Attention tous les Galaxy n'ont pas ce mode de disponible (dans le cas contraire
 ### Via les menus
 
 Aller dans les paramètres :
+
 * Confidentialité
 * Rétablir param. par défaut
 * Valider ensuite toutes les confirmations

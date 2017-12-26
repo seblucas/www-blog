@@ -11,6 +11,7 @@ Tags: debian,dockstar,nginx
 
 ## Fin du serveur temporaire
 Suite au crash de ma clé USB, j'ai du migrer sur un serveur temporaire ([Mon cadeau de Noël : le site cassé](/blog/cadeau-noel-site-out)), je suis passé à un hébergement moins amateur. J'ai donc loué un VPS L de 1&1 avec les caractéristiques suivantes :
+
 * 4 Cpu de 500Mhz
 * 2048Mo de RAM dont 512Mo de garanti
 * 20Go de disque dur en Raid 5
@@ -32,9 +33,9 @@ deb http://update.onlinehome-server.info/distribution/debian-security squeeze/up
 
 deb http://www.backports.org/debian squeeze-backports main
 ```
-avant de lancer un 
-  aptitude upgrade
-  
+
+avant de lancer un `aptitude upgrade`
+
 A part ça le reste de l'installation s'est bien passé et j'ai pu faire le transfert DNS hier dans l'après midi.
 
 A bientôt pour la suite avec certainement l'apparition des commentaires vu que j'ai la puissance nécessaire.

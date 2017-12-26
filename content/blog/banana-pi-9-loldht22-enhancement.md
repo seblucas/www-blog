@@ -16,6 +16,7 @@ Pour éviter d'avoir des lectures erronées dans le graphe RPI-Monitor (mesures 
 De la même manière j'ai modifié le script bash pour gérer correctement les codes d'erreur.
 
 Voir les commits suivants :
+
  * https://github.com/seblucas/lol_dht22/commit/3de823e81a1143b634752787c9047e077712cf93
  * https://github.com/seblucas/lol_dht22/commit/f65751aaca0f8907f686b94c35b34e7ce60a93ab
 
@@ -26,5 +27,6 @@ En analysant mes deux semaines de mesures je me suis rendu compte que j'ai eu un
 J'imagine qu'il y a un vrai bug dans le programme pour ressortir une mesure fausse à ce point, pour le moment j'ai juste ajouté un palliatif tout simple en ajoutant un contrôle de cohérence pour que les mesures faites restent dans le cadre des [spécifications du DHT22](https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf).
 
 Voir les commits suivants :
+
  * https://github.com/seblucas/lol_dht22/commit/496e8c8ecb8bd91bd918a8218dd346b0a3400de2
  * https://github.com/seblucas/lol_dht22/commit/dcfa90adf9071247a2bcfa31abbdfcc49eb728a1

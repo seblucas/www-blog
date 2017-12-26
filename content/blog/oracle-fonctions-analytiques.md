@@ -17,6 +17,7 @@ http://lalystar.developpez.com/fonctionsAnalytiques/
 ## La concaténation de chaine de caractères
 
 ### Source
+
 * http://www.oracle-base.com/articles/misc/StringAggregationTechniques.php
 * http://www.oracle-developer.net/display.php?id=306
 
@@ -27,11 +28,13 @@ Le plus simple était de passer par une fonction.
 ###  en 10g : COLLECT 
 
 cela passe par trois étapes :
+
 * Création d'un type
 
 ```sql
 CREATE OR REPLACE TYPE t_varchar2_tab AS TABLE OF VARCHAR2(4000);
 ```
+
 * Création d'une fonction
 
 ```sql
@@ -49,6 +52,7 @@ BEGIN
 END tab_to_string;
 /
 ```
+
 * La requête
 
 ```sql

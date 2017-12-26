@@ -47,6 +47,7 @@ Au boot on démarre directement sur notre ArchLinux (mot de passe root/root).
 
 ### mv_cesa / cryptodev
 Notre Dockstar possède une unité de calcul cryptographique dédiée avec notamment la prise en charge du AES. Mon objectif était que tous les programmes qui doivent chiffrer des informations puissent le faire via le matériel, en effet il y a :
+
 * l'accès SSH
 * Le transfert via SFTP
 * Un VPN OpenVPN
@@ -131,6 +132,7 @@ iperf -c 127.0.0.1 -t 60 -i 10
 ```
 
 Bilan :
+
 * Avec support matériel : 60Mbits/sec.
 * Sans support matériel : 45Mbits/sec.
 

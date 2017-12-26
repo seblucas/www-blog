@@ -20,6 +20,7 @@ En premier, un article publié par Aldus. Il m'a fait réagir car il remet en av
 Si Immateriel ou Feedbooks déposent le bilan, que se passe-t-il avec vos livres non téléchargés ? Ils sont certainement perdus. De la même manière, je m'interdis d'acheter chez Kobo (même si j'adore leurs liseuses). La synchronisation automatique des livres achetés sur les liseuses incite à faire une confiance aveugle au vendeur.
 
 Ma façon de procéder est différente :
+
  * J'achète un livre au format Epub.
  * Je récupère le fichier Epub grâce à Adobe.
  * Je le sauvegarde convenablement (sur mon NAS et mon serveur hébergé en Datacenter).
@@ -40,6 +41,7 @@ Mon dernier sujet date un peu car il concerne des mails que j'ai envoyé à plus
 Je suis tombé coup sur coup sur plusieurs livres qui avaient une marge à droite particulièrement désagréable et qui m'ont obligés à modifier la feuille de style CSS du livre à chaque fois (j'ai vraiment trouvé ça insupportable).
 
 J'avais notamment eu le problème sur ces livres :
+
  * Peste et Cholera de Patrick Deville aux éditions du Seuil.
  * La formule de Dieu de Jose Rodrigues Dos Santos aux éditions HC.
 

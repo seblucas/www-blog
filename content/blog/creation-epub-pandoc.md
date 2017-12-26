@@ -26,6 +26,7 @@ Encore une fois je suis passé par un simple copier coller du site vers mon édi
 ## Mise en forme Markdown
 
 J'en ai déjà parlé mais j'apprécie vraiment ce format surtout grâce à sa simplicité. Il y a des tutoriels partout sur le Net, je ne vais donc pas en ajouter un autre. Ce qu'il faut retenir :
+
  * Il faut avoir une ligne vide entre chaque paragraphe.
  * Les titre de chapitres sont de la forme `# Chapitre X`.
  * L'italique se fait en entourant le texte avec une étoile.
@@ -50,6 +51,7 @@ pandoc -o resultat.epub source.md --epub-cover-image=cover.jpg --epub-metadata=m
 ```
 
 Une petite explication des paramètres :
+
  * --epub-cover-image=cover.jpg : Pour spécifier une image de couverture
  * --epub-metadata=metadata.xml pour spécifier les métadonnées du fichiers epub (auteur, titre du livre, éditeur, ...)
 

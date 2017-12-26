@@ -21,6 +21,7 @@ Après l'installation j'ai été bluffé. Le rendu est rapide : l'interface est 
 ## 2ème étape : la honte
 
 Heureux de mon test, le lendemain je me décide à montrer le rendu à ma moitié et là patatra :
+
 * La tablette ne répond pas toujours comme il faut, il faut s'y reprendre à deux ou trois fois pour lancer une application.
 * Le market est bloqué avec la plupart des applications marquées comme non compatibles.
 
@@ -31,6 +32,7 @@ J'ai lu pas mal de messages sur Frandroid ([voir le thread complet](http://forum
 ## 3ième étape : la réinstallation
 
 J'ai fini par :
+
 * Tout effacer sur la tablette (fastboot erase sur toutes les partitions)
 * Installation de la version Alpha 3 de ICS
 * Installation des Google Apps de début mars
@@ -59,6 +61,7 @@ Donc sur l'autre Folio : Aucun problème !!!
 ## Bilan
 
 Les points positifs :
+
 * Interface vraiment plus agréable (je conseille d'ailleurs Apex pour remplace Trebuchet)
 * Chrome pour un surf plus agréable
 * Boot très rapide
@@ -66,6 +69,7 @@ Les points positifs :
 * La tablette est globalement plus fluide (mais ça doit être variable selon l'utilisation)
 
 Les points négatifs :
+
 * ~~Installation capricieuse~~
 * ~~Accès au market capricieux~~
 * RAM limité pour les "gros" jeux

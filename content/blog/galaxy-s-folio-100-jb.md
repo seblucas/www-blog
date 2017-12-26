@@ -17,7 +17,8 @@ Suite à mon précédent article sur le sujet ([Passage à Ice Cream Sandwich av
 
 En septembre je suis passé à SlimBean (le lien est le même) et le changement a été vraiment simplissime et sans douleur.
 
-La ROM marche vraiment bien et j'y trouve les avantages suivants : 
+La ROM marche vraiment bien et j'y trouve les avantages suivants :
+
 * Meilleure autonomie.
 * Interface plus jolie avec des transitions utilisant le GPU. 
 * Le bureau par défaut gère parfaitement le passage en paysage.
@@ -48,7 +49,8 @@ Les 3 derniers fichiers doivent être mis sur une carte SD insérée dans la Fol
 
 ### Mise à jour du recovery
 
-Démarrer la tablette en mode fastboot : 
+Démarrer la tablette en mode fastboot :
+
 * Démarrer la tablette normalement
 * A l'apparition du logo Toshiba, taper 3 fois sur le bouton Power et ensuite le bouton Volume+
 * Un petit message confirme le passage en mode fastboot
@@ -73,10 +75,12 @@ Pour la commande qui flashe le recovery, il faut bien sur avoir recopié le fich
 ### Installation
 
 Au reboot, aller dans le recovery :
+
 * Au démarrage de la tablette enter dans le recovery Toshiba avec Power + Volume+
 * Ensuite faire 3 x Volume+ pour enter dans Clockworkmod Recovery
 
 Il faut ensuite :
+
 * Aller dans "mounts and storage"> et choisir 
     * "format /cache",
     * "format /data",

@@ -19,6 +19,7 @@ Voila, j'ai une version qui commence à bien marcher, Youpi!
 L'URL de test est la suivante : http://goo.gl/0nUPM (j'ai pensé à vous et j'ai généré une URL courte).
 
 Vous pouvez y accéder à partir de :
+
 * votre ordinateur (testé sur Firefox)
 * votre tablette (testé sur Chrome / ICS)
 * votre smartphone (testé sur la navigateur par défaut de Galaxy S)
@@ -26,7 +27,8 @@ Vous pouvez y accéder à partir de :
 
 Le rendu devrait être à chaque fois très similaire.
 
-Attention : 
+Attention :
+
 * le design est volontairement très (peut être trop) sobre pour rester lisible sur un écran e-ink.
 * J'ai encore de bons yeux mais je sais que le texte en italique est un peu petit.
 

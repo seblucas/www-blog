@@ -22,6 +22,7 @@ J'ai eu un peu de mal à tester ce changement et j'ai trouvé qu'il était plus 
 Il y a quelques autres changements :
 
 Les changements sont donc les suivants :
+
  * Le choix de tri des étagères est de retour.
  * Le résumé des livres était trop petit sur le Aura HD.
  * Correction de problèmes intermittent avec la synchronisation Pocket.

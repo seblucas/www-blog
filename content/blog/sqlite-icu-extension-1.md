@@ -73,6 +73,7 @@ Et là vous voyez le problème, ma requête est censée être ordonnée (voir le
 ## Mise en avant du problème de recherche
 
 Je me suis créé une base de test avec le mot "épée" orthographié de façon différente :
+
  * epee
  * épée
  * Épée
@@ -160,6 +161,7 @@ Z|5
 Ça marche mieux !
 
 Les deux problèmes précédents sont résolus :
+
  * les variations du A sont correctement positionnées avant le B (c'est l'effet du `collate FRENCH`).
  * certaines lettres sont correctement mises en majuscule (î, é, ...). La fonction upper est modifiée par ICU pour gérer correctement les accents.
 
@@ -181,6 +183,7 @@ Il y a du mieux dans le sens que le Like devient réellement non sensible à la 
 ## Et ça arrive quand dans COPS ?
 
 Malheureusement pas tout de suite :
+
  * Pour utiliser la bibliothèque ICU, il faut la compiler ce qui n'est pas très user friendly.
  * Les utilisateurs de COPS utilisent beaucoup de matériels différents (Synology, NAS Zyxel, QNap, PC normal) ce qui ne simplifie pas la tâche pour que cette fonctionnalité puisse toucher le plus grand nombre.
  * J'utilise la bibliothèque PDO pour que PHP accède à la base SQLite et celle-ci ne peut pas charger de bibliothèque externe. Il faudrait utiliser la bibliothèque SQLite3 directement.

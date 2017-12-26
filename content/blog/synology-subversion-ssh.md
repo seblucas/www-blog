@@ -15,6 +15,7 @@ Il y a pas mal de concurrence dans le domaine des NAS, j'ai choisi la marque Syn
 ## Installation de ipkg
 
 [ipkg](http://fr.wikipedia.org/wiki/Special:Search?search=ipkg) est grosso modo un équivalent de apt-get/aptitude. Sur mon DS210j il s'installe comme cela (attention l'archive à télécharger dépends de votre NAS) : 
+
 * Activer la connexion SSH dans la console d'administration
 * Se connecter en SSH
 * Executer ces commandes :
@@ -43,6 +44,7 @@ Une mise à jour de firmware Synology risque de supprimer l'ensemble des bidouil
 ### Pourquoi svn+ssh
 
 La méthode la plus documentée consiste à utiliser svnserve en démon : http://forum.synology.com/wiki/index.php/Step-by-step_guide_to_installing_Subversion. Je n'aime pas trop cette méthode :
+
 * elle oblige une configuration "complexe" de svnserve pour chaque dépôt. Il faut en effet modifier les fichiers passwd et svnserve.conf de chaque dépôt (et comme j'en ai une bonne dizaine mon côté fainéant m'a poussé à trouver une solution). 
 * elle est très intrusive sur le système Synology (fichier services et inetd à modifier)
 * Pas très sécurisée
@@ -59,6 +61,7 @@ J'ai trouvé un début de tutoriel ici : http://forum.synology.com/enu/viewtopic
 ### Bidouillage pour autoriser la connexion en ssh de l'utilisateur svn
 
 Par défaut seul root a le droit de se connecter en ssh, il va donc falloir ruser :
+
 * On crée un répertoire home pour svn :
 
 ```
@@ -66,6 +69,7 @@ mkdir /user
 mkdir /user/svn
 chown svn.root /user/svn
 ```
+
 * On modifie le /etc/passwd pour ajouter le répertoire home et le shell à notre utilisateur svn :
 
 ```
@@ -82,11 +86,12 @@ Le principe d'une connexion svn+ssh est bien sur de lancer une connexion ssh et 
 /opt/bin/svnserve -r /volume1 $@
 ```
 Quelques explications : 
+
 * le -r /volume1 est pour préciser la racine virtuelle (pour alléger les url des dépôts)
 * le $@ permet de passer l'ensemble des paramètres de l'appelant
 * ce fichier est à rendre exécutable (chmod +x)
 * la documentation de svnserve : http://svnbook.red-bean.com/nightly/fr/svn.ref.svnserve.html#svn.ref.svnserve.sw
- 
+
 Pour faire plus simple il est aussi possible de faire un lien symbolique directement sur /opt/bin/svnserve.
 
 ### Test
@@ -106,6 +111,7 @@ Sur une autre machine (windows ou Linux), faire un checkout de la façon suivant
 ```
 svn co svn+ssh://svn@AdresseIpDuNas/svn/test
 ```
+
 Une fois le mot de passe saisi tout doit fonctionner correctement.
 
 Si le choix du lien symbolique a été fait il faut remplacer l'url par la suivante : 

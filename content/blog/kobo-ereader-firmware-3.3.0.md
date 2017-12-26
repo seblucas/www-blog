@@ -14,6 +14,7 @@ C'est tout neuf. Cela fait quelques mois que nous testons plusieurs firmwares av
 ## Les changements
 
 Je n'ai encore accès à la liste officielle mais à la fin de la beta nous avions repéré les changement suivants :
+
  * Lorsque vous finissez un livre, l'ouverture de l'étagère se fait automatiquement.
  * Le pourcentage d'avancement des kepubs est affiché correctement pour les Kobo Touch.
  * Réduction des "dead taps" (avez vous des idées de traduction française ?) qui pouvait créer des signets ou d'avancer de deux pages à la fois.

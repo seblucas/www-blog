@@ -16,7 +16,8 @@ Ci-dessus quelques petites informations glanées un peu partout et le résultat 
 
 Des utilisateurs ont des soucis d'étagères dupliquées suite à des synchronisations. La seule solution (en plus du reset) est de modifier la base de données Sqlite pour marquer les étagères en trop comme "à supprimer".
 
-Pour l'instant la cause n'est pas claire : 
+Pour l'instant la cause n'est pas claire :
+
 * Soit c'est un bug Kobo.
 * Soit cela concernerait que des étagères créées automatiquement par Calibre
 * ...
@@ -36,6 +37,7 @@ Le titre est suffisamment racoleur !
 J'ai lu, il y quelques mois, une bidouille que je me suis promis d'essayer depuis un certain temps et que je viens enfin de tester. Si vous renommez un fichier .epub avant de le copier sur la Kobo en fichier .kepub.epub alors il sera interprété comme un Kepub ce qui débloque certaines fonctionnalités.
 
 J'ai donc copié le fichier MonLivre.epub sur le Kobo et avant d’éjecter la liseuse je l'ai renommé en MonLibre.kepub.epub. Une fois l'éjection faite, je me retrouve avec un livre lisible avec les changements suivants :
+
 * Pas de couverture.
 * La pagination se fait au chapitre (certain peuvent aimer, ce n'est pas mon cas).
 * Le nom du livre est affiché constamment en cours de lecture.
@@ -47,6 +49,7 @@ A noter qu'il est possible de faire des modifications dans Calibre pour qu'il tr
 
 Bon test à vous et partagez vos expériences dans les commentaires.
 
-Sources : 
+Sources :
+
 * http://www.mobileread.com/forums/showthread.php?t=193294
 * http://dsandrei.blogspot.fr/2012/07/koboish-ebooks.html

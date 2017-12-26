@@ -28,6 +28,7 @@ La bonne nouvelle c'est qu'une méthode a été trouvée sur [MobileRead](http:/
 Les sources de cet outil sont librement téléchargeables et je compte passer un peu de temps pour me créer un dictionnaire basé sur les données de [Wiktionnaire](http://fr.wiktionary.org/wiki/Wiktionnaire:Page_d%E2%80%99accueil) dont la base de données est librement distribuée. Il ne me reste plus qu'à trouver du temps.
 
 Pour le moment, il existe quelques dictionnaires alternatifs :
+
 * Anglais : http://www.mobileread.com/forums/showthread.php?t=196925
 * Japonais-Anglais : http://www.mobileread.com/forums/showthread.php?t=197828
   

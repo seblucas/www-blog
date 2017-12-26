@@ -40,6 +40,7 @@ Intéressant à lire pour ne jamais oublier que nous n'avons pas beaucoup de dro
 J'ai parlé des mes lectures il y a un peu plus d'un mois (voir [ici](/blog/lectures-2014-04)) et j'ai notamment indiqué que j'avais commencé à lire la série de l'Epouvanteur (j'ai privé quelques enfants de ma médiathèque pendant quelques jours). Je m'étais arrêté avec "Spook's blood" et il me restait les trois derniers volumes en VO que j'ai trouvé à 5,99 € sur la plupart des sites ([Kobo](http://store.kobobooks.com/fr-FR/Search?Query=delaney&id=87ddc38f-1048-45b4-9cc4-c66dd657d61d), [Feedbooks](http://fr.feedbooks.com/search?lang=en&query=joseph+delaney), ...).
 
 J'ai voulu profiter de la sortie en février du dernier volume en français "Le sang de l'épouvanteur" pour l'offrir à mon neveu (équipé, comme il se doit, d'une Kobo Mini). J'ai eu quelques déconvenues :
+
  * Aucune version électronique n'est disponible pour le moment. J'ai contacté Bayard Jeunesse à ce sujet et pour le moment aucune nouvelle.
  * La version papier française coûte 14,16 € là ou la version en VO ne dépasse pas 10 €.
  * Le pire dans tout ça c'est que des fichiers ebooks piratés pullulent sur le net. Pas d'offre légale = Des fans au travail.

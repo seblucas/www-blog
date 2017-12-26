@@ -23,6 +23,7 @@ Concernant les CBR / CBZ je n'ai pas ressenti grand chose et le bug de la lectur
 ## Autres améliorations
 
 Je n'ai pas trop repéré les changements officiels. Par contre j'ai beaucoup aimé le reste :
+
 * Changement de page plus rapide
 * Amélioration du rendu des polices externes (mon Averia est de nouveau tout jolie), Je pense que le rendu était encore mieux en 1.9.17 mais c'est très utilisable.
 * Le dictionnaire français est maintenant le Larousse.

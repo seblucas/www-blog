@@ -11,7 +11,8 @@ Tags: ereader
 
 Suite à la lecture de plusieurs réponses de forums [en anglais](http://www.mobileread.com/forums/showthread.php?t=184838) ou [en français](http://forum.teamalexandriz.org/les_liseuses_debook_readers/mise_jour_2.0_du_kobo_22965.msg142066.html#msg142066), j'ai voulu faire un essai. 
 
-Je suis donc parti d'un firmware ou je n'ai gardé que le fichier gérant les césures et je l'ai modifié avec le dictionnaire de césure de libreoffice que j'ai récupéré sur une Debian Sid. J'ai aussi modifié les paramètres suivants : 
+Je suis donc parti d'un firmware ou je n'ai gardé que le fichier gérant les césures et je l'ai modifié avec le dictionnaire de césure de libreoffice que j'ai récupéré sur une Debian Sid. J'ai aussi modifié les paramètres suivants :
+
 * LEFTHYPHENMIN 2
 * RIGHTHYPHENMIN 3
 
@@ -22,6 +23,7 @@ Au final :
 [koboroothyphenfr.zip](/blog/koboroothyphenfr.zip)
 
 La méthode d'installation :
+
 * Télécharger le fichier
 * Connecter votre liseuse en USB
 * Placer le fichier KoboRoot.tgz (qui est dans le zip) dans le répertoire .kobo de votre liseuse

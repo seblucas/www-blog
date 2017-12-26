@@ -17,21 +17,24 @@ Enfin c'était la seule perte dans l'histoire, ma paranoïa m'a au moins permis 
 ## Firmware 1.9.16
 
 Le changelog officiel est le suivant :
+
 * Amélioration de la vitesse pour tourner les pages et rechercher
 * Un texte plus fin et plus vif pour une meilleure expérience de lecture
 * La nouvelle liste 'Recommandé pour vous" trouve automatiquement des livres correspondants a vos goûts
 * Le menu ACCEUIL simple et amélioré contient désormais la Bibliothèque , la Librairie et le Reading Life
 * Les icônes pour les paramètres , la synchronisation et l'Aide sont désormais accessible sous le menu ACCEUIL
-  
-J'ai lu pas mal de mauvais commentaires sur cette version, notamment sur le besoin de cliquer deux fois pour accéder aux menus. Je n'ai pas ce genre de problème et depuis ce firmware je n'ai pas eu une seule fois le problème de "double tap" : 
+
+J'ai lu pas mal de mauvais commentaires sur cette version, notamment sur le besoin de cliquer deux fois pour accéder aux menus. Je n'ai pas ce genre de problème et depuis ce firmware je n'ai pas eu une seule fois le problème de "double tap" :
+
 * je tape une fois pour changer de page rien ne se passe
 * je tape une deuxième fois et zou il passe deux pages.
 
 J'espère que cela va durer.
 
 Pour ceux qui ont des problèmes, je vous conseille de faire un factory reset ou au pire de revenir au firmware précédent (j'ai détaillé l'installation manuelle sur cette page [Kobo eReader Touch : trucs et astuces d'origine diverse](/blog/kobo-ereader-touch-5)).
-  
+
 Pour revenir sur les nouveautés, pas grand chose d'intéressant :
+
 * Toujours pas de dictionnaire fr
 * Toujours pas de catégories pour la bibliothèque
 * Un Amazonisation au niveau de l'intégration de la boutique Kobo. A surveiller.
@@ -50,11 +53,13 @@ Ce buzz vient du format Kepub mis en avant par Kobo, qui logiquement doit juste 
 Pour l'instant le Fnac a eu comme réaction de rembourser ce qui n'est pas une vrai réponse.
 
 Je ne vais tout détailler, d'autres l'ont fait mieux que moi : 
+
 * https://plus.google.com/107252663012827113536/posts/9gmCxWEaqDx
 * Message de Sony France : http://www.sony.fr/discussions/message/721020#721020
-  
-Au final cela oblige l'honnête lecteur (si il veut bidouiller) a devenir un pirate et : 
-* déplomber le DRM 
+
+Au final cela oblige l'honnête lecteur (si il veut bidouiller) a devenir un pirate et :
+
+* déplomber le DRM
 * enlever les fichier Kobo.css et js ajouté
 * et enfin obtenir un **vrai** epub qui puisse être valide.
 
@@ -68,6 +73,7 @@ J'ai aussi pris le temps de mettre à jour la page des trucs et astuces : [Kobo 
 
 J'ai pu lire (je ne sais plus ou) que la Kobo ne supportait que le PDF et l'epub. C'est faux !
 Je viens de faire un essai avec ma Kobo (pas by Fnac) et un Kobo by Fnac d'un collègue en version 1.9.16 et j'ai réussi à intégrer et lire les formats suivants :
+
  | Type de fichier    | Résultat | Commentaire                                                                          | 
  | ---------------    | --------- | -----------                                                                          | 
  | Txt Ansi           | ~OK       | Fichier bien intégré mais les accents sont mal représentés                       | 

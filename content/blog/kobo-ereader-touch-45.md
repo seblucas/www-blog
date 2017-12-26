@@ -34,6 +34,7 @@ Cette opération n'est à faire qu'une seule fois, les paramètres sont ensuite 
 ## Transfert de livre via Calibre
 
 C'est cette partie qui pour l'instant n'est pas encore géniale :
+
 * Une fois la liseuse connectée à Calibre, Sélectionner des livres (avec une série si possible).
 * Faire une clic droit sur la sélection et choisir Envoyer au lecteur > Envoyer vers la mémoire du lecteur.
 * Attendre que le transfert soir terminé et ejectez proprement la Kobo et déconnectez l'USB.
@@ -50,6 +51,7 @@ Pour la petite histoire, le transfert doit être fait deux fois car les données
 ## Bilan
 
 Le fait de faire deux fois le boulot n'est pas génial, mais en étant pragmatique les alternatives ne sont pas nombreuses :
+
 * Ne pas lire de livres faisant partie de séries. Mouais.
 * Faire modifier à Calibre le titre du libre pour y intégrer la série (voir [Kobo eReader Touch : trucs et astuces d'origine diverse](/blog/kobo-ereader-touch-5)).
 * Utiliser les étagères ce qui règle le fait des regrouper mais pas la question de l'ordre.

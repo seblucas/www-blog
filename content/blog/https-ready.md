@@ -17,6 +17,7 @@ https://blog.slucas.fr
 ## Détail de la mise en place
 
 ### Source
+
 * http://technique.arscenic.org/ssl-securisation-des/article/startssl-utiliser-un-certificat
 * http://technique.arscenic.org/ssl-securisation-des/article/creation-d-un-certificate-signing
 
@@ -36,6 +37,7 @@ Dans mon cas je n'ai pas mis de mot de passe sur le csr
 
 Il faut ensuite aller dans le Certificate Wizard de StartSSL pour demander un Web Server SSL/TLS Certificate. On peut passer la première étape vu que nous avons déjà le CSR.
 Au final nous allons récupérer 3 fichiers :
+
 * blog-startssl.crt : le certificat proprement dit qui s'applique à blog.slucas.fr
 * sub.class1.server.ca.pem
 * ca.pem

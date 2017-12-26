@@ -22,6 +22,7 @@ La boite du Kobo by Fnac est plus fine certainement car elle ne contient pas de 
 ### Différence de firmware
 
 Je n'ai pas pu me rendre compte de visu des différences vu que je n'ai pas voulu ouvrir le cadeau. Mais à la lecture d'informations trouvée sur le Web j'ai trouvé ceci (à confirmer ou infirmer) :
+
 * Il est impossible de mettre la couverture du livre courant en écran de veille, le logo de la Fnac est présent à la place.
 * Il semble être impossible d'accéder au site Kobo.com, il y aurait une redirection vers le site de la Fnac.
 * Le dictionnaire français n'est toujours pas présent (comme sur le Kobo normal), ~~la Fnac compte livrer le firmware avec le dictionnaire avant Noël~~. Kobo ne confirme pas la livraison du dictionnaire avant Noel (voir http://ristic.fr/hitech/test-comparatif-kobo-touch-fnac-vs-amazon-kindle-4/#comment-282).
@@ -32,6 +33,7 @@ Je continue de glaner les informations.
 ## Mise à jour 01/12/2011 : Revenir à un firmware normal
 
 Cela n'a pas duré longtemps avant que des petits malins trouvent comment désactiver la surcouche Fnac :
+
 * Connecter son Kobo via la cable USB à un PC
 * Renommer le fichier .kobo/affiliate.conf en .kobo/xx
 

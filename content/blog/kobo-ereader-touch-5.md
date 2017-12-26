@@ -15,6 +15,7 @@ Vous allez trouver ci-dessous une série de trucs et astuces que j'ai pu lire su
 Par contre je trouve intéressant de les avoir au même endroit.
 
 Mes principales sources d'informations sont :
+
 * http://www.mobileread.com/forums/forumdisplay.php?f=223
 * http://forum.hardware.fr/hfr/gsmgpspda/tablet/unique-readers-ebook-sujet_21496_1.htm
 * http://www.teamalexandriz.org/forum/index.php?topic=11266.0
@@ -26,6 +27,7 @@ Mes principales sources d'informations sont :
 En plus de la technique précédente (voir [Kobo by Fnac : sortie officielle et différences avec le Kobo original](/blog/kobo-ereader-touch-4)). 
 
 ~~Pour enlever l'écran de veille Fnac, une nouvelle technique a été trouvée :~~
+
 * Brancher votre Kobo
 * Naviguer dans la mémoire et ouvrir le dossier .kobo (ce répertoire sera caché sous Linux ou MacOSX)
 * ~~Puis ouvrez le dossier Kobo dans lequel se trouve un fichier "Kobo eReader.conf"~~
@@ -39,6 +41,7 @@ Sinon le contenu du fichier affiliate.conf pour un Kobo original est :
 [General]
 affiliate=Kobo
 ```
+
 Alors que pour un Fnac c'est (essayez de deviner) :
 
 ```
@@ -54,6 +57,7 @@ Le dernier firmware est trouvable à l'adresse suivante : http://download.kobobo
 #### Installation
 
 C'est très simple :
+
 * Dezipper le fichier zip téléchargé. Il contient 2 fichiers et un répertoire
     * KoboRoot.tgz
     * manifest.md5sum
@@ -68,6 +72,7 @@ C'est très simple :
 Je n'ai pas du tutoriel pour le moment, mais dès que j'aurais fait la manipulation j'écrirai un article complet.
 
 Mes sources : 
+
 * http://www.chauveau-central.net/pub/KoboTouch/
 * http://blog.ringerc.id.au/2011/01/enabling-telnet-and-ftp-access-to-kobo.html
 * http://www.mobileread.com/forums/showthread.php?t=141388 (notamment les pages 2 et 3).
@@ -86,6 +91,7 @@ http%253A%252F%252Fwww.google.com%252F=
 ```
 
 Certains caractères sont à remplacer :
+
 * % -- %25
 * : -- %253A
 * / -- %252F
@@ -128,6 +134,7 @@ Le bouton se trouve dans le menu paramétrage avec les informations techniques.
 **Attention** : Par contre il faut enlever la carte micro sd avant de faire l'opération (confirmé par des représentants de Kobo).
 
 Dans le cas ou la liseuse ne démarre plus il reste les possibilités suivantes : 
+
 * Tirer sur le bouton de démarrage pendant 15 secondes.
 * Démarrer le Kobo en appuyant sur le bouton home.
 * Dans le pire des cas utiliser une trombone sur l'arrière du Kobo.
@@ -140,6 +147,7 @@ Dans le cas ou la liseuse ne démarre plus il reste les possibilités suivantes 
 ### Comment utiliser la liseuse dans la connecter avec le logiciel (et donc créer un compte)
 
 Depuis le firmware 1.9.14 c'est malheureusement un passage obligé. J'ai personnellement créé un compte bidon avec un adresse email bidon mais pour ceux que ça embête une solution existe : 
+
 * En anglais : http://www.mobileread.com/forums/showpost.php?p=1828566&postcount=262
 * En français : http://forum.pcinpact.com/topic/153932-ebook-le-topic-de-le-book/page__view__findpost__p__2647337
 
@@ -160,6 +168,7 @@ Bien vérifier que vous avez bien paramétré Calibre pour votre Kobo (si néces
 ###  Impossible de changer la marge sur mon livre 
 
 Le seul moyen connu à ce jour est de passer par une conversion avec Calibre :
+
 * clic-droit sur le livre
 * Convertir les livres
 * Convertir les livres individuellement
@@ -173,6 +182,7 @@ Dans certains cas il faut aussi cocher la case : "supprimer l'interligne entre l
 ### Ajouter une nouvelle police de caractère sur le Kobo
 
 C'est aussi simple que d'ajouter un livre : 
+
 * Connecter le Kobo à l'ordinateur (bien penser à cliquer sur Connecter sur le Kobo)
 * Créer un répertoire "fonts" sur le Kobo
 * Copier vos fichier ttf dans ce répertoire Kobo
@@ -180,6 +190,7 @@ C'est aussi simple que d'ajouter un livre :
 * La police est ajoutée aux polices disponibles pour la lecture
 
 Attention il faut copier au moins copier les styles suivants :
+
 * Regular
 * Bold
 * Italic
@@ -188,6 +199,7 @@ Attention il faut copier au moins copier les styles suivants :
 C'est aussi de cette manière qu'il est possible d'installer des polices de caractères russe, chinoise ou japonaise pour lire des livres en VO.
 
 Quelques liens :
+
 * http://atouchofkobo.wordpress.com/2011/11/14/viewing-a-czech-epub/
 * http://atouchofkobo.wordpress.com/2011/08/28/260/
 * http://www.mobileread.com/forums/showthread.php?t=164635

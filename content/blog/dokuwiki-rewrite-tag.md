@@ -19,6 +19,7 @@ Tags: dokuwiki,nginx
 ### Installation
 
 J'ai donc suivi le lien sur le rewrite pour modifier dokuwiki :
+
 * userewrite = 1
 * useslash = 1
 J'ai ensuite modifié ma configuration nginx en conséquence (comme indiqué dans le lien) :

@@ -18,6 +18,7 @@ Cela faisait des années que je suivais tout ce qui concernait les [PlugComputer
 ### Hardware
 
 Il a les caractéristiques suivantes :
+
 * Processeur ARM Marvell Kirkwood 1,2 GHz (Feroceon)
 * 128Mo de RAM
 * 256Mo de mémoire Flash NAND (32Mo occupés par le logiciel officiel)
@@ -30,6 +31,7 @@ En pratique on a la puissance d'un PIII-600 mais sans unité de calcul de nombre
 ### A quoi ça sert
 
 Dans mon cas j'ai plusieurs objectifs :
+
 * Un site web (vous y êtes) avec un wiki/blog
 * Un enregistreur TNT (avec une clé TNT et l'enregistrement sur un NAS grâce à VDR)
 * Un serveur [DLNA](http://fr.wikipedia.org/wiki/Special:Search?search=DLNA) avec mediatomb ou minidlna
@@ -50,22 +52,26 @@ Tout ce qui va suivre est une honteuse copie/ré-interprétation de la documenta
 ### Désactiver les mises à jour
 
 Le système est paramétré pour se mettre à jour dès qu'il est connecté sur internet, il est donc primordial de désactiver les mises à jour avant tout. Personnellement je l'ai connecté avec le câble fourni sur mon portable ce qui fait qu'il va avoir une adresse du style 169.254.0.0/16 (il est aussi possible de déconnecter l'ADSL de son routeur mais j'ai choisi la méthode complexe). La prochaine étape est donc de trouver son IP :
+
 * Avec nmap :
 
 ```
 nmap -e eth0 -sP 169.254.0.0/16
 ```
+
 * Avec netdiscover :
 
 ```
 netdiscover -r 169.254.0.0/16 -P
 ```
 Une fois l'adresse IP trouvée il faut se connecter en SSH et exécuter les commandes suivantes :
+
 * Monter le système en lecture/écriture
 
 ```
 mount / -rw -o remount
 ```
+
 * Modifier le /etc/hosts pour bloquer les mises à jour
 
 ```
@@ -74,6 +80,7 @@ mount / -rw -o remount
 127.0.0.1 service.cloudengines.com
 127.0.0.1 upgrade.pogoplug.com
 ```
+
 * Remettre le système en lecture seule
 
 ```

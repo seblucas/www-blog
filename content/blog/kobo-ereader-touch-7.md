@@ -17,6 +17,7 @@ D'autre part j'ai régulièrement mis à jour l'article sur les trucs et astuces
 ## Firmware 1.9.16
 
 Ce firmware a engendré beaucoup de plaintes et de remarques négatives :
+
 * Les suggestions ne sont pas très appréciées (même si elles sont remplaçables par les livres préférés).
 * Des problèmes de qualité de texte ont été détectés par certain et un bug reproductible a été découvert sur la qualité du texte après passage sur un menu (voir [ici](http://www.mobileread.com/forums/showpost.php?p=1895682&postcount=120)).
 * Des problèmes de lenteur au changement de page
@@ -41,6 +42,7 @@ Vaste sujet : Kobo est une entreprise qui veut nous vendre des livres et nous ai
 Des angoisses sont nées notamment suite à l'affichage des suggestions qui sont bien sur basées sur les achats fait dans la librairie Kobo (et pas sur les autres médias intégrés manuellement) et d'un fichier .kobo/Kobo/Kobo eReader.conf qui contient des informations Google Analytics.
 
 Je vais faire une traduction partielle d'un excellent article posté sur MobileRead (voir [ici](http://www.mobileread.com/forums/showthread.php?t=162713)) :
+
 * Ces informations ne sont pas apparues avec la version 1.9.16
 * Les statistiques sont envoyées à Google Analytics à chaque synchronisation
 * Ces envois ne concernent pas votre adresse email, livres chargés manuellement, numéro de carte de paiement, sites visités via le navigateur intégré, ...
@@ -49,6 +51,7 @@ Je vais faire une traduction partielle d'un excellent article posté sur MobileR
 L'auteur de cet article propose une analyse du contenu envoyé : http://pastie.org/3079390.
 
 Et pour les plus paranoïaque d'entre nous le moyen de tout arrêter en bidouillant le Kobo (je ne suis pas responsable blah blah de l'explosion de votre liseuse) :
+
 * [Sauver ce fichier](http://dl.dropbox.com/u/756750/s/KoboRoot.tgz) dans le répertoire .kobo (comme dans une mise à jour de firmware).
 * Éjecter de déconnecter le Kobo
 * La mise à jour sera très rapide.

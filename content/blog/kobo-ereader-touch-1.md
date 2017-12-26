@@ -39,6 +39,7 @@ Pour le moment je lis un livre en anglais (ce qui limite peut être le nombre de
 ## Bilan
 
 ### Points positifs
+
 * Interface en français
 * Poids très faible
 * Autonomie

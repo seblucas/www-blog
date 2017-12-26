@@ -11,6 +11,7 @@ Tags: debian,nginx,php
 
 ## Pourquoi nginx
 Mon objectif était de transformer un Dockstar en serveur Web, vu les capacités de la bête ([Hardware Seagate Dockstar](/blog/dockstar-install-squeeze)), j'ai voulu un serveur Web super léger. Après pas mal de lecture je suis tombé sur les alternatives suivantes :
+
 * [Lighttpd](http://www.lighttpd.net/)
     * Avantage : Outil reconnu, beaucoup de documentation.
     * Défaut : Il a pas mal de dépendances.

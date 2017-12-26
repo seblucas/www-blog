@@ -31,6 +31,7 @@ su - dropbox
 ```
 wget -O dropbox.tar.gz "http://www.dropbox.com/download/?plat=lnx.x86"
 ```
+
 * Version 64 bits : 
 
 ```
