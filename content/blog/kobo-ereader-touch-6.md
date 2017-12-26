@@ -74,17 +74,17 @@ J'ai aussi pris le temps de mettre à jour la page des trucs et astuces : [Kobo 
 J'ai pu lire (je ne sais plus ou) que la Kobo ne supportait que le PDF et l'epub. C'est faux !
 Je viens de faire un essai avec ma Kobo (pas by Fnac) et un Kobo by Fnac d'un collègue en version 1.9.16 et j'ai réussi à intégrer et lire les formats suivants :
 
- | Type de fichier    | Résultat | Commentaire                                                                          | 
- | ---------------    | --------- | -----------                                                                          | 
- | Txt Ansi           | ~OK       | Fichier bien intégré mais les accents sont mal représentés                       | 
- | Txt Utf-8 sans BOM | OK        |                                                                                      | 
- | Txt Utf-8 avec BOM | OK        |                                                                                      | 
- | Rtf                | OK        | Attention le RTF a été créé avec Wordpad pas Word pour avoir un fichier standard | 
- | CBZ avec PNG       | OK        |                                                                                      | 
- | CBZ avec JPG       | OK        |                                                                                      | 
- | Mobi simpliste     | OK        | j'ai pris l'exemple suivant : [Gutemberg](http://www.gutenberg.org/ebooks/18262)     | 
- | PDF                | OK        |                                                                                      | 
- | EPUB               | OK        |                                                                                      | 
+Type de fichier    | Résultat  | Commentaire
+---------------    | --------- | -----------
+Txt Ansi           | ~OK       | Fichier bien intégré mais les accents sont mal représentés
+Txt Utf-8 sans BOM | OK        |
+Txt Utf-8 avec BOM | OK        |
+Rtf                | OK        | Attention le RTF a été créé avec Wordpad pas Word pour avoir un fichier standard
+CBZ avec PNG       | OK        |
+CBZ avec JPG       | OK        |
+Mobi simpliste     | OK        | j'ai pris l'exemple suivant : [Gutemberg](http://www.gutenberg.org/ebooks/18262)
+PDF                | OK        |
+EPUB               | OK        |
 
 Je vais compléter le tableau dans la semaine avec des HTML, CBR, images seules et des mobi plus complexes (avec table des matières, ...).
 

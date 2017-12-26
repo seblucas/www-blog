@@ -1,5 +1,5 @@
 /*
-Title: La Kobo va avoir un dictionnaire français "très bientôt" !
+Title: La Kobo va avoir un dictionnaire français très bientôt !
 Description: 
 Author: Sébastien Lucas
 Date: 2012/07/05

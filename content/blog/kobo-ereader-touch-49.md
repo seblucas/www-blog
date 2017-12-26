@@ -1,5 +1,5 @@
 /*
-Title: Un "correctif" pour la gestion de l'italique avec la version 2.3.1 
+Title: Un correctif pour la gestion de l'italique avec la version 2.3.1 
 Description: 
 Author: Sébastien Lucas
 Date: 2012/12/19
