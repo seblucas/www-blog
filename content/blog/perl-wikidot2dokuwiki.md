@@ -1,12 +1,9 @@
-/*
-Title: Transformation Wikidot > Dokuwiki
-Description: 
-Author: Sébastien Lucas
-Date: 2010/09/26
-Robots: noindex,nofollow
-Language: fr
-Tags: dokuwiki,perl
-*/
+---
+title: "Transformation Wikidot > Dokuwiki"
+date: 2010-09-26
+tags: [dokuwiki,perl]
+slug: perl-wikidot2dokuwiki
+---
 # Transformation Wikidot > Dokuwiki
 
 J'ai transféré mon ex blog/wiki de wikidot (http://slucas.wikidot.com) à dokuwiki (http://www.slucas.fr). Par fainéantise j'ai donc créé un script Perl (d'un laideur rare) pour me faciliter le travail.

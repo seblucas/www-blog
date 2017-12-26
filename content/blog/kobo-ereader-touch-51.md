@@ -1,12 +1,9 @@
-/*
-Title: Kobo Touch avec un hardware différent ?
-Description: 
-Author: Sébastien Lucas
-Date: 2012/12/27
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Kobo Touch avec un hardware différent ?"
+date: 2012-12-27
+tags: [ereader]
+slug: kobo-ereader-touch-51
+---
 # Kobo Touch avec un hardware différent ?
 
 J'ai reçu un mail de Philippe qui m'a informé de sa mésaventure. Il a donc acheté un Kobo Touch à son fils et il a voulu le mettre à jour manuellement (la méthode pour les téméraires) et au final le Touch a planté de façon irréparable. Un petit détour par le SAV de la FNAC plus tard, il a retenté la mise à jour via Kobo Desktop et en regardant le fichier de mise à jour transféré (avant de déconnecter la liseuse) il s'est rendu compte que le fichier correspondait à celui de la Glo.

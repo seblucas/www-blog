@@ -1,12 +1,9 @@
-/*
-Title: Installation de nginx sous Debian
-Description: 
-Author: Sébastien Lucas
-Date: 2010/10/12
-Robots: noindex,nofollow
-Language: fr
-Tags: debian,nginx,php
-*/
+---
+title: "Installation de nginx sous Debian"
+date: 2010-10-12
+tags: [debian,nginx,php]
+slug: nginx-php-install
+---
 # Installation de nginx sous Debian
 
 ## Pourquoi nginx

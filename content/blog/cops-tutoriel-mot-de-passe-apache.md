@@ -1,12 +1,9 @@
-/*
-Title: Mettre en place la protection par mot de passe sur COPS (Apache)
-Description: 
-Author: Sébastien Lucas
-Date: 2014/04/05
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "Mettre en place la protection par mot de passe sur COPS (Apache)"
+date: 2014-04-05
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-tutoriel-mot-de-passe-apache
+---
 # Mettre en place la protection par mot de passe sur COPS (Apache)
 
 Suite à de nombreuses demandes d'assistance par mail, je vais essayer de vous expliquer comment paramétrer [COPS](//blog.slucas.fr/fr/oss/calibre-opds-php-server) pour qu'il soit protégé par mot de passe.

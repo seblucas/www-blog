@@ -1,12 +1,9 @@
-/*
-Title: Kobo by Fnac : sortie officielle et différences avec le Kobo original
-Description: 
-Author: Sébastien Lucas
-Date: 2011/11/30
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Kobo by Fnac : sortie officielle et différences avec le Kobo original"
+date: 2011-11-30
+tags: [ereader]
+slug: kobo-ereader-touch-4
+---
 # Kobo by Fnac : sortie officielle et différences avec le Kobo original
 
 ## Sortie officielle le 28 novembre

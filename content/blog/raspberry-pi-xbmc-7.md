@@ -1,12 +1,9 @@
-/*
-Title: XBMC sur le Raspberry Pi : Openelec RC1
-Description: 
-Author: Sébastien Lucas
-Date: 2012/12/29
-Robots: noindex,nofollow
-Language: fr
-Tags: rpi,xbmc
-*/
+---
+title: "XBMC sur le Raspberry Pi : Openelec RC1"
+date: 2012-12-29
+tags: [rpi,xbmc]
+slug: raspberry-pi-xbmc-7
+---
 # XBMC sur le Raspberry Pi : Openelec RC1
 
 ## Une version stable ... ?

@@ -1,12 +1,9 @@
-/*
-Title: Quelques informations diverses et variées autour de la Kobo
-Description: 
-Author: Sébastien Lucas
-Date: 2012/09/23
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Quelques informations diverses et variées autour de la Kobo"
+date: 2012-09-23
+tags: [ereader]
+slug: kobo-ereader-touch-34
+---
 # Quelques informations diverses et variées autour de la Kobo
 
 Ca faisait longtemps ;).

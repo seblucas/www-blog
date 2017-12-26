@@ -1,12 +1,9 @@
-/*
-Title: COPS 1.0.0RC1
-Description: 
-Author: Sébastien Lucas
-Date: 2014/04/04
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS 1.0.0RC1"
+date: 2014-04-04
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-1.0.0RC1
+---
 # COPS 1.0.0RC1
 
 Quelques corrections de bugs et quelques évolutions pour cette nouvelle version :

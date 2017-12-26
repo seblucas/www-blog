@@ -1,12 +1,9 @@
-/*
-Title: Préparer le passage à Systemd sur Archlinux
-Description: 
-Author: Sébastien Lucas
-Date: 2013/03/07
-Robots: noindex,nofollow
-Language: fr
-Tags: archlinux,dockstar
-*/
+---
+title: "Préparer le passage à Systemd sur Archlinux"
+date: 2013-03-07
+tags: [archlinux,dockstar]
+slug: archlinux-prepare-systemd
+---
 # Préparer le passage à Systemd sur Archlinux
 
 Le weekend dernier avant la sortie de COPS ([COPS 0.3.2](/blog/cops-0.3.2)) j'ai voulu faire un test avec PHP5.4 sur mon Dockstar et j'ai été obligé de faire un redémarrage de php-fpm. Habituellement je fais :

@@ -1,12 +1,9 @@
-/*
-Title: XBMC sur le Raspberry PI - Quelques trucs
-Description: 
-Author: Sébastien Lucas
-Date: 2012/10/18
-Robots: noindex,nofollow
-Language: fr
-Tags: rpi,xbmc
-*/
+---
+title: "XBMC sur le Raspberry PI - Quelques trucs"
+date: 2012-10-18
+tags: [rpi,xbmc]
+slug: raspberry-pi-xbmc-3
+---
 # XBMC sur le Raspberry PI - Quelques trucs
 
 Un minuscule article sur des choses déjà mondialement connues mais que j'ai cherché certainement trop longtemps.

@@ -1,12 +1,9 @@
-/*
-Title: De la bidouille autour de la Kobo
-Description: 
-Author: Sébastien Lucas
-Date: 2012/11/29
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "De la bidouille autour de la Kobo"
+date: 2012-11-29
+tags: [ereader]
+slug: kobo-ereader-touch-43
+---
 # De la bidouille autour de la Kobo
 
 Désolé pour le peu d'articles en ce moment, je suis assez pris par le travail et la vraie vie en ce moment. J'ai aussi pas mal lu (notamment La Religion de Tim Willocks et le dernier Goncourt). Mais, vous trouverez, ci-après, un aperçu de ce qui a éveillé mon intérêt ces derniers jours.

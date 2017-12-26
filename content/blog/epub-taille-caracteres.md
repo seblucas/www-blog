@@ -1,12 +1,9 @@
-/*
-Title: Taille de police différente selon les ebooks
-Description: 
-Author: Sébastien Lucas
-Date: 2012/05/07
-Robots: noindex,nofollow
-Language: fr
-Tags: epub,ereader
-*/
+---
+title: "Taille de police différente selon les ebooks"
+date: 2012-05-07
+tags: [epub,ereader]
+slug: epub-taille-caracteres
+---
 # Taille de police différente selon les ebooks
 
 ## Vive les vacances

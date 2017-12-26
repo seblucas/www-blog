@@ -1,12 +1,9 @@
-/*
-Title: HTTPS plus sécurisé
-Description: 
-Author: Sébastien Lucas
-Date: 2015/02/06
-Robots: noindex,nofollow
-Language: fr
-Tags: nginx
-*/
+---
+title: "HTTPS plus sécurisé"
+date: 2015-02-06
+tags: [nginx]
+slug: https-better-protection
+---
 # HTTPS plus sécurisé
 
 ## Pourquoi ?

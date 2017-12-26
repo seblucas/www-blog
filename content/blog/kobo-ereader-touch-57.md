@@ -1,12 +1,9 @@
-/*
-Title: Firmware 2.4.0 : Bilan à tête reposée
-Description: 
-Author: Sébastien Lucas
-Date: 2013/03/07
-Robots: noindex,nofollow
-Language: fr
-Tags: epub,ereader
-*/
+---
+title: "Firmware 2.4.0 : Bilan à tête reposée"
+date: 2013-03-07
+tags: [epub,ereader]
+slug: kobo-ereader-touch-57
+---
 # Firmware 2.4.0 : Bilan à tête reposée
 
 Après trois semaines, je pense qu'on peut dresser un bilan sur le dernier firmware. Pour gacher le suspense, j'aime bien !

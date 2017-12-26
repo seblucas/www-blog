@@ -1,12 +1,9 @@
-/*
-Title: COPS 0.1.0
-Description: 
-Author: Sébastien Lucas
-Date: 2012/06/05
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS 0.1.0"
+date: 2012-06-05
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-0.1.0
+---
 # COPS 0.1.0
 
 Aujourd'hui sort la première version de COPS que j'estime presque complète sur la partie OPDS avec notamment enfin le support du français. Voir ici pour le détail des changements :

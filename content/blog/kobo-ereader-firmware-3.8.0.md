@@ -1,12 +1,9 @@
-/*
-Title: Firmware Kobo 3.8.0
-Description: 
-Author: Sébastien Lucas
-Date: 2014/08/28
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Firmware Kobo 3.8.0"
+date: 2014-08-28
+tags: [ereader]
+slug: kobo-ereader-firmware-3.8.0
+---
 # Firmware 3.8.0
 
 Après une période bêta extrêmement courte, le firmware 3.8.0 a commencé à être déployé

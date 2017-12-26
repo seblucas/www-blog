@@ -1,12 +1,9 @@
-/*
-Title: Mes lectures du quatrième trimestre 2014
-Description: 
-Author: Sébastien Lucas
-Date: 2015/01/16
-Robots: noindex,nofollow
-Language: fr
-Tags: lecture
-*/
+---
+title: "Mes lectures du quatrième trimestre 2014"
+date: 2015-01-16
+tags: [lecture]
+slug: lectures-2014-12
+---
 # Mes lectures du quatrième trimestre 2014
 
 ## Le détail

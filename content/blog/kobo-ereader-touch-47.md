@@ -1,12 +1,9 @@
-/*
-Title: Firmware 2.3.1 pour Kobo : plus de détails
-Description: 
-Author: Sébastien Lucas
-Date: 2012/12/16
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Firmware 2.3.1 pour Kobo : plus de détails"
+date: 2012-12-16
+tags: [ereader]
+slug: kobo-ereader-touch-47
+---
 # Firmware 2.3.1 pour Kobo : plus de détails
 
 Vu que cela semble se confirmer, je vais essayer de donner plus de détails sur ce firmware. A noter que, pour le moment, les mises à jour semblent avoir lieu au Canada et aux États Unis, je n'ai pas confirmation de mise à jour pour la France.

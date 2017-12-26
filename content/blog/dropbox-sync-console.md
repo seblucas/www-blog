@@ -1,12 +1,9 @@
-/*
-Title: Récupérer des répertoires Dropbox en console
-Description: 
-Author: Sébastien Lucas
-Date: 2012/01/24
-Robots: noindex,nofollow
-Language: fr
-Tags: debian
-*/
+---
+title: "Récupérer des répertoires Dropbox en console"
+date: 2012-01-24
+tags: [debian]
+slug: dropbox-sync-console
+---
 # Récupérer des répertoires Dropbox en console
 
 ## Pourquoi ?

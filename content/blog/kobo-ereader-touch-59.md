@@ -1,12 +1,9 @@
-/*
-Title: Firmware Kobo 2.5.2
-Description: 
-Author: Sébastien Lucas
-Date: 2013/05/10
-Robots: noindex,nofollow
-Language: fr
-Tags: epub,ereader
-*/
+---
+title: "Firmware Kobo 2.5.2"
+date: 2013-05-10
+tags: [epub,ereader]
+slug: kobo-ereader-touch-59
+---
 # Firmware Kobo 2.5.2
 
 Le firmware  2.5.2 a commencé a être déployé à partir d'hier. Pour l'instant je n'ai pas réussi à mettre à jour mon Kobo Touch via la synchronisation Wifi mais j'imagine qu'il doit ressembler à la dernière version beta que j'ai testé.

@@ -1,12 +1,9 @@
-/*
-Title: Banana Pi - Amélioration du programme de lecture de la sonde DHT22
-Description: 
-Author: Sébastien Lucas
-Date: 2014/11/16
-Robots: noindex,nofollow
-Language: fr
-Tags: bpi
-*/
+---
+title: "Banana Pi - Amélioration du programme de lecture de la sonde DHT22"
+date: 2014-11-16
+tags: [bpi]
+slug: banana-pi-9-loldht22-enhancement
+---
 # Banana Pi - Amélioration du programme de lecture de la sonde DHT22
 
 ## Gestion de code erreur

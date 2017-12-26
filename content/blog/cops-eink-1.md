@@ -1,12 +1,9 @@
-/*
-Title: COPS : version alpha avec support des navigateurs de nos liseuses
-Description: 
-Author: Sébastien Lucas
-Date: 2012/04/18
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS : version alpha avec support des navigateurs de nos liseuses"
+date: 2012-04-18
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-eink-1
+---
 # COPS : version alpha avec support des navigateurs de nos liseuses
 
 ## COPS ?

@@ -1,12 +1,9 @@
-/*
-Title: Le crash de vendredi et 1&1
-Description: 
-Author: Sébastien Lucas
-Date: 2012/05/27
-Robots: noindex,nofollow
-Language: fr
-Tags: dropbox,nginx,vps
-*/
+---
+title: "Le crash de vendredi et 1&1"
+date: 2012-05-27
+tags: [dropbox,nginx,vps]
+slug: vps-virtuozzo-memoire-1and1
+---
 # Le crash de vendredi et 1&1
 
 ## Un crash ... Encore !

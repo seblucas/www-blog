@@ -1,12 +1,9 @@
-/*
-Title: URL propres avec Dokuwiki
-Description: 
-Author: Sébastien Lucas
-Date: 2010/09/29
-Robots: noindex,nofollow
-Language: fr
-Tags: dokuwiki,nginx
-*/
+---
+title: "URL propres avec Dokuwiki"
+date: 2010-09-29
+tags: [dokuwiki,nginx]
+slug: dokuwiki-rewrite-tag
+---
 # URL propres avec Dokuwiki
 
 ## Cas général

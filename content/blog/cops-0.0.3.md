@@ -1,12 +1,9 @@
-/*
-Title: COPS 0.0.3
-Description: 
-Author: Sébastien Lucas
-Date: 2012/05/07
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS 0.0.3"
+date: 2012-05-07
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-0.0.3
+---
 # COPS 0.0.3
 
 Juste un minuscule message pour indiquer la sortie la 3ième version de COPS avec au moins un autre utilisateur que moi (Youhouuuuu).

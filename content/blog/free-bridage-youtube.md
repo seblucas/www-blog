@@ -1,12 +1,9 @@
-/*
-Title: Y-a-t-il un bridage de Free avec Youtube et les autres services de Video sur le Web
-Description: 
-Author: Sébastien Lucas
-Date: 2012/02/28
-Robots: noindex,nofollow
-Language: fr
-Tags: free
-*/
+---
+title: "Y-a-t-il un bridage de Free avec Youtube et les autres services de Video sur le Web"
+date: 2012-02-28
+tags: [free]
+slug: free-bridage-youtube
+---
 # Y-a-t-il un bridage de Free avec Youtube et les autres services de Video sur le Web
 
 ## Énervant ...

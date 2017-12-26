@@ -1,12 +1,9 @@
-/*
-Title: Ebook : Revue de Web - Volume 2
-Description: 
-Author: Sébastien Lucas
-Date: 2014/05/30
-Robots: noindex,nofollow
-Language: fr
-Tags: epub,ereader
-*/
+---
+title: "Ebook : Revue de Web - Volume 2"
+date: 2014-05-30
+tags: [epub,ereader]
+slug: revue-de-web-ebook-2
+---
 # Ebook : Revue de Web - Volume 2
 
 Quelques articles au sujet de la lecture électronique qui m'ont intéressé ces dernières semaines.

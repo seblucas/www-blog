@@ -1,12 +1,9 @@
-/*
-Title: Nginx et PHP avec Archlinux : pas si facile
-Description: 
-Author: Sébastien Lucas
-Date: 2012/06/24
-Robots: noindex,nofollow
-Language: fr
-Tags: archlinux,dockstar,nginx,php
-*/
+---
+title: "Nginx et PHP avec Archlinux : pas si facile"
+date: 2012-06-24
+tags: [archlinux,dockstar,nginx,php]
+slug: archlinux-php-fpm-nginx
+---
 # Nginx et PHP avec Archlinux : pas si facile
 
 ## Introduction

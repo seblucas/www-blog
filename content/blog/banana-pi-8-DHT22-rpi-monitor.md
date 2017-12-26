@@ -1,12 +1,9 @@
-/*
-Title: Banana Pi - Intégration des relevés du DHT22 dans RPI-Monitor
-Description: 
-Author: Sébastien Lucas
-Date: 2014/11/06
-Robots: noindex,nofollow
-Language: fr
-Tags: bpi
-*/
+---
+title: "Banana Pi - Intégration des relevés du DHT22 dans RPI-Monitor"
+date: 2014-11-06
+tags: [bpi]
+slug: banana-pi-8-DHT22-rpi-monitor
+---
 # Banana Pi - Intégration des relevés du DHT22 dans RPI-Monitor
 
 ## DHT22 ?

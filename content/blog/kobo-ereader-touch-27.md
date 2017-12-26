@@ -1,12 +1,9 @@
-/*
-Title: Vive la rentrée ...
-Description: 
-Author: Sébastien Lucas
-Date: 2012/08/26
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Vive la rentrée ..."
+date: 2012-08-26
+tags: [ereader]
+slug: kobo-ereader-touch-27
+---
 # Vive la rentrée ...
 
 ## Ca passe trop vite

@@ -1,12 +1,9 @@
-/*
-Title: Détails sur le nouveau site - Volume 1
-Description: 
-Author: Sébastien Lucas
-Date: 2014/04/11
-Robots: noindex,nofollow
-Language: fr
-Tags: blog,nginx
-*/
+---
+title: "Détails sur le nouveau site - Volume 1"
+date: 2014-04-11
+tags: [blog,nginx]
+slug: flat-file-cms-1
+---
 # Détails sur le nouveau site - Volume 1
 
 Comme promis, je vais essayer de détailler le moteur qui fait tourner ce blog.

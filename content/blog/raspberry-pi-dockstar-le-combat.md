@@ -1,12 +1,9 @@
-/*
-Title: Raspberry Pi VS Dockstar : Le combat
-Description: 
-Author: Sébastien Lucas
-Date: 2012/09/12
-Robots: noindex,nofollow
-Language: fr
-Tags: dockstar,rpi
-*/
+---
+title: "Raspberry Pi VS Dockstar : Le combat"
+date: 2012-09-12
+tags: [dockstar,rpi]
+slug: raspberry-pi-dockstar-le-combat
+---
 # Raspberry Pi VS Dockstar : Le combat
 
 J'avais déjà lu que le choix du CPU du Raspberry Pi était critiqué pour sa technologie ARM11 et aussi pour sa faible fréquence (700MHz). J'ai donc décidé de faire un petit benchmark rapide.

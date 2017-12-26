@@ -1,12 +1,9 @@
-/*
-Title: Rakuten lance le Kobo eReader Touch au Japon
-Description: 
-Author: Sébastien Lucas
-Date: 2012/07/03
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Rakuten lance le Kobo eReader Touch au Japon"
+date: 2012-07-03
+tags: [ereader]
+slug: kobo-ereader-touch-20
+---
 # Rakuten lance le Kobo eReader Touch au Japon
 
 Voir la news [ici](http://www.google.com/hostednews/afp/article/ALeqM5jYxStGfLzGJ_aHpheEcbX5fNMixA?docId=CNG.420a33e39655a89dc8ed570dfe548c6d.5e1). Vu le boulot pour adapter la liseuse aux spécificités japonaises ((milliers d'idéogrammes et deux syllabaires, lecture de haut en bas, de droite à gauche, ...), cela peut expliquer que le firmware n'ai pas beaucoup avancé pour nous ces derniers mois.

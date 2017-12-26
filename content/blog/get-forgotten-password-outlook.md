@@ -1,12 +1,9 @@
-/*
-Title: Comment retrouver ses mots de passe oubliés
-Description: 
-Author: Sébastien Lucas
-Date: 2011/05/24
-Robots: noindex,nofollow
-Language: fr
-Tags: windows
-*/
+---
+title: "Comment retrouver ses mots de passe oubliés"
+date: 2011-05-24
+tags: [windows]
+slug: get-forgotten-password-outlook
+---
 # Comment retrouver ses mots de passe oubliés
 
 ## Sauvegarder ses mots de passe de façon sécurisée

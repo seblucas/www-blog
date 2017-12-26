@@ -1,12 +1,9 @@
-/*
-Title: Android : Jelly Bean sinon rien
-Description: 
-Author: Sébastien Lucas
-Date: 2012/10/25
-Robots: noindex,nofollow
-Language: fr
-Tags: android
-*/
+---
+title: "Android : Jelly Bean sinon rien"
+date: 2012-10-25
+tags: [android]
+slug: galaxy-s-folio-100-jb
+---
 # Android : Jelly Bean sinon rien
 
 Comme je l'ai déjà laissé entendre dans mes précédents articles sur Android, j'ai un Galaxy S et une tablette Folio 100. J'ai la chance que ces deux périphériques soient parfaitement supportés par la communauté j'ai donc accès à Jelly Bean (Android 4.1.X) via la Cyanogenmod 10 (CM10).

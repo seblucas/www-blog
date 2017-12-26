@@ -1,12 +1,9 @@
-/*
-Title: Installation de XBMC sur le Raspberry Pi - Les choix
-Description: 
-Author: Sébastien Lucas
-Date: 2012/09/01
-Robots: noindex,nofollow
-Language: fr
-Tags: rpi
-*/
+---
+title: "Installation de XBMC sur le Raspberry Pi - Les choix"
+date: 2012-09-01
+tags: [rpi]
+slug: raspberry-pi-xbmc-1
+---
 # Installation de XBMC sur le Raspberry Pi - Les choix
 
 ## Principe général

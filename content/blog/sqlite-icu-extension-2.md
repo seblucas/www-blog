@@ -1,12 +1,9 @@
-/*
-Title: La gestion des différentes cultures avec SQLite - Partie 2
-Description: 
-Author: Sébastien Lucas
-Date: 2014/05/26
-Robots: noindex,nofollow
-Language: fr
-Tags: sql,sqlite
-*/
+---
+title: "La gestion des différentes cultures avec SQLite - Partie 2"
+date: 2014-05-26
+tags: [sql,sqlite]
+slug: sqlite-icu-extension-2
+---
 # La gestion des différentes cultures avec SQLite - Partie 2
 
 ## Les expressions régulières

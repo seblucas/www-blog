@@ -1,12 +1,9 @@
-/*
-Title: COPS sur un NAS Synology
-Description: 
-Author: Sébastien Lucas
-Date: 2012/10/21
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,opds,synology
-*/
+---
+title: "COPS sur un NAS Synology"
+date: 2012-10-21
+tags: [calibre,opds,synology]
+slug: cops-nas-synology
+---
 # COPS sur un NAS Synology
 
 J'ai enfin passé un peu de temps pour m'assurer que COPS fonctionne correctement sur un NAS Synology. C'est chose faite et ... tout fonctionne. Pour information, toutes ces manipulations ont été faites sur le DSM 4.1-2647.

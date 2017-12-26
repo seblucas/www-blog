@@ -1,12 +1,9 @@
-/*
-Title: Petites informations Kobo
-Description: 
-Author: Sébastien Lucas
-Date: 2012/10/23
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Petites informations Kobo"
+date: 2012-10-23
+tags: [ereader]
+slug: kobo-ereader-touch-41
+---
 # Petites informations Kobo
 
 Une petite liste de liens et autres informations pour finir la soirée.

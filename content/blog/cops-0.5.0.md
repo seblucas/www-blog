@@ -1,12 +1,9 @@
-/*
-Title: COPS 0.5.0
-Description: 
-Author: Sébastien Lucas
-Date: 2013/06/05
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS 0.5.0"
+date: 2013-06-05
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-0.5.0
+---
 # COPS 0.5.0
 
 Pour cette nouvelle version, une toute nouvelle interface graphique et quelques corrections de bugs :

@@ -1,12 +1,9 @@
-/*
-Title: Une version 2.0.2 pour la Kobo eReader Touch ... Non officielle
-Description: 
-Author: Sébastien Lucas
-Date: 2012/07/20
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Une version 2.0.2 pour la Kobo eReader Touch ... Non officielle"
+date: 2012-07-20
+tags: [ereader]
+slug: kobo-ereader-touch-26
+---
 # Une version 2.0.2 pour la Kobo eReader Touch ... Non officielle
 
 Suite à la sortie officielle de la Kobo au Japon, le firmware 2.0.2 utilisé par ces liseuses est disponible :

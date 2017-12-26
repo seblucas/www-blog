@@ -1,12 +1,9 @@
-/*
-Title: Quelques petits trucs sur le Kobo
-Description: 
-Author: Sébastien Lucas
-Date: 2012/06/30
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Quelques petits trucs sur le Kobo"
+date: 2012-06-30
+tags: [ereader]
+slug: kobo-ereader-touch-19
+---
 # Quelques petits trucs sur le Kobo
 
 ## En attendant le nouveau firmware

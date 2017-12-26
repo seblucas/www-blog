@@ -1,12 +1,9 @@
-/*
-Title: Banana Pi - Boot sur SATA
-Description: 
-Author: Sébastien Lucas
-Date: 2014/09/01
-Robots: noindex,nofollow
-Language: fr
-Tags: bpi
-*/
+---
+title: "Banana Pi - Boot sur SATA"
+date: 2014-09-01
+tags: [bpi]
+slug: banana-pi-3-installation-sur-ssd
+---
 # Banana Pi - Boot sur SATA
 
 ## Mise en place du SSD

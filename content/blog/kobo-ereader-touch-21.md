@@ -1,12 +1,9 @@
-/*
-Title: La Kobo va avoir un dictionnaire français très bientôt !
-Description: 
-Author: Sébastien Lucas
-Date: 2012/07/05
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "La Kobo va avoir un dictionnaire français très bientôt !"
+date: 2012-07-05
+tags: [ereader]
+slug: kobo-ereader-touch-21
+---
 # La Kobo va avoir un dictionnaire français "très bientôt" !
 
 Je ne me serais pas autorisé de le confirmer moi même mais vu que ça a été tweeté par Kobo_FR :

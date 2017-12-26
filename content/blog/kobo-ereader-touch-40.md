@@ -1,12 +1,9 @@
-/*
-Title: ATTENTION : Ne pas installer les mises à jour Kobo manuellement
-Description: 
-Author: Sébastien Lucas
-Date: 2012/10/19
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "ATTENTION : Ne pas installer les mises à jour Kobo manuellement"
+date: 2012-10-19
+tags: [ereader]
+slug: kobo-ereader-touch-40
+---
 # ATTENTION : Ne pas installer les mises à jour Kobo manuellement
 
 Il y avait déjà quelques messages à ce sujet de MDK (dernièrement [ici](http://www.mobileread.com/forums/showpost.php?p=2270166&postcount=42)) et depuis hier un utilisateur de Glo en a fait la douloureuse expérience en installant une mise à jour prévue certainement pour un Touch.

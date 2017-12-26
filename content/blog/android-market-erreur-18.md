@@ -1,12 +1,9 @@
-/*
-Title: Erreur -18 à l'installation de mise à jour avec l'Android Market
-Description: 
-Author: Sébastien Lucas
-Date: 2011/03/19
-Robots: noindex,nofollow
-Language: fr
-Tags: android
-*/
+---
+title: "Erreur -18 à l'installation de mise à jour avec l'Android Market"
+date: 2011-03-19
+tags: [android]
+slug: android-market-erreur-18
+---
 # Erreur -18 à l'installation de mise à jour avec l'Android Market
 
 ## La mise à jour d'Angry Birds Seasons pour la Saint Patrick

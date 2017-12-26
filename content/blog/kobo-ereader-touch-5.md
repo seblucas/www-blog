@@ -1,12 +1,9 @@
-/*
-Title: Kobo eReader Touch : trucs et astuces d'origine diverse
-Description: 
-Author: Sébastien Lucas
-Date: 2011/12/11
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Kobo eReader Touch : trucs et astuces d'origine diverse"
+date: 2011-12-11
+tags: [ereader]
+slug: kobo-ereader-touch-5
+---
 # Kobo eReader Touch : trucs et astuces d'origine diverse
 
 ## Origine des informations

@@ -1,12 +1,9 @@
-/*
-Title: COPS 0.1.1
-Description: 
-Author: Sébastien Lucas
-Date: 2012/07/02
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS 0.1.1"
+date: 2012-07-02
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-0.1.1
+---
 # COPS 0.1.1
 
 Je pense avoir suffisamment avancé sur la partie HTML pour sortir une nouvelle version. Ce n'est pas encore fini mais ça commence à prendre forme :

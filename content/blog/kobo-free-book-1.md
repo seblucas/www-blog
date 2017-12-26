@@ -1,12 +1,9 @@
-/*
-Title: Un livre offert par Kobo !
-Description: 
-Author: Sébastien Lucas
-Date: 2011/12/29
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Un livre offert par Kobo !"
+date: 2011-12-29
+tags: [ereader]
+slug: kobo-free-book-1
+---
 # Un livre offert par Kobo !
 
 Le livre L'Oeil du Temps de Arthur C Clarke et Stephen Baxter est disponible gratuitement sur quelques sites et notamment Kobo :

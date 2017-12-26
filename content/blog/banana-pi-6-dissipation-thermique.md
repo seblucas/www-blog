@@ -1,12 +1,9 @@
-/*
-Title: Banana Pi - Dissipation thermique
-Description: 
-Author: Sébastien Lucas
-Date: 2014/11/03
-Robots: noindex,nofollow
-Language: fr
-Tags: bpi
-*/
+---
+title: "Banana Pi - Dissipation thermique"
+date: 2014-11-03
+tags: [bpi]
+slug: banana-pi-6-dissipation-thermique
+---
 # Banana Pi - Dissipation thermique
 
 ## Pourquoi ?

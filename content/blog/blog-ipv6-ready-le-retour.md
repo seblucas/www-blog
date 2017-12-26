@@ -1,12 +1,9 @@
-/*
-Title: Blog disponible en ipv6 : le retour
-Description: 
-Author: Sébastien Lucas
-Date: 2012/06/25
-Robots: noindex,nofollow
-Language: fr
-Tags: dockstar,nginx
-*/
+---
+title: "Blog disponible en ipv6 : le retour"
+date: 2012-06-25
+tags: [dockstar,nginx]
+slug: blog-ipv6-ready-le-retour
+---
 # Blog disponible en ipv6 : le retour
 
 Suite au passage au VPS 1&1, plus d'ipv6 car ce fournisseur ne donne qu'une adresse ipv4. Avec la résurrection du Dockstar, je peux réparer un peu ce manque via cette adresse :

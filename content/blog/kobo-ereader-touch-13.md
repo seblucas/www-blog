@@ -1,12 +1,9 @@
-/*
-Title: Retour sur la version 1.9.17 pour la Kobo Touch / Tétris sur la Kobo / Revue de Web
-Description: 
-Author: Sébastien Lucas
-Date: 2012/03/20
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Retour sur la version 1.9.17 pour la Kobo Touch / Tétris sur la Kobo / Revue de Web"
+date: 2012-03-20
+tags: [ereader]
+slug: kobo-ereader-touch-13
+---
 # Retour sur la version 1.9.17 pour la Kobo Touch / Tétris sur la Kobo / Revue de Web
 
 ## Bilan pour le firmware 1.9.17 de la Kobo eReader Touch

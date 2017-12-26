@@ -1,12 +1,9 @@
-/*
-Title: Nginx PHP Fastcgi avec socket Unix
-Description: 
-Author: Sébastien Lucas
-Date: 2011/01/24
-Robots: noindex,nofollow
-Language: fr
-Tags: nginx,php
-*/
+---
+title: "Nginx PHP Fastcgi avec socket Unix"
+date: 2011-01-24
+tags: [nginx,php]
+slug: nginx-php-unix-socket
+---
 # Nginx PHP Fastcgi avec socket Unix
 
 ## Socket Unix / HTTP

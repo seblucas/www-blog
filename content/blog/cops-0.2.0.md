@@ -1,12 +1,9 @@
-/*
-Title: COPS 0.2.0
-Description: 
-Author: Sébastien Lucas
-Date: 2012/07/22
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS 0.2.0"
+date: 2012-07-22
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-0.2.0
+---
 # COPS 0.2.0
 
 Malgré le peu de bonnes nouvelles autour du firmware 2.0.0 de la Kobo, il y en a quand même une excellente : Le navigateur marche beaucoup mieux. Suite à cela j'ai passé une partie de mon samedi à tester tout et pour moi le catalogue HTML est totalement utilisable sur la Kobo (c'était déjà le cas sur un PC normal) :

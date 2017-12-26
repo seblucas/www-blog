@@ -1,12 +1,9 @@
-/*
-Title: Banana Pi - Installation de la caméra
-Description: 
-Author: Sébastien Lucas
-Date: 2014/09/28
-Robots: noindex,nofollow
-Language: fr
-Tags: bpi
-*/
+---
+title: "Banana Pi - Installation de la caméra"
+date: 2014-09-28
+tags: [bpi]
+slug: banana-pi-4-camera-prise-en-main
+---
 # Banana Pi - Installation de la caméra
 
 ## Une caméra ?

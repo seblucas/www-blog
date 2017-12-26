@@ -1,12 +1,9 @@
-/*
-Title: Export au format EPUB sur Wikipedia
-Description: 
-Author: Sébastien Lucas
-Date: 2012/09/25
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Export au format EPUB sur Wikipedia"
+date: 2012-09-25
+tags: [ereader]
+slug: wikipedia-export-epub
+---
 # Export au format EPUB sur Wikipedia
 
 Suite à un [commentaire de Totoro](https://blog.slucas.fr/blog/kobo-ereader-touch-34#comment-660824006) sur un précédent article au sujet des exports EPUB sur Wikisource, je me suis intéressé à nouveau aux exports EPUB de Wikipedia (je sais ce n'est pas logique mais je fais ce que je veux :P).

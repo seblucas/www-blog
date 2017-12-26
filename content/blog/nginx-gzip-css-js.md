@@ -1,12 +1,9 @@
-/*
-Title: Paramétrage de la compression avec nginx
-Description: 
-Author: Sébastien Lucas
-Date: 2011/01/20
-Robots: noindex,nofollow
-Language: fr
-Tags: dokuwiki,nginx
-*/
+---
+title: "Paramétrage de la compression avec nginx"
+date: 2011-01-20
+tags: [dokuwiki,nginx]
+slug: nginx-gzip-css-js
+---
 # Paramétrage de la compression avec nginx
 
 ## Pourquoi ?

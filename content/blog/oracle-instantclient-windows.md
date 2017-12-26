@@ -1,12 +1,9 @@
-/*
-Title: Configuration de Oracle Instant Client sous Windows
-Description: 
-Author: Sébastien Lucas
-Date: 2010/10/25
-Robots: noindex,nofollow
-Language: fr
-Tags: oracle
-*/
+---
+title: "Configuration de Oracle Instant Client sous Windows"
+date: 2010-10-25
+tags: [oracle]
+slug: oracle-instantclient-windows
+---
 # Configuration de Oracle Instant Client sous Windows
 
 ## Installation

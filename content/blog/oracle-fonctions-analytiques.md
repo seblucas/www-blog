@@ -1,12 +1,9 @@
-/*
-Title: Oracle et les fonctions analytiques et autre fonctions à connaitre
-Description: 
-Author: Sébastien Lucas
-Date: 2011/10/20
-Robots: noindex,nofollow
-Language: fr
-Tags: oracle
-*/
+---
+title: "Oracle et les fonctions analytiques et autre fonctions à connaitre"
+date: 2011-10-20
+tags: [oracle]
+slug: oracle-fonctions-analytiques
+---
 # Oracle et les fonctions analytiques et autre fonctions à connaitre
 
 ## Les fonctions analytiques

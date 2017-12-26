@@ -1,12 +1,9 @@
-/*
-Title: Encore une revue de Web autour du Kobo : avec de moins en moins à se mettre sous la dent
-Description: 
-Author: Sébastien Lucas
-Date: 2012/02/12
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Encore une revue de Web autour du Kobo : avec de moins en moins à se mettre sous la dent"
+date: 2012-02-12
+tags: [ereader]
+slug: kobo-ereader-touch-9
+---
 # Encore une revue de Web autour du Kobo : avec de moins en moins à se mettre sous la dent
 
 Soit je cherche mal, soit il n'y a vraiment pas beaucoup de nouvelles. Je vais en proposer quelques unes, mais c'est plus pour faire vivre le blog qu'autre chose ;).

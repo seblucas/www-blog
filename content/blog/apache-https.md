@@ -1,12 +1,9 @@
-/*
-Title: Configurer SSL avec Apache
-Description: 
-Author: Sébastien Lucas
-Date: 2010/09/29
-Robots: noindex,nofollow
-Language: fr
-Tags: apache
-*/
+---
+title: "Configurer SSL avec Apache"
+date: 2010-09-29
+tags: [apache]
+slug: apache-https
+---
 # Configurer SSL avec Apache
 
 ## Génération des clés

@@ -1,12 +1,9 @@
-/*
-Title: Banana Pi - Relevé de température et hygrométrie avec une sonde DHT22
-Description: 
-Author: Sébastien Lucas
-Date: 2014/11/04
-Robots: noindex,nofollow
-Language: fr
-Tags: bpi
-*/
+---
+title: "Banana Pi - Relevé de température et hygrométrie avec une sonde DHT22"
+date: 2014-11-04
+tags: [bpi]
+slug: banana-pi-7-DHT22-temperature-hygrometrie
+---
 # Banana Pi - Relevé de température et hygrométrie avec une sonde DHT22
 
 ## DHT22 ?

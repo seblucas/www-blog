@@ -1,12 +1,9 @@
-/*
-Title: La gestion des différentes cultures avec SQLite - Partie 3
-Description: 
-Author: Sébastien Lucas
-Date: 2014/05/29
-Robots: noindex,nofollow
-Language: fr
-Tags: sql,sqlite
-*/
+---
+title: "La gestion des différentes cultures avec SQLite - Partie 3"
+date: 2014-05-29
+tags: [sql,sqlite]
+slug: sqlite-icu-extension-3
+---
 # La gestion des différentes cultures avec SQLite - Partie 3
 
 ## La compilation de l'extension ICU

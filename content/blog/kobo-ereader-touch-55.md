@@ -1,12 +1,9 @@
-/*
-Title: Firmware 2.4.0 pour la Kobo
-Description: 
-Author: Sébastien Lucas
-Date: 2013/02/15
-Robots: noindex,nofollow
-Language: fr
-Tags: epub,ereader
-*/
+---
+title: "Firmware 2.4.0 pour la Kobo"
+date: 2013-02-15
+tags: [epub,ereader]
+slug: kobo-ereader-touch-55
+---
 # Firmware 2.4.0 pour la Kobo
 
 Comme quoi le fait de participer à la beta ne donne droit à aucune vraie information ! Le firmware 2.4.0 a commencé a être déployé.

@@ -1,11 +1,8 @@
-/*
-Title: esxi-control
-Description: 
-Author: Sébastien Lucas
-Date: 2011/10/11
-Robots: noindex,nofollow
-Language: fr
-*/
+---
+title: "esxi-control"
+date: 2011-10-11
+slug: esxi-control
+---
 # esxi-control
 
 Source : http://blog.peacon.co.uk/esxi-control-pl-script-vm-actions-on-free-licensed-esxi/

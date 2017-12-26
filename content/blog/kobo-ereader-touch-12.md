@@ -1,12 +1,9 @@
-/*
-Title: Sortie du Firmware 1.9.17 pour la Kobo touch (ou Kobo by Fnac)
-Description: 
-Author: Sébastien Lucas
-Date: 2012/03/17
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Sortie du Firmware 1.9.17 pour la Kobo touch (ou Kobo by Fnac)"
+date: 2012-03-17
+tags: [ereader]
+slug: kobo-ereader-touch-12
+---
 # Sortie du Firmware 1.9.17 pour la Kobo touch (ou Kobo by Fnac)
 
 Hier soir MDK (un officiel de Kobo) a posté un message annonçant la sortie du firmware 1.9.17 sur le forum MobileRead ([voir le sujet](http://www.mobileread.com/forums/showthread.php?t=172355)). Pour être honnête avec vous je n'ai pas réussi à mettre à jour hier soir, mais c'est peut être du au fait que les mises à jours chez Kobo sont progressives (pas tous les pays en même temps) ou que j'ai une version de la béta (qui date de deux semaines).

@@ -1,12 +1,9 @@
-/*
-Title: Petite Revue de Web et pas d'autres news :(
-Description: 
-Author: Sébastien Lucas
-Date: 2012/04/03
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Petite Revue de Web et pas d'autres news :("
+date: 2012-04-03
+tags: [ereader]
+slug: kobo-ereader-touch-14
+---
 # Petite Revue de Web et pas d'autres news :(
 
 * [Kobo by Fnac : plus de 60.000 lecteurs ebook vendus en France](http://www.actualitte.com/actualite/lecture-numerique/lecteurs-ebook/kobo-by-fnac-plus-de-60-000-lecteurs-ebook-vendus-en-france-33243.htm)

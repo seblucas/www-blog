@@ -1,12 +1,9 @@
-/*
-Title: Premier anniversaire
-Description: 
-Author: Sébastien Lucas
-Date: 2011/09/16
-Robots: noindex,nofollow
-Language: fr
-Tags: dokuwiki
-*/
+---
+title: "Premier anniversaire"
+date: 2011-09-16
+tags: [dokuwiki]
+slug: premier_anniversaire
+---
 # Premier anniversaire
 
 ## Nouvelle peau

@@ -1,12 +1,9 @@
-/*
-Title: XBMC sur le Raspberry Pi - Raspbmc RC5 / 2ième
-Description: 
-Author: Sébastien Lucas
-Date: 2012/11/25
-Robots: noindex,nofollow
-Language: fr
-Tags: rpi,xbmc
-*/
+---
+title: "XBMC sur le Raspberry Pi - Raspbmc RC5 / 2ième"
+date: 2012-11-25
+tags: [rpi,xbmc]
+slug: raspberry-pi-xbmc-5
+---
 # XBMC sur le Raspberry Pi - Raspbmc RC5 / 2ième
 
 Une nouvelle version de Raspbmc est sortie (voir [ici](http://www.raspbmc.com/2012/11/new-with-raspbmc/)). Elle s'appelle toujours RC5 (ce qui ne va arranger la bonne compréhension des choses) mais elle apporte pas mal de choses.

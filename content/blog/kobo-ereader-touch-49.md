@@ -1,12 +1,9 @@
-/*
-Title: Un correctif pour la gestion de l'italique avec la version 2.3.1 
-Description: 
-Author: Sébastien Lucas
-Date: 2012/12/19
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Un correctif pour la gestion de l'italique avec la version 2.3.1 "
+date: 2012-12-19
+tags: [ereader]
+slug: kobo-ereader-touch-49
+---
 # Un "correctif" pour la gestion de l'italique avec la version 2.3.1 
 
 C'est dingue, je fais un billet par jour en ce moment !

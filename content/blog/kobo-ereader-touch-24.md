@@ -1,12 +1,9 @@
-/*
-Title: Firmware 2.0.0 retours après quelques jours et quelques autres choses
-Description: 
-Author: Sébastien Lucas
-Date: 2012/07/14
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Firmware 2.0.0 retours après quelques jours et quelques autres choses"
+date: 2012-07-14
+tags: [ereader]
+slug: kobo-ereader-touch-24
+---
 # Firmware 2.0.0 retours après quelques jours et quelques autres choses
 
 ## A tête reposée

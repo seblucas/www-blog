@@ -1,12 +1,9 @@
-/*
-Title: Kobo eReader Touch : firmware 1.9.14 et revue de Web
-Description: 
-Author: Sébastien Lucas
-Date: 2011/11/26
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Kobo eReader Touch : firmware 1.9.14 et revue de Web"
+date: 2011-11-26
+tags: [ereader]
+slug: kobo-ereader-touch-3
+---
 # Kobo eReader Touch : firmware 1.9.14 et revue de Web
 
 ## Firmware 1.9.14

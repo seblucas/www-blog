@@ -1,12 +1,9 @@
-/*
-Title: Acheter un livre électronique : Pas facile
-Description: 
-Author: Sébastien Lucas
-Date: 2012/12/02
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Acheter un livre électronique : Pas facile"
+date: 2012-12-02
+tags: [ereader]
+slug: kobo-ereader-touch-44
+---
 # Acheter un livre électronique : Pas facile
 
 Tout a commencé par un commentaire sympathique de Loendi pour me conseiller la lecture de L'âme du temple (brethren en anglais) de Robyn Young. Elle m'a précisé que le livre français n'était pas disponible en version électronique mais je me suis dit que ce serait une bonne occasion de le lire en anglais.

@@ -1,12 +1,9 @@
-/*
-Title: Le cache fastcgi et Nginx et un peu de déception
-Description: 
-Author: Sébastien Lucas
-Date: 2011/07/17
-Robots: noindex,nofollow
-Language: fr
-Tags: dockstar,dokuwiki,nginx
-*/
+---
+title: "Le cache fastcgi et Nginx et un peu de déception"
+date: 2011-07-17
+tags: [dockstar,dokuwiki,nginx]
+slug: nginx-fastcgi-cache
+---
 # Le cache fastcgi et Nginx et un peu de déception
 
 ## Le principe

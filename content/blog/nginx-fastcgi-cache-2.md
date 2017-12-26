@@ -1,12 +1,9 @@
-/*
-Title: Le cache fastcgi et Nginx - Partie 2
-Description: 
-Author: Sébastien Lucas
-Date: 2011/09/18
-Robots: noindex,nofollow
-Language: fr
-Tags: dokuwiki,nginx,php
-*/
+---
+title: "Le cache fastcgi et Nginx - Partie 2"
+date: 2011-09-18
+tags: [dokuwiki,nginx,php]
+slug: nginx-fastcgi-cache-2
+---
 # Le cache fastcgi et Nginx - Partie 2
 
 ## Précédemment dans ...

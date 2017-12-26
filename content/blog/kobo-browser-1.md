@@ -1,12 +1,9 @@
-/*
-Title: Quelques tests sur le navigateur de la Kobo eReader Touch
-Description: 
-Author: Sébastien Lucas
-Date: 2012/04/13
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Quelques tests sur le navigateur de la Kobo eReader Touch"
+date: 2012-04-13
+tags: [ereader]
+slug: kobo-browser-1
+---
 # Quelques tests sur le navigateur de la Kobo eReader Touch
 
 ## Pourquoi ?

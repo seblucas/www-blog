@@ -1,12 +1,9 @@
-/*
-Title: Mise à jour Dokuwiki vers la version Angua et dépôts pour les sources
-Description: 
-Author: Sébastien Lucas
-Date: 2012/06/05
-Robots: noindex,nofollow
-Language: fr
-Tags: dokuwiki
-*/
+---
+title: "Mise à jour Dokuwiki vers la version Angua et dépôts pour les sources"
+date: 2012-06-05
+tags: [dokuwiki]
+slug: dokuwiki-angua-plugins
+---
 # Mise à jour Dokuwiki vers la version Angua et dépôts pour les sources
 
 Un petit billet rapide pour dire que je viens de mettre à jour le site en version "Angua", j'en ai profité pour mettre à jour les plugins (blogtng) et template (mnml_blog) du blog. Je ferai certainement un billet détaillé pour la mise à jour dans quelques jours.

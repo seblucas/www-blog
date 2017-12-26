@@ -1,12 +1,9 @@
-/*
-Title: Samsung Galaxy S / Android : Bilan après 1 an 
-Description: 
-Author: Sébastien Lucas
-Date: 2011/09/04
-Robots: noindex,nofollow
-Language: fr
-Tags: android
-*/
+---
+title: "Samsung Galaxy S / Android : Bilan après 1 an "
+date: 2011-09-04
+tags: [android]
+slug: galaxy-s-one-year-after
+---
 # Samsung Galaxy S / Android : Bilan après 1 an 
 
 ## Historique

@@ -1,12 +1,9 @@
-/*
-Title: Installation de Owncloud 4.0.2 avec Debian et Nginx
-Description: 
-Author: Sébastien Lucas
-Date: 2012/06/17
-Robots: noindex,nofollow
-Language: fr
-Tags: cloud,debian,nginx
-*/
+---
+title: "Installation de Owncloud 4.0.2 avec Debian et Nginx"
+date: 2012-06-17
+tags: [cloud,debian,nginx]
+slug: owncloud-4-install-debian-nginx
+---
 # Installation de Owncloud 4.0.2 avec Debian et Nginx
 
 Pour faire suite à mon billet précédent je suis passé à l'action et j'ai installé Owncloud sur mon VPS. pour l'instant le bilan est satisfaisant, je détaillerai un peu plus en fin d'article dans le bilan.

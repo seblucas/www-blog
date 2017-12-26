@@ -1,12 +1,9 @@
-/*
-Title: Sortie du firmware 2.2.0 au Japon
-Description: 
-Author: Sébastien Lucas
-Date: 2012/11/15
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Sortie du firmware 2.2.0 au Japon"
+date: 2012-11-15
+tags: [ereader]
+slug: kobo-ereader-touch-42
+---
 # Sortie du firmware 2.2.0 au Japon
 
 Je viens de l'apprendre donc pas beaucoup d'informations pour le moment mais le firmware 2.2.0 est sorti au Japon.

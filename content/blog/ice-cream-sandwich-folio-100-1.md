@@ -1,12 +1,9 @@
-/*
-Title: Ice Cream Sandwich sur Folio 100 - Une semaine après
-Description: 
-Author: Sébastien Lucas
-Date: 2012/03/19
-Robots: noindex,nofollow
-Language: fr
-Tags: android
-*/
+---
+title: "Ice Cream Sandwich sur Folio 100 - Une semaine après"
+date: 2012-03-19
+tags: [android]
+slug: ice-cream-sandwich-folio-100-1
+---
 # Ice Cream Sandwich sur Folio 100 - Une semaine après
 
 ## Une demande

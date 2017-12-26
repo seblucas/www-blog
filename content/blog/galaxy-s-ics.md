@@ -1,12 +1,9 @@
-/*
-Title: Passage à Ice Cream Sandwich avec mon Samsung Galaxy S - L'installation
-Description: 
-Author: Sébastien Lucas
-Date: 2012/05/16
-Robots: noindex,nofollow
-Language: fr
-Tags: android
-*/
+---
+title: "Passage à Ice Cream Sandwich avec mon Samsung Galaxy S - L'installation"
+date: 2012-05-16
+tags: [android]
+slug: galaxy-s-ics
+---
 # Passage à Ice Cream Sandwich avec mon Samsung Galaxy S - L'installation
 
 ## Petit rappel

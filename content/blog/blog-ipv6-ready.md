@@ -1,12 +1,9 @@
-/*
-Title: Vous l'attendiez ..... Ce site est disponible en ipv6
-Description: 
-Author: Sébastien Lucas
-Date: 2011/01/15
-Robots: noindex,nofollow
-Language: fr
-Tags: nginx
-*/
+---
+title: "Vous l'attendiez ..... Ce site est disponible en ipv6"
+date: 2011-01-15
+tags: [nginx]
+slug: blog-ipv6-ready
+---
 # Vous l'attendiez ..... Ce site est disponible en ipv6
 
 ## Ca marche ...

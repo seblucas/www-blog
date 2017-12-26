@@ -1,12 +1,9 @@
-/*
-Title: COPS 0.0.4
-Description: 
-Author: Sébastien Lucas
-Date: 2012/05/23
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS 0.0.4"
+date: 2012-05-23
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-0.0.4
+---
 # COPS 0.0.4
 
 Aujourd'hui sort la 4ième version de COPS avec notamment le support des tags Calibre.

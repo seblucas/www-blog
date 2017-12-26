@@ -1,12 +1,9 @@
-/*
-Title: Alternative au serveur de contenu de Calibre
-Description: 
-Author: Sébastien Lucas
-Date: 2012/02/28
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader
-*/
+---
+title: "Alternative au serveur de contenu de Calibre"
+date: 2012-02-28
+tags: [calibre,ereader]
+slug: calibre-web-server-alternative
+---
 # Alternative au serveur de contenu de Calibre
 
 ## Pourquoi ?

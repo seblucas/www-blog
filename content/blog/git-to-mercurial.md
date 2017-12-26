@@ -1,12 +1,9 @@
-/*
-Title: Migration Git vers Mercurial
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/08
-Robots: noindex,nofollow
-Language: fr
-Tags: git,mercurial
-*/
+---
+title: "Migration Git vers Mercurial"
+date: 2011-02-08
+tags: [git,mercurial]
+slug: git-to-mercurial
+---
 # Migration Git vers Mercurial
 
 ## Pourquoi

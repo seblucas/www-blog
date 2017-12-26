@@ -1,12 +1,9 @@
-/*
-Title: Epub et le dictionnaire français sur le Kobo
-Description: 
-Author: Sébastien Lucas
-Date: 2012/08/29
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Epub et le dictionnaire français sur le Kobo"
+date: 2012-08-29
+tags: [ereader]
+slug: kobo-ereader-touch-29
+---
 # Epub et le dictionnaire français sur le Kobo
 
 J'ai reçu beaucoup de message de personnes qui ont des problèmes avec le dictionnaire. Le principal problème est que la définition par défaut (dans la popup) est en anglais.

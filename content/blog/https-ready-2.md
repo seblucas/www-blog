@@ -1,12 +1,9 @@
-/*
-Title: HTTPS disponible avec Nginx ... vraiment
-Description: 
-Author: Sébastien Lucas
-Date: 2011/12/16
-Robots: noindex,nofollow
-Language: fr
-Tags: dockstar,dokuwiki,nginx
-*/
+---
+title: "HTTPS disponible avec Nginx ... vraiment"
+date: 2011-12-16
+tags: [dockstar,dokuwiki,nginx]
+slug: https-ready-2
+---
 # HTTPS disponible avec Nginx ... vraiment
 
 ## La rançon du succès ?

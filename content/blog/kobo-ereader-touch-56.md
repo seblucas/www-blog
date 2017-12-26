@@ -1,12 +1,9 @@
-/*
-Title: Firmware 2.4.0 : des corrections de bugs (enfin) et quelques nouveautés
-Description: 
-Author: Sébastien Lucas
-Date: 2013/02/16
-Robots: noindex,nofollow
-Language: fr
-Tags: epub,ereader
-*/
+---
+title: "Firmware 2.4.0 : des corrections de bugs (enfin) et quelques nouveautés"
+date: 2013-02-16
+tags: [epub,ereader]
+slug: kobo-ereader-touch-56
+---
 # Firmware 2.4.0 : des corrections de bugs (enfin) et quelques nouveautés
 
 J'ai cédé et j'ai chargé manuellement le nouveau firmware sur mon Touch hier soir. Au final, cette version est bien différente de la dernière version beta que j'avais testée. Il me reste encore quelques tests à faire mais pour l'instant pas mal de bonnes nouvelles.

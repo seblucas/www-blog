@@ -1,12 +1,9 @@
-/*
-Title: Sortie du firmware 1.9.16 et revue de Web
-Description: 
-Author: Sébastien Lucas
-Date: 2011/12/27
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Sortie du firmware 1.9.16 et revue de Web"
+date: 2011-12-27
+tags: [ereader]
+slug: kobo-ereader-touch-6
+---
 # Sortie du firmware 1.9.16 et revue de Web
 
 ## Désolé, mais le principal est là

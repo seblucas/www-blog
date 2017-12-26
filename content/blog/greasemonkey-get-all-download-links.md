@@ -1,12 +1,9 @@
-/*
-Title: Comment récupérer tous les liens de téléchargement d'un page web
-Description: 
-Author: Sébastien Lucas
-Date: 2011/08/22
-Robots: noindex,nofollow
-Language: fr
-Tags: javascript
-*/
+---
+title: "Comment récupérer tous les liens de téléchargement d'un page web"
+date: 2011-08-22
+tags: [javascript]
+slug: greasemonkey-get-all-download-links
+---
 # Comment récupérer tous les liens de téléchargement d'un page web
 
 ## Pourquoi ?

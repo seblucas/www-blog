@@ -1,12 +1,9 @@
-/*
-Title: Retour de la mise à jour 2.0.0 ??
-Description: 
-Author: Sébastien Lucas
-Date: 2012/07/16
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Retour de la mise à jour 2.0.0 ??"
+date: 2012-07-16
+tags: [ereader]
+slug: kobo-ereader-touch-25
+---
 # Retour de la mise à jour 2.0.0 ??
 
 Selon certaines informations lues sur MobileRead le firmware 2.0.0 serait de nouveau disponible.

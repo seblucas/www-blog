@@ -1,12 +1,9 @@
-/*
-Title: Meilleure gestion des séries dans la Kobo
-Description: 
-Author: Sébastien Lucas
-Date: 2012/12/05
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Meilleure gestion des séries dans la Kobo"
+date: 2012-12-05
+tags: [ereader]
+slug: kobo-ereader-touch-45
+---
 # Meilleure gestion des séries dans la Kobo
 
 Le titre est racoleur mais le résultat l'est un peu moins pour le moment. Néanmoins c'est l'occasion de faire un petit tutoriel sur le sujet.

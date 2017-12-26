@@ -1,12 +1,9 @@
-/*
-Title: Quelques nouvelles sur le monde des petites machines ARM (et autres Google TV) 
-Description: 
-Author: Sébastien Lucas
-Date: 2012/11/10
-Robots: noindex,nofollow
-Language: fr
-Tags: dockstar,rpi
-*/
+---
+title: "Quelques nouvelles sur le monde des petites machines ARM (et autres Google TV) "
+date: 2012-11-10
+tags: [dockstar,rpi]
+slug: a10-google-tv-1
+---
 # Quelques nouvelles sur le monde des petites machines ARM (et autres Google TV) 
 
 Vous trouverez ci-après quelques liens sur des articles qui m'ont intéressé depuis quelques semaines. Ce monde bouge vite et j'espère vraiment qu'un vrai support Linux arrivera vite.

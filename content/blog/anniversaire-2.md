@@ -1,12 +1,9 @@
-/*
-Title: Ce site a deux ans
-Description: 
-Author: Sébastien Lucas
-Date: 2012/11/23
-Robots: noindex,nofollow
-Language: fr
-Tags: blog
-*/
+---
+title: "Ce site a deux ans"
+date: 2012-11-23
+tags: [blog]
+slug: anniversaire-2
+---
 # Ce site a deux ans
 
 J'ai très peu de temps pour le moment (entre les déplacements professionnels et la vie de famille ...) et cela se ressent dans le nombre de billets que je publie ces dernières semaines. J'espère être plus actif en fin d'année. Mais je me suis forcé à prendre le temps de publier cet article qui est en brouillon depuis plus d'un mois.

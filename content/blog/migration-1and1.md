@@ -1,12 +1,9 @@
-/*
-Title: Migration sur un VPS L de 1&1
-Description: 
-Author: Sébastien Lucas
-Date: 2011/12/31
-Robots: noindex,nofollow
-Language: fr
-Tags: debian,dockstar,nginx
-*/
+---
+title: "Migration sur un VPS L de 1&1"
+date: 2011-12-31
+tags: [debian,dockstar,nginx]
+slug: migration-1and1
+---
 # Migration sur un VPS L de 1&1
 
 ## Fin du serveur temporaire

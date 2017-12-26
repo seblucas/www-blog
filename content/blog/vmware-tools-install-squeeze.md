@@ -1,12 +1,9 @@
-/*
-Title: Installation des VMWare Tools sur une Squeeze
-Description: 
-Author: Sébastien Lucas
-Date: 2010/09/26
-Robots: noindex,nofollow
-Language: fr
-Tags: debian,vmware
-*/
+---
+title: "Installation des VMWare Tools sur une Squeeze"
+date: 2010-09-26
+tags: [debian,vmware]
+slug: vmware-tools-install-squeeze
+---
 # Installation des VMWare Tools sur une Squeeze
 
 ## Pourquoi c'est pas si simple

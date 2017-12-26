@@ -1,12 +1,9 @@
-/*
-Title: Sortie de 3 nouveaux modèles pour Kobo
-Description: 
-Author: Sébastien Lucas
-Date: 2012/09/06
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Sortie de 3 nouveaux modèles pour Kobo"
+date: 2012-09-06
+tags: [ereader]
+slug: kobo-ereader-touch-32
+---
 # Sortie de 3 nouveaux modèles pour Kobo
 
 Kobo sort 3 nouveaux modèles :

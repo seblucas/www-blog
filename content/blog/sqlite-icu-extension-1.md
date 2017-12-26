@@ -1,12 +1,9 @@
-/*
-Title: La gestion des différentes cultures avec SQLite - Partie 1
-Description: 
-Author: Sébastien Lucas
-Date: 2014/05/18
-Robots: noindex,nofollow
-Language: fr
-Tags: sql,sqlite
-*/
+---
+title: "La gestion des différentes cultures avec SQLite - Partie 1"
+date: 2014-05-18
+tags: [sql,sqlite]
+slug: sqlite-icu-extension-1
+---
 # La gestion des différentes cultures avec SQLite - Partie 1
 
 ## Pourquoi un article à ce sujet ?
