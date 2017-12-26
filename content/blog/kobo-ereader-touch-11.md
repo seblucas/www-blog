@@ -31,7 +31,7 @@ Kobo a profité du buzz de la semaine sur Windows 8 pour se faire un [peu de pub
 Vu que c'est un de mes auteurs préférés et qu'il alimente Hollywood depuis des années sans forcement que son nom soit souvent cité, je vais me permettre de rappeler que Philip K. Dick est mort il y a 30 ans.
 
 Si vous voulez en savoir plus :
-*	http://fr.wikipedia.org/wiki/Philip_K._Dick
-*	http://www.dickien.fr/
+* http://fr.wikipedia.org/wiki/Philip_K._Dick
+* http://www.dickien.fr/
 
 Un petit conseil lecture si vous voulez démarrer doucement : Le Maître du Haut Château.

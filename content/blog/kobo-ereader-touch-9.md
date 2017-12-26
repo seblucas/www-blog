@@ -28,8 +28,8 @@ Bon test, assez professionnel à lire [ici](http://www.journaldugeek.com/2012/02
 
 ## Les affaires continues de bien se dérouler pour Kobo
 
-*	[Kobo : 12 nouveaux marchés à conquérir en 2012](http://www.ebouquin.fr/2012/02/04/kobo-12-nouveaux-marches-a-conquerir-en-2012)
-*	[Amazon : un concurrent déloyal selon Kobo](http://www.actualitte.com/actualite/lecture-numerique/acteurs-numeriques/amazon-un-concurrent-deloyal-selon-kobo-31640.htm)
-*	[Kobo, seul vrai concurrent d'Amazon sur le marché global](http://www.actualitte.com/actualite/lecture-numerique/acteurs-numeriques/kobo-seul-vrai-concurrent-d-amazon-sur-le-marche-global-31504.htm)
+* [Kobo : 12 nouveaux marchés à conquérir en 2012](http://www.ebouquin.fr/2012/02/04/kobo-12-nouveaux-marches-a-conquerir-en-2012)
+* [Amazon : un concurrent déloyal selon Kobo](http://www.actualitte.com/actualite/lecture-numerique/acteurs-numeriques/amazon-un-concurrent-deloyal-selon-kobo-31640.htm)
+* [Kobo, seul vrai concurrent d'Amazon sur le marché global](http://www.actualitte.com/actualite/lecture-numerique/acteurs-numeriques/kobo-seul-vrai-concurrent-d-amazon-sur-le-marche-global-31504.htm)
 
 

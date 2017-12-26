@@ -74,8 +74,8 @@ C'est librement inspiré (= copié honteusement ;))) de ce [lien](http://diveint
 
 ## Reste à faire
 
-*	Rendre cette extension plus générique en permettant de saisir en live l'expression régulière et ensuite faire la recherche.
-*	Faire le copier dans le presse papier automatiquement.
+* Rendre cette extension plus générique en permettant de saisir en live l'expression régulière et ensuite faire la recherche.
+* Faire le copier dans le presse papier automatiquement.
 
 
 

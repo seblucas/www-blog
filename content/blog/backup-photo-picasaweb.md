@@ -23,9 +23,9 @@ J'ai pensé ensuite aux services d'hébergement de photos : Flickr, Picasa Web A
 Au niveau sécurité, Picasa Web Album propose 4 niveaux (voir [ici](http://picasa.google.com/support/bin/answer.py?hl=fr&answer=39551)). Pour l'instant je me suis laissé tenter par le niveau "Limitée aux utilisateurs disposant du lien", sachant que je vais tout faire pour cacher le mieux possible le lien.
 
 Le plan de bataille est le suivant :
-*	Envoyer mes photos en les retaillant à une taille 2048x? en gardant toutes les propriétés Exif
-*	Garder mon organisation actuelle (une répertoire par date et thème)
-*	Valider que l'ordre des albums est bien correct (chronologique)
-*	Faire le nécessaire pour récupérer les informations des albums pour héberger une page Web sur mon serveur avec les liens d'accès.
+* Envoyer mes photos en les retaillant à une taille 2048x? en gardant toutes les propriétés Exif
+* Garder mon organisation actuelle (une répertoire par date et thème)
+* Valider que l'ordre des albums est bien correct (chronologique)
+* Faire le nécessaire pour récupérer les informations des albums pour héberger une page Web sur mon serveur avec les liens d'accès.
 
 

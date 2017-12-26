@@ -25,18 +25,18 @@ Personnellement, j'ai utilisé un VMWare Player récent sous Linux. Le fichier l
 
 ## Installation
 
-*	Faire pointer le lecteur CD virtuel de la machine virtuelle vers linux.iso
-*	Monter le cd dans la machine virtuelle
-*	Décompresser l'archive
+* Faire pointer le lecteur CD virtuel de la machine virtuelle vers linux.iso
+* Monter le cd dans la machine virtuelle
+* Décompresser l'archive
 
 ```
 tar xvzf /media/cdrom/VMwareTools-8.4.3-282343.tar.gz -C .
 ```
-*	lancer l'installation
+* lancer l'installation
 
 ```
 cd vmware-tools-distrib/
 ./vmware-install.pl
 ```
-*	Voila c'est fini
+* Voila c'est fini
 

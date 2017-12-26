@@ -37,9 +37,9 @@ J'ai modifié le fichier /etc/exports pour ajouter la ligne suivantes :
 ```
 
 Quelques explications :
-*	192.168.0.9 : c'est l'IP de mon Raspberry Pi.
-*	rw : Pour l'instant même avec cela mon partage est en lecture seule, j'ai certainement d'autres choses à paramétrer (uid ?).
-*	insecure,all_squash : cela semble nécessaire pour XBMC.
+* 192.168.0.9 : c'est l'IP de mon Raspberry Pi.
+* rw : Pour l'instant même avec cela mon partage est en lecture seule, j'ai certainement d'autres choses à paramétrer (uid ?).
+* insecure,all_squash : cela semble nécessaire pour XBMC.
 
 A noter qu'après avoir modifié le fichier il faut lancer la commande suivante pour mettre à jour les répertoires exportés :
 

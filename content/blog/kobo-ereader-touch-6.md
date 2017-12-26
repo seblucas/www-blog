@@ -17,24 +17,24 @@ Enfin c'était la seule perte dans l'histoire, ma paranoïa m'a au moins permis 
 ## Firmware 1.9.16
 
 Le changelog officiel est le suivant :
-*	Amélioration de la vitesse pour tourner les pages et rechercher
-*	Un texte plus fin et plus vif pour une meilleure expérience de lecture
-*	La nouvelle liste 'Recommandé pour vous" trouve automatiquement des livres correspondants a vos goûts
-*	Le menu ACCEUIL simple et amélioré contient désormais la Bibliothèque , la Librairie et le Reading Life
-*	Les icônes pour les paramètres , la synchronisation et l'Aide sont désormais accessible sous le menu ACCEUIL
+* Amélioration de la vitesse pour tourner les pages et rechercher
+* Un texte plus fin et plus vif pour une meilleure expérience de lecture
+* La nouvelle liste 'Recommandé pour vous" trouve automatiquement des livres correspondants a vos goûts
+* Le menu ACCEUIL simple et amélioré contient désormais la Bibliothèque , la Librairie et le Reading Life
+* Les icônes pour les paramètres , la synchronisation et l'Aide sont désormais accessible sous le menu ACCEUIL
   
 J'ai lu pas mal de mauvais commentaires sur cette version, notamment sur le besoin de cliquer deux fois pour accéder aux menus. Je n'ai pas ce genre de problème et depuis ce firmware je n'ai pas eu une seule fois le problème de "double tap" : 
-*	je tape une fois pour changer de page rien ne se passe
-*	je tape une deuxième fois et zou il passe deux pages.
+* je tape une fois pour changer de page rien ne se passe
+* je tape une deuxième fois et zou il passe deux pages.
 
 J'espère que cela va durer.
 
 Pour ceux qui ont des problèmes, je vous conseille de faire un factory reset ou au pire de revenir au firmware précédent (j'ai détaillé l'installation manuelle sur cette page [Kobo eReader Touch : trucs et astuces d'origine diverse](/blog/kobo-ereader-touch-5)).
   
 Pour revenir sur les nouveautés, pas grand chose d'intéressant :
-*	Toujours pas de dictionnaire fr
-*	Toujours pas de catégories pour la bibliothèque
-*	Un Amazonisation au niveau de l'intégration de la boutique Kobo. A surveiller.
+* Toujours pas de dictionnaire fr
+* Toujours pas de catégories pour la bibliothèque
+* Un Amazonisation au niveau de l'intégration de la boutique Kobo. A surveiller.
 
 Ce dernier point commence à me faire peur et j'en ai parlé sur la liste de diffusion de la beta. Mon argumentaire était que j'avais acheté une liseuse pas une liseuse sponsorisée par des publicités. En plus lors de mon achat il n'existait rien dans le firmware m'indiquant un intégration trop forte sur le site de vente. Cela a au moins l'avantage d'ajouter la possibilité d'afficher ses favoris dans la barre du bas en lieu et place des recommandations.
 
@@ -50,13 +50,13 @@ Ce buzz vient du format Kepub mis en avant par Kobo, qui logiquement doit juste 
 Pour l'instant le Fnac a eu comme réaction de rembourser ce qui n'est pas une vrai réponse.
 
 Je ne vais tout détailler, d'autres l'ont fait mieux que moi : 
-*	https://plus.google.com/107252663012827113536/posts/9gmCxWEaqDx
-*	Message de Sony France : http://www.sony.fr/discussions/message/721020#721020
+* https://plus.google.com/107252663012827113536/posts/9gmCxWEaqDx
+* Message de Sony France : http://www.sony.fr/discussions/message/721020#721020
   
 Au final cela oblige l'honnête lecteur (si il veut bidouiller) a devenir un pirate et : 
-*	déplomber le DRM 
-*	enlever les fichier Kobo.css et js ajouté
-*	et enfin obtenir un **vrai** epub qui puisse être valide.
+* déplomber le DRM 
+* enlever les fichier Kobo.css et js ajouté
+* et enfin obtenir un **vrai** epub qui puisse être valide.
 
 Pour l'instant je reste (à peu près) droit dans me bottes : je n'ai acheté qu'un livre chez Kobo (un vrai epub avec DRM), un chez Sony (encore un vrai epub avec DRM) et plusieurs chez http://librairie.immateriel.fr/ (epub sans DRM). J'aurais aimé rester sans DRM mais sur des sorties de livres il n'y a pas trop de choix malheureusement.
 

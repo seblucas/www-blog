@@ -11,16 +11,16 @@ Tags: nginx
 
 ## Tutoriel
 Je ne vais pas faire de recopie mais simplement lier à un tutoriel très bien écrit :
-*	http://technique.arscenic.org/ssl-securisation-des/article/startssl-utiliser-un-certificat
-*	http://technique.arscenic.org/ssl-securisation-des/article/creation-d-un-certificate-signing
+* http://technique.arscenic.org/ssl-securisation-des/article/startssl-utiliser-un-certificat
+* http://technique.arscenic.org/ssl-securisation-des/article/creation-d-un-certificate-signing
 
 ## Installation du certificat avec Nginx
 
 Normalement vous devez avoir ces fichiers :
-*	ca.pem
-*	sub.class1.server.ca.pem
-*	Votre fichier crt
-*	Votre fichier key
+* ca.pem
+* sub.class1.server.ca.pem
+* Votre fichier crt
+* Votre fichier key
 
 Suivre les instructions : http://blurringexistence.net/archives/5-nginx-and-StartSSL.html.
 

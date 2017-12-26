@@ -10,8 +10,8 @@ Tags: calibre,ereader,nginx,opds,php
 # COPS 0.3.4
 
 Pour cette nouvelle version, uniquement des corrections de bugs :
-*	[Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
-*	[Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
+* [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
+* [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
 
 La mise à jour des métadonnées des fichiers Epub devrait enfin fonctionner pour tout le monde.
 

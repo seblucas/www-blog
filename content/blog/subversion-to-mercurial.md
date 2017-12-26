@@ -35,23 +35,23 @@ l'url du dépôt subversion peut sembler complexe car il a plusieurs projets dan
 ## Lancement de la conversion : 2ième essai
 
 ### Création d'un mirroir Subversion du dépôt
-*	Création du dépôt
+* Création du dépôt
 
 ```
 svnadmin create svn-mirror
 ```
-*	Création du fichier svn-mirror/hooks/pre-revprop-change (avec vi ou autre)
+* Création du fichier svn-mirror/hooks/pre-revprop-change (avec vi ou autre)
 
 ```
 #!/bin/sh
 exit 0
 ```
-*	Rendre le fichier précédent exécutable
+* Rendre le fichier précédent exécutable
 
 ```
 chmod +x svn-mirror/hooks/pre-revprop-change
 ```
-*	Mettre à jour le mirroir local (remplacer /home/user par le chemin qui vous correspond)
+* Mettre à jour le mirroir local (remplacer /home/user par le chemin qui vous correspond)
 
 ```
 svnsync init file:///home/user/svn-mirror https://www.domaine.com/repos/Commun

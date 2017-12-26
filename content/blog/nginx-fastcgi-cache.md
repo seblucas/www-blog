@@ -31,10 +31,10 @@ fastcgi_cache_path /tmp/nginx
                    max_size=100m;
 ```
 Une petite explication : 
-*	Le nom du cache est mycache
-*	Les éléments du cache seront gardés en mémoire vive avec un maximum de 10Mo
-*	La taille totale du cache est de 100Mo
-*	Le chemin de stockage du cache est dans /tmp ce qui a l'avantage d'automatiser la purge en cas de reboot et de limiter le besoin de faire des chmod.
+* Le nom du cache est mycache
+* Les éléments du cache seront gardés en mémoire vive avec un maximum de 10Mo
+* La taille totale du cache est de 100Mo
+* Le chemin de stockage du cache est dans /tmp ce qui a l'avantage d'automatiser la purge en cas de reboot et de limiter le besoin de faire des chmod.
 
 ### Lier le cache et le site web
 
@@ -55,9 +55,9 @@ location ~ \.php$ {
 Les lignes modifiées ont un #########.
 
 Une petite explication :
-*	Le cache a utiliser est mycache.
-*	La clé du cache est l'URL complète + le type de requête (get post head) voir [ici](http://tonykwon.com/tag/fastcgi_cache/) pour valider l'intérêt.
-*	Les fichiers en cache resteront valide au maximum 1 heure (quelque soit la réponse du fastcgi).
+* Le cache a utiliser est mycache.
+* La clé du cache est l'URL complète + le type de requête (get post head) voir [ici](http://tonykwon.com/tag/fastcgi_cache/) pour valider l'intérêt.
+* Les fichiers en cache resteront valide au maximum 1 heure (quelque soit la réponse du fastcgi).
 
 Une fois les deux modifications effectuées relancer nginx :
 
@@ -67,9 +67,9 @@ Une fois les deux modifications effectuées relancer nginx :
 
 ### Comment vérifier que ça fonctionne
 
-*	Afficher dans un navigateur une page
-*	Regarder dans /tmp/nginx et vérifier que des fichiers sont bien créés
-*	Utiliser l'onglet réseau de firebug dans Firefox :
+* Afficher dans un navigateur une page
+* Regarder dans /tmp/nginx et vérifier que des fichiers sont bien créés
+* Utiliser l'onglet réseau de firebug dans Firefox :
    * Afficher une page
    * Noter le temps lié à certains scripts
    * recharger la page (même avec un CTRL + F5)
@@ -80,10 +80,10 @@ Une fois les deux modifications effectuées relancer nginx :
 Dans mon cas je voulais appliquer la modification du cache à ce site donc à Dokuwiki et cela n'est pas à la hauteur de mes espérances.
 
 Dokuwiki utilise principalement 4 fichiers php pour chaque page :
-*	css.php : qui permet de récupérer une version minifiée des fichiers CSS.
-*	js.php : idem pour les javascrips.
-*	indexer.php : qui permet de mettre à jour les fichiers d'index de dokuwiki. il ne renvoie rien donc n'a aucun intérêt pour le cache.
-*	doku.php : qui génère les pages. C'est le fichier le plus couteux en temps.
+* css.php : qui permet de récupérer une version minifiée des fichiers CSS.
+* js.php : idem pour les javascrips.
+* indexer.php : qui permet de mettre à jour les fichiers d'index de dokuwiki. il ne renvoie rien donc n'a aucun intérêt pour le cache.
+* doku.php : qui génère les pages. C'est le fichier le plus couteux en temps.
 
 mon but état de mettre en cache doku.php pour une durée courte (10 minutes) et cela n'est malheureusement pas possible vu que les pages générées ont des entêtes limitant le cache (Cache-Control	no-store, no-cache, must-revalidate, post-check=0, pre-check=0). Ces entêtes sont analysées par Nginx et la mise en cache est interdite.
 

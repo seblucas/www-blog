@@ -23,11 +23,11 @@ Après le premier livre, j'ai franchement hésité à passer à une autre librai
 
 J'ai lu un [post très intéressent de murg](http://www.mobileread.com/forums/showpost.php?p=2225107&postcount=46) sur MobileRead. sur la fréquence des mises à jour de firmware et j'ai décidé d'en parler aussi.
 
-*	de 1.9.5 à 1.9.9 : 5 mises à jour en 1 mois.
-*	de 1.9.10 à 1.9.16 : environ une mise à jour par mois.
-*	Entre 1.9.16 et 1.9.17 : environ 3 mois.
-*	Entre 1.9.17 et 2.0.0 : environ 4 mois de longue attente (avec la sortie au Japon).
-*	Cela fait maintenant à peine plus de 2 mois depuis la sortie de la 2.0.0
+* de 1.9.5 à 1.9.9 : 5 mises à jour en 1 mois.
+* de 1.9.10 à 1.9.16 : environ une mise à jour par mois.
+* Entre 1.9.16 et 1.9.17 : environ 3 mois.
+* Entre 1.9.17 et 2.0.0 : environ 4 mois de longue attente (avec la sortie au Japon).
+* Cela fait maintenant à peine plus de 2 mois depuis la sortie de la 2.0.0
 
 Par contre, avec la sortie des nouveaux modèles (Glo et Mini) dans très peu de temps (début octobre), je pense qu'il faudra attendre encore un peu pour avoir notre firmware 2.1.X.
 
@@ -39,6 +39,6 @@ Je ne peux pas en parler dans le détail mais nous avons du boulot avec des nouv
 
 ## Revue de Web
 
-*	[Grande-Bretagne : Kobo, fournisseur officiel des librairies indépendantes](http://www.actualitte.com/acteurs-numeriques/grande-bretagne-kobo-fournisseur-officiel-des-librairies-inde-36837.htm)
-*	[Brésil : confirmation du partenariat entre Kobo et Livraria Cultura](http://www.actualitte.com/international/bresil-confirmation-du-partenariat-entre-kobo-et-livraria-cultura-36752.htm)
+* [Grande-Bretagne : Kobo, fournisseur officiel des librairies indépendantes](http://www.actualitte.com/acteurs-numeriques/grande-bretagne-kobo-fournisseur-officiel-des-librairies-inde-36837.htm)
+* [Brésil : confirmation du partenariat entre Kobo et Livraria Cultura](http://www.actualitte.com/international/bresil-confirmation-du-partenariat-entre-kobo-et-livraria-cultura-36752.htm)
 

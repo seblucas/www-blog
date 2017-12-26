@@ -10,8 +10,8 @@ Tags: calibre,ereader,nginx,opds,php
 # COPS 0.3.1
 
 Pour cette nouvelle version, quelques nouvelles fonctionnalités :
-*	[Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
-*	[Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
+* [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
+* [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
 
 La principale motivation de cette nouvelle version est la rationalisation du paramétrage pour la préparation d'un SPK (package Synology). Oui vous avez bien entendu, cela devrait arriver dans les jours / semaines qui viennent.
 

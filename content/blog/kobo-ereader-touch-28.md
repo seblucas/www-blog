@@ -13,8 +13,8 @@ Je ne l'avais pas senti venir vu les discussions sur le groupe beta mais c'est l
 
 ## Changements officiels
 
-*	better WIFI connection 
-*	better handling of comics and manga.
+* better WIFI connection 
+* better handling of comics and manga.
 
 Donc amélioration du WIFI et meilleure gestion de la visualisation des mangas / comics (donc des CBR / CBZ).
 
@@ -23,10 +23,10 @@ Concernant les CBR / CBZ je n'ai pas ressenti grand chose et le bug de la lectur
 ## Autres améliorations
 
 Je n'ai pas trop repéré les changements officiels. Par contre j'ai beaucoup aimé le reste :
-*	Changement de page plus rapide
-*	Amélioration du rendu des polices externes (mon Averia est de nouveau tout jolie), Je pense que le rendu était encore mieux en 1.9.17 mais c'est très utilisable.
-*	Le dictionnaire français est maintenant le Larousse.
-*	L'heure apparait très rapidement en haut de l'écran suite à un clic en cours de lecture (régression du précédent firmware).
+* Changement de page plus rapide
+* Amélioration du rendu des polices externes (mon Averia est de nouveau tout jolie), Je pense que le rendu était encore mieux en 1.9.17 mais c'est très utilisable.
+* Le dictionnaire français est maintenant le Larousse.
+* L'heure apparait très rapidement en haut de l'écran suite à un clic en cours de lecture (régression du précédent firmware).
 
 Je n'ai pas eu le temps de tester les césures pour vérifier si il y a eu une amélioration, je vous tiens au courant.
 

@@ -33,8 +33,8 @@ D'ailleurs si quelqu'un (avec le firmware 2.3.1 ou 2.3.2) peut faire le test sur
 ## Meilleures solutions ?
 
 Il y en a au moins deux assez évidentes :
-*	Comme la note de bas de base est un simple lien HTML : la faire pointer sur "Dragon" directement.
-*	Ou plus complexe, modifier le glossaire pour que les "Voir ..." soit remplacés par des liens (en gardant intact le lien de retour bien sur).
+* Comme la note de bas de base est un simple lien HTML : la faire pointer sur "Dragon" directement.
+* Ou plus complexe, modifier le glossaire pour que les "Voir ..." soit remplacés par des liens (en gardant intact le lien de retour bien sur).
 
 Encore une fois : une popup (avec le bon texte) serait beaucoup plus adaptée aux notes de bas de page !
 

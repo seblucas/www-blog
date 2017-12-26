@@ -29,9 +29,9 @@ L'intérêt de ce genre de logiciel est de pouvoir charger (upload) des fichiers
 vi /etc/php5/cgi/php.ini
 ```
 Les paramètres à changer sont :
-*	post_max_size = 64M
-*	upload_max_filesize = 64M
-*	date.timezone = "Europe/Paris"
+* post_max_size = 64M
+* upload_max_filesize = 64M
+* date.timezone = "Europe/Paris"
 
 Si votre PHP est en fastcgi ou FPM, n'oubliez de redémarrer le processus pour que les paramètres soient pris en compte.
 
@@ -131,20 +131,20 @@ Lors de mes tests j'ai du appliquer des patches pour que cela fonctionne, je ne 
 Je ne l'ai installé que vendredi, donc mon opinion n'est pas encore faire. Toutefois j'ai déjà repéré du bon et du moins bon.
 
 Bons points :
-*	L'installation est simple.
-*	Il existe des outils de synchronisation pour pas mal d'OS (voir http://owncloud.org/sync-clients/).
-*	L'outil de synchronisation Windows fonctionne.
-*	La lecture de musique dans le site est sympathique.
+* L'installation est simple.
+* Il existe des outils de synchronisation pour pas mal d'OS (voir http://owncloud.org/sync-clients/).
+* L'outil de synchronisation Windows fonctionne.
+* La lecture de musique dans le site est sympathique.
 
 Mauvais points :
-*	Je n'ai pas réussi à faire fonctionner l'accès Webdav (répertoire distant) sur Windows Seven (malgré la lecture de la [documentation](http://owncloud.org/support/webdav/)). Je vais essayer sous Linux prochainement.
-*	J'ai eu un sentiment de lourdeur à l'utilisation de l'interface Web.
-*	L'outil de synchronisation Windows n'est clairement pas à la hauteur de celui de Dropbox par exemple : il est lent, il n'indique pas les tâches en cours, ...
-*	La société derrière ce projet a des impératif commerciaux et donc livre malheureusement des nouvelles versions assez buggées.
+* Je n'ai pas réussi à faire fonctionner l'accès Webdav (répertoire distant) sur Windows Seven (malgré la lecture de la [documentation](http://owncloud.org/support/webdav/)). Je vais essayer sous Linux prochainement.
+* J'ai eu un sentiment de lourdeur à l'utilisation de l'interface Web.
+* L'outil de synchronisation Windows n'est clairement pas à la hauteur de celui de Dropbox par exemple : il est lent, il n'indique pas les tâches en cours, ...
+* La société derrière ce projet a des impératif commerciaux et donc livre malheureusement des nouvelles versions assez buggées.
 
 ## Sources pour l'écriture de cet article
 
-*	http://owncloud.org/support/install/
-*	http://www.howtoforge.com/your-cloud-your-data-your-way-owncloud-4.0-nginx-postgresql-on-centos-6.2
-*	http://bugs.owncloud.org/thebuggenie/owncloud/issues/oc-902
-*	http://bugs.owncloud.org/thebuggenie/owncloud/issues/oc-148
+* http://owncloud.org/support/install/
+* http://www.howtoforge.com/your-cloud-your-data-your-way-owncloud-4.0-nginx-postgresql-on-centos-6.2
+* http://bugs.owncloud.org/thebuggenie/owncloud/issues/oc-902
+* http://bugs.owncloud.org/thebuggenie/owncloud/issues/oc-148

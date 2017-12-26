@@ -17,19 +17,19 @@ J'ai d'abord utilisé la FolioMod et ensuite une vraie Cyanogenmod 7 (donc Ginge
 ## Sources
 
 Je ne suis qu'un banal utilisateur éclairé pour cette installation, mes sources sont les suivantes :
-*	Pour la ROM : [ici en anglais](http://forum.xda-developers.com/showthread.php?t=1470823) et [là en français](http://forum.frandroid.com/topic/90378-devwip-ics-cm9-403-alpha-3-31-kernel-last-update-04032012/)
-*	Pour la partie fastboot : http://forum.xda-developers.com/showthread.php?t=1055754
-*	Une mine d'or de tutoriels dans tous les sens : http://forum.frandroid.com/topic/45847-maxi-tuto-gestions-des-rom-pour-les-debutants/
-*	Fastboot pour la Folio : http://forum.xda-developers.com/showthread.php?t=1103479
-*	Fastboot Android : http://android-dls.com/wiki/index.php?title=Fastboot
+* Pour la ROM : [ici en anglais](http://forum.xda-developers.com/showthread.php?t=1470823) et [là en français](http://forum.frandroid.com/topic/90378-devwip-ics-cm9-403-alpha-3-31-kernel-last-update-04032012/)
+* Pour la partie fastboot : http://forum.xda-developers.com/showthread.php?t=1055754
+* Une mine d'or de tutoriels dans tous les sens : http://forum.frandroid.com/topic/45847-maxi-tuto-gestions-des-rom-pour-les-debutants/
+* Fastboot pour la Folio : http://forum.xda-developers.com/showthread.php?t=1103479
+* Fastboot Android : http://android-dls.com/wiki/index.php?title=Fastboot
 
 ## Installation
 
 ### Téléchargement
 Dans ce lien il faut télécharger les fichiers suivants (pour la version Alpha 4 à la date de l'écriture de ce billet) :
-*	Le gestionnaire de boot : cwm-recovery-5.5.0.4.img
-*	La ROM : update-cm-9.0.0-RC0-2012.03.04-betelgeuse-KANG-signed.zip
-*	Les outils Google : gapps-ics-20120224-signed.zip
+* Le gestionnaire de boot : cwm-recovery-5.5.0.4.img
+* La ROM : update-cm-9.0.0-RC0-2012.03.04-betelgeuse-KANG-signed.zip
+* Les outils Google : gapps-ics-20120224-signed.zip
 
 Les deux derniers fichiers doivent être copiés sur une carte SD.
 
@@ -74,10 +74,10 @@ En remplaçant monUtilisateur pour votre login préféré.
 #### Démarrage de la Folio 100 en mode fastboot
 
 Simple : 
-*	Démarrer la tablette normalement
-*	A l'apparition du logo Toshiba, taper 3 fois sur le bouton Power et ensuite le bouton Volume+
-*	Un petit message confirme le passage en mode fastboot
-*	Brancher la tablette via le port mini USB sur votre ordinateur
+* Démarrer la tablette normalement
+* A l'apparition du logo Toshiba, taper 3 fois sur le bouton Power et ensuite le bouton Volume+
+* Un petit message confirme le passage en mode fastboot
+* Brancher la tablette via le port mini USB sur votre ordinateur
 
 Attention ne pas appuyer 4 fois sur le bouton Power cela peut bloquer la tablette.
 
@@ -100,12 +100,12 @@ Il doit retourner une ligne avec plein de ????? qui montre que ça marche.
 
 ### Redémarrage de la tablette et lancement du recovery
 
-*	Insérez votre carte SD dans la Folio
-*	Au démarrage de la tablette enter dans le recovery Toshiba avec Power + Volume+
-*	Ensuite faire 3 x Volume+ pour enter dans Clockworkmod Recovery
-*	Sélectionner install zip from sdcard et select zip from sdcard
-*	Installer d'abord le fichier update-cm et ensuite les Gapps
-*	redémarrer
+* Insérez votre carte SD dans la Folio
+* Au démarrage de la tablette enter dans le recovery Toshiba avec Power + Volume+
+* Ensuite faire 3 x Volume+ pour enter dans Clockworkmod Recovery
+* Sélectionner install zip from sdcard et select zip from sdcard
+* Installer d'abord le fichier update-cm et ensuite les Gapps
+* redémarrer
 
 ## Profiter
 

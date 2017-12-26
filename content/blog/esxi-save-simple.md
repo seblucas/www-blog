@@ -15,9 +15,9 @@ J'ai déployé dernièrement un serveur ESXi (donc la version gratuite de l'hype
 ## Alternatives trop complexes pour moi
 
 En cherchant un peu sur la toiles j'ai trouvé plusieurs possibilités :
-*	GhettoVCB.sh : http://communities.vmware.com/docs/DOC-8760
-*	MKSBackup : http://www.magikmon.com/mksbackup/ghettovcb.en.html
-*	backup-vm.bat : http://blog.peacon.co.uk/completely-free-backup-for-esxi/
+* GhettoVCB.sh : http://communities.vmware.com/docs/DOC-8760
+* MKSBackup : http://www.magikmon.com/mksbackup/ghettovcb.en.html
+* backup-vm.bat : http://blog.peacon.co.uk/completely-free-backup-for-esxi/
 
 Au final les deux premiers étaient trop complexes pour moi et le dernier trop spécifique mais avec un beau potentiel.
 
@@ -58,19 +58,19 @@ perl.exe esxi-control.pl --server %esxi_server% --username %esxi_username% --pas
 perl.exe esxi-control.pl --server %esxi_server% --username %esxi_username% --password %esxi_password% --action poweron --vmname %1
 ```
 Quelques explications :
-*	Ce script est à installer dans C:\Program Files\VMware\VMware vSphere CLI\Perl\bin. 
-*	set PERL5LIB= : la machine windows avait déjà un Perl installé par Oracle et la variable d'environnement bloquait l’exécution.
-*	esxi_server : Adresse IP du serveur ESXi
-*	esxi_username : Nom de l'utilisateur ayant accès au serveur ESXi
-*	esxi_password : ... devinez !
-*	esxi_datastore_in : Datastore dans lequel sont stockées les machines virtuelles.
-*	esxi_datastore_out : Datastore dans lequel stocker les sauvegardes (dans mon cas un partage NFS sur un NAS).
-*	La paramètre donné à ce script doit être le nom de la VM à sauvegarder.
+* Ce script est à installer dans C:\Program Files\VMware\VMware vSphere CLI\Perl\bin. 
+* set PERL5LIB= : la machine windows avait déjà un Perl installé par Oracle et la variable d'environnement bloquait l’exécution.
+* esxi_server : Adresse IP du serveur ESXi
+* esxi_username : Nom de l'utilisateur ayant accès au serveur ESXi
+* esxi_password : ... devinez !
+* esxi_datastore_in : Datastore dans lequel sont stockées les machines virtuelles.
+* esxi_datastore_out : Datastore dans lequel stocker les sauvegardes (dans mon cas un partage NFS sur un NAS).
+* La paramètre donné à ce script doit être le nom de la VM à sauvegarder.
 
 ATTENTION :
-*	Il faut créer les répertoire sur le datastore de sauvegarde (esxi_datastore_out), le script ne les crée pas.
-*	Les machines sont arrêtées avant sauvegarde et redémarrées après.
-*	Il y a une attente de 2 minutes après la demande d'arrêt, cela peut être limite pour certains Windows.
+* Il faut créer les répertoire sur le datastore de sauvegarde (esxi_datastore_out), le script ne les crée pas.
+* Les machines sont arrêtées avant sauvegarde et redémarrées après.
+* Il y a une attente de 2 minutes après la demande d'arrêt, cela peut être limite pour certains Windows.
 
 Il est possible d'adapter le script pour éviter d'arrêter les machines en lançant un snapshot avant de faire les sauvegardes et libérer ce snapshot à la fin. Personnellement ça ne m'intéressait pas (je fais une sauvegarde complète en ayant planifié un reboot par mois).
 

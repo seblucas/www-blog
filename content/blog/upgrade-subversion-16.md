@@ -13,9 +13,9 @@ Tags: subversion
 La version 1.6 de subversion complète les ajouts de la version 1.5 notamment au niveau du sharding. Grosso modo la sharding (je n'ai pas trouvé de traduction française correcte) fait baisser de façon important le nombre de fichiers et répertoires dans les dépôts subversion. C'est notamment important car certains système de fichiers ont un nombre de répertoires limités et de manière générales les systèmes de fichiers ont des performances moindres quand le nombre de fichiers et/ou de répertoires augmente (NTFS par exemple). La version 1.6 ajout le fait de compresser les shard pour encore réduire le nombre de fichiers et faciliter la mise en cache et réduire les I/O.
 
 Lien utiles :
-*	http://subversion.apache.org/docs/release-notes/1.6.html
-*	http://subversion.apache.org/docs/release-notes/1.5.html
-*	http://softwareproductionengineering.blogspot.com/2010/07/subversion-case-sensitivity-svnadmin.html
+* http://subversion.apache.org/docs/release-notes/1.6.html
+* http://subversion.apache.org/docs/release-notes/1.5.html
+* http://softwareproductionengineering.blogspot.com/2010/07/subversion-case-sensitivity-svnadmin.html
 
 ## Pack
 

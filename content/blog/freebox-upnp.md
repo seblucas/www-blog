@@ -14,9 +14,9 @@ Depuis mi mai la Freebox HD peut se connecter à des serveurs [UPnP](http://fr.w
 ## L'offre
 
 Il existe plusieurs solutions sous Linux :
-*	[XBMC](http://www.xbmc.org) : il est très bien mais si le but est uniquement d'avoir un serveur UPnP c'est la grosse artillerie d'autant plus sur un serveur sans X.
-*	[MediaTomb](http://mediatomb.cc) : Il a de très bons echos mais comme il a besoin d'une base mysql je ne l'ai pas testé.
-*	[UShare](http://ushare.geexbox.org/) : Très léger, simple à configurer. Par contre il n'est plus développé.
+* [XBMC](http://www.xbmc.org) : il est très bien mais si le but est uniquement d'avoir un serveur UPnP c'est la grosse artillerie d'autant plus sur un serveur sans X.
+* [MediaTomb](http://mediatomb.cc) : Il a de très bons echos mais comme il a besoin d'une base mysql je ne l'ai pas testé.
+* [UShare](http://ushare.geexbox.org/) : Très léger, simple à configurer. Par contre il n'est plus développé.
 
 Update 14/06/2009 :
 Après des tests plus approfondis de UShare et quelques déceptions, mon choix s'est finalement porté sur Mediatomb qui contrairement à ce j'ai dit n'a pas besoin de mysql.
@@ -32,9 +32,9 @@ aptitude install libupnp-dev
 Par contre l'installation est plus que compliqué sur une debian pour que le script de lancement automatique (init.d) s'installe ou il faut. Il faut vraiment jouer sur tous les paramètres (--prefix et --sysconfdir) du fichier configure pour y arriver.
 
 A l'usage ushare a les désavantages suivants :
-*	Mauvaise gestion (ou pas de gestion du tout) des sous-répertoires.
-*	Pas de mise à jour automatique en cas d'ajout d'un fichier dans un partage upnp. La seule solution est de mettre une commande du style wget http://monAdresseIP:monPort/web/ushare.cgi?action=refresh dans la cron.
-*	Documentation pas forcement à jour (le projet étant arrêté cela n'est pas étonnant).
+* Mauvaise gestion (ou pas de gestion du tout) des sous-répertoires.
+* Pas de mise à jour automatique en cas d'ajout d'un fichier dans un partage upnp. La seule solution est de mettre une commande du style wget http://monAdresseIP:monPort/web/ushare.cgi?action=refresh dans la cron.
+* Documentation pas forcement à jour (le projet étant arrêté cela n'est pas étonnant).
 
 ## Mediatomb
 
@@ -48,8 +48,8 @@ aptitude install mediatomb
 La configuration se fait ensuite via l'interface Web : http://adresseIPDuServeur:49152 (voir éventuellement le chapitre suivant sur iptables).
 
 Avant d'ajouter les répertoires, je vous conseille : 
-*	Bien vérifier que vos répertoires et fichiers à partager sont bien lisibles par tout le monde (éventuellement un petit chmod a+r -R peut aider).
-*	Modifier le fichier de configuration de mediatomb pour ajouter la gestion des mkv et des ts qui sont lisibles par la Freebox. Il faut ajouter les lignes suivantes dans le fichier /etc/mediatomb/config.xml
+* Bien vérifier que vos répertoires et fichiers à partager sont bien lisibles par tout le monde (éventuellement un petit chmod a+r -R peut aider).
+* Modifier le fichier de configuration de mediatomb pour ajouter la gestion des mkv et des ts qui sont lisibles par la Freebox. Il faut ajouter les lignes suivantes dans le fichier /etc/mediatomb/config.xml
 
 ```
 <map from="mkv" to="video/x-matroska"/>
@@ -57,9 +57,9 @@ Avant d'ajouter les répertoires, je vous conseille :
 ```
 
 Il ne vous reste plus qu'à ajouter vos répertoires, personnellement je choisi toujours :
-*	Scan Mode : Inotify.
-*	Initial Scan : Full
-*	Recursive : Yes
+* Scan Mode : Inotify.
+* Initial Scan : Full
+* Recursive : Yes
 
 ### En cas d'erreur
 

@@ -10,9 +10,9 @@ Tags: ereader
 # Sortie de 3 nouveaux modèles pour Kobo
 
 Kobo sort 3 nouveaux modèles : 
-*	Kobo Arc : le successeur du Vox (donc une tablette avec écran LCD couleur)
-*	Kobo Glo : Une liseuse 6 pouces avec le Glow Light
-*	Kobo Mini : Une liseuse toujours mais en 5 pouces et un peu moins chère.
+* Kobo Arc : le successeur du Vox (donc une tablette avec écran LCD couleur)
+* Kobo Glo : Une liseuse 6 pouces avec le Glow Light
+* Kobo Mini : Une liseuse toujours mais en 5 pouces et un peu moins chère.
 
 Je risque de me laisser tenter par le Glo pour moins embêter Madame lors de mes insomnies.
 

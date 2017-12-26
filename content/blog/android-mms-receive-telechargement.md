@@ -14,11 +14,11 @@ J'ai pris la bonne (ou mauvaise) habitude de désactiver le réseau de données 
 
 ## Solution
 
-*	Activer le Wifi ou le réseau de données
-*	Aller dans les messages
-*	Cliquer sur le bouton menu -> Paramètres
-*	Aller dans les paramétrages MMS et décocher Récupération automatique
-*	Aller dans le MMS problématique et miracle le texte "Téléchargement" est remplacé par un bouton sur lequel il faut cliquer pour récupérer le contenu du MMS.
+* Activer le Wifi ou le réseau de données
+* Aller dans les messages
+* Cliquer sur le bouton menu -> Paramètres
+* Aller dans les paramétrages MMS et décocher Récupération automatique
+* Aller dans le MMS problématique et miracle le texte "Téléchargement" est remplacé par un bouton sur lequel il faut cliquer pour récupérer le contenu du MMS.
 
 
 

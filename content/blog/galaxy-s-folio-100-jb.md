@@ -18,9 +18,9 @@ Suite à mon précédent article sur le sujet ([Passage à Ice Cream Sandwich av
 En septembre je suis passé à SlimBean (le lien est le même) et le changement a été vraiment simplissime et sans douleur.
 
 La ROM marche vraiment bien et j'y trouve les avantages suivants : 
-*	Meilleure autonomie.
-*	Interface plus jolie avec des transitions utilisant le GPU. 
-*	Le bureau par défaut gère parfaitement le passage en paysage.
+* Meilleure autonomie.
+* Interface plus jolie avec des transitions utilisant le GPU. 
+* Le bureau par défaut gère parfaitement le passage en paysage.
 
 Le seul défaut que je trouve pour le moment est que la nouvelle gestion de la reconnaissance vocale bloque l'utilisation de Voice Speed Dial. Mais au fond cela n'est pas très important
 
@@ -39,20 +39,20 @@ Voir : [ICS (Ice Cream Sandwich) sur une Toshiba Folio-100](/blog/ice-cream-sand
 
 A la date d'écriture de cet article, la dernière version est l'Alpha 4
 
-*	[recovery-cwm-CM10-A3.img](https://github.com/downloads/DerArtem/android_device_toshiba_betelgeuse/recovery-cwm-CM10-A3.img)
-*	[cm-10-20121021-UNOFFICIAL-betelgeuse.zip](https://github.com/downloads/DerArtem/android_device_toshiba_betelgeuse/cm-10-20121021-UNOFFICIAL-betelgeuse.zip)
-*	[formatsd.zip](https://github.com/downloads/DerArtem/android_device_toshiba_betelgeuse/formatsd.zip)
-*	[gapps-jb-20120726-signed.zip](http://goo.im/gapps/gapps-jb-20120726-signed.zip)
+* [recovery-cwm-CM10-A3.img](https://github.com/downloads/DerArtem/android_device_toshiba_betelgeuse/recovery-cwm-CM10-A3.img)
+* [cm-10-20121021-UNOFFICIAL-betelgeuse.zip](https://github.com/downloads/DerArtem/android_device_toshiba_betelgeuse/cm-10-20121021-UNOFFICIAL-betelgeuse.zip)
+* [formatsd.zip](https://github.com/downloads/DerArtem/android_device_toshiba_betelgeuse/formatsd.zip)
+* [gapps-jb-20120726-signed.zip](http://goo.im/gapps/gapps-jb-20120726-signed.zip)
 
 Les 3 derniers fichiers doivent être mis sur une carte SD insérée dans la Folio.
 
 ### Mise à jour du recovery
 
 Démarrer la tablette en mode fastboot : 
-*	Démarrer la tablette normalement
-*	A l'apparition du logo Toshiba, taper 3 fois sur le bouton Power et ensuite le bouton Volume+
-*	Un petit message confirme le passage en mode fastboot
-*	Brancher la tablette via le port mini USB sur votre ordinateur
+* Démarrer la tablette normalement
+* A l'apparition du logo Toshiba, taper 3 fois sur le bouton Power et ensuite le bouton Volume+
+* Un petit message confirme le passage en mode fastboot
+* Brancher la tablette via le port mini USB sur votre ordinateur
 
 Sur l'ordinateur exécuter les commandes suivantes :
 
@@ -73,16 +73,16 @@ Pour la commande qui flashe le recovery, il faut bien sur avoir recopié le fich
 ### Installation
 
 Au reboot, aller dans le recovery :
-*	Au démarrage de la tablette enter dans le recovery Toshiba avec Power + Volume+
-*	Ensuite faire 3 x Volume+ pour enter dans Clockworkmod Recovery
+* Au démarrage de la tablette enter dans le recovery Toshiba avec Power + Volume+
+* Ensuite faire 3 x Volume+ pour enter dans Clockworkmod Recovery
 
 Il faut ensuite :
-*	Aller dans "mounts and storage"> et choisir 
+* Aller dans "mounts and storage"> et choisir 
     * "format /cache",
     * "format /data",
     * "format /system",
     * "format /emmc".
-*	Ensuite installer les zip dans l'ordre suivant : 
+* Ensuite installer les zip dans l'ordre suivant : 
     * formatsd.zip
     * cm-10-20121021-UNOFFICIAL-betelgeuse.zip
     * gapps-jb-20120726-signed.zip

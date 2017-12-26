@@ -26,12 +26,12 @@ su - dropbox
 
 ### Téléchargement
 
-*	Version 32 bits :
+* Version 32 bits :
 
 ```
 wget -O dropbox.tar.gz "http://www.dropbox.com/download/?plat=lnx.x86"
 ```
-*	Version 64 bits : 
+* Version 64 bits : 
 
 ```
 wget -O dropbox.tar.gz "http://www.dropbox.com/download/?plat=lnx.x86_64"

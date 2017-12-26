@@ -31,20 +31,20 @@ font-size: 1.33333em;
 ```
 
 Par contre ces paragraphes sont situés dans le balise body qui a elle aussi un spécification de taille de police :
-*	Livre 1 : avec une taille normale
+* Livre 1 : avec une taille normale
 
 ```css
 font-size: 1em;
 ```
-*	Libre 2 : avec une grande taille
+* Libre 2 : avec une grande taille
 
 ```css
 font-size: 1.25em;
 ```
 
 La taille de police du paragraphe étant relative à celle du body (pour simplifier elles se multiplient et ne se remplacent pas) :
-*	La taille de police du livre 1 : 1 * 1.33333 = 1.33333em
-*	La taille de police du livre 2 : 1.25 * 1.33333 = 1.66666em
+* La taille de police du livre 1 : 1 * 1.33333 = 1.33333em
+* La taille de police du livre 2 : 1.25 * 1.33333 = 1.66666em
   
 CQFD
 
@@ -63,9 +63,9 @@ Etc.
 Messieurs les éditeurs et Messieurs des sociétés de numérisation : restez simple, pas de balises inutiles qui peuvent gâcher le plaisir de lecture.
 
 La feuille de style doit être légère. Cela entraine quelques avantages pour nous lecteurs :
-*	Nos liseuses ne rament pas.
-*	Les fichiers epub sont moins gros (moins de couts de bande passante et moins d'attente)
-*	Les liseuses peuvent s'adapter plus facilement.
+* Nos liseuses ne rament pas.
+* Les fichiers epub sont moins gros (moins de couts de bande passante et moins d'attente)
+* Les liseuses peuvent s'adapter plus facilement.
 
 Je vous laisse consulter [le blog de lecteursencolere](http://lecteursencolere.com/) pour en apprendre beaucoup plus sur le sujet.
 

@@ -40,8 +40,8 @@ Les notes de bas de page apparaissent dans une popup avec la possibilité de voi
 Au final, c'est pratique vu que tous mes fichiers Kepub sont lus, j'ai tout archivé.
 
 A noter qu'il est possible de filtrer avec la petite clé en bas à droite de la bibliothèque :
-*	Sur la liseuse : uniquement les fichiers existants sur la liseuse (sans les fichiers Kepubs).
-*	Tous les livres : Ajoute aussi les éléments archivés.
+* Sur la liseuse : uniquement les fichiers existants sur la liseuse (sans les fichiers Kepubs).
+* Tous les livres : Ajoute aussi les éléments archivés.
 
 ## Bilan
 

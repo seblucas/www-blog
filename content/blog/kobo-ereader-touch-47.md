@@ -17,23 +17,23 @@ Je n'ai pas trouvé de lien de téléchargement direct (pour les plus témérair
 ## Liste de changements officielle
 
 Source : 
-*	http://www.mobileread.com/forums/showpost.php?p=2341667&postcount=61
+* http://www.mobileread.com/forums/showpost.php?p=2341667&postcount=61
 
-*	Apercevoir vos statistiques de lecture lorsque vous lisez.
-*	Profiter d'un affichage amélioré des livres.
-*	Synchroniser votre bibliothèque vers une carte micro SD lorsque l'espace libre de votre liseuse est insuffisant.
-*	Obtenir des explications dans le menu Aide pour savoir comment ajouter des livres
-*	Découvrir notre nouvel écran d'accueil.
-*	Bénéficier de plusieurs résolutions de bugs.
+* Apercevoir vos statistiques de lecture lorsque vous lisez.
+* Profiter d'un affichage amélioré des livres.
+* Synchroniser votre bibliothèque vers une carte micro SD lorsque l'espace libre de votre liseuse est insuffisant.
+* Obtenir des explications dans le menu Aide pour savoir comment ajouter des livres
+* Découvrir notre nouvel écran d'accueil.
+* Bénéficier de plusieurs résolutions de bugs.
 
 Les statistiques ne sont disponibles pour le moment que sur les Kepubs (les livres achetés chez Kobo) et je dois dire que j'aime assez. Cela donne cet affichage (en cliquant sur le lien avec le pourcentage d'avancement dans le livre) : 
 ![Image](/blog/kobo-statistics.jpg){.centered}
 
 Cela permet donc d'avoir :
-*	Le temps restant avant la fin du chapitre (je ne sais pas encore si cela se base sur un nombre de mots par minute constant ou sur une vitesse calculée spécifiquement pour l'utilisateur de la liseuse).
-*	La durée en minutes du prochain chapitre.
-*	Les prochains chapitres et leur durée sous forme graphique (cela avait été enlevé dans un précédent firmware).
-*	Le temps restant pour le livre complet.
+* Le temps restant avant la fin du chapitre (je ne sais pas encore si cela se base sur un nombre de mots par minute constant ou sur une vitesse calculée spécifiquement pour l'utilisateur de la liseuse).
+* La durée en minutes du prochain chapitre.
+* Les prochains chapitres et leur durée sous forme graphique (cela avait été enlevé dans un précédent firmware).
+* Le temps restant pour le livre complet.
 
 Je trouve ça très bien ... Mais, j'adorerais l'avoir sur les Epubs.
 
@@ -73,5 +73,5 @@ Utilisez les commentaires si vous en détectez d'autres.
 
 Je ne le répèterais jamais assez, l'installation manuelle des firmwares n'est pas supportée par Kobo (ni par moi), donc l'installation est à vos risques et périls.
 
-*	Lien Glo / Mini : http://download.kobobooks.com/firmwares/kobo4/bryant/kobo-update-2.3.1.zip
-*	Lien Touch : http://download.kobobooks.com/firmwares/kobo3/bryant/kobo-update-2.3.1.zip
+* Lien Glo / Mini : http://download.kobobooks.com/firmwares/kobo4/bryant/kobo-update-2.3.1.zip
+* Lien Touch : http://download.kobobooks.com/firmwares/kobo3/bryant/kobo-update-2.3.1.zip

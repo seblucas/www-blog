@@ -20,22 +20,22 @@ Le firmware 2.5.0 est sorti le 16 avril un peu à la surprise générale (il n'y
 
 ### Corrections de bugs
 
-*	Le sudoku est de nouveau utilisable.
-*	La mise en veille après 60 secondes d'inactivité est corrigée.
+* Le sudoku est de nouveau utilisable.
+* La mise en veille après 60 secondes d'inactivité est corrigée.
 
 ### Améliorations
 
-*	La gestion avancée des polices de caractères a été améliorée. Je n'ai pas beaucoup joué avec, mais ça semble intéressant.
-*	Les couvertures sont maintenant stockées sur la carte SD externe. Cela apporte un gros gain de vitesse si vous avez beaucoup de livres. Par contre certains utilisateurs se sont plaints de la faible qualité des images.
-*	Amélioration de la boutique Kobo.
-*	Il n'est plus nécessaire de taper `http://` dans le navigateur Internet.
-*	Les marges hautes et basses définies dans les CSS des fichiers Epub sont mieux respectées.
+* La gestion avancée des polices de caractères a été améliorée. Je n'ai pas beaucoup joué avec, mais ça semble intéressant.
+* Les couvertures sont maintenant stockées sur la carte SD externe. Cela apporte un gros gain de vitesse si vous avez beaucoup de livres. Par contre certains utilisateurs se sont plaints de la faible qualité des images.
+* Amélioration de la boutique Kobo.
+* Il n'est plus nécessaire de taper `http://` dans le navigateur Internet.
+* Les marges hautes et basses définies dans les CSS des fichiers Epub sont mieux respectées.
 
 ### Nouveaux bugs
 
-*	Gros bug sur la gestion de la luminosité sur la Glo : si le réglage est mis au minimum, alors le bouton d'allumage est inactif.
-*	Le bouton de justification de texte devient invisible quand il est activé.
-*	Beaucoup d'utilisateurs ont remontés des problèmes de lecture de PDF avec beaucoup de "ghosting".
+* Gros bug sur la gestion de la luminosité sur la Glo : si le réglage est mis au minimum, alors le bouton d'allumage est inactif.
+* Le bouton de justification de texte devient invisible quand il est activé.
+* Beaucoup d'utilisateurs ont remontés des problèmes de lecture de PDF avec beaucoup de "ghosting".
 
 ### Choix discutables
 
@@ -48,12 +48,12 @@ Le firmware 2.5.1 est sorti le 24 avril toujours sans beta, mais cela urgeait un
 
 ### Corrections de bugs
 
-*	Les dictionnaires personnalisés sont de nouveau utilisables.
-*	Les catégories dans la boutique sont correctement traduites.
+* Les dictionnaires personnalisés sont de nouveau utilisables.
+* Les catégories dans la boutique sont correctement traduites.
 
 ### Améliorations
 
-*	La gestion des notes de bas de page se fait aussi via une popup (comme pour les Kepub dans les versions précédentes).
+* La gestion des notes de bas de page se fait aussi via une popup (comme pour les Kepub dans les versions précédentes).
 
 ##  Retour vers le futur 2 - 2.5.X 
 

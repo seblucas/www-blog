@@ -11,8 +11,8 @@ Tags: rpi,xbmc
 
 ## Raspbmc RC5
 En installant la nightly du 21/12/2012 j'ai pu bénéficier de XBMC 12 RC2 et c'est le moment de faire un point sur l'efficacité de la dernière version. Les problèmes restants sont les suivants : 
-*	Des plantages en cours de visionnage de flux RTSP de la freebox
-*	Depuis la dernière mise à jour de la RC5, XBMC n'est plus à l'heure.
+* Des plantages en cours de visionnage de flux RTSP de la freebox
+* Depuis la dernière mise à jour de la RC5, XBMC n'est plus à l'heure.
 
 Le dernier problème est partiellement résolu sur le forum de Raspbmc. Pour le premier problème j'ai peur d'être seul au monde donc j'ai posté les détails sur le forum de XBMC. Reste à espérer.
 

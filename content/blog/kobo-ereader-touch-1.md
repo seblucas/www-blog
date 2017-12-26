@@ -39,28 +39,28 @@ Pour le moment je lis un livre en anglais (ce qui limite peut être le nombre de
 ## Bilan
 
 ### Points positifs
-*	Interface en français
-*	Poids très faible
-*	Autonomie
-*	Aucun problème avec les accents sur les ebooks français.
-*	Contrairement à ce qui peut être lu sur le net, il est possible de traduire ou d'avoir accès à la définition d'un mot pour les epub chargés avec Calibre ... Par contre il n'y qu'un dictionnaire anglais.
-*	Visualisation des CBZ (attention l'écran est quand même plus petit qu'un manga classique donc la qualité de l'image est importante)
-*	Un sudoku ......
+* Interface en français
+* Poids très faible
+* Autonomie
+* Aucun problème avec les accents sur les ebooks français.
+* Contrairement à ce qui peut être lu sur le net, il est possible de traduire ou d'avoir accès à la définition d'un mot pour les epub chargés avec Calibre ... Par contre il n'y qu'un dictionnaire anglais.
+* Visualisation des CBZ (attention l'écran est quand même plus petit qu'un manga classique donc la qualité de l'image est importante)
+* Un sudoku ......
 
 ### Points neutres
 
-*	Tactile vraiment bof venant d'un Galaxy S capacitif (c'est assez injuste comme comparaison) mais qui reste utilisable
-*	Intégration avec Facebook .... je ne vois pas l'intérêt mais si ça peut faire plaisir à certains
-*	Statistiques de lecture certainement fausses ou je n'en comprends pas la logique
-*	Navigateur Internet à moitié inutile sauf pour des sites dédiés (je pense que j'en ferais un pour partager ma bibliothèque Calibre)
+* Tactile vraiment bof venant d'un Galaxy S capacitif (c'est assez injuste comme comparaison) mais qui reste utilisable
+* Intégration avec Facebook .... je ne vois pas l'intérêt mais si ça peut faire plaisir à certains
+* Statistiques de lecture certainement fausses ou je n'en comprends pas la logique
+* Navigateur Internet à moitié inutile sauf pour des sites dédiés (je pense que j'en ferais un pour partager ma bibliothèque Calibre)
 
 ### Points négatifs
 
-*	Je n'ai jamais réussi à charger un CBR (mais le CBZ fonctionne lui).
-*	Pas de possibilité d'annoter des livres chargés avec Calibre (gros point négatif)
-*	Pas de possibilité d'ajouter des catalogues OPDS (pour accéder à certains livres du domaine publique chez http://www.feedbooks.com ou http://www.ebooksgratuits.com/)
-*	Pas de dictionnaire français (ou je ne l'ai pas trouvé)
-*	Pas de moyen d'avoir l'heure rapidement (pratique pour savoir si il est temps de dormir ou pas)
-*	Pas de pagination au chapitre (Page 12 / 1230 ; Chap 2 : 12 / 23)
+* Je n'ai jamais réussi à charger un CBR (mais le CBZ fonctionne lui).
+* Pas de possibilité d'annoter des livres chargés avec Calibre (gros point négatif)
+* Pas de possibilité d'ajouter des catalogues OPDS (pour accéder à certains livres du domaine publique chez http://www.feedbooks.com ou http://www.ebooksgratuits.com/)
+* Pas de dictionnaire français (ou je ne l'ai pas trouvé)
+* Pas de moyen d'avoir l'heure rapidement (pratique pour savoir si il est temps de dormir ou pas)
+* Pas de pagination au chapitre (Page 12 / 1230 ; Chap 2 : 12 / 23)
 
 

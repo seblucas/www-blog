@@ -13,10 +13,10 @@ Tags: calibre,ereader
 Comme vous le savez peut être Calibre contient un serveur HTTP qui permet de partager simplement l'ensemble de sa bibliothèque via des pages Web assez bien faite. Ce serveur se lance en cliquant sur le bouton "Connecter / Partager" et ensuite "Démarrer le serveur de contenu". Le serveur est ensuite accessible par défaut sur le port 8080 (http://127.0.0.1:8080/).
 
 Je vois quelques défauts à Calibre et ce serveur :
-*	La version Linux de Calibre a beaucoup de dépendances et même pour le paquet calibre-server il faut pas mal de bibliothèques graphiques
-*	Étant donné que Calibre n'est pas un outil client-serveur la base de données ne peut pas facilement se déporter sur un serveur indépendant.
-*	Pour moi Calibre est une application graphique qui a sa place sur mon ordinateur portable et pas sur mon serveur. Alors qu'un service Web doit tourner 24h/24 et doit donc être sur un serveur.
-*	La solution de passer Calibre2Opds (qui fait aussi des pages Web classiques) ne me tentait pas vu qu'il faut régulièrement relancer le traitement pour avoir un site à jour et qu'il n'y a pas de possibilité de recherche dynamique.
+* La version Linux de Calibre a beaucoup de dépendances et même pour le paquet calibre-server il faut pas mal de bibliothèques graphiques
+* Étant donné que Calibre n'est pas un outil client-serveur la base de données ne peut pas facilement se déporter sur un serveur indépendant.
+* Pour moi Calibre est une application graphique qui a sa place sur mon ordinateur portable et pas sur mon serveur. Alors qu'un service Web doit tourner 24h/24 et doit donc être sur un serveur.
+* La solution de passer Calibre2Opds (qui fait aussi des pages Web classiques) ne me tentait pas vu qu'il faut régulièrement relancer le traitement pour avoir un site à jour et qu'il n'y a pas de possibilité de recherche dynamique.
 
 Malgré tous ces défauts j'aime suffisamment Calibre pour le conserver comme outil de gestion de bibliothèque par contre j'aimerai que le contenu de ma bibliothèque soit accessible de partout à n'importe quel moment.
 
@@ -34,8 +34,8 @@ Voir [Récupérer des répertoires Dropbox en console](/blog/dropbox-sync-consol
 
 ### Qui
 Une personne sur Mobileread (encore et toujours) a mis à disposition un serveur PHP tout simple permettant un accès complet à sa bibliothèque Calibre. Les liens sont les suivants : 
-*	[Discussion sur le forum MobileRead](http://www.mobileread.com/forums/showthread.php?p=1966227) 
-*	http://charles.the-haleys.org/calibre/
+* [Discussion sur le forum MobileRead](http://www.mobileread.com/forums/showthread.php?p=1966227) 
+* http://charles.the-haleys.org/calibre/
 
 ### Dépendances
 
@@ -256,9 +256,9 @@ Je vous encourage à lire le README du serveur PHP Calibre pour le reste de la c
 J'ai commencé à faire quelques adaptations sur le template pour le transformer en xhtml et le rendre valide.
 
 Mon but ultime est de modifier le template pour que le rendu soit optimisé pour la Kobo :
-*	adapté à sa faible résolution.
-*	adapté au noir et blanc.
-*	adapté à l'imprécision du tactile IR et donc avec des zones cliquables assez grandes.
+* adapté à sa faible résolution.
+* adapté au noir et blanc.
+* adapté à l'imprécision du tactile IR et donc avec des zones cliquables assez grandes.
 
 N'hésitez pas à me contacter si vous voulez m'aider sur ce projet.
 

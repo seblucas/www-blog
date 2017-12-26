@@ -29,8 +29,8 @@ J'imagine que ces problèmes doivent être résolus. Mais je n'utilise pas de ca
 
 ATTENTION : Lire [ATTENTION : Ne pas installer les mises à jour Kobo manuellement](/blog/kobo-ereader-touch-40) avant de tenter l'expérience.
 
-*	Touch : http://download.kobobooks.com/firmwares/kobo3/brodeur/kobo-update-2.1.5.zip
-*	Glo : http://download.kobobooks.com/firmwares/kobo4/brodeur/kobo-update-2.1.5.zip
+* Touch : http://download.kobobooks.com/firmwares/kobo3/brodeur/kobo-update-2.1.5.zip
+* Glo : http://download.kobobooks.com/firmwares/kobo4/brodeur/kobo-update-2.1.5.zip
 
 ## Firmware unifié
 
@@ -38,8 +38,8 @@ ATTENTION : Lire [ATTENTION : Ne pas installer les mises à jour Kobo manuelleme
 ~~
 
 Mea culpa, Voir ici pour plus d'informations :
-*	http://www.mobileread.com/forums/showpost.php?p=2270009&postcount=37
-*	[ATTENTION : Ne pas installer les mises à jour Kobo manuellement](/blog/kobo-ereader-touch-40)
+* http://www.mobileread.com/forums/showpost.php?p=2270009&postcount=37
+* [ATTENTION : Ne pas installer les mises à jour Kobo manuellement](/blog/kobo-ereader-touch-40)
 
 ## Le retour du plugin
 

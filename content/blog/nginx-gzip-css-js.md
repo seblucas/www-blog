@@ -37,8 +37,8 @@ Un paramètre important de dokuwiki est la compression (ou minification) des fic
 
 ## Autres sites utiles
 
-*	http://www.woorank.com
-*	http://gtmetrix.com/
+* http://www.woorank.com
+* http://gtmetrix.com/
 
 
 

@@ -17,9 +17,9 @@ Je vais simplement profiter de ce billet pour traduire en français toute une s�
 ## Le partitionnement de la Kobo
 
 Notre liseuse utilise un linux et pour son stockage interne utilise 2Go de mémoire partitionnée de la façon suivante :
-*	/dev/mmcblk0p1 pour la partition root (environ 256Mo)
-*	/dev/mmcblk0p2 pour la partition de secours (environ 256Mo)
-*	/dev/mmcblk0p3 pour la partition user (environ 1.4Go) pour les livres et le reste de la configuration.
+* /dev/mmcblk0p1 pour la partition root (environ 256Mo)
+* /dev/mmcblk0p2 pour la partition de secours (environ 256Mo)
+* /dev/mmcblk0p3 pour la partition user (environ 1.4Go) pour les livres et le reste de la configuration.
   
 Lors d'une remise à zéro (voir [trucs et astuces](/blog/kobo-ereader-touch-5)) la partition de secours est recopiée dans la partition root.
 
@@ -37,10 +37,10 @@ Attention : cette information n'est pas confirmée à 100% pour toutes les liseu
 ## Carte µSD et type de système de fichier
 
 J'ai pu tester les systèmes de fichiers suivants :
-*	FAT32 : OK
-*	ext3 : OK
-*	ext4 : OK
-*	NTFS : NOK
+* FAT32 : OK
+* ext3 : OK
+* ext4 : OK
+* NTFS : NOK
 
 ## Carte µSD externe et partitionnement
 
@@ -71,15 +71,15 @@ Source : http://www.richud.com/wiki/Kobo_eReader_touch
 
 Alors c'est encore plus chaud que tout le reste mais cela reste amusant. Un utilisateur de Kobo a ajouté son nom sur l'écran de veille de la Kobo afin d'être certain de ne pas confondre sa liseuse avec celle de son épouse. Cela implique l'édition binaire d'un exécutable de la Kobo.
 
-*	Mettre en place les accès telnet et ftp.
-*	Récupérer la bibliothèque nickel sur la Kobo :
+* Mettre en place les accès telnet et ftp.
+* Récupérer la bibliothèque nickel sur la Kobo :
 
 ```bash
     ftp kobo
     cd /usr/local/Kobo
     get libnickel.so.1.0.0
 ```
-*	A l'aide d'un éditeur binaire recherche la chaine de caractères "Sleep Mode" et il faut la remplacer celle de votre choix. Attention : ne pas changer la taille totale de la chaine (compléter par des espaces si nécessaire). Ici l'exemple avec "Chuck" :
+* A l'aide d'un éditeur binaire recherche la chaine de caractères "Sleep Mode" et il faut la remplacer celle de votre choix. Attention : ne pas changer la taille totale de la chaine (compléter par des espaces si nécessaire). Ici l'exemple avec "Chuck" :
 
 ```
     010E0160  65 70 69 6E 67 2D 62 6C 61 63 6B 2E 70 6E 67 00 eping-black.png.
@@ -88,13 +88,13 @@ Alors c'est encore plus chaud que tout le reste mais cela reste amusant. Un util
     010E0190  63 6B 27 73 20 00 00 00 51 57 69 64 67 65 74 20 ck's ...QWidget
     010E01A0  7B 20 63 6F 6C 6F 72 3A 20 72 67 62 28 32 35 35 { color: rgb(255 
 ```
-*	Transmettre le fichier modifié sur la Kobo
+* Transmettre le fichier modifié sur la Kobo
 
 ```bash
     ftp kobo
     cd /usr/local/Kobo
     put libnickel.so.1.0.0
 ```
-*	Redémarrer la liseuse (par le petit bouton et un trombone)
+* Redémarrer la liseuse (par le petit bouton et un trombone)
 
 Source : http://mountain-tech.net/tech/embedded/kobo/

@@ -42,17 +42,17 @@ TIMEZONE="Europe/Paris"
 
 #### NTP
 
-*	Installation
+* Installation
 
 ```
 pacman -S ntp
 ```
-*	Synchronisation
+* Synchronisation
 
 ```
 ntpd -qg
 ```
-*	Mise en place en mode démon (en éditant le rc.conf)
+* Mise en place en mode démon (en éditant le rc.conf)
 
 ```
 DAEMONS=(... !hwclock ntpd ...)
@@ -60,12 +60,12 @@ DAEMONS=(... !hwclock ntpd ...)
 
 ### Langue
 
-*	Vérification des locales installées
+* Vérification des locales installées
 
 ```
 locale -a
 ```
-*	Ajout des locales manquantes (en éditant /etc/locale.gen)
+* Ajout des locales manquantes (en éditant /etc/locale.gen)
 
 ```
 en_US.UTF-8 UTF-8
@@ -75,12 +75,12 @@ de_DE@euro ISO-8859-15
 fr_FR.UTF-8 UTF-8
 fr_FR ISO-8859-1
 ```
-*	Re-génération
+* Re-génération
 
 ```
 locale-gen
 ```
-*	Édition du rc.conf
+* Édition du rc.conf
 
 ```
 LOCALE="fr_FR.UTF-8"

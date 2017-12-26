@@ -29,16 +29,16 @@ set NLS_LANG=FRENCH_FRANCE.WE8MSWIN1252
 Le maître mot est la **cohérence**.
 
 Donc si votre console a une configuration du style LANG=fr_FR.UTF-8 alors :
-*	Il faut modifier la configuration de votre session putty (Dans Window -> Translation) pour choisir le jeu de caractères UTF-8.
-*	Modifier votre bash_profile pour ajouter le bon NLS_LANG ou lancer votre sqlplus de la façon suivante (via un alias) : 
+* Il faut modifier la configuration de votre session putty (Dans Window -> Translation) pour choisir le jeu de caractères UTF-8.
+* Modifier votre bash_profile pour ajouter le bon NLS_LANG ou lancer votre sqlplus de la façon suivante (via un alias) : 
 
 ```
 NLS_LANG=FRENCH_FRANCE.UTF8 sqlplus
 ```
 
 Dans le même série si LANG=fr_FR.iso885915@euro : 
-*	Putty : ISO-8859-15
-*	NLS_LANG=FRENCH_FRANCE.WE8ISO8859P15
+* Putty : ISO-8859-15
+* NLS_LANG=FRENCH_FRANCE.WE8ISO8859P15
 
 En procédant comme ça, jamais de problème avec les caractères accentués. Au pire il reste sqlplusw, Toad ou isqlplus.
 

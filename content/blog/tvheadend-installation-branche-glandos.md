@@ -17,8 +17,8 @@ En pratique cela permet d'accéder aux flux RTSP de la Freebox.
 
 ### Prérequis
 Il vous faut :
-*	Un environnement de compilation
-*	Git
+* Un environnement de compilation
+* Git
 
 ###  Téléchargement 
 
