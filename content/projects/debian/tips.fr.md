@@ -11,19 +11,6 @@ Essayez la zone de recherche en haut à droite.
 
 ## Liste presque complète
 
-### En français
+[In french or english](/tags/debian)
 
-`<blog related>`
-  blog   default
-  tags   debian
-  limit 100
-`</blog>`
-
-### En anglais
-
-`<blog related>`
-  blog   tips
-  tags   debian
-  limit 100
-`</blog>`
 
