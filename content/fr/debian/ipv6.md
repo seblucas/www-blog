@@ -1,5 +1,6 @@
 /*
 Title: Debian & IPV6
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -51,6 +52,7 @@ www.kame.net has IPv6 address 2001:200:0:8002:203:47ff:fea5:3085
 ## Essayer avec un navigateur Internet
 
 Il y a pas mal de sites pour tester :
+
 *	http://6to4.nro.net/
 *	http://go6.net/
 *	http://www.sixxs.net/ (Vérifier en haut à droite)
@@ -61,6 +63,7 @@ Il y a pas mal de sites pour tester :
 
 La vrai raison est qu'il est super drôle de se souvenir de 8 groupe de 4 chiffres hexadécimaux. En étant sérieux, pour l'instant il n'y a aucun intérêt mais la pénurie d'adresse ipv4 s'accélérant, l'adoption généralisée de l'ipv6 ne devrais plus tarder.
 En cherchant bien il y a ceci :
+
 *	Voir une tortue dancer : http://www.kame.net
 *	http://www.sixxs.net/misc/coolstuff/
 
@@ -68,6 +71,7 @@ En cherchant bien il y a ceci :
 
 ## ip6tables
 Un parefeu ipv6 est quasiment identique à un parefeu ipv4, la différence réside dans le nom du programme à utiliser :
+
 *	iptables -> ip6tables
 *	iptables-save -> ip6tables-save
 *	iptables-restore -> ip6tables-restore

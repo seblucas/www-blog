@@ -1,5 +1,6 @@
 /*
 Title: Install Debian Lenny
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -42,6 +43,7 @@ apt-get install bzip2 ssh build-essential
 ```
 
 Some explanations :
+
 *	bzip2 : compressing tool (it can compress better than gzip, but is slower). 
 *	ssh : allow you to connect remotely with a crypted connection. With Windows I advise you to get [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/).
 *	build-essential : install everything needed to compile anything in C/C++ (cpp, gcc, g++).

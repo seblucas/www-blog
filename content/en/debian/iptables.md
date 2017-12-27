@@ -1,5 +1,6 @@
 /*
 Title: Iptables howto
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -16,6 +17,7 @@ See [Netfilter](http://fr.wikipedia.org/wiki/Special:Search?search=Netfilter)
 In a lot of other Linux distributions, there is a file /etc/init.d/iptables which is loaded automatically. There is no such file in Debian (at least in Etch and Lenny). The Debian way (see [here](http://www.debian-administration.org/articles/445)) is to load the firewall rules as soon as the network is started (so your computer is always protected).
 
 So how do we do this :
+
 *	First log on as root
 *	create a file named firewall.sh which will contain all your iptables rules (detail later).
 *	make sure firewall.sh can be executed :
@@ -47,6 +49,7 @@ chmod +x /etc/network/if-up.d/iptables
 ## Firewall rules update
 
 If you need to update your firewall rules :
+
 *	Edit firewall.sh to make your desired changes.
 *	Execute it and check if everything works as expected
 *	If everything runs ok, run :

@@ -1,5 +1,6 @@
 /*
 Title: Applications utiles
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -126,6 +127,7 @@ Voir [ici](/fr/debian/nomachine) pour l'installation de [NoMachine](http://www.n
 J'aime beaucoup [SABnzbd](http://sabnzbd.wikidot.com/). C'est simple à installer et il fonctionne parfaitement avec l'IPV6.
 
 Il n'y a pas de paquets tout fait, il faut donc l'installer "à l'ancienne"  :
+
 *	Il faut d'abord mettre les sources d'apt pour inclure les paquet "non-free". Editer le ficher /etc/apt/sources.list pour qu'il ressemble à ça :
 
 ```

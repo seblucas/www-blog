@@ -1,5 +1,6 @@
 /*
 Title: Tips & Tricks Debian
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Date: 2010/10/13
@@ -14,6 +15,7 @@ Essayez la zone de recherche en haut à droite.
 ## Liste presque complète
 
 ### En français
+
 `<blog related>`
   blog   default
   tags   debian

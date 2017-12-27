@@ -1,5 +1,6 @@
 /*
 Title: Installation de Xorg
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -115,6 +116,7 @@ startx
 
 ## Plusieurs possibilités
 Pour l'instant notre Lenny démarre en mode texte et nous pouvons lancer l'interface graphique via startx. Il est possible de démarrer avec l'interface graphique et de se connecter graphiquement, il faut pour cela installer un Display Manager. Il en existe plusieurs :
+
 *	gdm : lié à Gnome, c'est pour cela que je ne l'installe pas.
 *	kdm : lié à KDE.
 *	xdm : Aucune dépendance lourde mais un peu austère.

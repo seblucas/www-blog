@@ -1,5 +1,6 @@
 /*
 Title: Installer Debian Lenny
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -42,6 +43,7 @@ apt-get install bzip2 ssh build-essential
 ```
 
 Quelques petites explications :
+
 *	bzip2 : outils de compression (plus efficace que gzip). 
 *	ssh : permet de se connecter à distance en ssh. sous Window je conseille l'excellent [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/).
 *	build-essential : installe le nécessaire pour pouvoir compiler n'importe quel programme C/C++ (cpp, gcc, g++).

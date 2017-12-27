@@ -1,5 +1,6 @@
 /*
 Title: Useful applications
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -120,6 +121,7 @@ See [here](/en/debian/nomachine) for the installation of [NoMachine](http://www.
 I really like [SABnzbd](http://sabnzbd.wikidot.com/). It's easy to setup and it works with [ IPV6](/[en/debian-ipv6 )].
 
 There is no all-in-one package for debian so you'll have to install it the hard way :
+
 *	update your apt sources to include non-free packages. Edit your /etc/apt/sources.list so it looks like that :
 
 ```

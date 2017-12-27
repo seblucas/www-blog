@@ -1,5 +1,6 @@
 /*
 Title: Debian
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -13,6 +14,7 @@ J'utilise Linux depuis 1998, j'ai comme beaucoup de monde commencé par une Red 
 ## A quoi ça sert
 
 En plus de l'usage classique, j'ai eu des usages multiples de mes différents ordinateur Debian :
+
 *	Magnétoscope Numérique grâce à VDR et carte DVB-S.
 *	Divx Box (à l'époque).
 *	Serveur Web.
@@ -47,6 +49,7 @@ En plus de l'usage classique, j'ai eu des usages multiples de mes différents or
 # Open Source
 
 ## Mes maigres participations
+
 [Calibre OPDS PHP Serveur : Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
 
 [Voici COPS : Calibre OPDS (et HTML) PHP Serveur](/fr/oss/calibre-opds-php-server)

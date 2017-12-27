@@ -1,5 +1,6 @@
 /*
 Title: Installer et configurer Conky
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -10,6 +11,7 @@ Tags: xfce
 
 ## Inutile mais amusant
 [Conky](http://conky.sourceforge.net/) est un petit outil permettant de monitorer votre ordinateur. Il vous permet d'avoir des informations sur la santé de votre système directement sur le fond d'écran :
+
 *	Charge CPU 
 *	uptime
 *	Utilisation RAM 

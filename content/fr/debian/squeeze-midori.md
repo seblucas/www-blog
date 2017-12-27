@@ -1,5 +1,6 @@
 /*
 Title: Midori : l'autre navigateur Web
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -26,11 +27,13 @@ aptitude install midori
 ## Améliorer l'expérience
 
 ### Rendre midori navigateur par defaut
+
 *	Installer galternatives
 
 ```
 aptitude install galternatives
 ```
+
 *	Le lancer (il doit demande le mot de passe root)
 *	Sélectionner x-www-browser et mettez midori comme choix.
 
@@ -41,6 +44,7 @@ La majorité des sites ne supportent pas midori en temps que tel, je conseille d
 ### Changer le fonctionnement des onglets
 
 Par défaut un CTRL+clic ouvre les onglets à coté de l'onglet courant, je préfère que les nouveaux onglets soient ouvert tout à la fin :
+
 *	Edition -> Préférences
 *	Onglet Interface
 *	Décocher Ouvrir les onglets à côté de l'actuel 

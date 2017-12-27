@@ -1,5 +1,6 @@
 /*
 Title: Installation of Xorg
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -115,6 +116,7 @@ startx
 
 ## Many choices
 For now, our Lenny should start in text mode and we can and we can start the GUI with startx. It's also possible to log on with a GUI, you'll nee a Display Manager. there are a lot :
+
 *	gdm : linked to Gnome, that's why I don't use it (a lot of dependencies).
 *	kdm : linked to KDE.
 *	xdm : not a lot of dependencies but not very pretty.

@@ -1,5 +1,6 @@
 /*
 Title: Automount with XFCE and Lenny
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -69,6 +70,7 @@ apt-get install ntfs-3g
 ## Problem
 
 The problem is that if I connect my NTFS USB drive it is perfectly mounted but :
+
 *	with the ntfs read only kernel driver,
 *	and only root has the permission to read on it.
 

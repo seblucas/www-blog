@@ -1,5 +1,6 @@
 /*
 Title: Install and configure Conky
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -10,6 +11,7 @@ Tags: xfce
 
 ## Useless but fun
 [Conky](http://conky.sourceforge.net/) is a light-weight system monitor. It allow you to have informations about your computer directly on your background like :
+
 *	CPU load
 *	uptime
 *	RAM use
