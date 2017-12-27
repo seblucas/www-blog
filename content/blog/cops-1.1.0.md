@@ -3,6 +3,7 @@ title: "COPS 1.1.0"
 date: 2017-04-02
 tags: [calibre,ereader,nginx,opds,php]
 slug: cops-1.1.0
+disqus_identifier: /blog/cops-1.1.0
 ---
 # COPS 1.1.0
 
