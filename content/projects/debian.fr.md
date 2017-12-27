@@ -13,36 +13,14 @@ J'utilise Linux depuis 1998, j'ai comme beaucoup de monde commencé par une Red 
 
 En plus de l'usage classique, j'ai eu des usages multiples de mes différents ordinateur Debian :
 
-*	Magnétoscope Numérique grâce à VDR et carte DVB-S.
-*	Divx Box (à l'époque).
-*	Serveur Web.
-*	Plateforme de développement
+* Magnétoscope Numérique grâce à VDR et carte DVB-S.
+* Divx Box (à l'époque).
+* Serveur Web.
+* Plateforme de développement.
+* Serveur général.
 *	...
 
-## Liste des pages
-
-[Installer et configurer Conky](/fr/debian/conky)
-
-[Tutoriel Iptables](/fr/debian/iptables)
-
-[Debian & IPV6](/fr/debian/ipv6)
-
-[Installer Debian Lenny](/fr/debian/lenny-install)
-
-[Installation de Xorg](/fr/debian/lenny-xorg)
-
-[Compilation de MPlayer](/fr/debian/mplayer)
-
-[Installation de NoMachine](/fr/debian/nomachine)
-
-[Le voisinage réseau sous Debian : merci à Gigolo](/fr/debian/squeeze-gigolo)
-
-[Midori : l'autre navigateur Web](/fr/debian/squeeze-midori)
-
-[Tips & Tricks Debian](/fr/debian/tips)
-
-[Applications utiles](/fr/debian/xfce-applications)
-
+[Pour la liste complète des pages c'est ici](/fr/projects/debian)
 
 # Open Source
 

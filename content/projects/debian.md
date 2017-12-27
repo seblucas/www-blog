@@ -13,37 +13,13 @@ I use Linux since 1998, I started, like a lot of people, with Red Hat. In 2002, 
 
 Beside of the classic desktop use, I had many dedicated usage of Debian :
 
-*	Personnal PVR with VDR and a full featured DVB-S card.
-*	Divx Box.
-*	Web server.
-*	...
+* Personnal PVR with VDR and a full featured DVB-S card.
+* Divx Box.
+* Web server.
+* General purpose server.
+* ...
 
-## Page list
-
-[Install and configure Conky](/en/debian/conky)
-
-[Dell Latitude E6500](/en/debian/e6500)
-
-[Full iptables script](/en/debian/iptables-script)
-
-[Iptables howto](/en/debian/iptables)
-
-[Debian & IPV6](/en/debian/ipv6)
-
-[Install Debian Lenny](/en/debian/lenny-install)
-
-[Automount with XFCE and Lenny](/en/debian/lenny-xfce-automount)
-
-[Installation of Xorg](/en/debian/lenny-xorg)
-
-[Compiler MPlayer](/en/debian/mplayer)
-
-[How to install NoMachine](/en/debian/nomachine)
-
-[Tips & Tricks Debian](/en/debian/tips)
-
-[Useful applications](/en/debian/xfce-applications)
-
+[See the full page list here](/projects/debian)
 
 # Open Source
 
