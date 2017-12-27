@@ -1,7 +1,6 @@
 ---
 title: "Tips & Tricks Debian"
 date: 2012-11-10
-date: 2010-10-13
 slug: tips
 aliases: [/en/debian/tips]
 ---
