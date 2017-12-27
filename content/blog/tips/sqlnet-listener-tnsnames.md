@@ -3,6 +3,7 @@ title: "Oracle listener / tnsnames"
 date: 2013-02-11
 tags: [oracle]
 slug: sqlnet-listener-tnsnames
+disqus_identifier: /en/tips/sqlnet-listener-tnsnames
 aliases: [/en/tips/sqlnet-listener-tnsnames]
 ---
 # Oracle listener / tnsnames

@@ -3,6 +3,7 @@ title: "Scripting with Sql Server 2005"
 date: 2011-05-28
 tags: [sqlserver,tips]
 slug: sqlcmd-sql-server
+disqus_identifier: /en/tips/sqlcmd-sql-server
 aliases: [/en/tips/sqlcmd-sql-server]
 ---
 # Scripting with Sql Server 2005

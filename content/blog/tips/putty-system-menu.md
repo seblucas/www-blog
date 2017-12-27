@@ -3,6 +3,7 @@ title: "Access system menu with PuTTY on Linux"
 date: 2011-02-07
 tags: [debian,tips]
 slug: putty-system-menu
+disqus_identifier: /en/tips/putty-system-menu
 aliases: [/en/tips/putty-system-menu]
 ---
 # Access system menu with PuTTY on Linux

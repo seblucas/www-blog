@@ -3,6 +3,7 @@ title: "How to use an Xbox remote with OpenElec on a Raspberry Pi (Update 04/201
 date: 2014-04-11
 tags: [rpi,xbmc]
 slug: raspberry-pi-openelec-xbox-dongle-1
+disqus_identifier: /en/tips/raspberry-pi-openelec-xbox-dongle-1
 aliases: [/en/tips/raspberry-pi-openelec-xbox-dongle-1]
 ---
 # How to use an Xbox remote with OpenElec on a Raspberry Pi (Update 04/2014)

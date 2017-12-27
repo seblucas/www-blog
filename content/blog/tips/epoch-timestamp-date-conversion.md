@@ -3,6 +3,7 @@ title: "Conversion between Epoch / Timestamp / Date"
 date: 2011-08-21
 tags: [centos,debian]
 slug: epoch-timestamp-date-conversion
+disqus_identifier: /en/tips/epoch-timestamp-date-conversion
 aliases: [/en/tips/epoch-timestamp-date-conversion]
 ---
 # Conversion between Epoch / Timestamp / Date

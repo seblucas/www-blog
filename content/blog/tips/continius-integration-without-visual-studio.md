@@ -3,6 +3,7 @@ title: "Continuous Integration without Visual Studio"
 date: 2012-11-06
 tags: [dotnet]
 slug: continius-integration-without-visual-studio
+disqus_identifier: /en/tips/continius-integration-without-visual-studio
 aliases: [/en/tips/continius-integration-without-visual-studio]
 ---
 # Continuous Integration without Visual Studio

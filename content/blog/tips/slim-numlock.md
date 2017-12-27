@@ -3,6 +3,7 @@ title: "How to get the numlock on startup with SLiM"
 date: 2011-02-07
 tags: [debian,tips]
 slug: slim-numlock
+disqus_identifier: /en/tips/slim-numlock
 aliases: [/en/tips/slim-numlock]
 ---
 # How to get the numlock on startup with SLiM

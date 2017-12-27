@@ -3,6 +3,7 @@ title: "How to upload a big file with nginx"
 date: 2011-09-22
 tags: [nginx]
 slug: upload-size-nginx
+disqus_identifier: /en/tips/upload-size-nginx
 aliases: [/en/tips/upload-size-nginx]
 ---
 # How to upload a big file with nginx

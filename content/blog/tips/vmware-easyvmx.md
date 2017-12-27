@@ -3,6 +3,7 @@ title: "Free VMWare virtual machine generator"
 date: 2011-02-07
 tags: [tips,vmware]
 slug: vmware-easyvmx
+disqus_identifier: /en/tips/vmware-easyvmx
 aliases: [/en/tips/vmware-easyvmx]
 ---
 # Free VMWare virtual machine generator

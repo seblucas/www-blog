@@ -3,6 +3,7 @@ title: "How to connect to an NFS share with Archlinux"
 date: 2012-11-05
 tags: [archlinux]
 slug: archlinux-connect-nfs
+disqus_identifier: /en/tips/archlinux-connect-nfs
 aliases: [/en/tips/archlinux-connect-nfs]
 ---
 # How to connect to an NFS share with Archlinux

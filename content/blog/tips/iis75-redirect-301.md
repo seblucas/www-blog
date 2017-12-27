@@ -3,6 +3,7 @@ title: "How to do a permanent redirect with IIS 7.5"
 date: 2011-10-18
 tags: [windows]
 slug: iis75-redirect-301
+disqus_identifier: /en/tips/iis75-redirect-301
 aliases: [/en/tips/iis75-redirect-301]
 ---
 # How to do a permanent redirect with IIS 7.5

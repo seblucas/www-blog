@@ -3,6 +3,7 @@ title: "How to force the uninstall of an MSI"
 date: 2013-04-08
 tags: [windows]
 slug: force-uninstall-msi
+disqus_identifier: /en/tips/force-uninstall-msi
 aliases: [/en/tips/force-uninstall-msi]
 ---
 # How to force the uninstall of an MSI

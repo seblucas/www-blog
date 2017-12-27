@@ -3,6 +3,7 @@ title: "How to add a new disk to an existing array"
 date: 2011-02-07
 tags: [debian,tips]
 slug: mdadm-add-disk
+disqus_identifier: /en/tips/mdadm-add-disk
 aliases: [/en/tips/mdadm-add-disk]
 ---
 # How to add a new disk to an existing array

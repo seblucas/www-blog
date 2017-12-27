@@ -3,6 +3,7 @@ title: "How to encode an existing audio track to aac"
 date: 2011-02-07
 tags: [multimedia,tips]
 slug: stereo-to-neroaac
+disqus_identifier: /en/tips/stereo-to-neroaac
 aliases: [/en/tips/stereo-to-neroaac]
 ---
 # How to encode an existing audio track to aac

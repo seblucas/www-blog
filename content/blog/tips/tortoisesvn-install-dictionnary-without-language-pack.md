@@ -3,6 +3,7 @@ title: "How to install a new dictionnary in TortoiseSVN without installing the l
 date: 2011-06-17
 tags: [subversion,tips]
 slug: tortoisesvn-install-dictionnary-without-language-pack
+disqus_identifier: /en/tips/tortoisesvn-install-dictionnary-without-language-pack
 aliases: [/en/tips/tortoisesvn-install-dictionnary-without-language-pack]
 ---
 # How to install a new dictionnary in TortoiseSVN without installing the language pack

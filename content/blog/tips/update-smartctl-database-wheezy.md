@@ -3,6 +3,7 @@ title: "How to update smartctl database with Debian Wheezy"
 date: 2014-11-01
 tags: [debian]
 slug: update-smartctl-database-wheezy
+disqus_identifier: /en/tips/update-smartctl-database-wheezy
 aliases: [/en/tips/update-smartctl-database-wheezy]
 ---
 # How to update smartctl database with Debian Wheezy

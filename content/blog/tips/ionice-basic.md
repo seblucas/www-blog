@@ -3,6 +3,7 @@ title: "How to nice the I/O"
 date: 2011-02-07
 tags: [debian,tips]
 slug: ionice-basic
+disqus_identifier: /en/tips/ionice-basic
 aliases: [/en/tips/ionice-basic]
 ---
 # How to "nice" the I/O

@@ -3,6 +3,7 @@ title: "Error when starting Oracle Db Console (EMCTL)"
 date: 2011-05-17
 tags: [oracle,tips]
 slug: oraemctl-oc4j
+disqus_identifier: /en/tips/oraemctl-oc4j
 aliases: [/en/tips/oraemctl-oc4j]
 ---
 # Error when starting Oracle Db Console (EMCTL)

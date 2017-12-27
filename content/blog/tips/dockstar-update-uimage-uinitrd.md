@@ -3,6 +3,7 @@ title: "Update a Dockstar uImage/uInitrd after a kernel update"
 date: 2011-02-07
 tags: [dockstar,tips]
 slug: dockstar-update-uimage-uinitrd
+disqus_identifier: /en/tips/dockstar-update-uimage-uinitrd
 aliases: [/en/tips/dockstar-update-uimage-uinitrd]
 ---
 # Update a Dockstar uImage/uInitrd after a kernel update

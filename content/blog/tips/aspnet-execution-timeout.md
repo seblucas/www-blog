@@ -3,6 +3,7 @@ title: "How to prevent execution timeout with Asp.net application"
 date: 2012-03-10
 tags: [dotnet]
 slug: aspnet-execution-timeout
+disqus_identifier: /en/tips/aspnet-execution-timeout
 aliases: [/en/tips/aspnet-execution-timeout]
 ---
 # How to prevent execution timeout with Asp.net application

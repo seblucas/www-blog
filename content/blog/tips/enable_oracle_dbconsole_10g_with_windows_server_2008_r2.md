@@ -3,6 +3,7 @@ title: "Enable Oracle DBConsole 10g with Windows Server 2008 R2"
 date: 2013-07-22
 tags: [oracle,windows]
 slug: enable_oracle_dbconsole_10g_with_windows_server_2008_r2
+disqus_identifier: /en/tips/enable_oracle_dbconsole_10g_with_windows_server_2008_r2
 aliases: [/en/tips/enable_oracle_dbconsole_10g_with_windows_server_2008_r2]
 ---
 # Enable Oracle DBConsole 10g with Windows Server 2008 R2

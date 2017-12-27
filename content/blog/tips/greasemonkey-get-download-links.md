@@ -3,6 +3,7 @@ title: "How to get all download links from a web page"
 date: 2011-08-24
 tags: [javascript,tips]
 slug: greasemonkey-get-download-links
+disqus_identifier: /en/tips/greasemonkey-get-download-links
 aliases: [/en/tips/greasemonkey-get-download-links]
 ---
 # How to get all download links from a web page

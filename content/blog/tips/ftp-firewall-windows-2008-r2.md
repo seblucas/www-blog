@@ -3,6 +3,7 @@ title: "Windows 2008 R2 default FTP firewall rule don't work"
 date: 2011-06-15
 tags: [tips,windows]
 slug: ftp-firewall-windows-2008-r2
+disqus_identifier: /en/tips/ftp-firewall-windows-2008-r2
 aliases: [/en/tips/ftp-firewall-windows-2008-r2]
 ---
 # Windows 2008 R2 default FTP firewall rule don't work

@@ -3,6 +3,7 @@ title: "My swap is used a lot but I have ton of free RAM"
 date: 2011-02-07
 tags: [debian,tips]
 slug: swappiness
+disqus_identifier: /en/tips/swappiness
 aliases: [/en/tips/swappiness]
 ---
 # My swap is used a lot but I have ton of free RAM

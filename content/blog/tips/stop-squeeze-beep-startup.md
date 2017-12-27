@@ -3,6 +3,7 @@ title: "How to stop the startup beep with Debian Squeeze"
 date: 2011-07-01
 tags: [debian,tips]
 slug: stop-squeeze-beep-startup
+disqus_identifier: /en/tips/stop-squeeze-beep-startup
 aliases: [/en/tips/stop-squeeze-beep-startup]
 ---
 # How to stop the startup beep with Debian Squeeze

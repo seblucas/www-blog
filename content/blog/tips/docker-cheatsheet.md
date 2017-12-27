@@ -3,6 +3,7 @@ title: "Docker Cheatsheet"
 date: 2016-03-22
 tags: [rpi,bpi,debian]
 slug: docker-cheatsheet
+disqus_identifier: /en/tips/docker-cheatsheet
 aliases: [/en/tips/docker-cheatsheet]
 ---
 # Docker Cheatsheet

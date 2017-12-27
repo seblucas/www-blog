@@ -3,6 +3,7 @@ title: "How to find unindexed foreign key with Oracle"
 date: 2011-12-28
 tags: [oracle]
 slug: oracle-find-foreign-key-unindexed
+disqus_identifier: /en/tips/oracle-find-foreign-key-unindexed
 aliases: [/en/tips/oracle-find-foreign-key-unindexed]
 ---
 # How to find unindexed foreign key with Oracle

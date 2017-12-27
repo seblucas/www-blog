@@ -3,6 +3,7 @@ title: "How to extract a specific file from an archive"
 date: 2012-03-27
 tags: [debian,windows]
 slug: extract-specific-file-from-archive
+disqus_identifier: /en/tips/extract-specific-file-from-archive
 aliases: [/en/tips/extract-specific-file-from-archive]
 ---
 # How to extract a specific file from an archive

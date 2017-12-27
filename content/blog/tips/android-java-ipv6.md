@@ -3,6 +3,7 @@ title: "Error in Eclipse with Android Emulator"
 date: 2011-02-07
 tags: [android]
 slug: android-java-ipv6
+disqus_identifier: /en/tips/android-java-ipv6
 aliases: [/en/tips/android-java-ipv6]
 ---
 # Error in Eclipse with Android Emulator

@@ -3,6 +3,7 @@ title: "How to get the list of locks with Oracle"
 date: 2011-03-15
 tags: [oracle,tips]
 slug: oracle-get-locks
+disqus_identifier: /en/tips/oracle-get-locks
 aliases: [/en/tips/oracle-get-locks]
 ---
 # How to get the list of locks with Oracle

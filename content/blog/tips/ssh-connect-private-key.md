@@ -3,6 +3,7 @@ title: "How to open an ssh session with a private key"
 date: 2011-12-31
 tags: [debian]
 slug: ssh-connect-private-key
+disqus_identifier: /en/tips/ssh-connect-private-key
 aliases: [/en/tips/ssh-connect-private-key]
 ---
 # How to open an ssh session with a private key

@@ -3,6 +3,7 @@ title: "How to clone all the partitions of a disk"
 date: 2011-02-07
 tags: [debian,tips]
 slug: mdadm-clone-partition
+disqus_identifier: /en/tips/mdadm-clone-partition
 aliases: [/en/tips/mdadm-clone-partition]
 ---
 # How to clone all the partitions of a disk

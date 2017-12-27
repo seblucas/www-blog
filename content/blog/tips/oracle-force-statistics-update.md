@@ -3,6 +3,7 @@ title: "How to force an update of Oracle's statistics"
 date: 2012-03-10
 tags: [oracle]
 slug: oracle-force-statistics-update
+disqus_identifier: /en/tips/oracle-force-statistics-update
 aliases: [/en/tips/oracle-force-statistics-update]
 ---
 # How to force an update of Oracle's statistics

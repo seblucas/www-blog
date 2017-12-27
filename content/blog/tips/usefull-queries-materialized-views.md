@@ -3,6 +3,7 @@ title: "Some useful queries / tricks around Oracle Materialized Views"
 date: 2012-03-28
 tags: [oracle]
 slug: usefull-queries-materialized-views
+disqus_identifier: /en/tips/usefull-queries-materialized-views
 aliases: [/en/tips/usefull-queries-materialized-views]
 ---
 # Some useful queries / tricks around Oracle Materialized Views

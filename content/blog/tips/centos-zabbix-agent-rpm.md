@@ -3,6 +3,7 @@ title: "Install Zabbix agent on Centos 5.6"
 date: 2011-06-10
 tags: [centos,tips]
 slug: centos-zabbix-agent-rpm
+disqus_identifier: /en/tips/centos-zabbix-agent-rpm
 aliases: [/en/tips/centos-zabbix-agent-rpm]
 ---
 # Install Zabbix agent on Centos 5.6

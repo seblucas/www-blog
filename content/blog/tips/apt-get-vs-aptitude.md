@@ -3,6 +3,7 @@ title: "apt-get VS aptitude"
 date: 2011-02-07
 tags: [debian]
 slug: apt-get-vs-aptitude
+disqus_identifier: /en/tips/apt-get-vs-aptitude
 aliases: [/en/tips/apt-get-vs-aptitude]
 ---
 # apt-get VS aptitude

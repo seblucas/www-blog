@@ -3,6 +3,7 @@ title: "How to use Tortoisehg (mercurial GUI) to push on Github"
 date: 2011-11-12
 tags: [git,mercurial]
 slug: tortoisehg-mercurial-push-github
+disqus_identifier: /en/tips/tortoisehg-mercurial-push-github
 aliases: [/en/tips/tortoisehg-mercurial-push-github]
 ---
 # How to use Tortoisehg (mercurial GUI) to push on Github

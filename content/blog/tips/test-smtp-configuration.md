@@ -3,6 +3,7 @@ title: "How to test your SMTP configuration"
 date: 2013-02-08
 tags: [debian,windows]
 slug: test-smtp-configuration
+disqus_identifier: /en/tips/test-smtp-configuration
 aliases: [/en/tips/test-smtp-configuration]
 ---
 # How to test your SMTP configuration

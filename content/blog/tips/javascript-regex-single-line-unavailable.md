@@ -3,6 +3,7 @@ title: "The single line regex modifier is not available for Javascript"
 date: 2011-11-10
 tags: [javascript]
 slug: javascript-regex-single-line-unavailable
+disqus_identifier: /en/tips/javascript-regex-single-line-unavailable
 aliases: [/en/tips/javascript-regex-single-line-unavailable]
 ---
 # The single line regex modifier is not available for Javascript

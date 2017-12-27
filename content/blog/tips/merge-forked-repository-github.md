@@ -3,6 +3,7 @@ title: "How to merge a forked repository with GitHub"
 date: 2011-08-25
 tags: [git]
 slug: merge-forked-repository-github
+disqus_identifier: /en/tips/merge-forked-repository-github
 aliases: [/en/tips/merge-forked-repository-github]
 ---
 # How to merge a forked repository with GitHub

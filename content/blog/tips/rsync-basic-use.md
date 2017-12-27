@@ -3,6 +3,7 @@ title: "Basic use of rsync"
 date: 2011-02-07
 tags: [debian,tips]
 slug: rsync-basic-use
+disqus_identifier: /en/tips/rsync-basic-use
 aliases: [/en/tips/rsync-basic-use]
 ---
 # Basic use of rsync

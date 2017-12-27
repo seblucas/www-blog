@@ -3,6 +3,7 @@ title: "Things to check when an Asp.Net site is not working correctly"
 date: 2011-05-06
 tags: [dotnet,tips]
 slug: aspnet-not-starting-checklist
+disqus_identifier: /en/tips/aspnet-not-starting-checklist
 aliases: [/en/tips/aspnet-not-starting-checklist]
 ---
 # Things to check when an Asp.Net site is not working correctly

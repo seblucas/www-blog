@@ -3,6 +3,7 @@ title: "How to install Oracle XE 10g with Windows 2008"
 date: 2011-10-24
 tags: [oracle,windows]
 slug: oracle-xe-10g-windows-2008
+disqus_identifier: /en/tips/oracle-xe-10g-windows-2008
 aliases: [/en/tips/oracle-xe-10g-windows-2008]
 ---
 # How to install Oracle XE 10g with Windows 2008

@@ -3,6 +3,7 @@ title: "How to create an iso of a CD / DVD"
 date: 2011-02-07
 tags: [debian,tips]
 slug: create-iso-linux
+disqus_identifier: /en/tips/create-iso-linux
 aliases: [/en/tips/create-iso-linux]
 ---
 # How to create an iso of a CD / DVD

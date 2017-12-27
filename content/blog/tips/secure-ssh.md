@@ -3,6 +3,7 @@ title: "How to have a secure ssh server"
 date: 2011-12-31
 tags: [debian]
 slug: secure-ssh
+disqus_identifier: /en/tips/secure-ssh
 aliases: [/en/tips/secure-ssh]
 ---
 # How to have a secure ssh server

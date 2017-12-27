@@ -3,6 +3,7 @@ title: "Windows 2008 R2 Server : Windows directory's size growing a lot"
 date: 2012-02-12
 tags: [windows]
 slug: windows-2008-winsxs-size
+disqus_identifier: /en/tips/windows-2008-winsxs-size
 aliases: [/en/tips/windows-2008-winsxs-size]
 ---
 # Windows 2008 R2 Server : Windows directory's size growing a lot

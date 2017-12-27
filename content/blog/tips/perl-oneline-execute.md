@@ -3,6 +3,7 @@ title: "How to execute a perl instruction in a sh/batch file"
 date: 2011-05-12
 tags: [perl,tips]
 slug: perl-oneline-execute
+disqus_identifier: /en/tips/perl-oneline-execute
 aliases: [/en/tips/perl-oneline-execute]
 ---
 # How to execute a perl instruction in a sh/batch file

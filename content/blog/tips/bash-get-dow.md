@@ -3,6 +3,7 @@ title: "How to get the day of week with bash/sh"
 date: 2011-05-19
 tags: [tips]
 slug: bash-get-dow
+disqus_identifier: /en/tips/bash-get-dow
 aliases: [/en/tips/bash-get-dow]
 ---
 # How to get the day of week with bash/sh

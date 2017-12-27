@@ -3,6 +3,7 @@ title: "How to change the listening port of Sshd"
 date: 2011-05-18
 tags: [tips]
 slug: sshd-change-port
+disqus_identifier: /en/tips/sshd-change-port
 aliases: [/en/tips/sshd-change-port]
 ---
 # How to change the listening port of Sshd

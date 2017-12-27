@@ -3,6 +3,7 @@ title: "OpenVPN and Windows Seven"
 date: 2011-10-31
 tags: [windows]
 slug: openvpn-windows-seven
+disqus_identifier: /en/tips/openvpn-windows-seven
 aliases: [/en/tips/openvpn-windows-seven]
 ---
 # OpenVPN and Windows Seven

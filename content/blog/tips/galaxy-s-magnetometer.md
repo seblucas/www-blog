@@ -3,6 +3,7 @@ title: "Calibrate the digital compass (magnetometer) on a Samsung Galaxy S"
 date: 2012-09-10
 tags: [android]
 slug: galaxy-s-magnetometer
+disqus_identifier: /en/tips/galaxy-s-magnetometer
 aliases: [/en/tips/galaxy-s-magnetometer]
 ---
 # Calibrate the digital compass (magnetometer) on a Samsung Galaxy S

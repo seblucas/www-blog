@@ -3,6 +3,7 @@ title: "Slow write with Perc H200 and VMWare ESXi"
 date: 2011-05-16
 tags: [tips,vmware]
 slug: esxi-perc-h200-slow
+disqus_identifier: /en/tips/esxi-perc-h200-slow
 aliases: [/en/tips/esxi-perc-h200-slow]
 ---
 # Slow write with Perc H200 and VMWare ESXi

@@ -3,6 +3,7 @@ title: "Error on cloning a Github repository with Mercurial"
 date: 2012-03-11
 tags: [git,mercurial]
 slug: mercurial-github-error
+disqus_identifier: /en/tips/mercurial-github-error
 aliases: [/en/tips/mercurial-github-error]
 ---
 # Error on cloning a Github repository with Mercurial

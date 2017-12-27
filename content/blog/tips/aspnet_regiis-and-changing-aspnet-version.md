@@ -3,6 +3,7 @@ title: "Changing Aspnet Version on IIS5 ou 6 with aspnet_regiis"
 date: 2012-04-06
 tags: [dotnet,iis]
 slug: aspnet_regiis-and-changing-aspnet-version
+disqus_identifier: /en/tips/aspnet_regiis-and-changing-aspnet-version
 aliases: [/en/tips/aspnet_regiis-and-changing-aspnet-version]
 ---
 # Changing Aspnet Version on IIS5 ou 6 with aspnet_regiis

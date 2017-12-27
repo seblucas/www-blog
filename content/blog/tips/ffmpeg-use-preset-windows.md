@@ -3,6 +3,7 @@ title: "How to use FFmpeg presets with Windows"
 date: 2011-03-01
 tags: [multimedia]
 slug: ffmpeg-use-preset-windows
+disqus_identifier: /en/tips/ffmpeg-use-preset-windows
 aliases: [/en/tips/ffmpeg-use-preset-windows]
 ---
 # How to use FFmpeg presets with Windows

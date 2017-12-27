@@ -3,6 +3,7 @@ title: "Extract the soundtrack of a DVD"
 date: 2011-02-07
 tags: [multimedia,tips]
 slug: mplayer-extract-soundtrack-dvd
+disqus_identifier: /en/tips/mplayer-extract-soundtrack-dvd
 aliases: [/en/tips/mplayer-extract-soundtrack-dvd]
 ---
 # Extract the soundtrack of a DVD

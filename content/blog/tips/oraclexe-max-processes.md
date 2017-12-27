@@ -3,6 +3,7 @@ title: "Error ORA-12516 with Oracle XE with lots of connections"
 date: 2012-05-15
 tags: [oracle]
 slug: oraclexe-max-processes
+disqus_identifier: /en/tips/oraclexe-max-processes
 aliases: [/en/tips/oraclexe-max-processes]
 ---
 # Error ORA-12516 with Oracle XE with lots of connections

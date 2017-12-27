@@ -3,6 +3,7 @@ title: "How to remove accentuated characters from a string with Python"
 date: 2011-08-31
 tags: [python,tips]
 slug: python-remove-accentuated-characters
+disqus_identifier: /en/tips/python-remove-accentuated-characters
 aliases: [/en/tips/python-remove-accentuated-characters]
 ---
 # How to remove accentuated characters from a string with Python

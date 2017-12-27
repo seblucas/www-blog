@@ -3,6 +3,7 @@ title: "With IIS 7.5 I had an error about PageHandlerFactory-Integrated and Mana
 date: 2012-02-12
 tags: [dotnet]
 slug: iis75-bad-module-managedpipelinehandler
+disqus_identifier: /en/tips/iis75-bad-module-managedpipelinehandler
 aliases: [/en/tips/iis75-bad-module-managedpipelinehandler]
 ---
 # With IIS 7.5 I had an error about PageHandlerFactory-Integrated and ManagedPipelineHandler 

@@ -3,6 +3,7 @@ title: "Error when try Wifi Tethering on Android custom ROM"
 date: 2012-05-07
 tags: [android]
 slug: error-wifi-tethering-android-custom-rom
+disqus_identifier: /en/tips/error-wifi-tethering-android-custom-rom
 aliases: [/en/tips/error-wifi-tethering-android-custom-rom]
 ---
 # Error when try Wifi Tethering on Android custom ROM

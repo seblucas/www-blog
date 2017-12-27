@@ -3,6 +3,7 @@ title: "How to shrink on Sql Server"
 date: 2012-06-05
 tags: [sql]
 slug: sql-server-shrink-log
+disqus_identifier: /en/tips/sql-server-shrink-log
 aliases: [/en/tips/sql-server-shrink-log]
 ---
 # How to shrink on Sql Server

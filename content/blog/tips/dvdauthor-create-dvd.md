@@ -3,6 +3,7 @@ title: "How to create a dvd structure with a mpg file"
 date: 2011-02-07
 tags: [multimedia,tips]
 slug: dvdauthor-create-dvd
+disqus_identifier: /en/tips/dvdauthor-create-dvd
 aliases: [/en/tips/dvdauthor-create-dvd]
 ---
 # How to create a dvd structure with a mpg file

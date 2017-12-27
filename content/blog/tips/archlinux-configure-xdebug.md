@@ -3,6 +3,7 @@ title: "How to install and configure Xdebug with Archlinux"
 date: 2012-11-05
 tags: [archlinux,php]
 slug: archlinux-configure-xdebug
+disqus_identifier: /en/tips/archlinux-configure-xdebug
 aliases: [/en/tips/archlinux-configure-xdebug]
 ---
 # How to install and configure Xdebug with Archlinux
