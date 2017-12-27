@@ -1,12 +1,10 @@
-/*
-Title: hgweb(dir) and mod_python
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: en
-Tags: mercurial
-*/
+---
+title: "hgweb(dir) and mod_python"
+date: 2012-11-10
+tags: [mercurial]
+slug: hgweb-mod_python
+aliases: [/en/oss/hgweb-mod_python]
+---
 # hgweb(dir) and mod_python
 
 ## Why

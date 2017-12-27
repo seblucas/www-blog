@@ -1,12 +1,10 @@
-/*
-Title: More sidebars with Arctic template (dokuwiki)
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: en
-Tags: dokuwiki
-*/
+---
+title: "More sidebars with Arctic template (dokuwiki)"
+date: 2012-11-10
+tags: [dokuwiki]
+slug: dokuwiki-arctic-sidebar
+aliases: [/en/oss/dokuwiki-arctic-sidebar]
+---
 # More sidebars with Arctic template (dokuwiki)
 
 ## Backlinks

@@ -1,12 +1,10 @@
-/*
-Title: Dokuwiki and nginx
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: en
-Tags: dokuwiki,nginx
-*/
+---
+title: "Dokuwiki and nginx"
+date: 2012-11-10
+tags: [dokuwiki,nginx]
+slug: dokuwiki-nginx-config
+aliases: [/en/oss/dokuwiki-nginx-config]
+---
 # Dokuwiki and nginx
 
 ## Full file
