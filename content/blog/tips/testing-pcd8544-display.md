@@ -25,11 +25,13 @@ With some displays (coming from china), there might be some tweaks needed :
  * Tweaking the contrast (LCD Vop)
  * Putting everything to low before starting anything
 
-http://forum.arduino.cc/index.php?topic=148359.0
-http://forum.arduino.cc/index.php?topic=197299.0
-http://forum.arduino.cc/index.php?topic=229873.0
-http://playground.arduino.cc/Code/PCD8544
-https://github.com/bbx10/esp-pcd-bitcoin
+Some random links :
+
+ * http://forum.arduino.cc/index.php?topic=148359.0
+ * http://forum.arduino.cc/index.php?topic=197299.0
+ * http://forum.arduino.cc/index.php?topic=229873.0
+ * http://playground.arduino.cc/Code/PCD8544
+ * https://github.com/bbx10/esp-pcd-bitcoin
 
 
 
