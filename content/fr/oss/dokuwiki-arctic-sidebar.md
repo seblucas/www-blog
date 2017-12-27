@@ -1,12 +1,10 @@
-/*
-Title: Ajout de sidebar au template Arctic (dokuwiki)
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: fr
-Tags: dokuwiki
-*/
+---
+title: "Ajout de sidebar au template Arctic (dokuwiki)"
+date: 2012-11-10
+tags: [dokuwiki]
+slug: dokuwiki-arctic-sidebar
+aliases: [/fr/oss/dokuwiki-arctic-sidebar]
+---
 # Ajout de sidebar au template Arctic (dokuwiki)
 
 ## Backlinks

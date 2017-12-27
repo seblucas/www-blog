@@ -1,12 +1,10 @@
-/*
-Title: Création d'un environnement de compilation Kobo - Partie 1
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Création d'un environnement de compilation Kobo - Partie 1"
+date: 2012-11-10
+tags: [ereader]
+slug: kobo-build-environment-1
+aliases: [/fr/oss/kobo-build-environment-1]
+---
 # Création d'un environnement de compilation Kobo - Partie 1
 
 ## Pourquoi ?

@@ -1,12 +1,10 @@
-/*
-Title: hgweb(dir) avec mod_python
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: fr
-Tags: mercurial
-*/
+---
+title: "hgweb(dir) avec mod_python"
+date: 2012-11-10
+tags: [mercurial]
+slug: hgweb-mod_python
+aliases: [/fr/oss/hgweb-mod_python]
+---
 # hgweb(dir) avec mod_python
 
 ## Pourquoi se casser la tête

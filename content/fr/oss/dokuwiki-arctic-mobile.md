@@ -1,12 +1,10 @@
-/*
-Title: Version mobile du template Arctic pour Dokuwiki
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: fr
-Tags: android,dokuwiki
-*/
+---
+title: "Version mobile du template Arctic pour Dokuwiki"
+date: 2012-11-10
+tags: [android,dokuwiki]
+slug: dokuwiki-arctic-mobile
+aliases: [/fr/oss/dokuwiki-arctic-mobile]
+---
 # Version mobile du template Arctic pour Dokuwiki
 
 ## Pourquoi ?
