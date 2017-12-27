@@ -4,6 +4,8 @@ title = "Technology and Me"
 theme = "cocoa-eh"
 author = "Sébastien Lucas"
 relativeURLs = true
+googleAnalytics = "UA-18757787-1"
+disqusShortname = "slucas"
 
 [permalinks]
 blog = "blog/:slug/"

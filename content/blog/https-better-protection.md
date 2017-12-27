@@ -3,6 +3,7 @@ title: "HTTPS plus sécurisé"
 date: 2015-02-06
 tags: [nginx]
 slug: https-better-protection
+disqus_identifier: /blog/https-better-protection
 ---
 # HTTPS plus sécurisé
 
