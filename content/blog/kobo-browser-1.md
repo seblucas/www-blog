@@ -7,7 +7,7 @@ slug: kobo-browser-1
 # Quelques tests sur le navigateur de la Kobo eReader Touch
 
 ## Pourquoi ?
-Depuis le temps que j'en parle, j'ai vraiment envie d'adapter COPS (voir [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)) pour qu'il puisse aussi fournir des pages web adaptées au navigateur de la Kobo (et par extension aux autres liseuses). Et j'ai commencé à faire des tests pour tester les capacités sur navigateur notamment en téléchargement de fichiers epub.
+Depuis le temps que j'en parle, j'ai vraiment envie d'adapter COPS (voir [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)) pour qu'il puisse aussi fournir des pages web adaptées au navigateur de la Kobo (et par extension aux autres liseuses). Et j'ai commencé à faire des tests pour tester les capacités sur navigateur notamment en téléchargement de fichiers epub.
 
 ## Les modalités du test
 

@@ -8,7 +8,7 @@ slug: cops-1.0.0
 
 Quasiment deux ans ;) et beaucoup de corrections de bugs et quelques évolutions pour cette nouvelle version :
 
-* [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
+* [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)
 * [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
 
 ## Ajout de la translittération

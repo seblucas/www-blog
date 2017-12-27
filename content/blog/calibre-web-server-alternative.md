@@ -265,4 +265,4 @@ La version xhtml est téléchargeable ci-dessous :
 
 ## Au final
 
-Ce serveur ne me correspond pas totalement, j'ai donc développé [COPS](/fr/oss/calibre-opds-php-server).
+Ce serveur ne me correspond pas totalement, j'ai donc développé [COPS](/fr/projects/calibre-opds-php-server).

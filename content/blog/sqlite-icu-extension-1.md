@@ -8,7 +8,7 @@ slug: sqlite-icu-extension-1
 
 ## Pourquoi un article à ce sujet ?
 
-Depuis que je travaille sur [COPS](/en/oss/calibre-opds-php-server) je me suis souvent plongé sur les problèmes de tri et de recherche avec les caractères accentués français. J'ai eu plusieurs mails d'utilisateurs qui voulaient faire des recherches sans spécifier les accents (rechercher epee retrouve tous les livres comportant le mot épée). De mon côté ce qui m'embêtait le plus était l'ordre d'affichage des auteurs et des livres pour les cas qui commencent par des caractères accentués.
+Depuis que je travaille sur [COPS](/fr/projects/calibre-opds-php-server) je me suis souvent plongé sur les problèmes de tri et de recherche avec les caractères accentués français. J'ai eu plusieurs mails d'utilisateurs qui voulaient faire des recherches sans spécifier les accents (rechercher epee retrouve tous les livres comportant le mot épée). De mon côté ce qui m'embêtait le plus était l'ordre d'affichage des auteurs et des livres pour les cas qui commencent par des caractères accentués.
 
 Je vais essayer de rentrer dans le détail avec des exemples précis dans la suite de cet article.
 

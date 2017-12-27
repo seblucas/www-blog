@@ -8,7 +8,7 @@ slug: cops-0.6.2
 
 Quelques corrections de bugs et quelques évolutions pour cette nouvelle version :
 
-* [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
+* [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)
 * [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
 
 Au programme, une grosse correction d'anomalie pour les Sony PRS-TX, Kindle et Cybook qui devraient fonctionner de nouveau. J'ai aussi corrigé de nombreuses petites régressions qui devraient stabiliser les choses.

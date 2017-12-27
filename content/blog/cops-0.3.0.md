@@ -8,7 +8,7 @@ slug: cops-0.3.0
 
 Pour cette nouvelle version, beaucoup de nouvelles fonctionnalités :
 
-* [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
+* [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)
 * [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
 
 Le plus gros changement est la mise à jour des métadonnées des fichiers Epub lors du téléchargement. Pour le moment il faut l'activer manuellement via le paramètre "cops_update_epub-metadata". La mise à jour concerne les éléments suivants :
