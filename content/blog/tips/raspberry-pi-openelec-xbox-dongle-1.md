@@ -9,7 +9,7 @@ aliases: [/en/tips/raspberry-pi-openelec-xbox-dongle-1]
 
 Lately, I upgraded to a newer version of OpenElec compiled by MilhouseVH coming from [this thread](http://forum.xbmc.org/showthread.php?tid=184866).
 
-[The previous tutorial](/en/tips/raspberry-pi-openelec-xbox-dongle) didn't work. In addition to it, I had to change the content of `autostart.sh` to that :
+[The previous tutorial](/blog/raspberry-pi-openelec-xbox-dongle) didn't work. In addition to it, I had to change the content of `autostart.sh` to that :
 
 ```bash
 modprobe lirc_xbox

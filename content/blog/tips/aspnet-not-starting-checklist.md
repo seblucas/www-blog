@@ -20,7 +20,7 @@ TODO
 
 *	Check that the correct version of framework is selected (1.1, 2.0 or 4.0)
 *	Try with the classic pipeline instead of integrated (with IIS7 and newer)
-*	If the error comes from Oracle, see [How to start an Asp.Net application with Windows Seven x64 and Oracle 10g 32bits](/en/tips/oracle32-seven64-aspnet)
+*	If the error comes from Oracle, see [How to start an Asp.Net application with Windows Seven x64 and Oracle 10g 32bits](/blog/oracle32-seven64-aspnet)
 
 ## Website
 

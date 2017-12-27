@@ -87,7 +87,7 @@ reboot
 
 ## Update 04/2014
 
-I had to tweak a little the script to make if work with a recent build of Openelec. See more [here](/en/tips/raspberry-pi-openelec-xbox-dongle-1).
+I had to tweak a little the script to make if work with a recent build of Openelec. See more [here](/blog/raspberry-pi-openelec-xbox-dongle-1).
 
 ## Source
 
