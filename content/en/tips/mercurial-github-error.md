@@ -1,12 +1,10 @@
-/*
-Title: Error on cloning a Github repository with Mercurial
-Description: 
-Author: Sébastien Lucas
-Date: 2012/03/11
-Robots: noindex,nofollow
-Language: en
-Tags: git,mercurial
-*/
+---
+title: "Error on cloning a Github repository with Mercurial"
+date: 2012-03-11
+tags: [git,mercurial]
+slug: mercurial-github-error
+aliases: [/en/tips/mercurial-github-error]
+---
 # Error on cloning a Github repository with Mercurial
 
 After some hours testing everything preventing me from pushing to my Github account, I found out that some public keys of Github users have been suspended until you approve them. You can read more about it [here](https://github.com/blog/1068-public-key-security-vulnerability-and-mitigation).

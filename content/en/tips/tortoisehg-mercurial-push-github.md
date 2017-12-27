@@ -1,12 +1,10 @@
-/*
-Title: How to use Tortoisehg (mercurial GUI) to push on Github
-Description: 
-Author: Sébastien Lucas
-Date: 2011/11/12
-Robots: noindex,nofollow
-Language: en
-Tags: git,mercurial
-*/
+---
+title: "How to use Tortoisehg (mercurial GUI) to push on Github"
+date: 2011-11-12
+tags: [git,mercurial]
+slug: tortoisehg-mercurial-push-github
+aliases: [/en/tips/tortoisehg-mercurial-push-github]
+---
 # How to use Tortoisehg (mercurial GUI) to push on Github
 
 ## Why ?

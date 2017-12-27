@@ -1,12 +1,10 @@
-/*
-Title: fusesmb doesn't find all my network shares
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: debian,tips
-*/
+---
+title: "fusesmb doesn't find all my network shares"
+date: 2011-02-07
+tags: [debian,tips]
+slug: fusesmb-refresh
+aliases: [/en/tips/fusesmb-refresh]
+---
 # fusesmb doesn't find all my network shares
 
 You can force a scan of [fusesmb](http://www.ricardis.tudelft.nl/~vincent/fusesmb/) with the following command :

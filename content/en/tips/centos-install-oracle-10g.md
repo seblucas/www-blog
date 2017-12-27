@@ -1,12 +1,10 @@
-/*
-Title: Install Oracle 10g on Centos 5.6
-Description: 
-Author: Sébastien Lucas
-Date: 2011/06/17
-Robots: noindex,nofollow
-Language: en
-Tags: centos,oracle,tips
-*/
+---
+title: "Install Oracle 10g on Centos 5.6"
+date: 2011-06-17
+tags: [centos,oracle,tips]
+slug: centos-install-oracle-10g
+aliases: [/en/tips/centos-install-oracle-10g]
+---
 # Install Oracle 10g on Centos 5.6
 
 See : http://ivan.kartik.sk/oracle/install_ora10gR2_redhat.html

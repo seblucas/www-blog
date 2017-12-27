@@ -1,12 +1,10 @@
-/*
-Title: How to install a SMP aware bzip2 with Centos
-Description: 
-Author: Sébastien Lucas
-Date: 2011/06/10
-Robots: noindex,nofollow
-Language: en
-Tags: centos,tips
-*/
+---
+title: "How to install a SMP aware bzip2 with Centos"
+date: 2011-06-10
+tags: [centos,tips]
+slug: parallel-bzip2-centos
+aliases: [/en/tips/parallel-bzip2-centos]
+---
 # How to install a SMP aware bzip2 with Centos
 
 ## Two alternatives

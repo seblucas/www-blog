@@ -1,12 +1,10 @@
-/*
-Title: Install Zabbix agent on Centos 5.6
-Description: 
-Author: Sébastien Lucas
-Date: 2011/06/10
-Robots: noindex,nofollow
-Language: en
-Tags: centos,tips
-*/
+---
+title: "Install Zabbix agent on Centos 5.6"
+date: 2011-06-10
+tags: [centos,tips]
+slug: centos-zabbix-agent-rpm
+aliases: [/en/tips/centos-zabbix-agent-rpm]
+---
 # Install Zabbix agent on Centos 5.6
 
 *	get the rpms from [here](http://repo.andrewfarley.com/). In my case (x64 Centos) :

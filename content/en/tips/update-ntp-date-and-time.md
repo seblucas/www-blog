@@ -1,12 +1,10 @@
-/*
-Title: How to update the date & time with ntp
-Description: 
-Author: Sébastien Lucas
-Date: 2017/04/03
-Robots: noindex,nofollow
-Language: en
-Tags: debian
-*/
+---
+title: "How to update the date & time with ntp"
+date: 2017-04-03
+tags: [debian]
+slug: update-ntp-date-and-time
+aliases: [/en/tips/update-ntp-date-and-time]
+---
 # How to update the date & time with ntp
 
 ```

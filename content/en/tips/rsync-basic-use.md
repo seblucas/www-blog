@@ -1,12 +1,10 @@
-/*
-Title: Basic use of rsync
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: debian,tips
-*/
+---
+title: "Basic use of rsync"
+date: 2011-02-07
+tags: [debian,tips]
+slug: rsync-basic-use
+aliases: [/en/tips/rsync-basic-use]
+---
 # Basic use of rsync
 
 *	Mirror two directories :

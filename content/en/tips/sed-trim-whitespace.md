@@ -1,12 +1,10 @@
-/*
-Title: How to remove trailing whitespace from a bunch of files
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: debian,tips
-*/
+---
+title: "How to remove trailing whitespace from a bunch of files"
+date: 2011-02-07
+tags: [debian,tips]
+slug: sed-trim-whitespace
+aliases: [/en/tips/sed-trim-whitespace]
+---
 # How to remove trailing whitespace from a bunch of files
 
 ## Linux files (and also Mac)

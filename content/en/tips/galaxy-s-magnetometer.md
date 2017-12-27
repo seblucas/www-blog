@@ -1,12 +1,10 @@
-/*
-Title: Calibrate the digital compass (magnetometer) on a Samsung Galaxy S
-Description: 
-Author: Sébastien Lucas
-Date: 2012/09/10
-Robots: noindex,nofollow
-Language: en
-Tags: android
-*/
+---
+title: "Calibrate the digital compass (magnetometer) on a Samsung Galaxy S"
+date: 2012-09-10
+tags: [android]
+slug: galaxy-s-magnetometer
+aliases: [/en/tips/galaxy-s-magnetometer]
+---
 # Calibrate the digital compass (magnetometer) on a Samsung Galaxy S
 
 There is many ways (Google is your friend), the quickest way I found is the following :

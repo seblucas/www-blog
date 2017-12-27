@@ -1,12 +1,10 @@
-/*
-Title: Display GUI to an open X session with putty
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: debian,tips
-*/
+---
+title: "Display GUI to an open X session with putty"
+date: 2011-02-07
+tags: [debian,tips]
+slug: export-display-putty
+aliases: [/en/tips/export-display-putty]
+---
 # Display GUI to an open X session with putty
 
 ```

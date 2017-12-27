@@ -1,12 +1,10 @@
-/*
-Title: How to clear the DNS cache with Windows
-Description: 
-Author: Sébastien Lucas
-Date: 2011/09/08
-Robots: noindex,nofollow
-Language: en
-Tags: windows
-*/
+---
+title: "How to clear the DNS cache with Windows"
+date: 2011-09-08
+tags: [windows]
+slug: clear-dns-cache-windows
+aliases: [/en/tips/clear-dns-cache-windows]
+---
 # How to clear the DNS cache with Windows
 
 ```

@@ -1,12 +1,10 @@
-/*
-Title: How to prevent execution timeout with Asp.net application
-Description: 
-Author: Sébastien Lucas
-Date: 2012/03/10
-Robots: noindex,nofollow
-Language: en
-Tags: dotnet
-*/
+---
+title: "How to prevent execution timeout with Asp.net application"
+date: 2012-03-10
+tags: [dotnet]
+slug: aspnet-execution-timeout
+aliases: [/en/tips/aspnet-execution-timeout]
+---
 # How to prevent execution timeout with Asp.net application
 
 There is two solutions :

@@ -1,12 +1,10 @@
-/*
-Title: Error in Eclipse with Android Emulator
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: android
-*/
+---
+title: "Error in Eclipse with Android Emulator"
+date: 2011-02-07
+tags: [android]
+slug: android-java-ipv6
+aliases: [/en/tips/android-java-ipv6]
+---
 # Error in Eclipse with Android Emulator
 
  * Error (DDMS) :

@@ -1,12 +1,10 @@
-/*
-Title: Oracle listener / tnsnames
-Description: 
-Author: Sébastien Lucas
-Date: 2013/02/11
-Robots: noindex,nofollow
-Language: en
-Tags: oracle
-*/
+---
+title: "Oracle listener / tnsnames"
+date: 2013-02-11
+tags: [oracle]
+slug: sqlnet-listener-tnsnames
+aliases: [/en/tips/sqlnet-listener-tnsnames]
+---
 # Oracle listener / tnsnames
 
 If you have some difficulties getting around those files : 

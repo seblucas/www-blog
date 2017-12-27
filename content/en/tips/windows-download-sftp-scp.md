@@ -1,12 +1,10 @@
-/*
-Title: How to download a file on a SFTP / SCP Linux server with Windows
-Description: 
-Author: Sébastien Lucas
-Date: 2011/06/10
-Robots: noindex,nofollow
-Language: en
-Tags: tips,windows
-*/
+---
+title: "How to download a file on a SFTP / SCP Linux server with Windows"
+date: 2011-06-10
+tags: [tips,windows]
+slug: windows-download-sftp-scp
+aliases: [/en/tips/windows-download-sftp-scp]
+---
 # How to download a file on a SFTP / SCP Linux server with Windows
 
 *	Get pscp.exe : http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html

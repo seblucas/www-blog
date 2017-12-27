@@ -1,12 +1,10 @@
-/*
-Title: How to "nice" the I/O
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: debian,tips
-*/
+---
+title: "How to nice the I/O"
+date: 2011-02-07
+tags: [debian,tips]
+slug: ionice-basic
+aliases: [/en/tips/ionice-basic]
+---
 # How to "nice" the I/O
 
 *	ionice  : http://linux.die.net/man/1/ionice|ionice

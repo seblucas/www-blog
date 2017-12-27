@@ -1,12 +1,10 @@
-/*
-Title: How to install and configure Xdebug with Archlinux
-Description: 
-Author: Sébastien Lucas
-Date: 2012/11/05
-Robots: noindex,nofollow
-Language: en
-Tags: archlinux,php
-*/
+---
+title: "How to install and configure Xdebug with Archlinux"
+date: 2012-11-05
+tags: [archlinux,php]
+slug: archlinux-configure-xdebug
+aliases: [/en/tips/archlinux-configure-xdebug]
+---
 # How to install and configure Xdebug with Archlinux
 
 TODO

@@ -1,12 +1,10 @@
-/*
-Title: Alternative to update-rc.d with Centos
-Description: 
-Author: Sébastien Lucas
-Date: 2011/06/17
-Robots: noindex,nofollow
-Language: en
-Tags: centos,tips
-*/
+---
+title: "Alternative to update-rc.d with Centos"
+date: 2011-06-17
+tags: [centos,tips]
+slug: centos-configure-service
+aliases: [/en/tips/centos-configure-service]
+---
 # Alternative to update-rc.d with Centos
 
 *	Add you file to /etc/init.d

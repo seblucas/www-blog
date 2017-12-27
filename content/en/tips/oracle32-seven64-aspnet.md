@@ -1,12 +1,10 @@
-/*
-Title: How to start an Asp.Net application with Windows Seven x64 and Oracle 10g 32bits
-Description: 
-Author: Sébastien Lucas
-Date: 2011/05/06
-Robots: noindex,nofollow
-Language: en
-Tags: dotnet,tips
-*/
+---
+title: "How to start an Asp.Net application with Windows Seven x64 and Oracle 10g 32bits"
+date: 2011-05-06
+tags: [dotnet,tips]
+slug: oracle32-seven64-aspnet
+aliases: [/en/tips/oracle32-seven64-aspnet]
+---
 # How to start an Asp.Net application with Windows Seven x64 and Oracle 10g 32bits
 
 ## Problem

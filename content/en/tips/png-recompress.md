@@ -1,12 +1,10 @@
-/*
-Title: Optimize PNG's size lossless
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: tips
-*/
+---
+title: "Optimize PNG's size lossless"
+date: 2011-02-07
+tags: [tips]
+slug: png-recompress
+aliases: [/en/tips/png-recompress]
+---
 # Optimize PNG's size lossless
 
 ## Pngcrush

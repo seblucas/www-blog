@@ -1,12 +1,10 @@
-/*
-Title: How to force the uninstall of an MSI
-Description: 
-Author: Sébastien Lucas
-Date: 2013/04/08
-Robots: noindex,nofollow
-Language: en
-Tags: windows
-*/
+---
+title: "How to force the uninstall of an MSI"
+date: 2013-04-08
+tags: [windows]
+slug: force-uninstall-msi
+aliases: [/en/tips/force-uninstall-msi]
+---
 # How to force the uninstall of an MSI
 
 I got the following message : 

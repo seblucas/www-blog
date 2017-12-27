@@ -1,11 +1,7 @@
 /*
-Title: How to find long running queries with Oracle
-Description: 
-Author: Sébastien Lucas
-Date: 2014/03/03
-Robots: noindex,nofollow
-Language: en
-Tags: oracle
+title: "How to find long running queries with Oracle"
+date: 2014-03-03
+tags: [oracle]
 */
 # How to find long running queries with Oracle
 

@@ -1,12 +1,10 @@
-/*
-Title: Continuous Integration without Visual Studio
-Description: 
-Author: Sébastien Lucas
-Date: 2012/11/06
-Robots: noindex,nofollow
-Language: en
-Tags: dotnet
-*/
+---
+title: "Continuous Integration without Visual Studio"
+date: 2012-11-06
+tags: [dotnet]
+slug: continius-integration-without-visual-studio
+aliases: [/en/tips/continius-integration-without-visual-studio]
+---
 # Continuous Integration without Visual Studio
 
 When trying to build a project using WCF with TeamCity, I had this error

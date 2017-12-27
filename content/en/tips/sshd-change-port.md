@@ -1,12 +1,10 @@
-/*
-Title: How to change the listening port of Sshd
-Description: 
-Author: Sébastien Lucas
-Date: 2011/05/18
-Robots: noindex,nofollow
-Language: en
-Tags: tips
-*/
+---
+title: "How to change the listening port of Sshd"
+date: 2011-05-18
+tags: [tips]
+slug: sshd-change-port
+aliases: [/en/tips/sshd-change-port]
+---
 # How to change the listening port of Sshd
 
 Modify /etc/ssh/sshd_config to change the line :

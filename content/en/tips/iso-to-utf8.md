@@ -1,12 +1,10 @@
-/*
-Title: How to convert a file from ISO-8859-P1 to UTF-8
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: debian,tips
-*/
+---
+title: "How to convert a file from ISO-8859-P1 to UTF-8"
+date: 2011-02-07
+tags: [debian,tips]
+slug: iso-to-utf8
+aliases: [/en/tips/iso-to-utf8]
+---
 # How to convert a file from ISO-8859-P1 to UTF-8
 
 ```

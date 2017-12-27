@@ -1,12 +1,10 @@
-/*
-Title: How to remove accentuated characters from a string with C#
-Description: 
-Author: Sébastien Lucas
-Date: 2011/08/31
-Robots: noindex,nofollow
-Language: en
-Tags: dotnet,tips
-*/
+---
+title: "How to remove accentuated characters from a string with C#"
+date: 2011-08-31
+tags: [dotnet,tips]
+slug: dotnet-remove-accentuated-characters
+aliases: [/en/tips/dotnet-remove-accentuated-characters]
+---
 # How to remove accentuated characters from a string with C#
 
 ```csharp

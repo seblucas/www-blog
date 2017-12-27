@@ -1,12 +1,10 @@
-/*
-Title: How to rebuild the index of an AVI file
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: multimedia,tips
-*/
+---
+title: "How to rebuild the index of an AVI file"
+date: 2011-02-07
+tags: [multimedia,tips]
+slug: mplayer-reindex-avi
+aliases: [/en/tips/mplayer-reindex-avi]
+---
 # How to rebuild the index of an AVI file
 
 ```

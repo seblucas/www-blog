@@ -1,12 +1,10 @@
-/*
-Title: Extract the soundtrack of a DVD
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: multimedia,tips
-*/
+---
+title: "Extract the soundtrack of a DVD"
+date: 2011-02-07
+tags: [multimedia,tips]
+slug: mplayer-extract-soundtrack-dvd
+aliases: [/en/tips/mplayer-extract-soundtrack-dvd]
+---
 # Extract the soundtrack of a DVD
 
 *	Get the aid (audio id) of the wanted soundtrack

@@ -1,12 +1,10 @@
-/*
-Title: How to reboot or shutdown within SLiM
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: debian,tips
-*/
+---
+title: "How to reboot or shutdown within SLiM"
+date: 2011-02-07
+tags: [debian,tips]
+slug: slim-reboot
+aliases: [/en/tips/slim-reboot]
+---
 # How to reboot or shutdown within SLiM
 
 You can use magic username with root password to do magic things :

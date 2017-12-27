@@ -1,11 +1,7 @@
 /*
-Title: How to find diskspace used of objects with Oracle
-Description: 
-Author: Sébastien Lucas
-Date: 2014/06/19
-Robots: noindex,nofollow
-Language: en
-Tags: oracle
+title: "How to find diskspace used of objects with Oracle"
+date: 2014-06-19
+tags: [oracle]
 */
 # How to find diskspace used of objects with Oracle
 

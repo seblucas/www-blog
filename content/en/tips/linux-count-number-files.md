@@ -1,12 +1,10 @@
-/*
-Title: How to count the number of files in a directory
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/08
-Robots: noindex,nofollow
-Language: en
-Tags: debian,tips
-*/
+---
+title: "How to count the number of files in a directory"
+date: 2011-02-08
+tags: [debian,tips]
+slug: linux-count-number-files
+aliases: [/en/tips/linux-count-number-files]
+---
 # How to count the number of files in a directory
 
 ## Non recursive

@@ -1,12 +1,10 @@
-/*
-Title: How to have a secure ssh server
-Description: 
-Author: Sébastien Lucas
-Date: 2011/12/31
-Robots: noindex,nofollow
-Language: en
-Tags: debian
-*/
+---
+title: "How to have a secure ssh server"
+date: 2011-12-31
+tags: [debian]
+slug: secure-ssh
+aliases: [/en/tips/secure-ssh]
+---
 # How to have a secure ssh server
 
 There's is some easy steps to follow :

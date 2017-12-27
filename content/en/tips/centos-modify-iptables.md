@@ -1,12 +1,10 @@
-/*
-Title: How to modify your firewall (iptables) setting with Centos
-Description: 
-Author: Sébastien Lucas
-Date: 2011/06/11
-Robots: noindex,nofollow
-Language: en
-Tags: centos,tips
-*/
+---
+title: "How to modify your firewall (iptables) setting with Centos"
+date: 2011-06-11
+tags: [centos,tips]
+slug: centos-modify-iptables
+aliases: [/en/tips/centos-modify-iptables]
+---
 # How to modify your firewall (iptables) setting with Centos
 
 ## With GUI

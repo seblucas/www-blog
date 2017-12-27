@@ -1,12 +1,10 @@
-/*
-Title: How to debug a NUnit use case with Visual Studio 2010
-Description: 
-Author: Sébastien Lucas
-Date: 2011/12/03
-Robots: noindex,nofollow
-Language: en
-Tags: dotnet,windows
-*/
+---
+title: "How to debug a NUnit use case with Visual Studio 2010"
+date: 2011-12-03
+tags: [dotnet,windows]
+slug: debug-visual-studio-2010-using-nunit
+aliases: [/en/tips/debug-visual-studio-2010-using-nunit]
+---
 # How to debug a NUnit use case with Visual Studio 2010
 
 There was no problem before the switch to VS 2010 and framework 4.0. So after some googling here is the solution :

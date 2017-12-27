@@ -1,12 +1,10 @@
-/*
-Title: Some useful queries / tricks around Oracle Materialized Views
-Description: 
-Author: Sébastien Lucas
-Date: 2012/03/28
-Robots: noindex,nofollow
-Language: en
-Tags: oracle
-*/
+---
+title: "Some useful queries / tricks around Oracle Materialized Views"
+date: 2012-03-28
+tags: [oracle]
+slug: usefull-queries-materialized-views
+aliases: [/en/tips/usefull-queries-materialized-views]
+---
 # Some useful queries / tricks around Oracle Materialized Views
 
 ## Get all materialized views

@@ -1,12 +1,10 @@
-/*
-Title: How to remove accentuated characters from a string with Python
-Description: 
-Author: Sébastien Lucas
-Date: 2011/08/31
-Robots: noindex,nofollow
-Language: en
-Tags: python,tips
-*/
+---
+title: "How to remove accentuated characters from a string with Python"
+date: 2011-08-31
+tags: [python,tips]
+slug: python-remove-accentuated-characters
+aliases: [/en/tips/python-remove-accentuated-characters]
+---
 # How to remove accentuated characters from a string with Python
 
 Easy :

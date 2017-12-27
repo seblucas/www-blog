@@ -1,12 +1,10 @@
-/*
-Title: How to read a tweeter feed as RSS
-Description: 
-Author: Sébastien Lucas
-Date: 2011/12/11
-Robots: noindex,nofollow
-Language: en
-Tags: feed
-*/
+---
+title: "How to read a tweeter feed as RSS"
+date: 2011-12-11
+tags: [feed]
+slug: read-tweeter-feed-as-rss
+aliases: [/en/tips/read-tweeter-feed-as-rss]
+---
 # How to read a tweeter feed as RSS
 
 I have no twitter / facebook account and I wanted to subscribe to an Twitter feed without creating an account. Here is quick howto :

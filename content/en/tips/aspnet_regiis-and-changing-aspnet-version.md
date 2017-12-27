@@ -1,12 +1,10 @@
-/*
-Title: Changing Aspnet Version on IIS5 ou 6 with aspnet_regiis
-Description: 
-Author: Sébastien Lucas
-Date: 2012/04/06
-Robots: noindex,nofollow
-Language: en
-Tags: dotnet,iis
-*/
+---
+title: "Changing Aspnet Version on IIS5 ou 6 with aspnet_regiis"
+date: 2012-04-06
+tags: [dotnet,iis]
+slug: aspnet_regiis-and-changing-aspnet-version
+aliases: [/en/tips/aspnet_regiis-and-changing-aspnet-version]
+---
 # Changing Aspnet Version on IIS5 ou 6 with aspnet_regiis
 
 You may already have had the following message while creating a new virtual directory or trying to change the aspnet version :

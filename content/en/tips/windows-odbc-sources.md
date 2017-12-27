@@ -1,12 +1,10 @@
-/*
-Title: Handle ODBC sources with Windows
-Description: 
-Author: Sébastien Lucas
-Date: 2011/06/10
-Robots: noindex,nofollow
-Language: en
-Tags: tips,windows
-*/
+---
+title: "Handle ODBC sources with Windows"
+date: 2011-06-10
+tags: [tips,windows]
+slug: windows-odbc-sources
+aliases: [/en/tips/windows-odbc-sources]
+---
 # Handle ODBC sources with Windows
 
 *	Execute the following command :

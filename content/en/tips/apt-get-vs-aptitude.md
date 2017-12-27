@@ -1,12 +1,10 @@
-/*
-Title: apt-get VS aptitude
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: debian
-*/
+---
+title: "apt-get VS aptitude"
+date: 2011-02-07
+tags: [debian]
+slug: apt-get-vs-aptitude
+aliases: [/en/tips/apt-get-vs-aptitude]
+---
 # apt-get VS aptitude
 
 ## The fact

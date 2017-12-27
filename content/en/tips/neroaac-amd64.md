@@ -1,12 +1,10 @@
-/*
-Title: How to use Neroaac with amd64
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: multimedia,tips
-*/
+---
+title: "How to use Neroaac with amd64"
+date: 2011-02-07
+tags: [multimedia,tips]
+slug: neroaac-amd64
+aliases: [/en/tips/neroaac-amd64]
+---
 # How to use Neroaac with amd64
 
 ```

@@ -1,12 +1,10 @@
-/*
-Title: How to reencode a 6 channels AAC file to a proper AC3 file
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: multimedia
-*/
+---
+title: "How to reencode a 6 channels AAC file to a proper AC3 file"
+date: 2011-02-07
+tags: [multimedia]
+slug: 6-channels-acc-to-ac3
+aliases: [/en/tips/6-channels-acc-to-ac3]
+---
 # How to reencode a 6 channels AAC file to a proper AC3 file
 
 First why doing that :

@@ -1,12 +1,10 @@
-/*
-Title: The single line regex modifier is not available for Javascript
-Description: 
-Author: Sébastien Lucas
-Date: 2011/11/10
-Robots: noindex,nofollow
-Language: en
-Tags: javascript
-*/
+---
+title: "The single line regex modifier is not available for Javascript"
+date: 2011-11-10
+tags: [javascript]
+slug: javascript-regex-single-line-unavailable
+aliases: [/en/tips/javascript-regex-single-line-unavailable]
+---
 # The single line regex modifier is not available for Javascript
 
 To prevent it replace your . by [\s\S] :

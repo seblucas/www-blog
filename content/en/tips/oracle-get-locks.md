@@ -1,12 +1,10 @@
-/*
-Title: How to get the list of locks with Oracle
-Description: 
-Author: Sébastien Lucas
-Date: 2011/03/15
-Robots: noindex,nofollow
-Language: en
-Tags: oracle,tips
-*/
+---
+title: "How to get the list of locks with Oracle"
+date: 2011-03-15
+tags: [oracle,tips]
+slug: oracle-get-locks
+aliases: [/en/tips/oracle-get-locks]
+---
 # How to get the list of locks with Oracle
 
 ## Detection

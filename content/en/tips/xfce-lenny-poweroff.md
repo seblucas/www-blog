@@ -1,12 +1,10 @@
-/*
-Title: How to enable shutdown and reboot as a normal user with XFCE and Lenny
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: debian,tips
-*/
+---
+title: "How to enable shutdown and reboot as a normal user with XFCE and Lenny"
+date: 2011-02-07
+tags: [debian,tips]
+slug: xfce-lenny-poweroff
+aliases: [/en/tips/xfce-lenny-poweroff]
+---
 # How to enable shutdown and reboot as a normal user with XFCE and Lenny
 
 Add yourself to the powerdev group

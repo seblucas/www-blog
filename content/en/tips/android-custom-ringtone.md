@@ -1,12 +1,10 @@
-/*
-Title: How to add a custom ringtone to Galaxy S / Android phone
-Description: 
-Author: Sébastien Lucas
-Date: 2011/05/06
-Robots: noindex,nofollow
-Language: en
-Tags: android
-*/
+---
+title: "How to add a custom ringtone to Galaxy S / Android phone"
+date: 2011-05-06
+tags: [android]
+slug: android-custom-ringtone
+aliases: [/en/tips/android-custom-ringtone]
+---
 # How to add a custom ringtone to Galaxy S / Android phone
 
 *	Create the directories media/ringtones in your internal SD

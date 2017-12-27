@@ -1,12 +1,10 @@
-/*
-Title: How to start a program in background with screen
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: debian,tips
-*/
+---
+title: "How to start a program in background with screen"
+date: 2011-02-07
+tags: [debian,tips]
+slug: screen-auto-background
+aliases: [/en/tips/screen-auto-background]
+---
 # How to start a program in background with screen
 
 *	screen : http://www.gnu.org/software/screen/

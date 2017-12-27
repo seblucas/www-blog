@@ -1,12 +1,10 @@
-/*
-Title: How to join two AVI files
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: multimedia,tips
-*/
+---
+title: "How to join two AVI files"
+date: 2011-02-07
+tags: [multimedia,tips]
+slug: mplayer-merge-avi
+aliases: [/en/tips/mplayer-merge-avi]
+---
 # How to join two AVI files
 
 ```

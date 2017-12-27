@@ -1,12 +1,10 @@
-/*
-Title: Windows 2008 R2 default FTP firewall rule don't work
-Description: 
-Author: Sébastien Lucas
-Date: 2011/06/15
-Robots: noindex,nofollow
-Language: en
-Tags: tips,windows
-*/
+---
+title: "Windows 2008 R2 default FTP firewall rule don't work"
+date: 2011-06-15
+tags: [tips,windows]
+slug: ftp-firewall-windows-2008-r2
+aliases: [/en/tips/ftp-firewall-windows-2008-r2]
+---
 # Windows 2008 R2 default FTP firewall rule don't work
 
 If you just installed the FTP server on your new Windows Server 2008 R2 and begin to loose patience.... The default firewall rules don't work. The cleanest (IMHO) solution so far is to execute the following commands :

@@ -1,12 +1,10 @@
-/*
-Title: How to properly test Nokia 5110 display (PCD 8544)
-Description: 
-Author: Sébastien Lucas
-Date: 2016/03/14
-Robots: noindex,nofollow
-Language: en
-Tags: arduino,rpi,bpi
-*/
+---
+title: "How to properly test Nokia 5110 display (PCD 8544)"
+date: 2016-03-14
+tags: [arduino,rpi,bpi]
+slug: testing-pcd8544-display
+aliases: [/en/tips/testing-pcd8544-display]
+---
 # How to properly test Nokia 5110 display (PCD 8544)
 
 ## With WiringPi (software spi)

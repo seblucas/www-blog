@@ -1,12 +1,10 @@
-/*
-Title: Free VMWare virtual machine generator
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: tips,vmware
-*/
+---
+title: "Free VMWare virtual machine generator"
+date: 2011-02-07
+tags: [tips,vmware]
+slug: vmware-easyvmx
+aliases: [/en/tips/vmware-easyvmx]
+---
 # Free VMWare virtual machine generator
 
 http://www.easyvmx.com/

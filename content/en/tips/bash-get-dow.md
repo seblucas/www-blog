@@ -1,12 +1,10 @@
-/*
-Title: How to get the day of week with bash/sh
-Description: 
-Author: Sébastien Lucas
-Date: 2011/05/19
-Robots: noindex,nofollow
-Language: en
-Tags: tips
-*/
+---
+title: "How to get the day of week with bash/sh"
+date: 2011-05-19
+tags: [tips]
+slug: bash-get-dow
+aliases: [/en/tips/bash-get-dow]
+---
 # How to get the day of week with bash/sh
 
 *	Localized day of week : 

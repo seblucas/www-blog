@@ -1,12 +1,10 @@
-/*
-Title: How to use an Xbox remote with OpenElec on a Raspberry Pi (Update 04/2014)
-Description: 
-Author: Sébastien Lucas
-Date: 2014/04/11
-Robots: noindex,nofollow
-Language: en
-Tags: rpi,xbmc
-*/
+---
+title: "How to use an Xbox remote with OpenElec on a Raspberry Pi (Update 04/2014)"
+date: 2014-04-11
+tags: [rpi,xbmc]
+slug: raspberry-pi-openelec-xbox-dongle-1
+aliases: [/en/tips/raspberry-pi-openelec-xbox-dongle-1]
+---
 # How to use an Xbox remote with OpenElec on a Raspberry Pi (Update 04/2014)
 
 Lately, I upgraded to a newer version of OpenElec compiled by MilhouseVH coming from [this thread](http://forum.xbmc.org/showthread.php?tid=184866).

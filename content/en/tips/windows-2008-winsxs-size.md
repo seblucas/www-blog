@@ -1,12 +1,10 @@
-/*
-Title: Windows 2008 R2 Server : Windows directory's size growing a lot
-Description: 
-Author: Sébastien Lucas
-Date: 2012/02/12
-Robots: noindex,nofollow
-Language: en
-Tags: windows
-*/
+---
+title: "Windows 2008 R2 Server : Windows directory's size growing a lot"
+date: 2012-02-12
+tags: [windows]
+slug: windows-2008-winsxs-size
+aliases: [/en/tips/windows-2008-winsxs-size]
+---
 # Windows 2008 R2 Server : Windows directory's size growing a lot
 
 I use Zabbix for monitoring some servers at work and I found that the free space on a Windows Server 2008 (only used as a Web server) was decreasing slowly for 3 months (almost 1Go a month). I'm still safe as I followed Microsoft guideline and had a system partition with 40Go.

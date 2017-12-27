@@ -1,12 +1,10 @@
-/*
-Title: With IIS 7.5 I had an error about PageHandlerFactory-Integrated and ManagedPipelineHandler 
-Description: 
-Author: Sébastien Lucas
-Date: 2012/02/12
-Robots: noindex,nofollow
-Language: en
-Tags: dotnet
-*/
+---
+title: "With IIS 7.5 I had an error about PageHandlerFactory-Integrated and ManagedPipelineHandler "
+date: 2012-02-12
+tags: [dotnet]
+slug: iis75-bad-module-managedpipelinehandler
+aliases: [/en/tips/iis75-bad-module-managedpipelinehandler]
+---
 # With IIS 7.5 I had an error about PageHandlerFactory-Integrated and ManagedPipelineHandler 
 
 The error is : Handler “PageHandlerFactory-Integrated” has a bad module “ManagedPipelineHandler” in its module list.

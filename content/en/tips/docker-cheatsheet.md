@@ -1,12 +1,10 @@
-/*
-Title: Docker Cheatsheet
-Description: 
-Author: Sébastien Lucas
-Date: 2016/03/22
-Robots: noindex,nofollow
-Language: en
-Tags: rpi,bpi,debian
-*/
+---
+title: "Docker Cheatsheet"
+date: 2016-03-22
+tags: [rpi,bpi,debian]
+slug: docker-cheatsheet
+aliases: [/en/tips/docker-cheatsheet]
+---
 # Docker Cheatsheet
 
 ```

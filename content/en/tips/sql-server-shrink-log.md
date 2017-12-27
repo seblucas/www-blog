@@ -1,12 +1,10 @@
-/*
-Title: How to shrink on Sql Server
-Description: 
-Author: Sébastien Lucas
-Date: 2012/06/05
-Robots: noindex,nofollow
-Language: en
-Tags: sql
-*/
+---
+title: "How to shrink on Sql Server"
+date: 2012-06-05
+tags: [sql]
+slug: sql-server-shrink-log
+aliases: [/en/tips/sql-server-shrink-log]
+---
 # How to shrink on Sql Server
 
 *	First run this command (warning it doesn't backup anything) :

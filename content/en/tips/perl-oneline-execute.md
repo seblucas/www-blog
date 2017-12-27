@@ -1,12 +1,10 @@
-/*
-Title: How to execute a perl instruction in a sh/batch file
-Description: 
-Author: Sébastien Lucas
-Date: 2011/05/12
-Robots: noindex,nofollow
-Language: en
-Tags: perl,tips
-*/
+---
+title: "How to execute a perl instruction in a sh/batch file"
+date: 2011-05-12
+tags: [perl,tips]
+slug: perl-oneline-execute
+aliases: [/en/tips/perl-oneline-execute]
+---
 # How to execute a perl instruction in a sh/batch file
 
 ```

@@ -1,12 +1,10 @@
-/*
-Title: Error when starting Oracle Db Console (EMCTL)
-Description: 
-Author: Sébastien Lucas
-Date: 2011/05/17
-Robots: noindex,nofollow
-Language: en
-Tags: oracle,tips
-*/
+---
+title: "Error when starting Oracle Db Console (EMCTL)"
+date: 2011-05-17
+tags: [oracle,tips]
+slug: oraemctl-oc4j
+aliases: [/en/tips/oraemctl-oc4j]
+---
 # Error when starting Oracle Db Console (EMCTL)
 
 Error : OC4J Configuration issue. /opt/oracle/102/oc4j/j2ee/OC4J_DBConsole_oracle_NET not found.

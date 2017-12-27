@@ -1,12 +1,10 @@
-/*
-Title: How to merge a forked repository with GitHub
-Description: 
-Author: Sébastien Lucas
-Date: 2011/08/25
-Robots: noindex,nofollow
-Language: en
-Tags: git
-*/
+---
+title: "How to merge a forked repository with GitHub"
+date: 2011-08-25
+tags: [git]
+slug: merge-forked-repository-github
+aliases: [/en/tips/merge-forked-repository-github]
+---
 # How to merge a forked repository with GitHub
 
 I recently forked [this repository](https://github.com/bradyholt/PicasaWebSync) and after my first pull request I wanted to update my fork. Here is how to do it :

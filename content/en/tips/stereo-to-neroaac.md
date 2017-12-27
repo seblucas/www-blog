@@ -1,12 +1,10 @@
-/*
-Title: How to encode an existing audio track to aac
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: multimedia,tips
-*/
+---
+title: "How to encode an existing audio track to aac"
+date: 2011-02-07
+tags: [multimedia,tips]
+slug: stereo-to-neroaac
+aliases: [/en/tips/stereo-to-neroaac]
+---
 # How to encode an existing audio track to aac
 
 ```bash

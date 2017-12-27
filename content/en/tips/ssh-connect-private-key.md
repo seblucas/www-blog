@@ -1,12 +1,10 @@
-/*
-Title: How to open an ssh session with a private key
-Description: 
-Author: Sébastien Lucas
-Date: 2011/12/31
-Robots: noindex,nofollow
-Language: en
-Tags: debian
-*/
+---
+title: "How to open an ssh session with a private key"
+date: 2011-12-31
+tags: [debian]
+slug: ssh-connect-private-key
+aliases: [/en/tips/ssh-connect-private-key]
+---
 # How to open an ssh session with a private key
 
 First you'll have to have a private key setup. Then :

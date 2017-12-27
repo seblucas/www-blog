@@ -1,12 +1,10 @@
-/*
-Title: Update a Dockstar uImage/uInitrd after a kernel update
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: dockstar,tips
-*/
+---
+title: "Update a Dockstar uImage/uInitrd after a kernel update"
+date: 2011-02-07
+tags: [dockstar,tips]
+slug: dockstar-update-uimage-uinitrd
+aliases: [/en/tips/dockstar-update-uimage-uinitrd]
+---
 # Update a Dockstar uImage/uInitrd after a kernel update
 
 ```

@@ -1,12 +1,10 @@
-/*
-Title: Access system menu with PuTTY on Linux
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/07
-Robots: noindex,nofollow
-Language: en
-Tags: debian,tips
-*/
+---
+title: "Access system menu with PuTTY on Linux"
+date: 2011-02-07
+tags: [debian,tips]
+slug: putty-system-menu
+aliases: [/en/tips/putty-system-menu]
+---
 # Access system menu with PuTTY on Linux
 
 CTRL + Right click.
