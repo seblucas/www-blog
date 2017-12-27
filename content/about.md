@@ -1,11 +1,9 @@
-/*
-Title: Ce site et moi
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: fr
-*/
-# Ce site et moi
+---
+title: "About"
+date: 2010-01-01
+aliases:
+    - /user/sebastien_lucas
+---
 
 ## Pourquoi ?
 Ce site est avant tout fait pour moi ..... et oui égoiste avant tout. Sans déconner, je suis un vrai fan d'informatique en général et de Linux en particulier. Dans ce cadre je fais toute une série de trouvailles (certainement déjà découvertes par des centaines d'autres personnes avant moi) et comme je veux pas perdre l'information ... je l'écris.
