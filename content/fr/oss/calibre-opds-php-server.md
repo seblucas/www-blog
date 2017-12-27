@@ -1,11 +1,9 @@
-/*
-Title: Voici COPS : Calibre OPDS (et HTML) PHP Serveur
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS"
+lastmod: 2017-04-02
+date: 2012-05-07
+tags: ["calibre", "ereader", "nginx", "opds", "php"]
+---
 # Voici COPS : Calibre OPDS (et HTML) PHP Serveur
 
 ## Pourquoi ?
