@@ -5,8 +5,8 @@ slug: dokuwiki-summary
 ---
 # Dokuwiki
 
-## Pourquoi
+## Why
 
-C'est Dokuwiki qui faisait tourner ce blog il y a quelques années. J'avais fait quelques adaptations, elles sont consignées ici :
+Some years ago this blog was hosted running with Dokuwiki and as I'm used to I contributed some stuff. Here is some the list
 
-[Adaptations dokuwiki](/fr/projects/dokuwiki)
+[See the full page list here](/projects/dokuwiki)
