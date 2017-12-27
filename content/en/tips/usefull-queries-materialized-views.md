@@ -35,6 +35,7 @@ TO_CHAR(current_snapshots,'mm/dd/yyyy hh24:mi') current_snapshots
 FROM user_registered_snapshots, user_snapshot_logs
 WHERE user_registered_snapshots.snapshot_id = user_snapshot_logs.snapshot_id (+)
 ```
+
 First column is the master table and name is the materialized view name. An interesting information is the last date to check for never updated view and growing logs.
 
 Source : http://www.oracle-developer.com/mv_refresh.html
@@ -44,6 +45,7 @@ Source : http://www.oracle-developer.com/mv_refresh.html
 ```sql
 execute DBMS_MVIEW.REFRESH ('MyTable', 'F');
 ```
+
 You can replace the F (as Fast refresh) by a C to get a complete refresh.
 
 ## Special care on view log
@@ -99,6 +101,5 @@ Source : http://www.cnblogs.com/hibernate315/archive/2010/04/23/2399283.html
 *	[Simple but thorough explanation](http://www.sqlsnippets.com/en/topic-12868.html)
 *	[Another one](http://www.skill-guru.com/blog/2010/01/03/understanding-materialized-view-in-oracle/)
 *	[Burleson tips](http://www.dba-oracle.com/art_9i_mv.htm)
-*	
 
 

@@ -17,10 +17,3 @@ public string RemoveAccentuatedCharacters(string input)
 }
 ```
 
-
-
-
-
-
-
-

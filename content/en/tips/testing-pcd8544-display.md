@@ -21,6 +21,7 @@ Blue pcb -> LED has to be Up to have backlight.
 Specs : http://skpang.co.uk/catalog/images/lcd/graphic/docs/User_Manual_ET_LCD5110.pdf
 
 With some displays (coming from china), there might be some tweaks needed :
+
  * changing LCD bias mode from 0x14 to 0x15 or even 0x17
  * Tweaking the contrast (LCD Vop)
  * Putting everything to low before starting anything

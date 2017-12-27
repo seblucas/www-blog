@@ -14,6 +14,7 @@ Edit the file /etc/slim.conf and change (and uncomment if necessary)
 ```
 numlock             off
 ```
+
 with
 
 ```

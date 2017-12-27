@@ -14,6 +14,7 @@ Add to your /etc/nginx/nginx.conf :
 ```
 client_max_body_size    150m;
 ```
+
 Change the size accordingly.
 
 

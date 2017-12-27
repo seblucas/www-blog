@@ -15,6 +15,7 @@ Tags: centos,tips
 ```
 chmod +x /etc/init.d/YourFile
 ```
+
 *	Magic ...
 
 ```

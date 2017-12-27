@@ -10,6 +10,7 @@ Tags: oracle,windows
 # How to install Oracle XE 10g with Windows 2008
 
 Easy ... :
+
 *	right click on your OracleXE.exe file
 *	select properties
 *	select tab compatibility and set it to Windows 2003 Sp1

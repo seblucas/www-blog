@@ -16,6 +16,7 @@ That's the main reason why I coded this OPDS / HTML content server. I needed a s
 I initially thought of Calibre2OPDS but as it generate static file no search was possible.
 
 So COPS's main advantages are :
+
 *	No need for many dependencies.
 *	No need for a lot of CPU or RAM.
 *	Not much code.

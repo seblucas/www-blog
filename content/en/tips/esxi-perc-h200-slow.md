@@ -43,11 +43,13 @@ sudo apt-get install -y --force-yes srvadmin-storageservices
 
 sudo service dataeng start
 ```
+
 *	Check if the disk cache is disabled
 
 ```
 sudo /opt/dell/srvadmin/bin/omreport storage vdisk | grep 'Disk Cache Policy'
 ```
+
 *	If you already got : **Disk Cache Policy : Enabled** then sorry there's nothing I can do for you.
 *	Otherwise try this command to enable the cache (it's persistent across reboot) :
 

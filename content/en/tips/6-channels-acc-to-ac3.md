@@ -10,11 +10,13 @@ Tags: multimedia
 # How to reencode a 6 channels AAC file to a proper AC3 file
 
 First why doing that :
+
 *	My home cinema only handle AC3 and DTS.
 *	There's no easy way (I know you can special alsa output to do that) to make mplayer reencode the AAC into AC3 during playback
 *	AC3 is a much more universal format (at least for now)
 
 You'll need :
+
 *	faad (a simple aptitude install faad will do)
 *	aften (see [here](http://aften.sourceforge.net)), you'll need to build it from the sources.
 

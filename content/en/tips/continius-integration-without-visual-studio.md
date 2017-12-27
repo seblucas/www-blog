@@ -17,6 +17,7 @@ When trying to build a project using WCF with TeamCity, I had this error
 
 
 My build agent does not have Visual Studio installed (only the framework). The easiest way is to download Windows SDK ([here](http://www.microsoft.com/download/en/confirmation.aspx?id=8279)) and to install only these things :
+
 *	.NET Development > Intellisense and Reference Assemblies
 *	.NET Development > Tools
 

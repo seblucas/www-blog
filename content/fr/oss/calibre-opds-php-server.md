@@ -16,6 +16,7 @@ C'est pourquoi j'ai développé ce serveur OPDS / HTML. J'avais besoin d'un serv
 J'avais initialement pensé Calibre2OPDS mais comme il génère des fichiers statiques il n'était pas possible de faire des recherches. De plus il fallait penser à relancer le traitement à chaque modification de la bibliothèque.
 
 Donc les principaux avantages de COPS sont :
+
  * Peu de dépendances.
  * Pas besoin de beaucoup de CPU ou RAM.
  * Peu de code.

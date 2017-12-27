@@ -15,16 +15,19 @@ Tags: debian,tips
 ```
 aptitude install screen
 ```
+
 *	start a program in background
 
 ```
 screen -d -m <YourProgram>
 ```
+
 *	check the program
 
 ```
 screen -R
 ```
+
 And CTRL+A D to detach.
 
 

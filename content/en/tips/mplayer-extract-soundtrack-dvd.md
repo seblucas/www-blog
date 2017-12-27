@@ -14,6 +14,7 @@ Tags: multimedia,tips
 ```
 mplayer -vc null -vo null -identify VTS_01_0.IFO
 ```
+
 *	Get a stream.dump file (or use -dumpfile to specify the filename)
 
 ```

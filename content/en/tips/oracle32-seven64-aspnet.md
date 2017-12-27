@@ -24,6 +24,7 @@ System.InvalidOperationException: Attempt to load Oracle client libraries threw 
 ## Solution
 
 Easy :
+
 *	Select your application pool
 *	Do a right click and go to Advanced settings.
 *	change "Enable 32-bit Applications" to True.

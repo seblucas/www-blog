@@ -9,7 +9,7 @@ Tags: oracle
 */
 # How to find unindexed foreign key with Oracle
 
-All credits to : [this post](http://asktom.oracle.com/pls/asktom/f?p=100:11:0::::P11_QUESTION_ID:4530093713805#26568859366976). Here is the script : 
+All credits to : [this post](http://asktom.oracle.com/pls/asktom/f?p=100:11:0::::P11_QUESTION_ID:4530093713805#26568859366976). Here is the script :
 
 ```sql
 SELECT table_name, constraint_name,

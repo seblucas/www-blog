@@ -12,10 +12,11 @@ Tags: multimedia,tips
 ```bash
 #!/bin/sh
 mkfifo temp.wav
-screen -d -m mplayer "$1" -vc null -vo null -ao pcm:fast:waveheader:file=temp.wav 
+screen -d -m mplayer "$1" -vc null -vo null -ao pcm:fast:waveheader:file=temp.wav
 ./neroAacEnc -ignorelength -q 0.30 -if temp.wav -of "$1.aac"
-rm temp.wav 
+rm temp.wav
 ```
+
 I use screen but you can also use & or two terminals.
 
 Sometimes mplayer is too worried about seeks and don't work so you can use ffmpeg instead : 

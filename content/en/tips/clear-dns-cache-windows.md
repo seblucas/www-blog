@@ -12,6 +12,7 @@ Tags: windows
 ```
 ipconfig /flushdns
 ```
+
 Beware : with Windows Seven/2008 you have to be administrator
 
 

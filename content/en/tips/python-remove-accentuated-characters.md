@@ -14,6 +14,7 @@ Easy :
 ```python
 output = unicodedata.normalize('NFKD', input).encode('ASCII', 'ignore')
 ```
+
 If your input string is not unicode, you'll have to convert it first :
 
 ```python

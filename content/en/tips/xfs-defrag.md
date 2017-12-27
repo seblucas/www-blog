@@ -14,11 +14,13 @@ Tags: debian,tips
 ```
 aptitude install xfsdump
 ```
+
 *	Usage
 
 ```
 xfs_fsr -t 600
 ```
+
 It will try to defrag all you XFS partition for 600 seconds (10 minutes).
 
 

@@ -16,6 +16,7 @@ For an unknown reason, the link between IIS and ASP.net is not correct so you'll
 ```
 %windir%\Microsoft.NET\Framework64\v4.0.30319\aspnet_regiis.exe -i
 ```
+
 If your server is not 64 bits change Framework64 with Framework.
 
 If your problem is not caused by the framework 4.0 change the directory accordingly.

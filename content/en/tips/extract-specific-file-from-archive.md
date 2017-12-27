@@ -14,6 +14,7 @@ I'll use 7zip :
 ```
 7z e *.rar -ir!*.txt
 ```
+
 Here I'll extract all txt files from every rar archive in my directory.
 
 Check if your binary is 7z or 7za

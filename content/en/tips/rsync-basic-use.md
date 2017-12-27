@@ -14,11 +14,13 @@ Tags: debian,tips
 ```
 rsync -av --progress SourceDir/ DestinationDir/
 ```
+
 *	Mirror two directories with compression :
 
 ```
 rsync -avz --progress SourceDir/ DestinationDir/
 ```
+
 *	Mirro two directories and delete in destination what's been deleted in source (real mirroring) :
 
 ```

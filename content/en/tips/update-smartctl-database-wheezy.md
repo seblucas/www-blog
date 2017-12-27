@@ -23,5 +23,6 @@ fi
 before running `update-smart-drivedb `
 
 Source :
+
  * http://debianforum.de/forum/viewtopic.php?f=27&t=146361#p964092
 

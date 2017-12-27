@@ -24,6 +24,7 @@ I had trouble with this syntax :
 ```javascript
 var myregExp = new RegExp ("start([\s\S]*?)end", "g");
 ```
+
 Instead I used that way without trouble : 
 
 ```javascript
