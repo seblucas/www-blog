@@ -1,7 +1,7 @@
 #!/bin/sh
 for x in *.md; do
   sed -i "s|^/\*$|---|g" $x
-  sed -i "s|^\*/$|slug: ${x%.*}\n---|g" $x
+  sed -i "s|^\*/$|slug: ${x%.*}\naliases: [/en/tips/${x%.*}]\n---|g" $x
 done
 sed -i 's/^Title\: \(.*\)$/title: "\1"/g' *.md
 sed -i 's|^Date: \([[:digit:]]\{4\}\)/\([[:digit:]]\{2\}\)/|date: \1-\2-|g' *.md
