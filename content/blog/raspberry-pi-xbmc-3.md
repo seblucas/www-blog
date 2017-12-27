@@ -11,7 +11,7 @@ Un minuscule article sur des choses déjà mondialement connues mais que j'ai ch
 ## Télécommande XBOX sur OpenElec
 
 J'ai fait l'article en anglais mais cela devrait être lisible par tous :
-[How to use an Xbox remote with OpenElec on a Raspberry Pi](/en/tips/raspberry-pi-openelec-xbox-dongle)
+[How to use an Xbox remote with OpenElec on a Raspberry Pi](/blog/raspberry-pi-openelec-xbox-dongle)
 
 ## Accéder à des partages NFS sur un NAS Synology
 
