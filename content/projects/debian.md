@@ -21,19 +21,3 @@ Beside of the classic desktop use, I had many dedicated usage of Debian :
 
 [See the full page list here](/projects/debian)
 
-# Open Source
-
-## My small contribution
-[Calibre OPDS PHP Server's Changelog](/en/oss/calibre-opds-php-server-changelog)
-
-[Here is COPS : Calibre OPDS (and HTML) PHP Server](/en/oss/calibre-opds-php-server)
-
-[Mobile Arctic template for Dokuwiki](/en/oss/dokuwiki-arctic-mobile)
-
-[More sidebars with Arctic template (dokuwiki)](/en/oss/dokuwiki-arctic-sidebar)
-
-[Dokuwiki and nginx](/en/oss/dokuwiki-nginx-config)
-
-[hgweb(dir) and mod_python](/en/oss/hgweb-mod_python)
-
-

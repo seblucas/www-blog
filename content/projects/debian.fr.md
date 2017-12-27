@@ -21,23 +21,3 @@ En plus de l'usage classique, j'ai eu des usages multiples de mes différents or
 *	...
 
 [Pour la liste complète des pages c'est ici](/fr/projects/debian)
-
-# Open Source
-
-## Mes maigres participations
-
-[Calibre OPDS PHP Serveur : Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
-
-[Voici COPS : Calibre OPDS (et HTML) PHP Serveur](/fr/oss/calibre-opds-php-server)
-
-[Version mobile du template Arctic pour Dokuwiki](/fr/oss/dokuwiki-arctic-mobile)
-
-[Ajout de sidebar au template Arctic (dokuwiki)](/fr/oss/dokuwiki-arctic-sidebar)
-
-[Dokuwiki et nginx](/fr/oss/dokuwiki-nginx-config)
-
-[hgweb(dir) avec mod_python](/fr/oss/hgweb-mod_python)
-
-[Création d'un environnement de compilation Kobo - Partie 1](/fr/oss/kobo-build-environment-1)
-
-
