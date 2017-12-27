@@ -1,5 +1,6 @@
 /*
 Title: hgweb(dir) avec mod_python
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -128,6 +129,7 @@ def test(environ, start_response):
 ## Résolutions de problème
 
 Si ce tutoriel ne fonctionne pas chez vous :
+
 *	Decommenter la ligne concernant PythonDebug.
 *	Relancer Apache.
 *	Bien vérifier les messages d'erreur dans le navigateur internet et dans /var/log/apache2/error.log.

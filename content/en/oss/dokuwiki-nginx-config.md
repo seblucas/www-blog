@@ -1,5 +1,6 @@
 /*
 Title: Dokuwiki and nginx
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -61,6 +62,7 @@ server {
                 return 404;
         }
 ```
+
 For security reasons ([http://www.dokuwiki.org/security](http://www.dokuwiki.org/security)) some directory should not accessible from outside.
 
 ```
@@ -68,6 +70,7 @@ For security reasons ([http://www.dokuwiki.org/security](http://www.dokuwiki.org
                 expires 31d;
         }
 ```
+
 Here I force a far away expiration date on the images of dokuwiki and templates.
 
 ```
@@ -75,6 +78,7 @@ Here I force a far away expiration date on the images of dokuwiki and templates.
                 rewrite ^(.*)$ http://blog.slucas.fr/en$1 permanent;
         }
 ```
+
 I just made a wrong namespace choice for some page so I added a permanent redirection of http://blog.slucas.fr/tips/* to http://blog.slucas.fr/en/tips/*.
 
 ```
@@ -91,6 +95,7 @@ I just made a wrong namespace choice for some page so I added a permanent redire
         }
 
 ```
+
 Here we handle the url rewriting to have clean urls (http://www.dokuwiki.org/rewrite). Note that the tag and cloud plugins have been patched to make it work (see here for the patches http://blog.slucas.fr/blog/dokuwiki-rewrite-tag or http://www.freelists.org/post/dokuwiki/PATCH-Clean-URLs-for-tags-and-blogarchive for the original idea)
 
 ```
@@ -100,5 +105,6 @@ Here we handle the url rewriting to have clean urls (http://www.dokuwiki.org/rew
                 fastcgi_pass    unix:/tmp/fcgi.sock;
         }
 ```
+
 Here is the fastcgi php call. Note that I use unix sockets.
 

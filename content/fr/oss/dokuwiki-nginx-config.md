@@ -1,5 +1,6 @@
 /*
 Title: Dokuwiki et nginx
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -61,6 +62,7 @@ server {
                 return 404;
         }
 ```
+
 Voir [Mise à jour Dokuwiki Anteater et Nginx](/blog/anteater-system-security-nginx).
 
 ```
@@ -68,6 +70,7 @@ Voir [Mise à jour Dokuwiki Anteater et Nginx](/blog/anteater-system-security-ng
                 expires 31d;
         }
 ```
+
 Voir [Paramétrage de la compression avec nginx](/blog/nginx-gzip-css-js)
 
 ```
@@ -75,6 +78,7 @@ Voir [Paramétrage de la compression avec nginx](/blog/nginx-gzip-css-js)
                 rewrite ^(.*)$ http://blog.slucas.fr/en$1 permanent;
         }
 ```
+
 C'est juste pour rattraper une erreur de namespace, je redirige http://blog.slucas.fr/tips/* vers http://blog.slucas.fr/en/tips/*.
 
 ```
@@ -91,6 +95,7 @@ C'est juste pour rattraper une erreur de namespace, je redirige http://blog.sluc
         }
 
 ```
+
 Ici on gère l'url rewriting pour avoir des urls propres (sans ? et :). Voir [URL propres avec Dokuwiki](/blog/dokuwiki-rewrite-tag).
 
 ```
@@ -100,5 +105,6 @@ Ici on gère l'url rewriting pour avoir des urls propres (sans ? et :). Voir [UR
                 fastcgi_pass    unix:/tmp/fcgi.sock;
         }
 ```
+
 On gère l'appel au fastcgi php. Voir [Installation de nginx sous Debian](/blog/nginx-php-install) et [Nginx PHP Fastcgi avec socket Unix](/blog/nginx-php-unix-socket).
 

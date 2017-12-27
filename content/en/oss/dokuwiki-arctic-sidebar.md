@@ -1,5 +1,6 @@
 /*
 Title: More sidebars with Arctic template (dokuwiki)
+Date: 2012/11/10
 Description: 
 Author: Sébastien Lucas
 Robots: noindex,nofollow
@@ -45,6 +46,7 @@ foreach ($bookmarks as $key => $value)
 }
 ?>
 ```
+
 You will have bookmar images for delicious, digg, facebook, twitter and google. ~~My next aim is to integrate this cleanly (without any duplication) and with some configuration~~ (Done 05/22/2011).
 
 For now I use free icons I got from : http://nouveller.deviantart.com/art/Social-Media-Bookmark-Icon-125995730
