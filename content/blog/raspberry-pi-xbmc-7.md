@@ -3,6 +3,7 @@ title: "XBMC sur le Raspberry Pi : Openelec RC1"
 date: 2012-12-29
 tags: [rpi,xbmc]
 slug: raspberry-pi-xbmc-7
+disqus_identifier: /blog/raspberry-pi-xbmc-7
 ---
 # XBMC sur le Raspberry Pi : Openelec RC1
 

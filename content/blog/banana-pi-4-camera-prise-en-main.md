@@ -3,6 +3,7 @@ title: "Banana Pi - Installation de la caméra"
 date: 2014-09-28
 tags: [bpi]
 slug: banana-pi-4-camera-prise-en-main
+disqus_identifier: /blog/banana-pi-4-camera-prise-en-main
 ---
 # Banana Pi - Installation de la caméra
 

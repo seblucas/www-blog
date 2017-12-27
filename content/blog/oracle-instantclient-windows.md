@@ -3,6 +3,7 @@ title: "Configuration de Oracle Instant Client sous Windows"
 date: 2010-10-25
 tags: [oracle]
 slug: oracle-instantclient-windows
+disqus_identifier: /blog/oracle-instantclient-windows
 ---
 # Configuration de Oracle Instant Client sous Windows
 

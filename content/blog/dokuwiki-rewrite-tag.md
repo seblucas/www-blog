@@ -3,6 +3,7 @@ title: "URL propres avec Dokuwiki"
 date: 2010-09-29
 tags: [dokuwiki,nginx]
 slug: dokuwiki-rewrite-tag
+disqus_identifier: /blog/dokuwiki-rewrite-tag
 ---
 # URL propres avec Dokuwiki
 

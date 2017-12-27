@@ -3,6 +3,7 @@ title: "Firmware 2.3.1 pour notre Kobo ?"
 date: 2012-12-14
 tags: [ereader]
 slug: kobo-ereader-touch-46
+disqus_identifier: /blog/kobo-ereader-touch-46
 ---
 # Firmware 2.3.1 pour notre Kobo ?
 

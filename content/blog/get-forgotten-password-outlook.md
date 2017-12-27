@@ -3,6 +3,7 @@ title: "Comment retrouver ses mots de passe oubliés"
 date: 2011-05-24
 tags: [windows]
 slug: get-forgotten-password-outlook
+disqus_identifier: /blog/get-forgotten-password-outlook
 ---
 # Comment retrouver ses mots de passe oubliés
 

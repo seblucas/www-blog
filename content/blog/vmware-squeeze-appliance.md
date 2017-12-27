@@ -3,6 +3,7 @@ title: "Appliance / Image Debian Squeeze pour VMware"
 date: 2010-10-05
 tags: [debian,vmware]
 slug: vmware-squeeze-appliance
+disqus_identifier: /blog/vmware-squeeze-appliance
 ---
 # Appliance / Image Debian Squeeze pour VMware
 

@@ -3,6 +3,7 @@ title: "Firmware 2.5.0 et 2.5.1 ... Enfin"
 date: 2013-05-06
 tags: [epub,ereader]
 slug: kobo-ereader-touch-58
+disqus_identifier: /blog/kobo-ereader-touch-58
 ---
 # Firmware 2.5.0 et 2.5.1 ... Enfin
 

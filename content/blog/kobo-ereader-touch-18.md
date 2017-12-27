@@ -3,6 +3,7 @@ title: "Ai-je fait le bon choix avec la Kobo eReader Touch ?"
 date: 2012-06-21
 tags: [ereader]
 slug: kobo-ereader-touch-18
+disqus_identifier: /blog/kobo-ereader-touch-18
 ---
 # Ai-je fait le bon choix avec la Kobo eReader Touch ?
 

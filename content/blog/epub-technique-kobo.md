@@ -3,6 +3,7 @@ title: "Lire un epub technique sur une liseuse Kobo"
 date: 2012-05-10
 tags: [epub,ereader]
 slug: epub-technique-kobo
+disqus_identifier: /blog/epub-technique-kobo
 ---
 # Lire un epub technique sur une liseuse Kobo
 

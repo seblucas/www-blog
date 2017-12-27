@@ -3,6 +3,7 @@ title: "Firmware 3.5.0"
 date: 2014-07-11
 tags: [ereader]
 slug: kobo-ereader-firmware-3.5.0
+disqus_identifier: /blog/kobo-ereader-firmware-3.5.0
 ---
 # Firmware 3.5.0
 

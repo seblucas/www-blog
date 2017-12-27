@@ -3,6 +3,7 @@ title: "Le cache fastcgi et Nginx et un peu de déception"
 date: 2011-07-17
 tags: [dockstar,dokuwiki,nginx]
 slug: nginx-fastcgi-cache
+disqus_identifier: /blog/nginx-fastcgi-cache
 ---
 # Le cache fastcgi et Nginx et un peu de déception
 

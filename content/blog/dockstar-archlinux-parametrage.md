@@ -3,6 +3,7 @@ title: "Paramétrage d'Archlinux sur le Dockstar"
 date: 2012-05-23
 tags: [archlinux,dockstar]
 slug: dockstar-archlinux-parametrage
+disqus_identifier: /blog/dockstar-archlinux-parametrage
 ---
 # Paramétrage d'Archlinux sur le Dockstar
 

@@ -3,6 +3,7 @@ title: "Petite Revue de Web et pas d'autres news :("
 date: 2012-04-03
 tags: [ereader]
 slug: kobo-ereader-touch-14
+disqus_identifier: /blog/kobo-ereader-touch-14
 ---
 # Petite Revue de Web et pas d'autres news :(
 

@@ -3,6 +3,7 @@ title: "BitTorrent Sync : Une alternative à Dropbox / Owncloud ?"
 date: 2014-06-07
 tags: [dropbox,calibre]
 slug: bittorrent-sync-dropbox-alternative
+disqus_identifier: /blog/bittorrent-sync-dropbox-alternative
 ---
 # BitTorrent Sync : Une alternative à Dropbox ?
 

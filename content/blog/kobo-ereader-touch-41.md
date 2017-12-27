@@ -3,6 +3,7 @@ title: "Petites informations Kobo"
 date: 2012-10-23
 tags: [ereader]
 slug: kobo-ereader-touch-41
+disqus_identifier: /blog/kobo-ereader-touch-41
 ---
 # Petites informations Kobo
 

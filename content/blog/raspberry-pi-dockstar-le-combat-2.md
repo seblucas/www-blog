@@ -3,6 +3,7 @@ title: "Raspberry Pi VS Dockstar : Le combat II"
 date: 2012-09-23
 tags: [dockstar,rpi]
 slug: raspberry-pi-dockstar-le-combat-2
+disqus_identifier: /blog/raspberry-pi-dockstar-le-combat-2
 ---
 # Raspberry Pi VS Dockstar : Le combat II
 

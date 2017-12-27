@@ -3,6 +3,7 @@ title: "Quelques nouvelles sur le monde des petites machines ARM (et autres Goog
 date: 2012-11-10
 tags: [dockstar,rpi]
 slug: a10-google-tv-1
+disqus_identifier: /blog/a10-google-tv-1
 ---
 # Quelques nouvelles sur le monde des petites machines ARM (et autres Google TV) 
 

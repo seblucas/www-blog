@@ -3,6 +3,7 @@ title: "Les notes de bas de page sur la Kobo"
 date: 2013-01-19
 tags: [epub,ereader]
 slug: kobo-ereader-touch-53
+disqus_identifier: /blog/kobo-ereader-touch-53
 ---
 # Les notes de bas de page sur la Kobo
 

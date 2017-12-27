@@ -3,6 +3,7 @@ title: "Une version 2.0.2 pour la Kobo eReader Touch ... Non officielle"
 date: 2012-07-20
 tags: [ereader]
 slug: kobo-ereader-touch-26
+disqus_identifier: /blog/kobo-ereader-touch-26
 ---
 # Une version 2.0.2 pour la Kobo eReader Touch ... Non officielle
 

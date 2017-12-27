@@ -3,6 +3,7 @@ title: "Firmware 2.3.1 pour Kobo : plus de détails"
 date: 2012-12-16
 tags: [ereader]
 slug: kobo-ereader-touch-47
+disqus_identifier: /blog/kobo-ereader-touch-47
 ---
 # Firmware 2.3.1 pour Kobo : plus de détails
 

@@ -3,6 +3,7 @@ title: "Ranger proprement des fichiers dans des répertoires"
 date: 2011-08-21
 tags: [debian,perl]
 slug: perl-organize-file
+disqus_identifier: /blog/perl-organize-file
 ---
 # Ranger proprement des fichiers dans des répertoires
 

@@ -3,6 +3,7 @@ title: "Quelques petits trucs sur le Kobo"
 date: 2012-06-30
 tags: [ereader]
 slug: kobo-ereader-touch-19
+disqus_identifier: /blog/kobo-ereader-touch-19
 ---
 # Quelques petits trucs sur le Kobo
 

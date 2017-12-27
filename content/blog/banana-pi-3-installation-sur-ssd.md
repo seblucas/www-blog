@@ -3,6 +3,7 @@ title: "Banana Pi - Boot sur SATA"
 date: 2014-09-01
 tags: [bpi]
 slug: banana-pi-3-installation-sur-ssd
+disqus_identifier: /blog/banana-pi-3-installation-sur-ssd
 ---
 # Banana Pi - Boot sur SATA
 

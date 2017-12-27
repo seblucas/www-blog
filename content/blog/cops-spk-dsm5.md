@@ -3,6 +3,7 @@ title: "COPS sur un NAS Synology avec le DSM 5"
 date: 2014-04-14
 tags: [calibre,opds,synology]
 slug: cops-spk-dsm5
+disqus_identifier: /blog/cops-spk-dsm5
 ---
 # COPS sur un NAS Synology avec le DSM 5
 

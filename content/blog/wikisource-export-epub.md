@@ -3,6 +3,7 @@ title: "Export au format EPUB sur Wikisource"
 date: 2012-09-30
 tags: [ereader]
 slug: wikisource-export-epub
+disqus_identifier: /blog/wikisource-export-epub
 ---
 # Export au format EPUB sur Wikisource
 

@@ -3,6 +3,7 @@ title: "Quelques tests sur le navigateur de la Kobo eReader Touch"
 date: 2012-04-13
 tags: [ereader]
 slug: kobo-browser-1
+disqus_identifier: /blog/kobo-browser-1
 ---
 # Quelques tests sur le navigateur de la Kobo eReader Touch
 

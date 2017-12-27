@@ -3,6 +3,7 @@ title: "Epub et le dictionnaire français sur le Kobo"
 date: 2012-08-29
 tags: [ereader]
 slug: kobo-ereader-touch-29
+disqus_identifier: /blog/kobo-ereader-touch-29
 ---
 # Epub et le dictionnaire français sur le Kobo
 

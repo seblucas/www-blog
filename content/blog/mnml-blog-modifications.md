@@ -3,6 +3,7 @@ title: "Mes modifications sur le template mnml-blog"
 date: 2011-09-18
 tags: [dokuwiki]
 slug: mnml-blog-modifications
+disqus_identifier: /blog/mnml-blog-modifications
 ---
 # Mes modifications sur le template mnml-blog
 

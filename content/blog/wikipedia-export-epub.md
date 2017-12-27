@@ -3,6 +3,7 @@ title: "Export au format EPUB sur Wikipedia"
 date: 2012-09-25
 tags: [ereader]
 slug: wikipedia-export-epub
+disqus_identifier: /blog/wikipedia-export-epub
 ---
 # Export au format EPUB sur Wikipedia
 

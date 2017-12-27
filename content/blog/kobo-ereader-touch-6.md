@@ -3,6 +3,7 @@ title: "Sortie du firmware 1.9.16 et revue de Web"
 date: 2011-12-27
 tags: [ereader]
 slug: kobo-ereader-touch-6
+disqus_identifier: /blog/kobo-ereader-touch-6
 ---
 # Sortie du firmware 1.9.16 et revue de Web
 

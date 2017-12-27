@@ -3,6 +3,7 @@ title: "Mes premières impressions avec mon Kobo eReader Touch Edition"
 date: 2011-09-29
 tags: [ereader]
 slug: kobo-ereader-touch-1
+disqus_identifier: /blog/kobo-ereader-touch-1
 ---
 # Mes premières impressions avec mon Kobo eReader Touch Edition
 

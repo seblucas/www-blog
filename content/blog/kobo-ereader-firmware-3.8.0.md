@@ -3,6 +3,7 @@ title: "Firmware Kobo 3.8.0"
 date: 2014-08-28
 tags: [ereader]
 slug: kobo-ereader-firmware-3.8.0
+disqus_identifier: /blog/kobo-ereader-firmware-3.8.0
 ---
 # Firmware 3.8.0
 

@@ -3,6 +3,7 @@ title: "Retour de la police de caractères Caecilia prochainement"
 date: 2012-09-26
 tags: [ereader]
 slug: kobo-ereader-touch-35
+disqus_identifier: /blog/kobo-ereader-touch-35
 ---
 # Retour de la police de caractères Caecilia prochainement
 

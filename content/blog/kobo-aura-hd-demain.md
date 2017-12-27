@@ -3,6 +3,7 @@ title: "Kobo Aura HD en vente demain à la FNAC"
 date: 2013-05-15
 tags: [epub,ereader]
 slug: kobo-aura-hd-demain
+disqus_identifier: /blog/kobo-aura-hd-demain
 ---
 # Kobo Aura HD en vente demain à la FNAC
 

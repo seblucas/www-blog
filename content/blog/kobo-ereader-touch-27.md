@@ -3,6 +3,7 @@ title: "Vive la rentrée ..."
 date: 2012-08-26
 tags: [ereader]
 slug: kobo-ereader-touch-27
+disqus_identifier: /blog/kobo-ereader-touch-27
 ---
 # Vive la rentrée ...
 

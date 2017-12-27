@@ -3,6 +3,7 @@ title: "Installation de XBMC sur le Raspberry Pi - 1 mois après"
 date: 2012-10-14
 tags: [rpi]
 slug: raspberry-pi-xbmc-2
+disqus_identifier: /blog/raspberry-pi-xbmc-2
 ---
 # Installation de XBMC sur le Raspberry Pi - 1 mois après
 

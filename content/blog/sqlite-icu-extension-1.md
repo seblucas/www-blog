@@ -3,6 +3,7 @@ title: "La gestion des différentes cultures avec SQLite - Partie 1"
 date: 2014-05-18
 tags: [sql,sqlite]
 slug: sqlite-icu-extension-1
+disqus_identifier: /blog/sqlite-icu-extension-1
 ---
 # La gestion des différentes cultures avec SQLite - Partie 1
 

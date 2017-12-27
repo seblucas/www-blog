@@ -3,6 +3,7 @@ title: "Firmware 3.3.0"
 date: 2014-04-23
 tags: [ereader]
 slug: kobo-ereader-firmware-3.3.0
+disqus_identifier: /blog/kobo-ereader-firmware-3.3.0
 ---
 # Firmware 3.3.0
 

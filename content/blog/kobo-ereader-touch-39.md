@@ -3,6 +3,7 @@ title: "Sortie du firmware 2.1.5 pour Kobo et un peu de divers"
 date: 2012-10-18
 tags: [ereader]
 slug: kobo-ereader-touch-39
+disqus_identifier: /blog/kobo-ereader-touch-39
 ---
 # Sortie du firmware 2.1.5 pour Kobo et un peu de divers
 

@@ -3,6 +3,7 @@ title: "Premier anniversaire"
 date: 2011-09-16
 tags: [dokuwiki]
 slug: premier_anniversaire
+disqus_identifier: /blog/premier_anniversaire
 ---
 # Premier anniversaire
 

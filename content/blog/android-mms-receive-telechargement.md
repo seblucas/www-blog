@@ -3,6 +3,7 @@ title: "Problème de réception de MMS lorsque le mode réseau de données (2G/3
 date: 2011-05-23
 tags: [android]
 slug: android-mms-receive-telechargement
+disqus_identifier: /blog/android-mms-receive-telechargement
 ---
 # Problème de réception de MMS lorsque le mode réseau de données (2G/3G) est désactivé
 

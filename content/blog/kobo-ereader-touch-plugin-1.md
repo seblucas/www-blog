@@ -3,6 +3,7 @@ title: "Des plugins non officiel pour le Kobo eReader Touch / Fnacbook / Kobo by
 date: 2012-01-27
 tags: [ereader]
 slug: kobo-ereader-touch-plugin-1
+disqus_identifier: /blog/kobo-ereader-touch-plugin-1
 ---
 # Des plugins non officiel pour le Kobo eReader Touch / Fnacbook / Kobo by Fnac
 

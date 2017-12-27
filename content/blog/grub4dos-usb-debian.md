@@ -3,6 +3,7 @@ title: "Utiliser une clé USB pour démarrer Debian"
 date: 2010-11-12
 tags: [debian,grub]
 slug: grub4dos-usb-debian
+disqus_identifier: /blog/grub4dos-usb-debian
 ---
 # Utiliser une clé USB pour démarrer Debian
 

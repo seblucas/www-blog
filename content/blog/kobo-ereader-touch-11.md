@@ -3,6 +3,7 @@ title: "COPS / Quelques maigres news sur le Kobo / Divers"
 date: 2012-03-04
 tags: [calibre,ereader]
 slug: kobo-ereader-touch-11
+disqus_identifier: /blog/kobo-ereader-touch-11
 ---
 # COPS / Quelques maigres news sur le Kobo / Divers
 

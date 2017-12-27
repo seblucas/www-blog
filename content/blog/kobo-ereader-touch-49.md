@@ -3,6 +3,7 @@ title: "Un correctif pour la gestion de l'italique avec la version 2.3.1 "
 date: 2012-12-19
 tags: [ereader]
 slug: kobo-ereader-touch-49
+disqus_identifier: /blog/kobo-ereader-touch-49
 ---
 # Un "correctif" pour la gestion de l'italique avec la version 2.3.1 
 

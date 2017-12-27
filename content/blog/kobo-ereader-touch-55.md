@@ -3,6 +3,7 @@ title: "Firmware 2.4.0 pour la Kobo"
 date: 2013-02-15
 tags: [epub,ereader]
 slug: kobo-ereader-touch-55
+disqus_identifier: /blog/kobo-ereader-touch-55
 ---
 # Firmware 2.4.0 pour la Kobo
 

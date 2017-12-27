@@ -3,6 +3,7 @@ title: "PHP XCache"
 date: 2010-10-13
 tags: [php]
 slug: php-xcache
+disqus_identifier: /blog/php-xcache
 ---
 # PHP XCache
 

@@ -3,6 +3,7 @@ title: "Firmware 2.3.2"
 date: 2012-12-22
 tags: [ereader]
 slug: kobo-ereader-touch-50
+disqus_identifier: /blog/kobo-ereader-touch-50
 ---
 # Firmware 2.3.2
 

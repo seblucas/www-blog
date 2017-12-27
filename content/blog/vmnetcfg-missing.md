@@ -3,6 +3,7 @@ title: "vmnetcfg.exe absent après une installation de VMware Player"
 date: 2010-10-25
 tags: [vmware]
 slug: vmnetcfg-missing
+disqus_identifier: /blog/vmnetcfg-missing
 ---
 # vmnetcfg.exe absent après une installation de VMware Player
 

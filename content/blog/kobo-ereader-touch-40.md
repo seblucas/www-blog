@@ -3,6 +3,7 @@ title: "ATTENTION : Ne pas installer les mises à jour Kobo manuellement"
 date: 2012-10-19
 tags: [ereader]
 slug: kobo-ereader-touch-40
+disqus_identifier: /blog/kobo-ereader-touch-40
 ---
 # ATTENTION : Ne pas installer les mises à jour Kobo manuellement
 

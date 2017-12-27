@@ -3,6 +3,7 @@ title: "Latence d'écriture avec un Perc H200 et VMWare ESXi"
 date: 2011-05-16
 tags: [vmware]
 slug: esxi-perc-h200-lenteur
+disqus_identifier: /blog/esxi-perc-h200-lenteur
 ---
 # Latence d'écriture avec un Perc H200 et VMWare ESXi
 

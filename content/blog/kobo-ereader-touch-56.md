@@ -3,6 +3,7 @@ title: "Firmware 2.4.0 : des corrections de bugs (enfin) et quelques nouveautés
 date: 2013-02-16
 tags: [epub,ereader]
 slug: kobo-ereader-touch-56
+disqus_identifier: /blog/kobo-ereader-touch-56
 ---
 # Firmware 2.4.0 : des corrections de bugs (enfin) et quelques nouveautés
 

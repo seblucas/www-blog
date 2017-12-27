@@ -3,6 +3,7 @@ title: "Kobo : La patience est une vertu"
 date: 2012-05-24
 tags: [ereader]
 slug: kobo-ereader-touch-16
+disqus_identifier: /blog/kobo-ereader-touch-16
 ---
 # Kobo : La patience est une vertu
 

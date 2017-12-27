@@ -3,6 +3,7 @@ title: "Kobo Touch avec un hardware différent ?"
 date: 2012-12-27
 tags: [ereader]
 slug: kobo-ereader-touch-51
+disqus_identifier: /blog/kobo-ereader-touch-51
 ---
 # Kobo Touch avec un hardware différent ?
 

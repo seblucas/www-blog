@@ -3,6 +3,7 @@ title: "Android : Jelly Bean sinon rien"
 date: 2012-10-25
 tags: [android]
 slug: galaxy-s-folio-100-jb
+disqus_identifier: /blog/galaxy-s-folio-100-jb
 ---
 # Android : Jelly Bean sinon rien
 

@@ -3,6 +3,7 @@ title: "Comment ajouter un certificat https valide gratuitement grâce à StartS
 date: 2011-06-24
 tags: [nginx]
 slug: https-certificat-startssl
+disqus_identifier: /blog/https-certificat-startssl
 ---
 # Comment ajouter un certificat https valide gratuitement grâce à StartSSL
 

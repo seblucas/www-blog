@@ -3,6 +3,7 @@ title: "Firmware Kobo 3.11.0"
 date: 2014-10-20
 tags: [ereader]
 slug: kobo-ereader-firmware-3.11.0
+disqus_identifier: /blog/kobo-ereader-firmware-3.11.0
 ---
 # Firmware 3.11.0
 

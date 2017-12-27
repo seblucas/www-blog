@@ -3,6 +3,7 @@ title: "Installation de nginx sous Debian"
 date: 2010-10-12
 tags: [debian,nginx,php]
 slug: nginx-php-install
+disqus_identifier: /blog/nginx-php-install
 ---
 # Installation de nginx sous Debian
 

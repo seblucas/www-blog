@@ -3,6 +3,7 @@ title: "De la bidouille autour de la Kobo"
 date: 2012-11-29
 tags: [ereader]
 slug: kobo-ereader-touch-43
+disqus_identifier: /blog/kobo-ereader-touch-43
 ---
 # De la bidouille autour de la Kobo
 

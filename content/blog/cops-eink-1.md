@@ -3,6 +3,7 @@ title: "COPS : version alpha avec support des navigateurs de nos liseuses"
 date: 2012-04-18
 tags: [calibre,ereader,nginx,opds,php]
 slug: cops-eink-1
+disqus_identifier: /blog/cops-eink-1
 ---
 # COPS : version alpha avec support des navigateurs de nos liseuses
 

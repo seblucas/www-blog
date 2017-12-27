@@ -3,6 +3,7 @@ title: "Kobo by Fnac : sortie officielle et différences avec le Kobo original"
 date: 2011-11-30
 tags: [ereader]
 slug: kobo-ereader-touch-4
+disqus_identifier: /blog/kobo-ereader-touch-4
 ---
 # Kobo by Fnac : sortie officielle et différences avec le Kobo original
 

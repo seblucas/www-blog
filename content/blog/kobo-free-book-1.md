@@ -3,6 +3,7 @@ title: "Un livre offert par Kobo !"
 date: 2011-12-29
 tags: [ereader]
 slug: kobo-free-book-1
+disqus_identifier: /blog/kobo-free-book-1
 ---
 # Un livre offert par Kobo !
 

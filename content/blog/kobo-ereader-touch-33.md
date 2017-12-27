@@ -3,6 +3,7 @@ title: "Un peu plus de détails sur le Glo et le Mini"
 date: 2012-09-10
 tags: [ereader]
 slug: kobo-ereader-touch-33
+disqus_identifier: /blog/kobo-ereader-touch-33
 ---
 # Un peu plus de détails sur le Glo et le Mini
 

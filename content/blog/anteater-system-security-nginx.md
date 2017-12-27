@@ -3,6 +3,7 @@ title: "Mise à jour Dokuwiki Anteater et Nginx"
 date: 2010-11-25
 tags: [dokuwiki,nginx]
 slug: anteater-system-security-nginx
+disqus_identifier: /blog/anteater-system-security-nginx
 ---
 # Mise à jour Dokuwiki Anteater et Nginx
 

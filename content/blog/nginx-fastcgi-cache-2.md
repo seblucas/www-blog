@@ -3,6 +3,7 @@ title: "Le cache fastcgi et Nginx - Partie 2"
 date: 2011-09-18
 tags: [dokuwiki,nginx,php]
 slug: nginx-fastcgi-cache-2
+disqus_identifier: /blog/nginx-fastcgi-cache-2
 ---
 # Le cache fastcgi et Nginx - Partie 2
 

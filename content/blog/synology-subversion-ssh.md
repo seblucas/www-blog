@@ -3,6 +3,7 @@ title: "Installer un serveur Subversion sur un NAS Synology"
 date: 2010-10-15
 tags: [subversion,synology]
 slug: synology-subversion-ssh
+disqus_identifier: /blog/synology-subversion-ssh
 ---
 # Installer un serveur Subversion sur un NAS Synology
 

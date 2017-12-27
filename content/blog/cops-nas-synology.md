@@ -3,6 +3,7 @@ title: "COPS sur un NAS Synology"
 date: 2012-10-21
 tags: [calibre,opds,synology]
 slug: cops-nas-synology
+disqus_identifier: /blog/cops-nas-synology
 ---
 # COPS sur un NAS Synology
 

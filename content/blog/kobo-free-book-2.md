@@ -3,6 +3,7 @@ title: "Livre gratuit : L'Appel de la Lune: Mercy Thompson, T1"
 date: 2011-12-30
 tags: [ereader]
 slug: kobo-free-book-2
+disqus_identifier: /blog/kobo-free-book-2
 ---
 # Livre gratuit : L'Appel de la Lune: Mercy Thompson, T1
 

@@ -3,6 +3,7 @@ title: "Installer un serveur Mercurial sur un NAS Synology"
 date: 2011-11-27
 tags: [mercurial,synology]
 slug: synology-mercurial-ssh
+disqus_identifier: /blog/synology-mercurial-ssh
 ---
 # Installer un serveur Mercurial sur un NAS Synology
 

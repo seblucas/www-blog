@@ -3,6 +3,7 @@ title: "Installation de nginx 1.1.0"
 date: 2011-10-11
 tags: [debian,dockstar,nginx]
 slug: install-nginx-1.1.0
+disqus_identifier: /blog/install-nginx-1.1.0
 ---
 # Installation de nginx 1.1.0
 

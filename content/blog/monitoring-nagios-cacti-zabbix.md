@@ -3,6 +3,7 @@ title: "Une solution de monitoring assez simple : Zabbix"
 date: 2011-07-17
 tags: [debian]
 slug: monitoring-nagios-cacti-zabbix
+disqus_identifier: /blog/monitoring-nagios-cacti-zabbix
 ---
 # Une solution de monitoring assez simple : Zabbix
 

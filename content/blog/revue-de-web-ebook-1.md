@@ -3,6 +3,7 @@ title: "Ebook : Revue de Web - Volume 1"
 date: 2014-04-07
 tags: [epub,ereader]
 slug: revue-de-web-ebook-1
+disqus_identifier: /blog/revue-de-web-ebook-1
 ---
 # Ebook : Revue de Web - Volume 1
 

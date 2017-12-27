@@ -3,6 +3,7 @@ title: "Acheter un livre électronique : Pas facile"
 date: 2012-12-02
 tags: [ereader]
 slug: kobo-ereader-touch-44
+disqus_identifier: /blog/kobo-ereader-touch-44
 ---
 # Acheter un livre électronique : Pas facile
 

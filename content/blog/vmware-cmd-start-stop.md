@@ -3,6 +3,7 @@ title: "Arrêter / Démarrer une VM VMware en ligne de commande"
 date: 2010-10-07
 tags: [vmware]
 slug: vmware-cmd-start-stop
+disqus_identifier: /blog/vmware-cmd-start-stop
 ---
 # Arrêter / Démarrer une VM VMware en ligne de commande
 

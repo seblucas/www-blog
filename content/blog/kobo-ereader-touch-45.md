@@ -3,6 +3,7 @@ title: "Meilleure gestion des séries dans la Kobo"
 date: 2012-12-05
 tags: [ereader]
 slug: kobo-ereader-touch-45
+disqus_identifier: /blog/kobo-ereader-touch-45
 ---
 # Meilleure gestion des séries dans la Kobo
 

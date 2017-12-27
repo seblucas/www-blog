@@ -3,6 +3,7 @@ title: "Mon petit billet hebdomadaire sur le Kobo et ce qui tourne autour"
 date: 2012-02-18
 tags: [ereader]
 slug: kobo-ereader-touch-10
+disqus_identifier: /blog/kobo-ereader-touch-10
 ---
 # Mon petit billet hebdomadaire sur le Kobo et ce qui tourne autour
 

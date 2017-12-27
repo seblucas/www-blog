@@ -3,6 +3,7 @@ title: "Kobo eReader Touch : firmware 1.9.14 et revue de Web"
 date: 2011-11-26
 tags: [ereader]
 slug: kobo-ereader-touch-3
+disqus_identifier: /blog/kobo-ereader-touch-3
 ---
 # Kobo eReader Touch : firmware 1.9.14 et revue de Web
 

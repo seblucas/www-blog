@@ -3,6 +3,7 @@ title: "Le prochain firmware sera le 2.1.4"
 date: 2012-10-02
 tags: [ereader]
 slug: kobo-ereader-touch-36
+disqus_identifier: /blog/kobo-ereader-touch-36
 ---
 # Le prochain firmware sera le 2.1.4
 

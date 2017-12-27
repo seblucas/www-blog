@@ -3,6 +3,7 @@ title: "Meilleure gestion des césures pour le firmware 2.0.0"
 date: 2012-07-22
 tags: [ereader]
 slug: kobo-cesure
+disqus_identifier: /blog/kobo-cesure
 ---
 # Meilleure gestion des césures pour le firmware 2.0.0
 

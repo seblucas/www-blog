@@ -3,6 +3,7 @@ title: "Détails sur le nouveau site - Volume 1"
 date: 2014-04-11
 tags: [blog,nginx]
 slug: flat-file-cms-1
+disqus_identifier: /blog/flat-file-cms-1
 ---
 # Détails sur le nouveau site - Volume 1
 

@@ -3,6 +3,7 @@ title: "Ice Cream Sandwich sur Folio 100 - Une semaine après"
 date: 2012-03-19
 tags: [android]
 slug: ice-cream-sandwich-folio-100-1
+disqus_identifier: /blog/ice-cream-sandwich-folio-100-1
 ---
 # Ice Cream Sandwich sur Folio 100 - Une semaine après
 

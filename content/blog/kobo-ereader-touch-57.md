@@ -3,6 +3,7 @@ title: "Firmware 2.4.0 : Bilan à tête reposée"
 date: 2013-03-07
 tags: [epub,ereader]
 slug: kobo-ereader-touch-57
+disqus_identifier: /blog/kobo-ereader-touch-57
 ---
 # Firmware 2.4.0 : Bilan à tête reposée
 

@@ -3,6 +3,7 @@ title: "Le crash de vendredi et 1&1"
 date: 2012-05-27
 tags: [dropbox,nginx,vps]
 slug: vps-virtuozzo-memoire-1and1
+disqus_identifier: /blog/vps-virtuozzo-memoire-1and1
 ---
 # Le crash de vendredi et 1&1
 

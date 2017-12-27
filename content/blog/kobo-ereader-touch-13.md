@@ -3,6 +3,7 @@ title: "Retour sur la version 1.9.17 pour la Kobo Touch / Tétris sur la Kobo / 
 date: 2012-03-20
 tags: [ereader]
 slug: kobo-ereader-touch-13
+disqus_identifier: /blog/kobo-ereader-touch-13
 ---
 # Retour sur la version 1.9.17 pour la Kobo Touch / Tétris sur la Kobo / Revue de Web
 

@@ -3,6 +3,7 @@ title: "Ce site a deux ans"
 date: 2012-11-23
 tags: [blog]
 slug: anniversaire-2
+disqus_identifier: /blog/anniversaire-2
 ---
 # Ce site a deux ans
 

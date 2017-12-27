@@ -3,6 +3,7 @@ title: "Sauvegarder ses photos de famille - Partie 3 : La récupération des lie
 date: 2011-08-31
 tags: [picasa,python]
 slug: backup-photo-picasaweb-3
+disqus_identifier: /blog/backup-photo-picasaweb-3
 ---
 # Sauvegarder ses photos de famille - Partie 3 : La récupération des liens
 

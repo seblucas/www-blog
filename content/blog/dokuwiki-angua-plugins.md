@@ -3,6 +3,7 @@ title: "Mise à jour Dokuwiki vers la version Angua et dépôts pour les sources
 date: 2012-06-05
 tags: [dokuwiki]
 slug: dokuwiki-angua-plugins
+disqus_identifier: /blog/dokuwiki-angua-plugins
 ---
 # Mise à jour Dokuwiki vers la version Angua et dépôts pour les sources
 

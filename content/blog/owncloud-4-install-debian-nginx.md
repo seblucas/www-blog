@@ -3,6 +3,7 @@ title: "Installation de Owncloud 4.0.2 avec Debian et Nginx"
 date: 2012-06-17
 tags: [cloud,debian,nginx]
 slug: owncloud-4-install-debian-nginx
+disqus_identifier: /blog/owncloud-4-install-debian-nginx
 ---
 # Installation de Owncloud 4.0.2 avec Debian et Nginx
 

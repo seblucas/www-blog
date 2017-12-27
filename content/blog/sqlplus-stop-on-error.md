@@ -3,6 +3,7 @@ title: "Comment faire pour que Sqlplus s'arrête en cas d'erreur"
 date: 2011-05-28
 tags: [oracle]
 slug: sqlplus-stop-on-error
+disqus_identifier: /blog/sqlplus-stop-on-error
 ---
 # Comment faire pour que Sqlplus s'arrête en cas d'erreur
 

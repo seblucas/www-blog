@@ -3,6 +3,7 @@ title: "Mes lectures du premier trimestre 2014"
 date: 2014-04-03
 tags: [lecture]
 slug: lectures-2014-04
+disqus_identifier: /blog/lectures-2014-04
 ---
 # Mes lectures du premier trimestre 2014
 

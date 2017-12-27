@@ -3,6 +3,7 @@ title: "Installation d'une Debian Squeeze sur un Seagate Dockstar"
 date: 2010-10-11
 tags: [debian,dockstar]
 slug: dockstar-install-squeeze
+disqus_identifier: /blog/dockstar-install-squeeze
 ---
 # Installation d'une Debian Squeeze sur un Seagate Dockstar
 

@@ -3,6 +3,7 @@ title: "Quelques informations diverses et variées autour de la Kobo"
 date: 2012-09-23
 tags: [ereader]
 slug: kobo-ereader-touch-34
+disqus_identifier: /blog/kobo-ereader-touch-34
 ---
 # Quelques informations diverses et variées autour de la Kobo
 

@@ -3,6 +3,7 @@ title: "HTTPS disponible avec Nginx ... vraiment"
 date: 2011-12-16
 tags: [dockstar,dokuwiki,nginx]
 slug: https-ready-2
+disqus_identifier: /blog/https-ready-2
 ---
 # HTTPS disponible avec Nginx ... vraiment
 

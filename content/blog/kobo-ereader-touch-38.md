@@ -3,6 +3,7 @@ title: "Un peu plus de détail sur le firmware 2.1.4"
 date: 2012-10-04
 tags: [ereader]
 slug: kobo-ereader-touch-38
+disqus_identifier: /blog/kobo-ereader-touch-38
 ---
 # Un peu plus de détail sur le firmware 2.1.4
 

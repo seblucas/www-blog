@@ -3,6 +3,7 @@ title: "Sortie du Firmware 1.9.17 pour la Kobo touch (ou Kobo by Fnac)"
 date: 2012-03-17
 tags: [ereader]
 slug: kobo-ereader-touch-12
+disqus_identifier: /blog/kobo-ereader-touch-12
 ---
 # Sortie du Firmware 1.9.17 pour la Kobo touch (ou Kobo by Fnac)
 

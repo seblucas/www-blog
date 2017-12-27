@@ -3,6 +3,7 @@ title: "Firmware 2.0.0 retours après quelques jours et quelques autres choses"
 date: 2012-07-14
 tags: [ereader]
 slug: kobo-ereader-touch-24
+disqus_identifier: /blog/kobo-ereader-touch-24
 ---
 # Firmware 2.0.0 retours après quelques jours et quelques autres choses
 

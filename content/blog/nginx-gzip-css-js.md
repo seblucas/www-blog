@@ -3,6 +3,7 @@ title: "Paramétrage de la compression avec nginx"
 date: 2011-01-20
 tags: [dokuwiki,nginx]
 slug: nginx-gzip-css-js
+disqus_identifier: /blog/nginx-gzip-css-js
 ---
 # Paramétrage de la compression avec nginx
 

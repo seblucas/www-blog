@@ -3,6 +3,7 @@ title: "Le SPK de COPS est disponible"
 date: 2013-02-03
 tags: [calibre,opds,synology]
 slug: cops-spk-available
+disqus_identifier: /blog/cops-spk-available
 ---
 # Le SPK de COPS est disponible
 

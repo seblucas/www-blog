@@ -3,6 +3,7 @@ title: "Freebox et UPnP"
 date: 2010-09-26
 tags: [freebox,iptables,upnp]
 slug: freebox-upnp
+disqus_identifier: /blog/freebox-upnp
 ---
 # Freebox et UPnP
 

@@ -3,6 +3,7 @@ title: "Blog disponible en ipv6 : le retour"
 date: 2012-06-25
 tags: [dockstar,nginx]
 slug: blog-ipv6-ready-le-retour
+disqus_identifier: /blog/blog-ipv6-ready-le-retour
 ---
 # Blog disponible en ipv6 : le retour
 

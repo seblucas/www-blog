@@ -3,6 +3,7 @@ title: "SPK beta pour COPS avec compatibilité DSM 5"
 date: 2014-05-09
 tags: [calibre,opds,synology]
 slug: cops-spk-dsm5-beta-1
+disqus_identifier: /blog/cops-spk-dsm5-beta-1
 ---
 # SPK beta pour COPS avec compatibilité DSM 5
 

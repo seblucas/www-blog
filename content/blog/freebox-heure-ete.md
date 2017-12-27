@@ -3,6 +3,7 @@ title: "La Freebox V6 et l'heure d'été"
 date: 2012-03-27
 tags: [free]
 slug: freebox-heure-ete
+disqus_identifier: /blog/freebox-heure-ete
 ---
 # La Freebox V6 et l'heure d'été
 

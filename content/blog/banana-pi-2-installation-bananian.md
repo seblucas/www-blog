@@ -3,6 +3,7 @@ title: "Banana Pi - Installation Bananian"
 date: 2014-08-31
 tags: [bpi]
 slug: banana-pi-2-installation-bananian
+disqus_identifier: /blog/banana-pi-2-installation-bananian
 ---
 # Banana Pi - Installation Bananian
 

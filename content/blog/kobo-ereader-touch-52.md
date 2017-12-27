@@ -3,6 +3,7 @@ title: "Quelques news sur la Kobo"
 date: 2013-01-14
 tags: [ereader]
 slug: kobo-ereader-touch-52
+disqus_identifier: /blog/kobo-ereader-touch-52
 ---
 # Quelques news sur la Kobo
 

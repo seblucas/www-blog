@@ -3,6 +3,7 @@ title: "Banana Pi - Mise en place de RPI-Monitor"
 date: 2014-11-02
 tags: [bpi]
 slug: banana-pi-5-rpi-monitor
+disqus_identifier: /blog/banana-pi-5-rpi-monitor
 ---
 # Banana Pi - Mise en place de RPI-Monitor
 

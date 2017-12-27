@@ -3,6 +3,7 @@ title: "Mettre en place la protection par mot de passe sur COPS (Apache)"
 date: 2014-04-05
 tags: [calibre,ereader,nginx,opds,php]
 slug: cops-tutoriel-mot-de-passe-apache
+disqus_identifier: /blog/cops-tutoriel-mot-de-passe-apache
 ---
 # Mettre en place la protection par mot de passe sur COPS (Apache)
 

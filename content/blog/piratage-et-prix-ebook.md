@@ -3,6 +3,7 @@ title: "Piratage et prix des ebooks"
 date: 2012-03-15
 tags: [ereader]
 slug: piratage-et-prix-ebook
+disqus_identifier: /blog/piratage-et-prix-ebook
 ---
 # Piratage et prix des ebooks
 

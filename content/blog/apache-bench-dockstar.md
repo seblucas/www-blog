@@ -3,6 +3,7 @@ title: "Performance d'un serveur web sur un dockstar (Apache bench)"
 date: 2011-01-23
 tags: [dockstar,nginx]
 slug: apache-bench-dockstar
+disqus_identifier: /blog/apache-bench-dockstar
 ---
 # Performance d'un serveur web sur un dockstar (Apache bench)
 

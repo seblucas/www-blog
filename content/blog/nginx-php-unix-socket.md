@@ -3,6 +3,7 @@ title: "Nginx PHP Fastcgi avec socket Unix"
 date: 2011-01-24
 tags: [nginx,php]
 slug: nginx-php-unix-socket
+disqus_identifier: /blog/nginx-php-unix-socket
 ---
 # Nginx PHP Fastcgi avec socket Unix
 

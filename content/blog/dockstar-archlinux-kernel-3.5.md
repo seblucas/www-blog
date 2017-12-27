@@ -3,6 +3,7 @@ title: "Comment passer au noyau 3.5 sur le Dockstar (Archlinux)"
 date: 2012-10-03
 tags: [archlinux,dockstar]
 slug: dockstar-archlinux-kernel-3.5
+disqus_identifier: /blog/dockstar-archlinux-kernel-3.5
 ---
 # Comment passer au noyau 3.5 sur le Dockstar (Archlinux)
 

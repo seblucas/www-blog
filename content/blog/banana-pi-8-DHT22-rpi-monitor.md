@@ -3,6 +3,7 @@ title: "Banana Pi - Intégration des relevés du DHT22 dans RPI-Monitor"
 date: 2014-11-06
 tags: [bpi]
 slug: banana-pi-8-DHT22-rpi-monitor
+disqus_identifier: /blog/banana-pi-8-DHT22-rpi-monitor
 ---
 # Banana Pi - Intégration des relevés du DHT22 dans RPI-Monitor
 

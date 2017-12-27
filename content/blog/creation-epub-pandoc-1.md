@@ -3,6 +3,7 @@ title: "Transformer un livre papier en Epub"
 date: 2014-05-13
 tags: [epub,ereader]
 slug: creation-epub-pandoc-1
+disqus_identifier: /blog/creation-epub-pandoc-1
 ---
 # Transformer un livre papier en Epub
 

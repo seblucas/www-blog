@@ -3,6 +3,7 @@ title: "Passage à Ice Cream Sandwich avec mon Samsung Galaxy S - L'installation
 date: 2012-05-16
 tags: [android]
 slug: galaxy-s-ics
+disqus_identifier: /blog/galaxy-s-ics
 ---
 # Passage à Ice Cream Sandwich avec mon Samsung Galaxy S - L'installation
 

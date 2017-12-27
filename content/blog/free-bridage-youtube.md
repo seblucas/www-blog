@@ -3,6 +3,7 @@ title: "Y-a-t-il un bridage de Free avec Youtube et les autres services de Video
 date: 2012-02-28
 tags: [free]
 slug: free-bridage-youtube
+disqus_identifier: /blog/free-bridage-youtube
 ---
 # Y-a-t-il un bridage de Free avec Youtube et les autres services de Video sur le Web
 

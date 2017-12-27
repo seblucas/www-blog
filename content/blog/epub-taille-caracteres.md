@@ -3,6 +3,7 @@ title: "Taille de police différente selon les ebooks"
 date: 2012-05-07
 tags: [epub,ereader]
 slug: epub-taille-caracteres
+disqus_identifier: /blog/epub-taille-caracteres
 ---
 # Taille de police différente selon les ebooks
 

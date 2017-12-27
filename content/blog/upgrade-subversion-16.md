@@ -3,6 +3,7 @@ title: "Mise à jour vers Subversion 1.6"
 date: 2011-02-08
 tags: [subversion]
 slug: upgrade-subversion-16
+disqus_identifier: /blog/upgrade-subversion-16
 ---
 # Mise à jour vers Subversion 1.6
 

@@ -3,6 +3,7 @@ title: "Bragelonne : Opération 1000k"
 date: 2014-11-05
 tags: [ereader]
 slug: bragelonne-operation-1000k
+disqus_identifier: /blog/bragelonne-operation-1000k
 ---
 # Bragelonne : Opération 1000k
 

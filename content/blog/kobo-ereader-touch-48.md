@@ -3,6 +3,7 @@ title: "Firmware Kobo 2.3.1 : La suite"
 date: 2012-12-17
 tags: [ereader]
 slug: kobo-ereader-touch-48
+disqus_identifier: /blog/kobo-ereader-touch-48
 ---
 # Firmware Kobo 2.3.1 : La suite
 

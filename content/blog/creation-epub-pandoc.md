@@ -3,6 +3,7 @@ title: "Comment créer un fichier epub avec pandoc et Markdown"
 date: 2014-05-07
 tags: [epub,ereader]
 slug: creation-epub-pandoc
+disqus_identifier: /blog/creation-epub-pandoc
 ---
 # Comment créer un fichier epub avec Pandoc et Markdown
 

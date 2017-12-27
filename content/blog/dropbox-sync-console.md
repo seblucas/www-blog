@@ -3,6 +3,7 @@ title: "Récupérer des répertoires Dropbox en console"
 date: 2012-01-24
 tags: [debian]
 slug: dropbox-sync-console
+disqus_identifier: /blog/dropbox-sync-console
 ---
 # Récupérer des répertoires Dropbox en console
 

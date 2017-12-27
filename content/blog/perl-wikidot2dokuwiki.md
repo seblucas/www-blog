@@ -3,6 +3,7 @@ title: "Transformation Wikidot > Dokuwiki"
 date: 2010-09-26
 tags: [dokuwiki,perl]
 slug: perl-wikidot2dokuwiki
+disqus_identifier: /blog/perl-wikidot2dokuwiki
 ---
 # Transformation Wikidot > Dokuwiki
 

@@ -3,6 +3,7 @@ title: "XBMC sur le Raspberry Pi - Raspbmc RC5"
 date: 2012-11-03
 tags: [rpi,xbmc]
 slug: raspberry-pi-xbmc-4
+disqus_identifier: /blog/raspberry-pi-xbmc-4
 ---
 # XBMC sur le Raspberry Pi - Raspbmc RC5
 

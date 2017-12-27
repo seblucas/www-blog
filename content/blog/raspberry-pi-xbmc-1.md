@@ -3,6 +3,7 @@ title: "Installation de XBMC sur le Raspberry Pi - Les choix"
 date: 2012-09-01
 tags: [rpi]
 slug: raspberry-pi-xbmc-1
+disqus_identifier: /blog/raspberry-pi-xbmc-1
 ---
 # Installation de XBMC sur le Raspberry Pi - Les choix
 

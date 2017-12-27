@@ -3,6 +3,7 @@ title: "Bragelonne : Opération 200k"
 date: 2012-09-14
 tags: [ereader]
 slug: bragelonne-operation-200k
+disqus_identifier: /blog/bragelonne-operation-200k
 ---
 # Bragelonne : Opération 200k
 

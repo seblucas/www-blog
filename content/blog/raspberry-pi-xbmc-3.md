@@ -3,6 +3,7 @@ title: "XBMC sur le Raspberry PI - Quelques trucs"
 date: 2012-10-18
 tags: [rpi,xbmc]
 slug: raspberry-pi-xbmc-3
+disqus_identifier: /blog/raspberry-pi-xbmc-3
 ---
 # XBMC sur le Raspberry PI - Quelques trucs
 

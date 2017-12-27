@@ -3,6 +3,7 @@ title: "Sortie du firmware 2.1.4"
 date: 2012-10-04
 tags: [ereader]
 slug: kobo-ereader-touch-37
+disqus_identifier: /blog/kobo-ereader-touch-37
 ---
 # Sortie du firmware 2.1.4
 

@@ -3,6 +3,7 @@ title: "Sortie du firmware 2.2.0 au Japon"
 date: 2012-11-15
 tags: [ereader]
 slug: kobo-ereader-touch-42
+disqus_identifier: /blog/kobo-ereader-touch-42
 ---
 # Sortie du firmware 2.2.0 au Japon
 

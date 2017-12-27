@@ -3,6 +3,7 @@ title: "Migration sur un VPS L de 1&1"
 date: 2011-12-31
 tags: [debian,dockstar,nginx]
 slug: migration-1and1
+disqus_identifier: /blog/migration-1and1
 ---
 # Migration sur un VPS L de 1&1
 

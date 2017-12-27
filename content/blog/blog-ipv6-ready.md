@@ -3,6 +3,7 @@ title: "Vous l'attendiez ..... Ce site est disponible en ipv6"
 date: 2011-01-15
 tags: [nginx]
 slug: blog-ipv6-ready
+disqus_identifier: /blog/blog-ipv6-ready
 ---
 # Vous l'attendiez ..... Ce site est disponible en ipv6
 

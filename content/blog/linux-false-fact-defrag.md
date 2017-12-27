@@ -3,6 +3,7 @@ title: "Linux n'a pas besoin de defragmenteur ......"
 date: 2010-10-02
 tags: [debian]
 slug: linux-false-fact-defrag
+disqus_identifier: /blog/linux-false-fact-defrag
 ---
 # Linux n'a pas besoin de defragmenteur ......
 

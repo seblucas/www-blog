@@ -3,6 +3,7 @@ title: "Plus de répertoire Public dans les nouveaux comptes Dropbox ?"
 date: 2012-06-16
 tags: [cloud,dropbox,opds]
 slug: dropbox-public-folder
+disqus_identifier: /blog/dropbox-public-folder
 ---
 # Plus de répertoire Public dans les nouveaux comptes Dropbox ?
 

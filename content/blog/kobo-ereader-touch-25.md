@@ -3,6 +3,7 @@ title: "Retour de la mise à jour 2.0.0 ??"
 date: 2012-07-16
 tags: [ereader]
 slug: kobo-ereader-touch-25
+disqus_identifier: /blog/kobo-ereader-touch-25
 ---
 # Retour de la mise à jour 2.0.0 ??
 

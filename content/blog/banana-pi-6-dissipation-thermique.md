@@ -3,6 +3,7 @@ title: "Banana Pi - Dissipation thermique"
 date: 2014-11-03
 tags: [bpi]
 slug: banana-pi-6-dissipation-thermique
+disqus_identifier: /blog/banana-pi-6-dissipation-thermique
 ---
 # Banana Pi - Dissipation thermique
 

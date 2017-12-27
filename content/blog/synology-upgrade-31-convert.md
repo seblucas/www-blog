@@ -3,6 +3,7 @@ title: "Mise à jour de Diskstation Manager en 3.1 sur NAS Synology et lenteurs 
 date: 2011-03-12
 tags: [synology]
 slug: synology-upgrade-31-convert
+disqus_identifier: /blog/synology-upgrade-31-convert
 ---
 # Mise à jour de Diskstation Manager en 3.1 sur NAS Synology et lenteurs 
 

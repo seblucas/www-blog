@@ -3,6 +3,7 @@ title: "Banana Pi - Amélioration du programme de lecture de la sonde DHT22"
 date: 2014-11-16
 tags: [bpi]
 slug: banana-pi-9-loldht22-enhancement
+disqus_identifier: /blog/banana-pi-9-loldht22-enhancement
 ---
 # Banana Pi - Amélioration du programme de lecture de la sonde DHT22
 

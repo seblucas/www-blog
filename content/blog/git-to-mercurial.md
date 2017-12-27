@@ -3,6 +3,7 @@ title: "Migration Git vers Mercurial"
 date: 2011-02-08
 tags: [git,mercurial]
 slug: git-to-mercurial
+disqus_identifier: /blog/git-to-mercurial
 ---
 # Migration Git vers Mercurial
 

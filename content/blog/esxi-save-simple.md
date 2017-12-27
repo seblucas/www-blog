@@ -3,6 +3,7 @@ title: "Sauvegarde simple des VMs d'un hôte VMWare ESXi"
 date: 2011-05-12
 tags: [perl,vmware]
 slug: esxi-save-simple
+disqus_identifier: /blog/esxi-save-simple
 ---
 # Sauvegarde simple des VMs d'un hôte VMWare ESXi
 

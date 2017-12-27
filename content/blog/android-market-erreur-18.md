@@ -3,6 +3,7 @@ title: "Erreur -18 à l'installation de mise à jour avec l'Android Market"
 date: 2011-03-19
 tags: [android]
 slug: android-market-erreur-18
+disqus_identifier: /blog/android-market-erreur-18
 ---
 # Erreur -18 à l'installation de mise à jour avec l'Android Market
 

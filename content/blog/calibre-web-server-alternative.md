@@ -3,6 +3,7 @@ title: "Alternative au serveur de contenu de Calibre"
 date: 2012-02-28
 tags: [calibre,ereader]
 slug: calibre-web-server-alternative
+disqus_identifier: /blog/calibre-web-server-alternative
 ---
 # Alternative au serveur de contenu de Calibre
 

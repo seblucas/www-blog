@@ -3,6 +3,7 @@ title: "Firmware Kobo 2.5.2"
 date: 2013-05-10
 tags: [epub,ereader]
 slug: kobo-ereader-touch-59
+disqus_identifier: /blog/kobo-ereader-touch-59
 ---
 # Firmware Kobo 2.5.2
 

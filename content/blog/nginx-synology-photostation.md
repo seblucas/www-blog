@@ -3,6 +3,7 @@ title: "Nginx et Photostation"
 date: 2011-01-24
 tags: [dockstar,nginx,synology]
 slug: nginx-synology-photostation
+disqus_identifier: /blog/nginx-synology-photostation
 ---
 # Nginx et Photostation
 

@@ -3,6 +3,7 @@ title: "Petite revue de Web autour du Kobo eReader Touch et quelques trucs et as
 date: 2012-01-08
 tags: [ereader]
 slug: kobo-ereader-touch-7
+disqus_identifier: /blog/kobo-ereader-touch-7
 ---
 # Petite revue de Web autour du Kobo eReader Touch et quelques trucs et astuces en prime
 

@@ -3,6 +3,7 @@ title: "Nouvelles d'OpenElec / Tvheadend / Raspberry Pi"
 date: 2013-04-03
 tags: [rpi,xbmc]
 slug: raspberry-pi-xbmc-8
+disqus_identifier: /blog/raspberry-pi-xbmc-8
 ---
 # Nouvelles d'OpenElec / Tvheadend / Raspberry Pi
 

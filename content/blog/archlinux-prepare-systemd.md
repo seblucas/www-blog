@@ -3,6 +3,7 @@ title: "Préparer le passage à Systemd sur Archlinux"
 date: 2013-03-07
 tags: [archlinux,dockstar]
 slug: archlinux-prepare-systemd
+disqus_identifier: /blog/archlinux-prepare-systemd
 ---
 # Préparer le passage à Systemd sur Archlinux
 

@@ -3,6 +3,7 @@ title: "Rakuten lance le Kobo eReader Touch au Japon"
 date: 2012-07-03
 tags: [ereader]
 slug: kobo-ereader-touch-20
+disqus_identifier: /blog/kobo-ereader-touch-20
 ---
 # Rakuten lance le Kobo eReader Touch au Japon
 

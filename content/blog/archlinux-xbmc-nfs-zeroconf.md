@@ -3,6 +3,7 @@ title: "Faciliter l'intégration des partages NFS dans XBMC"
 date: 2013-01-14
 tags: [archlinux,xbmc]
 slug: archlinux-xbmc-nfs-zeroconf
+disqus_identifier: /blog/archlinux-xbmc-nfs-zeroconf
 ---
 # Faciliter l'intégration des partages NFS dans XBMC
 

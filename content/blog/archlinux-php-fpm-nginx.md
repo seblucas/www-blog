@@ -3,6 +3,7 @@ title: "Nginx et PHP avec Archlinux : pas si facile"
 date: 2012-06-24
 tags: [archlinux,dockstar,nginx,php]
 slug: archlinux-php-fpm-nginx
+disqus_identifier: /blog/archlinux-php-fpm-nginx
 ---
 # Nginx et PHP avec Archlinux : pas si facile
 

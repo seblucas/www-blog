@@ -3,6 +3,7 @@ title: "La Kobo va avoir un dictionnaire français très bientôt !"
 date: 2012-07-05
 tags: [ereader]
 slug: kobo-ereader-touch-21
+disqus_identifier: /blog/kobo-ereader-touch-21
 ---
 # La Kobo va avoir un dictionnaire français "très bientôt" !
 

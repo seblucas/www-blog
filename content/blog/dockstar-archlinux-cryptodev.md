@@ -3,6 +3,7 @@ title: "Dockstar et ArchLinux : tout ça pour l'accélération matérielle"
 date: 2012-04-03
 tags: [archlinux,dockstar]
 slug: dockstar-archlinux-cryptodev
+disqus_identifier: /blog/dockstar-archlinux-cryptodev
 ---
 # Dockstar et ArchLinux : tout ça pour l'accélération matérielle
 

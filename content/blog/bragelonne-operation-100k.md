@@ -3,6 +3,7 @@ title: "Bragelonne : opération 100k"
 date: 2012-03-26
 tags: [epub,ereader]
 slug: bragelonne-operation-100k
+disqus_identifier: /blog/bragelonne-operation-100k
 ---
 # Bragelonne : opération 100k
 

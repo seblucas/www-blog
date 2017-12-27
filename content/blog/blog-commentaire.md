@@ -3,6 +3,7 @@ title: "Des commentaires dans le Blog"
 date: 2012-07-05
 tags: [blog]
 slug: blog-commentaire
+disqus_identifier: /blog/blog-commentaire
 ---
 # Des commentaires dans le Blog
 

@@ -3,6 +3,7 @@ title: "Firmware 2.6.1 pour Kobo ?"
 date: 2013-06-07
 tags: [epub,ereader]
 slug: kobo-ereader-touch-60
+disqus_identifier: /blog/kobo-ereader-touch-60
 ---
 # Firmware 2.6.1 pour Kobo ?
 

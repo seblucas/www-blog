@@ -2,6 +2,7 @@
 title: "esxi-control"
 date: 2011-10-11
 slug: esxi-control
+disqus_identifier: /blog/esxi-control
 ---
 # esxi-control
 
