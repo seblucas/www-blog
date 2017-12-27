@@ -9,7 +9,7 @@ slug: cops-1.0.0RC2
 Quelques corrections de bugs et quelques évolutions pour cette nouvelle version :
 
 * [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)
-* [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
+* [Liste des changements](https://github.com/seblucas/cops/blob/master/CHANGELOG)
 
 ## Template bootstrap
 

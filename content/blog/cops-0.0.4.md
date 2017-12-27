@@ -9,7 +9,7 @@ slug: cops-0.0.4
 Aujourd'hui sort la 4ième version de COPS avec notamment le support des tags Calibre.
 
 * [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)
-* [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
+* [Liste des changements](https://github.com/seblucas/cops/blob/master/CHANGELOG)
 
 Comme la dernière fois j'ai fait des modifications à la version HTML(voir [COPS : version alpha avec support des navigateurs de nos liseuses](/blog/cops-eink-1)) avec notamment la recherche et d'autres petites choses.
 

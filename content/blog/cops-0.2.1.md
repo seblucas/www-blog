@@ -9,7 +9,7 @@ slug: cops-0.2.1
 J'ai eu très peu de temps à accorder à COPS depuis mon retour de vacances, mais j'ai fait suffisamment de corrections de bugs pour ressortir une nouvelle version. La communauté des utilisateurs de COPS s'élargit et j'ai eu beaucoup de mails et de retours via Github, cela m'oblige à être plus professionnel avec ce projet (une bonne chose). Voila le résultat :
 
 * [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)
-* [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
+* [Liste des changements](https://github.com/seblucas/cops/blob/master/CHANGELOG)
 
 Les modifications ne concernent que des corrections de bugs à une exception près : la recherche sur le catalogue OPDS. Un utilisateur m'a indiqué que la recherche ne fonctionnait plus à partir de FBReaderJ et j'ai pu confirmer qu'il avait raison. Or, je suis certain que cela fonctionnait parfaitement en mai, j'ai donc pensé donc à une régression de FBReaderJ d'autant plus que Mantano continue de bien fonctionner. 
 
