@@ -3,6 +3,7 @@ DefaultContentLanguage = "en"
 title = "Technology and Me"
 theme = "cocoa-eh"
 author = "Sébastien Lucas"
+relativeURLs = true
 
 [permalinks]
 blog = "blog/:slug/"
