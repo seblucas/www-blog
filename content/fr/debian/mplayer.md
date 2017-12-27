@@ -1,12 +1,10 @@
-/*
-Title: Compilation de MPlayer
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: fr
-Tags: multimedia
-*/
+---
+title: "Compilation de MPlayer"
+date: 2012-11-10
+tags: [multimedia]
+slug: mplayer
+aliases: [/fr/debian/mplayer]
+---
 # Compilation de MPlayer
 
 ## Introduction

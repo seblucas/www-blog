@@ -1,12 +1,10 @@
-/*
-Title: Tips & Tricks Debian
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Date: 2010/10/13
-Robots: noindex,nofollow
-Language: fr
-*/
+---
+title: "Tips & Tricks Debian"
+date: 2012-11-10
+date: 2010-10-13
+slug: tips
+aliases: [/fr/debian/tips]
+---
 # Tips & Tricks Debian
 
 ## Vous cherchez autre chose

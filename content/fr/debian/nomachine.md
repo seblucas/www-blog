@@ -1,12 +1,10 @@
-/*
-Title: Installation de NoMachine
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: fr
-Tags: debian
-*/
+---
+title: "Installation de NoMachine"
+date: 2012-11-10
+tags: [debian]
+slug: nomachine
+aliases: [/fr/debian/nomachine]
+---
 # Installation de NoMachine
 
 ## Introduction

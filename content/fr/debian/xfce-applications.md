@@ -1,12 +1,10 @@
-/*
-Title: Applications utiles
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: fr
-Tags: xfce,xorg
-*/
+---
+title: "Applications utiles"
+date: 2012-11-10
+tags: [xfce,xorg]
+slug: xfce-applications
+aliases: [/fr/debian/xfce-applications]
+---
 # Applications utiles
 
 ## Emulateur de terminal

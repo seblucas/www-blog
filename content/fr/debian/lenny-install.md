@@ -1,12 +1,10 @@
-/*
-Title: Installer Debian Lenny
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: fr
-Tags: lenny
-*/
+---
+title: "Installer Debian Lenny"
+date: 2012-11-10
+tags: [lenny]
+slug: lenny-install
+aliases: [/fr/debian/lenny-install]
+---
 # Installer Debian Lenny
 
 ## Téléchargement de l'ISO

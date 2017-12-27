@@ -1,12 +1,10 @@
-/*
-Title: Le voisinage réseau sous Debian : merci à Gigolo
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: fr
-Tags: debian,xfce
-*/
+---
+title: "Le voisinage réseau sous Debian : merci à Gigolo"
+date: 2012-11-10
+tags: [debian,xfce]
+slug: squeeze-gigolo
+aliases: [/fr/debian/squeeze-gigolo]
+---
 # Le voisinage réseau sous Debian : merci à Gigolo
 
 ## Etat de l'art

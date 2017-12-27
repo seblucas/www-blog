@@ -1,12 +1,10 @@
-/*
-Title: Midori : l'autre navigateur Web
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: fr
-Tags: debian,xfce
-*/
+---
+title: "Midori : l'autre navigateur Web"
+date: 2012-11-10
+tags: [debian,xfce]
+slug: squeeze-midori
+aliases: [/fr/debian/squeeze-midori]
+---
 # Midori : l'autre navigateur Web
 
 ## Encore un !!

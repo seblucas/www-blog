@@ -1,12 +1,10 @@
-/*
-Title: Tutoriel Iptables
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: fr
-Tags: debian,iptables
-*/
+---
+title: "Tutoriel Iptables"
+date: 2012-11-10
+tags: [debian,iptables]
+slug: iptables
+aliases: [/fr/debian/iptables]
+---
 # Tutoriel Iptables
 
 ## Netfilter, iptables ??

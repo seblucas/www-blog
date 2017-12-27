@@ -1,12 +1,10 @@
-/*
-Title: Debian & IPV6
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: fr
-Tags: iptables
-*/
+---
+title: "Debian & IPV6"
+date: 2012-11-10
+tags: [iptables]
+slug: ipv6
+aliases: [/fr/debian/ipv6]
+---
 # Debian & IPV6
 
 ## Pourquoi ?

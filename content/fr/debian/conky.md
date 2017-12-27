@@ -1,12 +1,10 @@
-/*
-Title: Installer et configurer Conky
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: fr
-Tags: xfce
-*/
+---
+title: "Installer et configurer Conky"
+date: 2012-11-10
+tags: [xfce]
+slug: conky
+aliases: [/fr/debian/conky]
+---
 # Installer et configurer Conky
 
 ## Inutile mais amusant
