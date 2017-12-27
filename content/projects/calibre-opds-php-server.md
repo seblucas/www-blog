@@ -3,6 +3,8 @@ title: "COPS"
 lastmod: 2017-04-02
 date: 2012-05-07
 tags: ["calibre", "ereader", "nginx", "opds", "php"]
+aliases:
+    - en/oss/calibre-opds-php-server
 ---
 # Here is COPS : Calibre OPDS (and HTML) PHP Server
 
