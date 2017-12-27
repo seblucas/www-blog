@@ -1,11 +1,9 @@
-/*
-Title: Debian
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: en
-*/
+---
+title: "Debian"
+date: 2012-11-10
+slug: start
+aliases: [/en/debian/start]
+---
 # Debian
 
 ## Why

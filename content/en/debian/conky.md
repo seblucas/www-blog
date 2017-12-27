@@ -1,12 +1,10 @@
-/*
-Title: Install and configure Conky
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: en
-Tags: xfce
-*/
+---
+title: "Install and configure Conky"
+date: 2012-11-10
+tags: [xfce]
+slug: conky
+aliases: [/en/debian/conky]
+---
 # Install and configure Conky
 
 ## Useless but fun

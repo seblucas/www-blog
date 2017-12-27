@@ -1,12 +1,10 @@
-/*
-Title: Compiler MPlayer
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: en
-Tags: multimedia
-*/
+---
+title: "Compiler MPlayer"
+date: 2012-11-10
+tags: [multimedia]
+slug: mplayer
+aliases: [/en/debian/mplayer]
+---
 # Compiler MPlayer
 
 ## Introduction

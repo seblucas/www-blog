@@ -1,12 +1,10 @@
-/*
-Title: Installation of Xorg
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: en
-Tags: lenny,xfce
-*/
+---
+title: "Installation of Xorg"
+date: 2012-11-10
+tags: [lenny,xfce]
+slug: lenny-xorg
+aliases: [/en/debian/lenny-xorg]
+---
 # Installation of Xorg
 
 ## Prerequisites

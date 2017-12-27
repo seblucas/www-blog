@@ -1,12 +1,10 @@
-/*
-Title: Full iptables script
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: en
-Tags: iptables
-*/
+---
+title: "Full iptables script"
+date: 2012-11-10
+tags: [iptables]
+slug: iptables-script
+aliases: [/en/debian/iptables-script]
+---
 # Full iptables script
 
 ```bash

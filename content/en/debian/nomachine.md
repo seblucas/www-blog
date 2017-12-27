@@ -1,12 +1,10 @@
-/*
-Title: How to install NoMachine
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: en
-Tags: debian
-*/
+---
+title: "How to install NoMachine"
+date: 2012-11-10
+tags: [debian]
+slug: nomachine
+aliases: [/en/debian/nomachine]
+---
 # How to install NoMachine
 
 ## Why

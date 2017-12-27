@@ -1,12 +1,10 @@
-/*
-Title: Useful applications
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: en
-Tags: xfce,xorg
-*/
+---
+title: "Useful applications"
+date: 2012-11-10
+tags: [xfce,xorg]
+slug: xfce-applications
+aliases: [/en/debian/xfce-applications]
+---
 # Useful applications
 
 ## XTerm

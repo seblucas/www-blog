@@ -1,12 +1,10 @@
-/*
-Title: Iptables howto
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: en
-Tags: debian,iptables
-*/
+---
+title: "Iptables howto"
+date: 2012-11-10
+tags: [debian,iptables]
+slug: iptables
+aliases: [/en/debian/iptables]
+---
 # Iptables howto
 
 ## Netfilter, iptables ??

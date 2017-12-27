@@ -1,12 +1,10 @@
-/*
-Title: Automount with XFCE and Lenny
-Date: 2012/11/10
-Description: 
-Author: Sébastien Lucas
-Robots: noindex,nofollow
-Language: en
-Tags: lenny,xfce
-*/
+---
+title: "Automount with XFCE and Lenny"
+date: 2012-11-10
+tags: [lenny,xfce]
+slug: lenny-xfce-automount
+aliases: [/en/debian/lenny-xfce-automount]
+---
 # Automount with XFCE and Lenny
 
 ## Preliminary
