@@ -9,6 +9,11 @@ disqusShortname = "slucas"
 pygmentsCodeFences = true
 pygmentsUseClasses=true
 
+[taxonomies]
+category = "categories"
+series = "series"
+tags = "tags"
+
 [permalinks]
 blog = "blog/:slug/"
 

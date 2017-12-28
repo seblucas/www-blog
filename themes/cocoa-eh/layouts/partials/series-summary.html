@@ -1,0 +1,4 @@
+{{if .Params.series}}
+  {{ $name := index .Params.series 0 }}
+  <div class="series-summary">This post is part of the <a href="/series/{{$name | urlize}}">{{$name}}</a> series.</div>
+{{end}}
