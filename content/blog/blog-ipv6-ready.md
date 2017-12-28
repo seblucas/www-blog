@@ -20,7 +20,7 @@ J'ai quand même eu une angoisse concernant nginx, je me suis rendu compte que l
 
 Au début j'ai pensé compiler la dernière version de nginx, mais une grande flemme aidant j'ai trouvé une solution plus simple :
 
-```
+```nginx
 location ~ ^/(data|conf|bin|inc) {
   return 404;
 }

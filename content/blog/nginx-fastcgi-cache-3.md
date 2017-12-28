@@ -20,7 +20,7 @@ Change: now nginx does not cache by default backend responses, if they have a "S
 
 Pour régler le problème (c'est à dire forcer le cache même si tout semble indiquer que le cache serait une mauvaise solution), j'ai trouvé une solution sur ce [post](http://forum.nginx.org/read.php?2,121511). Donc mon code ressemble à çà :
 
-```
+```nginx
 location ~ doku\.php$ {
                fastcgi_cache mycache;
                fastcgi_cache_key $request_method$host$request_uri;
@@ -38,7 +38,7 @@ Avec la configuration ci dessus le cache est actif pour tout le monde ... même 
 
 Comme je suis le seul contributeur à ce blog, il faut juste que je trouve une solution pour que le cache ne s'applique pas à moi. La solution la plus simple que j'ai trouvé est de faire un contrôle sur cookie : Si le navigateur du visiteur a un certain cookie alors il ne passe pas par le cache. Bingo ça marche :
 
-```
+```nginx
 location ~ doku\.php$ {
                set $pasdecache "";
                if ($http_cookie ~ pasdecache) {

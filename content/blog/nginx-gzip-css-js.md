@@ -22,7 +22,7 @@ gzip_types text/plain text/css application/json application/x-javascript text/xm
 
 En plus de changer la compression j'ai aussi changé la mise en cache des images pour qu'elle restent en cache (sur le navigateur du visiteur du site) plus longtemps :
 
-```
+```nginx
 location ~ ^/lib.*\.(gif|png|ico|jpg)$ {
     expires 31d;
 }

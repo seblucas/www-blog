@@ -22,7 +22,7 @@ J'ai donc suivi le lien sur le rewrite pour modifier dokuwiki :
 * useslash = 1
 J'ai ensuite modifié ma configuration nginx en conséquence (comme indiqué dans le lien) :
 
-```
+```nginx
         root   /var/www/xxx;
         index doku.php;
 
@@ -54,7 +54,7 @@ Ca marche bien .... sauf pour les tags qui restent avec des urls longues comme l
 J'ai cherché un petit peu et j'ai juste trouvé un post sur une mailing list correspondant exactement à mon problème : http://www.freelists.org/post/dokuwiki/PATCH-Clean-URLs-for-tags-and-blogarchive .
 J'ai donc bêtement appliqué son patch et tout a fonctionné du premier coup. Il restait juste à ajouter une règle dans la configuration nginx :
 
-```
+```nginx
         location @dokuwiki {
                 rewrite ^/_media/(.*) /lib/exe/fetch.php?media=$1 last;
                 rewrite ^/_detail/(.*) /lib/exe/detail.php?media=$1 last;
@@ -65,7 +65,7 @@ J'ai donc bêtement appliqué son patch et tout a fonctionné du premier coup. I
 ```
 Si besoin, le patch pour le plugin tag est en dessous :
 
-```-
+```diff
 diff -Naur -x '*.dat' dokuwiki/lib/plugins/tag/action.php slucas-wiki/lib/plugins/tag/action.php
 --- dokuwiki/lib/plugins/tag/action.php 2009-04-27 19:56:32.000000000 +0000
 +++ slucas-wiki/lib/plugins/tag/action.php      2010-09-27 20:03:39.000000000 +0000
@@ -114,7 +114,7 @@ diff -Naur -x '*.dat' dokuwiki/lib/plugins/tag/helper.php slucas-wiki/lib/plugin
 
 Ce plugin (http://www.dokuwiki.org/plugin:cloud) n'était pas non plus adapté aux url propres dans les nuages de tags qu'il génère, je l'ai donc modifié de la même manière que le plugin tag.
 
-```-
+```diff
 diff -Naur -x '*.dat' dokuwiki/lib/plugins/cloud/syntax.php slucas-wiki/lib/plugins/cloud/syntax.php
 --- dokuwiki/lib/plugins/cloud/syntax.php       2010-09-03 09:50:16.000000000 +0000
 +++ slucas-wiki/lib/plugins/cloud/syntax.php    2010-09-28 11:53:52.000000000 +0000

@@ -19,7 +19,7 @@ pacman -S avahi
 
 Ajouter le fichier suivant dans /etc/avahi/services :
 
-```
+```xml
 <?xml version="1.0" standalone='no'?>
  <!DOCTYPE service-group SYSTEM "avahi-service.dtd">
  <service-group>

@@ -21,7 +21,7 @@ J'aime notamment le principe de son script `temp_daemon.sh` qui permet de gérer
 
 Les ports 80 et 443 de mon Banana Pi sont exportés sur ma Freebox , je veux donc avoir accès à RPI-Monitor de partout. J'ai donc préparé un certificat SSL avec [StartSLL](https-ready), un fichier de mot de passe et cela m'a donné le fichier de configuration nginx suivant :
 
-```
+```nginx
 server {
         listen   [::]:443;
         ssl on;

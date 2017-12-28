@@ -21,7 +21,7 @@ http://wiki.nginx.org/HttpFcgiModule
 
 On modifie /etc/nginx/nginx.conf :
 
-```
+```nginx
 fastcgi_cache_path /tmp/nginx
                    levels=1:2
                    keys_zone=mycache:10m
@@ -40,7 +40,7 @@ Une petite explication :
 
 Modifier votre site web (typiquement dans /etc/nginx/sites-enabled) :
 
-```
+```nginx
 location ~ \.php$ {
                 fastcgi_cache mycache; #################
                 fastcgi_cache_key $request_method$host$request_uri; #################

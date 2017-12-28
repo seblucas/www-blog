@@ -12,7 +12,7 @@ J'ai un nas Synology (voir [Installer un serveur Subversion sur un NAS Synology]
 
 ## Configuration nginx
 
-```
+```nginx
         location /photo {
                 proxy_pass http://192.168.0.42/photo;
         }

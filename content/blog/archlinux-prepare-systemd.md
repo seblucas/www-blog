@@ -13,24 +13,27 @@ Le weekend dernier avant la sortie de COPS ([COPS 0.3.2](/blog/cops-0.3.2)) j'ai
 rc.d stop php-fpm
 rc.d start php-fpm
 ```
+
 Mais là j'ai le désagréable message suivant :
 
 ```
 :: Daemon script php-fpm does not exist or is not executable.
 ```
+
 Après recherche cela est au passage de Sysvinit à [Systemd](https://wiki.archlinux.org/index.php/Systemd) de Archlinux. Vous trouverez donc ci-après la méthode de migration la plus sure que j'ai trouvée.
 
 Source : http://archlinuxarm.org/forum/viewtopic.php?f=18&t=4979
 
 ## Préparation de systemd
 
-```
+```shell
 pacman -Sy systemd-sysvcompat
 pacman -Qo /sbin/init
 ```
+
 Bien accepter les demandes de confirmation. Ensuite vous devriez pouvoir vérifier ceci :
 
-```
+```shell
 [root@minus ~]# ls -l /sbin/init
 lrwxrwxrwx 1 root root 26 16 janv. 19:38 /sbin/init -> ../usr/lib/systemd/systemd
 ```
@@ -39,14 +42,14 @@ lrwxrwxrwx 1 root root 26 16 janv. 19:38 /sbin/init -> ../usr/lib/systemd/system
 
 Au minimum il faut activer les services suivants
 
-```
+```shell
 systemctl enable dhcpcd@eth0.service
 systemctl enable sshd.service
 ```
 
 Pour obtenir la liste des services activables :
 
-```
+```shell
 ls /usr/lib/systemd/system/*.service
 ```
 
@@ -58,7 +61,7 @@ grep "DAEMON" /etc/rc.conf
 
 J'ai personnellement activé les services suivants :
 
-```
+```shell
 systemctl enable php-fpm.service
 systemctl enable ntpd.service
 systemctl enable syslog-ng.service
@@ -82,7 +85,7 @@ hostnamectl set-hostname minus
 
 Vous pouvez aussi vérifier le bon chargement de vos services : 
 
-```
+```shell
 systemctl status php-fpm
 ```
 

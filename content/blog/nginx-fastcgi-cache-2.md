@@ -29,7 +29,7 @@ En relisant la documentation de Nginx j'ai trouvé LE paramètre pour lui permet
 
 Cela donne la configuration de nginx suivante :
 
-```
+```nginx
         location ~ doku\.php$ {
                fastcgi_cache mycache;
                fastcgi_cache_key $request_method$host$request_uri;

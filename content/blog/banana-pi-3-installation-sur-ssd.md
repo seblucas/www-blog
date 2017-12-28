@@ -61,7 +61,7 @@ sysbench --test=fileio --file-total-size=8G prepare
 
 ### Lecture séquentielle
 
-```bash
+```
 root@minus ~ # sysbench --test=fileio --file-total-size=8G --file-test-mode=seqrd --init-rng=on --max-time=300 --max-requests=0 run
 sysbench 0.4.12:  multi-threaded system evaluation benchmark
 
@@ -104,7 +104,7 @@ Lecture : **167.07Mb/sec**
 
 ### Écriture séquentielle
 
-```bash
+```
 root@minus ~ # sysbench --test=fileio --file-total-size=8G --file-test-mode=seqwr --init-rng=on --max-time=300 --max-requests=0 run
 sysbench 0.4.12:  multi-threaded system evaluation benchmark
 
@@ -147,7 +147,7 @@ Ecriture : **41.46Mb/sec**
 
 ### Lecture/Écriture aléatoire
 
-```bash
+```
 root@minus ~ # sysbench --test=fileio --file-total-size=8G --file-test-mode=rndrw --init-rng=on --max-time=300 --max-requests=0 run
 sysbench 0.4.12:  multi-threaded system evaluation benchmark
 

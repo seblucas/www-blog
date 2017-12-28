@@ -23,7 +23,7 @@ Nginx gère l'accès à PHP via un fastcgi donc le paramètre PHP $_SERVER['HTTP
 
 J'ai mélangé la configuration HTTP et HTTPS dans le même fichier (étant donné que je n'ai pas de différence) ce qui me donne le fichier suivant pour l'entête :
 
-```
+```nginx
         listen [::]:80;
         listen  [::]:443 ssl;
 
