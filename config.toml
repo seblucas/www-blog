@@ -6,6 +6,8 @@ author = "Sébastien Lucas"
 # relativeURLs = true
 googleAnalytics = "UA-18757787-1"
 disqusShortname = "slucas"
+pygmentsCodeFences = true
+pygmentsUseClasses=true
 
 [permalinks]
 blog = "blog/:slug/"
@@ -18,7 +20,7 @@ copyright = "Copyright © 2018 Sébastien Lucas"
 copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
 logofile = "img/logo.png"
 faviconfile = "img/logo.png"
-highlightjs = true
+# highlightjs = true
 progressively = true
 share = true
 latestpostcount = 5
