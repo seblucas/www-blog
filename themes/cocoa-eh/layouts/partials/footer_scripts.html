@@ -9,11 +9,6 @@
 </script>
 {{ end }}
 
-{{ if .Site.Params.progressively }}
-  <script src="{{ .Site.BaseURL }}js/progressively.min.js" defer></script>
-{{ end }}
-
-
 {{ if .Site.Params.issoHost }}
 <script
   data-isso="//{{ .Site.Params.issoHost }}/"
@@ -31,9 +26,6 @@
 
 <script>
   window.onload = function() {
-    {{ if .Site.Params.progressively }}
-      progressively.init({delay: 30, throttle: 50});
-    {{ end }}
     {{ if .Site.Params.share }}
       SocialShareKit.init({
         twitter: {

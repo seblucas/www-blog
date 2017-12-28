@@ -20,7 +20,6 @@ copyright = "Copyright © 2018 Sébastien Lucas"
 copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
 logofile = "img/logo.png"
 faviconfile = "img/logo.png"
-progressively = true
 share = true
 latestpostcount = 5
 github = "seblucas"
