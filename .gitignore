@@ -1,1 +1,4 @@
 content/**/*.txt
+node_modules/**
+themes/cocoa-eh/data/**
+themes/cocoa-eh/static/css/**

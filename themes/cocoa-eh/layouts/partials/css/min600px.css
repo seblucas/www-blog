@@ -1,3 +1,6 @@
+@media only screen and (min-width: 600px) {
+
+
 body {
 -webkit-justify-content: center;
 -moz-justify-content: center;
@@ -148,4 +151,7 @@ flex-direction: row;
 }
 div.main .content .navigation div {
 margin-top: 0em;
+}
+
+
 }

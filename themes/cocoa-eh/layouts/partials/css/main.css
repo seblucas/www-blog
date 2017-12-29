@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Nexa Bold';
-  src: url('{{ .Site.BaseURL }}fonts/Nexa Bold.otf');
+  src: url('/fonts/Nexa Bold.otf');
 }
 
-html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframexx,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -711,9 +711,6 @@ kbd {
   white-space: nowrap;
 }
 
-/* Fonts */
-
-{{ if not .Site.Params.disablefancyfonts  }}
 .wf-raleway-n4-active body, 
 .wf-raleway-n4-active div.header nav ul a,
 .wf-raleway-n7-active div.main .content .page-heading,
@@ -735,4 +732,3 @@ kbd {
 .wf-ubuntu-mono-n4-active div.main .content .markdown pre {
       font-family: 'Ubuntu Mono';
 }
-{{ end  }}
