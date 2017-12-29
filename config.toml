@@ -8,6 +8,7 @@ googleAnalytics = "UA-18757787-1"
 disqusShortname = "slucas"
 pygmentsCodeFences = true
 pygmentsUseClasses=true
+rssLimit = 15
 
 [taxonomies]
 category = "categories"
