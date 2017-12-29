@@ -13,7 +13,8 @@ var source = 'themes/cocoa-eh/layouts/partials/css/';
 var cssSources = [source + 'main.css',
                   source + 'min600px.css',
                   source + 'min769px.css',
-                  source + 'chroma_native.css'];
+                  source + 'chroma_native.css',
+                  source + 'social-share-kit.css'];
 
 var datadir = 'themes/cocoa-eh/data';
 var data = {
