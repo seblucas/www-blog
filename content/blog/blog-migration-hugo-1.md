@@ -13,6 +13,7 @@ series: ["Migration Hugo"]
 Comme je l'avais déjà dit précédemment (il y a 3 ans déjà) j'aime le principe de Flat File CMS et j'ai longtemps lorgné sur [Jekill](https://jekyllrb.com/) avant de me décider sur [Hugo](https://gohugo.io/). Je n'ai pas toute une liste d'arguments autour de mon choix, Hugo a la réputation d'être très rapide et j'ai trouvé quelques bons tutoriels donc je me suis lancé.
 
 Mes contraintes étaient les suivantes :
+
  * Aucune perte de pages
  * Support des tags
  * Liberté totale sur le HTML / CSS / JS
