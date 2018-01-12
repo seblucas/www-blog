@@ -7,7 +7,8 @@ author = "Sébastien Lucas"
 googleAnalytics = "UA-18757787-1"
 disqusShortname = "slucas"
 pygmentsCodeFences = true
-pygmentsUseClasses=true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
 rssLimit = 15
 
 [taxonomies]
