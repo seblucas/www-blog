@@ -150,10 +150,8 @@ iptables -A INPUT -s 192.168.0.0/24 -m udp -p udp --dport 49200 -j ACCEPT
 iptables -A INPUT -s 192.168.0.0/24 -m udp -p udp --dport 1900 -j ACCEPT
 
 # FTP only on LAN
-iptables -A INPUT  -m state --state NEW -m tcp -p tcp -s 192.168.0.0/24 --dport
-21 -j ACCEPT
-iptables -A INPUT  -m state --state NEW -m tcp -p tcp -s 192.168.0.0/24 --dport
-20 -j ACCEPT
+iptables -A INPUT  -m state --state NEW -m tcp -p tcp -s 192.168.0.0/24 --dport 21 -j ACCEPT
+iptables -A INPUT  -m state --state NEW -m tcp -p tcp -s 192.168.0.0/24 --dport 20 -j ACCEPT
 ```
 
 Here are some other rules. that's basically the same thing over and over. The real deal is to know wich port to open : for my upnp server for exemple you need to open three port to make it work correctly. A small note about the FTP server, with rules like above you can only connect with an active connection (passive would of course be possible but I had no use of the added complexity).

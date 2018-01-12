@@ -154,10 +154,8 @@ iptables -A INPUT -s 192.168.0.0/24 -m udp -p udp --dport 49200 -j ACCEPT
 iptables -A INPUT -s 192.168.0.0/24 -m udp -p udp --dport 1900 -j ACCEPT
 
 # FTP only on LAN
-iptables -A INPUT  -m state --state NEW -m tcp -p tcp -s 192.168.0.0/24 --dport
-21 -j ACCEPT
-iptables -A INPUT  -m state --state NEW -m tcp -p tcp -s 192.168.0.0/24 --dport
-20 -j ACCEPT
+iptables -A INPUT  -m state --state NEW -m tcp -p tcp -s 192.168.0.0/24 --dport 21 -j ACCEPT
+iptables -A INPUT  -m state --state NEW -m tcp -p tcp -s 192.168.0.0/24 --dport 20 -j ACCEPT
 ```
 
 Toujours le même principe, il faut juste connaitre les port à ouvrir. Pour le serveur FTP, avec mes règles seul le mode actif sera possible (le mode passif est possible mais la configuration est un peu plus complexe).
