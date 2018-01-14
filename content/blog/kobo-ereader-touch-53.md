@@ -12,9 +12,9 @@ Vu la gratuité du premier volume de la Roue du Temps de Robert Jordan (merci Br
 ## Le problème
 
 Dans les premières pages du livre il y a ça : 
-![Image](/blog/footnote-1.jpg){.centered}
+![Image](/blog/footnote-1.jpg)
 Comme je ne sais pas qui est ce Monsieur (ou cette dame d'ailleurs), j'ai cliqué sur le lien et là :
-![Image](/blog/footnote-2.jpg){.centered}
+![Image](/blog/footnote-2.jpg)
 
 J'espère que vous voyez mon problème ...
 

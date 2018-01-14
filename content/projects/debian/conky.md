@@ -61,7 +61,7 @@ cp /etc/conky/conky.conf ~/.conkyrc
 
 ## Screenshot
 
-![Image](/fr/debian/fondecranxfceconky.jpg){.centered}
+![Image](/fr/debian/fondecranxfceconky.jpg)
 
 ## My conkyrc
 

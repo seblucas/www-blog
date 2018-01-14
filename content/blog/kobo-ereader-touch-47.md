@@ -24,7 +24,7 @@ Source : http://www.mobileread.com/forums/showpost.php?p=2341667&postcount=61
 * Bénéficier de plusieurs résolutions de bugs.
 
 Les statistiques ne sont disponibles pour le moment que sur les Kepubs (les livres achetés chez Kobo) et je dois dire que j'aime assez. Cela donne cet affichage (en cliquant sur le lien avec le pourcentage d'avancement dans le livre) : 
-![Image](/blog/kobo-statistics.jpg){.centered}
+![Image](/blog/kobo-statistics.jpg)
 
 Cela permet donc d'avoir :
 

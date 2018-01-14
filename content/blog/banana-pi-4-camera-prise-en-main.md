@@ -13,11 +13,11 @@ De la même manière que le Raspberry Pi, le Banana Pi est équipé d'un port CS
 
 La caméra de face
 
-![Caméra Face](/blog/BpiCameraFace.png){.centered}
+![Caméra Face](/blog/BpiCameraFace.png)
 
 et de dos
 
-![Caméra Dos](/blog/BpiCameraDos.png){.centered}
+![Caméra Dos](/blog/BpiCameraDos.png)
 
 ## Le packaging
 
