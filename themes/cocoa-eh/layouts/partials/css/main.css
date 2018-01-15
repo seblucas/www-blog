@@ -208,6 +208,9 @@ div.header nav ul a {
 div.header nav ul a:hover {
   color: #111111;
 }
+div.header nav ul a.active {
+  color: #ccc;
+}
 div.footer .container {
   -webkit-align-items: center;
   -moz-align-items: center;
