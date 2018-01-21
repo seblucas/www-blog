@@ -1,29 +1,20 @@
 ---
 title: "About"
 date: 2010-01-01
-aliases:
-    - /user/sebastien_lucas
 ---
 
-## Pourquoi ?
-Ce site est avant tout fait pour moi ..... et oui égoiste avant tout. Sans déconner, je suis un vrai fan d'informatique en général et de Linux en particulier. Dans ce cadre je fais toute une série de trouvailles (certainement déjà découvertes par des centaines d'autres personnes avant moi) et comme je veux pas perdre l'information ... je l'écris.
+## Why
 
-Aimant l'informatique j'ai trouvé que le bloc note était un peu dépassé d'ou ce blog/wiki.
+This blog is mainly made for me to write about all my experiments. I think it's always good to document everything and sharing it publicly means that if a reader find a mistake it can contribute back.
 
-Pour suivre le raisonnement, je suis en plus un peu fainéant (quelle image vous devez avoir) puisque je compte sur toi, Oh lecteur, pour m'indiquer toutes les conneries que j'ai pu écrire afin de les corriger au plus tôt.
+## How is this blog hosted
 
-## Un blog sans commentaires .... bizarre
+This was hosted on many different hardware :
+ * A Seagate Dockstar at home for more than two years.
+ * A VPS from 1&1 for a couple of years also.
+ * A VPS from Pulseheberg for a long time.
+ * Netlify since december 2017.
 
-~~C'est vrai, au début c'était pour garder un site rapide sur le Dockstar et je me suis habitué et je n'ai jamais activé le module. Un jour peut-être.~~
+## Contact
 
-C'est beau un blog avec des commentaires !
-
-## Ton site rame !!!
-
-Non c'est impossible, ce site est hébergé sur du top niveau ...... ~~un Seagate Dockstar ([voir ici si besoin](/blog/dockstar-install-squeeze)) et en plus il est hébergé @home sur ma petite liaison Internet à 70ko/s en upload. Le jour ou je passerai à plusieurs dizaines de connexions par seconde, je pense que le temps de l'hébergement professionnel sera venu.~~
-
-Suite à un crash de la clé USB connectée au Dockstar Je suis maintenant hébergé sur un VPS de 1&1.
-
-## Me contacter
-
-Je suis joignable par mail : [Sébastien](mailto:sebastien__@__slucas__.__fr) (english accepted of course). Enlever les caractères en trop / Remove unneeded characters.
+Check the icon below from my Github / Mail informations.

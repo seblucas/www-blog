@@ -47,11 +47,41 @@ foreground = "#181d2a"
 background = "#f9f9f9"
 background_dark = "#282a36"
 
-[Languages]
-[Languages.en]
+[languages]
+[languages.en]
 weight = 1
-[Languages.en.params]
+[languages.en.params]
 
-[Languages.fr]
+[[languages.en.menu.main]]
+url    = "/blog"
+name   = "Blog"
+weight = -120
+
+[[languages.en.menu.main]]
+url    = "/projects"
+name   = "Projects"
+weight = -110
+
+[[languages.en.menu.main]]
+url    = "/about"
+name   = "About"
+weight = -10
+
+[languages.fr]
 weight = 2
-[Languages.fr.params]
+[languages.fr.params]
+
+[[languages.fr.menu.main]]
+url    = "/blog"
+name   = "Blog"
+weight = -120
+
+[[languages.fr.menu.main]]
+url    = "/projects"
+name   = "Projets"
+weight = -110
+
+[[languages.fr.menu.main]]
+url    = "/about"
+name   = "A Propos"
+weight = -10

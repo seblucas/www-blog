@@ -16,21 +16,13 @@
             <a href="{{ .Site.BaseURL }}"><div class="name"><h1>{{ .Site.Title }}</h1></div></a>
             <nav>
                 <ul>
-                    {{ if ne (len (where .Site.RegularPages "Section" "blog")) 0 }}
-                        <li><a href="{{ .Site.BaseURL }}blog/">Blog</a></li>
+                    {{ range .Site.Menus.main }}
+                        <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
                     {{ end }}
-                    {{ range $.Site.Home.Sections }}
-                        {{ range first 1 (where .Pages "Section" "ne" "")}}
-                            {{ if ne .Section "blog"}}
-                            <li><a href="{{ .Section | urlize | absURL }}">{{ .Section }}</a></li>
-                            {{ end }}
-                        {{ end }}
-                    {{ end }}
-                    {{ range where .Site.RegularPages "Section" ""}}
-                        {{ if and (ne .Title "License") (ne .Title "Home")}}
-                            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                        {{ end }}
-                    {{ end }}
+                    {{ range .Site.Languages }}
+                        <li><a {{ if eq .Lang $.Site.Language.Lang }}class="active"{{ end }}
+                            href="/{{ .Lang }}">{{ .Lang }}</a></li>
+                    {{ end}}
                 </ul>
             </nav>
         </div>
