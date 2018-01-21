@@ -8,7 +8,7 @@ series: ["Multi-Architecture Docker image"]
 ---
 # How to push a multi-architecture Docker image to Docker Hub - x86_64
 
-For the last 6 months I read a lot about multi-architecture docker images. I first read [this one from IBM](https://developer.ibm.com/linuxonpower/2017/07/27/create-multi-architecture-docker-image/) and was still a little puzzled. I then read [this one by @stefscherer](https://jugsaxony.org/wp-content/uploads/2017/11/20171109_JUG_Saxony_Multi-arch_Images.pdf) which was easier to read and gave some ideas.
+For the last 6 months I read a lot about multi-architecture docker images. I first read [this one from IBM](https://developer.ibm.com/linuxonpower/2017/07/27/create-multi-architecture-docker-image/) and was still a little puzzled. I then read [this one by @stefscherer](https://jugsaxony.org/wp-content/uploads/2017/11/20171109_JUG_Saxony_Multi-arch_Images.pdf) which was easier to read and gave some ideas. I finally read [this last one](http://callistaenterprise.se/blogg/teknik/2017/12/28/multi-platform-docker-images/) and decided to try it myself.
 
 ## My Goal
 
