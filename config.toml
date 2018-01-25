@@ -11,6 +11,9 @@ pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 rssLimit = 15
 
+[outputs]
+home = ["HTML", "CSS", "RSS", "JSON"]
+
 [taxonomies]
 category = "categories"
 series = "series"
