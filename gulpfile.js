@@ -83,8 +83,8 @@ gulp.task('lunr-index', () => {
         }, this);
     });
 
-  fs.writeFileSync('static/js/lunr-index.json', JSON.stringify(lunrIndex));
-  fs.writeFileSync('static/js/title-map.json', JSON.stringify(titleMap));
+  fs.writeFileSync('public/js/lunr-index.json', JSON.stringify(lunrIndex));
+  fs.writeFileSync('public/js/title-map.json', JSON.stringify(titleMap));
 });
 
 gulp.task('default', ['css', 'js']);
