@@ -6,7 +6,7 @@
                 {{ .Content }}
 
                 <form id="my-form">
-                    <input type="search" id="searchbox" disabled="disabled" placeholder="Just start typing...">
+                    <input type="search" id="searchbox" disabled="disabled" placeholder="Loading...">
                     <button type="submit">Go</button>
                 </form>
                 <h3>Results:</h3>
@@ -71,6 +71,7 @@ document.addEventListener('DOMContentLoaded', function(){
         try {
             idx = lunr.Index.load(data);
             console.log('Search ready');
+            searchBox.placeholder = 'Just start typing...';
             searchBox.disabled = false;
         }
         catch (e) {
