@@ -158,5 +158,6 @@ Cela occasionne un léger délai lors de l'affichage de la page.
 Je trouve cela acceptable mais pour de plus gros sites que moi cela peut être génant.
 
 TODO :
+
  * Pour l'instant je n'ai pas ajouté le lien à la page de recherche dans l'index.
  * Ce serait sympa d'avoir le résumé des articles en résultats.
