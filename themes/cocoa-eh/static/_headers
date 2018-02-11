@@ -1,0 +1,9 @@
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-XSS-Protection: 1; mode=block
+/js/*
+  Cache-Control: public, max-age:86400
+/css/*
+  Cache-Control: public, max-age:86400
+/fonts/*
+  Cache-Control: public, max-age:864000
