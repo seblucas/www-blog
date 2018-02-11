@@ -6,9 +6,11 @@ var gulp = require('gulp');
 var concat   = require('gulp-concat');
 var hash     = require ('gulp-hash');
 var cleanCSS = require('gulp-clean-css');
+var less     = require('gulp-less');
 var del      = require('del');
 var lunr     = require('lunr');
 var fs       = require('fs');
+var path     = require('path');
 
 require("lunr-languages/lunr.stemmer.support")(lunr);
 require('lunr-languages/lunr.multi')(lunr);
@@ -16,15 +18,21 @@ require("lunr-languages/lunr.fr")(lunr);
 
 var source = 'themes/cocoa-eh/layouts/partials/css/';
 
+var lessSources = [source + '*.less',
+                   ];
+
 var cssSources = [source + 'main.css',
                   source + 'min600px.css',
                   source + 'min769px.css',
                   source + 'chroma_native.css',
                   source + 'social-share-kit.css'];
 
+var fontSources  = ['node_modules/social-share-kit/dist/fonts/*'];
+
 var jsSources  = ['node_modules/lunr/lunr.js',
                   'node_modules/lunr-languages/lunr.stemmer.support.js',
-                  'node_modules/lunr-languages/lunr.fr.js'];
+                  'node_modules/lunr-languages/lunr.fr.js',
+                  'node_modules/social-share-kit/dist/js/social-share-kit.min.js'];
 
 var datadir = 'themes/cocoa-eh/data';
 var data = {
@@ -33,12 +41,22 @@ css: datadir + '/css/'
 
 var publishdir = 'themes/cocoa-eh/static';
 var dist = {
+less: source,
 css: publishdir + '/css/',
-js: publishdir + '/js/'
+js: publishdir + '/js/',
+font: publishdir + '/fonts/'
 };
 // Define tasks
 
-gulp.task('css', function() {
+gulp.task('less', function () {
+  return gulp.src(lessSources)
+    .pipe(less({
+      paths: [ path.join(__dirname, 'less', 'includes') ]
+    }))
+    .pipe(gulp.dest(dist.less));
+});
+
+gulp.task('css', ['less'], function() {
   del(dist.css + '*')
   return gulp.src(cssSources)
       .pipe(cleanCSS({compatibility: 'ie8'}))
@@ -49,8 +67,14 @@ gulp.task('css', function() {
       .pipe(gulp.dest(data.css));
 });
 
+gulp.task('font', function() {
+  del(dist.font + 'social*')
+  return gulp.src(fontSources)
+      .pipe(gulp.dest(dist.font));
+});
+
 gulp.task('js', function() {
-  del(dist.js + 'lunr*')
+  del(dist.js + '*')
   return gulp.src(jsSources)
       .pipe(gulp.dest(dist.js));
 });
@@ -87,6 +111,6 @@ gulp.task('lunr-index', () => {
   fs.writeFileSync('public/js/title-map.json', JSON.stringify(titleMap));
 });
 
-gulp.task('default', ['css', 'js']);
+gulp.task('default', ['css', 'js', 'font']);
 
 gulp.task('post', ['lunr-index']);
