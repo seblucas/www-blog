@@ -1,12 +1,10 @@
-/*
-Title: COPS / Quelques maigres news sur le Kobo / Divers
-Description: 
-Author: Sébastien Lucas
-Date: 2012/03/04
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader
-*/
+---
+title: "COPS / Quelques maigres news sur le Kobo / Divers"
+date: 2012-03-04
+tags: [calibre,ereader]
+slug: kobo-ereader-touch-11
+disqus_identifier: /blog/kobo-ereader-touch-11
+---
 # COPS / Quelques maigres news sur le Kobo / Divers
 
 ## COPS ?
@@ -15,7 +13,7 @@ Tags: calibre,ereader
 
 Je ne sais pas si ça va intéresser grand monde mais au moins c'est dans la nature, il ne reste plus qu'à attendre les éventuels retours.
 
-Téléchargement et explication : [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server).
+Téléchargement et explication : [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server).
 
 Un serveur COPS de démo à ajouter à votre client OPDS préféré : http://cops-demo.slucas.fr/feed.php
 

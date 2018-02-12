@@ -1,12 +1,10 @@
-/*
-Title: Meilleure gestion des césures pour le firmware 2.0.0
-Description: 
-Author: Sébastien Lucas
-Date: 2012/07/22
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Meilleure gestion des césures pour le firmware 2.0.0"
+date: 2012-07-22
+tags: [ereader]
+slug: kobo-cesure
+disqus_identifier: /blog/kobo-cesure
+---
 # Meilleure gestion des césures pour le firmware 2.0.0
 
 Suite à la lecture de plusieurs réponses de forums [en anglais](http://www.mobileread.com/forums/showthread.php?t=184838) ou [en français](http://forum.teamalexandriz.org/les_liseuses_debook_readers/mise_jour_2.0_du_kobo_22965.msg142066.html#msg142066), j'ai voulu faire un essai. 

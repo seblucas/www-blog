@@ -1,12 +1,10 @@
-/*
-Title: Revue de Web : Kobo (2014-1)
-Description: 
-Author: Sébastien Lucas
-Date: 2014/05/04
-Robots: noindex,nofollow
-Language: fr
-Tags: epub,ereader
-*/
+---
+title: "Revue de Web : Kobo (2014-1)"
+date: 2014-05-04
+tags: [epub,ereader]
+slug: revue-de-web-kobo-1
+disqus_identifier: /blog/revue-de-web-kobo-1
+---
 # Revue de Web : Kobo (2014-1)
 
 Si vous n'avez pas suivi les dernières nouvelles autour de Kobo, cet article est pour vous.

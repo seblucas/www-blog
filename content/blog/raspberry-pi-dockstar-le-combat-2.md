@@ -1,12 +1,10 @@
-/*
-Title: Raspberry Pi VS Dockstar : Le combat II
-Description: 
-Author: Sébastien Lucas
-Date: 2012/09/23
-Robots: noindex,nofollow
-Language: fr
-Tags: dockstar,rpi
-*/
+---
+title: "Raspberry Pi VS Dockstar : Le combat II"
+date: 2012-09-23
+tags: [dockstar,rpi]
+slug: raspberry-pi-dockstar-le-combat-2
+disqus_identifier: /blog/raspberry-pi-dockstar-le-combat-2
+---
 # Raspberry Pi VS Dockstar : Le combat II
 
 Suite une remarque d'un lecteur sur mon [précédent test](/blog/raspberry-pi-dockstar-le-combat) et à la sortie de modifications importantes sur la distribution Raspbian (voir [ici](http://www.raspberrypi.org/archives/2008)), j'ai refait quelques mesures.

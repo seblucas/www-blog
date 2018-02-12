@@ -1,12 +1,10 @@
-/*
-Title: Bragelonne : opération 100k
-Description: 
-Author: Sébastien Lucas
-Date: 2012/03/26
-Robots: noindex,nofollow
-Language: fr
-Tags: epub,ereader
-*/
+---
+title: "Bragelonne : opération 100k"
+date: 2012-03-26
+tags: [epub,ereader]
+slug: bragelonne-operation-100k
+disqus_identifier: /blog/bragelonne-operation-100k
+---
 # Bragelonne : opération 100k
 
 Vous êtes certainement déjà au courant mais c'est une belle offre qui mérite encore plus de publicité. 100 titres différents seront vendus à 0,99€ le 1er avril 2012 (la liste est [ici](http://blog.epagine.fr/index.php/2012/03/bragelonne-fete-ses-100-000-telechargements)). Merci encore à un éditeur beaucoup plus respectueux des ebooks et des lecteurs fans de numériques que la plupart de ses pairs.

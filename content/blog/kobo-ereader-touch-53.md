@@ -1,12 +1,10 @@
-/*
-Title: Les notes de bas de page sur la Kobo
-Description: 
-Author: Sébastien Lucas
-Date: 2013/01/19
-Robots: noindex,nofollow
-Language: fr
-Tags: epub,ereader
-*/
+---
+title: "Les notes de bas de page sur la Kobo"
+date: 2013-01-19
+tags: [epub,ereader]
+slug: kobo-ereader-touch-53
+disqus_identifier: /blog/kobo-ereader-touch-53
+---
 # Les notes de bas de page sur la Kobo
 
 Vu la gratuité du premier volume de la Roue du Temps de Robert Jordan (merci Bragelonne), je l'ai ajouté à ma bibliothèque Kobo. Cela fait quelque temps que j'essaie de le lire sans succès et dans les premières pages de ce livre je suis tombé sur un cas d'école de ce qui pourrait être amélioré avec la lecture numérique.
@@ -14,9 +12,9 @@ Vu la gratuité du premier volume de la Roue du Temps de Robert Jordan (merci Br
 ## Le problème
 
 Dans les premières pages du livre il y a ça : 
-![Image](/blog/footnote-1.jpg){.centered}
+![Image](/blog/footnote-1.jpg)
 Comme je ne sais pas qui est ce Monsieur (ou cette dame d'ailleurs), j'ai cliqué sur le lien et là :
-![Image](/blog/footnote-2.jpg){.centered}
+![Image](/blog/footnote-2.jpg)
 
 J'espère que vous voyez mon problème ...
 

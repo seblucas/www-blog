@@ -1,12 +1,10 @@
-/*
-Title: Transformer un livre papier en Epub
-Description: 
-Author: Sébastien Lucas
-Date: 2014/05/13
-Robots: noindex,nofollow
-Language: fr
-Tags: epub,ereader
-*/
+---
+title: "Transformer un livre papier en Epub"
+date: 2014-05-13
+tags: [epub,ereader]
+slug: creation-epub-pandoc-1
+disqus_identifier: /blog/creation-epub-pandoc-1
+---
 # Transformer un livre papier en Epub
 
 Comme je l'ai dit dans [un article précédent](/blog/creation-epub-pandoc), un ami m'a demandé de l'aide pour créer un fichier Epub. Pour répondre à un défi de ses enfants il a voulu transformer [Ellana L'envol de Pierre Bottero](http://fr.wikipedia.org/wiki/Ellana_l%27envol) en Epub. Il a réalisé le scan, l'OCR et a même créé un fichier Epub (j'essaye de le motiver pour faire un tutoriel).

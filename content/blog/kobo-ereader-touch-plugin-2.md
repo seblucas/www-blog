@@ -1,12 +1,10 @@
-/*
-Title: Tetris pour le Kobo via le plugin / et quelques questions de lecteurs
-Description: 
-Author: Sébastien Lucas
-Date: 2012/04/07
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Tetris pour le Kobo via le plugin / et quelques questions de lecteurs"
+date: 2012-04-07
+tags: [ereader]
+slug: kobo-ereader-touch-plugin-2
+disqus_identifier: /blog/kobo-ereader-touch-plugin-2
+---
 # Tetris pour le Kobo via le plugin / et quelques questions de lecteurs
 
 ## Tetris

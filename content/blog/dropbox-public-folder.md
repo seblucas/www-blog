@@ -1,12 +1,10 @@
-/*
-Title: Plus de répertoire Public dans les nouveaux comptes Dropbox ?
-Description: 
-Author: Sébastien Lucas
-Date: 2012/06/16
-Robots: noindex,nofollow
-Language: fr
-Tags: cloud,dropbox,opds
-*/
+---
+title: "Plus de répertoire Public dans les nouveaux comptes Dropbox ?"
+date: 2012-06-16
+tags: [cloud,dropbox,opds]
+slug: dropbox-public-folder
+disqus_identifier: /blog/dropbox-public-folder
+---
 # Plus de répertoire Public dans les nouveaux comptes Dropbox ?
 
 En me baladant sur MobileRead je suis tombé sur [cet article](http://www.mobileread.com/forums/showthread.php?t=181578) (et en lien [cet autre article](http://forums.dropbox.com/topic.php?id=62381&replies=13)). Pour les anglophobes et autres fainéants ;), cela indique que les nouveaux comptes Dropbox n'auraient plus de répertoire Public. Il resterait une méthode d'envoi de lien pour du download occasionnel mais par contre plus de pages HTML ou OPDS (générée par Calibre2OPDS par exemple).

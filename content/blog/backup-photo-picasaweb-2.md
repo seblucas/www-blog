@@ -1,12 +1,10 @@
-/*
-Title: Sauvegarder ses photos de famille - Partie 2 : Le transfert
-Description: 
-Author: Sébastien Lucas
-Date: 2011/08/29
-Robots: noindex,nofollow
-Language: fr
-Tags: dotnet,picasa,python
-*/
+---
+title: "Sauvegarder ses photos de famille - Partie 2 : Le transfert"
+date: 2011-08-29
+tags: [dotnet,picasa,python]
+slug: backup-photo-picasaweb-2
+disqus_identifier: /blog/backup-photo-picasaweb-2
+---
 # Sauvegarder ses photos de famille - Partie 2 : Le transfert
 
 ## PicasaWebSync

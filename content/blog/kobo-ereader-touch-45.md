@@ -1,12 +1,10 @@
-/*
-Title: Meilleure gestion des séries dans la Kobo
-Description: 
-Author: Sébastien Lucas
-Date: 2012/12/05
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Meilleure gestion des séries dans la Kobo"
+date: 2012-12-05
+tags: [ereader]
+slug: kobo-ereader-touch-45
+disqus_identifier: /blog/kobo-ereader-touch-45
+---
 # Meilleure gestion des séries dans la Kobo
 
 Le titre est racoleur mais le résultat l'est un peu moins pour le moment. Néanmoins c'est l'occasion de faire un petit tutoriel sur le sujet.
@@ -23,11 +21,11 @@ Cette opération n'est à faire qu'une seule fois, les paramètres sont ensuite 
 * Démarrez Calibre
 * Connectez votre Kobo (cliquez bien sur Connecter sur la liseuse)
 * Après une grosse minute l'interface de Calibre change pour faire apparaitre l’icône "Appareil"
-![Image](/blog/calibre_appareil.jpg){.centered}
+![Image](/blog/calibre_appareil.jpg)
 * Cliquer le menu de l'icône "Appareil" (le petit v à droite)
 * Sélectionner configurer cet appareil
 * Dans l'écran de configuration cocher "Set Series information"
-![Image](/blog/calibre_kobo_config.jpg){.centered}
+![Image](/blog/calibre_kobo_config.jpg)
 * Cliquer sur Ok
 * Calibre va vous demander de redémarrer pour valider les modifications. Acceptez.
 
@@ -38,10 +36,10 @@ C'est cette partie qui pour l'instant n'est pas encore géniale :
 * Une fois la liseuse connectée à Calibre, Sélectionner des livres (avec une série si possible).
 * Faire une clic droit sur la sélection et choisir Envoyer au lecteur > Envoyer vers la mémoire du lecteur.
 * Attendre que le transfert soir terminé et ejectez proprement la Kobo et déconnectez l'USB.
-* La liseuse va analyser les livres ajoutés. 
+* La liseuse va analyser les livres ajoutés.
 
-Sur la liseuse si vous allez sur votre bibliothèque vous devriez voir vos livres ... mais sans série. 
-  
+Sur la liseuse si vous allez sur votre bibliothèque vous devriez voir vos livres ... mais sans série.
+
 Pour que cela fonctionne il faut que vous refassiez la manipulation une seconde fois (connexion USB, transfert, déconnexion).
 
 Cette fois ci, si vous allez dans le menu bibliothèque de la liseuse, vous devriez voir sous le titre la série et l'index du livre dans la série. A noter que le tri prend bien en compte les séries et numéros.

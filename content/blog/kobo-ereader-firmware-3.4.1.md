@@ -1,12 +1,10 @@
-/*
-Title: Firmware 3.4.1 pour les Kobo Mini
-Description: 
-Author: Sébastien Lucas
-Date: 2014/05/28
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Firmware 3.4.1 pour les Kobo Mini"
+date: 2014-05-28
+tags: [ereader]
+slug: kobo-ereader-firmware-3.4.1
+disqus_identifier: /blog/kobo-ereader-firmware-3.4.1
+---
 # Firmware 3.4.1 pour les Kobo Mini
 
 Via le groupe beta, je vient juste d'avoir l'information que le firmware 3.4.1 va être déployé très prochainement sur les Kobo Mini (et oui uniquement ce modèle).

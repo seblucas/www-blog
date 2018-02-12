@@ -1,18 +1,16 @@
-/*
-Title: COPS 0.2.3
-Description: 
-Author: Sébastien Lucas
-Date: 2012/12/06
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS 0.2.3"
+date: 2012-12-06
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-0.2.3
+disqus_identifier: /blog/cops-0.2.3
+---
 # COPS 0.2.3
 
 Pour cette nouvelle version, quelques nouvelles fonctionnalités :
 
-* [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
-* [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
+* [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)
+* [Liste des changements](https://github.com/seblucas/cops/blob/master/CHANGELOG)
 
 Le plus gros changement est que l'intégration au Nas Synology et donc aux autres système avec Apache est complète, il ne manque plus qu'un package officiel pour faciliter l'installation. J'ai aussi ajouté les évaluations associées aux livre ainsi que la langue du livre dans le détail.
 

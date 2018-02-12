@@ -1,12 +1,10 @@
-/*
-Title: HTTPS plus sécurisé
-Description: 
-Author: Sébastien Lucas
-Date: 2015/02/06
-Robots: noindex,nofollow
-Language: fr
-Tags: nginx
-*/
+---
+title: "HTTPS plus sécurisé"
+date: 2015-02-06
+tags: [nginx]
+slug: https-better-protection
+disqus_identifier: /blog/https-better-protection
+---
 # HTTPS plus sécurisé
 
 ## Pourquoi ?
@@ -21,7 +19,7 @@ J'ai un peu suivi les dernières attaques Heartbleed et Poodle, mais je pensais 
 
 Le cœur du problème est d'éviter les algorithmes non fiables ou de qualité trop faible. J'ai donc modifié mon `/etc/nginx/nginx.conf` pour que mon bloc SSL ressemble à ça :
 
-```
+```nginx
         ssl_session_cache    shared:SSL:1m;
         ssl_session_timeout  10m;
         ssl_ciphers ALL:!aNULL:!eNULL:!LOW:!EXP:!RC4:!3DES:+HIGH:+MEDIUM;

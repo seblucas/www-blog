@@ -1,12 +1,10 @@
-/*
-Title: Comment passer au noyau 3.5 sur le Dockstar (Archlinux)
-Description: 
-Author: Sébastien Lucas
-Date: 2012/10/03
-Robots: noindex,nofollow
-Language: fr
-Tags: archlinux,dockstar
-*/
+---
+title: "Comment passer au noyau 3.5 sur le Dockstar (Archlinux)"
+date: 2012-10-03
+tags: [archlinux,dockstar]
+slug: dockstar-archlinux-kernel-3.5
+disqus_identifier: /blog/dockstar-archlinux-kernel-3.5
+---
 # Comment passer au noyau 3.5 sur le Dockstar (Archlinux)
 
 Comme je l'ai déjà dit auparavant je suis passé à Archlinux sur le Dockstar essentiellement pour la gestion matérielle de la cryptographie mais aussi pour bénéficier d'un noyau plus récent (3.1) alors que la Squeeze en 2.6.36.

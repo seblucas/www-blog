@@ -1,12 +1,10 @@
-/*
-Title: Paramétrage de la compression avec nginx
-Description: 
-Author: Sébastien Lucas
-Date: 2011/01/20
-Robots: noindex,nofollow
-Language: fr
-Tags: dokuwiki,nginx
-*/
+---
+title: "Paramétrage de la compression avec nginx"
+date: 2011-01-20
+tags: [dokuwiki,nginx]
+slug: nginx-gzip-css-js
+disqus_identifier: /blog/nginx-gzip-css-js
+---
 # Paramétrage de la compression avec nginx
 
 ## Pourquoi ?
@@ -24,7 +22,7 @@ gzip_types text/plain text/css application/json application/x-javascript text/xm
 
 En plus de changer la compression j'ai aussi changé la mise en cache des images pour qu'elle restent en cache (sur le navigateur du visiteur du site) plus longtemps :
 
-```
+```nginx
 location ~ ^/lib.*\.(gif|png|ico|jpg)$ {
     expires 31d;
 }

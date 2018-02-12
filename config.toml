@@ -1,0 +1,90 @@
+baseURL = "https://blog.slucas.fr/"
+defaultContentLanguage = "en"
+title = "Technology and Me"
+theme = "cocoa-eh"
+author = "Sébastien Lucas"
+# relativeURLs = true
+googleAnalytics = "UA-18757787-1"
+disqusShortname = "slucas"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
+rssLimit = 15
+
+[outputs]
+home = ["HTML", "CSS", "RSS", "JSON"]
+
+[taxonomies]
+category = "categories"
+series = "series"
+tags = "tags"
+
+[permalinks]
+blog = "blog/:slug/"
+
+[params]
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+description = "Blog about Open Source, Code, Devops"
+copyright = "Copyright © 2018 Sébastien Lucas"
+copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
+logofile = "img/logo.png"
+faviconfile = "img/logo.png"
+share = true
+latestpostcount = 10
+github = "seblucas"
+email = "sebastien@slucas.fr"
+# linkedin = "xxx"
+social_banner = "img/logo.png"
+usesmallsummarycard = true
+posts_navigation = true
+# issoHost = "comments.domain.tld:1234"
+githubRepo = "seblucas/www-blog"
+small_banner_logo = false
+
+[params.colors]
+identifier = "#527fc1f"
+identifier_dark = "#1a3152"
+trivial = "#6a7a8b"
+foreground = "#181d2a"
+background = "#f9f9f9"
+background_dark = "#282a36"
+
+[languages]
+[languages.en]
+weight = 1
+[languages.en.params]
+
+[[languages.en.menu.main]]
+url    = "/blog"
+name   = "Blog"
+weight = -120
+
+[[languages.en.menu.main]]
+url    = "/projects"
+name   = "Projects"
+weight = -110
+
+[[languages.en.menu.main]]
+url    = "/about"
+name   = "About"
+weight = -10
+
+[languages.fr]
+weight = 2
+[languages.fr.params]
+
+[[languages.fr.menu.main]]
+url    = "/blog"
+name   = "Blog"
+weight = -120
+
+[[languages.fr.menu.main]]
+url    = "/projects"
+name   = "Projets"
+weight = -110
+
+[[languages.fr.menu.main]]
+url    = "/about"
+name   = "A Propos"
+weight = -10

@@ -1,12 +1,10 @@
-/*
-Title: Faciliter l'intégration des partages NFS dans XBMC
-Description: 
-Author: Sébastien Lucas
-Date: 2013/01/14
-Robots: noindex,nofollow
-Language: fr
-Tags: archlinux,xbmc
-*/
+---
+title: "Faciliter l'intégration des partages NFS dans XBMC"
+date: 2013-01-14
+tags: [archlinux,xbmc]
+slug: archlinux-xbmc-nfs-zeroconf
+disqus_identifier: /blog/archlinux-xbmc-nfs-zeroconf
+---
 # Faciliter l'intégration des partages NFS dans XBMC
 
 Comme indiqué dans mon précédent article sur le sujet (voir [Partager un répertoire NFS vers XBMC](/blog/archlinux-xbmc-nfs)), le principal problème est que je n'avais pas trouvé de moyen de ne pas saisir manuellement le chemin du partage. J'ai enfin trouvé quelque chose avec Zeroconf.
@@ -21,7 +19,7 @@ pacman -S avahi
 
 Ajouter le fichier suivant dans /etc/avahi/services :
 
-```
+```xml
 <?xml version="1.0" standalone='no'?>
  <!DOCTYPE service-group SYSTEM "avahi-service.dtd">
  <service-group>

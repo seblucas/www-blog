@@ -1,12 +1,10 @@
-/*
-Title: Nginx et Photostation
-Description: 
-Author: Sébastien Lucas
-Date: 2011/01/24
-Robots: noindex,nofollow
-Language: fr
-Tags: dockstar,nginx,synology
-*/
+---
+title: "Nginx et Photostation"
+date: 2011-01-24
+tags: [dockstar,nginx,synology]
+slug: nginx-synology-photostation
+disqus_identifier: /blog/nginx-synology-photostation
+---
 # Nginx et Photostation
 
 ## Problème
@@ -14,7 +12,7 @@ J'ai un nas Synology (voir [Installer un serveur Subversion sur un NAS Synology]
 
 ## Configuration nginx
 
-```
+```nginx
         location /photo {
                 proxy_pass http://192.168.0.42/photo;
         }

@@ -1,12 +1,10 @@
-/*
-Title: Horreur ! VMware Player ne marche plus après une mise à jour Debian !
-Description: 
-Author: Sébastien Lucas
-Date: 2010/12/30
-Robots: noindex,nofollow
-Language: fr
-Tags: debian,vmware
-*/
+---
+title: "Horreur ! VMware Player ne marche plus après une mise à jour Debian !"
+date: 2010-12-30
+tags: [debian,vmware]
+slug: vmmon-debian-vmware
+disqus_identifier: /blog/vmmon-debian-vmware
+---
 # Horreur ! VMware Player ne marche plus après une mise à jour Debian !
 
 Le message d'erreur de VMware Player parle de vmmon non accessible, j'ai confirmé le problème avec dmesg :

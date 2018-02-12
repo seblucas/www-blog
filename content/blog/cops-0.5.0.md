@@ -1,18 +1,16 @@
-/*
-Title: COPS 0.5.0
-Description: 
-Author: Sébastien Lucas
-Date: 2013/06/05
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS 0.5.0"
+date: 2013-06-05
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-0.5.0
+disqus_identifier: /blog/cops-0.5.0
+---
 # COPS 0.5.0
 
 Pour cette nouvelle version, une toute nouvelle interface graphique et quelques corrections de bugs :
 
-* [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
-* [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
+* [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)
+* [Liste des changements](https://github.com/seblucas/cops/blob/master/CHANGELOG)
 
 La modification la plus important est la nouvelle interface HTML5 / CSS3. J'espère que ça vous plaira et que cela fonctionnera correctement sur les navigateurs que je n'ai pas testé (PRS-T1, Kindle, ...).
 

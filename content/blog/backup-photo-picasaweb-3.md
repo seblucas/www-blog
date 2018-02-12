@@ -1,12 +1,10 @@
-/*
-Title: Sauvegarder ses photos de famille - Partie 3 : La récupération des liens
-Description: 
-Author: Sébastien Lucas
-Date: 2011/08/31
-Robots: noindex,nofollow
-Language: fr
-Tags: picasa,python
-*/
+---
+title: "Sauvegarder ses photos de famille - Partie 3 : La récupération des liens"
+date: 2011-08-31
+tags: [picasa,python]
+slug: backup-photo-picasaweb-3
+disqus_identifier: /blog/backup-photo-picasaweb-3
+---
 # Sauvegarder ses photos de famille - Partie 3 : La récupération des liens
 
 ## La problématique

@@ -1,12 +1,10 @@
-/*
-Title: Kobo eReader Touch : Revue de Web et autres informations
-Description: 
-Author: Sébastien Lucas
-Date: 2012/05/17
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Kobo eReader Touch : Revue de Web et autres informations"
+date: 2012-05-17
+tags: [ereader]
+slug: kobo-ereader-touch-15
+disqus_identifier: /blog/kobo-ereader-touch-15
+---
 # Kobo eReader Touch : Revue de Web et autres informations
 
 ## Des informations ... vraiment !

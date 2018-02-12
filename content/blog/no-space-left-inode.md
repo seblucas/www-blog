@@ -1,12 +1,10 @@
-/*
-Title: No space left on device et pourtant il reste de la place
-Description: 
-Author: Sébastien Lucas
-Date: 2011/08/08
-Robots: noindex,nofollow
-Language: fr
-Tags: centos,debian
-*/
+---
+title: "No space left on device et pourtant il reste de la place"
+date: 2011-08-08
+tags: [centos,debian]
+slug: no-space-left-inode
+disqus_identifier: /blog/no-space-left-inode
+---
 # No space left on device et pourtant il reste de la place
 
 ## Le problème

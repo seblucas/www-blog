@@ -1,18 +1,16 @@
-/*
-Title: COPS 0.6.2
-Description: 
-Author: Sébastien Lucas
-Date: 2013/09/13
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS 0.6.2"
+date: 2013-09-13
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-0.6.2
+disqus_identifier: /blog/cops-0.6.2
+---
 # COPS 0.6.2
 
 Quelques corrections de bugs et quelques évolutions pour cette nouvelle version :
 
-* [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
-* [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
+* [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)
+* [Liste des changements](https://github.com/seblucas/cops/blob/master/CHANGELOG)
 
 Au programme, une grosse correction d'anomalie pour les Sony PRS-TX, Kindle et Cybook qui devraient fonctionner de nouveau. J'ai aussi corrigé de nombreuses petites régressions qui devraient stabiliser les choses.
 

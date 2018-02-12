@@ -1,12 +1,10 @@
-/*
-Title: Mise à jour vers Subversion 1.6
-Description: 
-Author: Sébastien Lucas
-Date: 2011/02/08
-Robots: noindex,nofollow
-Language: fr
-Tags: subversion
-*/
+---
+title: "Mise à jour vers Subversion 1.6"
+date: 2011-02-08
+tags: [subversion]
+slug: upgrade-subversion-16
+disqus_identifier: /blog/upgrade-subversion-16
+---
 # Mise à jour vers Subversion 1.6
 
 ## Subversion 1.6

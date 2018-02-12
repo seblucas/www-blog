@@ -1,12 +1,10 @@
-/*
-Title: Le cache fastcgi et Nginx - Partie 2
-Description: 
-Author: Sébastien Lucas
-Date: 2011/09/18
-Robots: noindex,nofollow
-Language: fr
-Tags: dokuwiki,nginx,php
-*/
+---
+title: "Le cache fastcgi et Nginx - Partie 2"
+date: 2011-09-18
+tags: [dokuwiki,nginx,php]
+slug: nginx-fastcgi-cache-2
+disqus_identifier: /blog/nginx-fastcgi-cache-2
+---
 # Le cache fastcgi et Nginx - Partie 2
 
 ## Précédemment dans ...
@@ -31,7 +29,7 @@ En relisant la documentation de Nginx j'ai trouvé LE paramètre pour lui permet
 
 Cela donne la configuration de nginx suivante :
 
-```
+```nginx
         location ~ doku\.php$ {
                fastcgi_cache mycache;
                fastcgi_cache_key $request_method$host$request_uri;

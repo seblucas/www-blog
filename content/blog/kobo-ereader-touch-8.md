@@ -1,12 +1,10 @@
-/*
-Title: Encore une minuscule revue de Web sur le Kobo et les liseuses
-Description: 
-Author: Sébastien Lucas
-Date: 2012/01/21
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Encore une minuscule revue de Web sur le Kobo et les liseuses"
+date: 2012-01-21
+tags: [ereader]
+slug: kobo-ereader-touch-8
+disqus_identifier: /blog/kobo-ereader-touch-8
+---
 # Encore une minuscule revue de Web sur le Kobo et les liseuses
 
 ## Pas beaucoup de nouvelles

@@ -1,12 +1,10 @@
-/*
-Title: Appliance / Image Debian Squeeze pour VMware
-Description: 
-Author: Sébastien Lucas
-Date: 2010/10/05
-Robots: noindex,nofollow
-Language: fr
-Tags: debian,vmware
-*/
+---
+title: "Appliance / Image Debian Squeeze pour VMware"
+date: 2010-10-05
+tags: [debian,vmware]
+slug: vmware-squeeze-appliance
+disqus_identifier: /blog/vmware-squeeze-appliance
+---
 # Appliance / Image Debian Squeeze pour VMware
 
 ## Versions utilisées

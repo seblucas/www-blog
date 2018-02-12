@@ -1,12 +1,10 @@
-/*
-Title: Ranger proprement des fichiers dans des répertoires
-Description: 
-Author: Sébastien Lucas
-Date: 2011/08/21
-Robots: noindex,nofollow
-Language: fr
-Tags: debian,perl
-*/
+---
+title: "Ranger proprement des fichiers dans des répertoires"
+date: 2011-08-21
+tags: [debian,perl]
+slug: perl-organize-file
+disqus_identifier: /blog/perl-organize-file
+---
 # Ranger proprement des fichiers dans des répertoires
 
 Dernièrement un ami m'a donné des photos (un bon paquet de photos : 2325). Le problème est qu'elles étaient toutes dans un seul et même répertoire sans organisation en répertoire. Par contre elles étaient toutes nommées de la même manière : `<Date au format ISO>`-`<Numéro>`. Comme mon objectif était de les trier et de les organiser, j'ai décidé dans un premier de les regrouper par paquet du même jour pour me faciliter le travail. Et encore une fois vive perl :

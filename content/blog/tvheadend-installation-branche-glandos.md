@@ -1,12 +1,10 @@
-/*
-Title: Installation de la branche de Glandos de Tvheadend pour le RTSP
-Description: 
-Author: Sébastien Lucas
-Date: 2013/04/12
-Robots: noindex,nofollow
-Language: fr
-Tags: dockstar,freebox,rpi,xbmc
-*/
+---
+title: "Installation de la branche de Glandos de Tvheadend pour le RTSP"
+date: 2013-04-12
+tags: [dockstar,freebox,rpi,xbmc]
+slug: tvheadend-installation-branche-glandos
+disqus_identifier: /blog/tvheadend-installation-branche-glandos
+---
 # Installation de la branche de Glandos de Tvheadend pour le RTSP
 
 ## Quoi ?

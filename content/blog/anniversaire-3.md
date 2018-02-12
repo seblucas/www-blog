@@ -1,12 +1,10 @@
-/*
-Title: 3ième anniversaire en retard
-Description: 
-Author: Sébastien Lucas
-Date: 2014/04/02
-Robots: noindex,nofollow
-Language: fr
-Tags: blog
-*/
+---
+title: "3ième anniversaire en retard"
+date: 2014-04-02
+tags: [blog]
+slug: anniversaire-3
+disqus_identifier: /blog/anniversaire-3
+---
 # 3 ans mais plus de modifications
 
 ## Nouvelle peau

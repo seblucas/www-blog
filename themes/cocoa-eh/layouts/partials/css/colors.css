@@ -1,0 +1,20 @@
+a {
+    color: {{ .Param "colors.identifier" }};
+}
+
+a:hover {
+    color: {{ .Param "colors.identifier_dark" }};
+}
+
+div.main .content .markdown, div.header .name, div.header nav ul a:hover {
+    color: {{ .Param "colors.foreground" }};
+}
+
+div.header nav ul a {
+    color: {{ .Param "colors.trivial" }};
+}
+
+
+.ssk {
+    background-color: {{ .Param "colors.trivial" }};
+}

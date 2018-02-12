@@ -1,12 +1,10 @@
-/*
-Title: XBMC sur le Raspberry PI - Quelques trucs
-Description: 
-Author: Sébastien Lucas
-Date: 2012/10/18
-Robots: noindex,nofollow
-Language: fr
-Tags: rpi,xbmc
-*/
+---
+title: "XBMC sur le Raspberry PI - Quelques trucs"
+date: 2012-10-18
+tags: [rpi,xbmc]
+slug: raspberry-pi-xbmc-3
+disqus_identifier: /blog/raspberry-pi-xbmc-3
+---
 # XBMC sur le Raspberry PI - Quelques trucs
 
 Un minuscule article sur des choses déjà mondialement connues mais que j'ai cherché certainement trop longtemps.
@@ -14,7 +12,7 @@ Un minuscule article sur des choses déjà mondialement connues mais que j'ai ch
 ## Télécommande XBOX sur OpenElec
 
 J'ai fait l'article en anglais mais cela devrait être lisible par tous :
-[How to use an Xbox remote with OpenElec on a Raspberry Pi](/en/tips/raspberry-pi-openelec-xbox-dongle)
+[How to use an Xbox remote with OpenElec on a Raspberry Pi](/blog/raspberry-pi-openelec-xbox-dongle)
 
 ## Accéder à des partages NFS sur un NAS Synology
 

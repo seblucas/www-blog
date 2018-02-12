@@ -1,12 +1,10 @@
-/*
-Title: Export au format EPUB sur Wikisource
-Description: 
-Author: Sébastien Lucas
-Date: 2012/09/30
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Export au format EPUB sur Wikisource"
+date: 2012-09-30
+tags: [ereader]
+slug: wikisource-export-epub
+disqus_identifier: /blog/wikisource-export-epub
+---
 # Export au format EPUB sur Wikisource
 
 Pour faire suite au précédent article sur l'export EPUB de Wikipedia, aujourd'hui c'est le tour de Wikisource !

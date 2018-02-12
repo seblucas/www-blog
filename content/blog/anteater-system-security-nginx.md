@@ -1,12 +1,10 @@
-/*
-Title: Mise à jour Dokuwiki Anteater et Nginx
-Description: 
-Author: Sébastien Lucas
-Date: 2010/11/25
-Robots: noindex,nofollow
-Language: fr
-Tags: dokuwiki,nginx
-*/
+---
+title: "Mise à jour Dokuwiki Anteater et Nginx"
+date: 2010-11-25
+tags: [dokuwiki,nginx]
+slug: anteater-system-security-nginx
+disqus_identifier: /blog/anteater-system-security-nginx
+---
 # Mise à jour Dokuwiki Anteater et Nginx
 
 ## Pourquoi ?
@@ -16,7 +14,7 @@ Suite à la dernière mise à jour Dokuwiki, j'ai eu une alerte sécurité me di
 
 Ajouter les lignes suivantes dans la configuration nginx :
 
-```
+```nginx
 location ~ ^/(data|conf|bin|inc) {
   deny all;
 }

@@ -1,12 +1,10 @@
-/*
-Title: HTTPS disponible grâce à StartSSL
-Description: 
-Author: Sébastien Lucas
-Date: 2011/10/19
-Robots: noindex,nofollow
-Language: fr
-Tags: dockstar,dokuwiki,nginx
-*/
+---
+title: "HTTPS disponible grâce à StartSSL"
+date: 2011-10-19
+tags: [dockstar,dokuwiki,nginx]
+slug: https-ready
+disqus_identifier: /blog/https-ready
+---
 # HTTPS disponible grâce à StartSSL
 
 ## Enfin

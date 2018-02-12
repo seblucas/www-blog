@@ -1,12 +1,10 @@
-/*
-Title: Kobo eReader Touch : meilleur choix pour 60 millions de consommateurs
-Description: 
-Author: Sébastien Lucas
-Date: 2012/09/06
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Kobo eReader Touch : meilleur choix pour 60 millions de consommateurs"
+date: 2012-09-06
+tags: [ereader]
+slug: kobo-ereader-touch-31
+disqus_identifier: /blog/kobo-ereader-touch-31
+---
 # Kobo eReader Touch : meilleur choix pour 60 millions de consommateurs
 
 Le classement :

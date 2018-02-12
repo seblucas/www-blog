@@ -1,12 +1,10 @@
-/*
-Title: Firmware 3.5.0
-Description: 
-Author: Sébastien Lucas
-Date: 2014/07/11
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Firmware 3.5.0"
+date: 2014-07-11
+tags: [ereader]
+slug: kobo-ereader-firmware-3.5.0
+disqus_identifier: /blog/kobo-ereader-firmware-3.5.0
+---
 # Firmware 3.5.0
 
 C'est tout neuf. Avec le groupe bêta, nous avons testé beaucoup de mises à jour de firmware avant la sortie de celle-ci. Je pense que ça va vous plaire. D'après ce que j'ai pu en lire ce firmware ne semble pas destiné au Touch et au Mini, dans un premier temps.

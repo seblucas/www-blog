@@ -1,12 +1,10 @@
-/*
-Title: Bragelonne : Opération 1000k
-Description: 
-Author: Sébastien Lucas
-Date: 2014/11/05
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Bragelonne : Opération 1000k"
+date: 2014-11-05
+tags: [ereader]
+slug: bragelonne-operation-1000k
+disqus_identifier: /blog/bragelonne-operation-1000k
+---
 # Bragelonne : Opération 1000k
 
 ![Bragelonne](https://pbs.twimg.com/media/B1nfLZDCYAAtw7z.jpg)

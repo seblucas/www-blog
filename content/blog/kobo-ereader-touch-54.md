@@ -1,12 +1,10 @@
-/*
-Title: Quelques news sur la Kobo
-Description: 
-Author: Sébastien Lucas
-Date: 2013/02/11
-Robots: noindex,nofollow
-Language: fr
-Tags: epub,ereader
-*/
+---
+title: "Quelques news sur la Kobo"
+date: 2013-02-11
+tags: [epub,ereader]
+slug: kobo-ereader-touch-54
+disqus_identifier: /blog/kobo-ereader-touch-54
+---
 # Quelques news sur la Kobo
 
 Malheureusement en ce moment la "vraie vie" me prend pas mal de temps, je ne peux donc pas garder mon rythme habituel d'écriture. Vous trouverez ci-après toute une série d'informations diverses et variées sur la Kobo.

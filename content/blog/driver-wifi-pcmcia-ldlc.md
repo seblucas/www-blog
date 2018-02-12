@@ -1,12 +1,10 @@
-/*
-Title: Driver Windows 2000/XP pour carte Wifi PCMCIA LDLC
-Description: 
-Author: Sébastien Lucas
-Date: 2012/08/26
-Robots: noindex,nofollow
-Language: fr
-Tags: divers
-*/
+---
+title: "Driver Windows 2000/XP pour carte Wifi PCMCIA LDLC"
+date: 2012-08-26
+tags: [divers]
+slug: driver-wifi-pcmcia-ldlc
+disqus_identifier: /blog/driver-wifi-pcmcia-ldlc
+---
 # Driver Windows 2000/XP pour carte Wifi PCMCIA LDLC
 
 Un petit billet rapide pour me servir d'aide mémoire et aider d'autres âmes en peine. 

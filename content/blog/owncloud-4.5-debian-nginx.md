@@ -1,12 +1,10 @@
-/*
-Title: Installation de Owncloud 4.5.X avec Debian et Nginx
-Description: 
-Author: Sébastien Lucas
-Date: 2012/11/28
-Robots: noindex,nofollow
-Language: fr
-Tags: cloud,debian,nginx
-*/
+---
+title: "Installation de Owncloud 4.5.X avec Debian et Nginx"
+date: 2012-11-28
+tags: [cloud,debian,nginx]
+slug: owncloud-4.5-debian-nginx
+disqus_identifier: /blog/owncloud-4.5-debian-nginx
+---
 # Installation de Owncloud 4.5.X avec Debian et Nginx
 
 C'est l'outil que j'utilise en remplacement de Dropbox notamment pour synchroniser ma bibliothèque Calibre pour COPS. Pour l'instant j'en suis assez satisfait.

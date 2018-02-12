@@ -1,12 +1,10 @@
-/*
-Title: Partager un répertoire NFS vers XBMC
-Description: 
-Author: Sébastien Lucas
-Date: 2013/01/07
-Robots: noindex,nofollow
-Language: fr
-Tags: archlinux,xbmc
-*/
+---
+title: "Partager un répertoire NFS vers XBMC"
+date: 2013-01-07
+tags: [archlinux,xbmc]
+slug: archlinux-xbmc-nfs
+disqus_identifier: /blog/archlinux-xbmc-nfs
+---
 # Partager un répertoire NFS vers XBMC
 
 Comme je n'ai pas trouvé beaucoup d’informations sur le sujet, un petit billet sur les partages NFS.

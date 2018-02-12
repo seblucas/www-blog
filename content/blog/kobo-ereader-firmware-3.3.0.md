@@ -1,12 +1,10 @@
-/*
-Title: Firmware 3.3.0
-Description: 
-Author: Sébastien Lucas
-Date: 2014/04/23
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Firmware 3.3.0"
+date: 2014-04-23
+tags: [ereader]
+slug: kobo-ereader-firmware-3.3.0
+disqus_identifier: /blog/kobo-ereader-firmware-3.3.0
+---
 # Firmware 3.3.0
 
 C'est tout neuf. Cela fait quelques mois que nous testons plusieurs firmwares avec le groupe beta et il commence à être distribué. Je ne sais pas si c'est déjà disponible en France mais cela devrait arriver dans les prochains jours. Il semble être destiné aux Touch, Glo, Aura et Aura HD. Cela doit devenir inquiétant pour les possesseurs de Mini !

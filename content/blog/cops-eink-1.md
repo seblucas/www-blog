@@ -1,16 +1,14 @@
-/*
-Title: COPS : version alpha avec support des navigateurs de nos liseuses
-Description: 
-Author: Sébastien Lucas
-Date: 2012/04/18
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS : version alpha avec support des navigateurs de nos liseuses"
+date: 2012-04-18
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-eink-1
+disqus_identifier: /blog/cops-eink-1
+---
 # COPS : version alpha avec support des navigateurs de nos liseuses
 
 ## COPS ?
-Il y a quelque temps, j'ai rendu public un projet que j'utilise chez moi depuis l'an dernier (voir [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)). Ce programme PHP permet d'avoir un catalogue OPDS à partir d'une bibliothèque Calibre. J'ai aussi parlé de mon envie de faire une application web sur le même principe avec la contrainte d'être utilisable sur les navigateurs de nos liseuses. 
+Il y a quelque temps, j'ai rendu public un projet que j'utilise chez moi depuis l'an dernier (voir [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)). Ce programme PHP permet d'avoir un catalogue OPDS à partir d'une bibliothèque Calibre. J'ai aussi parlé de mon envie de faire une application web sur le même principe avec la contrainte d'être utilisable sur les navigateurs de nos liseuses. 
 
 Voila, j'ai une version qui commence à bien marcher, Youpi! 
 

@@ -1,12 +1,10 @@
-/*
-Title: Mes lectures du premier trimestre 2014
-Description: 
-Author: Sébastien Lucas
-Date: 2014/04/03
-Robots: noindex,nofollow
-Language: fr
-Tags: lecture
-*/
+---
+title: "Mes lectures du premier trimestre 2014"
+date: 2014-04-03
+tags: [lecture]
+slug: lectures-2014-04
+disqus_identifier: /blog/lectures-2014-04
+---
 # Mes lectures du premier trimestre 2014
 
 Dans mes bonnes résolutions de l'année, j'ai décidé de parler de mes lectures dans l'espoir de susciter des envies et de donner mon avis (discutable bien sur).

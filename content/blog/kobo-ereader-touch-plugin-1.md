@@ -1,12 +1,10 @@
-/*
-Title: Des plugins non officiel pour le Kobo eReader Touch / Fnacbook / Kobo by Fnac
-Description: 
-Author: Sébastien Lucas
-Date: 2012/01/27
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Des plugins non officiel pour le Kobo eReader Touch / Fnacbook / Kobo by Fnac"
+date: 2012-01-27
+tags: [ereader]
+slug: kobo-ereader-touch-plugin-1
+disqus_identifier: /blog/kobo-ereader-touch-plugin-1
+---
 # Des plugins non officiel pour le Kobo eReader Touch / Fnacbook / Kobo by Fnac
 
 ## Je vous l'avais dit (tm)

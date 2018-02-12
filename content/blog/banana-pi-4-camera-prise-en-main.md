@@ -1,12 +1,10 @@
-/*
-Title: Banana Pi - Installation de la caméra
-Description: 
-Author: Sébastien Lucas
-Date: 2014/09/28
-Robots: noindex,nofollow
-Language: fr
-Tags: bpi
-*/
+---
+title: "Banana Pi - Installation de la caméra"
+date: 2014-09-28
+tags: [bpi]
+slug: banana-pi-4-camera-prise-en-main
+disqus_identifier: /blog/banana-pi-4-camera-prise-en-main
+---
 # Banana Pi - Installation de la caméra
 
 ## Une caméra ?
@@ -15,11 +13,11 @@ De la même manière que le Raspberry Pi, le Banana Pi est équipé d'un port CS
 
 La caméra de face
 
-![Caméra Face](/blog/BpiCameraFace.png){.centered}
+![Caméra Face](/blog/BpiCameraFace.png)
 
 et de dos
 
-![Caméra Dos](/blog/BpiCameraDos.png){.centered}
+![Caméra Dos](/blog/BpiCameraDos.png)
 
 ## Le packaging
 

@@ -1,12 +1,10 @@
-/*
-Title: Banana Pi - Relevé de température et hygrométrie avec une sonde DHT22
-Description: 
-Author: Sébastien Lucas
-Date: 2014/11/04
-Robots: noindex,nofollow
-Language: fr
-Tags: bpi
-*/
+---
+title: "Banana Pi - Relevé de température et hygrométrie avec une sonde DHT22"
+date: 2014-11-04
+tags: [bpi]
+slug: banana-pi-7-DHT22-temperature-hygrometrie
+disqus_identifier: /blog/banana-pi-7-DHT22-temperature-hygrometrie
+---
 # Banana Pi - Relevé de température et hygrométrie avec une sonde DHT22
 
 ## DHT22 ?
@@ -33,7 +31,7 @@ Contrairement à ce qui est dit dans l'article vous pouvez alimenter le DHT22 en
 
 J'ai utilisé un lol_dht22 : un programme C qui utilise la bibliothèque [WiringPi adapté au Banana Pi](https://github.com/LeMaker/WiringBPi). J'ai modifié ce programme et mis à jour les sources sur [Github](https://github.com/seblucas/lol_dht22). La compilation se fait simplement :
 
-```bash
+```
 git clone https://github.com/seblucas/lol_dht22.git
 cd lol_dht22
 ./configure
@@ -42,7 +40,7 @@ make
 
 Et pour l’exécution c'est encore plus simple :
 
-```bash
+```
 ./loldht
 usage: ./loldht <pin>
 description: pin is the wiringPi pin number

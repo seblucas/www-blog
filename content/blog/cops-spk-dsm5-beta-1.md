@@ -1,12 +1,10 @@
-/*
-Title: SPK beta pour COPS avec compatibilité DSM 5
-Description: 
-Author: Sébastien Lucas
-Date: 2014/05/09
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,opds,synology
-*/
+---
+title: "SPK beta pour COPS avec compatibilité DSM 5"
+date: 2014-05-09
+tags: [calibre,opds,synology]
+slug: cops-spk-dsm5-beta-1
+disqus_identifier: /blog/cops-spk-dsm5-beta-1
+---
 # SPK beta pour COPS avec compatibilité DSM 5
 
 J'ai eu une [longue discussion sur le Github de Synocommunity](https://github.com/SynoCommunity/spksrc/pull/926) pour tenter de mettre à jour le package COPS avec la dernière version du firmware Synology (le fameux DSM5). Je pense que c'est sur la bonne voie et le paquet a été publié en beta mais ne semble pas disponible pour le moment.

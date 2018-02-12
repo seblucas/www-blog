@@ -1,12 +1,10 @@
-/*
-Title: Le SPK de COPS est disponible
-Description: 
-Author: Sébastien Lucas
-Date: 2013/02/03
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,opds,synology
-*/
+---
+title: "Le SPK de COPS est disponible"
+date: 2013-02-03
+tags: [calibre,opds,synology]
+slug: cops-spk-available
+disqus_identifier: /blog/cops-spk-available
+---
 # Le SPK de COPS est disponible
 
 Comme indiqué dans mon billet précédent sur COPS ([COPS 0.3.1](/blog/cops-0.3.1)), j'ai un peu travaillé sur la création d'un SPK pour faciliter l'installation de COPS sur les NAS Synology.

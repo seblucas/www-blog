@@ -1,12 +1,10 @@
-/*
-Title: Tout ce que vous ne voulez pas savoir sur la Kobo !
-Description: 
-Author: Sébastien Lucas
-Date: 2012/05/29
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Tout ce que vous ne voulez pas savoir sur la Kobo !"
+date: 2012-05-29
+tags: [ereader]
+slug: kobo-ereader-touch-17
+disqus_identifier: /blog/kobo-ereader-touch-17
+---
 # Tout ce que vous ne voulez pas savoir sur la Kobo !
 
 ## Pourquoi ?

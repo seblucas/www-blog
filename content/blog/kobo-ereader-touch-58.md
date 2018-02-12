@@ -1,12 +1,10 @@
-/*
-Title: Firmware 2.5.0 et 2.5.1 ... Enfin
-Description: 
-Author: Sébastien Lucas
-Date: 2013/05/06
-Robots: noindex,nofollow
-Language: fr
-Tags: epub,ereader
-*/
+---
+title: "Firmware 2.5.0 et 2.5.1 ... Enfin"
+date: 2013-05-06
+tags: [epub,ereader]
+slug: kobo-ereader-touch-58
+disqus_identifier: /blog/kobo-ereader-touch-58
+---
 # Firmware 2.5.0 et 2.5.1 ... Enfin
 
 Je vous rassure tous, je suis vivant. Simplement, j'ai eu le plaisir de passer quelques jours de vacances loin de tout accès Internet (ça fait vraiment du bien, merci à Loendi pour ses conseils de lecture, j'ai tout dévoré). Et ensuite, j'ai eu la chance d'avoir un problème de disque dur sur mon portable (suite à de grosses turbulences en avion) et de perdre 1 mois de données ...

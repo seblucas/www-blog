@@ -1,12 +1,10 @@
-/*
-Title: Petite revue de Web autour du Kobo eReader Touch et quelques trucs et astuces en prime
-Description: 
-Author: Sébastien Lucas
-Date: 2012/01/08
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Petite revue de Web autour du Kobo eReader Touch et quelques trucs et astuces en prime"
+date: 2012-01-08
+tags: [ereader]
+slug: kobo-ereader-touch-7
+disqus_identifier: /blog/kobo-ereader-touch-7
+---
 # Petite revue de Web autour du Kobo eReader Touch et quelques trucs et astuces en prime
 
 ## Pas trop d'articles en ce moment

@@ -1,12 +1,10 @@
-/*
-Title: Installation de pyLoad sur un Seagate Dockstar / Debian Squeeze
-Description: 
-Author: Sébastien Lucas
-Date: 2011/09/11
-Robots: noindex,nofollow
-Language: fr
-Tags: debian,dockstar,iptables,nginx,python
-*/
+---
+title: "Installation de pyLoad sur un Seagate Dockstar / Debian Squeeze"
+date: 2011-09-11
+tags: [debian,dockstar,iptables,nginx,python]
+slug: pyload-install-dockstar
+disqus_identifier: /blog/pyload-install-dockstar
+---
 # Installation de pyLoad sur un Seagate Dockstar / Debian Squeeze
 
 ## Quoi ?

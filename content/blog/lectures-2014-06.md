@@ -1,12 +1,10 @@
-/*
-Title: Mes lectures du deuxième trimestre 2014
-Description: 
-Author: Sébastien Lucas
-Date: 2014/07/06
-Robots: noindex,nofollow
-Language: fr
-Tags: lecture
-*/
+---
+title: "Mes lectures du deuxième trimestre 2014"
+date: 2014-07-06
+tags: [lecture]
+slug: lectures-2014-06
+disqus_identifier: /blog/lectures-2014-06
+---
 # Mes lectures du deuxième trimestre 2014
 
 Je continue avec mes bonnes résolutions et donc avec mes lectures de ces derniers mois.

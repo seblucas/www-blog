@@ -1,12 +1,10 @@
-/*
-Title: Firmware 2.1.1 Japonais pour la Kobo eReader Touch
-Description: 
-Author: Sébastien Lucas
-Date: 2012/08/27
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Firmware 2.1.1 Japonais pour la Kobo eReader Touch"
+date: 2012-08-27
+tags: [ereader]
+slug: kobo-ereader-touch-28
+disqus_identifier: /blog/kobo-ereader-touch-28
+---
 # Firmware 2.1.1 Japonais pour la Kobo eReader Touch
 
 Je ne l'avais pas senti venir vu les discussions sur le groupe beta mais c'est le moment. Je pense que cela laisse présager une mise à jour rapide pour nous.

@@ -1,12 +1,10 @@
-/*
-Title: XBMC sur le Raspberry Pi - XBMC 12 RC2
-Description: 
-Author: Sébastien Lucas
-Date: 2012/12/22
-Robots: noindex,nofollow
-Language: fr
-Tags: rpi,xbmc
-*/
+---
+title: "XBMC sur le Raspberry Pi - XBMC 12 RC2"
+date: 2012-12-22
+tags: [rpi,xbmc]
+slug: raspberry-pi-xbmc-6
+disqus_identifier: /blog/raspberry-pi-xbmc-6
+---
 # XBMC sur le Raspberry Pi - XBMC 12 RC2
 
 ## Raspbmc RC5

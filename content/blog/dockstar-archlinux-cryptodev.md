@@ -1,12 +1,10 @@
-/*
-Title: Dockstar et ArchLinux : tout ça pour l'accélération matérielle
-Description: 
-Author: Sébastien Lucas
-Date: 2012/04/03
-Robots: noindex,nofollow
-Language: fr
-Tags: archlinux,dockstar
-*/
+---
+title: "Dockstar et ArchLinux : tout ça pour l'accélération matérielle"
+date: 2012-04-03
+tags: [archlinux,dockstar]
+slug: dockstar-archlinux-cryptodev
+disqus_identifier: /blog/dockstar-archlinux-cryptodev
+---
 # Dockstar et ArchLinux : tout ça pour l'accélération matérielle
 
 ## Pourquoi ?

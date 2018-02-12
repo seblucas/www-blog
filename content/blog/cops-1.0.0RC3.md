@@ -1,18 +1,16 @@
-/*
-Title: COPS 1.0.0RC3
-Description: 
-Author: Sébastien Lucas
-Date: 2014/12/30
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS 1.0.0RC3"
+date: 2014-12-30
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-1.0.0RC3
+disqus_identifier: /blog/cops-1.0.0RC3
+---
 # COPS 1.0.0RC3
 
 Quelques corrections de bugs et quelques évolutions pour cette nouvelle version :
 
-* [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
-* [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
+* [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)
+* [Liste des changements](https://github.com/seblucas/cops/blob/master/CHANGELOG)
 
 ## Template bootstrap
 
@@ -24,7 +22,7 @@ Je pense que la prochaine version devrait être la 1.0.0
 
 Merci beaucoup aux nombreux contributeurs qui m'ont redonné de la motivation au moment ou elle baissait un peu. Cela fait vraiment plaisir de voir que d'autres personnes veulent donner un peu de leur temps pour COPS.
 
-Encore merci aux donateurs (le lien est [ici](/fr/oss/calibre-opds-php-server)). Le Kindle Paperwhite se rapproche.
+Encore merci aux donateurs (le lien est [ici](/fr/projects/calibre-opds-php-server)). Le Kindle Paperwhite se rapproche.
 
 ## Avenir de COPS
 

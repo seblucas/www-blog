@@ -1,12 +1,10 @@
-/*
-Title: Firmware 2.0.0 sur la Kobo eReader Touch
-Description: 
-Author: Sébastien Lucas
-Date: 2012/07/10
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Firmware 2.0.0 sur la Kobo eReader Touch"
+date: 2012-07-10
+tags: [ereader]
+slug: kobo-ereader-touch-22
+disqus_identifier: /blog/kobo-ereader-touch-22
+---
 # Firmware 2.0.0 sur la Kobo eReader Touch
 
 ## Enfin et à suivre

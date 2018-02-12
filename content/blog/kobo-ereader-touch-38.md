@@ -1,12 +1,10 @@
-/*
-Title: Un peu plus de détail sur le firmware 2.1.4
-Description: 
-Author: Sébastien Lucas
-Date: 2012/10/04
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Un peu plus de détail sur le firmware 2.1.4"
+date: 2012-10-04
+tags: [ereader]
+slug: kobo-ereader-touch-38
+disqus_identifier: /blog/kobo-ereader-touch-38
+---
 # Un peu plus de détail sur le firmware 2.1.4
 
 Vous trouverez ci-après les premières informations sur le firmware. Cela demande a être complété après un peu de recul mais c'est un début.

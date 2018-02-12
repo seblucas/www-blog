@@ -1,12 +1,10 @@
-/*
-Title: 2 Dockstar morts ! Banana Pi à la rescousse
-Description: 
-Author: Sébastien Lucas
-Date: 2014/08/30
-Robots: noindex,nofollow
-Language: fr
-Tags: dockstar,rpi,bpi
-*/
+---
+title: "2 Dockstar morts ! Banana Pi à la rescousse"
+date: 2014-08-30
+tags: [dockstar,rpi,bpi]
+slug: banana-pi-1-presentation
+disqus_identifier: /blog/banana-pi-1-presentation
+---
 # 2 Dockstar morts ! Banana Pi à la rescousse
 
 ## La mort de mes deux Dockstar

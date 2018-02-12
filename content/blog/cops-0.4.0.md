@@ -1,18 +1,16 @@
-/*
-Title: COPS 0.4.0
-Description: 
-Author: Sébastien Lucas
-Date: 2013/05/07
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS 0.4.0"
+date: 2013-05-07
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-0.4.0
+disqus_identifier: /blog/cops-0.4.0
+---
 # COPS 0.4.0
 
 Pour cette nouvelle version, des évolutions et quelques corrections de bugs :
 
-* [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
-* [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
+* [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)
+* [Liste des changements](https://github.com/seblucas/cops/blob/master/CHANGELOG)
 
 La modification la plus importante est le support de plusieurs bases de données Calibre au sein d'une seule installation de COPS. Il suffit simplement de modifier votre fichier config_local.php de la façon suivante : 
 

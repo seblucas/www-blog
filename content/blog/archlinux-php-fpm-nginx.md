@@ -1,12 +1,10 @@
-/*
-Title: Nginx et PHP avec Archlinux : pas si facile
-Description: 
-Author: Sébastien Lucas
-Date: 2012/06/24
-Robots: noindex,nofollow
-Language: fr
-Tags: archlinux,dockstar,nginx,php
-*/
+---
+title: "Nginx et PHP avec Archlinux : pas si facile"
+date: 2012-06-24
+tags: [archlinux,dockstar,nginx,php]
+slug: archlinux-php-fpm-nginx
+disqus_identifier: /blog/archlinux-php-fpm-nginx
+---
 # Nginx et PHP avec Archlinux : pas si facile
 
 ## Introduction
@@ -26,17 +24,17 @@ Le désavantage est que les paquets sont globalement moins largement testés not
 ### Installation
 Simple :
 
-```
+```shell
 pacman -S nginx php-fpm php-sqlite php-gd
 ```
 Par défaut, PHP-FPM est configuré pour utiliser un socket unix donc je n'ai rien modifié de ce côté là, j'ai juste démarré le service : 
 
-```
+```shell
 rc.d start php-fpm
 ```
 J'ai ensuite adapté la configuration de Nginx pour que mes pages web soient dans /var/www (je n'aime pas le chemin par défaut de Arch) et j'ai quelque chose de simple :
 
-```
+```nginx
 server {
 
         listen [::]:80;
@@ -93,7 +91,7 @@ J'ai choisi la deuxième solution.
 ### Dépendances
 Pour compiler il faut installer le nécessaire (make, gcc, ...), l’équivalent de build-essential est :
 
-```
+```shell
 pacman -S base-devel
 ```
 
@@ -143,7 +141,7 @@ make -f objs/Makefile
 
 Ensuite c'est simple :
 
-```bash
+```shell
 wget http://nginx.org/download/nginx-1.2.1.tar.gz
 tar xvzf nginx-1.2.1.tar.gz
 cp build.sh nginx-1.2.1
@@ -193,7 +191,7 @@ mkdir /var/tmp/nginx
 
 * J'ai ensuite dû modifier le fichier rc.d pour adapter le changement de chemin (/etc/nginx/conf vers /etc/nginx) :
 
-```
+```bash
 #!/bin/bash
 
 # general config
@@ -268,9 +266,10 @@ case "$1" in
     echo "usage: $0 {start|stop|restart|reload|check|careless_start}"
 esac
 ```
+
 * On peut démarrer le serveur :
 
-```
+```shell
 rc.d start nginx
 ```
 
@@ -284,7 +283,7 @@ Auparavant, j'avais pris l'habitude d'utiliser xcache. Comme Archlinux utilise P
 
 * Installation
 
-```
+```shell
 pacman -S php-apc
 vi /etc/php/conf.d/apc.ini
 cp /usr/share/php-apc/apc.php /var/www
@@ -314,4 +313,5 @@ Un point très important, avec le Fastcgi classique les erreurs PHP se retrouven
 ```
 catch_workers_output = yes
 ```
+
 Les erreurs se retrouvent maintenant dans /var/log/php-fpm.log.

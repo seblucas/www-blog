@@ -1,0 +1,98 @@
+{{ partial "header.html" . }}
+<div class="main column">
+    <div class="container">
+        <div class="content">
+            <div class="markdown">
+                {{ .Content }}
+
+                <form id="my-form">
+                    <input type="search" id="searchbox" disabled="disabled" placeholder="Loading...">
+                    <button type="submit">Go</button>
+                </form>
+                <h3>Results:</h3>
+                <ul id="results"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/lunr.js"></script>
+<script src="/js/lunr.stemmer.support.js"></script>
+<script src="/js/lunr.fr.js"></script>
+<script type="text/javascript">
+var idx, titleMap, searchBtn, results;
+async function fetchAsync (url) {
+    // await response of fetch call
+    let response = await fetch(url);
+    // only proceed once promise is resolved
+    let data = await response.json();
+    // only proceed once second promise is resolved
+    return data;
+}
+
+function processForm(e) {
+    if (e.preventDefault) e.preventDefault();
+    console.log('Search started');
+    let res = idx.search(searchBox.value);
+
+    // purge old results
+    while (results.firstChild) {
+        results.removeChild(results.firstChild);
+    }
+    res.forEach(function (el) {
+        let liTag = document.createElement('li');
+        let aTag = document.createElement('a');
+        aTag.setAttribute('href', el.ref);
+        aTag.innerHTML = el.ref;
+        if (titleMap.hasOwnProperty(el.ref)) {
+            aTag.innerHTML = titleMap[el.ref];
+        }
+        liTag.appendChild(aTag);
+        results.appendChild(liTag);
+    });
+    return false;
+}
+
+
+document.addEventListener('DOMContentLoaded', function(){
+    searchBox = document.getElementById('searchbox');
+    results = document.getElementById('results');
+    var form = document.getElementById('my-form');
+    if (form.attachEvent) {
+        form.attachEvent("submit", processForm);
+    } else {
+        form.addEventListener("submit", processForm);
+    }
+    console.log('Loading')
+
+    // Start loading the json index as soon as possible
+    fetchAsync('/js/lunr-index.json')
+    .then(data => {
+        //debugger;
+        try {
+            idx = lunr.Index.load(data);
+            console.log('Search ready');
+            searchBox.placeholder = 'Just start typing...';
+            searchBox.disabled = false;
+        }
+        catch (e) {
+            console.log (e);
+        }
+    })
+    .catch(reason => console.log(reason.message));
+
+    // Start loading the json index as soon as possible
+    fetchAsync('/js/title-map.json')
+    .then(data => {
+        try {
+            titleMap = data;
+            console.log('Map ready');
+        }
+        catch (e) {
+            console.log (e);
+        }
+    })
+    .catch(reason => console.log(reason.message))
+
+}, false);
+</script>
+{{ partial "footer.html" . }}

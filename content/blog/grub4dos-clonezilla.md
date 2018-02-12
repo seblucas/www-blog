@@ -1,12 +1,10 @@
-/*
-Title: Comment démarrer Clonezilla avec Grub4dos
-Description: 
-Author: Sébastien Lucas
-Date: 2011/04/18
-Robots: noindex,nofollow
-Language: fr
-Tags: grub
-*/
+---
+title: "Comment démarrer Clonezilla avec Grub4dos"
+date: 2011-04-18
+tags: [grub]
+slug: grub4dos-clonezilla
+disqus_identifier: /blog/grub4dos-clonezilla
+---
 # Comment démarrer Clonezilla avec Grub4dos
 
 ## Enfin !

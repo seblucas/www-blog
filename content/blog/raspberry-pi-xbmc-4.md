@@ -1,12 +1,10 @@
-/*
-Title: XBMC sur le Raspberry Pi - Raspbmc RC5
-Description: 
-Author: Sébastien Lucas
-Date: 2012/11/03
-Robots: noindex,nofollow
-Language: fr
-Tags: rpi,xbmc
-*/
+---
+title: "XBMC sur le Raspberry Pi - Raspbmc RC5"
+date: 2012-11-03
+tags: [rpi,xbmc]
+slug: raspberry-pi-xbmc-4
+disqus_identifier: /blog/raspberry-pi-xbmc-4
+---
 # XBMC sur le Raspberry Pi - Raspbmc RC5
 
 J'ai refait un test complet de Raspbmc RC5 hier et cela avance dans le bon sens. J'ai donc fait une réinstallation complète (en reprenant l'image d'installation) et j'ai installé la nightly du 2 novembre 2012. J'ai repris la liste d'un précédent billet ([Installation de XBMC sur le Raspberry Pi - 1 mois après](/blog/raspberry-pi-xbmc-2)) et j'ai barré les problèmes n'existant plus :

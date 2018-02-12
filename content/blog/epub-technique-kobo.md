@@ -1,12 +1,10 @@
-/*
-Title: Lire un epub technique sur une liseuse Kobo
-Description: 
-Author: Sébastien Lucas
-Date: 2012/05/10
-Robots: noindex,nofollow
-Language: fr
-Tags: epub,ereader
-*/
+---
+title: "Lire un epub technique sur une liseuse Kobo"
+date: 2012-05-10
+tags: [epub,ereader]
+slug: epub-technique-kobo
+disqus_identifier: /blog/epub-technique-kobo
+---
 # Lire un epub technique sur une liseuse Kobo
 
 ##  Pourquoi ? 

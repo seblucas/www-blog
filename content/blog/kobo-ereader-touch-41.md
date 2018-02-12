@@ -1,12 +1,10 @@
-/*
-Title: Petites informations Kobo
-Description: 
-Author: Sébastien Lucas
-Date: 2012/10/23
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Petites informations Kobo"
+date: 2012-10-23
+tags: [ereader]
+slug: kobo-ereader-touch-41
+disqus_identifier: /blog/kobo-ereader-touch-41
+---
 # Petites informations Kobo
 
 Une petite liste de liens et autres informations pour finir la soirée.
@@ -23,12 +21,12 @@ Attention le plugin n'a pas été testé sur les Kobo Glo (voir [ici](http://www
 
 ## Transformer sa liseuse en station météo
 
-![Image](/blog/kobowifiweathersmall.jpg){.centered}
+![Image](/blog/kobowifiweathersmall.jpg)
 Cela se passe toujours sur [MobileRead](http://www.mobileread.com/forums/showthread.php?t=194376) et je trouve l'idée assez bonne. Kobo pourrait la reprendre en écran de veille optionnel.
 
 ## Une liseuse solaire !
 
-![Image](/blog/solarkobo.jpg){.centered}
+![Image](/blog/solarkobo.jpg)
 [Un amateur éclairé](http://www.mobileread.com/forums/showthread.php?t=193785) a décidé d'ajouter un chargeur solaire sur sa Kobo. Les images sont assez impressionnantes.
 
 ## Un test sur la Kobo Glo

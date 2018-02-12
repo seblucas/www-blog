@@ -1,12 +1,10 @@
-/*
-Title: Bragelonne : Opération 200k
-Description: 
-Author: Sébastien Lucas
-Date: 2012/09/14
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Bragelonne : Opération 200k"
+date: 2012-09-14
+tags: [ereader]
+slug: bragelonne-operation-200k
+disqus_identifier: /blog/bragelonne-operation-200k
+---
 # Bragelonne : Opération 200k
 
 Comme [en mars dernier](/blog/bragelonne-operation-100k) Bragelonne nous fait une belle offre avec 200 livres à 0,99€ ce weekend

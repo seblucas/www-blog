@@ -1,18 +1,16 @@
-/*
-Title: Performance d'un serveur web sur un dockstar (Apache bench)
-Description: 
-Author: Sébastien Lucas
-Date: 2011/01/23
-Robots: noindex,nofollow
-Language: fr
-Tags: dockstar,nginx
-*/
+---
+title: "Performance d'un serveur web sur un dockstar (Apache bench)"
+date: 2011-01-23
+tags: [dockstar,nginx]
+slug: apache-bench-dockstar
+disqus_identifier: /blog/apache-bench-dockstar
+---
 # Performance d'un serveur web sur un dockstar (Apache bench)
 
 ## Installation d'Apache Bench
 L'installation d'[Apache Bench](http://httpd.apache.org/docs/2.0/programs/ab.html) se fait tout simplement avec aptitude (même sans avoir à installer apache) :
 
-```
+```shell
 aptitude install apache2-utils
 ```
 

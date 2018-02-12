@@ -1,12 +1,10 @@
-/*
-Title: Deux Dockstar ... et après
-Description: 
-Author: Sébastien Lucas
-Date: 2012/08/30
-Robots: noindex,nofollow
-Language: fr
-Tags: dockstar,rpi
-*/
+---
+title: "Deux Dockstar ... et après"
+date: 2012-08-30
+tags: [dockstar,rpi]
+slug: dockstar-raspberry-pi-a10
+disqus_identifier: /blog/dockstar-raspberry-pi-a10
+---
 # Deux Dockstar ... et après
 
 ## Raspberry Pi ou A10

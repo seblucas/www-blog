@@ -1,25 +1,23 @@
-/*
-Title: Configurer SSL avec Apache
-Description: 
-Author: Sébastien Lucas
-Date: 2010/09/29
-Robots: noindex,nofollow
-Language: fr
-Tags: apache
-*/
+---
+title: "Configurer SSL avec Apache"
+date: 2010-09-29
+tags: [apache]
+slug: apache-https
+disqus_identifier: /blog/apache-https
+---
 # Configurer SSL avec Apache
 
 ## Génération des clés
 
 ### Installer openssl
 
-```
+```shell
 aptitude install openssl
 ```
 
 ### Génération de la clé
 
-```
+```shell
 openssl req -x509 -nodes -days 2000 -newkey rsa:1024 -out server.crt -keyout server.key
 ```
 Attention : la durée de mon certificat est de 2000 jours, ce n'est pas forcement top en terme de sécurité.
@@ -32,7 +30,7 @@ Pour plus de renseignements sur les questions posées ensuite voir : http://doc.
 
 Modifier le site pour ajouter les lignes suivantes :
 
-```
+```apache
 SSLCertificateFile    /etc/apache2/ssl/server.crt
 SSLCertificateKeyFile /etc/apache2/ssl/server.key
 ```

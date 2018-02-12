@@ -1,12 +1,10 @@
-/*
-Title: Mes lectures du troisième trimestre 2014
-Description: 
-Author: Sébastien Lucas
-Date: 2014/10/07
-Robots: noindex,nofollow
-Language: fr
-Tags: lecture
-*/
+---
+title: "Mes lectures du troisième trimestre 2014"
+date: 2014-10-07
+tags: [lecture]
+slug: lectures-2014-09
+disqus_identifier: /blog/lectures-2014-09
+---
 # Mes lectures du troisième trimestre 2014
 
 ## Le détail

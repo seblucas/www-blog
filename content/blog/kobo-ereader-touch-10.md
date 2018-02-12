@@ -1,12 +1,10 @@
-/*
-Title: Mon petit billet hebdomadaire sur le Kobo et ce qui tourne autour
-Description: 
-Author: Sébastien Lucas
-Date: 2012/02/18
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Mon petit billet hebdomadaire sur le Kobo et ce qui tourne autour"
+date: 2012-02-18
+tags: [ereader]
+slug: kobo-ereader-touch-10
+disqus_identifier: /blog/kobo-ereader-touch-10
+---
 # Mon petit billet hebdomadaire sur le Kobo et ce qui tourne autour
 
 Il y a eu quelques petite avancées cette semaine autour du groupe Beta pour le firmware Kobo. Je pense que la sortie du prochain firmware est imminente (attention ce n'est que mon sentiment, aucune date n'a été avancée par Kobo). Par contre de ce que j'ai pu en tester, il s'agira essentiellement de corrections des nombreux bugs de la version 1.9.16 et peut être des évolutions que je n'ai pas pu tester (liées au Kepub ou à Reading Life / Facebook).

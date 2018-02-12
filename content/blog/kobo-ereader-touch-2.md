@@ -1,12 +1,10 @@
-/*
-Title: Kobo eReader Touch : 1 mois après et quelques notes d'humeur
-Description: 
-Author: Sébastien Lucas
-Date: 2011/10/31
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Kobo eReader Touch : 1 mois après et quelques notes d'humeur"
+date: 2011-10-31
+tags: [ereader]
+slug: kobo-ereader-touch-2
+disqus_identifier: /blog/kobo-ereader-touch-2
+---
 # Kobo eReader Touch : 1 mois après et quelques notes d'humeur
 
 ## Mon Kobo : 1 mois après

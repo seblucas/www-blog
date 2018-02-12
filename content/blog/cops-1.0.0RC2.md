@@ -1,18 +1,16 @@
-/*
-Title: COPS 1.0.0RC2
-Description: 
-Author: Sébastien Lucas
-Date: 2014/07/31
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS 1.0.0RC2"
+date: 2014-07-31
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-1.0.0RC2
+disqus_identifier: /blog/cops-1.0.0RC2
+---
 # COPS 1.0.0RC2
 
 Quelques corrections de bugs et quelques évolutions pour cette nouvelle version :
 
-* [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
-* [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
+* [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)
+* [Liste des changements](https://github.com/seblucas/cops/blob/master/CHANGELOG)
 
 ## Template bootstrap
 
@@ -30,7 +28,7 @@ Là, encore, je n'ai pas de Kindle donc tenez moi au courant.
 
 ## Merci aux donateurs
 
-J'avais lancé une campagne de dons (le lien est [ici](/fr/oss/calibre-opds-php-server)) pour pouvoir m'acheter un Kindle et améliorer son support et pour le moment j'ai reçu un peu plus de 50€. Merci à tous les généreux donateurs et si tout va bien mon objectif sera atteint avant la fin de l'année.
+J'avais lancé une campagne de dons (le lien est [ici](/fr/projects/calibre-opds-php-server)) pour pouvoir m'acheter un Kindle et améliorer son support et pour le moment j'ai reçu un peu plus de 50€. Merci à tous les généreux donateurs et si tout va bien mon objectif sera atteint avant la fin de l'année.
 
 ## Avenir de COPS
 

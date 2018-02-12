@@ -1,12 +1,10 @@
-/*
-Title: Nginx PHP Fastcgi avec socket Unix
-Description: 
-Author: Sébastien Lucas
-Date: 2011/01/24
-Robots: noindex,nofollow
-Language: fr
-Tags: nginx,php
-*/
+---
+title: "Nginx PHP Fastcgi avec socket Unix"
+date: 2011-01-24
+tags: [nginx,php]
+slug: nginx-php-unix-socket
+disqus_identifier: /blog/nginx-php-unix-socket
+---
 # Nginx PHP Fastcgi avec socket Unix
 
 ## Socket Unix / HTTP
@@ -75,7 +73,7 @@ exit $RETVAL
 
 ## Changement des sites nginx
 
-```
+```nginx
 location ~ \.php$ {
                 include /etc/nginx/fastcgi_params;
                 fastcgi_param   SCRIPT_FILENAME  $document_root$fastcgi_script_name;

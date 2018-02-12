@@ -1,12 +1,10 @@
-/*
-Title: Sqlplus en mode console et les caractères accentués
-Description: 
-Author: Sébastien Lucas
-Date: 2011/05/27
-Robots: noindex,nofollow
-Language: fr
-Tags: oracle
-*/
+---
+title: "Sqlplus en mode console et les caractères accentués"
+date: 2011-05-27
+tags: [oracle]
+slug: sqlplus-locale-console
+disqus_identifier: /blog/sqlplus-locale-console
+---
 # Sqlplus en mode console et les caractères accentués
 
 ## Invite de commande Windows

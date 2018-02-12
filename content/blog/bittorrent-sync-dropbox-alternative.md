@@ -1,12 +1,10 @@
-/*
-Title: BitTorrent Sync : Une alternative à Dropbox / Owncloud ?
-Description: 
-Author: Sébastien Lucas
-Date: 2014/06/07
-Robots: noindex,nofollow
-Language: fr
-Tags: dropbox,calibre
-*/
+---
+title: "BitTorrent Sync : Une alternative à Dropbox / Owncloud ?"
+date: 2014-06-07
+tags: [dropbox,calibre]
+slug: bittorrent-sync-dropbox-alternative
+disqus_identifier: /blog/bittorrent-sync-dropbox-alternative
+---
 # BitTorrent Sync : Une alternative à Dropbox ?
 
 ## Le contexte
@@ -91,7 +89,7 @@ Je ne travaille que sur mon portable et les 3 autres périphériques sont en lec
 
 Donc ma configuration VPS est la suivante sur tous mes partages :
 
-![Configuration VPS](/blog/btsync-paranoid.png){.centered}
+![Configuration VPS](/blog/btsync-paranoid.png)
 
 La configuration des 3 autres clients est la même à ces différences :
 

@@ -1,12 +1,10 @@
-/*
-Title: Mon cadeau de Noël : le site cassé
-Description: 
-Author: Sébastien Lucas
-Date: 2011/12/26
-Robots: noindex,nofollow
-Language: fr
-Tags: dockstar,ereader
-*/
+---
+title: "Mon cadeau de Noël : le site cassé"
+date: 2011-12-26
+tags: [dockstar,ereader]
+slug: cadeau-noel-site-out
+disqus_identifier: /blog/cadeau-noel-site-out
+---
 # Mon cadeau de Noël : le site cassé
 
 ## Merci papa Noël

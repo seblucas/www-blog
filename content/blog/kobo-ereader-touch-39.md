@@ -1,12 +1,10 @@
-/*
-Title: Sortie du firmware 2.1.5 pour Kobo et un peu de divers
-Description: 
-Author: Sébastien Lucas
-Date: 2012/10/18
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Sortie du firmware 2.1.5 pour Kobo et un peu de divers"
+date: 2012-10-18
+tags: [ereader]
+slug: kobo-ereader-touch-39
+disqus_identifier: /blog/kobo-ereader-touch-39
+---
 # Sortie du firmware 2.1.5 pour Kobo et un peu de divers
 
 Pour l'instant c'est encore un peu flou sur le fait que la mise à jour soit disponible partout dans le monde sur les Touch et les Glo. Je dois aussi avouer que vu les discussions sur le groupe Beta, je ne l'ai pas vu arriver. Mais cela semble être le cas dans quelques parties du monde. J'ai lu des confirmations d'installation pour des Glo et des Touch pour le moment.

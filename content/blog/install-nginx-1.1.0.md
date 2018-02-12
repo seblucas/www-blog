@@ -1,12 +1,10 @@
-/*
-Title: Installation de nginx 1.1.0
-Description: 
-Author: Sébastien Lucas
-Date: 2011/10/11
-Robots: noindex,nofollow
-Language: fr
-Tags: debian,dockstar,nginx
-*/
+---
+title: "Installation de nginx 1.1.0"
+date: 2011-10-11
+tags: [debian,dockstar,nginx]
+slug: install-nginx-1.1.0
+disqus_identifier: /blog/install-nginx-1.1.0
+---
 # Installation de nginx 1.1.0
 
 ## Pourquoi ?

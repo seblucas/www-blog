@@ -1,12 +1,10 @@
-/*
-Title: COPS sur un NAS Synology avec le DSM 5
-Description:
-Author: Sébastien Lucas
-Date: 2014/04/14
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,opds,synology
-*/
+---
+title: "COPS sur un NAS Synology avec le DSM 5"
+date: 2014-04-14
+tags: [calibre,opds,synology]
+slug: cops-spk-dsm5
+disqus_identifier: /blog/cops-spk-dsm5
+---
 # COPS sur un NAS Synology avec le DSM 5
 
 Depuis quelques semaines maintenant, Synology a commencé à déployer la nouvelle version de son Diskstation (DSM 5). Pour être honnête c'est peut être une bonne nouvelle pour beaucoup d'utilisateurs, mais c'est catastrophique pour COPS !

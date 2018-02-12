@@ -1,12 +1,10 @@
-/*
-Title: Comment créer un fichier epub avec Word et Calibre
-Description: 
-Author: Sébastien Lucas
-Date: 2012/01/02
-Robots: noindex,nofollow
-Language: fr
-Tags: epub,ereader
-*/
+---
+title: "Comment créer un fichier epub avec Word et Calibre"
+date: 2012-01-02
+tags: [epub,ereader]
+slug: creation-epub-word-calibre
+disqus_identifier: /blog/creation-epub-word-calibre
+---
 # Comment créer un fichier epub avec Word et Calibre
 
 ## Pourquoi ?

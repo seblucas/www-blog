@@ -1,12 +1,10 @@
-/*
-Title: Piratage et prix des ebooks
-Description: 
-Author: Sébastien Lucas
-Date: 2012/03/15
-Robots: noindex,nofollow
-Language: fr
-Tags: ereader
-*/
+---
+title: "Piratage et prix des ebooks"
+date: 2012-03-15
+tags: [ereader]
+slug: piratage-et-prix-ebook
+disqus_identifier: /blog/piratage-et-prix-ebook
+---
 # Piratage et prix des ebooks
 
 Un petit message pour faire de la publicité à un excellent article publié dans Libération et repris par Actualitté. Ces articles présentent sans tabou un lien entre le piratage et le prix actuel de ebooks. Bonne lecture.

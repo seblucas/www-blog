@@ -1,12 +1,10 @@
-/*
-Title: Freebox et UPnP
-Description: 
-Author: Sébastien Lucas
-Date: 2010/09/26
-Robots: noindex,nofollow
-Language: fr
-Tags: freebox,iptables,upnp
-*/
+---
+title: "Freebox et UPnP"
+date: 2010-09-26
+tags: [freebox,iptables,upnp]
+slug: freebox-upnp
+disqus_identifier: /blog/freebox-upnp
+---
 # Freebox et UPnP
 
 Depuis mi mai la Freebox HD peut se connecter à des serveurs [UPnP](http://fr.wikipedia.org/wiki/Special:Search?search=UPnP). Cela fonctionne quasiment nativement sous Windows XP / Vista grâce au serveur intégré à Windows Media Player 11. Par contre sous Linux c'est un peu plus compliqué si on veut éviter les usines à gaz.

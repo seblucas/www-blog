@@ -1,12 +1,10 @@
-/*
-Title: Comment faire une réinitialisation usine (factory reset) sur un Samsung Galaxy S
-Description: 
-Author: Sébastien Lucas
-Date: 2011/03/31
-Robots: noindex,nofollow
-Language: fr
-Tags: android
-*/
+---
+title: "Comment faire une réinitialisation usine (factory reset) sur un Samsung Galaxy S"
+date: 2011-03-31
+tags: [android]
+slug: galaxy-s-factory-reset
+disqus_identifier: /blog/galaxy-s-factory-reset
+---
 # Comment faire une réinitialisation usine (factory reset) sur un Samsung Galaxy S
 
 ## Pourquoi ?

@@ -1,12 +1,10 @@
-/*
-Title: Banana Pi - Installation Bananian
-Description: 
-Author: Sébastien Lucas
-Date: 2014/08/31
-Robots: noindex,nofollow
-Language: fr
-Tags: bpi
-*/
+---
+title: "Banana Pi - Installation Bananian"
+date: 2014-08-31
+tags: [bpi]
+slug: banana-pi-2-installation-bananian
+disqus_identifier: /blog/banana-pi-2-installation-bananian
+---
 # Banana Pi - Installation Bananian
 
 ## Bananian

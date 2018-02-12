@@ -1,12 +1,10 @@
-/*
-Title: Vous l'attendiez ..... Ce site est disponible en ipv6
-Description: 
-Author: Sébastien Lucas
-Date: 2011/01/15
-Robots: noindex,nofollow
-Language: fr
-Tags: nginx
-*/
+---
+title: "Vous l'attendiez ..... Ce site est disponible en ipv6"
+date: 2011-01-15
+tags: [nginx]
+slug: blog-ipv6-ready
+disqus_identifier: /blog/blog-ipv6-ready
+---
 # Vous l'attendiez ..... Ce site est disponible en ipv6
 
 ## Ca marche ...
@@ -22,7 +20,7 @@ J'ai quand même eu une angoisse concernant nginx, je me suis rendu compte que l
 
 Au début j'ai pensé compiler la dernière version de nginx, mais une grande flemme aidant j'ai trouvé une solution plus simple :
 
-```
+```nginx
 location ~ ^/(data|conf|bin|inc) {
   return 404;
 }

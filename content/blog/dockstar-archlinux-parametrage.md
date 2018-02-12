@@ -1,12 +1,10 @@
-/*
-Title: Paramétrage d'Archlinux sur le Dockstar
-Description: 
-Author: Sébastien Lucas
-Date: 2012/05/23
-Robots: noindex,nofollow
-Language: fr
-Tags: archlinux,dockstar
-*/
+---
+title: "Paramétrage d'Archlinux sur le Dockstar"
+date: 2012-05-23
+tags: [archlinux,dockstar]
+slug: dockstar-archlinux-parametrage
+disqus_identifier: /blog/dockstar-archlinux-parametrage
+---
 # Paramétrage d'Archlinux sur le Dockstar
 
 ## Référence

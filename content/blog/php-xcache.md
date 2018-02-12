@@ -1,12 +1,10 @@
-/*
-Title: PHP XCache
-Description: 
-Author: Sébastien Lucas
-Date: 2010/10/13
-Robots: noindex,nofollow
-Language: fr
-Tags: php
-*/
+---
+title: "PHP XCache"
+date: 2010-10-13
+tags: [php]
+slug: php-xcache
+disqus_identifier: /blog/php-xcache
+---
 # PHP XCache
 
 ## Qu'est ce que c'est

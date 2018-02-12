@@ -1,12 +1,10 @@
-/*
-Title: Des commentaires dans le Blog
-Description: 
-Author: Sébastien Lucas
-Date: 2012/07/05
-Robots: noindex,nofollow
-Language: fr
-Tags: blog
-*/
+---
+title: "Des commentaires dans le Blog"
+date: 2012-07-05
+tags: [blog]
+slug: blog-commentaire
+disqus_identifier: /blog/blog-commentaire
+---
 # Des commentaires dans le Blog
 
 Je ne pensais même pas si cela allait vraiment arriver un jour. Mais j'aime trop utiliser le système de commentaires des autres blogs pour ne pas en ajouter un moi même. J'ai choisi la solution la plus simple pour moi : passer sur Disqus.

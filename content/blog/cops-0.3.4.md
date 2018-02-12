@@ -1,18 +1,16 @@
-/*
-Title: COPS 0.3.4
-Description: 
-Author: Sébastien Lucas
-Date: 2013/04/01
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS 0.3.4"
+date: 2013-04-01
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-0.3.4
+disqus_identifier: /blog/cops-0.3.4
+---
 # COPS 0.3.4
 
 Pour cette nouvelle version, uniquement des corrections de bugs :
 
-* [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
-* [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
+* [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)
+* [Liste des changements](https://github.com/seblucas/cops/blob/master/CHANGELOG)
 
 La mise à jour des métadonnées des fichiers Epub devrait enfin fonctionner pour tout le monde.
 

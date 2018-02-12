@@ -1,18 +1,16 @@
-/*
-Title: COPS 1.0.0
-Description: 
-Author: Sébastien Lucas
-Date: 2016/07/08
-Robots: noindex,nofollow
-Language: fr
-Tags: calibre,ereader,nginx,opds,php
-*/
+---
+title: "COPS 1.0.0"
+date: 2016-07-08
+tags: [calibre,ereader,nginx,opds,php]
+slug: cops-1.0.0
+disqus_identifier: /blog/cops-1.0.0
+---
 # COPS 1.0.0
 
 Quasiment deux ans ;) et beaucoup de corrections de bugs et quelques évolutions pour cette nouvelle version :
 
-* [Voici COPS : Calibre OPDS PHP Serveur](/fr/oss/calibre-opds-php-server)
-* [Liste des changements](/fr/oss/calibre-opds-php-server-changelog)
+* [Voici COPS : Calibre OPDS PHP Serveur](/fr/projects/calibre-opds-php-server)
+* [Liste des changements](https://github.com/seblucas/cops/blob/master/CHANGELOG)
 
 ## Ajout de la translittération
 
