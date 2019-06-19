@@ -21,9 +21,12 @@ Donc les principaux avantages de COPS sont :
  * Pas besoin de beaucoup de CPU ou RAM.
  * Peu de code.
  * La recherche est possible.
- * Avec Dropbox / Owncloud, il est très simple d'avoir un serveur OPDS toujours à jour (voir [Alternative au serveur de contenu de Calibre](/blog/calibre-web-server-alternative)).
  * La code OPDS est 100% valide (vérifié avec http://opds-validator.appspot.com/).
  * Enfin c'était mon premier projet en PHP et c'était fun.
+
+ Pour le flux OPDS il ne faut pas oublier d'ajouter `feed.php` à la fin de l'URL.
+
+ Il ne vous reste plus qu'à synchroniser votre bibliotheque Calibre vers le serveur COPS de la manière que vous préférez (Dropbox, Rsync, Bt Sync, Syncthing, ou un répertoire partagé Nextcloud, ...).
 
 **ATTENTION**
 
