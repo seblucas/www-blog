@@ -14,13 +14,13 @@ title = "Technology and Me"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
-#   name = "Your name here"
-#   email = "youremail@example.com"
-#   image = "img/blowfish_logo.png"
-#   imageQuality = 96
-#   headline = "I'm only human"
-#   bio = "A little bit about you"
+[params.author]
+  name = "Technology and Me"
+  #email = "youremail@example.com"
+  image = "img/Pinky.png"
+  imageQuality = 96
+  headline = "Meli-melo de trucs qui m'ont intéressé un moment"
+#  bio = "A little bit about you"
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
