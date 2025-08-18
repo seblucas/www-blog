@@ -25,6 +25,12 @@
   pageRef = "about"
   weight = 30
 
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/seblucas"
+  weight = 50
+
 #[[main]]
 #  name = "example sub-menu 1"
 #  parent = "Parent"
