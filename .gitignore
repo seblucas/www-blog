@@ -6,3 +6,5 @@ themes/cocoa-eh/static/js/**
 themes/cocoa-eh/static/fonts/social*
 *sublime-*
 hugo.exe
+public/*
+hugo

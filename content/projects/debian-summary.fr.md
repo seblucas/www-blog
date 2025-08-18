@@ -1,7 +1,6 @@
 ---
 title: "Debian"
 date: 2012-11-10
-slug: debian
 aliases: [/fr/debian/start]
 ---
 # Debian
