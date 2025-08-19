@@ -5,6 +5,7 @@ tags: [blog,hugo]
 slug: blog-migration-hugo-1
 disqus_identifier: /blog/blog-migration-hugo-1
 series: ["Migration Hugo"]
+series_order: 1
 ---
 # Migration du site sur Hugo
 
