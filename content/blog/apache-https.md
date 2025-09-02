@@ -17,7 +17,7 @@ aptitude install openssl
 
 ### Génération de la clé
 
-```shell
+```bash
 openssl req -x509 -nodes -days 2000 -newkey rsa:1024 -out server.crt -keyout server.key
 ```
 Attention : la durée de mon certificat est de 2000 jours, ce n'est pas forcement top en terme de sécurité.

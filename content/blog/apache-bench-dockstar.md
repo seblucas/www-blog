@@ -10,13 +10,13 @@ disqus_identifier: /blog/apache-bench-dockstar
 ## Installation d'Apache Bench
 L'installation d'[Apache Bench](http://httpd.apache.org/docs/2.0/programs/ab.html) se fait tout simplement avec aptitude (même sans avoir à installer apache) :
 
-```shell
-aptitude install apache2-utils
+```console
+$ aptitude install apache2-utils
 ```
 
 ##  Lancement du test d'une page complète sur le LAN et le résultat
 
-```
+```console
 $ab -kc 10 -n 50 http://blog.slucas.fr/blog/nginx-gzip-css-js
 This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
@@ -68,7 +68,7 @@ Dans l'exemple je lance 10 connexions en parallèle 50 fois de suite.
 
 ## Même exemple mais sur une image
 
-```
+```console
 $ ab -kc 10 -n 50 http://blog.slucas.fr/lib/images/license/button/cc-by-nc-sa.png
 This is ApacheBench, Version 2.3 <$Revision: 655654 $>
 Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
