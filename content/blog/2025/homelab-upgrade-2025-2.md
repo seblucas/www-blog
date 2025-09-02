@@ -1,6 +1,6 @@
 ---
 title: "2025 Homelab upgrade - Music"
-date: 2025-08-20
+date: 2025-08-21
 tags: [homelab, proxmox]
 series: ["2025 Homelab upgrade"]
 series_order: 2
