@@ -39,6 +39,10 @@ enableEmoji = true
   filename = 'sitemap.xml'
   priority = 0.5
 
+
+[services.RSS]
+limit = 30
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
